@@ -1,0 +1,256 @@
+{
+"type": "minecraft:block",
+"pools": [
+	{
+	"rolls": 1.0,
+	"bonus_rolls": 0.0,
+	"entries": [
+		{
+		"type": "minecraft:item",
+		"name": "minecraft:cake"
+		}
+	],
+	"functions": [
+		{
+		"function": "minecraft:copy_state",
+		"block": "minecraft:cake",
+		"properties": [
+			"bites"
+		]
+		},
+		{
+		"function": "minecraft:set_name",
+		"name": [{
+			"text": "Bitten Cake",
+			"italic": false
+		}],
+		"conditions": [
+			{
+				"condition": "minecraft:alternative",
+				"terms": [{
+					"condition": "minecraft:block_state_property",
+					"block": "minecraft:cake",
+					"properties": {
+						"bites":"1"
+					}
+				},
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "minecraft:cake",
+					"properties": {
+						"bites":"2"
+					}
+				},
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "minecraft:cake",
+					"properties": {
+						"bites":"3"
+					}
+				},
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "minecraft:cake",
+					"properties": {
+						"bites":"4"
+					}
+				},
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "minecraft:cake",
+					"properties": {
+						"bites":"5"
+					}
+				},
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "minecraft:cake",
+					"properties": {
+						"bites":"6"
+					}
+				}
+				]
+			}
+			]
+		},
+		{
+			"function": "minecraft:set_nbt",
+			"tag": "{CustomModelData:548101}",
+			"conditions": [{
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:cake",
+				"properties": {
+					"bites": "1"
+				}
+			}]
+		},
+		{
+			"function": "minecraft:set_nbt",
+			"tag": "{CustomModelData:548102}",
+			"conditions": [{
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:cake",
+				"properties": {
+					"bites": "2"
+				}
+			}]
+		},
+		{
+			"function": "minecraft:set_nbt",
+			"tag": "{CustomModelData:548103}",
+			"conditions": [{
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:cake",
+				"properties": {
+					"bites": "3"
+				}
+			}]
+		},
+		{
+			"function": "minecraft:set_nbt",
+			"tag": "{CustomModelData:548104}",
+			"conditions": [{
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:cake",
+				"properties": {
+					"bites": "4"
+				}
+			}]
+		},
+		{
+			"function": "minecraft:set_nbt",
+			"tag": "{CustomModelData:548105}",
+			"conditions": [{
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:cake",
+				"properties": {
+					"bites": "5"
+				}
+			}]
+		},
+		{
+			"function": "minecraft:set_nbt",
+			"tag": "{CustomModelData:548106}",
+			"conditions": [{
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:cake",
+				"properties": {
+					"bites": "6"
+				}
+			}]
+		}
+	],
+	"conditions": [
+		{
+		"condition": "minecraft:survives_explosion"
+		},
+		{
+			"condition": "minecraft:match_tool",
+			"predicate": {
+				"enchantments": [
+				{
+					"enchantment": "minecraft:silk_touch"
+				}
+				]
+			}
+		}
+	]
+	},
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:loot_table",
+			"name": "siscu:items/cake_slice",
+			"conditions": [
+			{
+				"condition": "minecraft:match_tool",
+				"predicate": {
+				"tag": "minecraft:swords"
+				}
+			}
+			],
+			"functions": [
+			{
+				"function": "minecraft:set_count",
+				"count": 7,
+				"conditions": [{
+					"condition": "minecraft:block_state_property",
+					"block": "minecraft:cake",
+					"properties": {
+						"bites": "0"
+					}
+				}]
+			},
+			{
+				"function": "minecraft:set_count",
+				"count": 6,
+				"conditions": [{
+					"condition": "minecraft:block_state_property",
+					"block": "minecraft:cake",
+					"properties": {
+						"bites": "1"
+					}
+				}]
+			},
+			{
+				"function": "minecraft:set_count",
+				"count": 5,
+				"conditions": [{
+					"condition": "minecraft:block_state_property",
+					"block": "minecraft:cake",
+					"properties": {
+						"bites": "2"
+					}
+				}]
+			},
+			{
+				"function": "minecraft:set_count",
+				"count": 4,
+				"conditions": [{
+					"condition": "minecraft:block_state_property",
+					"block": "minecraft:cake",
+					"properties": {
+						"bites": "3"
+					}
+				}]
+			},
+			{
+				"function": "minecraft:set_count",
+				"count": 3,
+				"conditions": [{
+					"condition": "minecraft:block_state_property",
+					"block": "minecraft:cake",
+					"properties": {
+						"bites": "4"
+					}
+				}]
+			},
+			{
+				"function": "minecraft:set_count",
+				"count": 2,
+				"conditions": [{
+					"condition": "minecraft:block_state_property",
+					"block": "minecraft:cake",
+					"properties": {
+						"bites": "5"
+					}
+				}]
+			},
+			{
+				"function": "minecraft:set_count",
+				"count": 1,
+				"conditions": [{
+					"condition": "minecraft:block_state_property",
+					"block": "minecraft:cake",
+					"properties": {
+						"bites": "6"
+					}
+				}]
+			}
+			]
+		}
+		]
+	}
+]
+}
