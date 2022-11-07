@@ -1,0 +1,7 @@
+{
+	"parent":"siscu_se:item/shield_base",
+	"textures": {
+		"2": "siscu_se:item/warped_shield_1",
+		"particle": "block/warped_planks"
+	}
+}

@@ -1,0 +1,23 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/leather"
+    },
+    "overrides": [
+	{"predicate": {"custom_model_data": 548101}, "model": "siscu_se:item/piglin_head"},
+	{"predicate": {"custom_model_data": 548102}, "model": "siscu_se:item/villager_head"},
+	{"predicate": {"custom_model_data": 548103}, "model": "siscu_se:item/pillager_head"},
+	{"predicate": {"custom_model_data": 548104}, "model": "siscu_se:item/wandering_trader_head"},
+	{"predicate": {"custom_model_data": 548105}, "model": "siscu_se:item/evoker_head"},
+	{"predicate": {"custom_model_data": 548106}, "model": "siscu_se:item/vindicator_head"},
+	{"predicate": {"custom_model_data": 548107}, "model": "siscu_se:item/illusioner_head"},
+	{"predicate": {"custom_model_data": 548108}, "model": "siscu_se:item/witch_head"},
+	{"predicate": {"custom_model_data": 548109}, "model": "siscu_se:item/hoglin_head"},
+	{"predicate": {"custom_model_data": 548110}, "model": "siscu_se:item/ravager_head"},
+	{"predicate": {"custom_model_data": 548111}, "model": "siscu_se:item/piglin_brute_head"},
+	{"predicate": {"custom_model_data": 548112}, "model": "siscu_se:item/zoglin_head"},
+	{"predicate": {"custom_model_data": 548113}, "model": "siscu_se:item/zombified_piglin_head"},
+	{"predicate": {"custom_model_data": 548114}, "model": "siscu_se:item/zombie_villager_head"},
+	{"predicate": {"custom_model_data": 548115}, "model": "siscu_se:item/zombie_horse_head"}
+    ]
+}

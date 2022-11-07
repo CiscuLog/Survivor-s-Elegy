@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:withering_damage",
+    "#minecraft:withering_convertible"
+  ]
+}

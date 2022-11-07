@@ -1,0 +1,6 @@
+{
+	"parent": "siscu_se:item/copper_leggings",
+	"textures": {
+		"layer0": "siscu_se:item/exposed_copper_leggings"
+	}
+}

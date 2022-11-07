@@ -1,0 +1,41 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:golden_horse_armor",
+			"functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomModelData:548101}"
+			},
+			{
+				"function": "minecraft:set_name",
+				"name": {
+					"translate": "item.siscu.wax_horse_armor",
+					"italic": false
+				}
+			},
+			{
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "text.siscu.wax_horse_armor",
+					"italic": false,
+					"color": "gray"
+				},
+				{"translate":"text.siscu.wax_horse_armor2","italic": false,"color": "gray"}
+				],
+				"entity": "this"
+			},
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{HideFlags:64}"
+			}
+			]
+		}
+		]
+	}
+	]
+}

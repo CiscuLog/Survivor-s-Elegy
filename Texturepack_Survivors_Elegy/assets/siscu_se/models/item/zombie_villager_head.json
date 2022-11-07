@@ -1,0 +1,6 @@
+{
+	"parent": "siscu_se:item/villager_head",
+	"textures": {
+		"0": "minecraft:entity/zombie_villager/zombie_villager"
+	}
+}

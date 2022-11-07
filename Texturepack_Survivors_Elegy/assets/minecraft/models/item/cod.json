@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/cod"
+  },
+    "display": {
+        "head": {
+            "rotation": [ 0, 90, -60 ],
+            "translation": [ -7, -4, -7],
+            "scale":[ 0.8, 0.8, 0.8]
+        }
+    },
+  "overrides": [
+	{"predicate": {"custom_model_data": 540000}, "model": "siscu_se:item/fish"},
+	{"predicate": {"custom_model_data": 548101}, "model": "siscu_se:item/catfish"},
+	{"predicate": {"custom_model_data": 548102}, "model": "siscu_se:item/tuna"}
+  ]
+}

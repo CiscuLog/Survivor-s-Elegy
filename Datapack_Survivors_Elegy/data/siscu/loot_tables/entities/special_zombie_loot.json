@@ -1,0 +1,126 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+	{
+		"rolls": 1.0,
+		"bonus_rolls": 0.0,
+		"entries": [
+		{
+			"type": "minecraft:loot_table",
+			"name": "minecraft:entities/zombie",
+			"conditions": [{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {"type": "minecraft:zombie"}
+			}]
+		},
+		{
+			"type": "minecraft:loot_table",
+			"name": "minecraft:entities/drowned",
+			"conditions": [{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {"type": "minecraft:drowned"}
+			}]
+		},
+		{
+			"type": "minecraft:loot_table",
+			"name": "minecraft:entities/husk",
+			"conditions": [{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {"type": "minecraft:husk"}
+			}]
+		},
+		{
+			"type": "minecraft:loot_table",
+			"name": "minecraft:entities/skeleton",
+			"conditions": [{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {"type": "minecraft:skeleton"}
+			}]
+		},
+		{
+			"type": "minecraft:loot_table",
+			"name": "minecraft:entities/wither_skeleton",
+			"conditions": [{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {"type": "minecraft:wither_skeleton"}
+			}]
+		},
+		{
+			"type": "minecraft:loot_table",
+			"name": "minecraft:entities/stray",
+			"conditions": [{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {"type": "minecraft:stray"}
+			}]
+		}
+		]
+	},
+	{
+		"rolls": 1.0,
+		"bonus_rolls": 0.0,
+		"entries": [
+		{
+			"type": "minecraft:loot_table",
+			"name": "siscu:items/weapons/phage_arrow"
+		}
+		],
+		"conditions": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"infected_zombie\"]}"
+			}
+		}
+		]
+	},
+	{
+		"rolls": 1.0,
+		"bonus_rolls": 0.0,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:amethyst_shard"
+		}
+		],
+		"conditions": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"amethyst_zombie\"]}"
+			}
+		}
+		]
+	},
+	{
+		"rolls": 1.0,
+		"bonus_rolls": 0.0,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:big_dripleaf"
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:small_dripleaf"
+		}
+		],
+		"conditions": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"lush_zombie\"]}"
+			}
+		}
+		]
+	}
+  ]
+}

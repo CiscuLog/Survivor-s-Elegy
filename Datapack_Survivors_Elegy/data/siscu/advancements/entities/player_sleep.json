@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:slept_in_bed"
+		}
+	},
+	"rewards": {
+		"function": "siscu:world/day_features/start_sleeping"
+	}
+}

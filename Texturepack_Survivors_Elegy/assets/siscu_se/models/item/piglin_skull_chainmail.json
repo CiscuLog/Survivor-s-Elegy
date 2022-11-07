@@ -1,0 +1,6 @@
+{
+	"parent": "siscu_se:item/piglin_skull",
+	"textures": {
+		"1": "minecraft:models/armor/chainmail_layer_1"
+	}
+}

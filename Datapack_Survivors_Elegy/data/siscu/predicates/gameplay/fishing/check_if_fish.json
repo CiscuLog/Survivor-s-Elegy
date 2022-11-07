@@ -1,0 +1,41 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+	{
+		"condition": "minecraft:reference",
+		"name": "siscu:gameplay/fishing/bass_biomes"
+	},
+	{
+		"condition": "minecraft:reference",
+		"name": "siscu:gameplay/fishing/catfish_biomes"
+	},
+	{
+		"condition": "minecraft:reference",
+		"name": "siscu:gameplay/fishing/cod_biomes"
+	},
+	{
+		"condition": "minecraft:reference",
+		"name": "siscu:gameplay/fishing/salmon_biomes"
+	},
+	{
+		"condition": "minecraft:reference",
+		"name": "siscu:gameplay/fishing/pufferfish_biomes"
+	},
+	{
+		"condition": "minecraft:reference",
+		"name": "siscu:gameplay/fishing/tropical_fish_biomes"
+	},
+	{
+		"condition": "minecraft:reference",
+		"name": "siscu:gameplay/fishing/frog_biomes"
+	},
+	{
+		"condition": "minecraft:reference",
+		"name": "siscu:gameplay/fishing/trout_biomes"
+	},
+	{
+		"condition": "minecraft:reference",
+		"name": "siscu:gameplay/fishing/tuna_biomes"
+	}
+	]
+}

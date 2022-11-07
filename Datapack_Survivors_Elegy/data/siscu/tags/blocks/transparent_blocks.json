@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:air",
+    "minecraft:cave_air",
+	"#minecraft:buttons",
+	"#minecraft:cave_vines",
+	"#minecraft:crops",
+	"#minecraft:doors",
+    "#minecraft:fire",
+    "#minecraft:leaves",
+    "#minecraft:flowers",
+    "#minecraft:fences",
+    "#minecraft:fence_gates",
+	"#minecraft:replaceable_plants",
+	"#minecraft:saplings",
+	"#minecraft:walls"
+  ]
+}

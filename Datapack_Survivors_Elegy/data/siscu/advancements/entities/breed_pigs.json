@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:bred_animals",
+			"conditions": {
+				"child":
+				{
+					"type": "minecraft:pig"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:entities/pig/schedule"
+	}
+}

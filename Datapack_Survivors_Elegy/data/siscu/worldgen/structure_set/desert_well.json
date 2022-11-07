@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "siscu:desert_well",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 12345678,
+    "spacing": 50,
+    "separation": 8,
+    "type": "minecraft:random_spread"
+  }
+}

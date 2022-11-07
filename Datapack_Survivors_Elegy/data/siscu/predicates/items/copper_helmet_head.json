@@ -1,0 +1,41 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+	{
+		"condition": "minecraft:entity_properties",
+		"entity":"this",
+		"predicate": {
+			"equipment": {
+				"head": {
+					"items": ["minecraft:carrot_on_a_stick"],
+					"nbt": "{CustomModelData:548101}"
+				}
+			}
+		}
+	},
+	{
+		"condition": "minecraft:entity_properties",
+		"entity":"this",
+		"predicate": {
+			"equipment": {
+				"head": {
+					"items": ["minecraft:carrot_on_a_stick"],
+					"nbt": "{CustomModelData:548102}"
+				}
+			}
+		}
+	},
+	{
+		"condition": "minecraft:entity_properties",
+		"entity":"this",
+		"predicate": {
+			"equipment": {
+				"head": {
+					"items": ["minecraft:carrot_on_a_stick"],
+					"nbt": "{CustomModelData:548103}"
+				}
+			}
+		}
+	}
+	]
+}

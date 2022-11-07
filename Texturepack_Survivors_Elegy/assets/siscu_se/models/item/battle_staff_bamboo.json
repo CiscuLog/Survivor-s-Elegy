@@ -1,0 +1,6 @@
+{
+	"parent": "siscu_se:item/battle_staff",
+	"textures": {
+		"layer0": "siscu_se:item/battle_staff_bamboo"
+	}
+}

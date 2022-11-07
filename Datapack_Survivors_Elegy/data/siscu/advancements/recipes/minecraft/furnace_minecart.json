@@ -1,0 +1,14 @@
+{
+	"show_toast": false,
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "minecraft:furnace_minecart"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["minecraft:furnace_minecart_without_furnace","minecraft:furnace_minecart_without_minecart"]
+	}
+}

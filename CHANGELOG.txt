@@ -1,0 +1,197 @@
+
+# note to the author: change pack.siscu.version (lang)
+
+
+Survivor's Elegy Alpha v0.5.0 (xx/xx/20xx)
+- Added desert wells back, but with a twist
+-- They now generate as a structure instead of a features
+-- Dropping a golden ingot in them will spawn a small reward on the center
+-- Using the well will render it useless for the future
+
+
+
+Survivor's Elegy Alpha v0.4.3 (03/11/2022)
+- Added Dark Cave Explorer Maps
+-- Sold by expert (tier 4) cartographers
+-- Points at an Ancient City on unloaded chunks
+- Added Dripstone Zombies
+-- Spawn 1% of the time in the underground, 10% on dripstone caves
+-- Higher melee damage than unarmed zombies
+-- Create dripstone particles on death
+- Added true creeper fuse randomness
+-- Between 20 and 40 ticks (1 to 2 seconds)
+- Added Withering config panel
+-- Turn withering ON/OFF
+- Changed player zombie stage
+-- Changed default zombie time limit from 20 seconds to 120 seconds
+- Changed Recipes
+-- Colored beds can be tinted
+-- Jack'o Lanterns recipe is now shapeless
+- Changed rotting, zombifying and skeleton withering
+-- Baby zombie variants now die when rotting
+-- Original entity is now killed instead of being dropped in the void
+- Changed soul speed behavior
+-- It can be used on sculk and sculk catalysts
+- Changed Wandering Traders
+-- When spawning they'll play a goat horn sound
+- Changed zombie chestplates
+-- Will only be equipped unless a zombie has spawned already dressed
+- Fixed Combat Sticks
+-- Previous damage per hit was 3HP, now is the promised 4HP
+-- Already existing combat sticks won't be affected by this change
+- Fixed converted zombies
+-- Lush and amethyst zombies now keep its special drop even when converted to drowned, skeleton and wither skeleton
+- Fixed Skeleton Horsemen
+-- Will now always hold a bow
+- Fixed Trader Llamas
+-- Baby llamas won't spawn chested or with a carpet
+- Removed default mineshafts
+-- Replaced by jigsaw-generated mineshafts known as "old mineshafts"
+--- Close but not exactly the same generation as vanilla mineshafts
+-- Removed cave spider spawners
+--- Cave Spiders now spawn naturally around the new mineshafts, making up to 50% of the monster spawns
+- Removed vanilla desert wells
+-- No one will notice this change
+
+
+Survivor's Elegy Alpha v0.4.2 (27/09/2022)
+- Patched zombifying for non-players
+
+
+Survivor's Elegy Alpha v0.4.1 (25/09/2022)
+- Changes to zombifying
+-- Fixed weak phage duration to the intended 20 minutes
+-- The effect time now represents the time left for the zombification to happen
+- Changes to advancements
+-- Bee Counter advancement no longer requires light weighted pressure plates to be unlocked
+- Fixed CTAM tool breaking
+
+
+Survivor's Elegy Alpha v0.4.0 (18/09/2022)
+- Added Bee Counter
+-- Must be placed on item frames
+-- Display how many bees are in a beehive or nest
+- Added big tridents
+-- Only equipped on baby zombies
+-- Theoretically unobtainable
+- Added Copper Armor
+-- Uses new CTAM module
+-- Oxidise over time when worn, ~25 minutes for ox stage
+- Added Custom Tools and Armor Module (CTAM)
+- Added Echo Shard mechanic
+-- Using a bell while holding an Echo Shard will grant glowing to all entities around 42 blocks of the player
+-- Using it will give the darkness effect to the player, as well as losing the shard
+- Added Infected Zombies
+-- Drop Phage Arrows
+-- Applies weak phage effect 50% of the time when damaging the player
+- Added metamorphic_edges biome
+-- Generates between basalt deltas and metamorphic caves
+-- Same as metamorphic caves, but with deltas and basalt roof
+- Added new biome-specific fishing loot table
+-- Bass
+-- Catfish
+-- Fish (fallback item)
+-- Koi
+-- Porcupine Fish (vanilla pufferfish)
+-- Pufferfish
+-- Trout
+-- Tuna
+- Added 4 new Bedrock Edition only paintings
+- Added rotting config panel
+-- Accessed through /function siscu:config
+- Added scoreboard namespaces siscu.*
+- Added Shutters
+-- Must be placed on item frames
+-- Click USE in order to open and close them
+-- Closed shutters give out a redstone output of 5
+- Added variation to creeper fuses (0.5,1.0 or 1.5 seconds)
+- Added Wandering Trader Tent
+- Changed Copper Tools
+-- All now use CTAM module
+-- Oxidise over time when held, ~25 minutes for ox stage
+-- Already existing copper tools won't be affected by this change
+- Changed frogs
+-- Added silverfish and endermite to their diet
+- Changed lush zombies, now grant slowness to a player they hit
+- Changes to enchanted saddle recipe, it no longer returns an enchanters guide
+- Changes to swamp huts
+-- Can now generate on mangrove swamps
+- Changes to withering
+-- Killing a wither skeleton will remove ~2 minutes of withering exposure
+-- Killing a wither boss will remove ~40 minutes of withering exposure
+-- A player can store up to ~80 minutes of withering invulnerability. The countdown happens exclusively on the nether.
+- Changes to zombification
+-- Strong phage: the transformation lasts 1 minute. Effect inflicted by phage arrows.
+-- Weak phage: the transformation lasts 20 minutes. Effect inflicted by infected zombies.
+-- Players can be cured by consuming golden apples while having weakness on
+- Changes to wither skeletons
+-- Added piglin and illager withered skeletons
+-- Wither Skeleton Skulls can only be obtained from Human Withered Skeletons
+-- Drop chance for skulls is 2,5%
+- Fixed custom shield's texture errors
+- Fixed sleeping module
+- Fixed villager skeletons rotting without the appropiate skulls
+- Improved frost walker with horses
+- Reduced the amount of grass in village paths
+- Removed "improved pillager outposts"
+- Removed monster cages on its entirety
+- Removed Phage Arrows from Vindicator's Loot Table
+- Removed Shulker Box stonecutting
+- Removed Slime Balls from the fishing loot table
+- Renamed cooked cod and cooked salmon to the generic "Cooked Fish"
+- Renamed frog item to frog leg
+- Renamed pufferfish to "Porcupine Fish"
+- Retextured cooked cod and cooked salmon
+- Retextured frog item to frog leg
+- Retextured special zombie gear
+-- Amethyst zombie headgear
+-- Lush zombie offhand and headgear
+
+
+Survivor's Elegy Alpha v0.3.0 (12/03/2022)
+- Added exclusive 1.18.2 compatibility
+- Added copper helmet durability and oxidisation
+- Added dragon egg lore announcing the dragon slayer
+- Added killing the dragon grants the "free the end" advancement to all players in the area
+- Added "Hot Spot" advancement for when a fire spring explodes next to a player
+- Added amethyst zombies that grant blindness to a player they hit
+- Added lush zombies
+- Added new pillager outpost generation (unnoticeable change)
+- Changed breach spawning module: re-enabling the pack won't spawn extra breach markers
+- Changed piglin/hoglin heads on item frames. They can now be rotated if the frame is not in a wall
+- Changed nether worldgen, now gravel and sould sand shores can be found on crimson and warped forests, as well as on withered grounds
+- Changed nether worldgen, lava streams on metamorphic caves cannot generate on ceilings anymore
+- Changed nether worldgen, reduced the amount of magma blocks in metamorphic caves
+- Changed Enchanter's Guide chance of spawning on stronghold libraries
+- Fixed Hoglin loot table, they now always drop their heads if killed by a charged creeper
+- Fixed piglins riding striders now hold fungus on sticks again
+- Fixed Outpost Compass, now illagers only drop them when killed by a player on a world with pillager outposts
+- Removed nitwit villagers
+- Reworked day titles
+
+
+Survivor's Elegy Alpha v0.2.1 (02/02/2022)
+- Changed siscu:world/breach spawn so at first login the time will advance to the morning of the same day instead of day 0
+- Changed pillager loot: outpost compass only drops when killed by a player
+- Fixed error in metamorphic caves biome
+- Optimised siscu:world/day_features/day_set_morning
+
+
+Survivor's Elegy Alpha v0.2.0 (01/02/2022)
+- Added Daytime extender module
+        - Added function siscu:config for basic daytime features config
+- Added death coordinates module
+- Added slimeball to the fish loot table (swamp)
+- Added advancements to grant the Q.O.L. recipes at the same time as the vanilla recipes
+- Changed in siscu:story some advancement parents
+        - Added "villages" advancement
+- Changed Ravager Horns so they're not weapons anymore
+- Fixed piglin skeletons not spawning naturally in the nether
+- Fixed function siscu:advancement/player_get_struck (inactive)
+- Optimised carrot_on_a_stick detection function
+- Removed advancement siscu:items/consume/frog_eat and function siscu:items/consume/frog_eat
+
+
+Survivor's Elegy Alpha v0.1.1 (29/01/2022)
+- Swamp Huts now generate correctly
+- Corrected missing names

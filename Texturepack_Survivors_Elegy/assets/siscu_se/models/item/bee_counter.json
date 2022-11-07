@@ -1,0 +1,14 @@
+{
+	"credit": "Made by CiscuLog with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "siscu_se:item/bee_counter"
+	},
+	"display": {
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 3, -1],
+			"scale": [1.5, 1.5, 2]
+		}
+	}
+}

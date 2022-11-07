@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:nether/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:blackstone"
+    },
+    "title": {
+      "translate": "Withered Grounds"
+    },
+    "description": [{
+      "translate": "A dark and ghostly biome"
+    },
+	{
+		"text":"\nSurvivor's Elegy",
+		"color": "gold",
+		"italic": true
+	}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "criteria": {
+    "siscu:withered_grounds": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "siscu:withered_grounds"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  }
+}

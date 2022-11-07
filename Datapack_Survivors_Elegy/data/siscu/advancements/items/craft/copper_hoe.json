@@ -1,0 +1,14 @@
+{
+	"show_toast": false,
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "siscu:copper_hoe"
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/craft_give/copper_hoe"
+	}
+}

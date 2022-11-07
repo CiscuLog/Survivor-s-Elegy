@@ -1,0 +1,12 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity":"this",
+	"predicate": {
+		"equipment": {
+			"chest": {
+				"items": ["golden_horse_armor"],
+				"nbt": "{CustomModelData:548101}"
+			}
+		}
+	}
+}

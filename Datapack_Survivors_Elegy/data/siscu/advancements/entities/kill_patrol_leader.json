@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:player_killed_entity",
+			"conditions": {
+				"entity":
+				{
+					"type": "minecraft:pillager",
+					"nbt": "{PatrolLeader: 1b, Patrolling: 1b}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/update/patrol_leader_map_schedule"
+	}
+}

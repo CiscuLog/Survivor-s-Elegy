@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:block/template_candle",
+  "textures": {
+    "all": "minecraft:block/gray_candle_lit",
+    "particle": "minecraft:block/gray_candle_lit"
+  },
+  "display": {
+	  "thirdperson_righthand": {
+		  "rotation": [0, 0, 0],
+		  "translation": [-0.5, 5, 1],
+		  "scale": [0.75, 0.75, 0.75]
+	  },
+	  "thirdperson_lefthand": {
+		  "rotation": [0, 0, 0],
+		  "translation": [-0.5, 5, 1],
+		  "scale": [0.75, 0.75, 0.75]
+	  },
+	  "ground": {
+		  "scale": [0, 0, 0]
+	  }
+  }
+}

@@ -1,0 +1,1 @@
+execute as @e[tag=swamp_hut_pillar] at @s run function siscu:world/swamp_hut/log_pillars

@@ -1,0 +1,35 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{	"condition": "minecraft:entity_properties",
+			"entity":"this",
+			"predicate": {
+				"equipment": {
+					"chest": {
+						"nbt": "{display: {Name: \'{\"italic\":false,\"translate\":\"item.siscu.copper_chestplate\"}\'}}"
+					}
+				}
+			}
+		},
+		{	"condition": "minecraft:entity_properties",
+			"entity":"this",
+			"predicate": {
+				"equipment": {
+					"chest": {
+						"nbt": "{display: {Name: \'{\"italic\":false,\"translate\":\"item.siscu.exposed_copper_chestplate\"}\'}}"
+					}
+				}
+			}
+		},
+		{	"condition": "minecraft:entity_properties",
+			"entity":"this",
+			"predicate": {
+				"equipment": {
+					"chest": {
+						"nbt": "{display: {Name: \'{\"italic\":false,\"translate\":\"item.siscu.weathered_copper_chestplate\"}\'}}"
+					}
+				}
+			}
+		}
+	]
+}

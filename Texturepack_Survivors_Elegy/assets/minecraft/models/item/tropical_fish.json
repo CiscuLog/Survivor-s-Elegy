@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/tropical_fish"
+  },
+	"overrides": [
+	{"predicate": {"custom_model_data": 548100}, "model": "siscu_se:item/koi"}
+	]
+}

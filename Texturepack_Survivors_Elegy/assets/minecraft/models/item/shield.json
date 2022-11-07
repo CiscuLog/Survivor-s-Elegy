@@ -1,0 +1,78 @@
+{
+    "parent": "builtin/entity",
+    "gui_light": "front",
+    "textures": {
+        "particle": "block/dark_oak_planks"
+    },
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [10, 6, -4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [10, 6, 12]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 180, 5],
+			"translation": [-10, 2, -10],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 180, 5],
+			"translation": [10, 0, -10],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"ground": {
+			"translation": [4, 4, 2],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [15, -25, -5],
+			"translation": [2, 3, 0],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [-10, 10, -9.75],
+			"scale": [1.25, 1.25, 1.25]
+		}
+	},
+    "overrides": [
+        {"predicate": {"blocking": 1 }, "model": "item/shield_blocking"},
+        {"predicate": {"blocking": 0 , "custom_model_data": 548101}, "model": "siscu_se:item/brute_shield"},
+        {"predicate": {"blocking": 1 , "custom_model_data": 548101}, "model": "siscu_se:item/brute_shield_blocking"},
+        {"predicate": {"blocking": 0 , "custom_model_data": 548102}, "model": "siscu_se:item/crimson_shield_1"},
+        {"predicate": {"blocking": 1 , "custom_model_data": 548102}, "model": "siscu_se:item/crimson_shield_1_blocking"},
+        {"predicate": {"blocking": 0 , "custom_model_data": 548103}, "model": "siscu_se:item/crimson_shield_2"},
+        {"predicate": {"blocking": 1 , "custom_model_data": 548103}, "model": "siscu_se:item/crimson_shield_2_blocking"},
+        {"predicate": {"blocking": 0 , "custom_model_data": 548104}, "model": "siscu_se:item/crimson_shield_3"},
+        {"predicate": {"blocking": 1 , "custom_model_data": 548104}, "model": "siscu_se:item/crimson_shield_3_blocking"},
+        {"predicate": {"blocking": 0 , "custom_model_data": 548105}, "model": "siscu_se:item/crimson_shield_4"},
+        {"predicate": {"blocking": 1 , "custom_model_data": 548105}, "model": "siscu_se:item/crimson_shield_4_blocking"},
+        {"predicate": {"blocking": 0 , "custom_model_data": 548106}, "model": "siscu_se:item/crimson_shield_5"},
+        {"predicate": {"blocking": 1 , "custom_model_data": 548106}, "model": "siscu_se:item/crimson_shield_5_blocking"},
+        {"predicate": {"blocking": 0 , "custom_model_data": 548107}, "model": "siscu_se:item/crimson_shield_6"},
+        {"predicate": {"blocking": 1 , "custom_model_data": 548107}, "model": "siscu_se:item/crimson_shield_6_blocking"},
+        {"predicate": {"blocking": 0 , "custom_model_data": 548108}, "model": "siscu_se:item/crimson_shield_7"},
+        {"predicate": {"blocking": 1 , "custom_model_data": 548108}, "model": "siscu_se:item/crimson_shield_7_blocking"},
+        {"predicate": {"blocking": 0 , "custom_model_data": 548109}, "model": "siscu_se:item/crimson_shield_8"},
+        {"predicate": {"blocking": 1 , "custom_model_data": 548109}, "model": "siscu_se:item/crimson_shield_8_blocking"},
+        {"predicate": {"blocking": 0 , "custom_model_data": 548110}, "model": "siscu_se:item/crimson_shield_9"},
+        {"predicate": {"blocking": 1 , "custom_model_data": 548110}, "model": "siscu_se:item/crimson_shield_9_blocking"},
+        {"predicate": {"blocking": 0 , "custom_model_data": 548111}, "model": "siscu_se:item/crimson_shield_10"},
+        {"predicate": {"blocking": 1 , "custom_model_data": 548111}, "model": "siscu_se:item/crimson_shield_10_blocking"},
+        {"predicate": {"blocking": 0 , "custom_model_data": 548112}, "model": "siscu_se:item/crimson_shield_11"},
+        {"predicate": {"blocking": 1 , "custom_model_data": 548112}, "model": "siscu_se:item/crimson_shield_11_blocking"},
+        {"predicate": {"blocking": 0 , "custom_model_data": 548113}, "model": "siscu_se:item/crimson_shield_12"},
+        {"predicate": {"blocking": 1 , "custom_model_data": 548113}, "model": "siscu_se:item/crimson_shield_12_blocking"},
+        {"predicate": {"blocking": 0 , "custom_model_data": 548120}, "model": "siscu_se:item/warped_shield_1"},
+        {"predicate": {"blocking": 1 , "custom_model_data": 548120}, "model": "siscu_se:item/warped_shield_1_blocking"},
+        {"predicate": {"blocking": 0 , "custom_model_data": 548121}, "model": "siscu_se:item/warped_shield_2"},
+        {"predicate": {"blocking": 1 , "custom_model_data": 548121}, "model": "siscu_se:item/warped_shield_2_blocking"},
+        {"predicate": {"blocking": 0 , "custom_model_data": 548122}, "model": "siscu_se:item/warped_shield_3"},
+        {"predicate": {"blocking": 1 , "custom_model_data": 548122}, "model": "siscu_se:item/warped_shield_3_blocking"},
+        {"predicate": {"blocking": 0 , "custom_model_data": 548123}, "model": "siscu_se:item/warped_shield_4"},
+        {"predicate": {"blocking": 1 , "custom_model_data": 548123}, "model": "siscu_se:item/warped_shield_4_blocking"}
+    ]
+}

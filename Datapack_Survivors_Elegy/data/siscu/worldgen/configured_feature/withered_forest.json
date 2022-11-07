@@ -1,0 +1,18 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "feature": "siscu:withered_tree",
+          "placement": []
+        },
+        "chance": 0.33333334
+      }
+    ],
+    "default": {
+      "feature": "siscu:withered_tree",
+      "placement": []
+    }
+  },
+  "type": "minecraft:random_selector"
+}

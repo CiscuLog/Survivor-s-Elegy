@@ -1,0 +1,35 @@
+{
+	"show_toast": true,
+	"criteria": {
+		"Staff": {
+			"trigger":"minecraft:tick",
+			"conditions": {
+				"player": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity":"this",
+					"predicate": {
+						"equipment": {
+							"feet": {
+								"enchantments":[{
+									"enchantment": "minecraft:soul_speed"
+							}]
+							}
+						},
+						"vehicle": {
+							"type": "#minecraft:enchanted_saddle_mobs",
+							"nbt":"{SaddleItem:{tag:{Enchantments:[{id:\"siscu:catalyst\"}]}}}",
+							"stepping_on": {
+								"block":{"tag":"minecraft:soul_speed_blocks"}
+							}
+						}
+					}
+				}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/use/horse_soul_speed"
+	}
+}

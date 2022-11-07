@@ -1,0 +1,5 @@
+{
+	"type":"smithing",
+	"base":{"item":"minecraft:saddle"},
+	"addition":{"item":"minecraft:jigsaw"},
+	"result":{"item":"minecraft:knowledge_book"}}

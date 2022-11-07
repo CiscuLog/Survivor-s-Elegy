@@ -1,0 +1,27 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:leather",
+			"functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomModelData:548101}"
+			},
+			{
+				"function": "minecraft:set_name",
+				"name": {
+					"translate": "item.siscu.piglin_head",
+					"italic": false,
+					"color": "yellow"
+				}
+			}
+			]
+		}
+		]
+	}
+	]
+}

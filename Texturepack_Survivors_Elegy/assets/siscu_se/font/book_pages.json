@@ -1,0 +1,67 @@
+{
+	"providers":[
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/witch/potion1.png",
+			"ascent": 10,
+			"height": 130,
+			"chars": [
+				"\uE600"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/witch/potion2.png",
+			"ascent": 10,
+			"height": 130,
+			"chars": [
+				"\uE601"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/witch/potion3.png",
+			"ascent": 10,
+			"height": 130,
+			"chars": [
+				"\uE602"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/witch/potion4.png",
+			"ascent": 10,
+			"height": 130,
+			"chars": [
+				"\uE603"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/witch/stew1.png",
+			"ascent": 10,
+			"height": 130,
+			"chars": [
+				"\uE610"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/witch/stew2.png",
+			"ascent": 10,
+			"height": 130,
+			"chars": [
+				"\uE611"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/witch/stew3.png",
+			"ascent": 10,
+			"height": 130,
+			"chars": [
+				"\uE612"
+			]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+		  "weight": 89,
+		  "functions":[
+		  {
+			  "function": "minecraft:set_nbt",
+			  "tag": "{CustomModelData:548114}"
+		  }
+		  ]
+        }
+		]
+    }
+  ]
+}

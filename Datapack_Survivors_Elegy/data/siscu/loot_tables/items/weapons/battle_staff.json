@@ -1,0 +1,71 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:stick",
+			"functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomModelData:548101,HideFlags:2}"
+			},
+			{
+				"function": "minecraft:set_name",
+				"name": {
+					"translate": "item.siscu.battle_staff",
+					"italic": false
+				}
+			},
+			{
+				"function": "minecraft:set_lore",
+				"lore": [
+				{"text":""},
+				{
+					"text": "When in Main hand:",
+					"italic": false,
+					"color": "gray"
+				},
+				{
+					"text": " 4 Attack Damage",
+					"italic": false,
+					"color": "dark_green"
+				},
+				{
+					"text": " 1.75 Attack Speed",
+					"italic": false,
+					"color": "dark_green"
+				}
+				]
+			},
+			{
+				"function": "minecraft:set_attributes",
+				"modifiers": [
+				{
+					"attribute": "generic.attack_damage",
+					"name": "generic.attack_damage",
+					"operation": "multiply_base",
+					"amount": 3,
+					"slot": "mainhand"
+				}
+				]
+			},
+			{
+				"function": "minecraft:set_attributes",
+				"modifiers": [
+				{
+					"attribute": "generic.attack_speed",
+					"name": "generic.attack_speed",
+					"operation": "multiply_base",
+					"amount": -0.5625,
+					"slot": "mainhand"
+				}
+				]
+			}
+			]
+		}
+		]
+	}
+	]
+}

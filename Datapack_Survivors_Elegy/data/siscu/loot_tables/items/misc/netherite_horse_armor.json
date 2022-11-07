@@ -1,0 +1,70 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:leather_horse_armor",
+			"functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomModelData:548101}"
+			},
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{display:{color: 5065037}}"
+			},
+			{
+				"function": "minecraft:set_name",
+				"name": {
+					"translate": "item.siscu.netherite_horse_armor",
+					"italic": False
+				}
+			},
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{HideFlags:64}"
+			},
+			{
+				"function": "minecraft:set_attributes",
+				"modifiers": [
+				{
+					"attribute": "generic.armor",
+					"name": "generic.armor",
+					"operation": "addition",
+					"amount": 11,
+					"slot": "chest"
+				}
+				]
+			},
+			{
+				"function": "minecraft:set_attributes",
+				"modifiers": [
+				{
+					"attribute": "generic.knockback_resistance",
+					"name": "generic.knockback_resistance",
+					"operation": "addition",
+					"amount": 0.1,
+					"slot": "chest"
+				}
+				]
+			},
+			{
+				"function": "minecraft:set_attributes",
+				"modifiers": [
+				{
+					"attribute": "generic.armor_toughness",
+					"name": "generic.armor_toughness",
+					"operation": "addition",
+					"amount": 3,
+					"slot": "chest"
+				}
+				]
+			}
+			]
+		}
+		]
+	}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "siscu_se:item/copper_chestplate",
+	"textures": {
+		"layer0": "siscu_se:item/weathered_copper_chestplate"
+	}
+}

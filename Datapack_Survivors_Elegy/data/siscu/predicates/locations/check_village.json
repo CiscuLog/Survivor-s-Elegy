@@ -1,0 +1,35 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"structure": "village_desert"
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"structure": "village_plains"
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"structure": "village_savanna"
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"structure": "village_snowy"
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"structure": "village_taiga"
+		}
+	}
+	]
+}

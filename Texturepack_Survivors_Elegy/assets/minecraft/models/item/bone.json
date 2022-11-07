@@ -1,0 +1,40 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/bone"
+    },
+    "display": {
+        "head": {
+            "rotation": [ 0, 0, -45 ],
+            "translation": [ 0, -4.5, -6.5],
+            "scale":[ 1, 1, 1 ]
+        }
+    },
+	"overrides": [
+	{"predicate": {"custom_model_data": 548101}, "model": "siscu_se:item/withered_bone"},
+	{"predicate": {"custom_model_data": 548102}, "model": "siscu_se:item/ravager_horn"},
+	{"predicate": {"custom_model_data": 548110}, "model": "siscu_se:item/piglin_skull"},
+	{"predicate": {"custom_model_data": 548111}, "model": "siscu_se:item/piglin_skull_golden"},
+	{"predicate": {"custom_model_data": 548112}, "model": "siscu_se:item/piglin_skull_chainmail"},
+	{"predicate": {"custom_model_data": 548113}, "model": "siscu_se:item/piglin_skull_netherite"},
+	{"predicate": {"custom_model_data": 548114}, "model": "siscu_se:item/piglin_skull_withered"},
+	{"predicate": {"custom_model_data": 548115}, "model": "siscu_se:item/skeleton_horse_head"},
+	{"predicate": {"custom_model_data": 548120}, "model": "siscu_se:item/villager_skull"},
+	{"predicate": {"custom_model_data": 548121}, "model": "siscu_se:item/villager_skull_armorer"},
+	{"predicate": {"custom_model_data": 548122}, "model": "siscu_se:item/villager_skull_butcher"},
+	{"predicate": {"custom_model_data": 548123}, "model": "siscu_se:item/villager_skull_cartographer"},
+	{"predicate": {"custom_model_data": 548124}, "model": "siscu_se:item/villager_skull"},
+	{"predicate": {"custom_model_data": 548125}, "model": "siscu_se:item/villager_skull_farmer"},
+	{"predicate": {"custom_model_data": 548126}, "model": "siscu_se:item/villager_skull_fisherman"},
+	{"predicate": {"custom_model_data": 548127}, "model": "siscu_se:item/villager_skull_fletcher"},
+	{"predicate": {"custom_model_data": 548128}, "model": "siscu_se:item/villager_skull"},
+	{"predicate": {"custom_model_data": 548129}, "model": "siscu_se:item/villager_skull_librarian"},
+	{"predicate": {"custom_model_data": 548130}, "model": "siscu_se:item/villager_skull"},
+	{"predicate": {"custom_model_data": 548131}, "model": "siscu_se:item/villager_skull"},
+	{"predicate": {"custom_model_data": 548132}, "model": "siscu_se:item/villager_skull_shepherd"},
+	{"predicate": {"custom_model_data": 548133}, "model": "siscu_se:item/villager_skull"},
+	{"predicate": {"custom_model_data": 548134}, "model": "siscu_se:item/villager_skull_weaponsmith"},
+	{"predicate": {"custom_model_data": 548135}, "model": "siscu_se:item/wither_boss_head"},
+	{"predicate": {"custom_model_data": 548140}, "model": "siscu_se:item/villager_skull_withered"}
+	]
+}

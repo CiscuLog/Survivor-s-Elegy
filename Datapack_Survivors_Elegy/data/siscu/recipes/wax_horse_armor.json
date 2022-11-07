@@ -1,0 +1,5 @@
+{
+	"type":"smithing",
+	"base":{"item":"minecraft:golden_horse_armor"},
+	"addition":{"item":"minecraft:honeycomb"},
+	"result":{"item":"minecraft:knowledge_book"}}

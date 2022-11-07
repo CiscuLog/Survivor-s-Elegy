@@ -1,0 +1,49 @@
+{
+	"providers":[
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/icons/redstone_dust_line_off.png",
+			"ascent": 16,
+			"height": 16,
+			"chars": [
+				"\u006F"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/icons/redstone_dust_line_on.png",
+			"ascent": 16,
+			"height": 16,
+			"chars": [
+				"\u004F"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:block/daylight_detector_top.png",
+			"ascent": 16,
+			"height": 16,
+			"chars": [
+				"\u0053"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:block/redstone_lamp.png",
+			"ascent": 16,
+			"height": 16,
+			"chars": [
+				"\u006c"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:block/redstone_lamp_on.png",
+			"ascent": 16,
+			"height": 16,
+			"chars": [
+				"\u004c"
+			]
+		}
+	]
+}

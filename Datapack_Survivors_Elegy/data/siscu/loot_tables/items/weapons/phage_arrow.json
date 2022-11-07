@@ -1,0 +1,27 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:tipped_arrow",
+			"functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomModelData:548101,HideFlags:32,CustomPotionEffects:[{Id:27,Amplifier:99,Duration:1200,Ambient:0,ShowParticles:1,ShowIcon:1}],CustomPotionColor:12624973,Color:12624973}"
+			},
+			{
+				"function": "minecraft:set_name",
+				"name": {
+					"translate": "item.siscu.phage_arrow",
+					"italic": false,
+					"color": "yellow"
+				}
+			}
+			]
+		}
+		]
+	}
+	]
+}

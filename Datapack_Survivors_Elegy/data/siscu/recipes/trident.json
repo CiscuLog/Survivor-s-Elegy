@@ -1,0 +1,5 @@
+{
+	"type":"smithing",
+	"base":{"item":"minecraft:lightning_rod"},
+	"addition":{"item":"minecraft:heart_of_the_sea"},
+	"result":{"item":"minecraft:trident"}}

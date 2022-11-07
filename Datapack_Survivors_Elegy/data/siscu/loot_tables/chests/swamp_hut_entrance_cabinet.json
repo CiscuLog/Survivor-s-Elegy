@@ -1,0 +1,143 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bowl",
+		  "functions": [{
+			  "function": "minecraft:set_count",
+			  "count": {
+				  "type": "minecraft:uniform",
+				  "min": 1.0,
+				  "max": 4.0
+			  }
+		  }]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:milk_bucket"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+		  "functions": [
+            {
+              "function": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:blindness",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "min": 5.0,
+                    "max": 7.0
+                  }
+                },
+                {
+                  "type": "minecraft:saturation",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "min": 7.0,
+                    "max": 10.0
+                  }
+                },
+                {
+                  "type": "minecraft:poison",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "min": 10.0,
+                    "max": 20.0
+                  }
+                },
+                {
+                  "type": "minecraft:night_vision",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "min": 7.0,
+                    "max": 10.0
+                  }
+                },
+                {
+                  "type": "minecraft:weakness",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "min": 6.0,
+                    "max": 8.0
+                  }
+                },
+                {
+                  "type": "minecraft:jump_boost",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "min": 7.0,
+                    "max": 10.0
+                  }
+                }
+              ]
+		  }]
+        }
+      ]
+    },
+    {
+      "rolls": 10.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dandelion",
+		  "functions": [{"function": "minecraft:set_count","count": {"type":"minecraft:uniform","min":1.0,"max":2.0}}]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poppy",
+		  "functions": [{"function": "minecraft:set_count","count": {"type":"minecraft:uniform","min":1.0,"max":2.0}}]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_orchid",
+		  "functions": [{"function": "minecraft:set_count","count": {"type":"minecraft:uniform","min":1.0,"max":2.0}}]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:allium",
+		  "functions": [{"function": "minecraft:set_count","count": {"type":"minecraft:uniform","min":1.0,"max":2.0}}]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:azure_bluet",
+		  "functions": [{"function": "minecraft:set_count","count": {"type":"minecraft:uniform","min":1.0,"max":2.0}}]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oxeye_daisy",
+		  "functions": [{"function": "minecraft:set_count","count": {"type":"minecraft:uniform","min":1.0,"max":2.0}}]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cornflower",
+		  "functions": [{"function": "minecraft:set_count","count": {"type":"minecraft:uniform","min":1.0,"max":2.0}}]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lily_of_the_valley",
+		  "functions": [{"function": "minecraft:set_count","count": {"type":"minecraft:uniform","min":1.0,"max":2.0}}]
+        }
+      ]
+    }
+  ]
+}

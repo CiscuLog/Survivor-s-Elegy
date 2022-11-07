@@ -1,0 +1,31 @@
+{
+  "parent": "siscu:minecraft/nether/metamorphic_caves",
+  "display": {
+    "icon": {
+      "item": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "Hot Spot"
+    },
+    "description": [{
+      "translate": "Blow a fire spring up"
+    },
+	{
+		"text":"\nSurvivor's Elegy",
+		"color": "gold",
+		"italic": true
+	}],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "siscu_se:item/villager_skull",
+	"textures": {
+		"0": "siscu_se:item/villager_skulls/shepherd"
+	}
+}

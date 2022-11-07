@@ -1,0 +1,1 @@
+execute if score @s siscu.withering matches 10.. at @s run function siscu:entities/skeleton/summon_wither_skeleton

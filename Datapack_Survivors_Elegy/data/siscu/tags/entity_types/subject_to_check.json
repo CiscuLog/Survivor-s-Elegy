@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:blaze",
+    "minecraft:creeper",
+    "minecraft:drowned",
+    "minecraft:enderman",
+    "minecraft:hoglin",
+    "minecraft:husk",
+    "minecraft:iron_golem",
+    "#minecraft:piglin",
+    "minecraft:pillager",
+    "minecraft:skeleton",
+    "minecraft:trader_llama",
+    "minecraft:villager",
+    "minecraft:wandering_trader",
+    "minecraft:witch",
+    "minecraft:wither_skeleton",
+    "minecraft:zombie"
+  ]
+}

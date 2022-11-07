@@ -1,0 +1,7 @@
+{
+	"parent":"siscu_se:item/shield_blocking_base",
+	"textures": {
+		"2": "siscu_se:item/crimson_shield_8",
+		"particle": "block/crimson_planks"
+	}
+}

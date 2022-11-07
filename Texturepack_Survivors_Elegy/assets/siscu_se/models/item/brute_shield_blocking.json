@@ -1,0 +1,16 @@
+{
+	"parent": "siscu_se:item/brute_shield",
+	"textures": {
+		"2": "siscu_se:item/piglin_shield_blocking_item"
+	},
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [60, -15, 45],
+			"translation": [-0.5, 2, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [60, -15, -132],
+			"translation": [0.5, 2, 0]
+		}
+	}
+}

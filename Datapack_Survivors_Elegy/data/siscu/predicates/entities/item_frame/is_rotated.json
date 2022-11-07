@@ -1,0 +1,33 @@
+{
+	"condition":"minecraft:alternative",
+	"terms": [
+	{
+		"condition": "minecraft:entity_properties",
+		"entity":"this",
+		"predicate": {
+			"nbt": "{ItemRotation: 1b}"
+		}		
+	},
+	{
+		"condition": "minecraft:entity_properties",
+		"entity":"this",
+		"predicate": {
+			"nbt": "{ItemRotation: 3b}"
+		}		
+	},
+	{
+		"condition": "minecraft:entity_properties",
+		"entity":"this",
+		"predicate": {
+			"nbt": "{ItemRotation: 5b}"
+		}		
+	},
+	{
+		"condition": "minecraft:entity_properties",
+		"entity":"this",
+		"predicate": {
+			"nbt": "{ItemRotation: 7b}"
+		}		
+	}
+	]
+}

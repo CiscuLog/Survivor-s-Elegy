@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=fire_spring] at @s run function siscu:entities/blaze/fire_spring_effects

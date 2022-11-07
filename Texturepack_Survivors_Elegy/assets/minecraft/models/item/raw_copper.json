@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/raw_copper"
+  },
+	"overrides": [
+	{"predicate": {"custom_model_data": 540000}, "model": "siscu_se:item/bee_counter"}
+	]
+}

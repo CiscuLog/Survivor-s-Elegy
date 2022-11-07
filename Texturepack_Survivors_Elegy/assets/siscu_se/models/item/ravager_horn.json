@@ -1,0 +1,50 @@
+{
+	"credit": "Made by CiscuLog with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "entity/illager/ravager",
+		"particle": "#0"
+	},
+	"elements": [
+		{
+			"from": [7, 1.5, 6],
+			"to": [9, 14.5, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [9.75, 7.375, 10, 9], "texture": "#0"},
+				"east": {"uv": [9.25, 7.375, 9.75, 9], "texture": "#0"},
+				"south": {"uv": [10.5, 7.375, 10.75, 9], "texture": "#0"},
+				"west": {"uv": [10, 7.375, 10.5, 9], "texture": "#0"},
+				"up": {"uv": [10, 7.375, 9.75, 6.875], "texture": "#0"},
+				"down": {"uv": [10.25, 6.875, 10, 7.375], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3.5, 1.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [20, 0, 0],
+			"translation": [2.5, 4, 0],
+			"scale": [1, 1, 0.68]
+		},
+		"ground": {
+			"rotation": [60, 0, 0],
+			"translation": [0, 2, 0]
+		},
+		"gui": {
+			"rotation": [45, 45, -45]
+		},
+		"head": {
+			"rotation": [-44.75, 0, 0],
+			"translation": [0, 10, -10],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [-90, 45, 90],
+			"translation": [0, 0, -1],
+			"scale": [1.9, 1.9, 1.9]
+		}
+	}
+}

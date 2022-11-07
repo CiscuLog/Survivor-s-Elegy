@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "siscu:items/weapons/copper_sword",
+		  "weight":1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "siscu:items/weapons/exposed_copper_sword",
+		  "weight":3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "siscu:items/weapons/weathered_copper_sword",
+		  "weight":3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "siscu:items/weapons/oxidised_copper_sword",
+		  "weight":2
+        }
+	]
+  }
+  ]
+}

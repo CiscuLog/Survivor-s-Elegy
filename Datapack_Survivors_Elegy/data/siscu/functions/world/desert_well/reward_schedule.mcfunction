@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=siscu.well_unused] at @s run function siscu:world/desert_well/reward

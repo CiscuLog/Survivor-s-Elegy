@@ -1,0 +1,7 @@
+{
+	"parent": "siscu_se:item/piglin_head",
+	"textures": {
+		"0": "entity/piglin/piglin_brute",
+		"particle": "entity/piglin/piglin_brute"
+	}
+}

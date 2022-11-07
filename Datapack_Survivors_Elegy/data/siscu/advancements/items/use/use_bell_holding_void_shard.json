@@ -1,0 +1,22 @@
+{
+	"show_toast": false,
+	"criteria": {
+		"0": 
+		{
+			"trigger":"minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items":["minecraft:echo_shard"]
+				},
+				"location": {
+					"block": {
+						"blocks": ["bell"]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/use/use_bell_holding_void_shard"
+	}
+}
