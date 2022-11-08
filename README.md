@@ -1,2 +1,2 @@
 # Survivor-s-Elegy
-An extensive minecraft datapack focused on worldbuilding
+Survivor's Elegy is a Minecraft Java datapack which adds a multitude of features to enhance the vanilla gameplay.
