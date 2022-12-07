@@ -3,6 +3,8 @@
 	"advancements.siscu.description_2": "By Siscu",
 	"advancements.siscu.enchanter_book.title": "Enchanters Guide",
 	"advancements.siscu.enchanter_book.description": "Contains ancient glyphs to enchant items",
+	"advancements.siscu.minecraft.fish_all.title":"Fishmonger",
+	"advancements.siscu.minecraft.fish_all.description":"Get every fish",
 
 	"entity.siscu.dungeon_trader": "Dungeon Trader",
 	"entity.siscu.fire_spring": "Incandescent Matter",
@@ -86,7 +88,7 @@
 	"item.siscu.zoglin_head": "Zoglin Head",
 
 	"pack.siscu": "Survivor's Elegy",
-	"pack.siscu.version": "alpha v0.4.3",
+	"pack.siscu.version": "alpha v0.4.4",
 
 	"text.siscu.click_to_wear1": "Press ",
 	"text.siscu.click_to_wear2": " to wear",

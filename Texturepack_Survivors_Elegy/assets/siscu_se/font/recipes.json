@@ -368,6 +368,15 @@
 			"chars": [
 				"\uE700"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/recipes/campfire_torch.png",
+			"ascent": 6,
+			"height": 68,
+			"chars": [
+				"\uE801"
+			]
 		}
 	]
 }

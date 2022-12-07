@@ -10,7 +10,7 @@
 		"announce_to_chat": false,
 		"hidden": true
 	},
-	"parent": "siscu:story/zombie",
+	"parent": "siscu:story/zombie_husk",
 	"criteria": {
 		"0": {
 			"trigger":"minecraft:tick",

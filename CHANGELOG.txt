@@ -2,12 +2,35 @@
 # note to the author: change pack.siscu.version (lang)
 
 
-Survivor's Elegy Alpha v0.5.0 (xx/xx/20xx)
+Survivor's Elegy Alpha v0.4.4 (07/12/2022)
+- Added Credits
 - Added desert wells back, but with a twist
--- They now generate as a structure instead of a features
+-- They now generate as a structure instead of a feature
 -- Dropping a golden ingot in them will spawn a small reward on the center
 -- Using the well will render it useless for the future
-
+- Added Allay Zombifying
+-- Turns allays into Vexes
+- Added Rabbit zombifying
+-- Turns rabbits into killer rabbits
+- Added Fishmonger advancement
+-- Granted after fishing all custom fish
+-- Grants 1000 xp
+- Added Recipes
+-- Wooden-based blocks, wool, bones and books can be burned on a campfire to get charcoal
+- Added Vex Swords
+-- Small iron swords, pixel consistent with the rest of the world
+-- Theoretically unobtainable
+- Changed old mineshafts generation
+-- Generating through an amethyst geode won't replace the geode's blocks with stone anymore
+-- Uses element type "minecraft:single_pool_element" instead of "minecraft:legacy_single_pool_element"
+- Changed Wandering Trader Tents
+-- Trees will no longer spawn in the llama's pen
+- Fixed Day Counter
+-- /time set commands will set the current day to 0, but an inner timer will try to catch up to the previous date
+- Fixed Spider Jockeys
+-- Skeletons will always hold a bow
+- Remodelled Vexes to the 1.20 model
+- Reworked death announcement system
 
 
 Survivor's Elegy Alpha v0.4.3 (03/11/2022)

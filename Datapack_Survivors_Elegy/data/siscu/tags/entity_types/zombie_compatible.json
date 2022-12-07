@@ -10,6 +10,8 @@
     "minecraft:hoglin",
     "minecraft:piglin",
     "minecraft:piglin_brute",
-    "minecraft:witch"
+    "minecraft:witch",
+    "minecraft:rabbit",
+    "minecraft:allay"
   ]
 }

@@ -47,11 +47,76 @@
             "predicate_type": "minecraft:block_match"
           },
           "location_predicate": {
+            "block": "minecraft:calcite",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:calcite"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:smooth_basalt",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:smooth_basalt"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:amethyst_block",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:amethyst_block"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:budding_amethyst",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:budding_amethyst"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
             "block": "minecraft:water",
             "predicate_type": "minecraft:block_match"
           },
           "output_state": {
             "Name": "minecraft:oak_planks"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:lava",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:cobblestone"
           }
         },
         {
@@ -77,7 +142,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:cave_air"
+            "Name": "minecraft:air"
           }
         },
         {
@@ -90,7 +155,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:cave_air"
+            "Name": "minecraft:air"
           }
         },
         {
@@ -103,20 +168,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:cave_air"
-          }
-        },
-		{
-          "input_predicate": {
-            "block": "minecraft:air",
-            "predicate_type": "minecraft:random_block_match",
-            "probability": 1.0
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "output_state": {
-            "Name": "minecraft:cave_air"
+            "Name": "minecraft:air"
           }
         }
       ],

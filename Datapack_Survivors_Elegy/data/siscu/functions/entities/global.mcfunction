@@ -17,4 +17,5 @@ execute as @e[type=trader_llama,tag=!llama_checked] run function siscu:entities/
 execute as @e[type=villager,tag=!villager_checked] at @s run function siscu:entities/villager/randomiser
 execute as @e[type=witch,tag=!witch_checked] at @s run function siscu:entities/witch/randomiser
 execute as @e[type=wither_skeleton,tag=!skeleton_checked] run function siscu:entities/wither_skeleton/randomiser
+execute as @e[type=vex,tag=!vex_checked] run function siscu:entities/vex/randomiser
 execute as @e[type=zombie,tag=!zombie_checked] at @s run function siscu:entities/zombie/randomiser

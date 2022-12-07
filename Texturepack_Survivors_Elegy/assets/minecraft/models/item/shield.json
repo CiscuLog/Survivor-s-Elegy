@@ -40,6 +40,7 @@
 	},
     "overrides": [
         {"predicate": {"blocking": 1 }, "model": "item/shield_blocking"},
+        {"predicate": {"custom_model_data": 540000}, "model": "siscu_se:item/sealed_allay"},
         {"predicate": {"blocking": 0 , "custom_model_data": 548101}, "model": "siscu_se:item/brute_shield"},
         {"predicate": {"blocking": 1 , "custom_model_data": 548101}, "model": "siscu_se:item/brute_shield_blocking"},
         {"predicate": {"blocking": 0 , "custom_model_data": 548102}, "model": "siscu_se:item/crimson_shield_1"},

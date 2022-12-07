@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:bow",
     "minecraft:fishing_rod",
     "minecraft:wooden_axe",
     "minecraft:wooden_hoe",

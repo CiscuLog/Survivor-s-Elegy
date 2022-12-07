@@ -2,9 +2,6 @@
 	"type": "minecraft:campfire_cooking",
 	"ingredient": [
 	{
-		"tag": "minecraft:stick"
-	},
-	{
 		"tag": "minecraft:campfire_fuel"
 	}
 	],

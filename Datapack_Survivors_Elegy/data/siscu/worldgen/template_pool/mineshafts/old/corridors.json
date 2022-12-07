@@ -4,7 +4,7 @@
   "elements": [
     {
       "element": {
-        "element_type": "minecraft:legacy_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "location": "siscu:mineshafts/old/corridor_short",
         "processors": "siscu:old_mineshaft",
         "projection": "rigid"
@@ -13,7 +13,7 @@
     },
     {
       "element": {
-        "element_type": "minecraft:legacy_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "location": "siscu:mineshafts/old/corridor_long",
         "processors": "siscu:old_mineshaft",
         "projection": "rigid"
@@ -22,7 +22,7 @@
     },
     {
       "element": {
-        "element_type": "minecraft:legacy_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "location": "siscu:mineshafts/old/corridor_turn_right",
         "processors": "siscu:old_mineshaft",
         "projection": "rigid"
@@ -31,7 +31,7 @@
     },
     {
       "element": {
-        "element_type": "minecraft:legacy_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "location": "siscu:mineshafts/old/corridor_turn_left",
         "processors": "siscu:old_mineshaft",
         "projection": "rigid"
@@ -40,7 +40,7 @@
     },
     {
       "element": {
-        "element_type": "minecraft:legacy_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "location": "siscu:mineshafts/old/corridor_ramp",
         "processors": "siscu:old_mineshaft",
         "projection": "rigid"
@@ -49,7 +49,7 @@
     },
     {
       "element": {
-        "element_type": "minecraft:legacy_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "location": "siscu:mineshafts/old/connector_bottom",
         "processors": "siscu:old_mineshaft",
         "projection": "rigid"
@@ -58,7 +58,7 @@
     },
     {
       "element": {
-        "element_type": "minecraft:legacy_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "location": "siscu:mineshafts/old/connector_top",
         "processors": "siscu:old_mineshaft",
         "projection": "rigid"

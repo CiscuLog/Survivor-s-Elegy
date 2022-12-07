@@ -10,6 +10,10 @@ execute if score @s[type=#piglin] siscu.zombifying matches 0.. run function sisc
 
 execute if score @s[type=#siscu:illager] siscu.zombifying matches 0.. run function siscu:entities/zombifying/zombify_villager
 
+execute if score @s[type=rabbit] siscu.zombifying matches 0.. run data merge entity @s {RabbitType:99}
+
+execute if score @s[type=allay] siscu.zombifying matches 0.. run function siscu:entities/zombifying/zombify_allay
+
 execute if score @s[type=!player] siscu.zombifying matches 1.. run function siscu:entities/zombifying/clear_zombifying
 
 execute if score @s siscu.zombifying >= zombie_timer_limit siscu.integer run kill @s

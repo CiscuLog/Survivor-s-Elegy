@@ -4,6 +4,7 @@
     "layer0": "minecraft:item/iron_sword"
   },
 	"overrides": [
+	{"predicate": {"custom_model_data": 548000}, "model": "siscu_se:item/vex_sword"},
 	{"predicate": {"custom_model_data": 548101}, "model": "siscu_se:item/copper_sword"},
 	{"predicate": {"custom_model_data": 548102}, "model": "siscu_se:item/exposed_copper_sword"},
 	{"predicate": {"custom_model_data": 548103}, "model": "siscu_se:item/weathered_copper_sword"},

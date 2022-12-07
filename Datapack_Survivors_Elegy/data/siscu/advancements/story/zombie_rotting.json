@@ -9,7 +9,7 @@
 		"announce_to_chat": false,
 		"hidden": true
 	},
-	"parent": "siscu:story/zombie",
+	"parent": "siscu:story/zombie_drowned",
 	"criteria": {
 		"0": {
 			"trigger":"minecraft:tick",

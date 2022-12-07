@@ -1,0 +1,23 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"vehicle": {
+					"type": "minecraft:skeleton_horse"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"vehicle": {
+					"type": "minecraft:spider"
+				}
+			}
+		}
+	]
+}

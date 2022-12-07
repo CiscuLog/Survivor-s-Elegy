@@ -11,5 +11,7 @@ execute as @e[type=marker,tag=fire_spring] at @s run function siscu:entities/bla
 ## Worldgen processors ##
 execute if entity @e[type=marker,tag=swamp_hut_stuff] run function siscu:world/swamp_hut/swamp_starters
 execute if entity @e[type=marker,tag=wandering_trader] run function siscu:world/trader_camp/summon_trader
+execute if entity @e[type=marker,tag=siscu.trader_tent_llama] run function siscu:world/trader_camp/summon_llama
+execute if entity @e[type=marker,tag=siscu.trader_tent_glass] run function siscu:world/trader_camp/clear_barrier
 
 function siscu:technical/tick_30s_schedule
