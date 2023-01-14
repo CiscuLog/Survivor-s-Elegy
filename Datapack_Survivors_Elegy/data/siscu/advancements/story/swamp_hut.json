@@ -20,12 +20,45 @@
 					"entity": "this",
 					"predicate": {
 						"location": {
-							"structure": "swamp_hut"
+							"structure": "minecraft:swamp_hut"
+						}
+					}
+				}
+				]
+			}
+		},
+		"1": {
+			"trigger":"minecraft:location",
+			"conditions": {
+				"player": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"structure": "siscu:witch_hut_swamp"
+						}
+					}
+				}
+				]
+			}
+		},
+		"2": {
+			"trigger":"minecraft:location",
+			"conditions": {
+				"player": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"structure": "siscu:witch_hut_mangrove"
 						}
 					}
 				}
 				]
 			}
 		}
-	}
+	},
+	"requirements": [["0","1","2"]]
 }

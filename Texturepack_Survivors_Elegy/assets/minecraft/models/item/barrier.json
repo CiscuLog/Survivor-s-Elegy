@@ -4,6 +4,6 @@
         "layer0": "item/barrier"
     },
 	"overrides": [
-	{"predicate": {"custom_model_data": 540000}, "model": "siscu_se:logo"}
+	{"predicate": {"custom_model_data": 540000}, "model": "siscu_se:item/logo"}
 	]
 }

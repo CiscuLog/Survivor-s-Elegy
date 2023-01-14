@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:husbandry/silk_touch_nest",
+	"display":{
+			"icon": {
+					"item": "minecraft:raw_copper",
+					"nbt": "{CustomModelData:540000}"
+			},
+			"title": {"translate": "advancements.siscu.minecraft.place_bee_counter.title"},
+			"description": [{
+				"translate": "advancements.siscu.minecraft.place_bee_counter.description"
+				},
+				{
+					"text":"\nSurvivor's Elegy",
+					"color": "gold",
+					"italic": true
+				}
+		],
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false,
+		"frame": "goal"
+	},
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {"items":["raw_copper"],"nbt":"{CustomModelData:540000}"},
+				"entity": {"type":"minecraft:item_frame"}
+			}
+		}
+	}
+}

@@ -5,4 +5,4 @@ How to install:
 
 And you're ready to go!
 
-Check the WIKI for a more in-depth guide about the datapack: https://survivorselegy.fandom.com/wiki/SurvivorsElegy_Wiki
+Check the WIKI for a more in-depth guide about the datapack: https://github.com/CiscuLog/Survivor-s-Elegy/wiki

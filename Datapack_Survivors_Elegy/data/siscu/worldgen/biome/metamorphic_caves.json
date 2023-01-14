@@ -60,8 +60,7 @@
     ],
     [],
     [
-      "minecraft:spring_lava",
-      "siscu:magma_pillar"
+      "minecraft:spring_lava"
     ]
   ],
   "spawners": {

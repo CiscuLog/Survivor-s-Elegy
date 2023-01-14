@@ -4,14 +4,7 @@ tag @s add llama_checked
 
 # Run the randomiser
 
-execute if predicate siscu:utils/75_percent run data merge entity @s {ChestedHorse:1}
-
-execute if predicate siscu:utils/50_percent run scoreboard players operation llama_color siscu.volatile += 2 siscu.integer
-execute if predicate siscu:utils/50_percent run scoreboard players operation llama_color siscu.volatile += 3 siscu.integer
-execute if predicate siscu:utils/50_percent run scoreboard players operation llama_color siscu.volatile += 5 siscu.integer
-execute if predicate siscu:utils/50_percent run scoreboard players operation llama_color siscu.volatile += 7 siscu.integer
-scoreboard players operation llama_color siscu.volatile %= 16 siscu.integer
-
+execute store result score llama_color siscu.volatile run loot spawn ~ ~ ~ loot siscu:gameplay/randomiser_llama
 execute if predicate siscu:utils/45_percent run scoreboard players add llama_color siscu.volatile 16
 
 execute if score llama_color siscu.volatile matches 0 run data merge entity @s {DecorItem:{id: "minecraft:white_carpet",Count: 1b}}

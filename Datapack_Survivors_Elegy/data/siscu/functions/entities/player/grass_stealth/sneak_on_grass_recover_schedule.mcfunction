@@ -1,0 +1,1 @@
+execute as @a if score @s siscu.grass_stealth matches 1.. run function siscu:entities/player/grass_stealth/sneak_on_grass_recover

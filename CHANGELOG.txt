@@ -1,5 +1,45 @@
 
-# note to the author: change pack.siscu.version (lang)
+
+Survivor's Elegy Alpha v0.5.0 (15/01/2023)
+- Added exclusive 1.19.3 compatibility
+- Added "Curious Bee" Advancement
+- Added lang files
+-- zh_cn (courtesy of IceBear)
+- Added mangrove witch huts
+-- Replace previous swamp huts on mangrove forests
+-- Made of mangrove and jungle wood instead of spruce and oak
+- Added Stealth
+-- Sneaking in tall grass, tall flowers or sugar cane will grant invisibility
+-- Green dust particles will hint at the player's whereabouts
+-- It takes 1 second to notice the effect
+-- Stopping to crouch will restart the sneaking process
+- Changed config panel, now the pack version shown doesn't rely on the resourcepack
+- Changed Wardens
+-- Goat Horns will instantly aggro wardens in a 100 block radius
+-- Wardens with low health will burrow back into the ground and despawn
+--- The warden cannot be hurt while fleeing
+--- It'll just despawn if it's on invalid dig surfaces
+- Changed chorus fruit
+-- Eating one in the end while falling will teleport the player to a ledge
+-- Fall damage will still be applied
+- Changed desert wells, they will now consume only 1 gold ingot instead of whole stacks
+- Changed Trader Llamas, will now properly spawn again on Trader Tents
+- Fixed Endermen's block randomiser
+- Fixed last death message
+-- The dimension is now properly announced
+-- Non-vanilla dimensions will display their id instead of the dimension name
+-- Enhanced the code
+- Fixed Skeleton Villagers holding weapons when they shouldn't
+- Reduced loot on the swamp hut library
+- Replaced swamp huts for witch huts
+-- Generated using proper world generation methods
+-- Old code is mantained in case of badly generated huts in previous versions(It will be removed in upcoming releases)
+-- Uses the same distribution as a vanilla swamp hut
+- Reverted creeper's loot table, they can drop discs again when killed by skeletons
+- Removed Badlands Mineshafts
+- Retextured Copper Chestplates Item
+- Retextured snout banner pattern to a red cloth
+- Reworked randomisers, some of them now use loot tables.
 
 
 Survivor's Elegy Alpha v0.4.4 (07/12/2022)

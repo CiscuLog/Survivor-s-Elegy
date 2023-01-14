@@ -1,6 +1,7 @@
 scoreboard players set @s siscu.item_frame_inv 0
 
 execute if predicate siscu:entities/item_frame/multicheck_items run tag @s add check_again
+execute unless predicate siscu:entities/item_frame/multicheck_items run tag @s remove check_again
 execute if predicate siscu:entities/item_frame/invisible_items run scoreboard players set @s siscu.item_frame_inv 1
 execute if predicate siscu:entities/item_frame/fixed_items if predicate siscu:entities/item_frame/is_rotated run function siscu:entities/item_frame/fix_rotation
 

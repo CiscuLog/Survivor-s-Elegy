@@ -15,7 +15,7 @@
 				"function": "minecraft:set_name",
 				"name": {
 					"translate": "item.siscu.enchanted_saddle",
-					"italic": False
+					"italic": false
 				}
 			},
 			{
@@ -26,7 +26,15 @@
 				"function": "minecraft:set_lore",
 				"lore": [{
 					"text": "Catalyst",
-					"italic": "false",
+					"italic": false,
+					"color": "gray"
+				},
+				{
+					"text": ""
+				},
+				{
+					"text": "Only to be used on Equids",
+					"italic": false,
 					"color": "gray"
 				}]
 			}

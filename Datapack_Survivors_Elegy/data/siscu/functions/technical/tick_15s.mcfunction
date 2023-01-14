@@ -1,6 +1,7 @@
 
-## Drowning ##
+## Entities ##
 execute as @e[type=#siscu:drownable] unless predicate siscu:entities/check_drowning at @s run function siscu:entities/drownable/tick
+execute if entity @e[type=warden] run function siscu:entities/warden/check_warden_1s_schedule
 
 ## Oxidation ##
 execute as @a run function siscu:items/passive_behav/oxidisation_chance

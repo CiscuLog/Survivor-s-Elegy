@@ -1,11 +1,6 @@
 # Get a random integer
 
-execute if predicate siscu:utils/50_percent run scoreboard players operation enderman_block siscu.volatile += 2 siscu.integer
-execute if predicate siscu:utils/50_percent run scoreboard players operation enderman_block siscu.volatile += 3 siscu.integer
-execute if predicate siscu:utils/50_percent run scoreboard players operation enderman_block siscu.volatile += 5 siscu.integer
-execute if predicate siscu:utils/50_percent run scoreboard players operation enderman_block siscu.volatile += 7 siscu.integer
-
-scoreboard players operation enderman_block siscu.volatile %= enderman_block siscu.integer
+execute store result score enderman_block siscu.volatile run loot spawn ~ ~ ~ loot siscu:gameplay/randomiser_enderman
 
 # Pick block depending on the new value
 

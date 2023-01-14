@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "minecraft:swamp_hut"
+    "minecraft:swamp_hut",
+    "siscu:witch_hut_swamp",
+    "siscu:witch_hut_mangrove"
   ]
 }
