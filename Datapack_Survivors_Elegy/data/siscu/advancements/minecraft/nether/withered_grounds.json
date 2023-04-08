@@ -5,10 +5,10 @@
       "item": "minecraft:blackstone"
     },
     "title": {
-      "translate": "Withered Grounds"
+      "translate": "advancements.siscu.minecraft.withered_grounds.title"
     },
     "description": [{
-      "translate": "A dark and ghostly biome"
+      "translate": "advancements.siscu.minecraft.withered_grounds.description"
     },
 	{
 		"text":"\nSurvivor's Elegy",

@@ -5,10 +5,10 @@
       "item": "minecraft:magma_block"
     },
     "title": {
-      "translate": "Metamorphic Caves"
+      "translate": "advancements.siscu.minecraft.metamorphic_caves.title"
     },
     "description": [{
-		"translate": "A zone with very active volcanic activity"
+		"translate": "advancements.siscu.minecraft.metamorphic_caves.description"
     },
 	{
 		"text":"\nSurvivor's Elegy",
