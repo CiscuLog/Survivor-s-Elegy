@@ -1,4 +1,23 @@
 
+Survivor's Elegy Alpha v0.6.0 (09/04/2023)
++ Added Baby Zombies can start riding nearby entities on spawn
++ Added Charcoal from Campfire recipe advancement
++ Added creeper fuse length configuration menu
++ Added sounds to most of the config menu buttons
++ Added Piglin Brute distinctive Golden Axes
++ Added Piglin Brute Headgear. 2 pieces, Unobtainable
+X + Added Piglin Crevices
+X + Added Piglin Decorations: banners and paintings
++ Added custom piglin skeleton crossbow-looking bows to make them able to shoot. Unobtainable
++ Added villager skeleton drops: books for librarians and gold nuggets for cartographers
++ Changed Desert Well particles, now are more contained within the well
++ Changed Enchanter Guides from Wandering Traders, traders now give the item more efficiently
++ Changed doImsonia, it's now on by default again
++ Changed Illager lanter holding detection to be less frequent
++ Fixed Curious Bee advancement's text
++ Fixed Piglin Skeleton skulls not resolving the helmet texture path
++ Reworked creeper fuse randomiser, it now uses scoreboards as number providers
+- Removed day correction feature
 
 Survivor's Elegy Alpha v0.5.0 (15/01/2023)
 - Added exclusive 1.19.3 compatibility
