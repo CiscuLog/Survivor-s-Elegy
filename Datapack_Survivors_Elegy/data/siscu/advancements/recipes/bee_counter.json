@@ -10,7 +10,7 @@
 		"announce_to_chat": false,
 		"hidden": true
 	},
-	"parent": "siscu:recipes/copper_hoe",
+	"parent": "siscu:recipes/copper_boots",
 	"criteria": {
         "0": {
             "trigger": "minecraft:inventory_changed",

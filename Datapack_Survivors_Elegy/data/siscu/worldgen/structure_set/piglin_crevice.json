@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "siscu:piglin_crevice",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 12245679,
+    "spacing": 50,
+    "separation": 8,
+    "type": "minecraft:random_spread"
+  }
+}

@@ -3,7 +3,7 @@ data merge storage siscu:world {PackVersion:"alpha v0.5.0"}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 
 #set gamerules
-gamerule doInsomnia false
+gamerule doInsomnia true
 gamerule doDaylightCycle false
 
 #delete old scoreboards
@@ -48,11 +48,14 @@ scoreboard players set 30 siscu.integer 30
 scoreboard players set 40 siscu.integer 40
 scoreboard players set 60 siscu.integer 60
 scoreboard players set 100 siscu.integer 100
+scoreboard players set 200 siscu.integer 200
 ## daytime variables
 execute unless score daytime_speed siscu.day matches 1.. run scoreboard players set daytime_speed siscu.day 3
 execute unless score sleep_module_on siscu.day matches 0.. run scoreboard players set sleep_module_on siscu.day 1
 ## entities
 scoreboard players set enderman_block siscu.integer 117
+scoreboard players set creeper_max siscu.integer 25
+scoreboard players set creeper_min siscu.integer 35
 ## fire spring variables
 scoreboard players set fire_spring_lava siscu.integer 0
 scoreboard players set fire_spring_flame siscu.integer 50
@@ -62,9 +65,10 @@ scoreboard players set fire_spring_limit siscu.integer 300
 ## withering
 execute unless score withering siscu.integer matches 0..1 run scoreboard players set withering siscu.integer 1
 ## rotting variables
-scoreboard players set rotting_random_limit siscu.integer 10
-scoreboard players set rotting_timer_limit siscu.integer 15
-scoreboard players set zombie_timer_limit siscu.integer 120
+
+execute unless score rotting_random_limit siscu.integer matches 0.. run scoreboard players set rotting_random_limit siscu.integer 10
+execute unless score rotting_timer_limit siscu.integer matches 0.. run scoreboard players set rotting_timer_limit siscu.integer 15
+execute unless score zombie_timer_limit siscu.integer matches 0.. run scoreboard players set zombie_timer_limit siscu.integer 120
 
 # announce
 tellraw @a [{"text":"   Survivor's Elegy","color":"gold","bold":"true"}]

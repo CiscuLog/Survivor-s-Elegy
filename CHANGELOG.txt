@@ -1,4 +1,3 @@
-Changelog:
 
 Survivor's Elegy Alpha v0.6.0 (09/04/2023)
 + Added Baby Zombies can start riding nearby entities on spawn
@@ -7,8 +6,8 @@ Survivor's Elegy Alpha v0.6.0 (09/04/2023)
 + Added sounds to most of the config menu buttons
 + Added Piglin Brute distinctive Golden Axes
 + Added Piglin Brute Headgear. 2 pieces, Unobtainable
-X + Added Piglin Crevices
-X + Added Piglin Decorations: banners and paintings
++ Added Piglin Crevices
++ Added Piglin Decorations: banners and paintings
 + Added custom piglin skeleton crossbow-looking bows to make them able to shoot. Unobtainable
 + Added villager skeleton drops: books for librarians and gold nuggets for cartographers
 + Changed Desert Well particles, now are more contained within the well
