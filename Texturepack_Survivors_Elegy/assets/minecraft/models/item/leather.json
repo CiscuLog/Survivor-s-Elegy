@@ -4,6 +4,14 @@
         "layer0": "item/leather"
     },
     "overrides": [
+	{"predicate": {"custom_model_data": 540001}, "model": "siscu_se:item/crimson_banner_1"},
+	{"predicate": {"custom_model_data": 540002}, "model": "siscu_se:item/crimson_banner_2"},
+	{"predicate": {"custom_model_data": 540003}, "model": "siscu_se:item/crimson_banner_3"},
+	{"predicate": {"custom_model_data": 540004}, "model": "siscu_se:item/crimson_banner_4"},
+	{"predicate": {"custom_model_data": 540020}, "model": "siscu_se:item/crimson_painting_0"},
+	{"predicate": {"custom_model_data": 540021}, "model": "siscu_se:item/crimson_painting_1"},
+	{"predicate": {"custom_model_data": 540022}, "model": "siscu_se:item/crimson_painting_2"},
+	{"predicate": {"custom_model_data": 540023}, "model": "siscu_se:item/crimson_painting_3"},
 	{"predicate": {"custom_model_data": 548101}, "model": "siscu_se:item/piglin_head"},
 	{"predicate": {"custom_model_data": 548102}, "model": "siscu_se:item/villager_head"},
 	{"predicate": {"custom_model_data": 548103}, "model": "siscu_se:item/pillager_head"},
