@@ -12,62 +12,6 @@
 		"condition": "minecraft:entity_properties",
 		"entity":"this",
 		"predicate": {
-			"nbt": "{Item:{id: \"minecraft:leather\", tag:{CustomModelData:540001}}}"
-		}
-	},
-	{
-		"condition": "minecraft:entity_properties",
-		"entity":"this",
-		"predicate": {
-			"nbt": "{Item:{id: \"minecraft:leather\", tag:{CustomModelData:540002}}}"
-		}
-	},
-	{
-		"condition": "minecraft:entity_properties",
-		"entity":"this",
-		"predicate": {
-			"nbt": "{Item:{id: \"minecraft:leather\", tag:{CustomModelData:540003}}}"
-		}
-	},
-	{
-		"condition": "minecraft:entity_properties",
-		"entity":"this",
-		"predicate": {
-			"nbt": "{Item:{id: \"minecraft:leather\", tag:{CustomModelData:540004}}}"
-		}
-	},
-	{
-		"condition": "minecraft:entity_properties",
-		"entity":"this",
-		"predicate": {
-			"nbt": "{Item:{id: \"minecraft:leather\", tag:{CustomModelData:540020}}}"
-		}
-	},
-	{
-		"condition": "minecraft:entity_properties",
-		"entity":"this",
-		"predicate": {
-			"nbt": "{Item:{id: \"minecraft:leather\", tag:{CustomModelData:540021}}}"
-		}
-	},
-	{
-		"condition": "minecraft:entity_properties",
-		"entity":"this",
-		"predicate": {
-			"nbt": "{Item:{id: \"minecraft:leather\", tag:{CustomModelData:540022}}}"
-		}
-	},
-	{
-		"condition": "minecraft:entity_properties",
-		"entity":"this",
-		"predicate": {
-			"nbt": "{Item:{id: \"minecraft:leather\", tag:{CustomModelData:540023}}}"
-		}
-	},
-	{
-		"condition": "minecraft:entity_properties",
-		"entity":"this",
-		"predicate": {
 			"nbt": "{Item:{id: \"minecraft:leather\", tag:{CustomModelData:548101}}}"
 		}
 	},

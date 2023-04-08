@@ -67,15 +67,6 @@
           "name": "minecraft:bone"
         }
       ]
-    },
-    {
-      "rolls": 1.0,
-      "entries": [
-        {
-          "type":"minecraft:loot_table",
-          "name":"siscu:entities/illager_skeleton_loot"
-        }
-      ]
     }
   ]
 }

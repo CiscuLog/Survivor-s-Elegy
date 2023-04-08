@@ -1,2 +1,2 @@
-execute at @s[tag=!holding_lamp] if predicate siscu:utils/75_percent if predicate siscu:entities/take_lamp run function siscu:entities/lamp_holders/set_lamp
-execute at @s[tag=holding_lamp] if predicate siscu:utils/75_percent unless predicate siscu:entities/hide_lamp run function siscu:entities/lamp_holders/clear_lamp
+execute at @s[tag=!holding_lamp] if predicate siscu:utils/25_percent if predicate siscu:entities/take_lamp run function siscu:entities/lamp_holders/set_lamp
+execute at @s[tag=holding_lamp] if predicate siscu:utils/25_percent unless predicate siscu:entities/hide_lamp run function siscu:entities/lamp_holders/clear_lamp

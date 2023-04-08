@@ -5,14 +5,6 @@
 	"advancements.siscu.enchanter_book.description": "Contains ancient glyphs to enchant items",
 	"advancements.siscu.minecraft.fish_all.title":"Fishmonger",
 	"advancements.siscu.minecraft.fish_all.description":"Get every fish",
-	"advancements.siscu.minecraft.place_bee_counter.title": "Curious Bee",
-	"advancements.siscu.minecraft.place_bee_counter.description": "Place a Bee Counter in an Item Frame",
-	"advancements.siscu.minecraft.fire_spring.title":"Hot Spot",
-	"advancements.siscu.minecraft.fire_spring.description":"Blow a fire spring up",
-	"advancements.siscu.minecraft.metamorphic_caves.title":"Metamorphic Caves",
-	"advancements.siscu.minecraft.metamorphic_caves.description":"A zone with very active volcanic activity",
-	"advancements.siscu.minecraft.withered_grounds.title":"Withered Grounds",
-	"advancements.siscu.minecraft.withered_grounds.description":"A dark and ghostly biome",
 
 	"entity.siscu.dungeon_trader": "Dungeon Trader",
 	"entity.siscu.fire_spring": "Incandescent Matter",
@@ -96,7 +88,7 @@
 	"item.siscu.zoglin_head": "Zoglin Head",
 
 	"pack.siscu": "Survivor's Elegy",
-	"pack.siscu.version": "alpha v0.5.1",
+	"pack.siscu.version": "alpha v0.4.4",
 
 	"text.siscu.click_to_wear1": "Press ",
 	"text.siscu.click_to_wear2": " to wear",

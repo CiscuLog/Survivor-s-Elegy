@@ -6,7 +6,12 @@ tag @s add skeleton_checked
 
 ## Piglin skeletons
 execute at @s if predicate siscu:utils/75_percent if predicate siscu:utils/check_the_nether run tag @s add piglin
-execute if entity @s[tag=piglin] run function siscu:entities/skeleton/piglin
+execute unless predicate siscu:entities/is_riding_skeleton_horse run loot replace entity @s[tag=piglin] weapon loot siscu:groups/piglin_weapons
+loot replace entity @s[tag=piglin] weapon.offhand loot siscu:groups/piglin_shields
+loot replace entity @s[tag=piglin] armor.head loot siscu:groups/skeleton_heads_piglin
+loot replace entity @s[tag=piglin] armor.chest loot siscu:groups/piglin_chestplates
+loot replace entity @s[tag=piglin] armor.legs loot siscu:groups/piglin_leggings
+loot replace entity @s[tag=piglin] armor.feet loot siscu:groups/piglin_boots
 
 ## Villager Skeletons
 execute at @s if predicate siscu:utils/5_percent if predicate siscu:utils/check_overworld run tag @s add villager

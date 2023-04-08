@@ -11,5 +11,5 @@ DPS = Damage * Speed
 
 ## Speed ##
 X=-(1-(s/4))
-	s = weapon speed (as in the DPS formula)
+	s = weapon speed
 	x = actual value

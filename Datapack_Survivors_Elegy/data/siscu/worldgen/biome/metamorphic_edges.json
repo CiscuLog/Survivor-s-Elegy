@@ -94,7 +94,7 @@
       "charge": 0.1
     }
   },
-  "has_precipitation": false,
+  "precipitation": "none",
   "temperature": 2.0,
   "downfall": 0.0,
   "category": "nether"

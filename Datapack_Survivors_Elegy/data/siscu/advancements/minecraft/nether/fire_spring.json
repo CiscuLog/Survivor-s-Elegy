@@ -5,10 +5,10 @@
       "item": "minecraft:tnt"
     },
     "title": {
-      "translate": "advancements.siscu.minecraft.fire_spring.title"
+      "translate": "Hot Spot"
     },
     "description": [{
-      "translate": "advancements.siscu.minecraft.fire_spring.description"
+      "translate": "Blow a fire spring up"
     },
 	{
 		"text":"\nSurvivor's Elegy",

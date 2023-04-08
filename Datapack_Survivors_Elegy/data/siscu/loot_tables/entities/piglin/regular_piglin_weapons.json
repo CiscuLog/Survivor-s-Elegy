@@ -10,8 +10,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bow",
-          "weight":1
+          "name": "minecraft:crossbow",
+	  "weight":1
         }
       ]
     }

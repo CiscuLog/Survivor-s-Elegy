@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:block/soul_torch"
+  },
+	"overrides": [
+	{"predicate": {"custom_model_data": 548101}, "model": "siscu_se:item/lit_gray_candle"}
+	]
+}

@@ -16,11 +16,6 @@
             "prefix": "entity/"
         },
         {
-            "type": "directory",
-            "source": "models",
-            "prefix": "models/"
-        },
-        {
             "type": "single",
             "resource": "entity/bell/bell_body"
         },

@@ -16,5 +16,3 @@ execute as @s[tag=special] run function siscu:entities/zombie/equip_special_zomb
 # Set nbt
 
 execute if predicate siscu:entities/holding_axe run data merge entity @s[tag=!special] {CanBreakDoors: 1b}
-
-execute at @s[predicate=siscu:utils/is_baby] if predicate siscu:utils/10_percent run ride @s mount @e[type=#siscu:zombie_rideable,limit=1,sort=random,distance=..5,predicate=!siscu:entities/is_being_ridden]

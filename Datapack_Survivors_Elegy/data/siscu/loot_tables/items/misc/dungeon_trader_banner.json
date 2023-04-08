@@ -1,0 +1,26 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:yellow_banner",
+			"functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{BlockEntityTag: {Patterns: [{Pattern: \"gru\", Color: 14}, {Pattern: \"gra\", Color: 1}, {Pattern: \"glb\", Color: 4}], id: \"minecraft:banner\"}}"
+			},
+			{
+				"function": "minecraft:set_name",
+				"name": {
+					"translate": "item.siscu.dungeon_trader_banner",
+					"italic": False
+				}
+			}
+			]
+		}
+		]
+	}
+	]
+}
