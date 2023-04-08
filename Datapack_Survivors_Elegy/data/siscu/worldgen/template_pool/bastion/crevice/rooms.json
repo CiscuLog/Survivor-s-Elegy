@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "siscu:bastion/crevice/rooms/small_0",
-        "processors": "siscu:old_mineshaft",
+        "processors": "siscu:bastion",
         "projection": "rigid"
       },
       "weight": 20
@@ -15,7 +15,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "siscu:bastion/crevice/rooms/small_1",
-        "processors": "siscu:old_mineshaft",
+        "processors": "siscu:bastion",
         "projection": "rigid"
       },
       "weight": 20
@@ -24,7 +24,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "siscu:bastion/crevice/rooms/small_2",
-        "processors": "siscu:old_mineshaft",
+        "processors": "siscu:bastion",
         "projection": "rigid"
       },
       "weight": 20
@@ -33,7 +33,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "siscu:bastion/crevice/rooms/small_3",
-        "processors": "siscu:old_mineshaft",
+        "processors": "siscu:bastion",
         "projection": "rigid"
       },
       "weight": 20
@@ -42,7 +42,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "siscu:bastion/crevice/rooms/small_4",
-        "processors": "siscu:old_mineshaft",
+        "processors": "siscu:bastion",
         "projection": "rigid"
       },
       "weight": 20
@@ -51,7 +51,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "siscu:bastion/crevice/rooms/small_5",
-        "processors": "siscu:old_mineshaft",
+        "processors": "siscu:bastion",
         "projection": "rigid"
       },
       "weight": 20
@@ -60,7 +60,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "siscu:bastion/crevice/rooms/small_6",
-        "processors": "siscu:old_mineshaft",
+        "processors": "siscu:bastion",
         "projection": "rigid"
       },
       "weight": 20
@@ -69,7 +69,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "siscu:bastion/crevice/rooms/small_7",
-        "processors": "siscu:old_mineshaft",
+        "processors": "siscu:bastion",
         "projection": "rigid"
       },
       "weight": 20
@@ -78,7 +78,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "siscu:bastion/crevice/rooms/small_8",
-        "processors": "siscu:old_mineshaft",
+        "processors": "siscu:bastion",
         "projection": "rigid"
       },
       "weight": 20
@@ -87,7 +87,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "siscu:bastion/crevice/rooms/small_9",
-        "processors": "siscu:old_mineshaft",
+        "processors": "siscu:bastion",
         "projection": "rigid"
       },
       "weight": 20

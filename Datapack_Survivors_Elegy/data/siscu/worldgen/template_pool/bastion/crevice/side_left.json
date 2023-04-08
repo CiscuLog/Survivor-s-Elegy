@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "siscu:bastion/crevice/walls/crevice_0_left",
-        "processors": "siscu:old_mineshaft",
+        "processors": "siscu:bastion",
         "projection": "rigid"
       },
       "weight": 20
