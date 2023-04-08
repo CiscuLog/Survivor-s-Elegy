@@ -1,3 +1,4 @@
+Changelog:
 
 Survivor's Elegy Alpha v0.6.0 (09/04/2023)
 + Added Baby Zombies can start riding nearby entities on spawn
