@@ -1,0 +1,15 @@
+{
+  "name": "siscu:bastion_crevice_building",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:bastion/crevice/base/crevice_0",
+        "processors": "siscu:old_mineshaft",
+        "projection": "rigid"
+      },
+      "weight": 20
+    }
+  ]
+}

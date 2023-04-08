@@ -1,0 +1,15 @@
+{
+  "name": "siscu:bastion_side_left",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:bastion/crevice/walls/crevice_0_left",
+        "processors": "siscu:old_mineshaft",
+        "projection": "rigid"
+      },
+      "weight": 20
+    }
+  ]
+}
