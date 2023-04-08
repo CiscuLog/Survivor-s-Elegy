@@ -164,6 +164,42 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "siscu_se:font/recipes/crafting_copper_helmet.png",
+			"ascent": 6,
+			"height": 68,
+			"chars": [
+				"\uE00B"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/recipes/crafting_copper_chestplate.png",
+			"ascent": 6,
+			"height": 68,
+			"chars": [
+				"\uE00C"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/recipes/crafting_copper_leggings.png",
+			"ascent": 6,
+			"height": 68,
+			"chars": [
+				"\uE00D"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/recipes/crafting_copper_boots.png",
+			"ascent": 6,
+			"height": 68,
+			"chars": [
+				"\uE00E"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "siscu_se:font/recipes/inventory_crimson_stew.png",
 			"ascent": 6,
 			"height": 50,
@@ -376,6 +412,15 @@
 			"height": 68,
 			"chars": [
 				"\uE801"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/recipes/campfire_charcoal.png",
+			"ascent": 6,
+			"height": 68,
+			"chars": [
+				"\uE802"
 			]
 		}
 	]
