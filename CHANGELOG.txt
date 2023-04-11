@@ -1,3 +1,5 @@
+Survivor's Elegy Alpha v0.6.1 (10/04/2023)
++ Fixed update mechanism between 0.5 and 0.6
 
 Survivor's Elegy Alpha v0.6.0 (09/04/2023)
 + Added Baby Zombies can start riding nearby entities on spawn
