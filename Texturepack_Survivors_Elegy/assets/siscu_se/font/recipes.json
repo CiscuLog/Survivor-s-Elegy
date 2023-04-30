@@ -335,6 +335,24 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "siscu_se:font/recipes/smoking_cod.png",
+			"ascent": 6,
+			"height": 68,
+			"chars": [
+				"\uE500"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/recipes/smoking_salmon.png",
+			"ascent": 6,
+			"height": 68,
+			"chars": [
+				"\uE501"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "siscu_se:font/recipes/stonecutting_scaffolding.png",
 			"ascent": 6,
 			"height": 32,
@@ -403,6 +421,15 @@
 			"height": 50,
 			"chars": [
 				"\uE700"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/recipes/brewing_pufferfish.png",
+			"ascent": 6,
+			"height": 50,
+			"chars": [
+				"\uE701"
 			]
 		},
 		{

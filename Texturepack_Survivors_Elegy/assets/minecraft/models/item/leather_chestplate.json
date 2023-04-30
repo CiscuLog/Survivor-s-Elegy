@@ -5,6 +5,7 @@
         "layer1": "item/leather_chestplate_overlay"
     },
     "overrides": [
+	{"predicate": {"custom_model_data": 540000}, "model": "siscu_se:item/copper_armor"},
 	{"predicate": {"custom_model_data": 548101}, "model": "siscu_se:item/copper_chestplate"},
 	{"predicate": {"custom_model_data": 548102}, "model": "siscu_se:item/exposed_copper_chestplate"},
 	{"predicate": {"custom_model_data": 548103}, "model": "siscu_se:item/weathered_copper_chestplate"},

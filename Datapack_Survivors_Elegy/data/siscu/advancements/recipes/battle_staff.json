@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"item": "minecraft:stick",
-			"nbt": "{CustomModelData:548101}"
+			"nbt": "{CustomModelData:540000}"
 		},
-		"title": {"text":"        "},
-		"description": {"text":"\uE000\u000A\u000A\u000A\u000A\u000A\u000A\u000A","font":"siscu_se:recipes","color":"white"},
+		"title": {"text":"                        "},
+		"description": {"text":"\uE000\uE001\u000A\u000A\u000A\u000A\u000A\u000A\u000A","font":"siscu_se:recipes","color":"white"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true
@@ -16,7 +16,7 @@
             "trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [{
-					"items": ["stick"]
+					"items": ["stick","bamboo"]
 				}]
 			}
         }

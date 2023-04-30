@@ -1,5 +1,5 @@
 # Storages
-data merge storage siscu:world {PackVersion:"alpha v0.6.1"}
+data merge storage siscu:world {PackVersion:"alpha v0.6.2"}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 
 #set gamerules
@@ -54,8 +54,8 @@ execute unless score daytime_speed siscu.day matches 1.. run scoreboard players 
 execute unless score sleep_module_on siscu.day matches 0.. run scoreboard players set sleep_module_on siscu.day 1
 ## entities
 scoreboard players set enderman_block siscu.integer 117
-scoreboard players set creeper_max siscu.integer 25
-scoreboard players set creeper_min siscu.integer 35
+scoreboard players set creeper_max siscu.integer 35
+scoreboard players set creeper_min siscu.integer 25
 ## fire spring variables
 scoreboard players set fire_spring_lava siscu.integer 0
 scoreboard players set fire_spring_flame siscu.integer 50

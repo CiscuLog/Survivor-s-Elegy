@@ -1,7 +1,6 @@
 {
   "replace": true,
   "values": [
-    "minecraft:water",
-    "minecraft:frosted_ice"
+    "minecraft:water"
   ]
 }

@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"item": "minecraft:leather_chestplate",
-			"nbt": "{CustomModelData:548101}"
+			"nbt": "{CustomModelData:540000}"
 		},
-		"title": {"text":""},
-		"description": {"text":"\uE00C\u000A\u000A\u000A\u000A\u000A\u000A\u000A","font":"siscu_se:recipes","color":"white"},
+		"title": {"text":"                        "},
+		"description": {"text":"\uE00B\uE00C\u000A\u000A\u000A\u000A\u000A\u000A\u000A\u000A\uE00D\uE00E\u000A\u000A\u000A\u000A\u000A\u000A\u000A","font":"siscu_se:recipes","color":"white"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

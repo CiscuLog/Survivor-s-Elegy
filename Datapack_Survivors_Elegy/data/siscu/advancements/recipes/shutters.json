@@ -10,7 +10,7 @@
 		"announce_to_chat": false,
 		"hidden": true
 	},
-	"parent": "siscu:recipes/battle_staff_bamboo",
+	"parent": "siscu:recipes/battle_staff",
 	"criteria": {
         "0": {
             "trigger": "minecraft:inventory_changed",

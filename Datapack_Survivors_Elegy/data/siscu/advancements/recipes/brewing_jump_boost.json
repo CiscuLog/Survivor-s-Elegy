@@ -1,8 +1,8 @@
 {
 	"display":{
 		"icon": {
-			"item": "minecraft:rabbit_foot",
-			"nbt": "{CustomModelData:548101}"
+			"item": "minecraft:potion",
+			"nbt": "{Potion:\"minecraft:leaping\"}"
 		},
 		"title": {"text":""},
 		"description": {"text":"\uE700\u000A\u000A\u000A\u000A\u000A","font":"siscu_se:recipes","color":"white"},

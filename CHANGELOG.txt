@@ -1,3 +1,14 @@
+
+Survivor's Elegy Alpha v0.6.2 (30/04/2023)
++ Added new recipe advancements
++ Added Fancy Saddles shader
++ Added Netherite Horse Armor texture
++ Condensed some recipe advancements into a single advancement
++ Fixed Creeper fuse variation's default max and min values
++ Fixed Netherite Horse Armor shouldn't be undyed using cauldrons
++ Retextured Netherite Horse Armor item
+- Removed Spider mob Spawners from woodland mansions
+
 Survivor's Elegy Alpha v0.6.1 (10/04/2023)
 + Fixed update mechanism between 0.5 and 0.6
 

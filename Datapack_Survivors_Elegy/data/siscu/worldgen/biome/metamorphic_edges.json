@@ -76,6 +76,7 @@
       },
       {
         "type": "minecraft:magma_cube",
+        "weight": 1,
         "maxCount": 5,
         "minCount": 2
       }
