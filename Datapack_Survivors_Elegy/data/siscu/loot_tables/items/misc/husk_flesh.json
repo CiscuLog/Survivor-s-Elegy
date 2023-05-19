@@ -15,7 +15,7 @@
 				"function": "minecraft:set_name",
 				"name": {
 					"translate": "item.siscu.husk_flesh",
-					"italic": False
+					"italic": false
 				}
 			}
 			]

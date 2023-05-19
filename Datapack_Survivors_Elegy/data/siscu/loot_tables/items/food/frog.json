@@ -15,7 +15,7 @@
 				"function": "minecraft:set_name",
 				"name": {
 					"translate": "item.siscu.frog",
-					"italic": False
+					"italic": false
 				}
 			}
 			]

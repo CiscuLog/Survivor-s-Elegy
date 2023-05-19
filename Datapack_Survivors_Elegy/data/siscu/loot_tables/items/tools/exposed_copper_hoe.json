@@ -15,7 +15,7 @@
 				"function": "minecraft:set_name",
 				"name": {
 					"translate": "item.siscu.exposed_copper_hoe",
-					"italic": False
+					"italic": false
 				}
 			}
 			]

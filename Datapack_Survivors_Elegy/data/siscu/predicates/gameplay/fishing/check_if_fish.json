@@ -36,6 +36,10 @@
 	{
 		"condition": "minecraft:reference",
 		"name": "siscu:gameplay/fishing/tuna_biomes"
+	},
+	{
+		"condition": "minecraft:reference",
+		"name": "siscu:gameplay/fishing/turbot_biomes"
 	}
 	]
 }

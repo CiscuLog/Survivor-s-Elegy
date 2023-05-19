@@ -10,6 +10,30 @@
 	{
 		"condition": "minecraft:location_check",
 		"predicate": {
+			"biome": "minecraft:birch_forest"
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biome": "minecraft:old_growth_birch_forest"
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biome": "minecraft:dark_forest"
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biome": "minecraft:desert"
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
 			"biome": "minecraft:savanna"
 		}
 	},
@@ -23,6 +47,24 @@
 		"condition": "minecraft:location_check",
 		"predicate": {
 			"biome": "minecraft:windswept_savanna"
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biome": "minecraft:badlands"
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biome": "minecraft:wooded_badlands"
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biome": "minecraft:eroded_badlands"
 		}
 	},
 	{

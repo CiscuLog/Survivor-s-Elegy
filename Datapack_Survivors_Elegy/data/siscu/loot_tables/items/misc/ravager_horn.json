@@ -15,7 +15,7 @@
 				"function": "minecraft:set_name",
 				"name": {
 					"translate": "item.siscu.ravager_horn",
-					"italic": False
+					"italic": false
 				}
 			}
 			]

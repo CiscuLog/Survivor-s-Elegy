@@ -15,7 +15,7 @@
 				"function": "minecraft:set_name",
 				"name": {
 					"translate": "item.siscu.bass",
-					"italic": False
+					"italic": false
 				}
 			}
 			]

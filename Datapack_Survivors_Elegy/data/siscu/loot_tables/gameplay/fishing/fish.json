@@ -72,15 +72,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "siscu:items/food/frog",
-		  "weight": 5,
-		  "conditions": [{
-			  "condition": "minecraft:reference",
-			  "name": "siscu:gameplay/fishing/frog_biomes"
-		  }]
-        },
-        {
-          "type": "minecraft:loot_table",
           "name": "siscu:items/food/tuna",
 		  "weight": 10,
 		  "conditions": [{
@@ -113,6 +104,15 @@
 		  "conditions": [{
 			  "condition": "minecraft:reference",
 			  "name": "siscu:gameplay/fishing/koi_biomes"
+		  }]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "siscu:items/food/turbot",
+		  "weight": 10,
+		  "conditions": [{
+			  "condition": "minecraft:reference",
+			  "name": "siscu:gameplay/fishing/turbot_biomes"
 		  }]
         }
       ]

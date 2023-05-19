@@ -15,7 +15,7 @@
 				"function": "minecraft:set_name",
 				"name": {
 					"translate": "item.siscu.copper_axe",
-					"italic": False
+					"italic": false
 				}
 			}
 			]

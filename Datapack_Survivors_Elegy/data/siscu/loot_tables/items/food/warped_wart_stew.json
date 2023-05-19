@@ -15,7 +15,7 @@
 				"function": "minecraft:set_name",
 				"name": {
 					"translate": "item.siscu.warped_wart_stew",
-					"italic": False,
+					"italic": false,
 					"color": "aqua"
 				}
 			}

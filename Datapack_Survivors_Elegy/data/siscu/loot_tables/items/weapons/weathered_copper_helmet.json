@@ -15,7 +15,7 @@
 				"function": "minecraft:set_name",
 				"name": {
 					"translate": "item.siscu.weathered_copper_helmet",
-					"italic": False
+					"italic": false
 				}
 			}
 			]

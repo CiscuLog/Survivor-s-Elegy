@@ -1,4 +1,20 @@
 
+Compatible Minecraft versions: 1.19.4
+
+Survivor's Elegy Alpha v0.6.3 (xx/xx/2023)
++ Added Chainmail Horse Armor
++ Added Copper Horse Armor, can be crafted with 7 copper
++ Added Master Armorer Villagers trade chainmail horse armor
++ Added Echo Shard particles showing at the bell when ringing it with echo shards
++ Added Turbot fish, can be caught on dripstone caves, deep dark, beach and shallow ocean biomes
++ Added Villager Skeleton Drops depending on profession
++ Added Wardens can leave behind a patch of sculk when fleeing
++ Changed general fish biome distribution
++ Fixed Netherite Horse Armor to protect the correct amount
++ Fixed Custom Horse Armor losing its texture when interacted with water cauldrons
++ Fixed custom block interaction raycast when crawling happening on the wrong location
+- Frog Legs can no longer be obtained via fishing
+
 Survivor's Elegy Alpha v0.6.2 (30/04/2023)
 + Added new recipe advancements
 + Added Fancy Saddles shader

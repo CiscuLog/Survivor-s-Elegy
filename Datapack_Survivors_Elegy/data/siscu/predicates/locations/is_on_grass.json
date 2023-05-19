@@ -1,0 +1,9 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"stepping_on": {
+			"block": {"blocks":["grass_block","podzol","mycelium"]}
+		}
+	}
+}

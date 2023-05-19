@@ -19,12 +19,12 @@
 				"function": "minecraft:set_name",
 				"name": {
 					"translate": "item.siscu.netherite_horse_armor",
-					"italic": False
+					"italic": false
 				}
 			},
 			{
 				"function": "minecraft:set_nbt",
-				"tag": "{HideFlags:64}"
+				"tag": "{HideFlags:66}"
 			},
 			{
 				"function": "minecraft:set_attributes",
@@ -33,7 +33,7 @@
 					"attribute": "generic.armor",
 					"name": "generic.armor",
 					"operation": "addition",
-					"amount": 11,
+					"amount": 8,
 					"slot": "chest"
 				}
 				]
@@ -59,6 +59,32 @@
 					"operation": "addition",
 					"amount": 3,
 					"slot": "chest"
+				}
+				]
+			},
+			{
+				"function": "minecraft:set_lore",
+				"lore": [
+				{"text":""},
+				{
+					"text": "When equipped:",
+					"italic": false,
+					"color": "gray"
+				},
+				{
+					"text": " 11 Armor",
+					"italic": false,
+					"color": "dark_green"
+				},
+				{
+					"text": " 1 Armor Toughness",
+					"italic": false,
+					"color": "dark_green"
+				},
+				{
+					"text": " 1 Knockback Resistance",
+					"italic": false,
+					"color": "dark_green"
 				}
 				]
 			}

@@ -13,6 +13,7 @@
   "overrides": [
 	{"predicate": {"custom_model_data": 540000}, "model": "siscu_se:item/fish"},
 	{"predicate": {"custom_model_data": 548101}, "model": "siscu_se:item/catfish"},
-	{"predicate": {"custom_model_data": 548102}, "model": "siscu_se:item/tuna"}
+	{"predicate": {"custom_model_data": 548102}, "model": "siscu_se:item/tuna"},
+	{"predicate": {"custom_model_data": 548103}, "model": "siscu_se:item/turbot"}
   ]
 }

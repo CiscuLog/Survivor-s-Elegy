@@ -15,7 +15,7 @@
 				"function": "minecraft:set_name",
 				"name": {
 					"translate": " ",
-					"italic": False
+					"italic": false
 				}
 			},
 			{

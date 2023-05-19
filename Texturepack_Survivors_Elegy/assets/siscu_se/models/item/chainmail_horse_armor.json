@@ -1,0 +1,6 @@
+{
+	"parent":"siscu_se:item/netherite_horse_armor",
+	"textures": {
+		"0": "siscu_se:item/chainmail_horse_armor"
+	}
+}

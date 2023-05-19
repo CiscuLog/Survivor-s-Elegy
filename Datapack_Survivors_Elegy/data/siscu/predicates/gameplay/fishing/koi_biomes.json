@@ -6,6 +6,18 @@
 		"predicate": {
 			"biome": "minecraft:flower_forest"
 		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biome": "minecraft:cherry_grove"
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biome": "minecraft:lush_caves"
+		}
 	}
 	]
 }

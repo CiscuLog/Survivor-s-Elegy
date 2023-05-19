@@ -15,7 +15,7 @@
 				"function": "minecraft:set_name",
 				"name": {
 					"translate": "item.siscu.oxidised_copper_helmet",
-					"italic": False
+					"italic": false
 				}
 			}
 			]

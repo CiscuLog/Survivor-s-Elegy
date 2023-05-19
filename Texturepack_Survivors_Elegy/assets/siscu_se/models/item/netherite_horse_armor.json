@@ -2,7 +2,7 @@
 	"credit": "Made by CiscuLog with Blockbench",
 	"textures": {
 		"0": "siscu_se:item/netherite_horse_armor",
-		"particle": "siscu_se:item/netherite_horse_armor"
+		"particle": "#0"
 	},
 	"elements": [
 		{

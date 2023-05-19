@@ -8,3 +8,4 @@ loot replace entity @s armor.legs loot siscu:groups/piglin_leggings
 loot replace entity @s armor.feet loot siscu:groups/piglin_boots
 
 execute if predicate siscu:entities/skeleton_bow run data merge entity @s {HandDropChances:[0.0f,0.0f]}
+data modify entity @s ArmorDropChances[3] set value 0.0f
