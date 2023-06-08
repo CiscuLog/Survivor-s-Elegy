@@ -1,0 +1,141 @@
+{
+  "name": "siscu:jungle_ruins/houses",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/jungle_ruins/houses/4x5",
+        "processors": "siscu:jungle_ruins",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/jungle_ruins/houses/5x5",
+        "processors": "siscu:jungle_ruins",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/jungle_ruins/houses/big_1",
+        "processors": "siscu:jungle_ruins",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/jungle_ruins/houses/big_2",
+        "processors": "siscu:jungle_ruins",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/jungle_ruins/houses/blacksmith_1",
+        "processors": "siscu:jungle_ruins",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/jungle_ruins/houses/blacksmith_2",
+        "processors": "siscu:jungle_ruins",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/jungle_ruins/houses/butcher_1",
+        "processors": "siscu:jungle_ruins",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/jungle_ruins/houses/butcher_2",
+        "processors": "siscu:jungle_ruins",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/jungle_ruins/houses/church",
+        "processors": "siscu:jungle_ruins",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/jungle_ruins/houses/library_1",
+        "processors": "siscu:jungle_ruins",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/jungle_ruins/houses/library_2",
+        "processors": "siscu:jungle_ruins",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/jungle_ruins/houses/small_farm_wet",
+        "processors": "siscu:jungle_ruins_farm",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/jungle_ruins/houses/small_farm_dry",
+        "processors": "siscu:jungle_ruins_farm",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/jungle_ruins/houses/big_farm_wet",
+        "processors": "siscu:jungle_ruins_farm",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/jungle_ruins/houses/big_farm_dry",
+        "processors": "siscu:jungle_ruins_farm",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

@@ -12,6 +12,10 @@ execute as @a run function siscu:items/passive_behav/oxidisation_chance
 ## Desert Wells ##
 execute if entity @e[type=marker,tag=siscu.well_unused] run function siscu:world/desert_well/reward_schedule
 
+## Worldgen ##
+execute if entity @e[type=marker,tag=siscu.cobble_column] run function siscu:world/jungle_ruins/cobble_column
+execute if entity @e[type=marker,tag=siscu.dirt_column] run function siscu:world/jungle_ruins/dirt_column
+
 kill @e[predicate=siscu:locations/check_void]
 
 function siscu:technical/tick_15s_schedule

@@ -5,14 +5,18 @@
 		{
 			"trigger":"minecraft:item_used_on_block",
 			"conditions": {
-				"item": {
-					"items":["leather_helmet","leather_chestplate","leather_leggings","leather_boots","leather_horse_armor"]
-				},
-				"location": {
-					"block": {
-						"blocks": ["water_cauldron","cauldron"]
+				"location": [
+					{
+						"condition": "location_check",
+						"predicate": {"blocks": ["water_cauldron","cauldron"]}
+					},
+					{
+						"condition": "match_tool",
+						"predicate": {
+							"items": ["leather_helmet","leather_chestplate","leather_leggings","leather_boots","leather_horse_armor"]
+						}
 					}
-				}
+				]
 			}
 		}
 	},

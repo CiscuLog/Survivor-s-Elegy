@@ -5,11 +5,11 @@
 		"entries": [
 		{
 			"type": "minecraft:item",
-			"name": "minecraft:golden_horse_armor",
+			"name": "minecraft:leather_horse_armor",
 			"functions": [
 			{
 				"function": "minecraft:set_nbt",
-				"tag": "{CustomModelData:548101}"
+				"tag": "{CustomModelData:548104,display:{color:16773210},HideFlags:66}"
 			},
 			{
 				"function": "minecraft:set_name",
@@ -30,8 +30,16 @@
 				"entity": "this"
 			},
 			{
-				"function": "minecraft:set_nbt",
-				"tag": "{HideFlags:64}"
+				"function": "minecraft:set_attributes",
+				"modifiers": [
+				{
+					"attribute": "generic.armor",
+					"name": "generic.armor",
+					"operation": "addition",
+					"amount": 4,
+					"slot": "chest"
+				}
+				]
 			}
 			]
 		}

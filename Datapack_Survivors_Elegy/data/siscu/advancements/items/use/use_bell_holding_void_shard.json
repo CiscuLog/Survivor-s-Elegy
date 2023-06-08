@@ -5,14 +5,18 @@
 		{
 			"trigger":"minecraft:item_used_on_block",
 			"conditions": {
-				"item": {
-					"items":["minecraft:echo_shard"]
-				},
-				"location": {
-					"block": {
-						"blocks": ["bell"]
+				"location": [
+					{
+						"condition": "location_check",
+						"predicate": {"blocks": ["bell"]}
+					},
+					{
+						"condition": "match_tool",
+						"predicate": {
+							"items": ["echo_shard"]
+						}
 					}
-				}
+				]
 			}
 		}
 	},

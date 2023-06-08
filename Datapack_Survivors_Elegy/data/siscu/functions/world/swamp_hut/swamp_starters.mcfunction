@@ -1,4 +1,4 @@
-function siscu:world/swamp_hut/log_pillars_schedule
+execute as @e[tag=swamp_hut_pillar] at @s run function siscu:world/swamp_hut/log_pillars
 function siscu:world/swamp_hut/old_pillars_clear_schedule
 
 execute as @e[type=marker,tag=swamp_hut_bedroom_cabinet] at @s run data merge block ~ ~ ~ {LootTable:"siscu:chests/swamp_hut_bedroom_cabinet"}

@@ -7,14 +7,20 @@
       "Name": "minecraft:crying_obsidian"
     },
     "planted": false,
-    "valid_base_block": {
-      "Name": "minecraft:basalt"
+    "replaceable_blocks": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:basalt"
+      ]
     },
     "stem_state": {
+      "Name": "minecraft:basalt",
       "Properties": {
         "axis": "y"
-      },
-      "Name": "minecraft:basalt"
+      }
+    },
+    "valid_base_block": {
+        "Name": "minecraft:basalt"
     }
   },
   "type": "minecraft:huge_fungus"
