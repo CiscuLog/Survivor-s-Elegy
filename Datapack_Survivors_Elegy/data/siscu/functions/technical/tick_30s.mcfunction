@@ -3,7 +3,7 @@
 execute as @e[type=#siscu:rotting_mobs_all,tag=!rotting_protected] run function siscu:entities/rotting_mobs/rot
 
 ## Withering ##
-execute if score withering siscu.integer matches 1 as @e[type=#withering_vulnerable] run function siscu:world/withering/withering
+execute if score withering siscu.integer matches 1 as @e[type=#siscu:withering_vulnerable] run function siscu:world/withering/withering
 
 ## Ambient Effects ##
 execute as @e[type=marker,tag=fire_spring] at @s run function siscu:entities/blaze/fire_spring/fire_spring_effects

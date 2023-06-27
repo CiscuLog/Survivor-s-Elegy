@@ -4,4 +4,4 @@ tag @s add creeper_checked
 
 # Run the randomiser
 
-function siscu:entities/creeper/set_fuse
+execute unless score server_status siscu.integer matches 0 run function siscu:entities/creeper/set_fuse

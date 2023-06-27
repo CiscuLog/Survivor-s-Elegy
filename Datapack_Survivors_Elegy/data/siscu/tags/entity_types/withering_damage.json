@@ -2,14 +2,17 @@
   "replace": false,
   "values": [
     "minecraft:player",
+    "minecraft:allay",
     "minecraft:axolotl",
     "minecraft:bat",
+    "minecraft:camel",
     "minecraft:cat",
     "minecraft:chicken",
     "minecraft:cod",
     "minecraft:cow",
     "minecraft:donkey",
     "minecraft:fox",
+    "minecraft:frog",
     "minecraft:glow_squid",
     "minecraft:horse",
     "minecraft:mooshroom",
@@ -21,7 +24,9 @@
     "minecraft:rabbit",
     "minecraft:salmon",
     "minecraft:sheep",
+    "minecraft:sniffer",
     "minecraft:squid",
+    "minecraft:tadpole",
     "minecraft:tropical_fish",
     "minecraft:turtle",
     "minecraft:villager",
@@ -52,6 +57,7 @@
     "minecraft:zombie",
     "minecraft:zombie_horse",
     "minecraft:zombie_villager",
-    "minecraft:slime"
+    "minecraft:slime",
+    "minecraft:warden"
   ]
 }

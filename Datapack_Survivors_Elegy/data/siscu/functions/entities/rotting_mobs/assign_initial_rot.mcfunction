@@ -1,10 +1,8 @@
 tag @s add rot_checked
 
-execute if predicate siscu:utils/75_percent run scoreboard players operation @s siscu.rotting_mob += 2 siscu.integer
-execute if predicate siscu:utils/75_percent run scoreboard players operation @s siscu.rotting_mob += 3 siscu.integer
-execute if predicate siscu:utils/75_percent run scoreboard players operation @s siscu.rotting_mob += 5 siscu.integer
-execute if predicate siscu:utils/75_percent run scoreboard players operation @s siscu.rotting_mob += 7 siscu.integer
-
-scoreboard players operation @s siscu.rotting_mob %= rotting_random_limit siscu.integer
+scoreboard players set random_min siscu.volatile 0
+scoreboard players operation random_max siscu.volatile = rotting_random_limit siscu.integer
+function siscu:technical/server_mode_alternate_randomiser
+scoreboard players operation @s siscu.rotting_mob = server_randN siscu.volatile
 
 #execute if predicate siscu:utils/is_baby run scoreboard players reset @s siscu.rotting_mob

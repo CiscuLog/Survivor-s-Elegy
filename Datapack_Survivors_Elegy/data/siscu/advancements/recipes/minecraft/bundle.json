@@ -1,0 +1,15 @@
+{
+	"criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["leather","rabbit_hide"]
+				}]
+			}
+        }
+    },
+	"rewards": {
+		"recipes": ["siscu:bundle"]
+	}
+}

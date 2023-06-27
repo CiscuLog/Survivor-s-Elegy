@@ -1,4 +1,5 @@
 {
+  "type": "minecraft:barter",
   "pools": [
     {
       "rolls": 1.0,
@@ -9,10 +10,7 @@
           "weight": 5,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:soul_speed"
-              ]
+              "function": "minecraft:enchant_randomly"
             }
           ],
           "name": "minecraft:book"

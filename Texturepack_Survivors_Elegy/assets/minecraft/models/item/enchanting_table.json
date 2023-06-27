@@ -6,7 +6,7 @@
 		"1": "block/enchanting_table_bottom",
 		"2": "block/enchanting_table_side",
 		"3": "entity/enchanting_table_book",
-		"particle": "1.16.5/enchanting_table_top"
+		"particle": "#enchanting_table_top"
 	},
 	"elements": [
 		{

@@ -9,7 +9,11 @@
 			"functions": [
 			{
 				"function": "minecraft:set_nbt",
-				"tag": "{CustomModelData:548101}"
+				"tag": "{CustomModelData:548101,BlockEntityTag:{Patterns:[{Pattern:ts,Color:4},{Pattern:bs,Color:4},{Pattern:ms,Color:4}],Base:1}}"
+			},
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{HideFlags:96}"
 			},
 			{
 				"function": "minecraft:set_name",

@@ -17,8 +17,36 @@
 							}
 						},
 						"vehicle": {
-							"type": "#minecraft:enchanted_saddle_mobs",
 							"nbt":"{SaddleItem:{tag:{Enchantments:[{id:\"siscu:catalyst\"}]}}}",
+							"location": {
+								"block": {
+									"tag": "siscu:transparent_blocks"
+								}
+							},
+							"flags":{"is_swimming":false}
+						}
+					}
+				}
+				]
+			}
+		},
+		"1": {
+			"trigger":"minecraft:tick",
+			"conditions": {
+				"player": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity":"this",
+					"predicate": {
+						"equipment": {
+							"feet": {
+								"enchantments":[{
+									"enchantment": "minecraft:frost_walker"
+							}]
+							}
+						},
+						"vehicle": {
+							"nbt":"{Tags:[\"siscu.enchanted_saddle\"]}",
 							"location": {
 								"block": {
 									"tag": "siscu:transparent_blocks"
@@ -31,6 +59,7 @@
 			}
 		}
 	},
+	"requirements": [["0","1"]],
 	"rewards": {
 		"function": "siscu:items/use/horse_frost_walker"
 	}

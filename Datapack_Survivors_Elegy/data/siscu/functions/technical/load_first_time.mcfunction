@@ -1,5 +1,5 @@
 # Storages
-data merge storage siscu:world {PackVersion:"alpha v0.7.0"}
+data merge storage siscu:world {PackVersion:"alpha v0.7.1"}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 
 #set gamerules
@@ -34,6 +34,8 @@ scoreboard objectives add siscu.zombifying dummy {"text":"Zombifying","color":"d
 
 #set scoreboards
 scoreboard players set @a siscu.use_carrot 0
+execute unless score death_message siscu.integer matches 0.. run scoreboard players set death_message siscu.integer 1
+scoreboard players set server_randN siscu.volatile 0
 ## constants
 scoreboard players set -1 siscu.integer -1
 scoreboard players set 1 siscu.integer 1
@@ -52,6 +54,7 @@ scoreboard players set 200 siscu.integer 200
 ## daytime variables
 execute unless score daytime_speed siscu.day matches 1.. run scoreboard players set daytime_speed siscu.day 3
 execute unless score sleep_module_on siscu.day matches 0.. run scoreboard players set sleep_module_on siscu.day 1
+execute unless score do_daylight_cycle siscu.day matches 0.. run scoreboard players set do_daylight_cycle siscu.day 1
 ## entities
 scoreboard players set enderman_block siscu.integer 117
 scoreboard players set creeper_max siscu.integer 35

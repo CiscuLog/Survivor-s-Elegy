@@ -1,8 +1,25 @@
 
 Compatible Minecraft versions: 1.20
 
+Survivor's Elegy Alpha v0.7.1 (27/06/2023)
++ Added Allays displaying the note block they're paired to when the player interacts with a note block
++ Added items can be inserted into sand and gravel by placing the item on an item frame and pushing a button placed on the frame location
++ Added new option in the daytime length config to stop the day cycle
++ Added mobs with enchanted saddles drop it on death
++ Added "Server Mode", the pack can now detect if there is an issue with the server software loot tables and disables some features automatically.
++ Added alternate randomiser for "Server Mode"
++ Added water bucket crafting recipe using 8 cactus and a bucket
++ Expanded loot on Jungle Ruins, pottery Sherds and Armor Templates are now rare
++ Fixed enchanted saddles not working on Camels, Striders and Pigs
++ Fixed players in spectator mode are no longer required to sleep to skip the night
++ Fixed visual error where morning started several ticks after waking up
++ Retextured Wax Horse Armor
++ Updated custom Piglin Heads to vanilla Piglin Heads
+- Removed SE's piglin heads
+
 Survivor's Elegy Alpha v0.7.0 (09/06/2023)
 + Updated to 1.20
++ Added Bundle crafting recipe
 + Added Jungle Ruins
 + Changed Wax Horse Armor, all newly crafted items will now use leather horse armor as a basis
 + Updated Smithing Table Recipes
