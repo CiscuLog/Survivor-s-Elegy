@@ -1,5 +1,5 @@
 # Storages
-data merge storage siscu:world {PackVersion:"alpha v0.7.1"}
+data merge storage siscu:world {PackVersion:"alpha v0.7.2"}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 
 #set gamerules
@@ -68,7 +68,7 @@ scoreboard players set fire_spring_limit siscu.integer 300
 ## withering
 execute unless score withering siscu.integer matches 0..1 run scoreboard players set withering siscu.integer 1
 ## rotting variables
-
+execute unless score rotting siscu.integer matches 0..1 run scoreboard players set rotting siscu.integer 1
 execute unless score rotting_random_limit siscu.integer matches 0.. run scoreboard players set rotting_random_limit siscu.integer 10
 execute unless score rotting_timer_limit siscu.integer matches 0.. run scoreboard players set rotting_timer_limit siscu.integer 15
 execute unless score zombie_timer_limit siscu.integer matches 0.. run scoreboard players set zombie_timer_limit siscu.integer 120

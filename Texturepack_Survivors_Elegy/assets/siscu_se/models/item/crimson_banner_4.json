@@ -1,6 +1,6 @@
 {
 	"parent":"siscu_se:item/crimson_banner_1",
 	"textures": {
-		"0": "siscu_se:item/crimson_banner_4"
+		"0": "siscu_se:item/piglin_decoration/crimson_banner_4"
 	}
 }

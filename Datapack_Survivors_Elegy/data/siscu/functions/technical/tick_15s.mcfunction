@@ -7,7 +7,7 @@ execute if entity @e[type=warden] run function siscu:entities/warden/check_warde
 execute as @e[type=#siscu:lamp_holders,tag=!offhand_protected] run function siscu:entities/lamp_holders/time_check
 
 ## Oxidation ##
-execute as @a run function siscu:items/passive_behav/oxidisation_chance
+execute as @e[type=#siscu:can_wear_armor] run function siscu:items/passive_behav/oxidisation_chance
 
 ## Desert Wells ##
 execute if entity @e[type=marker,tag=siscu.well_unused] run function siscu:world/desert_well/reward_schedule

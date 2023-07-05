@@ -1,6 +1,26 @@
 
 Compatible Minecraft versions: 1.20
 
+Survivor's Elegy Alpha v0.7.2 (05/07/2023)
++ Added creeper fuse randomness in "Server Mode"
++ Added Copper Gear will still oxidise when worn by mobs and armor stands
++ Added discs to the jungle ruin's archaeology loot table
++ Added death message "ENTITY succumbed to the phage" and "ENTITY succumbed to the phage whilst fighting ATTACKER"
++ Added Enchanter Guides can be stored on bookshelves
++ Added Suspicious Sand on Desert Wells, mimicking the vanilla feature
++ Added zombie spawning on the location of the player if it dies of phage
++ Added 1 new Piglin Banner variants
++ Added 3 new Piglin painting variants
++ Added 3 new rooms in Piglin Crevices
++ Changed Chiseled Bookshelves now don't require Silk Touch to break
++ Changed Sleeping, now takes into consideration playerSleepingPercentage
++ Changes to zombifying. 2 minutes into zombie mode, now players will progressively lose hearts when zombified until they die, instead of dying instantly
++ Increased suspicious gravel amount on jungle ruins
++ Fixed Frogs, they now drop frog legs when dying 10% of the time, +20% for looting level
++ Fixes to daylight cycle, 20 minutes made the sky stutter. This fix makes players wake up at the regular vanilla time, not at dawn
++ Fixed mineshafts generating twice in the same spot, along with all errors that came with it
+- Decreased amount of Piglin Brutes in Piglin Crevices
+
 Survivor's Elegy Alpha v0.7.1 (27/06/2023)
 + Added Allays displaying the note block they're paired to when the player interacts with a note block
 + Added items can be inserted into sand and gravel by placing the item on an item frame and pushing a button placed on the frame location

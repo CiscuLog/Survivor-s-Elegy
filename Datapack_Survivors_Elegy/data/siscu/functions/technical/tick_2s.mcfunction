@@ -2,8 +2,8 @@
 execute as @e[type=#siscu:subject_to_check,tag=!entity_checked] at @s run function siscu:entities/global
 
 ## Rotting ##
-execute as @e[type=#siscu:rotting_mobs_all,tag=!rot_checked] run function siscu:entities/rotting_mobs/assign_initial_rot
-execute as @e[type=#siscu:rotting_mobs_all] run function siscu:entities/rotting_mobs/convert
+execute if score rotting siscu.integer matches 1 as @e[type=#siscu:rotting_mobs_all,tag=!rot_checked] run function siscu:entities/rotting_mobs/assign_initial_rot
+execute if score rotting siscu.integer matches 1 as @e[type=#siscu:rotting_mobs_all] run function siscu:entities/rotting_mobs/convert
 
 ## Withering ##
 execute as @e[type=skeleton,predicate=siscu:utils/check_the_nether] run function siscu:entities/skeleton/wither

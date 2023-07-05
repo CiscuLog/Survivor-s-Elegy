@@ -91,6 +91,33 @@
         "projection": "rigid"
       },
       "weight": 20
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:bastion/crevice/rooms/small_10",
+        "processors": "siscu:bastion",
+        "projection": "rigid"
+      },
+      "weight": 20
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:bastion/crevice/rooms/small_11",
+        "processors": "siscu:bastion",
+        "projection": "rigid"
+      },
+      "weight": 20
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:bastion/crevice/rooms/small_12",
+        "processors": "siscu:bastion",
+        "projection": "rigid"
+      },
+      "weight": 20
     }
   ]
 }

@@ -38,7 +38,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:rooted_grass_block"
+            "Name": "minecraft:rooted_dirt"
           }
         },
         {
@@ -96,7 +96,7 @@
           }
         ]
       },
-      "limit": 3,
+      "limit": 4,
       "processor_type": "minecraft:capped"
     }
   ]

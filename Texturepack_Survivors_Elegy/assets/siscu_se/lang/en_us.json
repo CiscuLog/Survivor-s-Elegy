@@ -13,6 +13,13 @@
 	"advancements.siscu.minecraft.metamorphic_caves.description":"A zone with very active volcanic activity",
 	"advancements.siscu.minecraft.withered_grounds.title":"Withered Grounds",
 	"advancements.siscu.minecraft.withered_grounds.description":"A dark and ghostly biome",
+	
+	"death.attack.phage": "%s succumbed to the phage",
+	"death.attack.phage.player": "%s succumbed to the phage whilst fighting %s",
+	"death.attack.phage.item": "%s succumbed to the phage whilst fighting %s using %s",
+	"death.attack.rot": "%s rot away",
+	"death.attack.rot.player": "%s rot away whilst fighting %s",
+	"death.attack.rot.item": "%s rot away whilst fighting %s using %s",
 
 	"entity.siscu.fire_spring": "Incandescent Matter",
 
@@ -98,7 +105,7 @@
 	"item.siscu.zoglin_head": "Zoglin Head",
 
 	"pack.siscu": "Survivor's Elegy",
-	"pack.siscu.version": "alpha v0.5.1",
+	"pack.siscu.version": "alpha v0.7.2",
 
 	"text.siscu.click_to_wear1": "Press ",
 	"text.siscu.click_to_wear2": " to wear",

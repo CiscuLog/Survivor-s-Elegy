@@ -26,6 +26,14 @@
 					"items": ["jigsaw"]
 				}]
 			}
+        },
+        "2": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["lapis_lazuli"]
+				}]
+			}
         }
     }
 }
