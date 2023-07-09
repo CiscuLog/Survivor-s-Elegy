@@ -1,4 +1,4 @@
-summon zombie_villager ~ ~ ~ {Tags:["zombified"]}
+summon zombie_villager ~ ~ ~ {Tags:["zombified"],VillagerData:{profession:"minecraft:none"}}
 
 item replace entity @e[tag=zombified,limit=1,sort=nearest] weapon from entity @s weapon
 item replace entity @e[tag=zombified,limit=1,sort=nearest] weapon.offhand from entity @s weapon.offhand
@@ -10,7 +10,7 @@ item replace entity @e[tag=zombified,limit=1,sort=nearest] armor.feet from entit
 data modify entity @e[tag=zombified,limit=1,sort=nearest] ArmorDropChances set from entity @s ArmorDropChances
 data modify entity @e[tag=zombified,limit=1,sort=nearest] HandDropChances set from entity @s HandDropChances
 
-data modify entity @e[tag=zombified,limit=1,sort=nearest] VillagerData set from entity @s VillagerData
+execute if entity @s[type=villager] run data modify entity @e[tag=zombified,limit=1,sort=nearest] VillagerData set from entity @s VillagerData
 data modify entity @e[tag=zombified,limit=1,sort=nearest] Offers set from entity @s Offers
 data modify entity @e[tag=zombified,limit=1,sort=nearest] Xp set from entity @s Xp
 data modify entity @e[tag=zombified,limit=1,sort=nearest] Age set from entity @s Age

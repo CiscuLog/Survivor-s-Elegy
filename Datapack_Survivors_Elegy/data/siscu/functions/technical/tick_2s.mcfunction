@@ -9,8 +9,8 @@ execute if score rotting siscu.integer matches 1 as @e[type=#siscu:rotting_mobs_
 execute as @e[type=skeleton,predicate=siscu:utils/check_the_nether] run function siscu:entities/skeleton/wither
 
 ## Zombifying ##
-execute as @e[predicate=siscu:entities/has_phage,tag=!zombifying] run function siscu:entities/zombifying/start_zombifying
-execute as @e[predicate=siscu:entities/has_phage,tag=!zombifying_strong] run function siscu:entities/zombifying/start_zombifying_strong
+execute as @e[predicate=siscu:entities/has_phage,tag=!zombifying] if score phage_enabled siscu.integer matches 1 run function siscu:entities/zombifying/start_zombifying
+execute as @e[predicate=siscu:entities/has_phage,tag=!zombifying_strong] if score phage_enabled siscu.integer matches 1 run function siscu:entities/zombifying/start_zombifying_strong
 execute as @a[tag=zombie] at @s if predicate siscu:utils/light_level/lvl15 unless predicate siscu:entities/is_on_fire run function siscu:entities/player/burn_player
 
 ## Player Behav ##

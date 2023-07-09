@@ -15,4 +15,4 @@ execute if score @s siscu.zombifying >= zombie_timer_limit siscu.integer run dam
 
 execute unless predicate siscu:entities/has_phage run function siscu:entities/zombifying/apply_phage
 
-execute if entity @s[type=!#siscu:zombie_compatible] run damage @s 1 siscu:phage
+execute if entity @s[type=!#siscu:zombie_compatible,tag=!infected_zombie] run damage @s 1 siscu:phage

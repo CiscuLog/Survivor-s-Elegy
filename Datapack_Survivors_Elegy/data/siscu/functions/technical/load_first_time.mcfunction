@@ -1,5 +1,5 @@
 # Storages
-data merge storage siscu:world {PackVersion:"alpha v0.7.2"}
+data merge storage siscu:world {PackVersion:"alpha v0.7.3"}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 
 #set gamerules
@@ -55,6 +55,7 @@ scoreboard players set 200 siscu.integer 200
 execute unless score daytime_speed siscu.day matches 1.. run scoreboard players set daytime_speed siscu.day 3
 execute unless score sleep_module_on siscu.day matches 0.. run scoreboard players set sleep_module_on siscu.day 1
 execute unless score do_daylight_cycle siscu.day matches 0.. run scoreboard players set do_daylight_cycle siscu.day 1
+function siscu:world/day_features/config/normal_cycle
 ## entities
 scoreboard players set enderman_block siscu.integer 117
 scoreboard players set creeper_max siscu.integer 35
@@ -65,6 +66,8 @@ scoreboard players set fire_spring_flame siscu.integer 50
 scoreboard players set fire_spring_intense siscu.integer 280
 scoreboard players set fire_spring_sound siscu.integer 298
 scoreboard players set fire_spring_limit siscu.integer 300
+## phage
+execute unless score phage_enabled siscu.integer matches 0..1 run scoreboard players set phage_enabled siscu.integer 1
 ## withering
 execute unless score withering siscu.integer matches 0..1 run scoreboard players set withering siscu.integer 1
 ## rotting variables

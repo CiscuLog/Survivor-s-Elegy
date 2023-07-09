@@ -1,6 +1,16 @@
 
 Compatible Minecraft versions: 1.20
 
+Survivor's Elegy Alpha v0.7.3 (09/07/2023)
++ Added Wither Skeletons have a 1% chance of dropping Ribs Armor Trim Templates on death
++ Added Phage and Zombifying config panel
++ Changed Enchanted Saddle, it now doesn't lose its effect when unenchanted on a Grindstone
++ Changed Copper Armor pieces oxidising arbitrarily. They now check the oxidisation stage of other armor pieces in order to oxidise in a more uniform manner.
++ Fixed Copper Armor visually oxidising when held on hand
++ Fixed Infected Zombies dying of their own Phage
++ Fixed Piglin Crevices removing lava
++ Fixed Time avancing on first login after installing the datapack, even if the world already existed
+
 Survivor's Elegy Alpha v0.7.2 (05/07/2023)
 + Added creeper fuse randomness in "Server Mode"
 + Added Copper Gear will still oxidise when worn by mobs and armor stands

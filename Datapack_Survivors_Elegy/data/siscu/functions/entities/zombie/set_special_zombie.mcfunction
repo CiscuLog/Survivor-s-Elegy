@@ -15,7 +15,7 @@ tag @s[tag=amethyst_zombie] add special
 
 ##surface##
 ### infected ###
-execute if predicate siscu:locations/check_surface if predicate siscu:utils/1_percent run tag @s[tag=!special] add infected_zombie
+execute if predicate siscu:locations/check_surface if predicate siscu:utils/1_percent if score phage_enabled siscu.integer matches 1 run tag @s[tag=!special] add infected_zombie
 tag @s[tag=infected_zombie] add special
 #execute if predicate siscu:locations/check_sunflower_plains if predicate siscu:locations/check_surface if predicate siscu:utils/25_percent run tag @s[tag=!special] add sunflower_zombie
 tag @s[tag=sunflower_zombie] add special

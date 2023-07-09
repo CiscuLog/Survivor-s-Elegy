@@ -17,7 +17,7 @@
 							}
 						},
 						"vehicle": {
-							"nbt":"{SaddleItem:{tag:{Enchantments:[{id:\"siscu:catalyst\"}]}}}",
+							"nbt":"{SaddleItem:{tag:{CustomModelData:548101}}}",
 							"location": {
 								"block": {
 									"tag": "siscu:transparent_blocks"
