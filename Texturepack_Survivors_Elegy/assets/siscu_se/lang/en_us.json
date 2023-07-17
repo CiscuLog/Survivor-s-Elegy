@@ -20,6 +20,9 @@
 	"death.attack.rot": "%s rot away",
 	"death.attack.rot.player": "%s rot away whilst fighting %s",
 	"death.attack.rot.item": "%s rot away whilst fighting %s using %s",
+	"death.attack.copper_discharge": "%s got zapped to death",
+	"death.attack.copper_discharge.player": "%s got zapped to death whilst fighting %s",
+	"death.attack.copper_discharge.item": "%s got zapped to death whilst fighting %s",
 
 	"entity.siscu.fire_spring": "Incandescent Matter",
 
@@ -57,6 +60,7 @@
 	"item.siscu.exposed_copper_sword": "Exposed Copper Sword",
 	"item.siscu.fish": "Fish",
 	"item.siscu.frog": "Frog Leg",
+	"item.siscu.hake": "Silver Hake",
 	"item.siscu.hoglin_head": "Hoglin Head",
 	"item.siscu.husk_flesh": "Dry Rotten Flesh",
 	"item.siscu.koi": "Koi Carp",
@@ -105,7 +109,7 @@
 	"item.siscu.zoglin_head": "Zoglin Head",
 
 	"pack.siscu": "Survivor's Elegy",
-	"pack.siscu.version": "alpha v0.7.2",
+	"pack.siscu.version": "alpha v0.7.5",
 
 	"text.siscu.click_to_wear1": "Press ",
 	"text.siscu.click_to_wear2": " to wear",

@@ -2,9 +2,9 @@
 	"show_toast": false,
 	"criteria": {
 		"0": {
-			"trigger":"minecraft:recipe_unlocked",
+			"trigger":"minecraft:recipe_crafted",
 			"conditions": {
-				"recipe": "siscu:copper_boots"
+				"recipe_id": "siscu:copper_boots"
 			}
 		}
 	},

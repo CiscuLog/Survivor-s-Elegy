@@ -40,6 +40,10 @@
 	{
 		"condition": "minecraft:reference",
 		"name": "siscu:gameplay/fishing/turbot_biomes"
+	},
+	{
+		"condition": "minecraft:reference",
+		"name": "siscu:gameplay/fishing/hake_biomes"
 	}
 	]
 }

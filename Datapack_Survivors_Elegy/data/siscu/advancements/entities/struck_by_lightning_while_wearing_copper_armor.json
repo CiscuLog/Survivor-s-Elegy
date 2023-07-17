@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "1":{
+            "trigger": "minecraft:lightning_strike",
+            "conditions": {
+                "lightning": {"distance": {
+                    "absolute": {
+                        "max":120,"min":0
+                    }
+                }}
+            }
+        },
+        "2":{
+            "trigger":"minecraft:tick",
+            "conditions":{
+                "player":[
+                    {
+                        "condition": "reference",
+                        "name": "siscu:entities/is_wearing_copper_armor"}
+                ]
+            }
+        }
+    },
+    "requirements":[["1"],["2"]],
+    "rewards": {
+        "function": "siscu:advancement/struck_by_lightning_while_wearing_copper_armor"
+    }
+}

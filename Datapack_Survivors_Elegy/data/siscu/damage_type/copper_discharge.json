@@ -1,0 +1,6 @@
+{
+    "exhaustion": 5,
+    "message_id": "copper_discharge",
+    "scaling": "when_caused_by_living_non_player",
+    "effects": "poking"
+  }

@@ -1,5 +1,5 @@
 # Storages
-data merge storage siscu:world {PackVersion:"alpha v0.7.3"}
+data merge storage siscu:world {PackVersion:"alpha v0.7.4"}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 
 #set gamerules
@@ -68,13 +68,18 @@ scoreboard players set fire_spring_sound siscu.integer 298
 scoreboard players set fire_spring_limit siscu.integer 300
 ## phage
 execute unless score phage_enabled siscu.integer matches 0..1 run scoreboard players set phage_enabled siscu.integer 1
+execute unless score zombie_death_enabled siscu.integer matches 0..1 run scoreboard players set zombie_death_enabled siscu.integer 1
+execute unless score zombie_timer_limit siscu.integer matches 0.. run scoreboard players set zombie_timer_limit siscu.integer 120
+scoreboard players operation zombie_timer_limit_2 siscu.integer = zombie_timer_limit siscu.integer
+scoreboard players operation zombie_timer_limit_2 siscu.integer += 60 siscu.integer
 ## withering
-execute unless score withering siscu.integer matches 0..1 run scoreboard players set withering siscu.integer 1
+execute unless score withering siscu.integer matches 0.. run scoreboard players set withering siscu.integer 1
+execute unless score withering_timer siscu.integer matches 0.. run scoreboard players set withering_timer siscu.integer 20
+function siscu:world/withering/config/set_all_scores
 ## rotting variables
-execute unless score rotting siscu.integer matches 0..1 run scoreboard players set rotting siscu.integer 1
+execute unless score rotting siscu.integer matches 0.. run scoreboard players set rotting siscu.integer 1
 execute unless score rotting_random_limit siscu.integer matches 0.. run scoreboard players set rotting_random_limit siscu.integer 10
 execute unless score rotting_timer_limit siscu.integer matches 0.. run scoreboard players set rotting_timer_limit siscu.integer 15
-execute unless score zombie_timer_limit siscu.integer matches 0.. run scoreboard players set zombie_timer_limit siscu.integer 120
 
 # announce
 tellraw @a [{"text":"   Survivor's Elegy","color":"gold","bold":"true"}]

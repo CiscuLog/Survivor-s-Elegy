@@ -1,6 +1,17 @@
 
 Compatible Minecraft versions: 1.20
 
+Survivor's Elegy Alpha v0.7.4 (17/07/2023)
++ Added Banners on Boats. Right-clicking on an empty boat with a banner in the player's main hand will mount said banner to the boat. Destroying the boat will return the banner.
++ Added Copper Armor items charge up when a lightning strikes 120 blocks around the player. Each lightning adds 3 charges to each copper armor item. There's no charge limit on any item
++ Added charged copper armor will use charges against any entity attacking the player, dealing 3 hp of damage and removing one charge from the full equipment
++ Added Hake. Can be caught on temperate and cold oceans
++ Added lingering potions to the Sorcerer's Grimoir
++ Added Phage effect timings config
++ Added Withering timings config
++ Changed custom item crafting. The trigger to give the player the item is now by crafting it, not by obtaining the recipe. This effectively solves items being given to the player by recipe unlocker datapacks
++ Retextured Copper Leggings
+
 Survivor's Elegy Alpha v0.7.3 (09/07/2023)
 + Added Wither Skeletons have a 1% chance of dropping Ribs Armor Trim Templates on death
 + Added Phage and Zombifying config panel

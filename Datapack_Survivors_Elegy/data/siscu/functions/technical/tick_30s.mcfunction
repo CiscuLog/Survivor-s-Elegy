@@ -1,3 +1,6 @@
+## Others ##
+execute if @e[type=item_display,tag=boat_flag] run function siscu:entities/boat/remove_flag
+advancement revoke Siscu only siscu:entities/struck_by_lightning_while_wearing_copper_armor
 
 ## Rotting ##
 execute as @e[type=#siscu:rotting_mobs_all,tag=!rotting_protected] run function siscu:entities/rotting_mobs/rot

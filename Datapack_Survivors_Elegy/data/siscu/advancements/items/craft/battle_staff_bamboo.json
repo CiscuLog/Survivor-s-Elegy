@@ -2,9 +2,9 @@
 	"show_toast": false,
 	"criteria": {
 		"0": {
-			"trigger":"minecraft:recipe_unlocked",
+			"trigger":"minecraft:recipe_crafted",
 			"conditions": {
-				"recipe": "siscu:battle_staff_bamboo"
+				"recipe_id": "siscu:battle_staff_bamboo"
 			}
 		}
 	},

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/cod",
+  "textures": {
+    "layer0": "siscu_se:item/hake"
+  }
+}

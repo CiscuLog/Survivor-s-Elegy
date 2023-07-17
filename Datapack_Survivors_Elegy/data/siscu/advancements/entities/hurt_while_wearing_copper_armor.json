@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "1":{
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type":"#siscu:dischargeable_entities"
+                    },
+                    "blocked": "false"
+                },
+                "player": [
+                    {"condition": "reference",
+                "name": "siscu:entities/is_wearing_copper_armor"}
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "siscu:advancement/hurt_while_wearing_copper_armor"
+    }
+}

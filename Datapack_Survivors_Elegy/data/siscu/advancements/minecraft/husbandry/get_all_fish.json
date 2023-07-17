@@ -108,6 +108,17 @@
 				}
 				]
 			}
+		},
+		"9": {
+			"trigger":"minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{
+					"items": ["cod"],
+					"nbt": "{CustomModelData:548104}"
+				}
+				]
+			}
 		}
 	},
 	"requirements": [
@@ -118,7 +129,8 @@
 		["5"],
 		["6"],
 		["7"],
-		["8"]
+		["8"],
+		["9"]
   ],
   	"rewards": {"experience": 1000}
 }

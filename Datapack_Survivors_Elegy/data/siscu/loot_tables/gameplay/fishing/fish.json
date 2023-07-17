@@ -114,6 +114,15 @@
 			  "condition": "minecraft:reference",
 			  "name": "siscu:gameplay/fishing/turbot_biomes"
 		  }]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "siscu:items/food/hake",
+		  "weight": 10,
+		  "conditions": [{
+			  "condition": "minecraft:reference",
+			  "name": "siscu:gameplay/fishing/hake_biomes"
+		  }]
         }
       ]
     }
