@@ -28,7 +28,7 @@ execute unless score leggings_ox siscu.volatile matches 0 if score leggings_ox s
 execute unless score boots_ox siscu.volatile matches 0 if score boots_ox siscu.volatile < min_ox siscu.volatile run scoreboard players operation min_ox siscu.volatile = boots_ox siscu.volatile
 
 
-execute if predicate siscu:entities/is_holding_copper_tool if predicate siscu:utils/0_5_percent if score tool_ox siscu.volatile = min_ox siscu.volatile run function siscu:items/passive_behav/oxidise_copper_tool
+execute if predicate siscu:entities/is_holding_copper_tool if predicate siscu:utils/1_percent if score tool_ox siscu.volatile = min_ox siscu.volatile run function siscu:items/passive_behav/oxidise_copper_tool
 execute if predicate siscu:entities/is_wearing_copper_helmet if predicate siscu:utils/0_5_percent if score helmet_ox siscu.volatile = min_ox siscu.volatile run function siscu:items/passive_behav/oxidise_copper_helmet
 execute if predicate siscu:entities/is_wearing_copper_chestplate if predicate siscu:utils/0_5_percent if score chestplate_ox siscu.volatile = min_ox siscu.volatile run function siscu:items/passive_behav/oxidise_copper_chestplate
 execute if predicate siscu:entities/is_wearing_copper_leggings if predicate siscu:utils/0_5_percent if score leggings_ox siscu.volatile = min_ox siscu.volatile run function siscu:items/passive_behav/oxidise_copper_leggings

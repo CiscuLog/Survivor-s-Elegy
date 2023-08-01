@@ -9,7 +9,7 @@
 			"functions": [
 			{
 				"function": "minecraft:set_nbt",
-				"tag": "{CustomModelData:548101,SE_data:{CustomBoots:1,IsCopper:1,UpdateVersion: \"ALPHA_v0.3.1\", RealDurability:65, Durability:195, Damage:0, Oxidation:0}}"
+				"tag": "{CustomModelData:548101,SE_data:{CustomBoots:1,IsCopper:1,UpdateVersion: \"ALPHA_v0.8.0\", RealDurability:65, Durability:95, Damage:0, Oxidation:0, Charge:0}}"
 			},
 			{
 				"function": "minecraft:set_nbt",

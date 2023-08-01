@@ -1,5 +1,26 @@
 
-Compatible Minecraft versions: 1.20
+Compatible Minecraft versions: 1.20+
+
+Survivor's Elegy alpha v0.8.0 (01/08/2023)
++ Added Config Book. Given only to the first player that enters the server, it calls for the siscu:config function without administrator requirements
++ Added Nether Fortresses
++ Added toggleable current day announcement
++ Added Brush recipe using either bamboo or sticks
++ Changed Copper Armor Durability, adjusted to last less than iron
++ Changed Copper Tools Durability to 150 usages. Items from old versions might break instantly when using them if previously used more than the new amount
++ Changed Copper Tools Oxidisation time, they now have a bigger chance of oxidising than before (around 25 minutes per stage)
++ Changed Warped Stew now cures 5 points of withering, taxing 5 points of warped food poisoning for it
++ Fiexd Bastion Remnants and Piglin Crevices no longer overlap
++ Fixed Players equipping copper armor would give the item 3 charges if a lightning struck earlier in the game
++ Fixed Custom Chestplate Durabilities not working
++ Fixed some config menu displays
++ Retextured subscript characters: s,z,0
+- Wither Skeletons no longer drop Rib Armor Trim Smithing Templates
+
+Survivor's Elegy Alpha v0.7.5 (17/07/2023)
++ Fixed uncharged copper armor releasing electric discharges
++ Fixed 30s clock not working
+- Removed repairing item durability on the crafting table
 
 Survivor's Elegy Alpha v0.7.4 (17/07/2023)
 + Added Banners on Boats. Right-clicking on an empty boat with a banner in the player's main hand will mount said banner to the boat. Destroying the boat will return the banner.

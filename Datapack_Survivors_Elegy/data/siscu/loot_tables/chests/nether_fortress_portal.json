@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint_and_steel",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform","min":0.1,"max":0.5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:obsidian",
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": {"type":"minecraft:uniform","min":3.0,"max":5.0}
+          }]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries":[
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": {"type":"minecraft:uniform","min":1.0,"max":4.0}
+          }]
+        }
+      ]
+    }
+  ]
+}

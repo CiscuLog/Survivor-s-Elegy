@@ -34,6 +34,7 @@
 	"item.siscu.boneclub":"Boneclub",
 	"item.siscu.catfish": "Catfish",
 	"item.siscu.chainmail_horse_armor": "Chainmail Horse Armor",
+	"item.siscu.config": "Survivor's Elegy Config Menu",
 	"item.siscu.copper_axe": "Copper Axe",
 	"item.siscu.copper_boots": "Copper Boots",
 	"item.siscu.copper_chestplate": "Copper Chestplate",
@@ -109,8 +110,12 @@
 	"item.siscu.zoglin_head": "Zoglin Head",
 
 	"pack.siscu": "Survivor's Elegy",
-	"pack.siscu.version": "alpha v0.7.5",
+	"pack.siscu.version": "alpha v0.8.0",
 
+	"text.siscu.config": " to open the menu",
+	"text.siscu.config2_1": "\u26A0 This is an administrator level item",
+	"text.siscu.config2_2": "and should be used responsibly",
+	"text.siscu.click_keybind": "Press ",
 	"text.siscu.click_to_wear1": "Press ",
 	"text.siscu.click_to_wear2": " to wear",
 	"text.siscu.enchanter_guide": "Required to craft an ",

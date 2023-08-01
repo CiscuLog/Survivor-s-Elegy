@@ -1,5 +1,5 @@
 # Storages
-data merge storage siscu:world {PackVersion:"alpha v0.7.4"}
+data merge storage siscu:world {PackVersion:"alpha v0.8.0"}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 
 #set gamerules
@@ -55,6 +55,7 @@ scoreboard players set 200 siscu.integer 200
 execute unless score daytime_speed siscu.day matches 1.. run scoreboard players set daytime_speed siscu.day 3
 execute unless score sleep_module_on siscu.day matches 0.. run scoreboard players set sleep_module_on siscu.day 1
 execute unless score do_daylight_cycle siscu.day matches 0.. run scoreboard players set do_daylight_cycle siscu.day 1
+execute unless score day_announcement siscu.day matches 0..1 run scoreboard players set day_announcement siscu.day 1
 function siscu:world/day_features/config/normal_cycle
 ## entities
 scoreboard players set enderman_block siscu.integer 117

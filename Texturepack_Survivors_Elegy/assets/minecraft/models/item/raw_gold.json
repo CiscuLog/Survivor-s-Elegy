@@ -4,6 +4,7 @@
     "layer0": "minecraft:item/raw_gold"
   },
 	"overrides": [
+	{"predicate": {"custom_model_data": 540000}, "model": "siscu_se:item/config"},
 	{"predicate": {"custom_model_data": 540001}, "model": "siscu_se:item/piglin/brute_helmet_1"},
 	{"predicate": {"custom_model_data": 540002}, "model": "siscu_se:item/piglin/brute_helmet_2"}
 	]

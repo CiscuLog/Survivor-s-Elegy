@@ -1,5 +1,5 @@
 ## Others ##
-execute if @e[type=item_display,tag=boat_flag] run function siscu:entities/boat/remove_flag
+execute if entity @e[type=item_display,tag=boat_flag] run function siscu:entities/boat/remove_flag
 advancement revoke Siscu only siscu:entities/struck_by_lightning_while_wearing_copper_armor
 
 ## Rotting ##

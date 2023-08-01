@@ -25,5 +25,5 @@ data modify entity @e[tag=converted,limit=1,sort=nearest] FallDistance set from 
 playsound minecraft:entity.skeleton.converted_to_stray hostile @a ~ ~ ~
 particle minecraft:smoke ~ ~1.3 ~ 0 0.3 0 0.06 30
 tag @e[tag=converted] remove converted
-tp @s[type=!player] ~ ~-200 ~
+tp @s[type=!player] ~ -200 ~
 kill @e[predicate=siscu:locations/check_void]

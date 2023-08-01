@@ -27,4 +27,4 @@ execute store result storage siscu:damages RealDamage int 1 run scoreboard playe
 
 execute unless score siscu.damage siscu.volatile > siscu.durability siscu.volatile run item modify entity @s armor.head siscu:durability/rewrite_data
 
-advancement revoke @s only siscu:items/use/custom_armor_helmet
+advancement revoke @a only siscu:items/use/custom_armor_helmet

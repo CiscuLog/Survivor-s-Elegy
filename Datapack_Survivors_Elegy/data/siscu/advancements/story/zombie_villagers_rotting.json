@@ -5,7 +5,7 @@
 			"nbt": "{CustomModelData:548120}"
 		},
 		"title": "Too Late",
-		"description": "An undedad skeleton of a Villager",
+		"description": "An undead skeleton of a Villager",
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

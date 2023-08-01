@@ -9,7 +9,7 @@
 			"functions": [
 			{
 				"function": "minecraft:set_nbt",
-				"tag": "{CustomModelData:548101,BlockEntityTag:{Patterns:[{Pattern:ts,Color:4},{Pattern:bs,Color:4},{Pattern:ms,Color:4}],Base:1}}"
+				"tag": "{CustomModelData:548101,BlockEntityTag:{Patterns:[{Pattern:ts,Color:4},{Pattern:bs,Color:4},{Pattern:ms,Color:4}],Base:1},SE_data:{CustomWeapon:1,UpdateVersion: \"ALPHA_v0.8.0\", RealDurability:336, Durability:500, Damage:0}}"
 			},
 			{
 				"function": "minecraft:set_nbt",

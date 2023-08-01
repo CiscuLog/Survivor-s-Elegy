@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "siscu:nether_fortress",
+      "weight": 1
+    },
+    {
+      "structure": "siscu:piglin_crevice",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:bastion_remnant",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 30084232,
+    "spacing": 27,
+    "separation": 4,
+    "type": "minecraft:random_spread"
+  }
+}

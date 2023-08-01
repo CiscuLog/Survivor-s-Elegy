@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {"type":"minecraft:uniform","min":2.0,"max":4.0},
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat_seeds",
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
+          }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_seeds",
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
+          }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon_seeds",
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
+          }]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_hoe"
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 #create scoreboards
-execute unless data storage siscu:world {PackVersion:"alpha v0.7.4"} run function siscu:technical/load_first_time
+execute unless data storage siscu:world {PackVersion:"alpha v0.8.0"} run function siscu:technical/load_first_time
 
 #delete schedules
 function siscu:technical/clear_schedules
@@ -18,3 +18,10 @@ execute if score do_daylight_cycle siscu.day matches 1 unless score daytime_spee
 
 # Remove advancements
 advancement revoke @a only siscu:entities/player_sleep
+advancement revoke @a only siscu:items/use/custom_armor_helmet
+advancement revoke @a only siscu:items/use/custom_armor_chestplate
+advancement revoke @a only siscu:items/use/custom_armor_leggings
+advancement revoke @a only siscu:items/use/custom_armor_boots
+advancement revoke @a only siscu:items/use/custom_weapon_mainhand
+advancement revoke @a only siscu:items/use/config_hold
+advancement revoke @a only siscu:items/use/config_use

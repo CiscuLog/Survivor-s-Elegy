@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {"type":"minecraft:uniform","min":2.0,"max":4.0},
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
+          }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:feather",
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
+          }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ink_sac",
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
+          }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

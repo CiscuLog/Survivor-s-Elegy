@@ -9,7 +9,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "siscu:groups/piglin_shields"
+          "name": "siscu:items/weapons/piglin_brute_shield"
         }
 		],
 		"conditions": [

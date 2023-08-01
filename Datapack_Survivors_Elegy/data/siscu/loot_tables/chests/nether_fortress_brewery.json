@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {"type":"minecraft:uniform","min":3.0,"max":5.0},
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_mushroom",
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
+          }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
+          }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
+          }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
+          }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_cream",
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
+          }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": {"type":"minecraft:uniform","min":1.0,"max":2.0}
+          }]
+        }
+      ]
+    }
+  ]
+}

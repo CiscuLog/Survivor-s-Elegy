@@ -5,7 +5,7 @@
 		"condition": "minecraft:location_check",
 		"predicate": {
 			"position": {
-				"y": {"max":-200}
+				"y": {"max":-100}
 			}
 		}
 	}

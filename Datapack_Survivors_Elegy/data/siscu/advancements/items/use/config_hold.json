@@ -1,0 +1,26 @@
+{
+	"show_toast": false,
+	"criteria": {
+		"0": 
+		{
+			"trigger":"minecraft:tick",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity":"this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": ["minecraft:raw_gold"],
+								"nbt": "{CustomModelData:540000}"
+							}
+						}
+					}
+				}]
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/use/config/config_hold"
+	}
+}
