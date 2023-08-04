@@ -11,6 +11,14 @@
 	"advancements.siscu.minecraft.fire_spring.description":"Blow a fire spring up",
 	"advancements.siscu.minecraft.metamorphic_caves.title":"Metamorphic Caves",
 	"advancements.siscu.minecraft.metamorphic_caves.description":"A zone with very active volcanic activity",
+	"advancements.siscu.minecraft.shocking_encounter.title":"Shocking Encounter",
+	"advancements.siscu.minecraft.shocking_encounter.description":"Get hurt by an entity while wearing charged Copper Armor",
+	"advancements.siscu.minecraft.stray_clothes.title":"It's cold out here",
+	"advancements.siscu.minecraft.stray_clothes.description":"Alleviate a Stray from its clothing",
+	"advancements.siscu.minecraft.stray_clothes_nether.title":"Facing the Darkness",
+	"advancements.siscu.minecraft.stray_clothes_nether.description":"Stay 60 minutes straight in the Nether wearing Stray Clothing",
+	"advancements.siscu.minecraft.warden_retreat.title":"Overpowered",
+	"advancements.siscu.minecraft.warden_retreat.description":"Make a Warden retreat from a battle",
 	"advancements.siscu.minecraft.withered_grounds.title":"Withered Grounds",
 	"advancements.siscu.minecraft.withered_grounds.description":"A dark and ghostly biome",
 	
@@ -89,6 +97,9 @@
 	"item.siscu.ravager_horn": "Ravager Horn",
 	"item.siscu.shutters": "Shutters",
 	"item.siscu.suspicious_stew_book": "Apothecaries Guide",
+	"item.siscu.stray_chestplate": "Stray Robe",
+	"item.siscu.stray_helmet": "Stray Cap",
+	"item.siscu.stray_leggings": "Stray Drapes",
 	"item.siscu.trout": "Trout",
 	"item.siscu.tuna": "Tuna",
 	"item.siscu.turbot": "Turbot",
@@ -110,7 +121,7 @@
 	"item.siscu.zoglin_head": "Zoglin Head",
 
 	"pack.siscu": "Survivor's Elegy",
-	"pack.siscu.version": "alpha v0.8.0",
+	"pack.siscu.version": "alpha v0.8.1",
 
 	"text.siscu.config": " to open the menu",
 	"text.siscu.config2_1": "\u26A0 This is an administrator level item",

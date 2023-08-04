@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "copper_devices",
+  "group": "siscu_crafting",
   "pattern": [
     " K ",
     "CRC",

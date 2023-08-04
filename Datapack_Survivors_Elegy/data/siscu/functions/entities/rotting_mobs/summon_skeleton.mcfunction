@@ -1,6 +1,9 @@
 execute if entity @s[type=#skull_exceptions] run function siscu:entities/rotting_mobs/set_custom_skulls
 
 summon skeleton ~ ~ ~ {Tags:["skeleton_checked","converted","rotten"]}
+tag @s[type=husk] add husk_skeleton
+tag @s[type=zombified_piglin] add piglin
+
 data modify entity @e[tag=converted,limit=1,sort=nearest] Tags append from entity @s Tags[]
 
 item replace entity @e[tag=converted,limit=1,sort=nearest] weapon from entity @s weapon
@@ -22,11 +25,14 @@ data modify entity @e[tag=converted,limit=1,sort=nearest] CanPickUpLoot set from
 data modify entity @e[tag=converted,limit=1,sort=nearest] Rotation set from entity @s Rotation
 data modify entity @e[tag=converted,limit=1,sort=nearest] FallDistance set from entity @s FallDistance
 
+
+# Special Cases
+execute as @e[tag=converted,limit=1,sort=nearest,tag=husk_skeleton] run function siscu:entities/skeleton/husk_skeleton
+
+
 playsound minecraft:entity.skeleton.converted_to_stray hostile @a ~ ~ ~
 function siscu:entities/rotting_mobs/big_particles
 effect give @e[tag=converted] slowness 3 2 true
-
-execute if entity @s[type=zombified_piglin] run tag @e[tag=converted,limit=1,sort=nearest] add piglin
 
 tag @e[tag=converted] remove converted
 tp @s[type=!player] ~ ~-201 ~

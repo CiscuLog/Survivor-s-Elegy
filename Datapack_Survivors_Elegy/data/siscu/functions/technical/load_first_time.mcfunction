@@ -1,5 +1,5 @@
 # Storages
-data merge storage siscu:world {PackVersion:"alpha v0.8.0"}
+data merge storage siscu:world {PackVersion:"alpha v0.8.1"}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 
 #set gamerules
@@ -23,6 +23,7 @@ scoreboard objectives add siscu.y_rotation dummy {"text":"Y rotation","color":"g
 scoreboard objectives add siscu.y_rotation_int dummy {"text":"Y rotation: int","color":"gold"}
 scoreboard objectives add siscu.y_rotation_decimal dummy {"text":"Y rotation: decimal","color":"gold"}
 
+scoreboard objectives add siscu.stray_armor dummy {"text":"Stray Armor","color":"aqua"}
 scoreboard objectives add siscu.withering dummy {"text":"Withering","color":"dark_gray","font":"siscu_se:piglinalt"}
 scoreboard objectives add siscu.warped_food dummy {"text":"Warped Food","color":"aqua"}
 
@@ -36,6 +37,7 @@ scoreboard objectives add siscu.zombifying dummy {"text":"Zombifying","color":"d
 scoreboard players set @a siscu.use_carrot 0
 execute unless score death_message siscu.integer matches 0.. run scoreboard players set death_message siscu.integer 1
 scoreboard players set server_randN siscu.volatile 0
+scoreboard players set siscu.added_damage siscu.volatile 0
 ## constants
 scoreboard players set -1 siscu.integer -1
 scoreboard players set 1 siscu.integer 1

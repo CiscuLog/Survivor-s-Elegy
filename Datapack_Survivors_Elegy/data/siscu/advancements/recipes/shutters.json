@@ -28,5 +28,8 @@
 				}]
 			}
         }
-    }
+    },
+	"rewards": {
+		"recipes": ["siscu:shutters"]
+	}
 }

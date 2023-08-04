@@ -28,5 +28,8 @@
 				}]
 			}
         }
-    }
+    },
+	"rewards": {
+		"recipes": ["siscu:copper_axe","siscu:copper_hoe","siscu:copper_pickaxe","siscu:copper_shovel","siscu:copper_sword"]
+	}
 }

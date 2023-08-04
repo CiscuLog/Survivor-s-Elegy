@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"nbt": "{Tags:[\"husk_skeleton\"]}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:advancement/damaged_by_husk_skeleton"
+	}
+}

@@ -1,6 +1,26 @@
 
 Compatible Minecraft versions: 1.20+
 
+Survivor's Elegy alpha v0.8.1 (04/08/2023)
++ Added Day announcement title options: "none", "Day X", "Dawn of the Xth day", "Xth day" and "X". It defaults to the third
++ Added Evokers have a 50% chance of using one totem of undying
++ Added Husk Skeletons. These skeletons don't burn in sunlight, and grant 15 seconds of Hunger I to the player when attacking
++ Added Husks rot into Husk Skeletons
++ Added Stray Zombies. These zombies grant 15 seconds of Slowness I to the player when attacking. They rot into Strays instead of Skeletons
++ Added Stray Clothes. Only Robes(chestplate) can be obtained when killing a Stray or Stray Zombie. It offers a max of 4 points of protection, excluding enchantments
++ Added Stray Robes stall the withering process of the entity wearing it, in exchange consuming the armor's durability
++ Added Strays can drop Stray Robes when killed
++ Added "It's cold out here" advancement for obtaining Stray Robes
++ Added "Facing the darkness" advancement for staying 1 hour in the nether while wearing Stray Robes
++ Added "Shocking Encounter" advancement for getting hurt while wearing charged copper armor
++ Added Survivor's Elegy custom item's recipes are available on the knowledge book as soon as the player gets the required items
++ Changed Withering. Staying on warped forests will stall the illness's progression
++ Fixed Custom Chestplates not taking the Mending enchantment into account for its damage calculations
++ Fixed Hake not being displayed on the recipe advancements for smoking cod
++ Fixed Mineshafts only generating on badlands
++ Fixed Wax Horse Armor undying when used on a cauldron
++ Restored the "A Terrible Fortress" advancement
+
 Survivor's Elegy alpha v0.8.0 (01/08/2023)
 + Added Config Book. Given only to the first player that enters the server, it calls for the siscu:config function without administrator requirements
 + Added Nether Fortresses

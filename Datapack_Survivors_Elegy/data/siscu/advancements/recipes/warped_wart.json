@@ -20,5 +20,8 @@
 				}]
 			}
         }
-    }
+    },
+	"rewards": {
+		"recipes": ["siscu:warped_wart"]
+	}
 }

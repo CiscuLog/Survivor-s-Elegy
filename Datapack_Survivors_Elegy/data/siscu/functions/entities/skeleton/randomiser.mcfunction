@@ -13,8 +13,11 @@ execute at @s if predicate siscu:utils/5_percent if predicate siscu:utils/check_
 execute at @s if predicate siscu:locations/check_village run tag @s add villager
 execute unless predicate siscu:entities/skeleton_is_riding run loot replace entity @s[tag=villager] weapon loot siscu:groups/villager_skeleton_weapons
 loot replace entity @s[tag=villager] armor.head loot siscu:groups/villager_skeleton_heads_natural
-
 data modify entity @s[tag=villager] ArmorDropChances[3] set value 0.0f
+
+## Husk Skeletons
+execute at @s[tag=!villager] if biome ~ ~ ~ minecraft:desert if predicate siscu:utils/80_percent run tag @s add husk_skeleton
+execute if entity @s[tag=husk_skeleton] run function siscu:entities/skeleton/husk_skeleton
 
 execute unless predicate siscu:entities/skeleton_is_riding run loot replace entity @s[tag=!villager,tag=!piglin] weapon loot siscu:groups/skeleton_weapons
 execute if predicate siscu:utils/10_percent run loot replace entity @s[tag=!villager,tag=!piglin] weapon.offhand loot siscu:groups/skeleton_shields

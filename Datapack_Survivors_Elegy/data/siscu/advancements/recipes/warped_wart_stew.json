@@ -28,5 +28,8 @@
 				}]
 			}
         }
-    }
+    },
+	"rewards": {
+		"recipes": ["siscu:warped_wart_stew"]
+	}
 }

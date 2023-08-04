@@ -17,8 +17,10 @@ tag @s[tag=amethyst_zombie] add special
 ### infected ###
 execute if predicate siscu:locations/check_surface if predicate siscu:utils/1_percent if score phage_enabled siscu.integer matches 1 run tag @s[tag=!special] add infected_zombie
 tag @s[tag=infected_zombie] add special
-#execute if predicate siscu:locations/check_sunflower_plains if predicate siscu:locations/check_surface if predicate siscu:utils/25_percent run tag @s[tag=!special] add sunflower_zombie
-tag @s[tag=sunflower_zombie] add special
+### stray ###
+execute if predicate siscu:locations/check_stray_biomes if predicate siscu:locations/check_surface if predicate siscu:utils/80_percent if score phage_enabled siscu.integer matches 1 run tag @s[tag=!special] add stray_zombie
+tag @s[tag=stray_zombie] add special
+
 
 tag @s[tag=special] add unequipped
 #execute at @s[tag=special] run particle minecraft:totem_of_undying ~ ~1 ~ 0 0 0 0.3 30

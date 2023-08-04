@@ -36,5 +36,8 @@
 				}]
 			}
         }
-    }
+    },
+	"rewards": {
+		"recipes": ["siscu:bee_counter"]
+	}
 }

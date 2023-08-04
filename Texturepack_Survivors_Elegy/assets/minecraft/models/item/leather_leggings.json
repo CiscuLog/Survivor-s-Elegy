@@ -65,6 +65,7 @@
         "trim_type": 1.0
       }
     },
+	{"predicate": {"custom_model_data": 540010}, "model": "siscu_se:item/stray_leggings"},
 	{"predicate": {"custom_model_data": 548101}, "model": "siscu_se:item/copper_leggings"},
 	{"predicate": {"custom_model_data": 548102}, "model": "siscu_se:item/exposed_copper_leggings"},
 	{"predicate": {"custom_model_data": 548103}, "model": "siscu_se:item/weathered_copper_leggings"},

@@ -36,5 +36,8 @@
 				}]
 			}
         }
-    }
+    },
+	"rewards": {
+		"recipes": ["siscu:crimson_stew"]
+	}
 }

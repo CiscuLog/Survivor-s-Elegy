@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "copper_tools",
+  "group": "copper_armor",
   "pattern": [
     "X",
     "#",

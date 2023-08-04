@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#minecraft:has_structure/mineshaft_mesa",
+  "biomes": "#minecraft:has_structure/mineshaft",
   "max_distance_from_center": 128,
   "size": 7,
   "spawn_overrides": {

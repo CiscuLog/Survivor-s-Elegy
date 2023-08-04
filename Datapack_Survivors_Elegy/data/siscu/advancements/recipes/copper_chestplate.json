@@ -20,5 +20,8 @@
 				}]
 			}
         }
-    }
+    },
+	"rewards": {
+		"recipes": ["siscu:copper_helmet","siscu:copper_chestplate","siscu:copper_leggings","siscu:copper_boots"]
+	}
 }
