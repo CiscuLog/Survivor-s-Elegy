@@ -1,5 +1,5 @@
 {
-	"parent": "minecraft:adventure/kill_a_mob",
+	"parent": "minecraft:adventure/kill_mob_near_sculk_catalyst",
 	"display":{
 			"icon": {
 					"item": "minecraft:sculk_shrieker"
@@ -15,8 +15,8 @@
 				}
 		],
 		"show_toast": true,
-		"announce_to_chat": false,
-		"hidden": false,
+		"announce_to_chat": true,
+		"hidden": true,
 		"frame": "challenge"
 	},
     "criteria": {

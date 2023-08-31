@@ -5,15 +5,13 @@
 			"trigger":"minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["saddle"]	
+					"items": ["saddle"],
+					"nbt": "{CustomModelData:548101}"
 				},
 				"entity": {
 					"nbt": "{Saddle:1b}"
 				}
 			}
 		}
-	},
-	"rewards": {
-		"function": "siscu:items/use/enchanted_saddle_interact"
 	}
 }

@@ -9,7 +9,7 @@
 		"announce_to_chat": false,
 		"hidden": true
 	},
-	"parent": "siscu:story/outpost_compass",
+	"parent": "siscu:story/villagers_exiled",
 	"criteria": {
 		"0": {
 			"conditions": {

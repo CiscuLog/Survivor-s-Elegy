@@ -1,6 +1,28 @@
 
 Compatible Minecraft versions: 1.20+
 
+Survivor's Elegy alpha v0.8.2 (31/08/2023)
++ Added Enchanter Guides sold by Wandering Traders increase in price for 2 emeralds each time the player buys one, with a max of 64 emeralds for 1 Guide
++ Added custom mobs Spawn Eggs. They can be obtained from the config menu
++ Added "Emergency Save" advancement for eating Chorus Fruit below the End's bottom build limit
++ Added "Equestrian Expertise" advancement for getting all Horse Armor items
++ Added "Hidden in Plain Sight" advancement for crouching in tall grass without wearing any armor
++ Added "Overpowered" advancement for making a warden retreat from battle
++ Added "Pirates!" advancement for placing an Ominous Banner on a boat
++ Added "Polar Opposites" advancement for riding a Strider saddled with an Enchanted Saddle whilst having Frost Walker
++ Added "Sonic Toll" advancement for ringing a bell whilst holding an Echo Shard 
++ Added "Time Capsule" advancement for making a suspicious block by pushing an item using an item frame and a button
++ Changed Config Book will be given to the player in the slot 0 of their inventory
++ Changed parent for "Pillager Outpost" advancement to "Illager"
++ Chaged Warden Burying code. Now the same warden buries itself, and an extra Warden in not summoned anymore
++ Fixed Blasting raw ore blocks not working
++ Fixed Enchanted Saddles equipping on pigs and striders only if the player is in creative mode
++ Fixed Husk Skeletons burning in sunlight
++ Fixed Wax Horse Armor not working
++ Retextured Warped Wart
+- Removed "Fish" item from the "Fishmonger" advancement requirements
+- Removed "Patrol Compass" advancement
+
 Survivor's Elegy alpha v0.8.1 (04/08/2023)
 + Added Day announcement title options: "none", "Day X", "Dawn of the Xth day", "Xth day" and "X". It defaults to the third
 + Added Evokers have a 50% chance of using one totem of undying

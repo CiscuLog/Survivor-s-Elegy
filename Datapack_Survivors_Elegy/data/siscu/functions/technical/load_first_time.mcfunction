@@ -1,5 +1,5 @@
 # Storages
-data merge storage siscu:world {PackVersion:"alpha v0.8.1"}
+data merge storage siscu:world {PackVersion:"alpha v0.8.2"}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 
 #set gamerules
@@ -63,6 +63,7 @@ function siscu:world/day_features/config/normal_cycle
 scoreboard players set enderman_block siscu.integer 117
 scoreboard players set creeper_max siscu.integer 35
 scoreboard players set creeper_min siscu.integer 25
+execute unless score enchanter_guide_price siscu.integer matches 0.. run scoreboard players set enchanter_guide_price siscu.integer 2
 ## fire spring variables
 scoreboard players set fire_spring_lava siscu.integer 0
 scoreboard players set fire_spring_flame siscu.integer 50

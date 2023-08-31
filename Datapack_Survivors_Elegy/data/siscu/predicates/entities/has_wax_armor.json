@@ -19,7 +19,7 @@
 			"predicate": {
 				"equipment": {
 					"chest": {
-						"items": ["golden_horse_armor"],
+						"items": ["leather_horse_armor"],
 						"nbt": "{CustomModelData:548104}"
 					}
 				}

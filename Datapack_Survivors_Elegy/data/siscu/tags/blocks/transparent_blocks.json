@@ -16,6 +16,8 @@
 	  "#minecraft:saplings",
 	  "#minecraft:walls",
     "minecraft:bamboo",
-    "minecraft:lily_pad"
+    "minecraft:lily_pad",
+    "minecraft:vine",
+    "minecraft:cocoa"
   ]
 }

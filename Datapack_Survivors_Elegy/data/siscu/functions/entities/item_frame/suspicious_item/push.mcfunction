@@ -10,3 +10,4 @@ playsound minecraft:block.suspicious_gravel.place block @a ~ ~ ~
 playsound minecraft:entity.glow_item_frame.remove_item block @a ~ ~ ~
 particle minecraft:block oak_planks ~ ~ ~ 0 0 0 0.3 6
 kill @s
+advancement grant @p only siscu:minecraft/adventure/create_suspicious_block

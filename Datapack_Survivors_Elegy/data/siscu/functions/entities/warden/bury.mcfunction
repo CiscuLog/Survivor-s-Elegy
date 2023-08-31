@@ -5,13 +5,10 @@
 
 execute on attacker run advancement grant @s only siscu:minecraft/adventure/warden_retreat
 
-summon warden ~ ~ ~ {Tags:["burying"],Brain:{memories:{"minecraft:dig_cooldown":{ttl:0L}}},Invulnerable:1b}
-data modify entity @e[type=warden,tag=burying,limit=1,sort=nearest] Rotation set from entity @s Rotation
-scoreboard players set @e[type=warden,tag=burying,limit=1,sort=nearest] siscu.volatile 100
+tag @s add burying
+data merge entity @s {anger:{suspects:[]},Brain:{memories:{"minecraft:dig_cooldown":{ttl:0L}}},Invulnerable:1b}
+scoreboard players set @s siscu.volatile 100
 function siscu:entities/warden/bury_timer
 
 playsound minecraft:entity.warden.agitated hostile @a ~ ~ ~
-
-tp @s[type=!player] ~ ~-300 ~
-kill @s[type=!player]
 

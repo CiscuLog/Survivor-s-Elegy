@@ -1,0 +1,1 @@
+schedule function siscu:items/use/enchanted_saddle 1t

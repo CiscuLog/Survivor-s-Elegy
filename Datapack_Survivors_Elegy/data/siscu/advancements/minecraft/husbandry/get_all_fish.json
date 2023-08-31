@@ -21,17 +21,6 @@
 		"frame": "challenge"
 	},
 	"criteria": {
-		"1": {
-			"trigger":"minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-				{
-					"items": ["cod"],
-					"nbt": "{CustomModelData:540000}"
-				}
-				]
-			}
-		},
 		"2": {
 			"trigger":"minecraft:inventory_changed",
 			"conditions": {
@@ -122,7 +111,6 @@
 		}
 	},
 	"requirements": [
-		["1"],
 		["2"],
 		["3"],
 		["4"],

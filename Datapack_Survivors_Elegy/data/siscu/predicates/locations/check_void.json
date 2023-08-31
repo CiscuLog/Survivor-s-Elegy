@@ -8,6 +8,13 @@
 				"y": {"max":-100}
 			}
 		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"dimension": "minecraft:the_end",
+			"position": {"y":{"max":0}}
+		}
 	}
 	]
 }

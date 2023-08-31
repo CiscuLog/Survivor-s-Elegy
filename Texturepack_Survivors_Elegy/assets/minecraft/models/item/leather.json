@@ -16,6 +16,7 @@
 	{"predicate": {"custom_model_data": 540024}, "model": "siscu_se:item/crimson_painting_4"},
 	{"predicate": {"custom_model_data": 540025}, "model": "siscu_se:item/crimson_painting_5"},
 	{"predicate": {"custom_model_data": 540026}, "model": "siscu_se:item/crimson_painting_6"},
+	{"predicate": {"custom_model_data": 548001}, "model": "siscu_se:item/advancements/suspicious_block"},
 	{"predicate": {"custom_model_data": 548101}, "model": "siscu_se:item/piglin_head"},
 	{"predicate": {"custom_model_data": 548102}, "model": "siscu_se:item/villager_head"},
 	{"predicate": {"custom_model_data": 548103}, "model": "siscu_se:item/pillager_head"},

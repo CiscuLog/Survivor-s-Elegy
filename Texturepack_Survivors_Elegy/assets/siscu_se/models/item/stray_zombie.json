@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/custom_spawn_egg_template",
+  "textures": {
+    "0": "siscu_se:item/spawn_eggs/stray_zombie"
+  }
+}

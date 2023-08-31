@@ -8,5 +8,6 @@ tellraw @s [{"text":"- Creeper Fuse Time Variation","bold":"false","color":"gree
 tellraw @s [{"text":"- Phage and Zombification","bold":"false","color":"green","clickEvent":{"action":"run_command","value":"/function siscu:phage"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to change"}}}]
 tellraw @s [{"text":"- Rotting Undead Mobs","bold":"false","color":"green","clickEvent":{"action":"run_command","value":"/function siscu:rotting"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to change"}}}]
 tellraw @s [{"text":"- Withering","bold":"false","color":"green","clickEvent":{"action":"run_command","value":"/function siscu:withering"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to change"}}}]
+tellraw @s [{"text":"- New Creatures","bold":"false","color":"green","clickEvent":{"action":"run_command","value":"/function siscu:spawn_eggs"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to access Inventory"}}}]
 tellraw @s [{"text":"Version: ","color":"gray","bold":"false","font":"siscu_se:subscript"},{"storage":"siscu:world","nbt":"PackVersion","color":"gray","bold":"false","font":"siscu_se:subscript"},{"text":"\n"}]
 playsound minecraft:block.note_block.bell master @s ~ ~ ~ 1 1

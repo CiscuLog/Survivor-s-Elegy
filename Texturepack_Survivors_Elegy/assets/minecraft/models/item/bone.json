@@ -11,6 +11,7 @@
         }
     },
 	"overrides": [
+	{"predicate": {"custom_model_data": 540000}, "model": "siscu_se:item/blank"},
 	{"predicate": {"custom_model_data": 548101}, "model": "siscu_se:item/withered_bone"},
 	{"predicate": {"custom_model_data": 548102}, "model": "siscu_se:item/ravager_horn"},
 	{"predicate": {"custom_model_data": 548110}, "model": "siscu_se:item/piglin_skull"},

@@ -1,0 +1,11 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity":"this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"nbt": "{display:{Name:'{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}'}}"
+			}
+		}
+	}
+}
