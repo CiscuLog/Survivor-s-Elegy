@@ -5,7 +5,7 @@
 		"entries": [
 		{
 			"type": "minecraft:item",
-			"name": "minecraft:raw_gold",
+			"name": "minecraft:warped_fungus_on_a_stick",
 			"functions": [
 			{
 				"function": "minecraft:set_nbt",
@@ -29,6 +29,7 @@
 						}
 					]}
 				]},
+				{"translate":"text.siscu.config1","italic":false,"color":"gray"},
 				{"translate": "text.siscu.config2_1","italic":false,"color":"red"},
 				{"translate": "text.siscu.config2_2","italic":false,"color":"red"}
 				],

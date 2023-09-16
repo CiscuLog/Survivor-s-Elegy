@@ -1,7 +1,7 @@
 {
 	"show_toast": false,
 	"criteria": {
-		"0": 
+		"mainhand": 
 		{
 			"trigger":"minecraft:tick",
 			"conditions": {
@@ -11,14 +11,14 @@
 					"predicate": {
 						"equipment": {
 							"mainhand": {
-								"items": ["minecraft:carrot_on_a_stick"]
+								"items": ["minecraft:warped_fungus_on_a_stick"]
 							}
 						}
 					}
 				}]
 			}
 		},
-		"1": 
+		"offhand": 
 		{
 			"trigger":"minecraft:tick",
 			"conditions": {
@@ -28,7 +28,7 @@
 					"predicate": {
 						"equipment": {
 							"offhand": {
-								"items": ["minecraft:carrot_on_a_stick"]
+								"items": ["minecraft:warped_fungus_on_a_stick"]
 							}
 						}
 					}
@@ -36,8 +36,8 @@
 			}
 		}
 	},
-	"requirements": [["0","1"]],
+	"requirements": [["mainhand","offhand"]],
 	"rewards": {
-		"function": "siscu:items/use/carrot_on_a_stick_hold"
+		"function": "siscu:items/use/fungus_on_a_stick_hold"
 	}
 }

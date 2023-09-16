@@ -1,8 +1,7 @@
 {
-	"show_toast": false,
+	"show_toast": true,
 	"criteria": {
-		"0": 
-		{
+		"0": {
 			"trigger":"minecraft:tick",
 			"conditions": {
 				"player": [{
@@ -11,8 +10,8 @@
 					"predicate": {
 						"equipment": {
 							"mainhand": {
-								"items": ["minecraft:raw_gold"],
-								"nbt": "{CustomModelData:540000}"
+								"items": ["raw_gold"],
+                                "nbt": "{CustomModelData:540000}"
 							}
 						}
 					}
@@ -21,6 +20,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:items/use/config/config_hold"
+		"function": "siscu:items/update/config"
 	}
 }

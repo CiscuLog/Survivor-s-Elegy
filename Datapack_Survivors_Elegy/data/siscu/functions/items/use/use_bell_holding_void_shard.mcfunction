@@ -1,3 +1,5 @@
+stopsound @a[distance=..48] block minecraft:block.bell.use
+playsound minecraft:block.bell.use master @a ~ ~ ~ 2 0.8
 playsound minecraft:block.bell.resonate block @a ~ ~ ~ 2 0.75
 effect give @e[type=!#siscu:glowing_invulnerable,tag=!invisible,distance=..48] glowing 5 0 true
 effect give @a[distance=..32] darkness 7 0 true

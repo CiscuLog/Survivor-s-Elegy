@@ -19,6 +19,7 @@ execute if predicate siscu:entities/has_wax_armor run playsound minecraft:block.
 playsound minecraft:entity.zombie_horse.death neutral @a ~ ~ ~ 1 0.8
 effect give @e[tag=zombified] slowness 3 2 true
 
+execute on passengers run ride @s dismount
 tag @e[tag=zombified] remove zombified
 tp @s[type=!player] ~ -200 ~
 kill @s

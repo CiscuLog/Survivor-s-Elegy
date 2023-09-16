@@ -32,7 +32,7 @@
                 },
                 "player": [
                     {"condition": "reference",
-                "name": "siscu:entities/is_wearing_copper_armor"}
+                "name": "siscu:entities/is_wearing_charged_armor"}
                 ]
             }
         }

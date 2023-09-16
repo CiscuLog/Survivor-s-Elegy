@@ -1,5 +1,5 @@
 #create scoreboards
-execute unless data storage siscu:world {PackVersion:"alpha v0.8.2"} run function siscu:technical/load_first_time
+execute unless data storage siscu:world {PackVersion:"alpha v0.8.3"} run function siscu:technical/load_first_time
 
 #delete schedules
 function siscu:technical/clear_schedules
@@ -25,3 +25,6 @@ advancement revoke @a only siscu:items/use/custom_armor_boots
 advancement revoke @a only siscu:items/use/custom_weapon_mainhand
 advancement revoke @a only siscu:items/use/config_hold
 advancement revoke @a only siscu:items/use/config_use
+
+# Others
+function siscu:advancement/clear_connections

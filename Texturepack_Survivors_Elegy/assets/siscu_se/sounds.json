@@ -1,0 +1,9 @@
+{
+    "item.brute_shield.use":{
+        "category": "player",
+        "subtitle":"item.siscu.piglin_shield",
+        "sounds": [
+            "siscu_se:golden_shield"
+        ]
+    }
+}

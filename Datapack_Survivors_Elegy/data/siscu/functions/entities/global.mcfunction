@@ -2,7 +2,7 @@
 tag @s add entity_checked
 
 #Differentiate
-execute as @e[type=blaze,tag=!blaze_checked] run function siscu:entities/blaze/randomiser
+execute as @e[type=blaze,tag=!blaze_checked] at @s run function siscu:entities/blaze/randomiser
 execute as @e[type=creeper,tag=!creeper_checked] run function siscu:entities/creeper/randomiser
 execute as @e[type=drowned,tag=!drowned_checked] run function siscu:entities/drowned/randomiser
 execute as @e[type=enderman,tag=!enderman_checked] run function siscu:entities/enderman/randomiser

@@ -1,5 +1,31 @@
 
-Compatible Minecraft versions: 1.20+
+Compatible Minecraft versions: 1.20 to 1.20.1
+
+Survivor's Elegy alpha v0.8.3 (16/09/2023)
++ Added Brute Shield sounds when successfully blocking an attack
++ Added Trader Llamas can spawn on caravan instead of being both leashed to the Wandering Trader
++ Added Wandering Trader black market, accessed by holding an ominous banner in front of a Wandering Trader. New trades are enchanted Iron Axes, enchanted Crossbows, Phage Arrows and Totems of Undying. The latter two's prices are Ravager Horns
++ Added Wandering Traders have a 20% chance of spawning with a pack animal and a mascot instead of 2 Llamas. Pack animals: Camel, Donkey, Mule. Mascots: Wolf, Cat, Bee, Pig, Cow, Chicken, Parrot. A rare variant can spawn consisting of a Chicken riding a Cat riding a Wolf riding a Donkey.
++ Changed Battle Sticks to use Wooden Sword as the base item. Battle Sticks can now be enchanted, deal 3 HP and have a durability of 100 uses. Bamboo Battle Sticks have a durability of 200 uses. Battle Sticks will adapt these new changes if held on hand by a player
++ Changed Blaze attack range on Metamorphic caves from 40 blocks to 20
++ Changed Config item base item from Raw Gold to Warped Fungus on a Stick
++ Changed pitch of a Bell's toll when using it with an Echo Shard
++ Changed loot on Witch Hut's potion chest: drastically reduced the amount of potions on each chest
++ Changed Ravager's death loot table. Increased Ravager Horn drop chance from 50% to 75%
++ Changed Warped Food Poisoning. The healing of the poisoning will stall if the player is on a Warped Forest
++ Changed "Enchanter Guide" parent advancement from "Pillager Outpost" to "Wandering Traders"
++ Changed "Ravagers" parent advancement from "Pillager Outpost" to "Illagers"
++ Changed "Zombies" parent advancement from "Humans" to "Cloud"
++ Fixed advancement "Shocking Encounter" being granted even if the armor is not charged
++ Fixed day announcements not working properly for days ended in 1
++ Fixed Enchanted Books found on custom structures being enchanted themselves instead of having the enchantments stored
++ Fixed Ominous Banner wasn't valid if it was placed and broken
++ Fixed Piglin Crevice lava generation
++ Fixed Spawn Eggs config menu not giving eggs
++ Fixed Wardens forget about their current victims when a player uses a horn
+- Removed "Humans" advancement
+- Removed "The temple under the sea" advancement
+- Removed "Trident" advancement
 
 Survivor's Elegy alpha v0.8.2 (31/08/2023)
 + Added Enchanter Guides sold by Wandering Traders increase in price for 2 emeralds each time the player buys one, with a max of 64 emeralds for 1 Guide

@@ -12,7 +12,7 @@
 	"parent": "siscu:story/cloud",
 	"criteria": {
 		"0": {
-			"trigger":"minecraft:tick"
+			"trigger":"minecraft:impossible"
 		}
 	}
 }

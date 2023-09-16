@@ -1,5 +1,5 @@
 # Storages
-data merge storage siscu:world {PackVersion:"alpha v0.8.2"}
+data merge storage siscu:world {PackVersion:"alpha v0.8.3"}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 
 #set gamerules
@@ -16,7 +16,7 @@ scoreboard objectives add siscu.dimension dummy {"text":"Dimension","color":"dar
 scoreboard objectives add siscu.grass_stealth dummy {"text":"Grass Stealth","color":"green"}
 scoreboard objectives add siscu.integer dummy {"text":"Int","color":"gold"}
 scoreboard objectives add siscu.sleep_time dummy {"text":"Sleep Time","color":"red"}
-scoreboard objectives add siscu.use_carrot minecraft.used:minecraft.carrot_on_a_stick {"text":"Use","color":"gold"}
+scoreboard objectives add siscu.use_fungus minecraft.used:minecraft.warped_fungus_on_a_stick {"text":"Use","color":"cyan"}
 scoreboard objectives add siscu.use_goat_horn minecraft.used:minecraft.goat_horn {"text":"Horn"}
 scoreboard objectives add siscu.volatile dummy {"text":"Volatile Data","color":"purple"}
 scoreboard objectives add siscu.y_rotation dummy {"text":"Y rotation","color":"gold"}
@@ -32,6 +32,7 @@ scoreboard objectives add siscu.item_frame_inv dummy {"text":"Frame Invisibility
 scoreboard objectives add siscu.rotting_mob dummy {"text":"Rotting Mobs","color":"dark_green"}
 scoreboard objectives add siscu.fire_spring dummy {"text":"Fire Spring","color":"yellow"}
 scoreboard objectives add siscu.zombifying dummy {"text":"Zombifying","color":"dark_green"}
+scoreboard objectives add siscu.trader_timer dummy {"text":"Trader Pet Timer","color":"blue"}
 
 #set scoreboards
 scoreboard players set @a siscu.use_carrot 0

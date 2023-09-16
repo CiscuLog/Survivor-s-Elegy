@@ -5,11 +5,11 @@
 		"entries": [
 		{
 			"type": "minecraft:item",
-			"name": "minecraft:stick",
+			"name": "minecraft:wooden_sword",
 			"functions": [
 			{
 				"function": "minecraft:set_nbt",
-				"tag": "{CustomModelData:548101,HideFlags:2}"
+				"tag": "{CustomModelData:548101,HideFlags:2,SE_data:{CustomWeapon:1,UpdateVersion: \"ALPHA_v0.9.0\", RealDurability:59, Durability:100, Damage:0}}"
 			},
 			{
 				"function": "minecraft:set_name",
@@ -28,7 +28,7 @@
 					"color": "gray"
 				},
 				{
-					"text": " 4 Attack Damage",
+					"text": " 3 Attack Damage",
 					"italic": false,
 					"color": "dark_green"
 				},
@@ -45,8 +45,8 @@
 				{
 					"attribute": "generic.attack_damage",
 					"name": "generic.attack_damage",
-					"operation": "multiply_base",
-					"amount": 3,
+					"operation": "addition",
+					"amount": 2,
 					"slot": "mainhand"
 				}
 				]

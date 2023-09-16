@@ -9,7 +9,7 @@
 			"functions": [
 			{
 				"function": "minecraft:set_nbt",
-				"tag": "{CustomModelData:548102,HideFlags:2}"
+				"tag": "{CustomModelData:548102,HideFlags:2,SE_data:{Durability:200}}"
 			},
 			{
 				"function": "minecraft:set_name",

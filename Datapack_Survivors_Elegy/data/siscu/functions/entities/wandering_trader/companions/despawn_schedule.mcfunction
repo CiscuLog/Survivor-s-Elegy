@@ -1,0 +1,2 @@
+execute as @e[tag=siscu.trader_entity] at @s run function siscu:entities/wandering_trader/companions/despawn_timer
+execute if entity @e[tag=siscu.trader_entity] run schedule function siscu:entities/wandering_trader/companions/despawn_schedule 1t

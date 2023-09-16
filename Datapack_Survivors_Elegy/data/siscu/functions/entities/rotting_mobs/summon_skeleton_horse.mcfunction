@@ -13,7 +13,10 @@ data modify entity @e[tag=converted,limit=1,sort=nearest] FallDistance set from 
 
 playsound minecraft:entity.skeleton_horse.death neutral @a ~ ~ ~
 playsound minecraft:entity.skeleton.converted_to_stray neutral @a ~ ~ ~ 1 0.8
+function siscu:entities/rotting_mobs/big_particles
 effect give @e[tag=converted] slowness 3 2 true
 
+execute on passengers run ride @s dismount
 tag @e[tag=converted] remove converted
-kill @s[type=!player]
+tp @s[type=!player] ~ -200 ~
+kill @s

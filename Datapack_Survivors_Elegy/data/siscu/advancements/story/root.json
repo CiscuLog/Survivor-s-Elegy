@@ -1,19 +1,13 @@
 {
     "display": {
     "title": {
-      "translate": "SE (MISSING RESOURCES)",
+      "translate": "pack.siscu",
+      "fallback": "SE (MISSING RESOURCES)",
       "color": "white",
-      "bold": true,
-      "with": [
-        [{
-          "translate": "pack.siscu",
-	  "color": "yellow",
-	  "bold": true
-        }]
-      ]
+      "bold": true
     },
     "description": {
-      "translate": "The required Survivor's Elegy Resource Pack is not installed.",
+      "translate": "The required Survivor's Elegy Resource Pack is not installed. Read INSTALL.txt for info on that matter",
       "with": [
         [
 		{

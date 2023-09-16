@@ -10,7 +10,7 @@
 		"announce_to_chat": false,
 		"hidden": true
 	},
-	"parent": "siscu:story/outpost",
+	"parent": "siscu:story/villagers_exiled",
 	"criteria": {
 		"0": {
 			"trigger":"minecraft:tick",
