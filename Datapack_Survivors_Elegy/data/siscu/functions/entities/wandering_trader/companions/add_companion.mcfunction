@@ -18,8 +18,7 @@ execute if score trader_companion siscu.volatile matches 3 summon mule run funct
 # Mascot
 scoreboard players set random_min siscu.volatile 1
 scoreboard players set random_max siscu.volatile 8
-#execute store result score trader_companion siscu.volatile run loot spawn ~ ~ ~ loot siscu:gameplay/generic_randomiser
-scoreboard players set trader_companion siscu.volatile 2
+execute store result score trader_companion siscu.volatile run loot spawn ~ ~ ~ loot siscu:gameplay/generic_randomiser
 
 execute if score trader_companion siscu.volatile matches 1 summon wolf run function siscu:entities/wandering_trader/companions/generic
 execute if score trader_companion siscu.volatile matches 2 summon cat run function siscu:entities/wandering_trader/companions/generic
