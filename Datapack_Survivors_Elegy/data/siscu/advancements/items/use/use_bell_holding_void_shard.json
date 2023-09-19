@@ -8,7 +8,10 @@
 				"location": [
 					{
 						"condition": "location_check",
-						"predicate": {"blocks": ["bell"]}
+						"predicate": 
+						{
+							"block":{"blocks": ["bell"]}
+						}
 					},
 					{
 						"condition": "match_tool",

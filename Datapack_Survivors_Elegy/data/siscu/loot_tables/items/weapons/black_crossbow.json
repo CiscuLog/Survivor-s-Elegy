@@ -9,7 +9,7 @@
 			"functions": [
 				{
 					"function": "minecraft:enchant_randomly",
-					"enchantments": ["minecraft:mending","minecraft:quick_charge","minecraft:piercing","minecraft:multishot","minecraft:smite","minecraft:unbreaking"]
+					"enchantments": ["minecraft:mending","minecraft:quick_charge","minecraft:piercing","minecraft:multishot","minecraft:unbreaking"]
 				}
 			]
 		}

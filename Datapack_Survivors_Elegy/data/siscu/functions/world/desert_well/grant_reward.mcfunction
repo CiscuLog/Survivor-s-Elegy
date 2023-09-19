@@ -10,3 +10,5 @@ particle minecraft:rain ~ ~ ~ 0.75 0 0.75 0 100
 playsound minecraft:block.note_block.bell master @a ~ ~ ~
 
 loot spawn ~ ~ ~ loot siscu:gameplay/desert_well
+
+advancement grant @a[distance=..5] only siscu:minecraft/adventure/well_treasure

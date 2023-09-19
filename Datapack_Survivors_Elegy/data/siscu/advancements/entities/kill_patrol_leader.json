@@ -6,7 +6,7 @@
 				"entity":
 				{
 					"type": "minecraft:pillager",
-					"nbt": "{PatrolLeader: 1b, Patrolling: 1b}"
+					"nbt": "{Tags:[\"is_patrol_leader\"]}"
 				}
 			}
 		}

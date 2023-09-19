@@ -2,19 +2,6 @@
   "processors": [
     {
       "rules": [
-      {
-        "input_predicate": {
-          "block": "minecraft:gravel",
-          "predicate_type": "minecraft:block_match"
-        },
-        "output_state": {
-          "Name": "minecraft:water"
-        },
-        "location_predicate": {
-          "block": "minecraft:water",
-          "predicate_type": "minecraft:block_match"
-        }
-      },
         {
           "input_predicate": {
             "block": "minecraft:gravel",
@@ -39,6 +26,19 @@
           },
           "output_state": {
             "Name": "minecraft:grass_block"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:gravel",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:water"
+          },
+          "location_predicate": {
+            "block": "minecraft:water",
+            "predicate_type": "minecraft:block_match"
           }
         }
       ],

@@ -1,0 +1,30 @@
+{
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+						"source_entity": {
+							"type": "minecraft:guardian"
+						}
+				}
+			}
+		},
+		"1": {
+			"trigger":"minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"type": "minecraft:elder_guardian"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [["0","1"]],
+	"rewards": {
+		"function": "siscu:advancement/damaged_by_guardian"
+	}
+}

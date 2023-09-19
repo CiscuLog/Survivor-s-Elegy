@@ -33,6 +33,8 @@
 	"advancements.siscu.minecraft.create_suspicious_block.description":"Make a suspicious block using an item frame and a button",
 	"advancements.siscu.minecraft.warden_retreat.title":"Overpowered",
 	"advancements.siscu.minecraft.warden_retreat.description":"Make a Warden retreat from a battle",
+	"advancements.siscu.minecraft.well_treasure.title":"Wishing Well",
+	"advancements.siscu.minecraft.well_treasure.description":"Throw a Gold Ingot in a sparkling desert well",
 	"advancements.siscu.minecraft.withered_grounds.title":"Withered Grounds",
 	"advancements.siscu.minecraft.withered_grounds.description":"A dark and ghostly biome",
 	
@@ -145,7 +147,7 @@
 	"item.siscu.zoglin_head": "Zoglin Head",
 
 	"pack.siscu": "Survivor's Elegy",
-	"pack.siscu.version": "alpha v0.8.3",
+	"pack.siscu.version": "alpha v0.8.4",
 
 	"text.siscu.config": " to open the menu",
 	"text.siscu.config1": "If it doesn't work, type on chat: /function siscu:config",

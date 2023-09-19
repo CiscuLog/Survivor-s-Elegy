@@ -1,5 +1,5 @@
 # Storages
-data merge storage siscu:world {PackVersion:"alpha v0.8.3"}
+data merge storage siscu:world {PackVersion:"alpha v0.8.4"}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 
 #set gamerules

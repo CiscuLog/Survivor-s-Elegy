@@ -31,7 +31,7 @@
 		  "condition": "minecraft:entity_properties",
 		  "entity": "this",
 		  "predicate": {
-			  "nbt":"{Tags:[\"patrol_leader\"]}"
+			  "nbt":"{Tags:[\"is_patrol_leader\"]}"
 			}
 	  },
 	  {

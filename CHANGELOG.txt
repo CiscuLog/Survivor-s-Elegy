@@ -1,6 +1,16 @@
 
 Compatible Minecraft versions: 1.20 to 1.20.1
 
+Survivor's Elegy alpha v0.8.4 (xx/xx/2023)
++ Added "survivors_elegy:config" function, alias to "siscu:config"
++ Added Guardian attacks will create sparks similar to copper armor's discharges between the Player and the Guardian
++ Added "Wishing Well" advancement for getting a well's treasure
++ Fixed Desert wells not generating Suspicious Sand
++ Fixed Crossbows on Wandering Black Trades could come enchanted with Smite
++ Fixed Patrol Compasses not dropping correctly
++ Fixed Sonic Toll happening when using an Echo Shard in any interactable block
++ Fixed Jungle Ruin's paths generating on water, creating uneven water levels
+
 Survivor's Elegy alpha v0.8.3 (16/09/2023)
 + Added Brute Shield sounds when successfully blocking an attack
 + Added Trader Llamas can spawn on caravan instead of being both leashed to the Wandering Trader
