@@ -1,0 +1,1 @@
+$execute store result score random siscu.volatile run random value $(min)..$(max)

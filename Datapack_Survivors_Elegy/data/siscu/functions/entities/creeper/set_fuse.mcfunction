@@ -1,8 +1,6 @@
 
-execute store result score creeper_fuse siscu.volatile run loot spawn ~ ~ ~ loot siscu:gameplay/randomiser_creeper
+execute store result storage siscu:volatile min int 1 run scoreboard players get creeper_min siscu.integer
+execute store result storage siscu:volatile max int 1 run scoreboard players get creeper_max siscu.integer
+function siscu:technical/randomiser with storage siscu:volatile
 
-execute if score server_status siscu.integer matches 0 run function siscu:entities/creeper/set_fuse_server
-
-execute store result storage siscu:volatile Fuse int 1 run scoreboard players get creeper_fuse siscu.volatile
-
-data modify entity @s Fuse set from storage siscu:volatile Fuse
+execute store result entity @s Fuse int 1 run scoreboard players get random siscu.volatile

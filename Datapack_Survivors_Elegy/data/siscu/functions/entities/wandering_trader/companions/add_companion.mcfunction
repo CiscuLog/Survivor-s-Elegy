@@ -7,18 +7,14 @@ execute if score trader_companion siscu.volatile matches 1 summon donkey run fun
 execute if score trader_companion siscu.volatile matches 1 run return 0
 
 # Pack animal
-scoreboard players set random_min siscu.volatile 1
-scoreboard players set random_max siscu.volatile 3
-execute store result score trader_companion siscu.volatile run loot spawn ~ ~ ~ loot siscu:gameplay/generic_randomiser
+execute store result score trader_companion siscu.volatile run random value 1..3
 
 execute if score trader_companion siscu.volatile matches 1 summon camel run function siscu:entities/wandering_trader/companions/generic
 execute if score trader_companion siscu.volatile matches 2 summon donkey run function siscu:entities/wandering_trader/companions/chested
 execute if score trader_companion siscu.volatile matches 3 summon mule run function siscu:entities/wandering_trader/companions/chested
 
 # Mascot
-scoreboard players set random_min siscu.volatile 1
-scoreboard players set random_max siscu.volatile 8
-execute store result score trader_companion siscu.volatile run loot spawn ~ ~ ~ loot siscu:gameplay/generic_randomiser
+execute store result score trader_companion siscu.volatile run random value 1..8
 
 execute if score trader_companion siscu.volatile matches 1 summon wolf run function siscu:entities/wandering_trader/companions/generic
 execute if score trader_companion siscu.volatile matches 2 summon cat run function siscu:entities/wandering_trader/companions/generic

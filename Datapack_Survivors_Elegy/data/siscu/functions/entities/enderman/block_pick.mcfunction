@@ -1,6 +1,6 @@
 # Get a random integer
 
-execute store result score enderman_block siscu.volatile run loot spawn ~ ~ ~ loot siscu:gameplay/randomiser_enderman
+execute store result score enderman_block siscu.volatile run random value 0..116
 
 # Pick block depending on the new value
 

@@ -1,13 +1,5 @@
 
-scoreboard players set random_min siscu.volatile 1
-scoreboard players set random_max siscu.volatile 6
-execute store result score volatile siscu.volatile run loot spawn ~ ~ ~ loot siscu:gameplay/generic_randomiser
-
-# Server Mode
-execute if score server_status siscu.integer matches 0 run function siscu:technical/server_mode_alternate_randomiser
-execute if score server_status siscu.integer matches 0 run scoreboard players operation volatile siscu.volatile = server_randN siscu.volatile
-
-scoreboard players add volatile siscu.volatile 540000
+execute store result score volatile siscu.volatile run random value 540001..540006
 
 execute store result storage siscu:volatile Randomiser int 1 run scoreboard players get volatile siscu.volatile
 

@@ -5,5 +5,5 @@
         {"text":"Charge: ","color":"yellow","italic":"false","extra":[{"nbt":"Charge","storage":"siscu:volatile"}]}
     ],
     "entity":"this",
-    "replace":"true"
+    "replace":true
 }

@@ -1,7 +1,13 @@
 
-Compatible Minecraft versions: 1.20 to 1.20.1
+Compatible Minecraft versions: 1.20.2
 
-Survivor's Elegy alpha v0.8.4 (xx/xx/2023)
+Survivor's Elegy alpha v0.8.5 (22/09/2023)
++ Updated to 1.20.2
++ Added Bells generate vibration particles towards glowing entities when used holding Echo Shards
++ Added dynamic daylength schedules
++ Optimised randomisers
+
+Survivor's Elegy alpha v0.8.4 (19/09/2023)
 + Added "survivors_elegy:config" function, alias to "siscu:config"
 + Added Guardian attacks will create sparks similar to copper armor's discharges between the Player and the Guardian
 + Added "Wishing Well" advancement for getting a well's treasure
