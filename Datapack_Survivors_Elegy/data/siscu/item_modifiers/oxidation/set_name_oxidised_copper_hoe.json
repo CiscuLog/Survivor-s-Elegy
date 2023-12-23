@@ -3,6 +3,6 @@
   "entity": "this",
   "name": {
 	  "translate": "item.siscu.oxidised_copper_hoe",
-	  "italic": "false"
+	  "italic": false
   }
 }

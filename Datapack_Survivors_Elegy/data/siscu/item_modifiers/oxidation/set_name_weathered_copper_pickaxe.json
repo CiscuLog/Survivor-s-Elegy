@@ -3,6 +3,6 @@
   "entity": "this",
   "name": {
 	  "translate": "item.siscu.weathered_copper_pickaxe",
-	  "italic": "false"
+	  "italic": false
   }
 }

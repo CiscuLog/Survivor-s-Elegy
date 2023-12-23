@@ -1,5 +1,5 @@
-Simply removing Survivor's Elegy will cause problems to your world, being unable to load. This is because of the custom biomes added by the datapack. The game needs to know what biomes are those, otherwise it cannot load the dimension.
-To solve that issue, read this document
+Simply removing Survivor's Elegy will cause problems to your world, making it unable to load. This is because of the custom biomes added by the datapack. The game needs to know what those biomes are, otherwise it will not be able to load the dimension.
+To solve that issue, follow the steps:
 
 How to uninstall:
 1. Remove the "DataPack_Survivors_Elegy_alpha_v0.x.x.zip" datapack from your world.

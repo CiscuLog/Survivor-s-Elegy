@@ -1,5 +1,5 @@
 # Storages
-data merge storage siscu:world {PackVersion:"alpha v0.8.5"}
+data merge storage siscu:world {PackVersion:"alpha v0.8.6"}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 execute unless data storage siscu:world day_length run data merge storage siscu:world {day_length:3}
 
@@ -11,15 +11,15 @@ gamerule doDaylightCycle false
 
 #create scoreboards
 scoreboard objectives add siscu.bees dummy {"text":"Bees","color":"gold"}
-scoreboard objectives add siscu.day dummy {"text":"Day","color":"cyan"}
+scoreboard objectives add siscu.day dummy {"text":"Day","color":"aqua"}
 scoreboard objectives add siscu.death deathCount {"text":"Single_dead","color":"gold"}
 scoreboard objectives add siscu.dimension dummy {"text":"Dimension","color":"dark_green"}
 scoreboard objectives add siscu.grass_stealth dummy {"text":"Grass Stealth","color":"green"}
 scoreboard objectives add siscu.integer dummy {"text":"Int","color":"gold"}
 scoreboard objectives add siscu.sleep_time dummy {"text":"Sleep Time","color":"red"}
-scoreboard objectives add siscu.use_fungus minecraft.used:minecraft.warped_fungus_on_a_stick {"text":"Use","color":"cyan"}
+scoreboard objectives add siscu.use_fungus minecraft.used:minecraft.warped_fungus_on_a_stick {"text":"Use","color":"aqua"}
 scoreboard objectives add siscu.use_goat_horn minecraft.used:minecraft.goat_horn {"text":"Horn"}
-scoreboard objectives add siscu.volatile dummy {"text":"Volatile Data","color":"purple"}
+scoreboard objectives add siscu.volatile dummy {"text":"Volatile Data","color":"light_purple"}
 scoreboard objectives add siscu.y_rotation dummy {"text":"Y rotation","color":"gold"}
 scoreboard objectives add siscu.y_rotation_int dummy {"text":"Y rotation: int","color":"gold"}
 scoreboard objectives add siscu.y_rotation_decimal dummy {"text":"Y rotation: decimal","color":"gold"}
@@ -29,7 +29,7 @@ scoreboard objectives add siscu.withering dummy {"text":"Withering","color":"dar
 scoreboard objectives add siscu.warped_food dummy {"text":"Warped Food","color":"aqua"}
 
 scoreboard objectives add siscu.entity_health dummy {"text":"Health","color":"red"}
-scoreboard objectives add siscu.item_frame_inv dummy {"text":"Frame Invisibility","color":"cyan"}
+scoreboard objectives add siscu.item_frame_inv dummy {"text":"Frame Invisibility","color":"aqua"}
 scoreboard objectives add siscu.rotting_mob dummy {"text":"Rotting Mobs","color":"dark_green"}
 scoreboard objectives add siscu.fire_spring dummy {"text":"Fire Spring","color":"yellow"}
 scoreboard objectives add siscu.zombifying dummy {"text":"Zombifying","color":"dark_green"}
@@ -88,5 +88,5 @@ execute unless score rotting_random_limit siscu.integer matches 0.. run scoreboa
 execute unless score rotting_timer_limit siscu.integer matches 0.. run scoreboard players set rotting_timer_limit siscu.integer 15
 
 # announce
-tellraw @a [{"text":"   Survivor's Elegy","color":"gold","bold":"true"}]
-tellraw @a [{"text":"Succesfully updated to version ","color":"yellow","bold":"false"},{"storage":"siscu:world","nbt":"PackVersion","bold":"true"}]
+tellraw @a [{"text":"   Survivor's Elegy","color":"gold","bold":true}]
+tellraw @a [{"text":"Succesfully updated to version ","color":"yellow","bold":false},{"storage":"siscu:world","nbt":"PackVersion","bold":true}]

@@ -29,4 +29,4 @@ scoreboard objectives remove siscu.zombifying
 scoreboard objectives remove siscu.entity_health
 scoreboard objectives remove siscu.grass_stealth
 
-tellraw @a [{"text":"   Survivor's Elegy\n","color":"gold","bold":"true"},{"text":"succesfully cleared all scoreboards","bold":"false"}]
+tellraw @a [{"text":"   Survivor's Elegy\n","color":"gold","bold":true},{"text":"succesfully cleared all scoreboards","bold":false}]

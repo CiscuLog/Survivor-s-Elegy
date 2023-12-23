@@ -56,7 +56,7 @@
         },
         {
           "input_predicate": {
-            "block": "minecraft:grass_block",
+            "block": "minecraft:short_grass_block",
             "predicate_type": "minecraft:random_block_match",
             "probability": 0.2
           },

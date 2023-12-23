@@ -3,6 +3,6 @@
   "entity": "this",
   "name": {
 	  "translate": "item.siscu.exposed_copper_shovel",
-	  "italic": "false"
+	  "italic": false
   }
 }

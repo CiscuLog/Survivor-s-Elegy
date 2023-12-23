@@ -3,6 +3,6 @@
   "entity": "this",
   "name": {
 	  "translate": "item.siscu.exposed_copper_helmet",
-	  "italic": "false"
+	  "italic": false
   }
 }

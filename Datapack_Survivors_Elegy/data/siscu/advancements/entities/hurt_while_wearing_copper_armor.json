@@ -7,7 +7,7 @@
                     "source_entity": {
                         "type":"#siscu:dischargeable_entities"
                     },
-                    "blocked": "false"
+                    "blocked": false
                 },
                 "player": [
                     {"condition": "reference",

@@ -1,5 +1,9 @@
 
-Compatible Minecraft versions: 1.20.2
+Compatible Minecraft versions: 1.20.3 to 1.20.4
+
+Survivor's Elegy alpha v0.8.6 (23/12/2023)
++ Updated to 1.20.3 and 1.20.4
++ Redesigned Config panel. Added "[About]" tab
 
 Survivor's Elegy alpha v0.8.5 (22/09/2023)
 + Updated to 1.20.2

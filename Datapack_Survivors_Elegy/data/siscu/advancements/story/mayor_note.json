@@ -1,0 +1,25 @@
+{
+	"display":{
+		"icon": {
+			"item": "minecraft:written_book",
+			"nbt": "{CustomModelData:548001}"
+		},
+		"title": "Mayor's Note",
+		"description": "Left before fleeing the city",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"parent": "siscu:story/infected_city",
+	"criteria": {
+		"0": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["written_book"],
+					"nbt": "{CustomModelData:548001}"
+				}]
+			}
+		}
+	}
+}

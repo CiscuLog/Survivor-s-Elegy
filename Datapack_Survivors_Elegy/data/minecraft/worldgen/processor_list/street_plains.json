@@ -18,9 +18,9 @@
         {
           "output_state": {
             "Properties": {
-              "snowy": "false"
+              "snowy": false
             },
-            "Name": "minecraft:grass_block"
+            "Name": "minecraft:short_grass_block"
           },
           "input_predicate": {
             "block": "minecraft:dirt_path",
@@ -39,7 +39,7 @@
             "Name": "minecraft:water"
           },
           "input_predicate": {
-            "block": "minecraft:grass_block",
+            "block": "minecraft:short_grass_block",
             "predicate_type": "minecraft:block_match"
           },
           "location_predicate": {
