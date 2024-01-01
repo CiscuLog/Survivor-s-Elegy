@@ -1,6 +1,13 @@
 
 Compatible Minecraft versions: 1.20.3 to 1.20.4
 
+Survivor's Elegy alpha v0.8.7 (01/01/2024)
++ Expanded on Uninstall files, they should now cause less problems
++ Fixed armor trims not generating on Outposts, Strongholds and Woodland Mansions
++ Fixed Nether Fortresses being filled with coarse dirt
++ Fixed unused functions not loading
++ Removed useless story advancements
+
 Survivor's Elegy alpha v0.8.6 (23/12/2023)
 + Updated to 1.20.3 and 1.20.4
 + Redesigned Config panel. Added "[About]" tab

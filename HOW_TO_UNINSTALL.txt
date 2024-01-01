@@ -1,12 +1,13 @@
-Simply removing Survivor's Elegy will cause problems to your world, making it unable to load. This is because of the custom biomes added by the datapack. The game needs to know what those biomes are, otherwise it will not be able to load the dimension.
+Simply removing Survivor's Elegy will cause problems to your world, making it unable to load. This is because of the custom biomes and structures added by the datapack. The game needs to know what those are, otherwise it will not be able to load the dimension or give unexpected errors.
 To solve that issue, follow the steps:
 
 How to uninstall:
 1. Remove the "DataPack_Survivors_Elegy_alpha_v0.x.x.zip" datapack from your world.
-2. Add the "Uninstall_Survivors_Elegy.zip" file in your world
+2. Head to the Github repository at https://github.com/CiscuLog/Survivor-s-Elegy and open the Uninstall_Versions folder.
+3. Add the zip file that matches your minecraft version in your world
 
 You're ready to go!
-The biomes added by Survivor's Elegy will remain in the world, and all other custom items will return to their natural vanilla behavior
+The biomes added by Survivor's Elegy will remain in the world, custom structures won't generate anymore, and all other custom items will return to their natural vanilla behavior
 
 Check the WIKI for a more in-depth guide about the datapack: https://github.com/CiscuLog/Survivor-s-Elegy/wiki
 

@@ -1,0 +1,1 @@
+advancement grant @s only minecraft:nether/find_fortress

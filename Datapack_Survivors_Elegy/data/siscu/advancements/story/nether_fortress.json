@@ -9,7 +9,7 @@
 		"announce_to_chat": false,
 		"hidden": true
 	},
-	"parent": "siscu:story/mayor_note",
+	"parent": "siscu:story/humans",
 	"criteria": {
 		"0": {
 			"trigger":"minecraft:location",
@@ -27,5 +27,8 @@
 				]
 			}
 		}
+	},
+	"rewards": {
+		"function": "siscu:advancement/find_fortress"
 	}
 }
