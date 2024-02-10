@@ -9,14 +9,7 @@ execute store result score siscu.damage siscu.volatile run data get entity @s In
 execute store result score siscu.durability siscu.volatile run data get entity @s Inventory[{Slot:-106b}].tag.SE_data.Durability
 
 # calculate new durability
-
-scoreboard players operation siscu.damage_amount siscu.volatile -= siscu.previous_damage siscu.volatile
-execute if score siscu.damage_amount siscu.volatile matches ..-1 run scoreboard players operation siscu.damage siscu.volatile += siscu.damage_amount siscu.volatile
-execute if score siscu.damage siscu.volatile matches ..-1 run scoreboard players set siscu.damage siscu.volatile 0
-
-scoreboard players add siscu.damage siscu.volatile 1
-scoreboard players operation siscu.real_damage siscu.volatile *= siscu.damage siscu.volatile
-scoreboard players operation siscu.real_damage siscu.volatile /= siscu.durability siscu.volatile
+function siscu:items/use/custom_item_durability
 
 # store data to storage
 

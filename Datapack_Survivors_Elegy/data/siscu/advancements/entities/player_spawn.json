@@ -7,6 +7,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:world/breach_spawn"
+		"function": "siscu:entities/player/spawn"
 	}
 }

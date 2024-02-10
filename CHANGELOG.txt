@@ -1,6 +1,21 @@
 
 Compatible Minecraft versions: 1.20.3 to 1.20.4
 
+Survivor's Elegy alpha 0.8.8 (10/02/2024)
++ Added novice Fletcher Villagers won't trade emeralds for sticks. Existing villagers with this trade will be omitted. This can be toggled in the config menu
++ Added novice Librarian Villagers won't trade mending books. Existing villagers with this trade will be omitted. This can be toggled in the config menu
++ Added Tridents with Loyalty will return to the player when falling into the void
++ Added Warden Retreating is now toggleable in the config menu
++ Added Zombified Player's helmets will lose durability if exposed to the sun
++ Changed Badlands Mineshafts to generate 20 blocks lower under the surface than before to reduce the risk of floating structures
++ Changed Zombification. After zombification, the player's max hp will decrease every 1:30 minutes(by default) until it reaches 8 hp (4 hearts). Zombie groans will be heard each time the decrease happens. This can be modified in the config menu
++ Fixed Custom item's durability dropped by mobs not correlating between vanilla and SE data
++ Fixed Jungle Ruin's processors
++ Redesigned Config panel. Added "- New Items" and "- Entity Tweaks" tab
+- Reduced amount of bamboo obtained by stonecutting scaffolding from 6 to 1
+- Removed Guardians and Elder Guardians from dischargaeble_entities tag
+- Removed Wandering Trader horn sounds
+
 Survivor's Elegy alpha v0.8.7 (01/01/2024)
 + Expanded on Uninstall files, they should now cause less problems
 + Fixed armor trims not generating on Outposts, Strongholds and Woodland Mansions

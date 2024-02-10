@@ -1,0 +1,7 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity":"this",
+	"predicate": {
+		"nbt": "{VillagerData:{profession:\"minecraft:fletcher\", level: 1},Offers:{Recipes:[{buy:{id:\"minecraft:stick\"}}]}}"
+	}
+}

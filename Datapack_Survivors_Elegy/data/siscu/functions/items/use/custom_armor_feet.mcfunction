@@ -9,14 +9,7 @@ execute store result score siscu.damage siscu.volatile run data get entity @s In
 execute store result score siscu.durability siscu.volatile run data get entity @s Inventory[{Slot:100b}].tag.SE_data.Durability
 
 # calculate new durability
-
-scoreboard players operation siscu.damage_amount siscu.volatile -= siscu.previous_damage siscu.volatile
-execute if score siscu.damage_amount siscu.volatile matches ..-1 run scoreboard players operation siscu.damage siscu.volatile += siscu.damage_amount siscu.volatile
-execute if score siscu.damage siscu.volatile matches ..-1 run scoreboard players set siscu.damage siscu.volatile 0
-
-scoreboard players add siscu.damage siscu.volatile 1
-scoreboard players operation siscu.real_damage siscu.volatile *= siscu.damage siscu.volatile
-scoreboard players operation siscu.real_damage siscu.volatile /= siscu.durability siscu.volatile
+function siscu:items/use/custom_item_durability
 
 # store data to storage
 
@@ -26,5 +19,7 @@ execute store result storage siscu:damages RealDamage int 1 run scoreboard playe
 # set item data
 
 execute unless score siscu.damage siscu.volatile > siscu.durability siscu.volatile run item modify entity @s armor.feet siscu:durability/rewrite_data
+
+execute if score siscu.damage siscu.volatile > siscu.durability siscu.volatile if predicate siscu:entities/is_wearing_boots run damage @s 0.1 siscu:confusion
 
 advancement revoke @a only siscu:items/use/custom_armor_boots

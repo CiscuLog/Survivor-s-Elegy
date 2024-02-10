@@ -1,0 +1,17 @@
+{
+	"show_toast": false,
+	"criteria": {
+		"0": 
+		{
+			"trigger":"minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items":["minecraft:trident"]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:entities/trident/check_kill_schedule"
+	}
+}

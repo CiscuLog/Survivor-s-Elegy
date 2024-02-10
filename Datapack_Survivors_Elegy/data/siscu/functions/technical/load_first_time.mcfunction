@@ -1,5 +1,5 @@
 # Storages
-data merge storage siscu:world {PackVersion:"alpha v0.8.7"}
+data merge storage siscu:world {PackVersion:"alpha v0.8.8"}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 execute unless data storage siscu:world day_length run data merge storage siscu:world {day_length:3}
 
@@ -66,6 +66,9 @@ scoreboard players set enderman_block siscu.integer 117
 scoreboard players set creeper_max siscu.integer 35
 scoreboard players set creeper_min siscu.integer 25
 execute unless score enchanter_guide_price siscu.integer matches 0.. run scoreboard players set enchanter_guide_price siscu.integer 2
+execute unless score fletcher_stick_nerf siscu.integer matches 0.. run scoreboard players set fletcher_stick_nerf siscu.integer 1
+execute unless score librarian_mending_nerf siscu.integer matches 0.. run scoreboard players set librarian_mending_nerf siscu.integer 1
+execute unless score warden_retreat siscu.integer matches 0.. run scoreboard players set warden_retreat siscu.integer 1
 ## fire spring variables
 scoreboard players set fire_spring_lava siscu.integer 0
 scoreboard players set fire_spring_flame siscu.integer 50
@@ -75,9 +78,10 @@ scoreboard players set fire_spring_limit siscu.integer 300
 ## phage
 execute unless score phage_enabled siscu.integer matches 0..1 run scoreboard players set phage_enabled siscu.integer 1
 execute unless score zombie_death_enabled siscu.integer matches 0..1 run scoreboard players set zombie_death_enabled siscu.integer 1
-execute unless score zombie_timer_limit siscu.integer matches 0.. run scoreboard players set zombie_timer_limit siscu.integer 120
+execute unless score zombie_timer_limit siscu.integer matches 0.. run scoreboard players set zombie_timer_limit siscu.integer 90
 scoreboard players operation zombie_timer_limit_2 siscu.integer = zombie_timer_limit siscu.integer
 scoreboard players operation zombie_timer_limit_2 siscu.integer += 60 siscu.integer
+execute unless score zombie_min_health siscu.integer matches 0.. run scoreboard players set zombie_min_health siscu.integer 8
 ## withering
 execute unless score withering siscu.integer matches 0.. run scoreboard players set withering siscu.integer 1
 execute unless score withering_timer siscu.integer matches 0.. run scoreboard players set withering_timer siscu.integer 20

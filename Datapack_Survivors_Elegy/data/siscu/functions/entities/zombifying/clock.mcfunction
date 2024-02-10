@@ -10,8 +10,7 @@ execute if score @s[type=rabbit] siscu.zombifying matches 0.. run data merge ent
 execute if score @s[type=allay] siscu.zombifying matches 0.. run function siscu:entities/zombifying/zombify_allay
 execute if score @s[type=!player] siscu.zombifying matches 1.. run function siscu:entities/zombifying/clear_zombifying
 
-execute if score @s siscu.zombifying >= zombie_timer_limit siscu.integer if score zombie_death_enabled siscu.integer matches 1 run damage @s 1 siscu:phage
-execute if score @s siscu.zombifying >= zombie_timer_limit_2 siscu.integer if score zombie_death_enabled siscu.integer matches 1 run damage @s 5 siscu:phage
+execute if score @s[type=player] siscu.zombifying >= zombie_timer_limit siscu.integer run function siscu:entities/zombifying/reduce_player_hp
 
 execute unless predicate siscu:entities/has_phage run function siscu:entities/zombifying/apply_phage
 
