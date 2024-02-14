@@ -1,6 +1,12 @@
 
 Compatible Minecraft versions: 1.20.3 to 1.20.4
 
+Survivor's Elegy alpha 0.8.8_2 (14/02/2024)
++ Fixed custom tools didn't decrease their durability
+
+Survivor's Elegy alpha 0.8.8_1 (10/02/2024)
++ Fixed Librarian Villagers mending nerf
+
 Survivor's Elegy alpha 0.8.8 (10/02/2024)
 + Added novice Fletcher Villagers won't trade emeralds for sticks. Existing villagers with this trade will be omitted. This can be toggled in the config menu
 + Added novice Librarian Villagers won't trade mending books. Existing villagers with this trade will be omitted. This can be toggled in the config menu

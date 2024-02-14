@@ -147,7 +147,7 @@
 	"item.siscu.zoglin_head": "Zoglin Head",
 
 	"pack.siscu": "Survivor's Elegy",
-	"pack.siscu.version": "alpha v0.8.8_1",
+	"pack.siscu.version": "alpha v0.8.8_2",
 
 	"text.siscu.config": " to open the menu",
 	"text.siscu.config1": "If it doesn't work, type on chat: /function siscu:config",
