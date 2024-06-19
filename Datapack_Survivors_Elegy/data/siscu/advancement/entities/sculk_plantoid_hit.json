@@ -1,0 +1,17 @@
+{
+	"show_toast": true,
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:player_hurt_entity",
+			"conditions": {
+				"entity":{
+					"type": "minecraft:interaction",
+					"nbt": "{Tags:[\"siscu.sculk_plantoid\"]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:entities/sculk_plantoid/hit"
+	}
+}

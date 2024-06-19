@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/combat/piglin_axe_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/combat/piglin_axe_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/combat/piglin_axe_3"
+        }
+	    ]
+    }
+  ]
+}

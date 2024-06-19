@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "siscu_se:item/elegant_hat",
+    "layer1": "#layer0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "siscu_se:item/baby_iron_sword"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-90, -85, -35],
+			"translation": [0.5, 4, 0.5],
+			"scale": [1.7, 1.7, 1.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 85, -145],
+			"translation": [0.5, 4, 0.5],
+			"scale": [1.7, 1.7, 1.7]
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"show_toast": true,
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:reference",
+						"entity": "this",
+						"name": "siscu:entities/is_wearing_charged_armor"
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type": "player"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:advancement/hurt_mob_wearing_charged_copper_armor"
+	}
+}

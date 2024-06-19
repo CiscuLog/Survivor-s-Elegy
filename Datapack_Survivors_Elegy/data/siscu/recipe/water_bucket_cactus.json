@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:cactus"
+    }
+  ],
+  "result": {
+    "id": "minecraft:water_bucket"
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["warped_fungus"]
+				}]
+			}
+        },
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["warped_roots"]
+				}]
+			}
+        }
+    },
+	"rewards": {
+		"recipes": ["siscu:warped_stew"]
+	}
+}

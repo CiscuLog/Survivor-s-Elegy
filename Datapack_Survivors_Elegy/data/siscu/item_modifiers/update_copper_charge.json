@@ -1,4 +1,0 @@
-{
-    "function": "minecraft:set_nbt",
-    "tag": "{SE_data:{UpdateVersion: \"ALPHA_v0.7.5\",Charge:0}}"
-  }

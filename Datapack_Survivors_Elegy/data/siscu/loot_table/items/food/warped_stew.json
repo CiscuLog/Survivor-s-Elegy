@@ -1,0 +1,19 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:rabbit_stew",
+			"functions": [
+			{
+				"function": "minecraft:set_components",
+				"components": {"minecraft:custom_model_data":548103,"item_name":"{\"translate\":\"item.siscu.warped_stew\"}","food":{"using_converts_to":{"id":"minecraft:bowl"}}}
+			}
+			]
+		}
+		]
+	}
+	]
+}

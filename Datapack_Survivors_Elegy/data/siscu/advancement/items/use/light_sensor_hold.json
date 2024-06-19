@@ -1,0 +1,19 @@
+{
+	"show_toast": false,
+	"criteria": {
+		"0": 
+		{
+			"trigger":"minecraft:tick",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:reference",
+					"entity": "this",
+					"name": "siscu:items/light_sensor"
+				}]
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/use/light_sensor_display"
+	}
+}

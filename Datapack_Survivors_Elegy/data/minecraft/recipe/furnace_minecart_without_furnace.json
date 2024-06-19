@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "group": "furnace_minecart",
+  "pattern": [
+    "SSS",
+    "SAS",
+    "SSS"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:minecart"
+    },
+    "S": {
+      "tag": "minecraft:stone_crafting_materials"
+    }
+  },
+  "result": {
+    "id": "minecraft:furnace_minecart"
+  }
+}

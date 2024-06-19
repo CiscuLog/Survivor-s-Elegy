@@ -1,0 +1,15 @@
+{
+	"criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["copper_ingot"]
+				}]
+			}
+        }
+    },
+	"rewards": {
+		"recipes": ["siscu:copper_helmet","siscu:copper_chestplate","siscu:copper_leggings","siscu:copper_boots","siscu:copper_horse_armor"]
+	}
+}

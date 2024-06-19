@@ -1,0 +1,11 @@
+{
+	"show_toast": false,
+	"criteria": {
+		"Staff": {
+			"trigger":"minecraft:consume_item"
+		}
+	},
+	"rewards": {
+		"function": "siscu:world/warped_food/eat_under_warped_intoxication"
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "QC ",
+    "CAC",
+    "RC "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "id": "minecraft:raw_copper","components": {"minecraft:custom_model_data": 540115, "minecraft:item_name": "{\"translate\":\"item.siscu.light_sensor\"}", "minecraft:max_stack_size": 1, "minecraft:food": {"saturation": 0.0, "nutrition": 0.0, "can_always_eat": true, "eat_seconds": 1000000.0}, "minecraft:custom_data": {"SE_data": {"CustomTool": 1, "IsCopper": 1, "UpdateVersion": "alpha v0.9.0", "Oxidation": 0, "LightSensor": 1}}}
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["crimson_fungus"]
+				}]
+			}
+        },
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["crimson_roots"]
+				}]
+			}
+        }
+    },
+	"rewards": {
+		"recipes": ["siscu:crimson_stew"]
+	}
+}

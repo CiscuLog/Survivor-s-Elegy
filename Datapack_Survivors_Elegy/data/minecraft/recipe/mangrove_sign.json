@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "wooden_sign",
+  "pattern": [
+    "###",
+    "###",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:mangrove_planks"
+    },
+    "X": {
+      "tag": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:mangrove_sign",
+    "count": 3
+  }
+}

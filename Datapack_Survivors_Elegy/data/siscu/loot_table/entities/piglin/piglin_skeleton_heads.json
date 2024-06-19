@@ -1,0 +1,95 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+		  "functions":[
+			{
+				"function": "minecraft:set_components",
+				"components": {"custom_model_data":548110}
+			}
+		  ]
+        }
+		],
+		"conditions":[
+			{
+				"condition":"minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {"equipment":{"head":{"items":["golden_helmet","chainmail_helmet","netherite_helmet"]}}}
+				}
+			}
+		]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+		  "functions":[
+			{
+				"function": "minecraft:set_components",
+				"components": {"custom_model_data":548111}
+			}
+		  ]
+        }
+		],
+		"conditions":[
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {"equipment":{"head":{"items":["minecraft:golden_helmet"]}}}
+			}
+		]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+		  "functions":[
+			{
+				"function": "minecraft:set_components",
+				"components": {"custom_model_data":548112}
+			}
+		  ]
+        }
+		],
+		"conditions":[
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {"equipment":{"head":{"items":["minecraft:chainmail_helmet"]}}}
+			}
+		]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+		  "functions":[
+			{
+				"function": "minecraft:set_components",
+				"components": {"custom_model_data":548113}
+			}
+		  ]
+        }
+		],
+		"conditions":[
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {"equipment":{"head":{"items":["minecraft:netherite_helmet"]}}}
+			}
+		]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:warped_fungus_on_a_stick",
+			"functions": [
+			{
+				"function": "set_components",
+				"components":{
+				"minecraft:unbreakable":{"show_in_tooltip":false},
+				"minecraft:custom_model_data": 540000,
+				"minecraft:custom_data": {
+					"SE_data": {
+					"UpdateVersion": "alpha v0.9.0"
+					}
+				},
+				"minecraft:item_name": "{\"translate\":\"item.siscu.config\"}",
+				"rarity": "epic"
+				}
+			},
+			{
+				"function": "minecraft:set_lore",
+				"lore": [
+				{"translate":"text.siscu.click_keybind","italic": false,"color": "gray","extra":[
+					{"keybind":"key.use","extra":[
+						{
+							"translate": "text.siscu.config"
+						}
+					]}
+				]},
+				{"translate":"text.siscu.config1","italic":false,"color":"gray"},
+				{"translate": "text.siscu.config2_1","italic":false,"color":"red"},
+				{"translate": "text.siscu.config2_2","italic":false,"color":"red"},
+				{"translate": "text.siscu.config2_3","italic":false,"color":"red"}
+				],
+				"entity": "this",
+				"mode": "replace_all"
+			}
+			]
+		}
+		]
+	}
+	]
+}

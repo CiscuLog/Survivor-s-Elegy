@@ -1,0 +1,6 @@
+{
+	"parent":"siscu_se:item/sculk_plantoid_0",
+	"textures": {
+		"stem": "siscu_se:block/sculk_plantoid_2"
+	}
+}

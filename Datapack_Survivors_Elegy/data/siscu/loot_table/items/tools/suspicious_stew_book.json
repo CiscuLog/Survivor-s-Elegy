@@ -1,0 +1,48 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:written_book",
+			"functions": [
+			{
+				"function": "minecraft:set_components",
+				"components": {
+					"custom_model_data":548103,
+					"hide_additional_tooltip": {},
+					"item_name":"{\"translate\":\"item.siscu.suspicious_stew_book\",\"font\":\"minecraft:illageralt\"}",
+					"rarity": "rare",
+					"written_book_content":{
+						"pages":[
+							{"raw": "{\"translate\":\"text.siscu.book.suspicious_stew_guide.page1\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"},
+							{"raw": "{\"translate\":\"text.siscu.book.suspicious_stew_guide.page2\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"},
+							{"raw": "{\"translate\":\"text.siscu.book.suspicious_stew_guide.page3\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"}
+						],
+						"generation": 3, 
+						"author": "Calendula",
+						"title":{"raw":"Apothecary"}
+					},
+					"custom_data": {"SE_data":{"UpdateVersion":"alpha v0.9.0","Book":"suspicious_stew"}}
+				}
+			},
+			{
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "By ",
+					"italic": false,
+					"color": "gray",
+					"extra": [{"translate":"text.siscu.suspicious_stew_book_author","italic":false,"color":"gray","font":"minecraft:illageralt"}]
+				},
+				{"translate":"book.generation.3","italic": false,"color": "gray"}
+				],
+				"entity": "this",
+				"mode":"replace_all"
+			}
+			]
+		}
+		]
+	}
+	]
+}

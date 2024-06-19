@@ -1,0 +1,48 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "leather_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:damage": 0,
+                            "minecraft:item_name": "{\"translate\":\"item.siscu.stray_leggings\"}",
+                            "minecraft:dyed_color": {
+                                "rgb": 5933452,
+                                "show_in_tooltip": false
+                            },
+                            "minecraft:custom_model_data": 540010,
+                            "minecraft:custom_data": {
+                                "SE_data": {
+                                "IsStray": 1,
+                                "CustomChestplate": 1,
+                                "UpdateVersion": "alpha v0.9.0"
+                                }
+                            },
+                            "max_damage": 60
+                            }
+                        },
+                        {
+                          "function": "minecraft:set_attributes",
+                          "modifiers": [
+                            {
+                              "attribute": "minecraft:generic.armor",
+                              "name": "",
+                              "id": "d1fea1a6-9ce8-49a4-b18b-2846f2d3f31d",
+                              "amount": 0,
+                              "operation": "add_value",
+                              "slot": "chest"
+                            }
+                          ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

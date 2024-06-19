@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+    "key": {"B":{"item": "minecraft:jigsaw"},
+    "D":{"item":"minecraft:diamond"},
+    "O":{"item":"minecraft:obsidian"}
+    },
+    "pattern": [" B ","DOD","OOO"],
+    "result": {
+        "id": "minecraft:enchanting_table",
+        "count": 1
+    }
+}

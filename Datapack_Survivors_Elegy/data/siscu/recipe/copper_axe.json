@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "key": {"C":{
+        "item": "minecraft:copper_ingot"
+      },
+      "I":{"tag":"minecraft:sticks"}
+    },
+    "pattern": ["CC","CI"," I"],
+    "result": {
+        "id": "minecraft:iron_axe",
+        "count": 1,
+        "components": {
+            "minecraft:damage": 0,
+            "minecraft:item_name": "{\"translate\":\"item.siscu.copper_axe\"}",
+            "minecraft:custom_model_data": 548101,
+            "minecraft:max_damage":150,
+            "minecraft:custom_data": {
+              "SE_data": {
+                "IsCopper": 1,
+                "CustomTool": 1,
+                "UpdateVersion": "alpha v0.9.0",
+                "Charge": 0,
+                "Oxidation": 0
+              }
+            }
+          }
+    }
+}

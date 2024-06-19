@@ -7,7 +7,7 @@
             "Name": "minecraft:sand"
           },
           "input_predicate": {
-            "block": "minecraft:short_grass_block",
+            "block": "minecraft:grass_block",
             "predicate_type": "minecraft:block_match"
           },
           "location_predicate": {
@@ -20,7 +20,7 @@
             "Name": "minecraft:sandstone"
           },
           "input_predicate": {
-            "block": "minecraft:short_grass_block",
+            "block": "minecraft:grass_block",
             "predicate_type": "minecraft:block_match"
           },
           "location_predicate": {
@@ -33,7 +33,7 @@
             "Name": "minecraft:stone"
           },
           "input_predicate": {
-            "block": "minecraft:short_grass_block",
+            "block": "minecraft:grass_block",
             "predicate_type": "minecraft:block_match"
           },
           "location_predicate": {

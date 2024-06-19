@@ -1,0 +1,23 @@
+{
+	"criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["gold_ingot"]
+				}]
+			}
+        },
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["leather"]
+				}]
+			}
+        }
+    },
+	"rewards": {
+		"recipes": ["siscu:piglin_brute_shield"]
+	}
+}

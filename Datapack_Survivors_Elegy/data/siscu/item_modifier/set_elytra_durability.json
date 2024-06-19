@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_damage",
+  "damage": {
+	  "type": "minecraft:score",
+    "target": "this",
+    "score": "siscu.elytra_durability",
+    "scale": 0.01
+  },
+  "add": false
+}

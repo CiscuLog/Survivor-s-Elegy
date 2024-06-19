@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/beetroot"
+  },
+    "overrides": [
+      {"predicate": {"custom_model_data": 540000}, "model": "siscu_se:item/sculk_plantoid"}
+    ]
+}

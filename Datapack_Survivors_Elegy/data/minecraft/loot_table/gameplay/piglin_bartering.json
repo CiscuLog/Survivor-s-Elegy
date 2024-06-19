@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:barter",
+  "pools": [
+  {
+	  "rolls": 1.0,
+	  "entries": [
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "siscu:gameplay/normal_bartering"
+	  }
+	  ]
+  }
+  ]
+}

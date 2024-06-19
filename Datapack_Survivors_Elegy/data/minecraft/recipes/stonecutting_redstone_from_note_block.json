@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:note_block"
-  },
-  "result": "minecraft:redstone",
-  "count": 1
-}

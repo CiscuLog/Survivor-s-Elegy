@@ -1,2 +1,0 @@
-execute as @e[type=item,nbt={Item:{id:"minecraft:filled_map",tag:{Damage:1}}}] at @s run function siscu:items/update/patrol_leader_compass
-execute as @e[type=item,nbt={Item:{id:"minecraft:map",tag:{Damage:1}}}] run kill @s

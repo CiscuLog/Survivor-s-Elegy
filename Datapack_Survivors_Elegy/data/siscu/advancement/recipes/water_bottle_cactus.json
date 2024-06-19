@@ -1,0 +1,15 @@
+{
+	"criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["cactus"]
+				}]
+			}
+        }
+    },
+	"rewards": {
+		"recipes": ["siscu:water_bottle_cactus","siscu:water_bucket_cactus"]
+	}
+}

@@ -1,0 +1,60 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [{"type":"loot_table","value":"minecraft:entities/pillager"}]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:compass",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:lodestone_tracker": {
+                    "target": {
+                      "dimension": "minecraft:overworld",
+                      "pos": [
+                        0,
+                        0,
+                        0
+                      ]
+                    },
+                    "tracked": false
+                  },
+                  "item_name":"{\"translate\":\"item.siscu.patrol_compass\",\"font\":\"minecraft:illageralt\"}",
+                  "custom_model_data": 548101,
+                  "custom_data": {
+                    "SE_data": {
+                      "PatrolCompass": 1,
+                      "UnsetCompass": 1
+                    }
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [{
+                  "translate": "text.siscu.patrol_compass1",
+                  "italic": false,
+                  "color": "gray",
+                  "font": "minecraft:illageralt"
+                }],
+                "entity": "this",
+                "mode":"replace_all"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:killed_by_player"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

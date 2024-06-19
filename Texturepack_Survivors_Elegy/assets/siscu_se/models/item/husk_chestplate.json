@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "siscu_se:item/husk_chestplate",
+    "layer1": "#layer0"
+  }
+}

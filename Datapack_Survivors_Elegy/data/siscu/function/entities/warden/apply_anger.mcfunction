@@ -1,0 +1,2 @@
+execute store result score volatile siscu.volatile run data get entity @s anger.suspects[-1].anger
+execute unless score volatile siscu.volatile matches 100.. run data modify entity @s anger.suspects append from storage siscu:volatile anger.suspects[0]

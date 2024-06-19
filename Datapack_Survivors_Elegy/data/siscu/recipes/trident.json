@@ -1,6 +1,0 @@
-{
-	"type":"smithing_transform",
-	"template":{"item":"minecraft:heart_of_the_sea"},
-	"base":{"item":"minecraft:lightning_rod"},
-	"addition":{"item":"minecraft:copper_ingot"},
-	"result":{"item":"minecraft:trident"}}

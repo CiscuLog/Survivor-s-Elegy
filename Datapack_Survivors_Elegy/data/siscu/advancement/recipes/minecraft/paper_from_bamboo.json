@@ -1,0 +1,15 @@
+{
+	"criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["bamboo"]
+				}]
+			}
+        }
+    },
+	"rewards": {
+		"recipes": ["minecraft:paper_from_bamboo"]
+	}
+}

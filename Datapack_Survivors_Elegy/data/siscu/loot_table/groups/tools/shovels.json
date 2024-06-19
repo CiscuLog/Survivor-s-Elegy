@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_shovel",
+		  "weight":2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_shovel",
+		  "weight":3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_shovel",
+		  "weight":2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:groups/tools/copper_shovels",
+		  "weight":2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_shovel",
+		  "weight":1
+        }
+	]
+  }
+  ]
+}

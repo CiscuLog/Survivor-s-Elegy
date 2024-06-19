@@ -1,0 +1,15 @@
+{
+	"criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["soul_sand"]
+				}]
+			}
+        }
+    },
+	"rewards": {
+		"recipes": ["minecraft:smelting_brown_stained_glass"]
+	}
+}

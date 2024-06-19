@@ -5,6 +5,7 @@
 	{"predicate": {"custom_model_data": 540002}, "model": "siscu_se:item/amethyst_zombie"},
 	{"predicate": {"custom_model_data": 540003}, "model": "siscu_se:item/dripstone_zombie"},
 	{"predicate": {"custom_model_data": 540004}, "model": "siscu_se:item/infected_zombie"},
-	{"predicate": {"custom_model_data": 540005}, "model": "siscu_se:item/stray_zombie"}
+	{"predicate": {"custom_model_data": 540005}, "model": "siscu_se:item/stray_zombie"},
+	{"predicate": {"custom_model_data": 540006}, "model": "siscu_se:item/citizen_zombie"}
 	]
 }

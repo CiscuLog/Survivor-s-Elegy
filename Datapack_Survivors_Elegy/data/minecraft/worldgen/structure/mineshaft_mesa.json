@@ -72,7 +72,7 @@
 	},
 	"project_start_to_heightmap": "OCEAN_FLOOR_WG",
 	"start_height": {
-	  "absolute": -36
+	  "absolute": -12
 	},
   "start_pool": "siscu:mineshafts/old/hall",
   "step": "underground_structures",

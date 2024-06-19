@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+	{
+		"rolls": 1.0,
+		"bonus_rolls": 0.0,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:rotten_flesh"
+		}
+		],
+		"conditions": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"zombie_wolf\"]}"
+			}
+		}
+		]
+	},
+	{
+		"rolls": 1.0,
+		"bonus_rolls": 0.0,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:bone"
+		}
+		],
+		"conditions": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"skeleton_wolf\"]}"
+			}
+		}
+		]
+	},
+	{
+		"rolls": 1.0,
+		"bonus_rolls": 0.0,
+		"entries": [
+		{
+			"type": "minecraft:loot_table",
+			"value": "siscu:items/ingredients/withered_bone"
+		}
+		],
+		"conditions": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"wither_skeleton_wolf\"]}"
+			}
+		}
+		]
+	}
+  ]
+}

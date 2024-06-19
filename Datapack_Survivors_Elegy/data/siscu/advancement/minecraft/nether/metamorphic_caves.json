@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:nether/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block"
+    },
+    "title": {
+      "translate": "advancements.siscu.minecraft.metamorphic_caves.title"
+    },
+    "description": [{
+		"translate": "advancements.siscu.minecraft.metamorphic_caves.description"
+    },
+	{
+		"text":"\nSurvivor's Elegy",
+		"color": "gold",
+		"italic": true
+	}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "criteria": {
+    "siscu:metamorphic_caves": {
+      "trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biomes": "siscu:metamorphic_caves"
+					}
+				}
+			}
+    }
+  }
+}

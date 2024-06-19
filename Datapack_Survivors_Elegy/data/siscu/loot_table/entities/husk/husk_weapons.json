@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:groups/tools/swords",
+		  "weight":170
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:groups/tools/shovels",
+		  "weight":100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+		  "weight":50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears",
+		  "weight":1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potato",
+		  "weight":5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot",
+		  "weight":5
+        }
+		]
+	}
+  ]
+}

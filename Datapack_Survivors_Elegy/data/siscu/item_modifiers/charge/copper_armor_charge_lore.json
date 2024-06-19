@@ -1,9 +1,0 @@
-{
-    "function":"minecraft:set_lore",
-    "lore":[
-        {"text":""},
-        {"text":"Charge: ","color":"yellow","italic":false,"extra":[{"nbt":"Charge","storage":"siscu:volatile"}]}
-    ],
-    "entity":"this",
-    "replace":true
-}

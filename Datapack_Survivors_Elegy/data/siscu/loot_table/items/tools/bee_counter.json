@@ -1,0 +1,33 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:raw_copper",
+			"functions": [
+				{
+					"function": "minecraft:set_components",
+                    "components": {
+                        "max_stack_size": 1,
+                        "item_name": "{\"italic\":false,\"translate\":\"item.siscu.bee_counter\"}",
+                        "custom_model_data": 540000,
+                        "custom_data": {
+                            "SE_data": {
+                                "SE_data": {
+                                "IsCopper": 1,
+                                "CustomTool": 1,
+                                "UpdateVersion": "alpha v0.9.0",
+                                "Oxidation": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+        ]
+    }
+    ]
+}

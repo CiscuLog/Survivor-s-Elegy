@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "group": "paper",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  "result": {
+    "id": "minecraft:paper",
+    "count": 3
+  }
+}

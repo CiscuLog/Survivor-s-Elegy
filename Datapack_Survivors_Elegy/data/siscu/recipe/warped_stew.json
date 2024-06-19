@@ -1,0 +1,1 @@
+{"type":"crafting_shapeless","category": "food","ingredients":[{"item":"minecraft:bowl"},{"item":"minecraft:warped_roots"},{"item":"minecraft:warped_fungus"}],"result":{"id":"minecraft:rabbit_stew","components":{"custom_model_data": 548103,"minecraft:item_name": "{\"translate\":\"item.siscu.warped_stew\"}"}}}

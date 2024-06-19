@@ -1,0 +1,7 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity":"this",
+	"predicate": {
+		"nbt": "{VillagerData:{profession:\"minecraft:librarian\", level: 1},Offers:{Recipes:[{sell:{id:\"minecraft:enchanted_book\",components: {\"minecraft:stored_enchantments\": {levels: {\"minecraft:mending\": 1}}}}}]}}"
+	}
+}

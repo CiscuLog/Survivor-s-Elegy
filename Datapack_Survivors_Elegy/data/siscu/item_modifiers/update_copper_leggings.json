@@ -1,4 +1,0 @@
-{
-    "function": "minecraft:set_nbt",
-    "tag": "{SE_data:{UpdateVersion: \"ALPHA_v0.8.0\",Durability:125}}"
-  }

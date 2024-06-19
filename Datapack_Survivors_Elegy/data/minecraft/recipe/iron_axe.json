@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "group": "iron_axe",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_axe"
+  }
+}

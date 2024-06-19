@@ -1,0 +1,13 @@
+{
+	"show_toast": false,
+	"criteria": {
+		"0": 
+		{
+			"trigger":"minecraft:tick",
+			"conditions": {}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/use/light_sensor_cooldown"
+	}
+}

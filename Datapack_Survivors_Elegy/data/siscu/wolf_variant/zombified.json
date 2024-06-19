@@ -1,0 +1,6 @@
+{
+    "angry_texture": "siscu_se:entity/wolf/zombified_angry",
+    "wild_texture": "siscu_se:entity/wolf/zombified",
+    "tame_texture": "siscu_se:entity/wolf/zombified",
+    "biomes": "#siscu:none"
+}

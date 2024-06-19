@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "group": "campfire",
+  "pattern": [
+    " S ",
+    "S#S",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "S": {
+      "tag": "minecraft:stick"
+    },
+    "#": {
+      "tag": "minecraft:soul_fire_base_blocks"
+    }
+  },
+  "result": {
+    "id": "minecraft:soul_campfire"
+  }
+}

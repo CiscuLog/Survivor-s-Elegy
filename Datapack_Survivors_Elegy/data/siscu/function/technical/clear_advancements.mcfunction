@@ -1,0 +1,21 @@
+
+advancement revoke @a only siscu:entities/boat_interaction
+advancement revoke @a only siscu:entities/hurt_by_electricity
+advancement revoke @a only siscu:entities/player_sleep
+advancement revoke @a only siscu:entities/player_sneaks_on_grass
+advancement revoke @a only siscu:entities/struck_by_lightning_while_wearing_copper_armor
+advancement revoke @a only siscu:items/use/custom_armor_helmet
+advancement revoke @a only siscu:itemsz/use/custom_armor_chestplate
+advancement revoke @a only siscu:items/use/custom_armor_leggings
+advancement revoke @a only siscu:items/use/custom_armor_boots
+advancement revoke @a only siscu:items/use/custom_weapon_mainhand
+advancement revoke @a only siscu:items/use/config_hold
+advancement revoke @a only siscu:items/use/config_use
+advancement revoke @a only siscu:items/use/light_sensor_cooldown
+advancement revoke @a only siscu:items/use/light_sensor_hold
+advancement revoke @a only siscu:items/use/light_sensor_use
+advancement revoke @a only siscu:items/use/use_bell_holding_void_shard
+advancement revoke @a only siscu:items/use/warped_fungus_on_a_stick_hold
+advancement revoke @a only siscu:items/click_button
+advancement revoke @a only siscu:items/play_noteblock
+advancement revoke @a only siscu:items/shut_door

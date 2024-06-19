@@ -1,6 +1,0 @@
-{
-	"type":"smithing_transform",
-	"template":{"item":"minecraft:jigsaw"},
-	"base":{"item":"minecraft:golden_apple"},
-	"addition":{"item":"minecraft:lapis_lazuli"},
-	"result":{"item":"minecraft:enchanted_golden_apple"}}

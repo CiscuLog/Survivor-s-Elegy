@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/combat/copper_leggings",
+		  "weight":1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/combat/exposed_copper_leggings",
+		  "weight":3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/combat/weathered_copper_leggings",
+		  "weight":3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/combat/oxidised_copper_leggings",
+		  "weight":2
+        }
+	]
+  }
+  ]
+}

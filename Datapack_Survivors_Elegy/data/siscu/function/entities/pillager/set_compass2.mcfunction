@@ -1,0 +1,1 @@
+execute as @e[type=item] if data entity @s Item.components.minecraft:custom_data.SE_data.PatrolCompass if data entity @s Item.components.minecraft:custom_data.SE_data.UnsetCompass run function siscu:entities/pillager/set_compass3

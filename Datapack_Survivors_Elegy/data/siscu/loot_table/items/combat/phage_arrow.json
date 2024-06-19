@@ -1,0 +1,35 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:tipped_arrow",
+			"functions": [
+			{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:item_name": "{\"translate\":\"item.siscu.phage_arrow\"}",
+					"custom_model_data":548101,
+					"rarity":"uncommon",
+					"max_stack_size":16,
+					"potion_contents":{
+						"custom_color":12624973,
+						"custom_effects":[{"id":"minecraft:unluck","amplifier":99,"duration":1200,"ambient":false,"show_particles":true,"show_icon":true}]
+					},
+					"hide_additional_tooltip":{},
+					"minecraft:lore": [
+						"{\"text\":\"Strong Phage (00:60)\",\"color\":\"red\",\"italic\":false}",
+						"{\"text\":\"\"}",
+						"{\"text\":\"When applied:\",\"color\":\"dark_purple\",\"italic\":false}",
+						"{\"text\":\"60 seconds until zombification\",\"color\":\"red\",\"italic\":false}"
+					]
+				}
+			}
+			]
+		}
+		]
+	}
+	]
+}

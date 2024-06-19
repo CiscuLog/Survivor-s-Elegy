@@ -1,0 +1,1 @@
+data merge entity @s[predicate=siscu:utils/is_baby] {Age:-24000}

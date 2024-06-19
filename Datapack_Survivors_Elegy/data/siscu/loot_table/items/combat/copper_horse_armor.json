@@ -1,0 +1,49 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "leather_horse_armor",
+                    "functions": [
+                        {
+                            "function":"set_components",
+                            "components":{
+                                "minecraft:damage": 0,
+                                "minecraft:item_name": "{\"translate\":\"item.siscu.copper_horse_armor\"}",
+                                "minecraft:dyed_color": {
+                                  "rgb": 15301202,
+                                  "show_in_tooltip": false
+                                },
+                                "minecraft:custom_model_data": 548103,
+                                "minecraft:custom_data": {
+                                  "SE_data": {
+                                    "IsCopper": 1,
+                                    "CustomHorseArmor": 1,
+                                    "UpdateVersion": "alpha v0.9.0",
+                                    "Charge": 0,
+                                    "Oxidation": 0
+                                  }
+                                }
+                            }
+                        },
+                        {
+                          "function": "minecraft:set_attributes",
+                          "modifiers": [
+                            {
+                              "attribute": "minecraft:generic.armor",
+                              "name": "",
+                              "id": "82a661a9-0797-4ce9-b855-0ff20e34d220",
+                              "amount": 4,
+                              "operation": "add_value",
+                              "slot": "body"
+                            }
+                          ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

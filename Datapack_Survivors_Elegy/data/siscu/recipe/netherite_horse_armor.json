@@ -1,0 +1,47 @@
+{
+	"type":"smithing_transform",
+	"template":{"item":"minecraft:netherite_upgrade_smithing_template"},
+	"base":{"item":"minecraft:diamond_horse_armor"},
+	"addition":{"item":"minecraft:netherite_ingot"},
+	"result":{"id":"minecraft:leather_horse_armor",
+	"components": {
+		"minecraft:fire_resistant": {},
+		"minecraft:item_name": "{\"translate\":\"item.siscu.netherite_horse_armor\"}",
+		"minecraft:dyed_color": {
+		  "rgb": 5065037,
+		  "show_in_tooltip": false
+		},
+		"minecraft:custom_model_data": 548101,
+		"minecraft:custom_data": {
+		  "SE_data": {
+			"CustomHorseArmor": 1,
+			"UpdateVersion": "alpha v0.9.0"
+		  }
+		},
+		"minecraft:attribute_modifiers": [
+			{
+			  "type": "minecraft:generic.armor",
+			  "slot": "body",
+			  "id": "4d9b86b4-a1c0-4802-9968-f75cb44c682a",
+			  "name": "netherite_horse_armor_prot",
+			  "amount": 11,
+			  "operation": "add_value"
+			},
+			{
+			  "type": "minecraft:generic.armor_toughness",
+			  "slot": "body",
+			  "id": "6a48636c-8e80-4d1a-b23b-fe0e49617c51",
+			  "name": "netherite_horse_armor_tough",
+			  "amount": 3,
+			  "operation": "add_value"
+			},
+			{
+			  "type": "minecraft:generic.knockback_resistance",
+			  "slot": "body",
+			  "id": "a24e443a-ca0a-4584-b48d-4add175a83ee",
+			  "name": "netherite_horse_armor_kb_prot",
+			  "amount": 0.1,
+			  "operation": "add_value"
+			}
+		]
+	  }}}

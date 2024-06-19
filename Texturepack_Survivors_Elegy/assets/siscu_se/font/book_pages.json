@@ -1,6 +1,148 @@
 {
 	"providers":[
 		{
+		  "type": "space",
+		  "advances": {
+			"\u1001": -1,
+			"\u1005": -5
+		  }
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/books/pamphlet_1.png",
+			"ascent": -85,
+			"height": 43,
+			"chars": [
+				"\uA100"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/books/pamphlet_1.png",
+			"ascent": -32768,
+			"height": -43,
+			"chars": [
+				"\uA101"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/books/pamphlet_2.png",
+			"ascent": 0,
+			"height": 122,
+			"chars": [
+				"\uA102"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/books/pamphlet_2.png",
+			"ascent": -32768,
+			"height": -122,
+			"chars": [
+				"\uA103"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/books/pamphlet_3.png",
+			"ascent": 0,
+			"height": 123,
+			"chars": [
+				"\uA104"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/books/pamphlet_3.png",
+			"ascent": -32768,
+			"height": -123,
+			"chars": [
+				"\uA105"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/books/siscu.png",
+			"ascent": 13,
+			"height": 13,
+			"chars": [
+				"\uA10F"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/books/purple_book.png",
+			"ascent": 37,
+			"height": 256,
+			"chars": [
+				"\uA600"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/books/purple_book.png",
+			"ascent": -32768,
+			"height": -256,
+			"chars": [
+				"\uA601"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/books/purple_book_edge.png",
+			"ascent": -32768,
+			"height": -256,
+			"chars": [
+				"\uA602"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/books/purple_book_edge.png",
+			"ascent": 37,
+			"height": 256,
+			"chars": [
+				"\uA603"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/books/green_book.png",
+			"ascent": 37,
+			"height": 256,
+			"chars": [
+				"\uA604"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/books/green_book.png",
+			"ascent": -32768,
+			"height": -256,
+			"chars": [
+				"\uA605"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/books/green_book_edge.png",
+			"ascent": -32768,
+			"height": -256,
+			"chars": [
+				"\uA606"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/books/green_book_edge.png",
+			"ascent": 37,
+			"height": 256,
+			"chars": [
+				"\uA607"
+			]
+		},
+		{
 			"type": "bitmap",
 			"file": "siscu_se:font/witch/potion1.png",
 			"ascent": 10,
@@ -34,6 +176,15 @@
 			"height": 130,
 			"chars": [
 				"\uE603"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/witch/potion1.png",
+			"ascent": -32768,
+			"height": -130,
+			"chars": [
+				"\uE60f"
 			]
 		},
 		{

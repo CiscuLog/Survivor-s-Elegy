@@ -1,0 +1,41 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "key": {"C":{
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "pattern": ["  C","CCC","C C"],
+    "result": {
+        "id": "minecraft:leather_horse_armor",
+        "count": 1,
+        "components": {
+            "minecraft:damage": 0,
+            "minecraft:item_name": "{\"translate\":\"item.siscu.copper_horse_armor\"}",
+            "minecraft:dyed_color": {
+              "rgb": 15301202,
+              "show_in_tooltip": false
+            },
+            "minecraft:custom_model_data": 548103,
+            "minecraft:custom_data": {
+              "SE_data": {
+                "IsCopper": 1,
+                "CustomHorseArmor": 1,
+                "UpdateVersion": "alpha v0.9.0",
+                "Charge": 0,
+                "Oxidation": 0
+              }
+            },
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:generic.armor",
+                "slot": "body",
+                "id": "82a661a9-0797-4ce9-b855-0ff20e34d220",
+                "name": "generic.armor",
+                "amount": 4,
+                "operation": "add_value"
+              }
+            ]
+          }
+    }
+}

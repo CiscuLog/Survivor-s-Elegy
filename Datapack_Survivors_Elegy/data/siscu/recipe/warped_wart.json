@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:warped_wart_block"
+    }
+  ],
+  "result": {
+    "id": "minecraft:cookie","count":9,"components": {"custom_model_data":548101,"food":{"nutrition": 1,"saturation": 0.1,"can_always_eat":true},"minecraft:item_name": "{\"translate\":\"item.siscu.warped_wart\"}","rarity": "rare"}
+  }
+}

@@ -1,0 +1,19 @@
+
+## As of minecraft 1.20.5 ##
+
+## Damage ##
+add_base: 
+x = b+(m1+m2)
+	x = damage
+	b = base
+	m* = modifier
+
+DPS = Damage * Speed
+
+## Speed ##
+X=-(4-s)
+	s = weapon speed (as in the DPS formula)
+	x = actual value
+
+## Writing attributes
+For addition damage: AttributeDamage = ActualDamage - 1

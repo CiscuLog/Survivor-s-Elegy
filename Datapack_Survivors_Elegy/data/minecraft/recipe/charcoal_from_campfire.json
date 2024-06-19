@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:campfire_cooking",
+	"ingredient": [
+	{
+		"tag": "minecraft:campfire_fuel"
+	}
+	],
+	"cookingtime": 150,
+	"result": {"id":"minecraft:charcoal"}
+}

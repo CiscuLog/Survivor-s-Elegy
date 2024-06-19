@@ -1,0 +1,2 @@
+advancement revoke @s only siscu:entities/villager_armorer_lvl5
+execute as @e[type=villager,predicate=siscu:entities/is_armorer_lvl5,tag=!armorer_lvl5] at @s run function siscu:entities/villager/armorer_tier5

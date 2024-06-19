@@ -1,0 +1,21 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:loot_table",
+			"value": "siscu:items/combat/piglin_shield_crimson_1",
+			"functions": [{
+				"function":"set_components",
+				"components": {
+					"minecraft:item_name": "{\"text\":\"TanMob\",\"font\":\"siscu_se:piglinalt\"}",
+					"custom_model_data":548112
+				}
+			}
+			]
+		}
+		]
+	}
+	]
+}

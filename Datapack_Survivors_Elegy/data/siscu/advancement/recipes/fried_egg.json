@@ -1,0 +1,15 @@
+{
+	"criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["egg"]
+				}]
+			}
+        }
+    },
+	"rewards": {
+		"recipes": ["siscu:fried_egg","siscu:fried_egg_campfire","siscu:fried_egg_smoking"]
+	}
+}

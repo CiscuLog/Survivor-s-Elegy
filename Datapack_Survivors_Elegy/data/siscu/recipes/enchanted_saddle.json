@@ -1,6 +1,0 @@
-{
-	"type":"smithing_transform",
-	"template":{"item":"minecraft:jigsaw"},
-	"base":{"item":"minecraft:saddle"},
-	"addition":{"item":"minecraft:lapis_lazuli"},
-	"result":{"item":"minecraft:knowledge_book"}}

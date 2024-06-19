@@ -1,0 +1,28 @@
+{
+	"display":{
+		"icon": {
+			"id": "minecraft:nether_bricks"
+		},
+		"title": "Nether Fortress",
+		"description": "A city of sorts, in the nether",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"parent": "siscu:story/mayor_note",
+	"criteria": {
+		"0": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "siscu:nether_fortress"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:advancement/find_fortress"
+	}
+}

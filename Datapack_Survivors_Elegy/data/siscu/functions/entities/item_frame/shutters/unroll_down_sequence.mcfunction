@@ -1,2 +1,0 @@
-data merge entity @s {Item:{tag:{CustomModelData:548103}},ItemRotation: 0b}
-execute positioned ~ ~-1 ~ as @e[type=item_frame,distance=..0.5,nbt={Item:{id: "minecraft:stick", tag:{CustomModelData:548104}}}] run function siscu:entities/item_frame/shutters/unroll_down_sequence

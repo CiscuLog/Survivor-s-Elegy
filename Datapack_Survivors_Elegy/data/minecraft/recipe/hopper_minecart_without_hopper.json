@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "group": "hopper_minecart",
+  "pattern": [
+    "I I",
+    "ICI",
+    "MI "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "M": {
+      "item": "minecraft:minecart"
+    }
+  },
+  "result": {
+    "id": "minecraft:hopper_minecart"
+  }
+}

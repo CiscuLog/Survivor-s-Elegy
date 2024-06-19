@@ -1,0 +1,6 @@
+{
+	"parent": "siscu_se:item/light_sensor_night",
+	"textures": {
+		"num": "siscu_se:item/light_sensor_numbers/night_7"
+	}
+}

@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone"
+    },
+    "X": {
+      "tag": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:lever"
+  }
+}

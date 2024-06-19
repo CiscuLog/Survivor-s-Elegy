@@ -1,5 +1,76 @@
 
-Compatible Minecraft versions: 1.20.3 to 1.20.4
+Compatible Minecraft versions: 1.21
+
+Survivor's Elegy alpha 0.9.0 (18/06/2024)
++ Updated to 1.21
++ Added baby bogged
++ Added baby skeletons. Has illager and piglin variants
++ Added baby strays
++ Added baby withered skeletons. Has illager and piglin variants
++ Added baby zombie base damage has been reduced to 2. This extends to baby skeletons as well
++ Added bogged zombies. They rot into Bogged instead of Skeletons. Always drop 1 red or brown mushroom on death
++ Added Drowned are now weak to impaling
++ Added Fried Eggs for cooking Eggs on a Furnace, Smoker or Campfire
++ Added Frog Legs will give the player Jump Boost IV for 10 seconds
++ Added Charge on Copper Armor will now be displayed by default
++ Added Cherry and Mangrove wood blocks allow bamboo instead of sticks on their recipe
++ Added Citizen/Elegant Zombies. They spawn with a 1% chance on the surface, and are likely to also be infected and able to inflict phage on the player
++ Added "Confusion" damage type for technical purposes
++ Added damaged tools on Nether Fortress chests
++ Added Elegant hat, suit and trousers. They provide 1 protection point each. The Hat's durability doesn't decrease when worn by zombified players under sunlight. Obtainable from Citizen Zombies
++ Added Enchanted Tablets. An enchanted tablet works exactly the same as an Enchanted Book. Those can contain mending, frost walker 2 or any curse, the earlier being more common than the latter. Can be found buried on Jungle Ruin's suspicious blocks. Jungle Ruins generated on previous versions won't contain them
++ Added Fire Spring numeration for development purposes
++ Added Fire Springs toggle on "- Custom Entities" config tab
++ Added Fire Springs visual indicator
++ Added illagers no longer attack Wandering Traders
++ Added increased reach for newly crafted Battle Staffs (+0.5 blocks)
++ Added Light Sensor. It displays the light level at the player's location. It can switch to check the darkness level with Rclick
++ Added Netherite is weak to Copper Discharges due to its magnetic properties. Players wearing netherite will be dealt 3 HP of damage when receiving any discharge, either from copper armor or guardians.
++ Added new shutters no longer have a tooltip text display over them
++ Added newly crafted or generated Warped Wart foods can be eaten anytime
++ Added Pamphlet. This book announces some of the progression changes and features the datapack includes. It is granted to all players when first joining the world, regardless of status.
++ Added Pamphlets are sold by Wandering Traders for 2 emeralds
++ Added players flying while wearing netherite armor during a thunderstorm have a chance of getting smitten by lightning
++ Added players smitten by lightning will close their elytras, dooming them to fall. This doesn't disable them, and can be opened again while falling
++ Added sculk plantoid. Crafted with a pitcher pod and sculk blocks, it can be placed on decorated pots. Interacting with it will absorb the player's experience and store it. Attacking it will give back its stored experience. Breaking the pot will release a big xp orb with all the stored experience and drop the plantoid
++ Added Shields will now block 75% of explosion damage instead of all of it
++ Added Skeleton Wolves. Obtained when a Zombified Wolf rots away
++ Added special zombies can sometimes spawn outside of their usual locations
++ Added unobtainable Amethyst Shield. Successfully blocking 6 attacks will build up 1 charge. The maximum charge amount is 4. Blocking an attack while crouching will consume a charge and blast a sonic boom up to 20 blocks ahead. Further testing required
++ Added unobtainable small gear for baby zombies
++ Added Water bottles can be crafted with a bottle and 3 cactus
++ Added Wolves on an 8-block radius will become invisible when the player is stealth sneaking
++ Added Zombie Wolves. Obtained by infecting a Wolf with Phage
++ Added Zombified Players can now inflict the Phage effect on another player by punching them
++ Changed Cats on Witch huts aren't always black anymore
++ Changed Discharges. Added tag #siscu:discharge_immune
++ Changed electric charges now ignore armor protection
++ Changed height of copper discharges to not come from the feet
++ Changed Jungle Ruins loot. Treasure items are now more common
++ Changed max amount of electric charges stored on copper gear from unlimited to 512
++ Changed Phage icon texture
++ Changed Piglin Axes durability to 160 uses instead of the vanilla 32
++ Changed Pillager Patrol Leaders now search for the nearest outpost right after spawning to avoid the game freezing mid-combat
++ Changed Shutters now also roll horizontally
++ Fixed Chiseled Bookshelves can now be gathered without silk touch
++ Fixed Jungle Ruins generation: missing loot blocks, missing foundations, roads and water interaction
++ Fixed Piglin Brutes couldn't become zombified
++ Fixed Shutters sometimes being placed upside down
++ Fixed Wardens reset their roaring animation when a player plays a goat horn
++ Fixed zombification timer resets each time a player is hurt by an infected zombie
++ Optimised fire springs
++ Optimised grass stealth when having invisibility
++ Tweaked bell vibration speed calculus
++ Updated Swamp Huts generation
+- Removed Copper Armor and Tool oxidation for this version (further testing required)
+- Removed Custom Tools and Armor Module (CTAM), now using vanilla components
+- Removed Daylight Sensors reading
+- Removed Mangrove wood of witch huts on Mangroves
+- Removed pigs and striders drop Enchanted Saddles on death if equipped (to be re-added)
+- Removed Spyglass head angle display
+- Removed Tridents turning into copper rods when breaking
+
+
 
 Survivor's Elegy alpha 0.8.8_2 (14/02/2024)
 + Fixed custom tools didn't decrease their durability

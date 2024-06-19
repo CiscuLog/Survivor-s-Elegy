@@ -1,0 +1,6 @@
+{
+    "angry_texture": "siscu_se:entity/wolf/withered_skeleton",
+    "wild_texture": "siscu_se:entity/wolf/withered_skeleton",
+    "tame_texture": "siscu_se:entity/wolf/withered_skeleton",
+    "biomes": "#siscu:none"
+}

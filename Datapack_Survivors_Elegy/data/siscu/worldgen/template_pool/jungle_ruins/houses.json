@@ -104,29 +104,11 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "siscu:village/jungle_ruins/houses/small_farm_wet",
-        "processors": "siscu:jungle_ruins_farm",
-        "projection": "rigid"
-      },
-      "weight": 1
-    },
-    {
-      "element": {
-        "element_type": "minecraft:single_pool_element",
         "location": "siscu:village/jungle_ruins/houses/small_farm_dry",
         "processors": "siscu:jungle_ruins_farm",
         "projection": "rigid"
       },
-      "weight": 1
-    },
-    {
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "siscu:village/jungle_ruins/houses/big_farm_wet",
-        "processors": "siscu:jungle_ruins_farm",
-        "projection": "rigid"
-      },
-      "weight": 1
+      "weight": 2
     },
     {
       "element": {
@@ -135,7 +117,7 @@
         "processors": "siscu:jungle_ruins_farm",
         "projection": "rigid"
       },
-      "weight": 1
+      "weight": 2
     }
   ]
 }

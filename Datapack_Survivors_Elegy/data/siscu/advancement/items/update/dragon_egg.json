@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:dragon_egg"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "siscu:advancement/rename_dragon_egg"
+    }
+  }
+  

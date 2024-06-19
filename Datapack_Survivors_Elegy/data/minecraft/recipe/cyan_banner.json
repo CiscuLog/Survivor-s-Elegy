@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "group": "banner",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_wool"
+    },
+    "|": {
+      "tag": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:cyan_banner"
+  }
+}

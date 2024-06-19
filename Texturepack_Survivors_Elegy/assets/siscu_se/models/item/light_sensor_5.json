@@ -1,0 +1,6 @@
+{
+	"parent": "siscu_se:item/light_sensor",
+	"textures": {
+		"num": "siscu_se:item/light_sensor_numbers/day_5"
+	}
+}

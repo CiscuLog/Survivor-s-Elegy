@@ -1,0 +1,6 @@
+data merge entity @s {Item:{components:{"minecraft:custom_model_data":548104}},ItemRotation: 4b}
+execute at @s positioned ~ ~1 ~ as @e[type=item_frame,distance=..0.5,nbt={Item:{id: "minecraft:stick", components:{"minecraft:custom_model_data":548103}}}] run function siscu:entities/item_frame/shutters/roll_shutters
+execute at @s positioned ~ ~-1 ~ as @e[type=item_frame,distance=..0.5,nbt={Item:{id: "minecraft:stick", components:{"minecraft:custom_model_data":548103}}}] run function siscu:entities/item_frame/shutters/roll_shutters
+execute at @s positioned ^-1 ^ ^ as @e[type=item_frame,distance=..0.5,nbt={Item:{id: "minecraft:stick", components:{"minecraft:custom_model_data":548103}}}] run function siscu:entities/item_frame/shutters/roll_shutters
+execute at @s positioned ^1 ^ ^ as @e[type=item_frame,distance=..0.5,nbt={Item:{id: "minecraft:stick", components:{"minecraft:custom_model_data":548103}}}] run function siscu:entities/item_frame/shutters/roll_shutters
+execute at @s run playsound minecraft:entity.painting.place master @a ~ ~ ~ 1 0.7

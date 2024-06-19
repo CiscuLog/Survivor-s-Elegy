@@ -1,1 +1,0 @@
-schedule function siscu:technical/tick_15s 15s

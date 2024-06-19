@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/combat/piglin_brute_shield"
+        }
+		],
+		"conditions": [
+		{
+			"condition": "minecraft:random_chance",
+			"chance": 0.4
+		}
+		]
+	}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "siscu:items/combat/copper_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{\"translate\":\"item.siscu.oxidised_copper_sword\"}",
+                                "minecraft:custom_model_data": 548104,
+                                "minecraft:custom_data": {
+                                    "SE_data": {
+                                    "Oxidation": 3
+                                    }
+                            }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

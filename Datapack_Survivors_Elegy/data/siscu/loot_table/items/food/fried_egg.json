@@ -1,0 +1,28 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:bread",
+			"functions": [
+			{
+				"function": "minecraft:set_components",
+				"components": {
+					"custom_model_data":540000,
+					"minecraft:item_name": "{\"translate\":\"item.siscu.fried_egg\"}",
+					"food": {
+						"nutrition": 4,
+						"saturation": 0.5
+					},
+					"max_stack_size":16,
+					"custom_data": {"SE_data":{"FriedEgg":1}}
+				}
+			}
+			]
+		}
+		]
+	}
+	]
+}

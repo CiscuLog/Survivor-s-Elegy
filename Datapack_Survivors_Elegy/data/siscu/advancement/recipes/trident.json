@@ -1,0 +1,31 @@
+{
+	"criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["lightning_rod"]
+				}]
+			}
+        },
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["heart_of_the_sea"]
+				}]
+			}
+        },
+        "2": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["copper_ingot"]
+				}]
+			}
+        }
+    },
+	"rewards": {
+		"recipes": ["siscu:trident"]
+	}
+}

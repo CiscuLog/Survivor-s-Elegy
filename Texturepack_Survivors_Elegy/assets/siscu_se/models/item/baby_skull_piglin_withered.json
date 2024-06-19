@@ -1,0 +1,9 @@
+{
+	"parent": "siscu_se:item/piglin_skull_withered",
+	"display": {
+		"head": {
+			"translation": [0, 2.5, 0],
+			"scale": [2.4, 2.4, 2.4]
+		}
+	}
+}

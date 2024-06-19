@@ -1,0 +1,25 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "siscu:entities/is_wearing_copper_armor"
+        },
+        {
+            "condition":"inverted",
+            "term":{
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "slots": {
+                    "armor.*": {
+                        "predicates": {
+                            "custom_data": {"SE_data":{"Charge": 0}}
+                        }
+                    }
+                    }
+                }
+            }
+        }
+    ]
+}

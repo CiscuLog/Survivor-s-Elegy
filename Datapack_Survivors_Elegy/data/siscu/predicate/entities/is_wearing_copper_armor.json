@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+        "armor.*": {
+            "predicates": {
+                "minecraft:custom_data": {"SE_data":{"IsCopper": 1}}
+            }
+        }
+        }
+    }
+}

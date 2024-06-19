@@ -1,0 +1,27 @@
+{
+	"display":{
+		"icon": {
+			"id": "minecraft:tipped_arrow",
+			"components": {"custom_model_data":548101,"potion_contents":{"custom_color":12624973}}
+		},
+		"title": {"text": "Phage","font":"minecraft:illageralt"},
+		"description": "An unforgiving venom",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"parent": "siscu:story/infected_city",
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{
+					"items": ["tipped_arrow"],
+					"components": {"custom_model_data":548101}
+				}
+				]
+			}
+		}
+	}
+}

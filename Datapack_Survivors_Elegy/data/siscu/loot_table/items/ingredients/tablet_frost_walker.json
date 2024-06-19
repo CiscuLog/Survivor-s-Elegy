@@ -1,0 +1,22 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:loot_table",
+			"value": "siscu:items/ingredients/tablet_binding",
+			"functions": [
+			{
+				"function": "minecraft:set_components",
+				"components": {
+					"custom_model_data":540002,
+					"stored_enchantments": {"levels":{"minecraft:frost_walker":1}}
+				}
+			}
+			]
+		}
+		]
+	}
+	]
+}

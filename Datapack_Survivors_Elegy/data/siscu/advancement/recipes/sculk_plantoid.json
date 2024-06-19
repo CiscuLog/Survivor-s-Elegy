@@ -1,0 +1,23 @@
+{
+	"criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["pitcher_pod"]
+				}]
+			}
+        },
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["echo_shard"]
+				}]
+			}
+        }
+    },
+	"rewards": {
+		"recipes": ["siscu:sculk_plantoid"]
+	}
+}

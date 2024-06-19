@@ -1,0 +1,7 @@
+{
+	"parent": "siscu_se:item/baby_skull",
+	"textures": {
+		"0": "entity/skeleton/wither_skeleton",
+		"particle": "entity/skeleton/wither_skeleton"
+	}
+}

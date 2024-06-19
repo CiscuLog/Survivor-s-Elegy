@@ -1,0 +1,31 @@
+{
+  "type": "crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "P":{"item": "minecraft:pitcher_pod"},
+    "S":{"item":"minecraft:echo_shard"}
+  },
+  "pattern": [" S ","SPS"," S "],
+  "result": {
+    "id": "minecraft:beetroot",
+    "components": {
+        "custom_model_data":540000,
+        "max_stack_size": 64,
+        "item_name":"{\"translate\":\"item.siscu.sculk_plantoid\"}",
+        "minecraft:lore": ["{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.siscu.place_decorated_pot\"}"],
+        "rarity": "rare",
+        "food": {
+            "nutrition": 0,
+            "saturation": 0,
+            "eat_seconds": 1000000
+        },
+        "custom_data": {
+            "SE_data": {
+                "UpdateVersion":"alpha v0.9.0",
+                "Plantoid": 1,
+                "StoredXp": 0
+            }
+        }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "loot_table",
+            "value": "siscu:items/tools/pamphlet",
+            "functions": [
+                {
+                    "function": "minecraft:set_lore",
+                    "lore": [{
+                        "translate": "By Siscu",
+                        "italic": false,
+                        "color": "gray"
+                    },{"text":""},
+                    {
+                        "translate": "Owner: ",
+                        "italic":false,
+                        "color":"gray",
+                        "extra": [{"selector": "@e[type=wandering_trader,limit=1,sort=nearest]"}]
+                    }
+                    
+                    ],
+                    "entity": "this",
+                    "mode": "replace_all"
+                }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

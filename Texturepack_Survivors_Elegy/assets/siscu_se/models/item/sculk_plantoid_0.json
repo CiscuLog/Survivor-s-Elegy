@@ -1,0 +1,111 @@
+{
+	"credit": "Made by CiscuLog with Blockbench",
+	"textures": {
+		"particle": "siscu_se:block/sculk_plantoid_base",
+		"base": "siscu_se:block/sculk_plantoid_base",
+		"leaf": "siscu_se:block/sculk_plantoid",
+		"stem": "siscu_se:block/sculk_plantoid_0"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#base"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#base"}
+			}
+		},
+		{
+			"from": [0, 0, -8],
+			"to": [16, 0, 8],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 0, 8]},
+			"faces": {
+				"up": {"uv": [16, 0, 0, 16], "texture": "#leaf"},
+				"down": {"uv": [16, 16, 0, 0], "texture": "#leaf"}
+			}
+		},
+		{
+			"from": [-8, 0, 0],
+			"to": [8, 0, 16],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 0, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#leaf"},
+				"down": {"uv": [0, 16, 16, 0], "rotation": 90, "texture": "#leaf"}
+			}
+		},
+		{
+			"from": [0, 0, 8],
+			"to": [16, 0, 24],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 0, 8]},
+			"faces": {
+				"up": {"uv": [16, 0, 0, 16], "rotation": 180, "texture": "#leaf"},
+				"down": {"uv": [16, 16, 0, 0], "rotation": 180, "texture": "#leaf"}
+			}
+		},
+		{
+			"from": [8, 0, 0],
+			"to": [24, 0, 16],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 0, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#leaf"},
+				"down": {"uv": [0, 16, 16, 0], "rotation": 270, "texture": "#leaf"}
+			}
+		},
+		{
+			"from": [0, 0, 3.3],
+			"to": [0, 16, 19.3],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#stem"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#stem"}
+			}
+		},
+		{
+			"from": [16, 0, 3.3],
+			"to": [16, 16, 19.3],
+			"rotation": {"angle": -45, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#stem"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#stem"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 3, 0]
+		},
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 14.5, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -12.25],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

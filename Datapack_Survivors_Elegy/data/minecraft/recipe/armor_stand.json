@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "///",
+    " / ",
+    "/_/"
+  ],
+  "key": {
+    "/": {
+      "tag": "minecraft:stick"
+    },
+    "_": {
+      "item": "minecraft:smooth_stone_slab"
+    }
+  },
+  "result": {
+    "id": "minecraft:armor_stand"
+  }
+}

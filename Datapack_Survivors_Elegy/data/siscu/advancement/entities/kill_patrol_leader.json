@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:player_killed_entity",
+			"conditions": {
+				"entity":
+				{
+					"type": "minecraft:pillager",
+					"nbt": "{Tags:[\"is_patrol_leader\"]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:entities/pillager/set_compass"
+	}
+}

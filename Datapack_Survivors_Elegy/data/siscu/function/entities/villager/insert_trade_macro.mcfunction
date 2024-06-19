@@ -1,0 +1,3 @@
+$data modify entity @s Offers.Recipes $(Offers_mode) value {buy: {count: 1, id: "minecraft:stone"}, buyB: {count: 1, id: "minecraft:stone"}, sell: {count: 1, id: "minecraft:stone"}, xp: $(Offers_xp),maxUses: $(Offers_maxUses), priceMultiplier: $(Offers_priceMultiplier), demand: $(Offers_demand)}
+
+#{maxUses: 12, sell: {count: 1, id: "minecraft:leather_chestplate"}, buy: {count: 7, id: "minecraft:emerald"}, priceMultiplier: 0.2f, demand: -24}

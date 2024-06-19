@@ -10,7 +10,7 @@
 		],
 		"tag": "siscu:column_traspassable"
 	  },
-	  "prioritize_tip": true,
+	  "prioritize_tip": false,
 	  "direction": "down",
 	  "layers": [
 		{

@@ -1,0 +1,30 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:stick",
+			"functions": [
+			{
+				"function": "minecraft:set_components",
+				"components": {
+					"custom_model_data":548103,
+					"item_name":"{\"translate\":\"item.siscu.shutters\"}"
+				}
+			},
+			{
+				"function": "minecraft:set_lore",
+				"lore": [
+				{"translate":"text.siscu.place_frame","italic": false,"color": "gray"}
+				],
+				"entity": "this",
+				"mode": "replace_all"
+			}
+			]
+		}
+		]
+	}
+	]
+}

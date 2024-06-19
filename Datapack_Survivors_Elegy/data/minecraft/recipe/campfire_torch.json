@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:campfire_cooking",
+	"ingredient": [
+	{
+		"tag": "minecraft:stick"
+	},
+	{
+		"tag": "minecraft:wooden_tools"
+	}
+	],
+	"cookingtime": 150,
+	"result": {"id":"minecraft:torch"}
+}

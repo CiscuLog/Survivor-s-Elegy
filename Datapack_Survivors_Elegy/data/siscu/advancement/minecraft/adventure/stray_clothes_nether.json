@@ -1,0 +1,39 @@
+{
+	"parent": "siscu:minecraft/adventure/stray_clothes",
+	"display":{
+			"icon": {
+					"id": "minecraft:leather_chestplate",
+					"components": {"custom_model_data":540010}
+			},
+			"title": {"translate": "advancements.siscu.minecraft.stray_clothes_nether.title"},
+			"description": [{
+				"translate": "advancements.siscu.minecraft.stray_clothes_nether.description"
+				},
+				{
+					"text":"\nSurvivor's Elegy",
+					"color": "gold",
+					"italic": true
+				}
+		],
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false,
+		"frame": "goal"
+	},
+	"criteria": {
+		"1": {
+			"trigger":"minecraft:tick",
+			"conditions": {
+			  "player": [
+				{
+				  "condition": "minecraft:entity_scores",
+				  "scores":{
+					"siscu.stray_armor": {"min":60} 
+				  },
+				  "entity": "this"
+				}
+			  ]
+			}
+		}
+	}
+}

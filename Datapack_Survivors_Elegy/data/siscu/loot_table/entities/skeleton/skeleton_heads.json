@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air",
+	  "weight":1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+		  "functions":[
+			  {
+			  "function": "minecraft:set_components",
+			  "components": {"custom_model_data":548110}
+			  }
+			],
+		"weight":3,
+		"conditions": [
+		  {
+			  "condition": "minecraft:location_check",
+			  "predicate": {"dimension": "minecraft:the_nether"}
+		  }
+		  ]
+      },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+		  "functions":[
+			  {
+			  "function": "minecraft:set_components",
+			  "components": {"custom_model_data":548120}
+			  }
+			],
+		"weight":1,
+		"conditions": [
+		  {
+			  "condition": "minecraft:location_check",
+			  "predicate": {"dimension": "minecraft:overworld"}
+		  }
+		  ]
+      }
+	]
+	}
+  ]
+}

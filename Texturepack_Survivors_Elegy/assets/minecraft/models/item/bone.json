@@ -12,6 +12,8 @@
     },
 	"overrides": [
 	{"predicate": {"custom_model_data": 540000}, "model": "siscu_se:item/blank"},
+	{"predicate": {"custom_model_data": 540001}, "model": "siscu_se:block/fire_spring"},
+	{"predicate": {"custom_model_data": 540002}, "model": "siscu_se:block/fire_spring_advancement"},
 	{"predicate": {"custom_model_data": 548101}, "model": "siscu_se:item/withered_bone"},
 	{"predicate": {"custom_model_data": 548102}, "model": "siscu_se:item/ravager_horn"},
 	{"predicate": {"custom_model_data": 548110}, "model": "siscu_se:item/piglin_skull"},
@@ -36,6 +38,14 @@
 	{"predicate": {"custom_model_data": 548133}, "model": "siscu_se:item/villager_skull"},
 	{"predicate": {"custom_model_data": 548134}, "model": "siscu_se:item/villager_skull_weaponsmith"},
 	{"predicate": {"custom_model_data": 548135}, "model": "siscu_se:item/wither_boss_head"},
-	{"predicate": {"custom_model_data": 548140}, "model": "siscu_se:item/villager_skull_withered"}
+	{"predicate": {"custom_model_data": 548140}, "model": "siscu_se:item/villager_skull_withered"},
+	{"predicate": {"custom_model_data": 548201}, "model": "siscu_se:item/baby_skull"},
+	{"predicate": {"custom_model_data": 548202}, "model": "siscu_se:item/baby_skull_villager"},
+	{"predicate": {"custom_model_data": 548203}, "model": "siscu_se:item/baby_skull_piglin"},
+	{"predicate": {"custom_model_data": 548204}, "model": "siscu_se:item/baby_skull_withered"},
+	{"predicate": {"custom_model_data": 548205}, "model": "siscu_se:item/baby_skull_villager_withered"},
+	{"predicate": {"custom_model_data": 548206}, "model": "siscu_se:item/baby_skull_piglin_withered"},
+	{"predicate": {"custom_model_data": 548207}, "model": "siscu_se:item/baby_skull_bogged"},
+	{"predicate": {"custom_model_data": 548208}, "model": "siscu_se:item/baby_skull_stray"}
 	]
 }

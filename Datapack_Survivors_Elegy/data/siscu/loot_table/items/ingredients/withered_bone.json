@@ -1,0 +1,22 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:bone",
+			"functions": [
+				{
+					"function": "minecraft:set_components",
+					"components": {
+						"item_name": "{\"italic\":false,\"translate\":\"item.siscu.withered_bone\"}",
+						"custom_model_data": 548101
+					}
+				}
+			]
+		}
+		]
+	}
+	]
+}

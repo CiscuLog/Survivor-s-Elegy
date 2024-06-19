@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:entities/piglin/golden_swords_piglin",
+          "weight":6
+        },
+        {
+          "type": "minecraft:item",
+          "name":"minecraft:bow",
+          "weight":2,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"custom_model_data":540001}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:entities/piglin/brute/weapons",
+          "weight":1
+        }
+		]
+	}
+  ]
+}

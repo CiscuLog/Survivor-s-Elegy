@@ -1,6 +1,0 @@
-{
-	"type":"smithing_transform",
-	"template":{"item":"minecraft:honeycomb"},
-	"base":{"item":"minecraft:golden_horse_armor"},
-	"addition":{"item":"minecraft:honeycomb"},
-	"result":{"item":"minecraft:knowledge_book"}}

@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+		  "weight": 89,
+		  "functions":[
+		  {
+			  "function": "minecraft:set_components",
+			  "components": {"custom_model_data":548110}
+		  }
+		  ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+		  "weight": 5,
+		  "functions":[
+		  {
+			  "function": "minecraft:set_components",
+			  "components": {"custom_model_data":548111}
+		  }
+		  ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+		  "weight": 5,
+		  "functions":[
+		  {
+			  "function": "minecraft:set_components",
+			  "components": {"custom_model_data":548112}
+		  }
+		  ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+		  "weight": 1,
+		  "functions":[
+		  {
+			  "function": "minecraft:set_components",
+			  "components": {"custom_model_data":548113}
+		  }
+		  ]
+        }
+		]
+    }
+  ]
+}

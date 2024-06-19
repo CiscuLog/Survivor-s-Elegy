@@ -4,6 +4,8 @@
     "layer0": "minecraft:item/written_book"
   },
 	"overrides": [
+	{"predicate": {"custom_model_data": 548001}, "model": "siscu_se:item/mayor_note"},
+	{"predicate": {"custom_model_data": 548002}, "model": "siscu_se:item/pamphlet"},
 	{"predicate": {"custom_model_data": 548102}, "model": "siscu_se:item/potion_book"},
 	{"predicate": {"custom_model_data": 548103}, "model": "siscu_se:item/suspicious_stew_book"}
 	]

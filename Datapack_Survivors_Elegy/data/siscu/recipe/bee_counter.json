@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "C":{"item": "minecraft:copper_ingot"},
+      "R":{"item":"minecraft:redstone"},
+      "A":{"item":"minecraft:amethyst_shard"},
+      "_":{"item":"minecraft:light_weighted_pressure_plate"}
+    },
+    "pattern": [" A ","CRC","C_C"],
+    "result": {
+        "id": "minecraft:raw_copper",
+        "components": {
+            "minecraft:damage": 0,
+            "minecraft:item_name": "{\"translate\":\"item.siscu.bee_counter\"}",
+            "minecraft:custom_model_data": 540000,
+            "minecraft:custom_data": {
+              "SE_data": {
+                "SE_data": {
+                "IsCopper": 1,
+                "CustomTool": 1,
+                "UpdateVersion": "alpha v0.9.0",
+                "Oxidation": 0
+                }
+              }
+            }
+          }
+    }
+}

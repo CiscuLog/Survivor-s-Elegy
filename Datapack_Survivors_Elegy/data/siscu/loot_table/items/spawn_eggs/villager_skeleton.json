@@ -1,0 +1,23 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:skeleton_spawn_egg",
+			"functions": [
+			{
+				"function": "minecraft:set_components",
+				"components": {
+					"custom_model_data":540001,
+					"item_name":"{\"translate\":\"item.siscu.spawn_egg_villager_skeleton\"}",
+					"entity_data":{"id":"skeleton","Tags":["villager"]}
+				}
+			}
+			]
+		}
+		]
+	}
+	]
+}

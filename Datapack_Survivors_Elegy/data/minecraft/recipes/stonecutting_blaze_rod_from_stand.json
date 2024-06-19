@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:brewing_stand"
-  },
-  "result": "minecraft:blaze_powder",
-  "count": 2
-}

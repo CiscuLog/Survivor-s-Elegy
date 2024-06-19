@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "wooden_sign",
+  "pattern": [
+    "###",
+    "###",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cherry_planks"
+    },
+    "X": {
+      "tag": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:cherry_sign",
+    "count": 3
+  }
+}

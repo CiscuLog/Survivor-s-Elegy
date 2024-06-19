@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "group": "siscu_crafting",
+  "pattern": [
+    "s/s",
+    "s/s",
+    "s/s"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "s": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "components": {
+      "minecraft:custom_model_data": 548103, 
+      "minecraft:item_name": "{\"translate\":\"item.siscu.shutters\"}", 
+      "minecraft:lore": ["{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.siscu.place_frame\"}"]
+    }
+  }
+}

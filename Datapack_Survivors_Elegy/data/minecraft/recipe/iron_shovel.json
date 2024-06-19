@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "group": "iron_shovel",
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_shovel"
+  }
+}

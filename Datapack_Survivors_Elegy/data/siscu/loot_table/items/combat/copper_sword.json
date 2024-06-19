@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "iron_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:damage": 0,
+                                "minecraft:item_name": "{\"translate\":\"item.siscu.copper_sword\"}",
+                                "minecraft:custom_model_data": 548101,
+                                "minecraft:custom_data": {
+                                    "SE_data": {
+                                    "IsCopper": 1,
+                                    "CustomWeapon": 1,
+                                    "UpdateVersion": "alpha v0.9.0",
+                                    "Charge": 0,
+                                    "Oxidation": 0
+                                    }
+                            },
+                            "max_damage": 150
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

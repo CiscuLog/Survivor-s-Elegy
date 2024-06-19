@@ -1,0 +1,6 @@
+{
+	"type":"smithing_transform",
+	"template":{"item":"minecraft:honeycomb"},
+	"base":{"item":"minecraft:golden_horse_armor"},
+	"addition":{"item":"minecraft:honeycomb"},
+	"result":{"id":"minecraft:leather_horse_armor","components":{"minecraft:custom_model_data": 548104, "minecraft:lore": ["{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.siscu.wax_horse_armor\"}","{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.siscu.wax_horse_armor2\"}"], "minecraft:attribute_modifiers": {"modifiers": [{"name": "", "amount": 7.0, "slot": "body", "type": "minecraft:generic.armor", "id": "f9a7c279-0f17-4a76-b6bc-55ff93886046", "operation": "add_value"}]}, "minecraft:damage": 0, "minecraft:item_name": "{\"translate\":\"item.siscu.wax_horse_armor\"}", "minecraft:custom_data": {"SE_data": {"CustomHorseArmor": 1, "UpdateVersion": "alpha v0.9.0", "IsWax": 1}}, "minecraft:dyed_color": {"show_in_tooltip": false, "rgb": 16773210}}}}

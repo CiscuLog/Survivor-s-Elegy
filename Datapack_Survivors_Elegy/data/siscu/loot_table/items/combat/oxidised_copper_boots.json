@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "siscu:items/combat/copper_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{\"translate\":\"item.siscu.oxidised_copper_boots\"}",
+                                "minecraft:dyed_color": {
+                                    "rgb": 3506031,
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:custom_model_data": 548104,
+                                "minecraft:custom_data": {
+                                    "SE_data": {
+                                    "IsCopper": 1,
+                                    "CustomBoots": 1,
+                                    "UpdateVersion": "alpha v0.9.0",
+                                    "Charge": 0,
+                                    "Oxidation": 3
+                                    }
+                            }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:bone",
+			"functions": [
+			{
+				"function": "minecraft:set_components",
+				"components": {"custom_model_data":548102,"item_name":"{\"translate\":\"item.siscu.ravager_horn\"}","rarity":"uncommon"}
+			}
+			]
+		}
+		]
+	}
+	]
+}

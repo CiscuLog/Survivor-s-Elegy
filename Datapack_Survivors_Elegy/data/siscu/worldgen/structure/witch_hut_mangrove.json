@@ -33,7 +33,7 @@
 	"min_inclusive": {"absolute":1},
 	"max_inclusive": {"absolute":3}
   },
-  "start_pool": "siscu:witch_hut/mangrove",
+  "start_pool": "siscu:witch_hut/swamp",
   "step": "surface_structures",
   "terrain_adaptation": "none",
   "use_expansion_hack": false

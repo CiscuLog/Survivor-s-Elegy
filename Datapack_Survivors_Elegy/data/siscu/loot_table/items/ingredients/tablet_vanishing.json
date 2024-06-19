@@ -1,0 +1,22 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:loot_table",
+			"value": "siscu:items/ingredients/tablet_binding",
+			"functions": [
+			{
+				"function": "minecraft:set_components",
+				"components": {
+					"custom_model_data":540004,
+					"stored_enchantments": {"levels":{"minecraft:vanishing_curse":1}}
+				}
+			}
+			]
+		}
+		]
+	}
+	]
+}

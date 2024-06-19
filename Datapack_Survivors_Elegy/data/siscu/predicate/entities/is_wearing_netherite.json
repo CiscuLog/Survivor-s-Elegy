@@ -1,0 +1,11 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity":"this",
+	"predicate": {
+		"slots": {
+			"armor.*": {
+				"items": ["netherite_helmet","netherite_chestplate","netherite_leggings","netherite_boots"]
+			}
+		}
+	}
+}

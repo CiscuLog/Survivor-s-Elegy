@@ -1,0 +1,21 @@
+{
+	"display":{
+		"icon": {
+			"id": "minecraft:wither_skeleton_skull"
+		},
+		"title": "[REDACTED]",
+		"description": "[REDACTED]",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"parent": "siscu:story/root",
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "siscu:advancement/clear_connections_schedule"
+	}
+}

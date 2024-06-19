@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "group": "furnace_minecart",
+  "pattern": [
+    "IAI",
+    "III"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:furnace"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:furnace_minecart"
+  }
+}

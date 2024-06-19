@@ -1,0 +1,30 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "key": {"I":{
+        "item": "minecraft:bamboo"
+      }
+    },
+    "pattern": ["  I"," I ","I  "],
+    "result": {
+        "id": "minecraft:wooden_sword",
+        "count": 1,
+          "components": {
+            "minecraft:custom_model_data": 548102,
+            "minecraft:item_name": "{\"translate\":\"item.siscu.battle_staff_bamboo\"}", 
+            "minecraft:lore": [
+              "{\"text\":\"\"}",
+              "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
+              "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 3 Attack Damage\"}",
+              "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.75 Attack Speed\"}",
+              "{\"color\":\"blue\",\"italic\":false,\"text\":\"+0.5 Block Reach\"}"
+            ],
+            "minecraft:attribute_modifiers": {"show_in_tooltip":false,"modifiers":[
+              {"name": "3 Attack Damage", "amount": 2.0, "slot": "mainhand", "type": "minecraft:generic.attack_damage", "id": "bc7033ad-807d-40c8-a04b-6baa60b8c7f9", "operation": "add_value"}, 
+              {"name": "1.75 Attack Speed", "amount": -2.25, "slot": "mainhand", "type": "minecraft:generic.attack_speed", "id": "a362d1fb-9f56-43ea-8af8-03038a64a1ed", "operation": "add_value"}, 
+              {"name": "+0.5 Entity Reach", "amount": 0.5, "slot": "mainhand", "type": "minecraft:player.entity_interaction_range", "id": "ab8f3744-3bd2-43bb-b652-a21718c69ba2", "operation": "add_value"}, 
+              {"name": "+0.5 Block Reach", "amount": 0.5, "slot": "mainhand", "type": "minecraft:player.block_interaction_range", "id": "36a2d5df-3564-40cb-b844-52e9ed9637f6", "operation": "add_value"}]},
+            "minecraft:custom_data": {"SE_data": {"UpdateVersion": "alpha v0.9.0", "CustomWeapon": 1}},
+            "minecraft:max_damage": 200}
+  }
+}

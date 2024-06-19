@@ -1,0 +1,67 @@
+{
+	"credit": "Made by CiscuLog with Blockbench",
+	"textures": {
+		"0": "siscu_se:item/baby_shield",
+		"particle": "siscu_se:item/baby_shield"
+	},
+	"elements": [
+		{
+			"from": [5, 2.5, 9],
+			"to": [11, 13.5, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 7.5, 6.5]},
+			"faces": {
+				"north": {"uv": [8, 1, 14, 12], "texture": "#0"},
+				"east": {"uv": [6, 1, 7, 12], "texture": "#0"},
+				"south": {"uv": [1, 1, 7, 12], "texture": "#0"},
+				"west": {"uv": [1, 1, 2, 12], "texture": "#0"},
+				"up": {"uv": [1, 1, 7, 2], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [8, 11, 14, 12], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 6.5, 6],
+			"to": [9, 9.5, 9],
+			"faces": {
+				"north": {"uv": [8, 13, 10, 16], "texture": "#0"},
+				"east": {"uv": [4, 13, 7, 16], "texture": "#0"},
+				"south": {"uv": [8, 13, 10, 16], "texture": "#0"},
+				"west": {"uv": [4, 13, 7, 16], "texture": "#0"},
+				"up": {"uv": [8, 13, 10, 16], "texture": "#0"},
+				"down": {"uv": [8, 13, 10, 16], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [1, -2, 5],
+			"scale": [2, 2, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [1, -2, 5],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 180, 5],
+			"translation": [-1, -13, 2],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 180, 5],
+			"translation": [-1, -15, 2],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [15, -25, -5]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0]
+		}
+	}
+}

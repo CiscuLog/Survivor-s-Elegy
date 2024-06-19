@@ -1,0 +1,31 @@
+{
+	"criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["saddle"]
+				}]
+			}
+        },
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["jigsaw"]
+				}]
+			}
+        },
+        "2": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["lapis_lazuli"]
+				}]
+			}
+        }
+    },
+	"rewards": {
+		"recipes": ["siscu:enchanted_saddle"]
+	}
+}

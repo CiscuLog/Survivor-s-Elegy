@@ -1,0 +1,14 @@
+How to install:
+1. Unzip the file this document is in.
+2. Put DataPack_Survivors_Elegy_alpha_v0.x.x.zip in your world. This can be done on the world creation tab, dragging the file in the DataPacks window.
+3. Drag Textures_Survivors_Elegy_alpha_v0.x.x.zip in your resourcepack folder and select it in the Resource Packs window.
+
+You're ready to go!
+
+Check the WIKI for a more in-depth guide about the datapack: https://github.com/CiscuLog/Survivor-s-Elegy/wiki
+
+Have you found an error?
+Report it on Github:
+https://github.com/CiscuLog/Survivor-s-Elegy/issues
+Or on the Discord server:
+https://discord.gg/AQBdJTr

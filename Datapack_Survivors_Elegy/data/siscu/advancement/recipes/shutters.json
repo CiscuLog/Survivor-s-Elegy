@@ -1,0 +1,23 @@
+{
+	"criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["stick"]
+				}]
+			}
+        },
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["string"]
+				}]
+			}
+        }
+    },
+	"rewards": {
+		"recipes": ["siscu:shutters"]
+	}
+}

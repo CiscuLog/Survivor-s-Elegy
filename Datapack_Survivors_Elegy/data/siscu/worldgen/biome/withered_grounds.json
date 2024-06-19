@@ -20,7 +20,7 @@
       "options": {
         "type": "minecraft:smoke"
       },
-      "probability": 0.0005
+      "probability": 0.005
     },
     "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
     "sky_color": 5393227,

@@ -1,0 +1,49 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:damage": 0,
+                            "minecraft:item_name": "{\"translate\":\"item.siscu.elegant_suit\"}",
+                            "minecraft:dyed_color": {
+                                "rgb": 1381653,
+                                "show_in_tooltip": false
+                            },
+                            "minecraft:custom_model_data": 548001,
+                            "minecraft:custom_data": {
+                                "SE_data": {
+                                "IsSuit": 1,
+                                "Elegant": 1,
+                                "CustomChestplate": 1,
+                                "UpdateVersion": "alpha v0.9.0"
+                                }
+                            },
+                            "max_damage": 200
+                            }
+                        },
+                        {
+                          "function": "minecraft:set_attributes",
+                          "modifiers": [
+                            {
+                              "attribute": "minecraft:generic.armor",
+                              "name": "",
+                              "id": "de597d24-49c9-44b0-8dfd-ff6c32038775",
+                              "amount": 1,
+                              "operation": "add_value",
+                              "slot": "chest"
+                            }
+                          ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

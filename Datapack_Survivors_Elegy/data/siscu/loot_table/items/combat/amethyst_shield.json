@@ -1,0 +1,69 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:shield",
+			"functions": [
+			{
+				"function": "set_components",
+				"components": {
+					"item_name": "{\"translate\":\"item.siscu.amethyst_shield\"}",
+					"custom_model_data":540100,
+					"max_damage": 800,
+					"minecraft:base_color": "orange",
+					"minecraft:banner_patterns": [
+						{
+						"color": "yellow",
+						"pattern": "stripe_top"
+						},
+						{
+						"color": "yellow",
+						"pattern": "stripe_bottom"
+						},
+						{
+						"color": "yellow",
+						"pattern": "stripe_middle"
+						}
+					],
+					"hide_additional_tooltip": {},
+					"custom_data":{
+						"SE_data":{
+							"AmethystShield":1,
+							"UpdateVersion": "alpha v0.9.0", 
+							"Vibrations": 0, 
+							"Charges": 0
+						}
+					},
+					"rarity": "rare"
+				}
+			},
+			{
+				"function": "minecraft:set_lore",
+				"lore": [
+					{"color": "white","italic": false,
+					"translate": "text.siscu.amethyst_shield_1"
+					},
+					{"color": "white","italic": false,
+					"score":{"name":"amethyst_vibrations_max","objective":"siscu.integer"},
+					"extra": [
+						{
+							"translate": "text.siscu.amethyst_shield_2"
+						}
+					]
+					},
+					{"color": "white","italic": false,
+					"translate": "text.siscu.amethyst_shield_3"
+					}
+				],
+				"entity":"this",
+				"mode": "replace_all"
+			}
+			]
+		}
+		]
+	}
+	]
+}

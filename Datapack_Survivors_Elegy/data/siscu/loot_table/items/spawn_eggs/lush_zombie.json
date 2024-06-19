@@ -1,0 +1,23 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:zombie_spawn_egg",
+			"functions": [
+			{
+				"function": "minecraft:set_components",
+				"components": {
+					"custom_model_data":540001,
+					"item_name":"{\"translate\":\"item.siscu.spawn_egg_lush_zombie\"}",
+					"entity_data":{"id":"zombie","Tags":["special","lush_zombie","unequipped"]}
+				}
+			}
+			]
+		}
+		]
+	}
+	]
+}

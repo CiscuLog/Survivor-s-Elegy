@@ -1,0 +1,21 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+	{
+		"condition": "minecraft:location_check",
+		"dimension": "minecraft:overworld",
+		"predicate": {
+			"position": {
+				"y": {"max":-64}
+			}
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"dimension": "minecraft:the_end",
+			"position": {"y":{"max":0}}
+		}
+	}
+	]
+}

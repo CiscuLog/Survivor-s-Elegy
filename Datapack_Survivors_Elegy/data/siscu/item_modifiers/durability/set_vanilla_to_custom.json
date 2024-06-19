@@ -1,4 +1,0 @@
-{
-    "function": "minecraft:set_nbt",
-    "tag": "{SE_data:{CustomDurability:1}}"
-}

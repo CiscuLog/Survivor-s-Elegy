@@ -1,0 +1,24 @@
+{
+	"show_toast": false,
+	"criteria": {
+		"0": 
+		{
+			"trigger": "minecraft:any_block_use",
+			"conditions": {
+			  "location": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks":["decorated_pot"]
+						}
+					}
+				}
+				]
+			}
+		  }
+	},
+	"rewards": {
+		"function": "siscu:entities/sculk_plantoid/place_in_pot"
+	}
+}

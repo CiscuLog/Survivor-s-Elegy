@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "siscu:items/tools/copper_shovel",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{\"translate\":\"item.siscu.weathered_copper_shovel\"}",
+                                "minecraft:custom_model_data": 548103,
+                                "minecraft:custom_data": {
+                                    "SE_data": {
+                                    "Oxidation": 2
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

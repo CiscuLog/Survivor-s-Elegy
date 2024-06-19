@@ -1,1 +1,0 @@
-advancement grant @s from minecraft:datapack_recipes/root

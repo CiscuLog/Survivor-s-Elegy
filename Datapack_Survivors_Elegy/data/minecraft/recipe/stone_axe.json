@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:stone_tool_materials"
+    }
+  },
+  "result": {
+    "id": "minecraft:stone_axe"
+  }
+}

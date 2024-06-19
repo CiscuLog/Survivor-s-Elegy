@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+  {
+	  "rolls": 1.0,
+	  "entries": [
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "siscu:items/functional/piglin_brute_head",
+		  "conditions": [{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "attacker",
+			  "predicate": {"type": "minecraft:creeper","nbt": "{powered: 1b}"}
+		  }]
+	  }
+	  ]
+  }
+  ]
+}

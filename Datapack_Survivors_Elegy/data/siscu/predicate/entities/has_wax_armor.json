@@ -1,0 +1,29 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity":"this",
+			"predicate": {
+				"slots": {
+					"armor.body": {
+						"items": ["golden_horse_armor"],
+						"components": {"custom_model_data":548101}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity":"this",
+			"predicate": {
+				"slots": {
+					"armor.body": {
+						"items": ["leather_horse_armor"],
+						"components": {"minecraft:custom_model_data":548104}
+					}
+				}
+			}
+		}
+	]
+}

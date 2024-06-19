@@ -1,1 +1,0 @@
-function siscu:config

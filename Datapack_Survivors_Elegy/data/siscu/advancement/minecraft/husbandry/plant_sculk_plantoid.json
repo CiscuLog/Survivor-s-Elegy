@@ -1,0 +1,31 @@
+{
+	"parent": "minecraft:husbandry/feed_snifflet",
+	"display":{
+			"icon": {
+					"id": "minecraft:beetroot",
+					"components": {"custom_model_data":540000}
+			},
+			"title": {"translate": "advancements.siscu.minecraft.plant_plantoid.title"},
+			"description": [{
+				"translate": "advancements.siscu.minecraft.plant_plantoid.description"
+				},
+				{
+					"text":"\nSurvivor's Elegy",
+					"color": "gold",
+					"italic": true
+				}
+		],
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false,
+		"frame": "goal"
+	},
+    "criteria": {
+        "1":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards": {
+		"experience": 550
+	}
+}

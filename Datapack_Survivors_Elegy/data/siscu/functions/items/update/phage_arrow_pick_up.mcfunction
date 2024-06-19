@@ -1,1 +1,0 @@
-advancement revoke @s only siscu:items/update/phage_arrow_pick_up

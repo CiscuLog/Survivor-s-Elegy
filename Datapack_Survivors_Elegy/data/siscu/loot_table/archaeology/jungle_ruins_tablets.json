@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/ingredients/tablet_mending",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/ingredients/tablet_frost_walker",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/ingredients/tablet_binding"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/ingredients/tablet_vanishing"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

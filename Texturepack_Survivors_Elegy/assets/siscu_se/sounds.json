@@ -1,9 +1,30 @@
 {
     "item.brute_shield.use":{
         "category": "player",
-        "subtitle":"item.siscu.piglin_shield",
+        "subtitle":"sound.siscu.piglin_shield",
         "sounds": [
-            "siscu_se:golden_shield"
+			"golden_shield"
+        ]
+    },
+	"item.amethyst_shield.gather_vibrations":{
+        "category": "player",
+        "subtitle":"sound.siscu.gather_vibrations",
+        "sounds": [
+            "block/amethyst/resonate1"
+        ]
+    },
+	"item.amethyst_shield.charge_up":{
+        "category": "player",
+        "subtitle":"sound.siscu.charge_up",
+        "sounds": [
+            "block/respawn_anchor/charge1"
+        ]
+    },
+	"item.light_sensor.switch":{
+        "category": "player",
+        "subtitle":"sound.siscu.light_sensor",
+        "sounds": [
+            "item/spyglass/use"
         ]
     }
 }

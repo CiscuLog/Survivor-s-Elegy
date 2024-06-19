@@ -1,0 +1,70 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "leather_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:damage": 0,
+                                "minecraft:item_name": "{\"translate\":\"item.siscu.piston_boots_sticky\"}",
+                                "minecraft:dyed_color": {
+                                    "rgb": 10395300,
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:custom_model_data": 548106,
+                                "minecraft:custom_data": {
+                                    "SE_data": {
+                                    "IsPiston": 1,
+                                    "Sticky": 0,
+                                    "CustomBoots": 1,
+                                    "UpdateVersion": "alpha v0.9.0"
+                                    }
+                                },
+                                "max_damage": 95,
+                                "attribute_modifiers": {"modifiers": [{"amount": 2.0, "name": "", "slot": "feet", "type": "minecraft:generic.armor", "id": "86665905-dca2-4eff-8447-736336098f2e", "operation": "add_value"}, {"amount": 0.4, "name": "", "slot": "feet", "type": "minecraft:generic.knockback_resistance", "id": "6dfa17be-5874-453f-927d-950d3e6ef435", "operation": "add_value"}, {"amount": 0.5, "name": "", "slot": "feet", "type": "minecraft:generic.step_height", "id": "f88590f4-23f8-4222-b18b-f4de8030d24a", "operation": "add_value"}, {"amount": 0.085, "name": "", "slot": "feet", "type": "minecraft:generic.jump_strength", "id": "d1dd5afc-503f-4866-a1c7-ecb8190a80b4", "operation": "add_value"}, {"amount": 1.0, "name": "", "slot": "feet", "type": "minecraft:generic.safe_fall_distance", "id": "394fc505-db18-4eed-ae81-ccd0a685f4cf", "operation": "add_value"}],"show_in_tooltip":false}
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity":"this",
+                            "mode":"replace_all",
+                            "lore": [
+                            {"text":""},
+                            {
+                                "text": "When on Feet:",
+                                "italic": false,
+                                "color": "gray"
+                            },
+                            {
+                                "text": "+2 Armor",
+                                "italic": false,
+                                "color": "blue"
+                            },
+                            {
+                                "text": "+4 Knockback Resistance",
+                                "italic": false,
+                                "color": "blue"
+                            },
+                            {
+                                "text": "+0.5 Block Step Height",
+                                "italic": false,
+                                "color": "blue"
+                            },
+                            {
+                                "text": "+0.5 Block Jump Height",
+                                "italic": false,
+                                "color": "blue"
+                            }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

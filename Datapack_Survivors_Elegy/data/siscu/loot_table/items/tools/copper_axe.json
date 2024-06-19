@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "iron_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{\"translate\":\"item.siscu.copper_axe\"}",
+                                "minecraft:custom_model_data": 548101,
+                                "minecraft:max_damage":150,
+                                "minecraft:custom_data": {
+                                    "SE_data": {
+                                      "IsCopper": 1,
+                                      "CustomTool": 1,
+                                      "UpdateVersion": "alpha v0.9.0",
+                                      "Charge": 0,
+                                      "Oxidation": 0
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

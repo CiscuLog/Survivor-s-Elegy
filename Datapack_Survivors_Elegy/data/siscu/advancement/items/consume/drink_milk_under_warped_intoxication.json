@@ -1,0 +1,16 @@
+{
+	"show_toast": false,
+	"criteria": {
+		"Staff": {
+			"trigger":"minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items":["milk_bucket"]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:world/warped_food/drink_milk_under_warped_intoxication"
+	}
+}

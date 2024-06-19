@@ -67,6 +67,8 @@
     },
 	{"predicate": {"custom_model_data": 540000}, "model": "siscu_se:item/copper_armor"},
 	{"predicate": {"custom_model_data": 540010}, "model": "siscu_se:item/stray_chestplate"},
+	{"predicate": {"custom_model_data": 540011}, "model": "siscu_se:item/husk_chestplate"},
+	{"predicate": {"custom_model_data": 548001}, "model": "siscu_se:item/elegant_suit"},
 	{"predicate": {"custom_model_data": 548101}, "model": "siscu_se:item/copper_chestplate"},
 	{"predicate": {"custom_model_data": 548102}, "model": "siscu_se:item/exposed_copper_chestplate"},
 	{"predicate": {"custom_model_data": 548103}, "model": "siscu_se:item/weathered_copper_chestplate"},

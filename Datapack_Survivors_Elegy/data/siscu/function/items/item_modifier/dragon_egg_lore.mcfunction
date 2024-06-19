@@ -1,0 +1,2 @@
+$item modify entity @s $(Slot)$(x) {function:"set_components",components:{"minecraft:lore":['{"text":"Dragon slain by"}','{"text":"$(Player)","color":"gold"}']}}
+$item modify entity @s $(Slot)$(x) {function:"set_custom_data",tag:{"SE_data":{"Lorified":true}}}

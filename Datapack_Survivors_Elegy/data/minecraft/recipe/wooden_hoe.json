@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "minecraft:wooden_hoe"
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biomes": "minecraft:lukewarm_ocean"
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biomes": "minecraft:deep_lukewarm_ocean"
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biomes": "minecraft:warm_ocean"
+		}
+	}
+	]
+}

@@ -1,6 +1,9 @@
 {
     "replace": false,
     "values": [
-        "siscu:confusion"
+        "siscu:confusion",
+        "siscu:copper_discharge",
+        "siscu:phage",
+        "siscu:rotting"
     ]
 }

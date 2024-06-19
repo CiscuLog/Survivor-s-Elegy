@@ -21,6 +21,11 @@
             "prefix": "models/"
         },
         {
+            "type": "directory",
+            "source": "painting",
+            "prefix": "painting/"
+        },
+        {
             "type": "single",
             "resource": "entity/bell/bell_body"
         },

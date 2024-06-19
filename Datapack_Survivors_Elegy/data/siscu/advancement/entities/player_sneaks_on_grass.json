@@ -1,0 +1,32 @@
+{
+	"criteria": {
+	  "0": {
+		"trigger": "minecraft:tick",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:location_check",
+			  "offsetY": 1,
+			  "predicate": {
+				"block": {
+				  "blocks": "#siscu:grass_stealth_valid"
+				}
+			  }
+			},
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"flags": {
+				  "is_sneaking": true
+				}
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+		"function": "siscu:entities/player/grass_stealth/sneak_on_grass"
+	}
+}

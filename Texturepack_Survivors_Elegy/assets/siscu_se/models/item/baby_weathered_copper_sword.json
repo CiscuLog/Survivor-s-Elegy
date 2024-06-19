@@ -1,0 +1,6 @@
+{
+  "parent": "siscu_se:item/baby_iron_sword",
+  "textures": {
+    "layer0": "siscu_se:item/baby_weathered_copper_sword"
+  }
+}

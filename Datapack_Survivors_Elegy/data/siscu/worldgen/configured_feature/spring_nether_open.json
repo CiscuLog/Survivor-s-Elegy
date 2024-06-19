@@ -10,7 +10,7 @@
     ],
     "state": {
       "Properties": {
-        "falling": "false"
+        "falling": "true"
       },
       "Name": "minecraft:lava"
     },

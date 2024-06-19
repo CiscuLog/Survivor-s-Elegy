@@ -1,0 +1,4 @@
+execute if predicate siscu:items/amethyst_shield_mainhand store result score amethyst_vibrations siscu.volatile run data get entity @s SelectedItem.components."minecraft:custom_data".SE_data.Vibrations
+execute if predicate siscu:items/amethyst_shield_mainhand store result score amethyst_charges siscu.volatile run data get entity @s SelectedItem.components."minecraft:custom_data".SE_data.Charges
+execute unless predicate siscu:items/amethyst_shield_mainhand store result score amethyst_vibrations siscu.volatile run data get entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".SE_data.Vibrations
+execute unless predicate siscu:items/amethyst_shield_mainhand store result score amethyst_charges siscu.volatile run data get entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".SE_data.Charges

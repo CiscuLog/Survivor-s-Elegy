@@ -1,0 +1,31 @@
+{
+	"parent": "siscu:minecraft/husbandry/plant_sculk_plantoid",
+	"display":{
+			"icon": {
+					"id": "minecraft:leather",
+					"components": {"custom_model_data":540104}
+			},
+			"title": {"translate": "advancements.siscu.minecraft.bloom_plantoid.title"},
+			"description": [{
+				"translate": "advancements.siscu.minecraft.bloom_plantoid.description"
+				},
+				{
+					"text":"\nSurvivor's Elegy",
+					"color": "gold",
+					"italic": true
+				}
+		],
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true,
+		"frame": "challenge"
+	},
+    "criteria": {
+        "1":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards": {
+		"experience": 1395
+	}
+}

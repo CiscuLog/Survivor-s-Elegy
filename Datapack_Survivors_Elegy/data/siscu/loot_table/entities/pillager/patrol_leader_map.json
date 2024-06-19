@@ -1,0 +1,29 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map",
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "minecraft:pillager_outpost",
+                "decoration": "banner_gray",
+                "zoom": 1,
+                "skip_existing_chunks": false
+              },
+              {
+                "function":"set_components",
+                "components":{
+                    "custom_data":{"SE_data":{"PatrolMap":1}}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

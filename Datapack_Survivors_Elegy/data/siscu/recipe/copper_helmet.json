@@ -1,0 +1,45 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "key": {"C":{
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "pattern": ["CCC","C C"],
+    "result": {
+        "id": "minecraft:leather_helmet",
+        "count": 1,
+        "components": {
+            "minecraft:damage": 0,
+            "minecraft:item_name": "{\"translate\":\"item.siscu.copper_helmet\"}",
+            "minecraft:dyed_color": {
+              "rgb": 15301202,
+              "show_in_tooltip": false
+            },
+            "minecraft:lore": [
+              "{\"text\":\"Charge: 0\",\"color\":\"yellow\",\"italic\":false}"
+            ],
+            "minecraft:custom_model_data": 548101,
+            "minecraft:custom_data": {
+              "SE_data": {
+                "IsCopper": 1,
+                "CustomHelmet": 1,
+                "UpdateVersion": "alpha v0.9.0",
+                "Charge": 0,
+                "Oxidation": 0
+              }
+            },
+            "max_damage": 80,
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:generic.armor",
+                "slot": "head",
+                "id": "408581be-5d70-4515-8bcb-d82e3b358486",
+                "name": "generic.armor",
+                "amount": 2,
+                "operation": "add_value"
+              }
+            ]
+          }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "trident",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_model_data": 540000
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
