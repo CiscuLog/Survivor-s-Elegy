@@ -67,7 +67,6 @@
 	"item.siscu.battle_staff": "Combat Stick",
 	"item.siscu.battle_staff_bamboo": "Combat Bamboo Stick",
 	"item.siscu.bee_counter": "Bee Counter",
-	"item.siscu.boneclub":"Boneclub",
 	"item.siscu.catfish": "Catfish",
 	"item.siscu.chainmail_horse_armor": "Chainmail Horse Armor",
 	"item.siscu.config": "Survivor's Elegy Config Menu",
@@ -174,7 +173,7 @@
 	"item.siscu.zoglin_head": "Zoglin Head",
 
 	"pack.siscu": "Survivor's Elegy",
-	"pack.siscu.version": "alpha v0.9.0",
+	"pack.siscu.version": "alpha v0.9.1",
 	
 	"sound.siscu.piglin_shield":"Golden Shield blocks",
 	"sound.siscu.gather_vibrations":"Vibrations gathered",

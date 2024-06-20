@@ -9,7 +9,7 @@
 			"functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"custom_model_data":548102,"item_name":"{\"translate\":\"item.siscu.crimson_stew\"}","food":{"using_converts_to":{"id":"minecraft:bowl"}}}
+				"components": {"custom_model_data":548102,"item_name":"{\"translate\":\"item.siscu.crimson_stew\"}"}
 			}
 			]
 		}
