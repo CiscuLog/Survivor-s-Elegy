@@ -16,3 +16,6 @@ execute if entity @s[nbt={Item:{id: "minecraft:raw_copper",components:{"minecraf
 execute if entity @s[nbt={Item:{id: "minecraft:stick",components:{"minecraft:custom_model_data":548103}}}] if predicate siscu:entities/item_frame/is_not_unrolled run function siscu:entities/item_frame/shutters/roll_shutters
 ## rolled
 execute if entity @s[nbt={Item:{id: "minecraft:stick",components:{"minecraft:custom_model_data":548104}}}] if predicate siscu:entities/item_frame/is_not_rolled run function siscu:entities/item_frame/shutters/unroll_shutters
+
+# Light Sensor #
+execute if predicate siscu:entities/item_frame/light_sensor at @s run function siscu:entities/item_frame/light_sensor

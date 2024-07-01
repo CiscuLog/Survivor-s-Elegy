@@ -1,0 +1,37 @@
+{
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "slots": {
+                                "player.cursor": {
+                                    "items": [
+                                        "raw_copper"
+                                    ],
+                                    "components":{"minecraft:custom_model_data":540000},
+                                    "predicates": {
+                                        "custom_data": {
+                                            "SE_data": {
+                                                "SE_data": {
+                                                    "UpdateVersion": "alpha v0.9.0"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "siscu:items/update/bee_counter"
+    }
+}

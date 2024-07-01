@@ -1,6 +1,17 @@
 
 Compatible Minecraft versions: 1.21
 
+Survivor's Elegy alpha 0.9.2 (01/07/2024)
++ Added Bogged Zombie Spawn Egg
++ Added Light Sensors now update when placed on item frames
++ Added Players can now use light sensors on both hands simultaneously
++ Added new subtitles for Banners on Boats and Shutters
++ Changed max stack size for Bee Counters to 64.
++ Fixed Bee Counters
++ Fixed Bee Counter's previously wrong custom data. The player must hold the item on the cursor in survival mode for the changes to be applied
++ Fixed "Curious Bee" advancement is no longer granted when placing any raw copper on an item frame
++ Fixed Item Frame fixed items ignored said property
+
 Survivor's Elegy alpha 0.9.1 (20/06/2024)
 + Added Spanish es_es
 + Added Portuguese Brazilian pt_br

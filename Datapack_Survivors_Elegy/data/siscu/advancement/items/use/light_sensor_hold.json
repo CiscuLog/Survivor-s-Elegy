@@ -14,6 +14,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:items/use/light_sensor_display"
+		"function": "siscu:items/use/light_sensor_hold"
 	}
 }

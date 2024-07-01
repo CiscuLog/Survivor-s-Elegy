@@ -56,6 +56,15 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "siscu_se:item/spawn_eggs/bogged_zombie.png",
+			"ascent": 11,
+			"height": 16,
+			"chars": [
+				"\u0107"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "siscu_se:item/spawn_eggs/villager_skeleton.png",
 			"ascent": 11,
 			"height": 16,

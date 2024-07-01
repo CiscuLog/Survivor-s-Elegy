@@ -137,6 +137,7 @@
 	"item.siscu.sculk_plantoid": "Sculk Plantoid",
 	"item.siscu.shutters": "Shutters",
 	"item.siscu.spawn_egg_amethyst_zombie": "Amethyst Zombie",
+	"item.siscu.spawn_egg_bogged_zombie": "Bogged Zombie",
 	"item.siscu.spawn_egg_citizen_zombie": "Citizen Zombie",
 	"item.siscu.spawn_egg_dripstone_zombie": "Dripstone Zombie",
 	"item.siscu.spawn_egg_husk_skeleton": "Husk Skeleton",
@@ -173,12 +174,15 @@
 	"item.siscu.zoglin_head": "Zoglin Head",
 
 	"pack.siscu": "Survivor's Elegy",
-	"pack.siscu.version": "alpha v0.9.1",
+	"pack.siscu.version": "alpha v0.9.2",
 	
 	"sound.siscu.piglin_shield":"Golden Shield blocks",
 	"sound.siscu.gather_vibrations":"Vibrations gathered",
 	"sound.siscu.charge_up":"Amethyst Shield charges up",
 	"sound.siscu.light_sensor":"Light Sensor switches mode",
+	"sound.siscu.shutters_action": "Shutters move",
+	"sound.siscu.boat_banner_break": "Banner drops",
+	"sound.siscu.boat_banner_place": "Banner placed on boat",
 
 	"text.siscu.amethyst_shield_1": "Block attacks to store vibrations",
 	"text.siscu.amethyst_shield_2": " vibrations amount to a charge",

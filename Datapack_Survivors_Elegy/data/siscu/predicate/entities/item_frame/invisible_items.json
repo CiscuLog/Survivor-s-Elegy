@@ -1,61 +1,130 @@
 {
 	"condition": "minecraft:any_of",
-	"terms":[
-	{
-		"condition": "minecraft:entity_properties",
-		"entity":"this",
-		"predicate": {
-			"nbt": "{Item:{id: \"minecraft:raw_copper\", components:{\"minecraft:custom_model_data\":540000}}}"
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"contents": {
+						"items": [
+							"raw_copper"
+						],
+						"components": {
+							"minecraft:custom_model_data": 540000
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"contents": {
+						"items": [
+							"shield"
+						]
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"contents": {
+						"items": [
+							"leather"
+						],
+						"components": {
+							"minecraft:custom_model_data": 548101
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"contents": {
+						"items": [
+							"leather"
+						],
+						"components": {
+							"minecraft:custom_model_data": 548109
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"contents": {
+						"items": [
+							"leather"
+						],
+						"components": {
+							"minecraft:custom_model_data": 548111
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"contents": {
+						"items": [
+							"leather"
+						],
+						"components": {
+							"minecraft:custom_model_data": 548112
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"contents": {
+						"items": [
+							"stick"
+						],
+						"components": {
+							"minecraft:custom_model_data": 548103
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"contents": {
+						"items": [
+							"stick"
+						],
+						"components": {
+							"minecraft:custom_model_data": 548104
+						}
+					}
+				}
+			}
 		}
-	},
-	{
-		"condition": "minecraft:entity_properties",
-		"entity":"this",
-		"predicate": {
-			"nbt": "{Item:{id: \"minecraft:shield\"}}"
-		}
-	},
-	{
-		"condition": "minecraft:entity_properties",
-		"entity":"this",
-		"predicate": {
-			"nbt": "{Item:{id: \"minecraft:leather\", components:{\"minecraft:custom_model_data\":548101}}}"
-		}
-	},
-	{
-		"condition": "minecraft:entity_properties",
-		"entity":"this",
-		"predicate": {
-			"nbt": "{Item:{id: \"minecraft:leather\", components:{\"minecraft:custom_model_data\":548109}}}"
-		}
-	},
-	{
-		"condition": "minecraft:entity_properties",
-		"entity":"this",
-		"predicate": {
-			"nbt": "{Item:{id: \"minecraft:leather\", components:{\"minecraft:custom_model_data\":548111}}}"
-		}
-	},
-	{
-		"condition": "minecraft:entity_properties",
-		"entity":"this",
-		"predicate": {
-			"nbt": "{Item:{id: \"minecraft:leather\", components:{\"minecraft:custom_model_data\":548112}}}"
-		}
-	},
-	{
-		"condition": "minecraft:entity_properties",
-		"entity":"this",
-		"predicate": {
-			"nbt": "{Item:{id: \"minecraft:stick\", components:{\"minecraft:custom_model_data\":548103}}}"
-		}
-	},
-	{
-		"condition": "minecraft:entity_properties",
-		"entity":"this",
-		"predicate": {
-			"nbt": "{Item:{id: \"minecraft:stick\", components:{\"minecraft:custom_model_data\":548104}}}"
-		}
-	}
 	]
 }

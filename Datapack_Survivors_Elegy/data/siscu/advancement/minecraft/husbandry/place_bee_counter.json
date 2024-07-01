@@ -24,7 +24,7 @@
 		"0": {
 			"trigger":"minecraft:player_interacted_with_entity",
 			"conditions": {
-				"item": {"items":["raw_copper"],"nbt":"{CustomModelData:540000}"},
+				"item": {"items":["raw_copper"],"components":{"custom_model_data":540000}},
 				"entity": {"type":"minecraft:item_frame"}
 			}
 		}

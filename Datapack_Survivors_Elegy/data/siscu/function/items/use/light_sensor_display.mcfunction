@@ -1,13 +1,10 @@
-advancement revoke @s only siscu:items/use/light_sensor_hold
-
-scoreboard players set x siscu.volatile 0
-execute if predicate siscu:items/light_sensor_mainhand run scoreboard players set x siscu.volatile 1
-
-execute if score x siscu.volatile matches 1 run data merge storage siscu:volatile {Slot:"weapon.mainhand"}
-execute unless score x siscu.volatile matches 1 run data merge storage siscu:volatile {Slot:"weapon.offhand"}
+execute if data storage siscu:volatile {Slot:"weapon.offhand"} run scoreboard players set x siscu.volatile 0
+execute if data storage siscu:volatile {Slot:"weapon.mainhand"} run scoreboard players set x siscu.volatile 1
+execute if data storage siscu:volatile {Slot:"contents"} run scoreboard players set x siscu.volatile 2
 
 execute if score x siscu.volatile matches 1 store result score x siscu.volatile run data get entity @s SelectedItem.components.minecraft:custom_model_data
 execute if score x siscu.volatile matches 0 store result score x siscu.volatile run data get entity @s Inventory[{Slot:-106b}].components.minecraft:custom_model_data
+execute if score x siscu.volatile matches 2 store result score x siscu.volatile run data get entity @s Item.components.minecraft:custom_model_data
 
 execute if predicate siscu:utils/light_level/lvl15 run scoreboard players set y siscu.volatile 15
 execute if predicate siscu:utils/light_level/lvl14 run scoreboard players set y siscu.volatile 14
@@ -31,4 +28,5 @@ execute if score x siscu.volatile matches 540100..540115 run scoreboard players 
 execute if score x siscu.volatile matches 540116..540131 run scoreboard players add y siscu.volatile 540131
 
 execute store result storage siscu:volatile x int 1 run scoreboard players get y siscu.volatile
-function siscu:items/use/light_sensor_put_data with storage siscu:volatile
+execute unless data storage siscu:volatile {Slot:"contents"} run return run function siscu:items/use/light_sensor_put_data with storage siscu:volatile
+execute unless score x siscu.volatile = y siscu.volatile run function siscu:items/use/light_sensor_put_data with storage siscu:volatile

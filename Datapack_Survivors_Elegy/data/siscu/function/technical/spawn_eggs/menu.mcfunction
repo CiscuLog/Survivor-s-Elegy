@@ -13,6 +13,8 @@ tellraw @s [{"font":"siscu_se:icons","text":"\u0101","clickEvent":{"action":"run
 \
 {"text":"\u0106","clickEvent":{"action":"run_command","value":"/loot give @s loot siscu:items/spawn_eggs/citizen_zombie"},"hoverEvent":{"action":"show_text","contents":{"translate":"item.siscu.spawn_egg_citizen_zombie"}}},\
 \
+{"text":"\u0107","clickEvent":{"action":"run_command","value":"/loot give @s loot siscu:items/spawn_eggs/bogged_zombie"},"hoverEvent":{"action":"show_text","contents":{"translate":"item.siscu.spawn_egg_bogged_zombie"}}},\
+\
 {"font":"siscu_se:icons","text":"\u0201","clickEvent":{"action":"run_command","value":"/loot give @s loot siscu:items/spawn_eggs/villager_skeleton"},"hoverEvent":{"action":"show_text","contents":{"translate":"item.siscu.spawn_egg_villager_skeleton"}}},\
 \
 {"text":"\u0202","clickEvent":{"action":"run_command","value":"/loot give @s loot siscu:items/spawn_eggs/piglin_skeleton"},"hoverEvent":{"action":"show_text","contents":{"translate":"item.siscu.spawn_egg_piglin_skeleton"}}},\

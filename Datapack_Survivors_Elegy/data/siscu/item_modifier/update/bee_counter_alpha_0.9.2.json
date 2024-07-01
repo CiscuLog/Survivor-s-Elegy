@@ -1,0 +1,15 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "max_stack_size": 64,
+        "custom_model_data": 540000,
+        "custom_data": {
+            "SE_data": {
+                "IsCopper": 1,
+                "CustomTool": 1,
+                "UpdateVersion": "alpha v0.9.2",
+                "Oxidation": 0
+            }
+        }
+    }
+}

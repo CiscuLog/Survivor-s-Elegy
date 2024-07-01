@@ -26,5 +26,60 @@
         "sounds": [
             "item/spyglass/use"
         ]
+    },
+	"block.shutters.sound":{
+        "category": "block",
+        "subtitle":"sound.siscu.shutters_action",
+        "sounds": [
+            "entity/painting/place1",
+            "entity/painting/place2",
+            "entity/painting/place3",
+            "entity/painting/place4"
+        ]
+    },
+	"entity.boat.boat_banner_place":{
+        "category": "block",
+        "subtitle":"sound.siscu.boat_banner_place",
+        "sounds": [
+			{
+			"name": "block/stem/break1",
+			"pitch": 1.1,
+			"volume": 0.8
+			},
+			{
+			"name": "block/stem/break2",
+			"pitch": 1.1,
+			"volume": 0.8
+			},
+			{
+			"name": "block/stem/break3",
+			"pitch": 1.1,
+			"volume": 0.8
+			},
+			{
+			"name": "block/stem/break4",
+			"pitch": 1.1,
+			"volume": 0.8
+			},
+			{
+			"name": "block/stem/break5",
+			"pitch": 1.1,
+			"volume": 0.8
+			},
+			{
+			"name": "block/stem/break6",
+			"pitch": 1.1,
+			"volume": 0.8
+			}
+		]
+    },
+	"entity.boat.boat_banner_break":{
+        "category": "block",
+        "subtitle":"sound.siscu.boat_banner_break",
+        "sounds": [
+			"entity/itemframe/break1",
+			"entity/itemframe/break2",
+			"entity/itemframe/break3"
+		]
     }
 }

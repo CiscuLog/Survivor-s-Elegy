@@ -16,12 +16,10 @@
             "minecraft:custom_model_data": 540000,
             "minecraft:custom_data": {
               "SE_data": {
-                "SE_data": {
-                "IsCopper": 1,
-                "CustomTool": 1,
-                "UpdateVersion": "alpha v0.9.0",
-                "Oxidation": 0
-                }
+              "IsCopper": 1,
+              "CustomTool": 1,
+              "UpdateVersion": "alpha v0.9.0",
+              "Oxidation": 0
               }
             }
           }
