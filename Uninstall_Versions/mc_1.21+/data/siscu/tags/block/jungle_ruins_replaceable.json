@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "minecraft:oak_planks",
-    "minecraft:dirt",
-    "minecraft:cobblestone",
-    "minecraft:gravel"
-  ]
-}
