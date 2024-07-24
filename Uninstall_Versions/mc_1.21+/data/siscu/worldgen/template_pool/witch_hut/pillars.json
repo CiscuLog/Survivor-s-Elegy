@@ -1,0 +1,14 @@
+{
+	"name": "siscu:witch_hut/pillars",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "siscu:oak_log_column",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

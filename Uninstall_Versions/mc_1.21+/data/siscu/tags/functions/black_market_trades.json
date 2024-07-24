@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "siscu:entities/wandering_trader/trades/totem_of_undying",
+        "siscu:entities/wandering_trader/trades/phage_arrow",
+        "siscu:entities/wandering_trader/trades/crossbow",
+        "siscu:entities/wandering_trader/trades/iron_axe"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "feature": "siscu:nether_wart",
+  "placement": [
+  {
+    "type": "minecraft:rarity_filter",
+    "chance": 10
+  },
+  {
+    "count": 100,
+    "type": "minecraft:count_on_every_layer"
+  },
+  {
+    "type": "minecraft:block_predicate_filter",
+    "predicate": {
+      "type": "matching_blocks",
+      "blocks": ["air"]
+    }
+  },
+  {
+    "type": "minecraft:biome"
+  }
+  ]
+}

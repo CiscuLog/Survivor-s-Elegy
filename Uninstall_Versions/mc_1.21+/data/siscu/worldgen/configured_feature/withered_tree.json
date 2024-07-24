@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "decor_state": {
+      "Name": "minecraft:crying_obsidian"
+    },
+    "hat_state": {
+      "Name": "minecraft:blackstone"
+    },
+    "planted": false,
+    "replaceable_blocks": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:basalt"
+      ]
+    },
+    "stem_state": {
+      "Name": "minecraft:basalt",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "valid_base_block": {
+      "Name": "minecraft:basalt"
+    }
+  }
+}
