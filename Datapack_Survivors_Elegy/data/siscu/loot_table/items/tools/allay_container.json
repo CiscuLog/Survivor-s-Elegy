@@ -1,0 +1,32 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:raw_iron",
+			"functions": [
+				{
+					"function": "minecraft:set_components",
+                    "components": {
+                        "max_stack_size": 16,
+                        "item_name": "{\"italic\":false,\"translate\":\"item.siscu.allay_container\"}",
+                        "rarity": "rare",
+                        "custom_model_data": 540000,
+                        "custom_data": {
+                            "SE_data": {
+                            "AllayContainer": 1,
+                            "ContainsAllay": 0,
+                            "CustomTool": 1,
+                            "UpdateVersion": "alpha v0.9.3"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+        ]
+    }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/suspicious_stew"
+  },
+  "overrides": [
+	{"predicate": {"custom_model_data": 540011}, "model": "siscu_se:item/broth_bowl"},
+	{"predicate": {"custom_model_data": 540012}, "model": "siscu_se:item/broth_bucket"},
+	{"predicate": {"custom_model_data": 540013}, "model": "siscu_se:item/broth_bottle"}
+  ]
+}

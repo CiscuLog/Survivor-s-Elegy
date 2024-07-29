@@ -3,19 +3,23 @@
   "display": {
     "icon": {
       "id": "minecraft:bone",
-      "components": {"custom_model_data":540002}
+      "components": {
+        "custom_model_data": 540002
+      }
     },
     "title": {
       "translate": "advancements.siscu.minecraft.fire_spring.title"
     },
-    "description": [{
-      "translate": "advancements.siscu.minecraft.fire_spring.description"
-    },
-	{
-		"text":"\nSurvivor's Elegy",
-		"color": "gold",
-		"italic": true
-	}],
+    "description": [
+      {
+        "translate": "advancements.siscu.minecraft.fire_spring.description"
+      },
+      {
+        "text": "\nSurvivor's Elegy",
+        "color": "gold",
+        "italic": true
+      }
+    ],
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,

@@ -24,6 +24,8 @@ playsound minecraft:entity.zombie.infect hostile @a ~ ~ ~
 function siscu:entities/rotting_mobs/big_particles
 effect give @e[tag=zombified] slowness 3 2 true
 
+execute on passengers run ride @s dismount
+ride @s dismount
 tag @e[tag=zombified] remove zombified
 tag @s[type=!player] add dead
 function siscu:world/kill_dead

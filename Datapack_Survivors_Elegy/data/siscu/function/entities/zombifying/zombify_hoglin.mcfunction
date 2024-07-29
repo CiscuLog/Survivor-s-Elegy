@@ -11,6 +11,8 @@ data modify entity @e[tag=zombified,limit=1,sort=nearest] FallDistance set from 
 playsound minecraft:entity.hoglin.converted_to_zombified neutral @a ~ ~ ~ 1 0.8
 effect give @e[tag=zombified] slowness 3 2 true
 
+execute on passengers run ride @s dismount
+ride @s dismount
 tag @e[tag=zombified] remove zombified
 tag @s[type=!player] add dead
 function siscu:world/kill_dead

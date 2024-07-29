@@ -5,12 +5,16 @@
         "minecraft:leash_knot",
         "minecraft:painting",
         "#siscu:item_frames",
+        "minecraft:area_effect_cloud",
+        "minecraft:falling_block",
         "minecraft:marker",
         "minecraft:item_display",
         "minecraft:block_display",
         "minecraft:text_display",
         "minecraft:interaction",
         "minecraft:guardian",
-        "minecraft:elder_guardian"
+        "minecraft:elder_guardian",
+        "minecraft:wind_charge",
+        "minecraft:breeze_wind_charge"
     ]
 }

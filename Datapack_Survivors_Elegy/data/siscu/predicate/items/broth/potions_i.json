@@ -1,0 +1,20 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity":"this",
+            "predicate": {
+                "slots": {
+                    "weapon.mainhand": {
+                        "items": ["potion"],
+                        "predicates": {
+                            "potion_contents": ["harming","healing","night_vision","invisibility","leaping","fire_resistance","swiftness","slowness","water_breathing","poison","regeneration","strength","weakness","turtle_master","slow_falling","infested","oozing","weaving","wind_charged",
+                            "long_night_vision","long_invisibility","long_leaping","long_fire_resistance","long_swiftness","long_slowness","long_water_breathing","long_poison","long_regeneration","long_strength","long_weakness","long_turtle_master","long_slow_falling"]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

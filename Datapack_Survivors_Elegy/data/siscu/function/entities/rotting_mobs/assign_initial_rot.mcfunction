@@ -1,3 +1,6 @@
+
+execute unless predicate siscu:entities/is_skeleton_wolf run return 0
+
 tag @s add rot_checked
 
 data merge storage siscu:volatile {min:0}

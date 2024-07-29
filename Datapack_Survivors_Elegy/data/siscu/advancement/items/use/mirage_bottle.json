@@ -1,0 +1,19 @@
+{
+	"show_toast": false,
+	"criteria": {
+		"0": 
+		{
+			"trigger":"minecraft:using_item",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"minecraft:custom_data" : {"SE_data":{"MirageBottle":1}}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:entities/mirage_display/use"
+	}
+}

@@ -1,0 +1,69 @@
+{
+  "name": "siscu:mineshafts/mesa/corridors",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:mineshafts/mesa/corridor_short",
+        "processors": "siscu:mesa_mineshaft",
+        "projection": "rigid"
+      },
+      "weight": 20
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:mineshafts/mesa/corridor_long",
+        "processors": "siscu:mesa_mineshaft",
+        "projection": "rigid"
+      },
+      "weight": 30
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:mineshafts/mesa/corridor_turn_right",
+        "processors": "siscu:mesa_mineshaft",
+        "projection": "rigid"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:mineshafts/mesa/corridor_turn_left",
+        "processors": "siscu:mesa_mineshaft",
+        "projection": "rigid"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:mineshafts/mesa/corridor_ramp",
+        "processors": "siscu:mesa_mineshaft",
+        "projection": "rigid"
+      },
+      "weight": 20
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:mineshafts/mesa/connector_bottom",
+        "processors": "siscu:mesa_mineshaft",
+        "projection": "rigid"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:mineshafts/mesa/connector_top",
+        "processors": "siscu:mesa_mineshaft",
+        "projection": "rigid"
+      },
+      "weight": 10
+    }
+  ]
+}

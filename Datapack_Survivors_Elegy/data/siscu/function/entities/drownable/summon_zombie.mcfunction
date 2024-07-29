@@ -1,6 +1,6 @@
 
 execute unless predicate siscu:utils/is_baby run summon zombie ~ ~ ~ {Tags:["zombie_checked","converted"]}
-execute if predicate siscu:utils/is_baby run summon zombie ~ ~ ~ {Tags:["zombie_checked","converted"],IsBaby:1}
+execute if predicate siscu:utils/is_baby run summon zombie ~ ~ ~ {Tags:["zombie_checked","converted"],IsBaby:true}
 
 item replace entity @e[tag=converted,limit=1,sort=nearest] weapon from entity @s weapon
 item replace entity @e[tag=converted,limit=1,sort=nearest] weapon.offhand from entity @s weapon.offhand
@@ -11,7 +11,7 @@ item replace entity @e[tag=converted,limit=1,sort=nearest] armor.feet from entit
 
 data modify entity @e[tag=converted,limit=1,sort=nearest] Tags append from entity @s Tags[]
 data modify entity @e[tag=converted,limit=1,sort=nearest] DeathLootTable set from entity @s DeathLootTable
-data modify entity @e[tag=converted,limit=1,sort=nearest] ActiveEffects append from entity @s ActiveEffects
+data modify entity @e[tag=converted,limit=1,sort=nearest] active_effects append from entity @s active_effects
 data modify entity @e[tag=converted,limit=1,sort=nearest] LeftHanded set from entity @s LeftHanded
 data modify entity @e[tag=converted,limit=1,sort=nearest] ArmorDropChances set from entity @s ArmorDropChances
 data modify entity @e[tag=converted,limit=1,sort=nearest] HandDropChances set from entity @s HandDropChances
@@ -26,5 +26,9 @@ data modify entity @e[tag=converted,limit=1,sort=nearest] FallDistance set from 
 playsound minecraft:entity.husk.converted_to_zombie hostile @a ~ ~ ~
 particle minecraft:bubble ~ ~1 ~ 0.2 0.5 0.2 0.07 20 normal
 
+
+execute on passengers run ride @s dismount
+ride @s dismount
 tag @e[tag=converted] remove converted
-tp @s[type=!player] ~ ~-100000 ~
+tag @s[type=!player] add dead
+function siscu:world/kill_dead

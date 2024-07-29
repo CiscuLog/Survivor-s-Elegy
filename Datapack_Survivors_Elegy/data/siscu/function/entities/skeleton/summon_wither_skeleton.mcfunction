@@ -27,6 +27,9 @@ execute if entity @s[tag=baby] as @e[tag=converted,limit=1,sort=nearest] run fun
 
 playsound minecraft:entity.skeleton.converted_to_stray hostile @a ~ ~ ~
 particle minecraft:smoke ~ ~1.3 ~ 0 0.3 0 0.06 30
+
+execute on passengers run ride @s dismount
+ride @s dismount
 tag @e[tag=converted] remove converted
 tag @s add dead
 function siscu:world/kill_dead

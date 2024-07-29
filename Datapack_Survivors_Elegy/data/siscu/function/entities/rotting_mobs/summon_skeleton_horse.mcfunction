@@ -17,6 +17,7 @@ function siscu:entities/rotting_mobs/big_particles
 effect give @e[tag=converted] slowness 3 2 true
 
 execute on passengers run ride @s dismount
+ride @s dismount
 tag @e[tag=converted] remove converted
 tag @s[type=!player] add dead
 function siscu:world/kill_dead

@@ -1,5 +1,4 @@
-execute if predicate siscu:entities/zombifying_exceptions run return 0
-tag @s add zombifying
-execute if predicate siscu:entities/has_strong_phage run scoreboard players set @s[type=#siscu:zombie_compatible] siscu.zombifying -60
-execute if predicate siscu:entities/has_strong_phage run tag @s add zombifying_strong
+
+scoreboard players set @s[type=#siscu:zombie_compatible,tag=!zombifying_strong] siscu.zombifying -60
+tag @s add zombifying_strong
 effect give @s[type=!#siscu:zombie_compatible] unluck infinite 1

@@ -1,0 +1,16 @@
+{
+	"show_toast": true,
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:vex"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:entities/vex/hurt_vex"
+	}
+}

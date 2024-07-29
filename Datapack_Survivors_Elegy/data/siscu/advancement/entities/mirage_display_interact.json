@@ -1,0 +1,17 @@
+{
+	"show_toast": true,
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity":{
+					"type": "minecraft:interaction",
+					"nbt": "{Tags:[\"siscu.mirage\"]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:entities/mirage_display/interact"
+	}
+}

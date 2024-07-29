@@ -1,11 +1,16 @@
-scoreboard players add boots_ox siscu.volatile 1
-execute if score boots_ox siscu.volatile matches 1 run data merge storage siscu:volatile {String:"exposed_copper_boots",rgb:9464656,Oxidation:1}
-execute if score boots_ox siscu.volatile matches 2 run data merge storage siscu:volatile {String:"weathered_copper_boots",rgb:7107420,Oxidation:2}
-execute if score boots_ox siscu.volatile matches 3 run data merge storage siscu:volatile {String:"oxidised_copper_boots",rgb:3506031,Oxidation:3}
-data merge storage siscu:volatile {Slot2:""}
 
+# return if it cannot oxidise
+
+# increase CMD
+execute store result score x siscu.volatile run data get entity @s Inventory[{Slot:100b}].components."minecraft:custom_model_data"
+scoreboard players add x siscu.volatile 1
+
+# change CMD
+item modify entity @s armor.feet siscu:set_custom_model_data
+
+# if the item has custom name that needs not to be changed, return
+execute if items entity @s armor.feet *[minecraft:custom_name] run return 1
+# else, decide the new name (stores it in siscu:volatile.String)
+function siscu:items/passive_behav/oxidisation_names/boots
 data merge storage siscu:volatile {Slot:"armor.feet"}
-scoreboard players add boots_ox siscu.volatile 548101
-execute store result storage siscu:volatile CMD int 1 run scoreboard players get boots_ox siscu.volatile
-
-function siscu:items/item_modifier/oxidisation with storage siscu:volatile
+function siscu:items/item_modifier/set_name with storage siscu:volatile

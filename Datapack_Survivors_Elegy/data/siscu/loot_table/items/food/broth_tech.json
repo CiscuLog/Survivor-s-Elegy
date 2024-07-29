@@ -1,0 +1,30 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:suspicious_stew",
+			"functions": [
+			{
+				"function": "minecraft:set_components",
+				"components": {
+					"custom_model_data":540010,
+					"minecraft:item_name": "{\"translate\":\"item.siscu.broth\"}",
+					"food": {
+						"nutrition": 1,
+						"saturation": 1,
+						"eat_seconds": 2,
+						"using_converts_to": {"id":"minecraft:bowl"}
+					},
+					"max_stack_size":1,
+					"custom_data": {"SE_data":{"Broth":1}}
+				}
+			}
+			]
+		}
+		]
+	}
+	]
+}

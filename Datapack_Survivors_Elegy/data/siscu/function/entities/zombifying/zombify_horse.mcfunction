@@ -13,13 +13,14 @@ data modify entity @e[tag=zombified,limit=1,sort=nearest] FallDistance set from 
 
 execute if predicate siscu:entities/has_wax_armor run tag @e[tag=zombified,limit=1,sort=nearest] add rotting_protected
 execute if predicate siscu:entities/has_wax_armor run tag @e[tag=zombified,limit=1,sort=nearest] add rot_checked
-execute if predicate siscu:entities/has_wax_armor at @e[tag=zombified,limit=1,sort=nearest] run particle minecraft:item{item:"golden_horse_armor",custom_model_data:548101} ~ ~1 ~ 0.3 0.2 0.3 0.05 50
+execute if predicate siscu:entities/has_wax_armor at @e[tag=zombified,limit=1,sort=nearest] run particle minecraft:item{item:{"id":"leather_horse_armor","components":{"custom_model_data":548104}}} ~ ~1 ~ 0.3 0.2 0.3 0.05 50
 execute if predicate siscu:entities/has_wax_armor run playsound minecraft:block.honey_block.hit neutral @a ~ ~ ~ 1 0.8
 
 playsound minecraft:entity.zombie_horse.death neutral @a ~ ~ ~ 1 0.8
 effect give @e[tag=zombified] slowness 3 2 true
 
 execute on passengers run ride @s dismount
+ride @s dismount
 tag @e[tag=zombified] remove zombified
 tag @s[type=!player] add dead
 function siscu:world/kill_dead

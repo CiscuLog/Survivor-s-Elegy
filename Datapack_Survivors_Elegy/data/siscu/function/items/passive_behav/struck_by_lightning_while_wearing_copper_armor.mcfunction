@@ -8,7 +8,7 @@ execute at @s as @e[type=!#siscu:discharge_immune,tag=!discharging,distance=..10
 execute as @e[type=area_effect_cloud,tag=siscu.discharge_path] at @s facing entity @p[tag=discharging] feet run function siscu:items/passive_behav/discharge_effect
 
 ## Damage and particles
-execute at @s as @e[type=!#siscu:discharge_immune,tag=!discharging,distance=..5] positioned as @s run particle minecraft:electric_spark ~ ~0.5 ~ 0 0 0 0.3 10
+execute at @s as @e[type=!#siscu:discharge_immune,tag=!discharging,distance=..5] unless data entity @s Owner positioned as @s run particle minecraft:electric_spark ~ ~0.5 ~ 0 0 0 0.3 10
 execute at @s run particle electric_spark ~ ~1 ~ 0 0.7 0 0.3 10
 execute at @s as @e[type=!#siscu:discharge_immune,tag=!discharging,distance=..5] unless data entity @s Owner unless predicate siscu:entities/is_wearing_copper_armor run damage @s 4 siscu:copper_discharge by @p[tag=discharging]
 tag @s remove discharging

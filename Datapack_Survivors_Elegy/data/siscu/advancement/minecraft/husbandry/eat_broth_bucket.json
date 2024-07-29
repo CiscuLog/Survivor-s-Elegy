@@ -1,0 +1,39 @@
+{
+	"parent": "minecraft:husbandry/root",
+	"display":{
+			"icon": {
+					"id": "minecraft:suspicious_stew",
+					"components": {"custom_model_data":540012}
+			},
+			"title": {"translate": "advancements.siscu.minecraft.eat_broth_bucket.title"},
+			"description": [{
+				"translate": "advancements.siscu.minecraft.eat_broth_bucket.description"
+				},
+				{
+					"text":"\nSurvivor's Elegy",
+					"color": "gold",
+					"italic": true
+				}
+		],
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false,
+		"frame": "goal"
+	},
+    "criteria": {
+        "1":{
+            "trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": ["suspicious_stew"],
+					"components": {
+						"minecraft:custom_model_data": 540012
+					}
+				}
+			}
+        }
+    },
+	"rewards": {
+		"experience": 1395
+	}
+}

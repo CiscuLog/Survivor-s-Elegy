@@ -7,14 +7,16 @@
     "title": {
       "translate": "advancements.siscu.minecraft.withered_grounds.title"
     },
-    "description": [{
-      "translate": "advancements.siscu.minecraft.withered_grounds.description"
-    },
-	{
-		"text":"\nSurvivor's Elegy",
-		"color": "gold",
-		"italic": true
-	}],
+    "description": [
+      {
+        "translate": "advancements.siscu.minecraft.withered_grounds.description"
+      },
+      {
+        "text": "\nSurvivor's Elegy",
+        "color": "gold",
+        "italic": true
+      }
+    ],
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -26,13 +28,13 @@
   "criteria": {
     "siscu:withered_grounds": {
       "trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"location": {
-						"biomes": "siscu:withered_grounds"
-					}
-				}
-			}
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "siscu:withered_grounds"
+          }
+        }
+      }
     }
   }
 }

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:beetroot_soup",
+    "minecraft:cooked_chicken",
+    "minecraft:cooked_mutton",
+    "minecraft:cooked_salmon",
+    "minecraft:golden_carrot",
+    "minecraft:honey_bottle",
+    "minecraft:mushroom_stew"
+  ]
+}

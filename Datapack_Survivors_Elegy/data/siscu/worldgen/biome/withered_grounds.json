@@ -65,8 +65,8 @@
     [],
     [
       "minecraft:spring_lava",
-      "siscu:withered_trees",
-      "siscu:blackstone_pile"
+      "siscu:blackstone_pile",
+      "siscu:withered_trees"
     ]
   ],
   "spawners": {
@@ -104,6 +104,5 @@
   },
   "has_precipitation": false,
   "temperature": 2.0,
-  "downfall": 0.0,
-  "category": "nether"
+  "downfall": 0.0
 }

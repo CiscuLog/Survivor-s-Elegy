@@ -5,6 +5,7 @@ scoreboard players operation day_residue siscu.day %= 10 siscu.integer
 scoreboard players operation day_decade siscu.day = Day siscu.day
 scoreboard players operation day_decade siscu.day %= 100 siscu.integer
 
+title @s reset
 title @a times 80 60 40
 execute if score day_residue siscu.day matches 0 run title @a title [{"score":{"name":"Day","objective":"siscu.day"}},{"translate":"title.siscu.cardinal_else"},{"translate":"title.siscu.new_day2"}]
 execute if score day_residue siscu.day matches 1 unless score day_decade siscu.day matches 10..19 run title @a title [{"score":{"name":"Day","objective":"siscu.day"}},{"translate":"title.siscu.cardinal_1"},{"translate":"title.siscu.new_day2"}]

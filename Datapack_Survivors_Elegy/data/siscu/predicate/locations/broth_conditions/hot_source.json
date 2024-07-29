@@ -1,0 +1,22 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"offsetY": -1,
+			"predicate": {
+				"block": {"blocks":["lava","lava_cauldron","soul_fire"]}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"offsetY": -1,
+			"predicate": {
+				"block": {
+					"blocks":["blast_furnace","soul_campfire"],
+					"state": {"lit":"true"}
+				}
+			}
+		}
+	]
+}

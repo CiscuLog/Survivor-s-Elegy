@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cookie",
+    "minecraft:glow_berries",
+    "minecraft:poisonous_potato",
+    "minecraft:chicken",
+    "minecraft:cod",
+    "minecraft:mutton",
+    "minecraft:salmon",
+    "minecraft:spider_eye",
+    "minecraft:sweet_berries"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:damage": 0,
+                            "minecraft:item_name": "{\"translate\":\"item.siscu.pillager_chestplate\"}",
+                            "minecraft:dyed_color": {
+                                "rgb": 15301202,
+                                "show_in_tooltip": false
+                            },
+                            "minecraft:custom_model_data": 548101,
+                            "minecraft:custom_data": {
+                                "SE_data": {
+                                "CustomChestplate": 1,
+                                "UpdateVersion": "alpha v0.9.3"
+                                }
+                            },
+                            "max_damage": 10000
+                            }
+                        },
+                        {
+                          "function": "minecraft:set_attributes",
+                          "modifiers": [
+                            {
+                              "attribute": "minecraft:generic.armor",
+                              "name": "",
+                              "id": "15b5fdac-e1f9-4166-a8f1-ea205413c9c1",
+                              "amount": 0,
+                              "operation": "add_value",
+                              "slot": "chest"
+                            }
+                          ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

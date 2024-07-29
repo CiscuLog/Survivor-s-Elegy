@@ -1,5 +1,5 @@
 # Storages
-data merge storage siscu:world {PackVersion:"alpha v0.9.2"}
+data merge storage siscu:world {PackVersion:"alpha v0.9.3"}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 execute unless data storage siscu:world day_length run data merge storage siscu:world {day_length:3}
 
@@ -11,12 +11,15 @@ gamerule doDaylightCycle false
 
 #create scoreboards
 scoreboard objectives add siscu.bees dummy {"text":"Bees","color":"gold"}
+scoreboard objectives add siscu.broth_data dummy {"text":"Broth Data","color":"gold"}
+scoreboard objectives add siscu.broth_temperature dummy {"text":"Broth Temperature","color":"red"}
 scoreboard objectives add siscu.day dummy {"text":"Day","color":"aqua"}
 scoreboard objectives add siscu.death deathCount {"text":"Single_dead","color":"gold"}
 scoreboard objectives add siscu.dimension dummy {"text":"Dimension","color":"dark_green"}
 scoreboard objectives add siscu.elytra_durability dummy {"text":"Elytra Durability","color":"light_purple"}
 scoreboard objectives add siscu.grass_stealth dummy {"text":"Grass Stealth","color":"green"}
 scoreboard objectives add siscu.integer dummy {"text":"Int","color":"gold"}
+scoreboard objectives add siscu.left_game minecraft.custom:minecraft.leave_game {"text":"Games Left","color":"white"}
 scoreboard objectives add siscu.light_sensor_cooldown dummy {"text":"Light Sensor Cooldown","color":"gold"}
 scoreboard objectives add siscu.sleep_time dummy {"text":"Sleep Time","color":"red"}
 scoreboard objectives add siscu.use_fungus minecraft.used:minecraft.warped_fungus_on_a_stick {"text":"Use","color":"aqua"}
@@ -37,8 +40,8 @@ scoreboard objectives add siscu.fire_spring dummy {"text":"Fire Spring","color":
 scoreboard objectives add siscu.zombifying dummy {"text":"Zombifying","color":"dark_green"}
 scoreboard objectives add siscu.trader_timer dummy {"text":"Trader Pet Timer","color":"blue"}
 
+
 #set scoreboards
-scoreboard players set @a siscu.use_carrot 0
 execute unless score death_message siscu.integer matches 0.. run scoreboard players set death_message siscu.integer 1
 scoreboard players set server_randN siscu.volatile 0
 scoreboard players set siscu.added_damage siscu.volatile 0

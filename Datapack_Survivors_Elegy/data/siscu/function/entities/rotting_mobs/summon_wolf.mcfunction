@@ -2,6 +2,7 @@ tag @s add wolf_checked
 tag @s add zombifying_invulnerable
 tag @s remove rot_checked
 scoreboard players reset @s siscu.rotting_mob
+scoreboard players reset @s siscu.withering
 
 data merge entity @s {variant:"siscu:skeleton"}
 execute if predicate siscu:utils/is_baby run function siscu:entities/wolf/stall_baby_growth

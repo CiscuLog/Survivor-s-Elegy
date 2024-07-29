@@ -1,0 +1,15 @@
+{
+  "name": "siscu:mineshafts/mesa/hall",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:mineshafts/mesa/main_hall",
+        "processors": "siscu:mesa_mineshaft",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

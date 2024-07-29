@@ -14,7 +14,7 @@
 					"minecraft:item_name": "{\"translate\":\"item.siscu.fried_egg\"}",
 					"food": {
 						"nutrition": 4,
-						"saturation": 0.5
+						"saturation": 6
 					},
 					"max_stack_size":16,
 					"custom_data": {"SE_data":{"FriedEgg":1}}

@@ -1,3 +1,4 @@
+title @a times 20 80 40
 title @a[distance=..200] title {"selector":"@s"}
 title @a[distance=..200] subtitle {"text":"has slain the Ender Dragon"}
 loot spawn ~ ~100 ~ loot siscu:items/functional/player_head

@@ -4,6 +4,7 @@
     "layer0": "minecraft:item/amethyst_shard"
   },
    "overrides": [
-      {"predicate": {"custom_model_data": 540000}, "model": "siscu_se:item/amethyst_head"}
+      {"predicate": {"custom_model_data": 540000}, "model": "siscu_se:item/amethyst_head"},
+      {"predicate": {"custom_model_data": 540005}, "model": "siscu_se:item/mirage_bottle"}
     ]
 }

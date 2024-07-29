@@ -1,10 +1,11 @@
 {
+  "type": "minecraft:huge_fungus",
   "config": {
-    "hat_state": {
-      "Name": "minecraft:blackstone"
-    },
     "decor_state": {
       "Name": "minecraft:crying_obsidian"
+    },
+    "hat_state": {
+      "Name": "minecraft:blackstone"
     },
     "planted": false,
     "replaceable_blocks": {
@@ -20,8 +21,7 @@
       }
     },
     "valid_base_block": {
-        "Name": "minecraft:basalt"
+      "Name": "minecraft:basalt"
     }
-  },
-  "type": "minecraft:huge_fungus"
+  }
 }

@@ -1,0 +1,29 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity":"this",
+            "predicate": {
+                "slots": {
+                    "weapon.mainhand": {
+                        "predicates": {
+                            "custom_data": {"SE_data":{"BrothIncrease": 3}}
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity":"this",
+            "predicate": {
+                "slots": {
+                    "weapon.mainhand": {
+                        "items": ["water_bucket"]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity":"this",
+            "predicate": {
+                "slots": {
+                    "weapon.mainhand": {
+                        "items": ["potion"],
+                        "predicates": {
+                            "potion_contents": "minecraft:harming"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity":"this",
+            "predicate": {
+                "slots": {
+                    "weapon.mainhand": {
+                        "items": ["potion"],
+                        "predicates": {
+                            "potion_contents": "minecraft:strong_harming"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity":"this",
+            "predicate": {
+                "slots": {
+                    "weapon.mainhand": {
+                        "items": ["potion"],
+                        "predicates": {
+                            "potion_contents": "minecraft:healing"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity":"this",
+            "predicate": {
+                "slots": {
+                    "weapon.mainhand": {
+                        "items": ["potion"],
+                        "predicates": {
+                            "potion_contents": "minecraft:strong_healing"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

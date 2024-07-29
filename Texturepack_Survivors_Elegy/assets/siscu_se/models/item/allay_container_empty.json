@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "siscu_se:item/allay_container_empty"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [60, 90, 0],
+			"translation": [0, 2.25, 0],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [60, -90, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.55, 0.55, 0.55]
+		}
+	}
+}

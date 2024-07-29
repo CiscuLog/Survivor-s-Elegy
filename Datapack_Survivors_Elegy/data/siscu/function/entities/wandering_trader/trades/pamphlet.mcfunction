@@ -1,5 +1,5 @@
 
-summon villager ~ ~ ~ {ActiveEffects:[{Id:14,Amplifier:0b,ShowParticles:0b,Duration:10}],Tags:["new_trade"],Silent:1,Age:-100}
+summon villager ~ ~ ~ {active_effects:[{id:"minecraft:invisibility",amplifier:0b,show_particles:0b,duration:10}],Tags:["new_trade"],Silent:true,Age:-100}
 execute as @e[tag=new_trade,limit=1,sort=nearest] at @s run item replace entity @s weapon with emerald 2
 execute as @e[tag=new_trade,limit=1,sort=nearest] at @s run loot replace entity @s armor.head loot siscu:gameplay/trading/pamphlet
 

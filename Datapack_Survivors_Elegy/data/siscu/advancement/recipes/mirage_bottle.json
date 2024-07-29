@@ -1,0 +1,31 @@
+{
+	"criteria": {
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["amethyst_shard"]
+				}]
+			}
+        },
+        "2": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["phantom_membrane"]
+				}]
+			}
+        },
+        "3": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["chorus_fruit"]
+				}]
+			}
+        }
+    },
+	"rewards": {
+		"recipes": ["siscu:mirage_bottle"]
+	}
+}

@@ -1,6 +1,25 @@
 
 Compatible Minecraft versions: 1.21
 
+Survivor's Elegy alpha 0.9.3 (29/07/2024)
++ Added Baby Skeletons can now ride entities like Baby Zombies do
++ Added Baby Undeads can now ride Armadillos
++ Added Ladles. using a ladle on a cauldron will enable Broth Cooking for that cauldron.
++ Added Broth Cooking. Adding food to a water filled cooking cauldron will add its saturation and nutrition to the broth. Only the top of the cauldron must be interacted with. A single potion can be aded to the broth, adding this effect to the resulting food. It can be scooped with a bowl, bottle or bucket. The cauldron must be heated from below in order for a broth to be scooped. The resulting broth has the proportional nutrition of the water level in the cauldron. The potion length is proportionally shortened as well.
++ Added Broth. Cooked on a cauldron, allows mixing different foods in a single superfood, which can also contain a potion effect.
++ Added Broth on a Bucket. Obtained by scooping a broth-filled cauldron with a bucket. It takes 10 seconds to eat, but is also the best food in the game with a potential nutrition of 48 food points and 77 saturation points plus a potion effect
++ Added login text for missing resourcepacks
++ Added Silverfish Nests. Now infested stone will replace monster room features
++ Added Withered Skeleton Wolf. Obtained when a Skeleton Wolf spends some time in the nether. They're bulkier than regular wolves, bigger, with 60 HP and 7 ATT.
++ Changed Fried Eggs saturation, increased from 0.5 to 6
++ Fixed instances where entities rot, drowned, zombified or withered would cause the passengers to get dragged into the void
++ Fixed Mesa Mineshafts sometimes generated like flying structures
++ Fixed Warped Food Effects sometimes not being applied
++ Fixed Warped Poisoning couldn't be cured when Withering was disabled
++ Fixed Zombie and Skeleton Wolves were able to grow up
++ Optimised Bee Counters
++ Updated Introduction Booklet
+
 Survivor's Elegy alpha 0.9.2 (01/07/2024)
 + Added Bogged Zombie Spawn Egg
 + Added Light Sensors now update when placed on item frames

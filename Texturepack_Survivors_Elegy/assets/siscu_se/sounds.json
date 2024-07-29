@@ -3,7 +3,7 @@
         "category": "player",
         "subtitle":"sound.siscu.piglin_shield",
         "sounds": [
-			"golden_shield"
+			"siscu_se:item/golden_shield/block"
         ]
     },
 	"item.amethyst_shield.gather_vibrations":{
@@ -80,6 +80,55 @@
 			"entity/itemframe/break1",
 			"entity/itemframe/break2",
 			"entity/itemframe/break3"
+		]
+    },
+	"item.mirage_bottle.deploy":{
+        "category": "player",
+        "subtitle":"sound.siscu.mirage_bottle_deploy",
+        "sounds": [
+			"block/trial_spawner/spawn_item_begin1",
+			"block/trial_spawner/spawn_item_begin2",
+			"block/trial_spawner/spawn_item_begin3"
+		]
+    },
+	"item.mirage_bottle.update":{
+        "category": "player",
+        "subtitle":"sound.siscu.mirage_bottle_update",
+        "sounds": [
+			"block/trial_spawner/spawn_item1",
+			"block/trial_spawner/spawn_item2",
+			"block/trial_spawner/spawn_item3"
+		]
+    },
+	"item.mirage_bottle.retrieve":{
+        "category": "player",
+        "subtitle":"sound.siscu.mirage_bottle_retrieve",
+        "sounds": [
+			"item/bottle/fill_dragonbreath1",
+			"item/bottle/fill_dragonbreath2"
+		]
+    },
+	"item.broth.scoop_bowl":{
+        "category": "player",
+        "subtitle":"sound.siscu.broth_bowl_scoop",
+        "sounds": [
+			"mob/mooshroom/milk1",
+			"mob/mooshroom/milk2",
+			"mob/mooshroom/milk3"
+		]
+    },
+	"block.broth.ready":{
+        "category": "block",
+        "subtitle":"sound.siscu.broth_ready",
+        "sounds": [
+			"liquid/lava"
+		]
+    },
+	"block.broth.simmer":{
+        "category": "block",
+        "subtitle":"sound.siscu.broth_simmer",
+        "sounds": [
+			"liquid/lava"
 		]
     }
 }

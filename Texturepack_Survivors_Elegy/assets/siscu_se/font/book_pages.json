@@ -63,6 +63,24 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "siscu_se:font/books/pamphlet_4.png",
+			"ascent": 0,
+			"height": 123,
+			"chars": [
+				"\uA106"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/books/pamphlet_4.png",
+			"ascent": -32768,
+			"height": -123,
+			"chars": [
+				"\uA107"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "siscu_se:font/books/siscu.png",
 			"ascent": 13,
 			"height": 13,

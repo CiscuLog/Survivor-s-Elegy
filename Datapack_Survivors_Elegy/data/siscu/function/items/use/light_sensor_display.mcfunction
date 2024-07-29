@@ -30,3 +30,5 @@ execute if score x siscu.volatile matches 540116..540131 run scoreboard players 
 execute store result storage siscu:volatile x int 1 run scoreboard players get y siscu.volatile
 execute unless data storage siscu:volatile {Slot:"contents"} run return run function siscu:items/use/light_sensor_put_data with storage siscu:volatile
 execute unless score x siscu.volatile = y siscu.volatile run function siscu:items/use/light_sensor_put_data with storage siscu:volatile
+stopsound @a * minecraft:entity.item_frame.add_item
+stopsound @a * minecraft:entity.glow_item_frame.add_item

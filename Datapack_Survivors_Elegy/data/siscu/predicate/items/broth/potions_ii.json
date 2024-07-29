@@ -1,0 +1,19 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity":"this",
+            "predicate": {
+                "slots": {
+                    "weapon.mainhand": {
+                        "items": ["potion"],
+                        "predicates": {
+                            "potion_contents": ["strong_harming","strong_healing","strong_leaping","strong_swiftness","strong_slowness","strong_poison","strong_regeneration","strong_strength","strong_turtle_master"]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cooked_mutton",
+    "minecraft:cooked_salmon",
+    "minecraft:enchanted_golden_apple",
+    "minecraft:golden_apple"
+  ]
+}

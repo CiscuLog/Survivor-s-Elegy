@@ -1,0 +1,20 @@
+{
+	"show_toast": false,
+	"criteria": {
+		"0": 
+		{
+			"trigger":"minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items":["minecraft:raw_iron"],
+					"predicates": {
+						"minecraft:custom_data" : {"SE_data":{"ContainsVex":1}}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/use/allay_container/vex"
+	}
+}

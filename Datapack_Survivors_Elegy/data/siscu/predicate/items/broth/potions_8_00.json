@@ -1,0 +1,19 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity":"this",
+            "predicate": {
+                "slots": {
+                    "weapon.mainhand": {
+                        "items": ["potion"],
+                        "predicates": {
+                            "potion_contents": ["long_swiftness","long_fire_resistance","long_night_vision","long_strength","long_leaping","long_water_breathing","long_invisibility"]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

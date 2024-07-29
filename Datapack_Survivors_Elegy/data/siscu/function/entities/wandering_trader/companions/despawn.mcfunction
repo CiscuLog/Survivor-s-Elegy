@@ -11,5 +11,5 @@ execute on leasher if entity @s[type=!wandering_trader] run return 0
 execute on passengers if entity @s[type=minecraft:player] run return 0
 
 execute on passengers run ride @s dismount
-tp @s[] ~ -100 ~
-kill @s
+tag @s[type=!player] add dead
+function siscu:world/kill_dead

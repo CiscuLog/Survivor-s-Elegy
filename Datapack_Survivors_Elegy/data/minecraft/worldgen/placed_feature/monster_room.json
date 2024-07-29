@@ -1,5 +1,5 @@
 {
-  "feature": "minecraft:ore_andesite",
+  "feature": "minecraft:ore_infested",
   "placement": [
     {
       "count": 10,
@@ -22,6 +22,10 @@
     },
     {
       "type": "minecraft:biome"
+    },
+    {
+      "type": "rarity_filter",
+      "chance": 10
     }
   ]
 }

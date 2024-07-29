@@ -1,0 +1,38 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:raw_iron",
+			"functions": [
+				{
+					"function": "minecraft:set_components",
+                    "components": {
+                        "food": {
+                            "nutrition": 0,
+                            "saturation": 0,
+                            "eat_seconds": 1000000,
+                            "can_always_eat": true
+                        },
+                        "max_stack_size": 1,
+                        "item_name": "{\"italic\":false,\"translate\":\"item.siscu.allay_container_vex\"}",
+                        "rarity": "rare",
+                        "custom_model_data": 540002,
+                        "custom_data": {
+                            "SE_data": {
+                            "AllayContainer": 1,
+                            "ContainsVex": 1,
+                            "CustomTool": 1,
+                            "UpdateVersion": "alpha v0.9.3"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+        ]
+    }
+    ]
+}

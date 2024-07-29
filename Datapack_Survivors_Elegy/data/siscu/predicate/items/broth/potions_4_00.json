@@ -1,0 +1,19 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity":"this",
+            "predicate": {
+                "slots": {
+                    "weapon.mainhand": {
+                        "items": ["potion"],
+                        "predicates": {
+                            "potion_contents": ["long_slow_falling","long_weakness","long_slowness"]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

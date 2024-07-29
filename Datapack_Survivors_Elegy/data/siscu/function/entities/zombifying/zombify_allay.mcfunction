@@ -20,6 +20,8 @@ playsound minecraft:entity.allay.death hostile @a ~ ~ ~
 particle minecraft:angry_villager ~ ~ ~ 0.2 0.2 0.2 1 10 normal
 effect give @e[tag=zombified] slowness 3 2 true
 
+execute on passengers run ride @s dismount
+ride @s dismount
 tag @e[tag=zombified] remove zombified
 tag @s[type=!player] add dead
 function siscu:world/kill_dead
