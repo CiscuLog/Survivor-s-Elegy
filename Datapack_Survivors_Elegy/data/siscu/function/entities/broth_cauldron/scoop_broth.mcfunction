@@ -7,7 +7,7 @@ scoreboard players operation min_food siscu.broth_data *= broth_level siscu.brot
 # fail if broth is mainly water or undercooked
 execute if score broth_food siscu.broth_data < min_food siscu.broth_data run return 0
 #execute if score broth_saturation siscu.broth_data < min_saturation siscu.broth_data run return 0
-execute as @e[type=marker,tag=siscu.broth_interacting,limit=1,sort=nearest] if score @s siscu.broth_temperature matches ..99 run return 0
+execute as @n[type=marker,tag=siscu.broth_interacting] if score @s siscu.broth_temperature matches ..99 run return 0
 
 ## serving data calculation
 # set resulting broth nutrition values

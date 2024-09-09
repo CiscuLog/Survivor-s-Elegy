@@ -1,19 +1,31 @@
 
 Compatible Minecraft versions: 1.21
 
+Survivor's Elegy alpha 0.9.4 (10/09/2024)
++ Added Melon Slice to broth cauldron cooking
++ Added undead wolves now drop bones, rotten flesh or withered bones on death, depending on their variant
++ Added xp can be bottled up from Sculk Plantoids to get Bottles o'Enchanting
++ Changed Clandestine Trading detection to avoid adding trades to entities following smithed conventions
++ Fixed Drowned and Husk rotten flesh now properly give mining fatigue and slowness respectively
++ Fixed Water Buckets didn't deplete when interacting with a cooking cauldron
+
 Survivor's Elegy alpha 0.9.3 (29/07/2024)
++ Added a figment of smithed entity conventions. Custom smithed entities should now not get initialised, rot or wither
 + Added Baby Skeletons can now ride entities like Baby Zombies do
 + Added Baby Undeads can now ride Armadillos
 + Added Ladles. using a ladle on a cauldron will enable Broth Cooking for that cauldron.
 + Added Broth Cooking. Adding food to a water filled cooking cauldron will add its saturation and nutrition to the broth. Only the top of the cauldron must be interacted with. A single potion can be aded to the broth, adding this effect to the resulting food. It can be scooped with a bowl, bottle or bucket. The cauldron must be heated from below in order for a broth to be scooped. The resulting broth has the proportional nutrition of the water level in the cauldron. The potion length is proportionally shortened as well.
 + Added Broth. Cooked on a cauldron, allows mixing different foods in a single superfood, which can also contain a potion effect.
 + Added Broth on a Bucket. Obtained by scooping a broth-filled cauldron with a bucket. It takes 10 seconds to eat, but is also the best food in the game with a potential nutrition of 48 food points and 77 saturation points plus a potion effect
++ Added Cinder Lamps, Allay Lamps and Vex Lamps. Those can be used to contain a Vex by hitting one with it, or an Allay by giving it a Lamp
 + Added login text for missing resourcepacks
++ Added Mirage entity and Mirage on a Bottle item. Mirages are interactive floating item displays. A Mirage on a bottle is crafted with a glass bottle, an amethyst shard, a phantom membrane and a popped chorus fruit. Deploying a mirage will summon an interactible entity at the center of the block. An empty display will generate End Rod particles around it. Interacting with it using an item will display a copy of said item in the mirage's location. Once a mirage is displaying an item it cannot be changed again. A mirage can be bottled back anytime by using a glass bottle on it while crouching
 + Added Silverfish Nests. Now infested stone will replace monster room features
 + Added Withered Skeleton Wolf. Obtained when a Skeleton Wolf spends some time in the nether. They're bulkier than regular wolves, bigger, with 60 HP and 7 ATT.
 + Changed Fried Eggs saturation, increased from 0.5 to 6
 + Fixed instances where entities rot, drowned, zombified or withered would cause the passengers to get dragged into the void
 + Fixed Mesa Mineshafts sometimes generated like flying structures
++ Fixed mineshafts generated air bubbles underwater
 + Fixed Warped Food Effects sometimes not being applied
 + Fixed Warped Poisoning couldn't be cured when Withering was disabled
 + Fixed Zombie and Skeleton Wolves were able to grow up

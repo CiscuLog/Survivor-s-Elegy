@@ -34,7 +34,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"skeleton_wolf\"]}"
+				"nbt": "{variant:\"siscu:skeleton\"}"
 			}
 		}
 		]
@@ -53,9 +53,18 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"wither_skeleton_wolf\"]}"
+				"nbt": "{variant:\"siscu:withered_skeleton\"}"
 			}
 		}
+		]
+	},
+	{
+		"rolls": 1,
+		"entries": [
+			{
+				"type": "loot_table",
+				"value": "minecraft:entities/wolf"
+			}
 		]
 	}
   ]

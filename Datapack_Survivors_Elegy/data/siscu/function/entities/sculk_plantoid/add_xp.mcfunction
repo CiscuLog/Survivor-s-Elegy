@@ -22,6 +22,6 @@ execute store result storage siscu:volatile XpStored int 1 run scoreboard player
 data modify entity @s data.Xp set from storage siscu:volatile XpStored
 
 # visual effects
-execute as @e[tag=siscu.sculk_plantoid,type=item_display,limit=1,sort=nearest] run function siscu:entities/sculk_plantoid/update_texture
+execute as @n[tag=siscu.sculk_plantoid,type=item_display] run function siscu:entities/sculk_plantoid/update_texture
 playsound minecraft:block.sculk.spread block @a ~ ~ ~
 particle sculk_charge_pop ~ ~1.3 ~ 0.1 0.1 0.1 0 2 normal

@@ -15,6 +15,6 @@ data modify entity @s data.Xp set from storage siscu:volatile XpStored
 execute as @p[tag=siscu.plantoid_beating] run function siscu:entities/sculk_plantoid/add_player_xp_macro with storage siscu:volatile
 
 # visual effects
-execute as @e[tag=siscu.sculk_plantoid,type=item_display,limit=1,sort=nearest] run function siscu:entities/sculk_plantoid/update_texture
+execute as @n[tag=siscu.sculk_plantoid,type=item_display] run function siscu:entities/sculk_plantoid/update_texture
 playsound minecraft:block.sculk.charge block @a ~ ~ ~
 particle sculk_soul ~ ~1.3 ~ 0.2 0.2 0.2 0 1 normal

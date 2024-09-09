@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"Staff": {
+			"trigger":"minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items":["minecraft:rotten_flesh"],
+					"components": {"custom_model_data":548102}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/consume/husk_flesh"
+	}
+}
