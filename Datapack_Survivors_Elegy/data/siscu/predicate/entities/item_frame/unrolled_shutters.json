@@ -1,0 +1,21 @@
+{
+	"condition": "minecraft:any_of",
+	"terms":[
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"contents": {
+						"items": [
+							"stick"
+						],
+						"components": {
+							"minecraft:item_model": "siscu_se:shutters"
+						}
+					}
+				}
+			}
+		}
+	]
+}

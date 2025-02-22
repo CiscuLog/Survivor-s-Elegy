@@ -198,6 +198,15 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "siscu_se:font/witch/potion5.png",
+			"ascent": 10,
+			"height": 130,
+			"chars": [
+				"\uE604"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "siscu_se:font/witch/potion1.png",
 			"ascent": -32768,
 			"height": -130,

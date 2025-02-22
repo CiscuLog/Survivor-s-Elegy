@@ -10,21 +10,11 @@
             {
               "function": "set_count",
               "count": {
-                "type": "score",
-                "target": {"type": "fixed","name":"enchanter_guide_price"},
-                "score": "siscu.integer"
+                "max": 5,
+                "min": 2
               }
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "minecraft:air"
         }
       ]
     }

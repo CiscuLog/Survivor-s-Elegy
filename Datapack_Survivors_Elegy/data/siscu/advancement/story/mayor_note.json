@@ -2,22 +2,22 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:written_book",
-			"components": {"custom_model_data":548001}
+			"components": {"item_model":"siscu_se:mayor_note"}
 		},
-		"title": "Mayor's Note",
-		"description": "Left before fleeing the city",
-		"show_toast": false,
+		"title": {"translate": "advancements.siscu.story.mayor_note.title"},
+		"description": {"translate": "advancements.siscu.story.mayor_note.description"},
+		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true
 	},
-	"parent": "siscu:story/infected_city",
+	"parent": "siscu:story/infected_citadel",
 	"criteria": {
 		"0": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [{
 					"items": ["written_book"],
-					"components": {"custom_model_data":548001}
+					"components": {"item_model":"siscu_se:mayor_note"}
 				}]
 			}
 		}

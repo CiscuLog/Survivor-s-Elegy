@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "siscu_se:item/cartographer_bag_filled"
-  }
-}

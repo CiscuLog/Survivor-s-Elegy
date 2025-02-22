@@ -1,6 +1,6 @@
 {
 	"parent": "siscu_se:item/piglin_skull",
 	"textures": {
-		"1": "minecraft:models/armor/gold_layer_1"
+		"1": "minecraft:entity/equipment/humanoid/gold"
 	}
 }

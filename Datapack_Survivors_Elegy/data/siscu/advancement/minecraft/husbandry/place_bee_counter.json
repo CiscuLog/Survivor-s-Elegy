@@ -3,7 +3,7 @@
 	"display":{
 			"icon": {
 					"id": "minecraft:raw_copper",
-					"components": {"custom_model_data":540000}
+					"components": {"item_model":"siscu_se:bee_counter"}
 			},
 			"title": {"translate": "advancements.siscu.minecraft.place_bee_counter.title"},
 			"description": [{
@@ -24,7 +24,7 @@
 		"0": {
 			"trigger":"minecraft:player_interacted_with_entity",
 			"conditions": {
-				"item": {"items":["raw_copper"],"components":{"custom_model_data":540000}},
+				"item": {"items":["raw_copper"],"predicates":{"custom_data":{"SE_data":{"id":"siscu:bee_counter"}}}},
 				"entity": {"type":"minecraft:item_frame"}
 			}
 		}

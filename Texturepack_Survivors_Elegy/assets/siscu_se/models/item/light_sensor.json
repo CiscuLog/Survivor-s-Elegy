@@ -118,12 +118,45 @@
 			"from": [5, 4, 8.4],
 			"to": [12, 9, 9.6],
 			"faces": {
-				"north": {"uv": [2, 2, 16, 12], "texture": "#num"},
-				"south": {"uv": [2, 2, 16, 12], "texture": "#num"}
+				"north": {"uv": [1, 1, 8, 6], "texture": "#num"},
+				"south": {"uv": [1, 1, 8, 6], "texture": "#num"}
 			}
 		}
 	],
 	"gui_light": "front",
+	"overrides": [
+		{"predicate": {"custom_model_data": 1}, "model": "siscu_se:item/light_sensor_1"},
+		{"predicate": {"custom_model_data": 2}, "model": "siscu_se:item/light_sensor_2"},
+		{"predicate": {"custom_model_data": 3}, "model": "siscu_se:item/light_sensor_3"},
+		{"predicate": {"custom_model_data": 4}, "model": "siscu_se:item/light_sensor_4"},
+		{"predicate": {"custom_model_data": 5}, "model": "siscu_se:item/light_sensor_5"},
+		{"predicate": {"custom_model_data": 6}, "model": "siscu_se:item/light_sensor_6"},
+		{"predicate": {"custom_model_data": 7}, "model": "siscu_se:item/light_sensor_7"},
+		{"predicate": {"custom_model_data": 8}, "model": "siscu_se:item/light_sensor_8"},
+		{"predicate": {"custom_model_data": 9}, "model": "siscu_se:item/light_sensor_9"},
+		{"predicate": {"custom_model_data": 10}, "model": "siscu_se:item/light_sensor_10"},
+		{"predicate": {"custom_model_data": 11}, "model": "siscu_se:item/light_sensor_11"},
+		{"predicate": {"custom_model_data": 12}, "model": "siscu_se:item/light_sensor_12"},
+		{"predicate": {"custom_model_data": 13}, "model": "siscu_se:item/light_sensor_13"},
+		{"predicate": {"custom_model_data": 14}, "model": "siscu_se:item/light_sensor_14"},
+		{"predicate": {"custom_model_data": 15}, "model": "siscu_se:item/light_sensor_15"},
+		{"predicate": {"custom_model_data": 16}, "model": "siscu_se:item/light_sensor_night"},
+		{"predicate": {"custom_model_data": 17}, "model": "siscu_se:item/light_sensor_night_1"},
+		{"predicate": {"custom_model_data": 18}, "model": "siscu_se:item/light_sensor_night_2"},
+		{"predicate": {"custom_model_data": 19}, "model": "siscu_se:item/light_sensor_night_3"},
+		{"predicate": {"custom_model_data": 20}, "model": "siscu_se:item/light_sensor_night_4"},
+		{"predicate": {"custom_model_data": 21}, "model": "siscu_se:item/light_sensor_night_5"},
+		{"predicate": {"custom_model_data": 22}, "model": "siscu_se:item/light_sensor_night_6"},
+		{"predicate": {"custom_model_data": 23}, "model": "siscu_se:item/light_sensor_night_7"},
+		{"predicate": {"custom_model_data": 24}, "model": "siscu_se:item/light_sensor_night_8"},
+		{"predicate": {"custom_model_data": 25}, "model": "siscu_se:item/light_sensor_night_9"},
+		{"predicate": {"custom_model_data": 26}, "model": "siscu_se:item/light_sensor_night_10"},
+		{"predicate": {"custom_model_data": 27}, "model": "siscu_se:item/light_sensor_night_11"},
+		{"predicate": {"custom_model_data": 28}, "model": "siscu_se:item/light_sensor_night_12"},
+		{"predicate": {"custom_model_data": 29}, "model": "siscu_se:item/light_sensor_night_13"},
+		{"predicate": {"custom_model_data": 30}, "model": "siscu_se:item/light_sensor_night_14"},
+		{"predicate": {"custom_model_data": 31}, "model": "siscu_se:item/light_sensor_night_15"}
+	],
 	"display": {
 		"thirdperson_righthand": {
 			"translation": [0, 3, 1],

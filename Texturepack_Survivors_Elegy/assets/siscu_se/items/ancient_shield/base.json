@@ -1,0 +1,33 @@
+{
+	"model": {
+		"type": "range_dispatch",
+		"property": "custom_model_data",
+		"fallback": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/base"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/base_blocking"}},
+		"entries": [
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/1"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/1_blocking"}},
+				"threshold": 1
+			},
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/2"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/2_blocking"}},
+				"threshold": 2
+			},
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/3"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/3_blocking"}},
+				"threshold": 3
+			},
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/4"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/4_blocking"}},
+				"threshold": 4
+			},
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/5"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/5_blocking"}},
+				"threshold": 5
+			},
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/6"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/6_blocking"}},
+				"threshold": 6
+			}
+		]
+	}
+}

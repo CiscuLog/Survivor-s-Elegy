@@ -2,12 +2,8 @@
   "group": "hopper_minecart",
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:hopper"
-    },
-    {
-      "item": "minecraft:minecart"
-    }
+    "minecraft:hopper",
+    "minecraft:minecart"
   ],
   "result": {
     "id": "minecraft:hopper_minecart"

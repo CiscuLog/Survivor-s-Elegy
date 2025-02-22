@@ -8,22 +8,6 @@
 				"slots": {
 					"contents": {
 						"items": [
-							"raw_copper"
-						],
-						"components": {
-							"minecraft:custom_model_data": 540000
-						}
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"slots": {
-					"contents": {
-						"items": [
 							"shield"
 						]
 					}
@@ -37,74 +21,10 @@
 				"slots": {
 					"contents": {
 						"items": [
-							"leather"
-						],
-						"components": {
-							"minecraft:custom_model_data": 548101
-						}
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"slots": {
-					"contents": {
-						"items": [
-							"leather"
-						],
-						"components": {
-							"minecraft:custom_model_data": 548109
-						}
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"slots": {
-					"contents": {
-						"items": [
-							"leather"
-						],
-						"components": {
-							"minecraft:custom_model_data": 548111
-						}
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"slots": {
-					"contents": {
-						"items": [
-							"leather"
-						],
-						"components": {
-							"minecraft:custom_model_data": 548112
-						}
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"slots": {
-					"contents": {
-						"items": [
 							"stick"
 						],
-						"components": {
-							"minecraft:custom_model_data": 548103
+						"predicates": {
+							"custom_data": {"SE_data":{"id":"siscu:shutters"}}
 						}
 					}
 				}
@@ -117,10 +37,26 @@
 				"slots": {
 					"contents": {
 						"items": [
-							"stick"
+							"leather"
 						],
-						"components": {
-							"minecraft:custom_model_data": 548104
+						"predicates": {
+							"custom_data": {"SE_data":{"id":"siscu:hoglin_head"}}
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"contents": {
+						"items": [
+							"leather"
+						],
+						"predicates": {
+							"custom_data": {"SE_data":{"id":"siscu:zoglin_head"}}
 						}
 					}
 				}

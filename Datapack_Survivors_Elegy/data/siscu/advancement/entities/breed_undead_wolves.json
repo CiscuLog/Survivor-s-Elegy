@@ -1,0 +1,26 @@
+{
+	"criteria": {
+		"0": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"parent": [
+					{
+						"condition": "any_of",
+						"terms": [
+							{
+								"condition": "reference",
+								"name": "siscu:entities/wolf_undead"
+							}
+						]
+					}
+				],
+				"child": {
+					"type": "minecraft:wolf"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:entities/wolf/undead_breeding/schedule"
+	}
+}

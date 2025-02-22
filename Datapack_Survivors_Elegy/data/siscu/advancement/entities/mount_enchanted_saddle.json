@@ -1,29 +1,18 @@
 {
-	"show_toast": true,
 	"criteria": {
-		"0": {
-			"trigger":"minecraft:tick",
+		"horse_like": {
+			"trigger": "tick",
 			"conditions": {
-				"player": [
-				{
-					"condition": "minecraft:entity_properties",
-					"entity":"this",
-					"predicate": {
-						"vehicle": {
-							"slots": {
-							  "horse.saddle": {
-								"components": {
-								  "minecraft:custom_model_data": 548101
-								}
-							  }
-							}
-						  }
+				"player": {
+					"vehicle": {
+						"slots": {
+							"horse.saddle": {"predicates": {"enchantments": [{"enchantments": ["siscu:mount_catalyst"]}]}}
+						}
 					}
 				}
-				]
 			}
 		},
-		"1": {
+		"pig_or_strider": {
 			"trigger":"minecraft:tick",
 			"conditions": {
 				"player": [
@@ -32,12 +21,7 @@
 					"entity":"this",
 					"predicate": {
 						"vehicle": {
-							"nbt":"{Tags:[\"siscu.enchanted_saddle\"]}",
-							"location": {
-								"block": {
-									"tag": "siscu:transparent_blocks"
-								}
-							}
+							"nbt":"{Tags:[\"siscu.enchanted_saddle\"]}"
 						}
 					}
 				}
@@ -45,7 +29,7 @@
 			}
 		}
 	},
-	"requirements": [["0","1"]],
+	"requirements": [["horse_like","pig_or_strider"]],
 	"rewards": {
 		"function": "siscu:items/use/enchanted_saddle"
 	}

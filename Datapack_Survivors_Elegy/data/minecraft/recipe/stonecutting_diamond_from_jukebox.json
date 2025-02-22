@@ -1,8 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:jukebox"
-  },
-  "result": {"id":"minecraft:diamond"},
-  "count": 1
+  "ingredient": "minecraft:jukebox",
+  "result": {"id":"minecraft:diamond"}
 }

@@ -18,7 +18,7 @@
                         "translate": "Owner: ",
                         "italic":false,
                         "color":"gray",
-                        "extra": [{"selector": "@e[type=wandering_trader,limit=1,sort=nearest]"}]
+                        "extra": [{"selector": "@n[type=wandering_trader]"}]
                     }
                     
                     ],

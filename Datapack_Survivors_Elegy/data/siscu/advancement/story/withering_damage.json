@@ -2,7 +2,7 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:bone",
-			"components": {"custom_model_data":548101}
+			"components": {"item_model":"siscu_se:withered_bone"}
 		},
 		"title": "Withering",
 		"description": "Overworld creatures that stay in the nether for too long get ill",

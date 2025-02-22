@@ -10,22 +10,24 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "item_name": "{\"italic\":false,\"translate\":\"item.siscu.mirage_bottle\"}",
+                                "item_model": "siscu_se:mirage_bottle",
+                                "custom_data": {
+                                    "SE_data": {
+                                        "id": "siscu:mirage_bottle",
+                                        "UpdateVersion": "v1.0.0"
+                                    }
+                                },
                                 "food": {
                                     "nutrition": 0,
                                     "saturation": 0,
-                                    "eat_seconds": 1000000,
                                     "can_always_eat": true
                                 },
+                                "consumable": {
+                                    "consume_seconds": 1000000
+                                },
                                 "max_stack_size": 64,
-                                "item_name": "{\"italic\":false,\"translate\":\"item.siscu.mirage_bottle\"}",
-                                "rarity": "rare",
-                                "custom_model_data": 540005,
-                                "custom_data": {
-                                    "SE_data": {
-                                        "MirageBottle": 1,
-                                        "UpdateVersion": "alpha v0.9.3"
-                                    }
-                                }
+                                "rarity": "rare"
                             }
                         }
                     ]

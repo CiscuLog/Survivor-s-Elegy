@@ -1,0 +1,1 @@
+scoreboard players reset @a siscu.enchantment_reroll

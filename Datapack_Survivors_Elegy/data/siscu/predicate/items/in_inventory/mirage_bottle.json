@@ -1,0 +1,31 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "inventory.*": {
+                        "predicates": {
+                            "custom_data": {"SE_data":{"id": "siscu:mirage_bottle"}}
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "hotbar.*": {
+                        "predicates": {
+                            "custom_data": {"SE_data":{"id": "siscu:mirage_bottle"}}
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

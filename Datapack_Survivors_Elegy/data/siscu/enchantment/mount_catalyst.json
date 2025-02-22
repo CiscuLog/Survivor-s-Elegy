@@ -1,0 +1,32 @@
+{
+    "supported_items": [
+        "saddle"
+    ],
+    "anvil_cost": 1,
+    "description": {
+        "translate": "enchantment.siscu.mount_catalyst"
+    },
+    "max_cost": {
+      "base": 12,
+      "per_level_above_first": 11
+    },
+    "min_cost": {
+      "base": 1,
+      "per_level_above_first": 11
+    },
+    "max_level": 1,
+    "slots": [
+        "body"
+    ],
+    "weight": 1,
+    "effects": {
+        "tick": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "siscu:enchantment/mount_catalyst/main"
+                }
+            }
+        ]
+    }
+}

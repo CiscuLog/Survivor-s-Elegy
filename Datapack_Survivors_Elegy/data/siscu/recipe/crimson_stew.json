@@ -1,1 +1,22 @@
-{"type":"crafting_shapeless","category": "food","ingredients":[{"item":"minecraft:bowl"},{"item":"minecraft:crimson_roots"},{"item":"minecraft:crimson_fungus"}],"result":{"id":"minecraft:rabbit_stew","components":{"custom_model_data": 548102,"minecraft:item_name": "{\"translate\":\"item.siscu.crimson_stew\"}"}}}
+{
+  "type": "crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:crimson_roots",
+    "minecraft:crimson_fungus"
+  ],
+  "result": {
+    "id": "minecraft:rabbit_stew",
+    "components": {
+      "item_name": "{\"translate\":\"item.siscu.crimson_stew\"}",
+      "item_model": "siscu_se:crimson_stew",
+      "custom_data": {
+        "SE_data": {
+          "id": "siscu:crimson_stew",
+          "UpdateVersion": "v1.0.0"
+        }
+      }
+    }
+  }
+}

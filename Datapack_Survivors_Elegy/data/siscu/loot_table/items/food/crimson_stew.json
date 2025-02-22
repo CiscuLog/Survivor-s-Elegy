@@ -9,7 +9,14 @@
 			"functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"custom_model_data":548102,"item_name":"{\"translate\":\"item.siscu.crimson_stew\"}"}
+				"components": {"item_name":"{\"translate\":\"item.siscu.crimson_stew\"}",
+				"item_model": "siscu_se:crimson_stew",
+				"custom_data": {
+					"SE_data": {
+						"id": "siscu:crimson_stew",
+						"UpdateVersion": "v1.0.0"
+					}
+				}}
 			}
 			]
 		}

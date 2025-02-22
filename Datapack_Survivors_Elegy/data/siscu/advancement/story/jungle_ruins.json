@@ -3,8 +3,8 @@
 		"icon": {
 			"id": "minecraft:suspicious_gravel"
 		},
-		"title": "Jungle Ruins",
-		"description": "The remnants of an ancient cast",
+		"title": {"translate": "advancements.siscu.story.jungle_ruins.title"},
+		"description": {"translate": "advancements.siscu.story.jungle_ruins.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

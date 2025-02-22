@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/template_spawn_egg",
-	"overrides": [
-	{"predicate": {"custom_model_data": 540001}, "model": "siscu_se:item/villager_skeleton"},
-	{"predicate": {"custom_model_data": 540002}, "model": "siscu_se:item/piglin_skeleton"},
-	{"predicate": {"custom_model_data": 540003}, "model": "siscu_se:item/husk_skeleton"}
-	]
-}

@@ -1,11 +1,16 @@
 {
     "type": "crafting_shaped",
     "category": "misc",
-    "key": {"B":{"item": "minecraft:jigsaw"},
-    "D":{"item":"minecraft:diamond"},
-    "O":{"item":"minecraft:obsidian"}
+    "key": {
+        "B": "minecraft:enchanted_book",
+        "D": "minecraft:diamond",
+        "O": "minecraft:obsidian"
     },
-    "pattern": [" B ","DOD","OOO"],
+    "pattern": [
+        " B ",
+        "DOD",
+        "OOO"
+    ],
     "result": {
         "id": "minecraft:enchanting_table",
         "count": 1

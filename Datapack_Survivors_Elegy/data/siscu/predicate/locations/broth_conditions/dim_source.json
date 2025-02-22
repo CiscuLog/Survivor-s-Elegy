@@ -5,12 +5,8 @@
 			"condition": "minecraft:all_of",
 			"terms": [
 				{
-					"condition": "minecraft:reference",
-					"name": "siscu:locations/check_desert"
-				},
-				{
-					"condition": "reference",
-					"name": "siscu:utils/light_level/lvl15"
+					"condition": "location_check",
+					"predicate": {"biomes": "desert"}
 				},
 				{
 					"condition": "minecraft:location_check",

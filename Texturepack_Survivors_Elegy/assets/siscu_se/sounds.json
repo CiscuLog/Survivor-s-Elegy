@@ -1,134 +1,170 @@
 {
-    "item.brute_shield.use":{
-        "category": "player",
-        "subtitle":"sound.siscu.piglin_shield",
-        "sounds": [
-			"siscu_se:item/golden_shield/block"
-        ]
-    },
-	"item.amethyst_shield.gather_vibrations":{
-        "category": "player",
-        "subtitle":"sound.siscu.gather_vibrations",
-        "sounds": [
-            "block/amethyst/resonate1"
-        ]
-    },
-	"item.amethyst_shield.charge_up":{
-        "category": "player",
-        "subtitle":"sound.siscu.charge_up",
-        "sounds": [
-            "block/respawn_anchor/charge1"
-        ]
-    },
-	"item.light_sensor.switch":{
-        "category": "player",
-        "subtitle":"sound.siscu.light_sensor",
-        "sounds": [
-            "item/spyglass/use"
-        ]
-    },
-	"block.shutters.sound":{
-        "category": "block",
-        "subtitle":"sound.siscu.shutters_action",
-        "sounds": [
-            "entity/painting/place1",
-            "entity/painting/place2",
-            "entity/painting/place3",
-            "entity/painting/place4"
-        ]
-    },
-	"entity.boat.boat_banner_place":{
-        "category": "block",
-        "subtitle":"sound.siscu.boat_banner_place",
-        "sounds": [
+	"entity.phantom.despawn": {
+		"subtitle": "sound.siscu.phantom_despawn",
+		"sounds": [
 			{
-			"name": "block/stem/break1",
-			"pitch": 1.1,
-			"volume": 0.8
+				"name": "mob/phantom/death1",
+				"volume": 0.8
 			},
 			{
-			"name": "block/stem/break2",
-			"pitch": 1.1,
-			"volume": 0.8
+				"name": "mob/phantom/death2",
+				"volume": 0.8
 			},
 			{
-			"name": "block/stem/break3",
-			"pitch": 1.1,
-			"volume": 0.8
-			},
-			{
-			"name": "block/stem/break4",
-			"pitch": 1.1,
-			"volume": 0.8
-			},
-			{
-			"name": "block/stem/break5",
-			"pitch": 1.1,
-			"volume": 0.8
-			},
-			{
-			"name": "block/stem/break6",
-			"pitch": 1.1,
-			"volume": 0.8
+				"name": "mob/phantom/death3",
+				"volume": 0.8
 			}
 		]
-    },
-	"entity.boat.boat_banner_break":{
-        "category": "block",
-        "subtitle":"sound.siscu.boat_banner_break",
-        "sounds": [
+	},
+	"item.brute_shield.use": {
+		"subtitle": "sound.siscu.piglin_shield",
+		"sounds": [
+			"siscu_se:item/golden_shield/block"
+		]
+	},
+	"item.ancient_shield.gather_vibrations": {
+		"subtitle": "sound.siscu.gather_vibrations",
+		"sounds": [
+			"block/amethyst/resonate1"
+		]
+	},
+	"item.ancient_shield.charge_up": {
+		"subtitle": "sound.siscu.charge_up",
+		"sounds": [
+			"block/respawn_anchor/charge1"
+		]
+	},
+	"item.ancient_shield.cleanse": {
+		"subtitle": "sound.siscu.cleanse_shield",
+		"sounds": [
+			"item/axe/wax_off1",
+			{
+				"name": "item/axe/wax_off1",
+				"pitch": 0.9
+			},
+			{
+				"name": "item/axe/wax_off1",
+				"pitch": 1.1
+			},
+			"item/axe/wax_off2",
+			{
+				"name": "item/axe/wax_off2",
+				"pitch": 0.9
+			},
+			{
+				"name": "item/axe/wax_off2",
+				"pitch": 1.1
+			},
+			"item/axe/wax_off3",
+			{
+				"name": "item/axe/wax_off3",
+				"pitch": 0.9
+			},
+			{
+				"name": "item/axe/wax_off3",
+				"pitch": 1.1
+			}
+		]
+	},
+	"item.light_sensor.switch": {
+		"subtitle": "sound.siscu.light_sensor",
+		"sounds": [
+			"item/spyglass/use"
+		]
+	},
+	"block.shutters.sound": {
+		"subtitle": "sound.siscu.shutters_action",
+		"sounds": [
+			"entity/painting/place1",
+			"entity/painting/place2",
+			"entity/painting/place3",
+			"entity/painting/place4"
+		]
+	},
+	"entity.boat.boat_banner_place": {
+		"subtitle": "sound.siscu.boat_banner_place",
+		"sounds": [
+			{
+				"name": "block/stem/break1",
+				"pitch": 1.1,
+				"volume": 0.8
+			},
+			{
+				"name": "block/stem/break2",
+				"pitch": 1.1,
+				"volume": 0.8
+			},
+			{
+				"name": "block/stem/break3",
+				"pitch": 1.1,
+				"volume": 0.8
+			},
+			{
+				"name": "block/stem/break4",
+				"pitch": 1.1,
+				"volume": 0.8
+			},
+			{
+				"name": "block/stem/break5",
+				"pitch": 1.1,
+				"volume": 0.8
+			},
+			{
+				"name": "block/stem/break6",
+				"pitch": 1.1,
+				"volume": 0.8
+			}
+		]
+	},
+	"entity.boat.boat_banner_break": {
+		"subtitle": "sound.siscu.boat_banner_break",
+		"sounds": [
 			"entity/itemframe/break1",
 			"entity/itemframe/break2",
 			"entity/itemframe/break3"
 		]
-    },
-	"item.mirage_bottle.deploy":{
-        "category": "player",
-        "subtitle":"sound.siscu.mirage_bottle_deploy",
-        "sounds": [
+	},
+	"item.mirage_bottle.deploy": {
+		"subtitle": "sound.siscu.mirage_bottle_deploy",
+		"sounds": [
 			"block/trial_spawner/spawn_item_begin1",
 			"block/trial_spawner/spawn_item_begin2",
 			"block/trial_spawner/spawn_item_begin3"
 		]
-    },
-	"item.mirage_bottle.update":{
-        "category": "player",
-        "subtitle":"sound.siscu.mirage_bottle_update",
-        "sounds": [
+	},
+	"item.mirage_bottle.update": {
+		"subtitle": "sound.siscu.mirage_bottle_update",
+		"sounds": [
 			"block/trial_spawner/spawn_item1",
 			"block/trial_spawner/spawn_item2",
 			"block/trial_spawner/spawn_item3"
 		]
-    },
-	"item.mirage_bottle.retrieve":{
-        "category": "player",
-        "subtitle":"sound.siscu.mirage_bottle_retrieve",
-        "sounds": [
+	},
+	"item.mirage_bottle.retrieve": {
+		"subtitle": "sound.siscu.mirage_bottle_retrieve",
+		"sounds": [
 			"item/bottle/fill_dragonbreath1",
 			"item/bottle/fill_dragonbreath2"
 		]
-    },
-	"item.broth.scoop_bowl":{
-        "category": "player",
-        "subtitle":"sound.siscu.broth_bowl_scoop",
-        "sounds": [
+	},
+	"item.broth.scoop_bowl": {
+		"subtitle": "sound.siscu.broth_bowl_scoop",
+		"sounds": [
 			"mob/mooshroom/milk1",
 			"mob/mooshroom/milk2",
 			"mob/mooshroom/milk3"
 		]
-    },
-	"block.broth.ready":{
-        "category": "block",
-        "subtitle":"sound.siscu.broth_ready",
-        "sounds": [
+	},
+	"block.broth.ready": {
+		"subtitle": "sound.siscu.broth_ready",
+		"sounds": [
 			"liquid/lava"
 		]
-    },
-	"block.broth.simmer":{
-        "category": "block",
-        "subtitle":"sound.siscu.broth_simmer",
-        "sounds": [
+	},
+	"block.broth.simmer": {
+		"subtitle": "sound.siscu.broth_simmer",
+		"sounds": [
 			"liquid/lava"
 		]
-    }
+	}
 }

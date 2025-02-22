@@ -1,0 +1,105 @@
+{
+	"criteria": {
+		"0": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "all_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type_specific": {
+										"type": "player",
+										"looking_at": {
+											"distance": {
+												"absolute": {
+													"max": 10
+												}
+											},
+											"type": "minecraft:wolf",
+											"nbt": "{Age:0}"
+										}
+									}
+								}
+							},
+							{
+								"condition": "any_of",
+								"terms": [
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"type_specific": {
+												"type": "player",
+												"looking_at": {
+													"distance": {
+														"absolute": {
+															"max": 10
+														}
+													},
+													"type": "minecraft:wolf",
+													"type_specific": {
+														"type": "wolf",
+														"variant": "siscu:zombified"
+													}
+												}
+											}
+										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"type_specific": {
+												"type": "player",
+												"looking_at": {
+													"distance": {
+														"absolute": {
+															"max": 10
+														}
+													},
+													"type": "minecraft:wolf",
+													"type_specific": {
+														"type": "wolf",
+														"variant": "siscu:skeleton"
+													}
+												}
+											}
+										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"type_specific": {
+												"type": "player",
+												"looking_at": {
+													"distance": {
+														"absolute": {
+															"max": 10
+														}
+													},
+													"type": "minecraft:wolf",
+													"type_specific": {
+														"type": "wolf",
+														"variant": "siscu:withered_skeleton"
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:entities/wolf/undead_age/advancement"
+	}
+}

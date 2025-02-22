@@ -10,30 +10,16 @@
 			{
 				"function":"set_components",
 				"components": {
-					"minecraft:banner_patterns": [
-						{
-						"color": "yellow",
-						"pattern": "stripe_top"
-						},
-						{
-						"color": "yellow",
-						"pattern": "stripe_bottom"
-						},
-						{
-						"color": "yellow",
-						"pattern": "stripe_middle"
-						}
-				  	],
 					"minecraft:item_name": "{\"translate\":\"item.siscu.piglin_shield\",\"font\":\"siscu_se:piglinalt\"}",
 					"minecraft:lore": [
 				  	"{\"text\":\"Held by Piglins\",\"color\":\"gray\",\"italic\":false}"
 					],
-					"hide_additional_tooltip": {},
-					"custom_model_data":548101,
+					"item_model": "siscu_se:brute_shield",
 					"custom_data": {
 						"SE_data": {
+							"id": "siscu:brute_shield",
 							"CustomShield": 1,
-							"UpdateVersion": "alpha v0.9.0"
+							"UpdateVersion": "v1.0.0"
 						}
 					},
 					"max_damage": 400

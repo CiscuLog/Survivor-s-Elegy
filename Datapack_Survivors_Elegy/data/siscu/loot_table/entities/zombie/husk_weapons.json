@@ -4,11 +4,6 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:air",
-		  "weight":500
-        },
-        {
           "type": "minecraft:loot_table",
           "value": "siscu:groups/tools/swords",
 		  "weight":170,
@@ -34,7 +29,7 @@
 			  {
 				  "condition": "minecraft:location_check",
 				  "predicate":{
-					"feature": "mineshaft"
+					"structures": "mineshaft"
 				  }
 			  }
 			  ]
@@ -84,7 +79,8 @@
 		  }
 		  ]
         }
-		]
+		],
+		"conditions": [{"condition": "random_chance","chance": 0.5}]
 	}
   ]
 }

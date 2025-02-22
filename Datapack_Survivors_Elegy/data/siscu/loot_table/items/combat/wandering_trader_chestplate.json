@@ -1,0 +1,32 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:leather",
+			"functions": [
+			{
+				"function": "set_components",
+				"components": {
+					"item_name": "{\"translate\":\"item.siscu.wandering_trader_chestplate\"}",
+					"item_model": "siscu_se:wandering_trader_chestplate",
+					"custom_data":{
+						"SE_data":{
+							"UpdateVersion": "v1.0.0"
+						}
+					},
+					"equippable": {
+						"slot": "chest",
+						"damage_on_hurt": false,
+						"asset_id": "siscu_se:wandering_trader"
+					}
+				}
+			}
+			]
+		}
+		]
+	}
+	]
+}

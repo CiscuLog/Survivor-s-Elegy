@@ -1,0 +1,105 @@
+{
+  "name": "siscu:village/infected_city/center",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/misc/banner_0",
+        "processors": "empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/misc/banner_1",
+        "processors": "empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/misc/banner_2",
+        "processors": "empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/misc/banner_3",
+        "processors": "empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/misc/banner_4",
+        "processors": "empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/misc/banner_5",
+        "processors": "empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/misc/banner_6",
+        "processors": "empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/misc/banner_7",
+        "processors": "empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/misc/banner_8",
+        "processors": "empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/misc/banner_9",
+        "processors": "empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/misc/banner_10",
+        "processors": "empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

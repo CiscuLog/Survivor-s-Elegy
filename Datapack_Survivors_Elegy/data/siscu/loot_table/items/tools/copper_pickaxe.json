@@ -11,15 +11,34 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "{\"translate\":\"item.siscu.copper_pickaxe\"}",
-                                "minecraft:custom_model_data": 548101,
-                                "minecraft:max_damage":150,
+                                "item_model": "siscu_se:copper_pickaxe",
+                                "minecraft:max_damage": 150,
+                                "repairable": {
+                                  "items": "copper_ingot"
+                                },
+                                "tool": {
+                                    "damage_per_block": 1,
+                                    "default_mining_speed": 1,
+                                    "rules": [
+                                        {
+                                            "correct_for_drops": false,
+                                            "blocks": "#siscu:incorrect_for_copper_tool",
+                                            "speed": 5
+                                        },
+                                        {
+                                            "correct_for_drops": true,
+                                            "blocks": "#mineable/pickaxe",
+                                            "speed": 5
+                                        }
+                                    ]
+                                },
                                 "minecraft:custom_data": {
                                     "SE_data": {
-                                      "IsCopper": 1,
-                                      "CustomTool": 1,
-                                      "UpdateVersion": "alpha v0.9.0",
-                                      "Charge": 0,
-                                      "Oxidation": 0
+                                        "id": "siscu:copper_pickaxe",
+                                        "IsCopper": 1,
+                                        "UpdateVersion": "v1.0.0",
+                                        "Charge": 0,
+                                        "Oxidation": 0
                                     }
                                 }
                             }

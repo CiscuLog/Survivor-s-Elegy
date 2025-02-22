@@ -4,7 +4,7 @@
 	"predicate": {
 		"effects": {
 			"minecraft:unluck": {
-				"amplifier": { "min": 50} 
+				"amplifier": {"min": 1}
 			}
 		}
 	}

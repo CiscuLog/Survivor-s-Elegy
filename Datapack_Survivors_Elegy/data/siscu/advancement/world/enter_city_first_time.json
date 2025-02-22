@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": [
+              "siscu:infected_city",
+              "siscu:infected_citadel"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "siscu:world/infected_city/enter"
+  }
+}

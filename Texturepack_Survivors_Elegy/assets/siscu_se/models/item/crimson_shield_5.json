@@ -3,5 +3,8 @@
 	"textures": {
 		"2": "siscu_se:item/crimson_shield_5",
 		"particle": "block/crimson_planks"
-	}
+	},
+	"overrides": [
+		{"predicate": {"blocking": 1},"model": "siscu_se:item/crimson_shield_5_blocking"}
+	]
 }

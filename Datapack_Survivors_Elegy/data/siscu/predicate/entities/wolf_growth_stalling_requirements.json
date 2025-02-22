@@ -1,27 +1,35 @@
-
 {
-	"condition": "any_of",
+	"condition": "all_of",
 	"terms": [
 		{
-			"condition": "minecraft:entity_properties",
-			"entity":"this",
-			"predicate": {
-				"nbt": "{variant:\"siscu:zombified\"}"
-			}
+			"condition": "reference",
+			"name": "siscu:utils/is_baby"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity":"this",
-			"predicate": {
-				"nbt": "{variant:\"siscu:skeleton\"}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity":"this",
-			"predicate": {
-				"nbt": "{variant:\"siscu:withered_skeleton\"}"
-			}
+			"condition": "any_of",
+			"terms": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{variant:\"siscu:zombified\"}"
+					}
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{variant:\"siscu:skeleton\"}"
+					}
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{variant:\"siscu:withered_skeleton\"}"
+					}
+				}
+			]
 		}
 	]
 }

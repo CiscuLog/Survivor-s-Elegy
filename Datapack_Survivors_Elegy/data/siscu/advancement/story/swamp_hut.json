@@ -3,8 +3,8 @@
 		"icon": {
 			"id": "minecraft:lily_pad"
 		},
-		"title": "Swamp Hut",
-		"description": "Witch hideouts",
+		"title": {"translate": "advancements.siscu.story.swamp_hut.title"},
+		"description": {"translate": "advancements.siscu.story.swamp_hut.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

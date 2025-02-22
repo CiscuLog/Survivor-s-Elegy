@@ -4,7 +4,7 @@
 	"predicate": {
 		"equipment": {
 			"mainhand": {
-				"components": {"custom_model_data":540001}
+				"components": {"custom_model_data":{"floats": [540001]}}
 			}
 		}
 	}

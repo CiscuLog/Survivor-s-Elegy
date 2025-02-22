@@ -9,7 +9,14 @@
 			"functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"custom_model_data":548102,"item_name":"{\"translate\":\"item.siscu.trout\"}"}
+				"components": {"item_name":"{\"translate\":\"item.siscu.trout\"}",
+				"item_model": "siscu_se:trout",
+				"custom_data": {
+					"SE_data": {
+						"id": "siscu:trout",
+						"UpdateVersion": "v1.0.0"
+					}
+				}}
 			}
 			]
 		}

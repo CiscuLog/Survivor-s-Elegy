@@ -1,0 +1,55 @@
+{
+  "parent": "minecraft:husbandry/feed_snifflet",
+  "criteria": {
+    "1": {
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "custom_data": {
+              "SE_data": {
+                "SnifferMeat": 1
+              }
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "siscu.tofu_boost_4": {
+                "min": 1
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.siscu.minecraft.max_hp.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bread",
+      "components": {
+        "item_model": "siscu_se:sniffer_meat"
+      }
+    },
+    "title": {
+      "translate": "advancements.siscu.minecraft.max_hp.title"
+    }
+  },
+  "requirements": [
+    [
+      "1"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

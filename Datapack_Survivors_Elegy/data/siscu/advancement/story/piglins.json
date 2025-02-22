@@ -1,11 +1,10 @@
 {
 	"display":{
 		"icon": {
-			"id": "minecraft:leather",
-			"components": {"custom_model_data":548101}
+			"id": "minecraft:piglin_head"
 		},
-		"title": "Piglins",
-		"description": "The only nether civilisation",
+		"title": {"translate": "advancements.siscu.story.piglins.title"},
+		"description": {"translate": "advancements.siscu.story.piglins.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

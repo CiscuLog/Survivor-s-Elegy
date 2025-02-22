@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "siscu:items/combat/ancient_shield",
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_model": "siscu_se:ancient_shield/base_exposed"
+							}
+						},
+						{
+							"function": "set_custom_data",
+							"tag": {
+								"SE_data": {
+									"Oxidation": 1
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

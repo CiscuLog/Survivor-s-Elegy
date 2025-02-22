@@ -1,7 +1,0 @@
-{
-	"parent": "siscu_se:item/amethyst_shield/base_blocking_defense",
-	"textures": {
-		"amethyst": "siscu_se:item/amethyst_shield/amethyst_4",
-		"particle": "#base"
-	}
-}

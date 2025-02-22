@@ -1,0 +1,45 @@
+{
+    "parent": "minecraft:adventure/shoot_arrow",
+    "criteria": {
+      "0": {
+        "conditions": {
+          "entity": [],
+          "killing_blow": {
+            "direct_entity": {
+              "type": "#siscu:deflectable_projectiles",
+              "nbt": "{Tags:[\"siscu.deflected_projectile_2\"]}"
+            },
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_projectile"
+              }
+            ]
+          }
+        },
+        "trigger": "minecraft:player_killed_entity"
+      }
+    },
+    "display": {
+      "frame": "goal",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:shield",
+        "components": {"item_model": "siscu_se:ancient_shield/base_oxidised"}
+      },
+			"title": {"translate": "advancements.siscu.minecraft.deflect_projectile.title"},
+			"description": [{
+				"translate": "advancements.siscu.minecraft.deflect_projectile.description"
+				},
+				{
+					"text":"\nSurvivor's Elegy",
+					"color": "gold",
+					"italic": true
+				}
+		]
+    },
+    "rewards": {
+      "experience": 50
+    },
+    "sends_telemetry_event": true
+  }

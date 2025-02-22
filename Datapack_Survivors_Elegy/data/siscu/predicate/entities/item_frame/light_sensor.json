@@ -5,7 +5,7 @@
 		"slots": {
 			"contents": {
 				"predicates": {
-					"custom_data": {"SE_data":{"LightSensor": 1}}
+					"custom_data": {"SE_data":{"id": "siscu:light_sensor"}}
 				}
 			}
 		}

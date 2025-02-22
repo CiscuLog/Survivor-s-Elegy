@@ -1,0 +1,21 @@
+{
+	"criteria": {
+	  "0": {
+        "trigger":"minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "scores":{
+                "siscu.update_item": {"min":1} 
+              },
+              "entity": "this"
+            }
+          ]
+        }
+    }
+	},
+	"rewards": {
+		"function": "siscu:items/update/trigger"
+	}
+}

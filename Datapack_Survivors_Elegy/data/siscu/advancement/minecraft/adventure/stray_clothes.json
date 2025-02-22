@@ -3,7 +3,7 @@
 	"display":{
 			"icon": {
 					"id": "minecraft:leather_chestplate",
-					"components": {"custom_model_data":540010}
+					"components": {"item_model":"siscu_se:stray_chestplate"}
 			},
 			"title": {"translate": "advancements.siscu.minecraft.stray_clothes.title"},
 			"description": [{
@@ -27,7 +27,11 @@
 				"items": [
 				{
 					"items": ["leather_chestplate","leather_helmet"],
-					"components": {"custom_model_data":540010}
+					"predicates": {
+						"custom_data": {
+							"SE_data": {"id":"siscu:stray_chestplate"}
+						}
+					}
 				}
 				]
 			}

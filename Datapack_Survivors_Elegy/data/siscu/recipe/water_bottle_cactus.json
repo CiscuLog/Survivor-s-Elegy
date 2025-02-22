@@ -1,21 +1,17 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:cactus"
-    },
-    {
-      "item": "minecraft:cactus"
-    },
-    {
-      "item": "minecraft:cactus"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    }
+    "minecraft:cactus",
+    "minecraft:cactus",
+    "minecraft:cactus",
+    "minecraft:glass_bottle"
   ],
   "result": {
     "id": "minecraft:potion",
-    "components": {"minecraft:potion_contents": {"potion": "minecraft:water"}}
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:water"
+      }
+    }
   }
 }

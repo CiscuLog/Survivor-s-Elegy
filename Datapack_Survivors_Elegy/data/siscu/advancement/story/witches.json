@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:leather",
-			"components": {"custom_model_data":548108}
+			"components": {"item_model":"siscu_se:witch_head"}
 		},
-		"title": "Witches",
-		"description": "Illagers with extended brewing knowledge",
+		"title": {"translate": "advancements.siscu.story.witches.title"},
+		"description": {"translate": "advancements.siscu.story.witches.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

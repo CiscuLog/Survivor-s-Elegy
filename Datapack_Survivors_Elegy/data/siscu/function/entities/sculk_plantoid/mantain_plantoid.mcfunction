@@ -1,3 +1,0 @@
-execute as @e[type=marker,tag=siscu.sculk_plantoid] at @s unless block ~ ~ ~ decorated_pot run function siscu:entities/sculk_plantoid/kill
-execute as @e[type=marker,tag=siscu.sculk_plantoid] at @s unless items block ~ ~ ~ contents minecraft:beetroot[minecraft:custom_model_data=540000] run function siscu:entities/sculk_plantoid/kill
-execute if entity @e[tag=siscu.sculk_plantoid] run schedule function siscu:entities/sculk_plantoid/mantain_plantoid 5t

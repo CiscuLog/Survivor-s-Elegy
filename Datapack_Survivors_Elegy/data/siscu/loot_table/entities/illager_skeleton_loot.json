@@ -2,7 +2,6 @@
     "type": "minecraft:generic",
     "pools": [
         {
-            "_comment": "Armorer",
             "rolls":1.0,
             "entries":[
                 {
@@ -15,13 +14,12 @@
                     "condition": "entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "equipment": {"head":{"items": ["bone"],"components": {"custom_model_data":548121}}}
+                        "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_armorer"}}}
                     }
                 }
             ]
         },
         {
-            "_comment": "Butcher",
             "rolls":1.0,
             "entries":[
                 {
@@ -34,13 +32,12 @@
                     "condition": "entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "equipment": {"head":{"items": ["bone"],"components": {"custom_model_data":548122}}}
+                        "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_butcher"}}}
                     }
                 }
             ]
         },
         {
-            "_comment":"Cartographer",
             "rolls": 1.0,
             "entries": [
                 {
@@ -53,13 +50,12 @@
                     "condition": "entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "equipment": {"head":{"items": ["bone"],"components": {"custom_model_data":548123}}}
+                        "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_cartographer"}}}
                     }
                 }
             ]
         },
         {
-            "_comment":"Cleric",
             "rolls": 1.0,
             "entries": [{
                 "type":"minecraft:item",
@@ -70,13 +66,12 @@
                     "condition": "entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "equipment": {"head":{"items": ["bone"],"components": {"custom_model_data":548124}}}
+                        "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_cleric"}}}
                     }
                 }
             ]
         },
         {
-            "_comment":"Farmer",
             "rolls": 1.0,
             "entries": [
                 {
@@ -105,13 +100,12 @@
                     "condition": "entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "equipment": {"head":{"items": ["bone"],"components": {"custom_model_data":548125}}}
+                        "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_farmer"}}}
                     }
                 }
             ]
         },
         {
-            "_comment": "Fisherman",
             "rolls":1.0,
             "entries":[
                 {
@@ -124,13 +118,12 @@
                     "condition": "entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "equipment": {"head":{"items": ["bone"],"components": {"custom_model_data":548126}}}
+                        "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_fisherman"}}}
                     }
                 }
             ]
         },
         {
-            "_comment": "Fletcher",
             "rolls":1.0,
             "entries":[
                 {
@@ -143,13 +136,12 @@
                     "condition": "entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "equipment": {"head":{"items": ["bone"],"components": {"custom_model_data":548127}}}
+                        "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_fletcher"}}}
                     }
                 }
             ]
         },
         {
-            "_comment":"Leatherworker",
             "rolls": 1.0,
             "entries": [{
                 "type":"minecraft:item",
@@ -163,30 +155,33 @@
                     "condition": "entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "equipment": {"head":{"items": ["bone"],"components": {"custom_model_data":548128}}}
+                        "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_leatherworker"}}}
                     }
                 }
             ]
         },
         {
-            "_comment":"Librarian",
             "rolls": 1.0,
             "entries": [{
                 "type":"minecraft:item",
                 "name": "book"
+            },
+            {
+                "type": "minecraft:item",
+                "name": "enchanted_book",
+                "functions": [{"function": "enchant_with_levels","levels": 1}]
             }],
             "conditions": [
                 {
                     "condition": "entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "equipment": {"head":{"items": ["bone"],"components": {"custom_model_data":548129}}}
+                        "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_librarian"}}}
                     }
                 }
             ]
         },
         {
-            "_comment":"Mason",
             "rolls": 1.0,
             "entries": [{
                 "type":"minecraft:item",
@@ -197,13 +192,12 @@
                     "condition": "entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "equipment": {"head":{"items": ["bone"],"components": {"custom_model_data":548130}}}
+                        "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_mason"}}}
                     }
                 }
             ]
         },
         {
-            "_comment":"Shepherd",
             "rolls": 1.0,
             "entries": [{
                 "type":"minecraft:item",
@@ -214,13 +208,12 @@
                     "condition": "entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "equipment": {"head":{"items": ["bone"],"components": {"custom_model_data":548132}}}
+                        "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_shepherd"}}}
                     }
                 }
             ]
         },
         {
-            "_comment": "Toolsmith",
             "rolls":1.0,
             "entries":[
                 {
@@ -233,13 +226,12 @@
                     "condition": "entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "equipment": {"head":{"items": ["bone"],"components": {"custom_model_data":548133}}}
+                        "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_toolsmith"}}}
                     }
                 }
             ]
         },
         {
-            "_comment": "Weaponsmith",
             "rolls":1.0,
             "entries":[
                 {
@@ -252,7 +244,7 @@
                     "condition": "entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "equipment": {"head":{"items": ["bone"],"components": {"custom_model_data":548134}}}
+                        "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_weaponsmith"}}}
                     }
                 }
             ]

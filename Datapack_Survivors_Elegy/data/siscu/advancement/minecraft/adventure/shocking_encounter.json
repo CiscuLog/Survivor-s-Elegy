@@ -3,7 +3,7 @@
 	"display":{
 			"icon": {
 					"id": "minecraft:leather_chestplate",
-					"components": {"custom_model_data":548101}
+					"components": {"item_model":"siscu_se:copper_chestplate"}
 			},
 			"title": {"translate": "advancements.siscu.minecraft.shocking_encounter.title"},
 			"description": [{

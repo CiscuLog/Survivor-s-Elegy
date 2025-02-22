@@ -1,6 +1,6 @@
 advancement revoke @s only siscu:items/update/dragon_egg
-execute if items entity @s inventory.* minecraft:dragon_egg[minecraft:custom_data={SE_data:{Lorified:true}}] run return 0
-execute if items entity @s hotbar.* minecraft:dragon_egg[minecraft:custom_data={SE_data:{Lorified:true}}] run return 0
+execute if items entity @s inventory.* minecraft:dragon_egg[minecraft:custom_data~{SE_data:{Lorified:true}}] run return 0
+execute if items entity @s hotbar.* minecraft:dragon_egg[minecraft:custom_data~{SE_data:{Lorified:true}}] run return 0
 
 execute store result score x siscu.volatile run data get entity @s Inventory[{id:"minecraft:dragon_egg",count:1}].Slot
 

@@ -1,0 +1,168 @@
+{
+  "name": "siscu:village/infected_city/attic",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x5_1",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x5_2",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x5_3",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x5_4",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x5_5",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x5_6",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x5_7",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x5_8",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x5_9",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x7_1",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x7_2",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x7_3",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x7_4",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x7_5",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x7_6",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x7_7",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x7_8",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/apartments/attic_4x7_9",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

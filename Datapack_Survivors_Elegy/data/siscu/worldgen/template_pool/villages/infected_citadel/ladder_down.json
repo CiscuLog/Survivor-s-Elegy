@@ -1,0 +1,14 @@
+{
+	"name": "siscu:villages/infected_citadel/ladder_down",
+  "elements": [
+    {
+      "element": {
+        "element_type": "feature_pool_element",
+        "feature": "siscu:ladder",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

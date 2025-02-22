@@ -3,7 +3,7 @@
 	"display":{
 			"icon": {
 					"id": "minecraft:leather",
-					"components": {"custom_model_data":548001}
+					"components": {"item_model":"siscu_se:advancements/suspicious_block"}
 			},
 			"title": {"translate": "advancements.siscu.minecraft.create_suspicious_block.title"},
 			"description": [{

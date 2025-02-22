@@ -11,13 +11,27 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "{\"translate\":\"item.siscu.copper_axe\"}",
-                                "minecraft:custom_model_data": 548101,
+                                "item_model": "siscu_se:copper_axe",
                                 "minecraft:max_damage":150,
+                                "repairable": {
+                                  "items": "copper_ingot"
+                                },
+                                "tool": {
+                                    "damage_per_block": 1,
+                                    "default_mining_speed": 1,
+                                    "rules": [
+                                        {
+                                            "correct_for_drops": true,
+                                            "blocks": "#mineable/axe",
+                                            "speed": 5
+                                        }
+                                    ]
+                                },
                                 "minecraft:custom_data": {
                                     "SE_data": {
+                                        "id": "siscu:copper_axe",
                                       "IsCopper": 1,
-                                      "CustomTool": 1,
-                                      "UpdateVersion": "alpha v0.9.0",
+                                      "UpdateVersion": "v1.0.0",
                                       "Charge": 0,
                                       "Oxidation": 0
                                     }

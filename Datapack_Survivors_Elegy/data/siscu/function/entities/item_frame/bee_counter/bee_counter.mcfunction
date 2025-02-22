@@ -1,8 +1,13 @@
 
-scoreboard players set @s siscu.bees 0
-execute store result score @s siscu.bees run data get block ^ ^ ^-1 bees
+# bee counter
+scoreboard players set x siscu.volatile 0
+execute store result score x siscu.volatile run data get block ^ ^ ^-1 bees
+scoreboard players add x siscu.volatile 6
 
-execute if score @s siscu.bees matches 0 positioned ~ ~-0.8 ~ run return run summon minecraft:area_effect_cloud ^ ^ ^0.1 {WaitTime:0,Duration:21,CustomName:'[{"text":"0","color":"red"}]',CustomNameVisible:true}
-execute if score @s siscu.bees matches 1 positioned ~ ~-0.8 ~ run return run summon minecraft:area_effect_cloud ^ ^ ^0.1 {WaitTime:0,Duration:25,CustomName:'[{"text":"1","color":"gold"}]',CustomNameVisible:true}
-execute if score @s siscu.bees matches 2 positioned ~ ~-0.8 ~ run return run summon minecraft:area_effect_cloud ^ ^ ^0.1 {WaitTime:0,Duration:25,CustomName:'[{"text":"2","color":"yellow"}]',CustomNameVisible:true}
-execute if score @s siscu.bees matches 3 positioned ~ ~-0.8 ~ run return run summon minecraft:area_effect_cloud ^ ^ ^0.1 {WaitTime:0,Duration:25,CustomName:'[{"text":"3","color":"green"}]',CustomNameVisible:true}
+execute store result storage siscu:volatile bees byte 1 run scoreboard players get x siscu.volatile
+
+# honey counter
+execute positioned ^ ^ ^-1 run function siscu:entities/item_frame/bee_counter/get_honey_level
+
+# title
+execute positioned ~ ~-0.8 ~ run function siscu:entities/item_frame/bee_counter/text_macro with storage siscu:volatile

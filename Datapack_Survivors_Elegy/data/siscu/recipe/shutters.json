@@ -7,19 +7,23 @@
     "s/s"
   ],
   "key": {
-    "/": {
-      "item": "minecraft:stick"
-    },
-    "s": {
-      "item": "minecraft:string"
-    }
+    "/": "minecraft:stick",
+    "s": "minecraft:string"
   },
   "result": {
     "id": "minecraft:stick",
     "components": {
-      "minecraft:custom_model_data": 548103, 
-      "minecraft:item_name": "{\"translate\":\"item.siscu.shutters\"}", 
-      "minecraft:lore": ["{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.siscu.place_frame\"}"]
+      "item_name": "{\"translate\":\"item.siscu.shutters\"}",
+      "lore": [
+        "{\"translate\":\"text.siscu.place_frame\",\"italic\":false,\"color\":\"gray\"}"
+      ],
+      "item_model": "siscu_se:shutters",
+      "custom_data": {
+        "SE_data": {
+          "id": "siscu:shutters",
+          "UpdateVersion": "v1.0.0"
+        }
+      }
     }
   }
 }

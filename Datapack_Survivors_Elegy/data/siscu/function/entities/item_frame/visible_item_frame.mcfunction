@@ -1,4 +1,4 @@
-tag @s remove invisible
+tag @s remove siscu.item_frame_invisible
 
 data merge entity @s {Invisible: 0b}
 

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": [
+              "siscu:infected_citadel"
+            ],
+            "position": {
+              "y": {"min": 150}
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "siscu:world/infected_city/make_thunder"
+  }
+}

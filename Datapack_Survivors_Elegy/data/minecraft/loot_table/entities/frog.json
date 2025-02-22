@@ -7,7 +7,7 @@
         "entries": [
             {
                 "type": "minecraft:loot_table",
-                "value": "siscu:items/food/frog",
+                "value": "siscu:items/food/frog_leg",
                 "conditions": [
                       {
                         "condition": "minecraft:random_chance_with_enchanted_bonus",

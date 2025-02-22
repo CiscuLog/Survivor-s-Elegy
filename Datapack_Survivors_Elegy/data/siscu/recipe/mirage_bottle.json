@@ -2,38 +2,32 @@
     "type": "crafting_shapeless",
     "category": "misc",
     "ingredients": [
-        {
-            "item": "minecraft:phantom_membrane"
-        },
-        {
-            "item": "minecraft:amethyst_shard"
-        },
-        {
-            "item": "minecraft:popped_chorus_fruit"
-        },
-        {
-            "item": "minecraft:glass_bottle"
-        }
+        "minecraft:phantom_membrane",
+        "minecraft:amethyst_shard",
+        "minecraft:popped_chorus_fruit",
+        "minecraft:glass_bottle"
     ],
     "result": {
         "id": "minecraft:amethyst_shard",
         "components": {
+            "item_name": "{\"italic\":false,\"translate\":\"item.siscu.mirage_bottle\"}",
+            "item_model": "siscu_se:mirage_bottle",
+            "custom_data": {
+                "SE_data": {
+                    "id": "siscu:mirage_bottle",
+                    "UpdateVersion": "v1.0.0"
+                }
+            },
             "food": {
                 "nutrition": 0,
                 "saturation": 0,
-                "eat_seconds": 1000000,
                 "can_always_eat": true
             },
+            "consumable": {
+                "consume_seconds": 1000000
+            },
             "max_stack_size": 64,
-            "item_name": "{\"italic\":false,\"translate\":\"item.siscu.mirage_bottle\"}",
-            "rarity": "rare",
-            "custom_model_data": 540005,
-            "custom_data": {
-                "SE_data": {
-                    "MirageBottle": 1,
-                    "UpdateVersion": "alpha v0.9.3"
-                }
-            }
+            "rarity": "rare"
         }
     }
 }

@@ -46,7 +46,7 @@
             "predicate": {
                 "throwing": 1
             },
-            "model": "item/trident_throwing"
+            "model": "siscu_se:item/huge_trident_throwing"
         }
     ]
 }

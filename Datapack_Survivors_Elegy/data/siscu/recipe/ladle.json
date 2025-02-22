@@ -2,12 +2,8 @@
     "type": "crafting_shaped",
     "category": "equipment",
     "key": {
-        "I": {
-            "item": "minecraft:stick"
-        },
-        "U": {
-            "item": "minecraft:bowl"
-        }
+        "I": "minecraft:stick",
+        "U": "minecraft:bowl"
     },
     "pattern": [
         "I",
@@ -17,20 +13,20 @@
     "result": {
         "id": "minecraft:stick",
         "components": {
-            "food": {
-                "nutrition": 0,
-                "saturation": 0,
-                "eat_seconds": 1000000,
-                "can_always_eat": true
+            "consumable": {
+                "consume_seconds": 1000000
             },
             "max_stack_size": 1,
             "item_name": "{\"translate\":\"item.siscu.ladle\"}",
-            "custom_model_data": 540010,
+            "lore": [
+                "{\"translate\":\"text.siscu.place_cauldron\",\"italic\": false,\"color\": \"gray\"}"
+            ],
+            "item_model": "siscu_se:ladle",
             "custom_data": {
                 "SE_data": {
+                    "id": "siscu:ladle",
                     "Ladle": 1,
-                    "CustomTool": 1,
-                    "UpdateVersion": "alpha v0.9.3"
+                    "UpdateVersion": "v1.0.0"
                 }
             }
         }

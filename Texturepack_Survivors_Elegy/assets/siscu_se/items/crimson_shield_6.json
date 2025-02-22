@@ -1,0 +1,13 @@
+{
+	"model": {
+		"type": "condition",
+		"property": "using_item",
+		"on_false": {
+			"type": "model","model": "siscu_se:item/crimson_shield_6"
+		},
+		"on_true": {
+			"type": "model",
+			"model": "siscu_se:item/crimson_shield_6_blocking"
+		}
+	}
+}

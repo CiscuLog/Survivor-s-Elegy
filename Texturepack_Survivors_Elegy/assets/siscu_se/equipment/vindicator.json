@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "siscu_se:vindicator"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "siscu_se:vindicator"
+      }
+    ]
+  }
+}

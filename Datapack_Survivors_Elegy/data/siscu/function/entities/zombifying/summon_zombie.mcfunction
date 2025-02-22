@@ -1,1 +1,1 @@
-summon zombie ~ ~ ~ {Tags:["zombie_checked"],CanPickUpLoot:1b}
+summon zombie ~ ~ ~ {Tags:["siscu.zombie_checked"],CanPickUpLoot:1b}

@@ -1,0 +1,1 @@
+$summon painting ~ ~ ~ {facing:$(String),variant:"$(String2)"}

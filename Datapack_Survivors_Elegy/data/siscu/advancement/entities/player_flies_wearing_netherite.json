@@ -1,8 +1,7 @@
 {
-	"show_toast": true,
 	"criteria": {
 		"0": {
-			"trigger":"minecraft:tick",
+			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": [
 					{
@@ -13,12 +12,22 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{FallFlying:true}"
+							"flags": {
+								"is_flying": true
+							}
 						}
 					},
 					{
 						"condition": "minecraft:reference",
 						"name": "siscu:entities/is_wearing_netherite"
+					},
+					{
+						"condition": "location_check",
+						"predicate": {
+							"position": {
+								"y": {"min":64,"max":191}
+							}
+						}
 					}
 				]
 			}

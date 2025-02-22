@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#siscu:transparent_blocks",
+    "#siscu:swamp_hut_pillar_blocks",
+    "stone"
+  ]
+}

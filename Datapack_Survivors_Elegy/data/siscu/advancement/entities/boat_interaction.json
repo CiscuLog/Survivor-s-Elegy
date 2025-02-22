@@ -1,5 +1,4 @@
 {
-	"show_toast": true,
 	"criteria": {
 		"0": {
 			"trigger":"minecraft:player_interacted_with_entity",
@@ -9,7 +8,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": "minecraft:boat"
+							"type": "#minecraft:boat"
 						}
 					},
 					{

@@ -1,6 +1,6 @@
 # Tag the entity as checked
 
-tag @s add llama_checked
+tag @s add siscu.llama_checked
 
 # Run the randomiser
 

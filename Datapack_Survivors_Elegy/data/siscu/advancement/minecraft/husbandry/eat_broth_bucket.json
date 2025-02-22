@@ -3,7 +3,7 @@
 	"display":{
 			"icon": {
 					"id": "minecraft:suspicious_stew",
-					"components": {"custom_model_data":540012}
+					"components": {"item_model":"siscu_se:broth_bucket"}
 			},
 			"title": {"translate": "advancements.siscu.minecraft.eat_broth_bucket.title"},
 			"description": [{
@@ -25,9 +25,8 @@
             "trigger": "minecraft:consume_item",
 			"conditions": {
 				"item": {
-					"items": ["suspicious_stew"],
 					"components": {
-						"minecraft:custom_model_data": 540012
+						"item_model": "siscu_se:broth_bucket"
 					}
 				}
 			}

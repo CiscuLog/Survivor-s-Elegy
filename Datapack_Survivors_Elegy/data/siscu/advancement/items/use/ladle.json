@@ -1,13 +1,19 @@
 {
-	"show_toast": false,
 	"criteria": {
-		"0": 
-		{
-			"trigger":"minecraft:using_item",
+		"0": {
+			"trigger": "minecraft:using_item",
 			"conditions": {
 				"item": {
-					"items":["minecraft:stick"],
-					"custom_data": "{SE_data:{Ladle:1}}"
+					"items": [
+						"minecraft:stick"
+					],
+					"predicates": {
+						"custom_data": {
+							"SE_data": {
+								"Ladle": 1
+							}
+						}
+					}
 				}
 			}
 		}

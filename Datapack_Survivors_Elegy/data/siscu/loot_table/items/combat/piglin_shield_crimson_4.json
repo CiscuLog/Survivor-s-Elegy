@@ -9,7 +9,7 @@
 			"functions": [{
 				"function":"set_components",
 				"components": {
-					"custom_model_data":548105
+					"item_model": "siscu_se:crimson_shield_4"
 				}
 			}
 			]

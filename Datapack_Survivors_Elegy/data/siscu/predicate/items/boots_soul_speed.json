@@ -7,7 +7,7 @@
         "predicates": {
           "minecraft:enchantments": [
             {
-              "enchantment": "minecraft:soul_speed"
+              "enchantments": "soul_speed"
             }
           ]
         }

@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:leather",
-			"components": {"custom_model_data":548115}
+			"components": {"item_model":"siscu_se:zombie_horse_head"}
 		},
-		"title": "Zombie Horses",
-		"description": "Horses can be zombified",
+		"title": {"translate": "advancements.siscu.story.zombie_horses.title"},
+		"description": {"translate": "advancements.siscu.story.zombie_horses.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

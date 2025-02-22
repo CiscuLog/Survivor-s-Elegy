@@ -10,7 +10,7 @@
 			{
 				"function": "minecraft:set_components",
 				"components": {
-					"custom_model_data":540001,
+					"item_model":"siscu_se:villager_wither_skeleton",
 					"item_name":"{\"translate\":\"item.siscu.spawn_egg_villager_wither_skeleton\"}",
 					"entity_data":{"id":"wither_skeleton","Tags":["villager"]}
 				}

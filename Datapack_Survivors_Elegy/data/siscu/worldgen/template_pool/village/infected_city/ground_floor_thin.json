@@ -1,0 +1,26 @@
+{
+  "name": "siscu:village/infected_city/ground_floor_thin",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/ground_floor/thin_1",
+        "processors": "siscu:apartment",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/ground_floor/thin_2",
+        "processors": "siscu:apartment",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging"
+      },
+      "weight": 1
+    }
+  ]
+}

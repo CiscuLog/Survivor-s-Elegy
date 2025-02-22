@@ -10,9 +10,9 @@
 			{
 				"function": "minecraft:set_components",
 				"components": {
-					"custom_model_data":540002,
+					"item_model":"siscu_se:amethyst_zombie",
 					"item_name":"{\"translate\":\"item.siscu.spawn_egg_amethyst_zombie\"}",
-					"entity_data":{"id":"zombie","Tags":["special","amethyst_zombie","unequipped"]}
+					"entity_data":{"id":"zombie","Tags":["siscu.special","siscu.amethyst_zombie","siscu.unequipped"]}
 				}
 			}
 			]

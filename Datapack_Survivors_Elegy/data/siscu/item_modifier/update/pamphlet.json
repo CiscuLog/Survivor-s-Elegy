@@ -1,8 +1,6 @@
 {
     "function": "minecraft:set_components",
     "components": {
-        "minecraft:damage": 1,
-        "minecraft:custom_model_data": 548002,
         "minecraft:written_book_content": {
             "title": "Nose",
             "author": "Siscu",
@@ -18,10 +16,8 @@
         "minecraft:hide_additional_tooltip": {},
         "custom_data": {
             "SE_data": {
-                "IsCopper": 1,
-                "CustomTool": 1,
-                "UpdateVersion": "alpha v0.9.2",
-                "Oxidation": 0
+                "id": "siscu:pamphlet",
+                "UpdateVersion": "v1.0.0"
             }
         }
     }

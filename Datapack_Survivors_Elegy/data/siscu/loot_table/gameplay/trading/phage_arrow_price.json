@@ -19,8 +19,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "value": "siscu:items/ingredients/ravager_horn"
+          "type": "item",
+          "name": "diamond"
         }
       ]
     }

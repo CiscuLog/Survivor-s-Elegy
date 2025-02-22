@@ -5,8 +5,6 @@ execute if score withering siscu.integer matches 0 run tellraw @s [{"text":"- Wi
 
 execute if score withering siscu.integer matches 1 run tellraw @s [{"text":"- Withering is: ","bold":false,"color":"gold"},{"text":" [Enabled]","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/function siscu:world/withering/config/disable"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to change"}}}]
 
-function siscu:world/withering/config/set_all_scores
-
 execute if score withering siscu.integer matches 1 run tellraw @s [{"text":"- Time until withering starting to affect: ","color":"green"},{"score":{"name":"withering_timer","objective":"siscu.integer"}},{"text":" minutes","color":"gold"},{"text":" [","color":"gold","bold":true},{"text":" - ","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/function siscu:world/withering/config/max_time_reduce"},"hoverEvent":{"action":"show_text","contents":{"text":"Reduce max time"}}},{"text":" + ","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/function siscu:world/withering/config/max_time_add"},"hoverEvent":{"action":"show_text","contents":{"text":"Increase max time"}}},{"text":"]","color":"gold","bold":true}]
 
 tellraw @s [{"text":"\n"}]

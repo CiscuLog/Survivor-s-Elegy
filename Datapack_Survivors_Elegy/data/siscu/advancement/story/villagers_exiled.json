@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:leather",
-			"components": {"custom_model_data":548103}
+			"components": {"item_model":"siscu_se:pillager_head"}
 		},
-		"title": "Illager",
-		"description": "Exiled Villagers",
+		"title": {"translate": "advancements.siscu.story.villagers_exiled.title"},
+		"description": {"translate": "advancements.siscu.story.villagers_exiled.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

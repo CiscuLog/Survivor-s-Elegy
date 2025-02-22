@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"0": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"slots": {
+						"armor.chest": {
+							"items": ["elytra"],
+							"predicates": {
+								"custom_data": {"SE_data":{"shut_down_elytra":true}}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:entities/player/elytra_shootdown/recover_elytra"
+	}
+}

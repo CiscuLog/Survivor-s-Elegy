@@ -1,0 +1,27 @@
+{
+    "values": [
+        "dragon_breath",
+        "explosion",
+        "fireball",
+        "fireworks",
+        "fly_into_wall",
+        "generic",
+        "in_fire",
+        "lightning_bolt",
+        "mob_attack",
+        "mob_attack_no_aggro",
+        "player_attack",
+        "player_explosion",
+        "siscu:copper_discharge",
+        "sonic_boom",
+        "spit",
+        "stalagmite",
+        "sting",
+        "sweet_berry_bush",
+        "thorns",
+        "trident",
+        "unattributed_fireball",
+        "wind_charge",
+        "wither_skull"
+    ]
+}

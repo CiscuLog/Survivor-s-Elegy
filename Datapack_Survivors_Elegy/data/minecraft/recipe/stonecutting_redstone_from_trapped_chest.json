@@ -1,8 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:trapped_chest"
-  },
-  "result": {"id":"minecraft:redstone"},
-  "count": 1
+  "ingredient": "minecraft:trapped_chest",
+  "result": {"id":"minecraft:redstone"}
 }

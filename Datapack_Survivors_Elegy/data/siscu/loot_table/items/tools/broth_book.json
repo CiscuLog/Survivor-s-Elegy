@@ -1,0 +1,76 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"item_model": "siscu_se:broth_book",
+								"hide_additional_tooltip": {},
+								"item_name": "{\"translate\":\"item.siscu.broth_book\"}",
+								"rarity": "rare",
+								"written_book_content": {
+									"pages": [
+										{
+											"raw": "{\"translate\":\"text.siscu.book.broth_book.page1\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"
+										},
+										{
+											"raw": "{\"translate\":\"text.siscu.book.broth_book.page2\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"
+										},
+										{
+											"raw": "{\"translate\":\"text.siscu.book.broth_book.page3\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"
+										},
+										{
+											"raw": "{\"translate\":\"text.siscu.book.broth_book.page4\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"
+										}
+									],
+									"generation": 2,
+									"author": "Siscu",
+									"title": {
+										"raw": "Cook Book"
+									}
+								},
+								"custom_data": {
+									"SE_data": {
+										"id": "siscu:broth_book",
+										"UpdateVersion": "v1.0.0",
+										"Book": "broth"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "By ",
+									"italic": false,
+									"color": "gray",
+									"extra": [
+										{
+											"translate": "text.siscu.broth_book_author",
+											"italic": false,
+											"color": "gray"
+										}
+									]
+								},
+								{
+									"translate": "book.generation.2",
+									"italic": false,
+									"color": "gray"
+								}
+							],
+							"entity": "this",
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	]
+}

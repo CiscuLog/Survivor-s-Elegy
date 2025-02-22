@@ -1,39 +1,56 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:arrow",
-	  "functions": [
-	  {
-	    "function": "minecraft:set_components",
-	    "components": {"custom_model_data":540000}
-	  }
-	  ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:arrow",
-	  "functions": [
-	  {
-	    "function": "minecraft:set_components",
-	    "components": {"custom_model_data":540001}
-	  }
-	  ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:arrow",
-	  "functions": [
-	  {
-	    "function": "minecraft:set_components",
-	    "components": {"custom_model_data":540002}
-	  }
-	  ]
-        }
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:arrow",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"item_model": "siscu_se:phage_arrow_1"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:arrow",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"item_model": "siscu_se:phage_arrow_1"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:arrow",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"item_model": "siscu_se:phage_arrow_1"
+							}
+						}
+					]
+				}
+			],
+			"functions": [
+				{
+					"function": "set_components",
+					"components": {
+						"enchantment_glint_override": false,
+						"enchantments": {
+							"siscu:infectious": 1
+						}
+					}
+				}
+			]
+		}
 	]
-  }
-  ]
 }

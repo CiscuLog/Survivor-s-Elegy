@@ -1,2 +1,0 @@
-execute as @e[type=marker,tag=siscu.dirt_column] at @s run place feature siscu:dirt_column ~ ~-1 ~
-execute as @e[type=marker,tag=siscu.dirt_column] at @s unless block ~ ~-1 ~ #siscu:column_traspassable run kill @s

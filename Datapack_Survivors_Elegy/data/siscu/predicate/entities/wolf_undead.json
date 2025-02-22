@@ -1,0 +1,27 @@
+
+{
+	"condition": "any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity":"this",
+			"predicate": {
+				"nbt": "{variant:\"siscu:zombified\"}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity":"this",
+			"predicate": {
+				"nbt": "{variant:\"siscu:skeleton\"}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity":"this",
+			"predicate": {
+				"nbt": "{variant:\"siscu:withered_skeleton\"}"
+			}
+		}
+	]
+}

@@ -11,11 +11,14 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "{\"translate\":\"item.siscu.weathered_copper_pickaxe\"}",
-                                "minecraft:custom_model_data": 548103,
-                                "minecraft:custom_data": {
-                                    "SE_data": {
+                                "minecraft:custom_model_data": {"floats": [2]}
+                            }
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": {
+                                "SE_data": {
                                     "Oxidation": 2
-                                    }
                                 }
                             }
                         }

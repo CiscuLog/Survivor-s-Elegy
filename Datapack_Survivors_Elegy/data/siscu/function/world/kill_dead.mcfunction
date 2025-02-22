@@ -1,5 +1,5 @@
-execute as @e[tag=dead] at @s run tp ~ ~-32 ~
+execute as @e[tag=siscu.dead] at @s run tp ~ ~-32 ~
 gamerule showDeathMessages false
-kill @e[tag=dead,predicate=siscu:locations/check_void]
+kill @e[tag=siscu.dead,predicate=siscu:locations/check_void]
 gamerule showDeathMessages true
-execute if entity @e[tag=dead] run schedule function siscu:world/kill_dead 1t
+execute if entity @e[tag=siscu.dead] run schedule function siscu:world/kill_dead 1t

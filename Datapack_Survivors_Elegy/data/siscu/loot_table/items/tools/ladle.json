@@ -10,31 +10,23 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "food": {
-                                    "nutrition": 0,
-                                    "saturation": 0,
-                                    "eat_seconds": 1000000,
-                                    "can_always_eat": true
+                                "consumable": {
+                                    "consume_seconds": 1000000
                                 },
                                 "max_stack_size": 1,
                                 "item_name": "{\"translate\":\"item.siscu.ladle\"}",
-                                "custom_model_data": 540010,
+                                "lore": [
+                                    "{\"translate\":\"text.siscu.place_cauldron\",\"italic\": false,\"color\": \"gray\"}"
+                                ],
+                                "item_model": "siscu_se:ladle",
                                 "custom_data": {
                                     "SE_data": {
+                                        "id": "siscu:ladle",
                                         "Ladle": 1,
-                                        "CustomTool": 1,
-                                        "UpdateVersion": "alpha v0.9.3"
+                                                                                "UpdateVersion": "v1.0.0"
                                     }
                                 }
                             }
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "lore": [
-                            {"translate":"text.siscu.place_cauldron","italic": false,"color": "gray"}
-                            ],
-                            "entity": "this",
-                            "mode": "replace_all"
                         }
                     ]
                 }

@@ -9,7 +9,14 @@
 			"functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"custom_model_data":548101,"item_name":"{\"translate\":\"item.siscu.drowned_flesh\"}"}
+				"components": {"item_name":"{\"translate\":\"item.siscu.drowned_flesh\"}",
+					"item_model": "siscu_se:drowned_flesh",
+					"custom_data": {
+						"SE_data": {
+							"id": "siscu:drowned_flesh",
+							"UpdateVersion": "v1.0.0"
+						}
+					}}
 			}
 			]
 		}

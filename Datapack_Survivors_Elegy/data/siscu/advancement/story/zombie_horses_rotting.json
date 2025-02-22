@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:bone",
-			"components": {"custom_model_data":548115}
+			"components": {"item_model":"siscu_se:skeleton_horse_head"}
 		},
-		"title": "Skeleton Horse",
-		"description": "A zombified horse will eventually rot",
+		"title": {"translate": "advancements.siscu.story.zombie_horses_rotting.title"},
+		"description": {"translate": "advancements.siscu.story.zombie_horses_rotting.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

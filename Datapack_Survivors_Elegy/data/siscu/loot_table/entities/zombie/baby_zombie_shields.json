@@ -10,7 +10,7 @@
 		  "functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"custom_model_data":540001}
+				"components": {"item_model":"siscu_se:baby_shield"}
 			}
 			]
         },

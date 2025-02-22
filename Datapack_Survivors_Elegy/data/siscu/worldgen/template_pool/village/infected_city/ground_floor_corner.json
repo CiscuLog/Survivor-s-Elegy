@@ -1,0 +1,16 @@
+{
+  "name": "siscu:village/infected_city/ground_floor_corner",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/ground_floor/corner_1",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging"
+      },
+      "weight": 1
+    }
+  ]
+}

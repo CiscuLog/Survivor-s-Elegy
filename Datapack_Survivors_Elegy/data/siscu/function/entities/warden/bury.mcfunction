@@ -5,7 +5,7 @@
 
 execute on attacker run advancement grant @s only siscu:minecraft/adventure/warden_retreat
 
-tag @s add burying
+tag @s add siscu.warden_burying
 data merge entity @s {anger:{suspects:[]},Brain:{memories:{"minecraft:dig_cooldown":{ttl:0L}}},Invulnerable:1b}
 scoreboard players set @s siscu.volatile 100
 function siscu:entities/warden/bury_timer

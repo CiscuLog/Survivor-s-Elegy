@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"Staff": {
+			"trigger":"minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items":["minecraft:bread"],
+					"predicates": {"custom_data": {"SE_data":{"id":"siscu:ancient_tofu"}}}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/consume/ancient_tofu/main"
+	}
+}

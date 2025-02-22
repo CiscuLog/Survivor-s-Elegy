@@ -11,35 +11,36 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:damage": 0,
-                            "minecraft:item_name": "{\"translate\":\"item.siscu.elegant_hat\"}",
-                            "minecraft:dyed_color": {
-                                "rgb": 1381653,
-                                "show_in_tooltip": false
-                            },
-                            "minecraft:custom_model_data": 548001,
-                            "minecraft:custom_data": {
-                                "SE_data": {
-                                "IsSuit": 1,
-                                "Elegant": 1,
-                                "CustomHelmet": 1,
-                                "UpdateVersion": "alpha v0.9.0"
-                                }
-                            },
-                            "max_damage": 200
+                                "minecraft:item_name": "{\"translate\":\"item.siscu.elegant_hat\"}",
+                                "minecraft:lore": [
+                                    "{\"translate\":\"text.siscu.sun_protection\",\"color\":\"gray\",\"italic\":false}"
+                                ],
+                                "item_model": "siscu_se:elegant_hat",
+                                "minecraft:custom_data": {
+                                    "SE_data": {
+                                        "id": "siscu:elegant_hat",
+                                        "UpdateVersion": "v1.0.0"
+                                    }
+                                },
+                                "equippable": {
+                                    "slot": "head",
+                                    "damage_on_hurt": false,
+                                    "asset_id": "siscu_se:suit"
+                                },
+                                "max_damage": 200
                             }
                         },
                         {
-                          "function": "minecraft:set_attributes",
-                          "modifiers": [
-                            {
-                              "attribute": "minecraft:generic.armor",
-                              "name": "",
-                              "id": "9c95950d-b664-4a56-b71d-f19e6718e97d",
-                              "amount": 1,
-                              "operation": "add_value",
-                              "slot": "head"
-                            }
-                          ]
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:armor",
+                                    "id": "9c95950d-b664-4a56-b71d-f19e6718e97d",
+                                    "amount": 1,
+                                    "operation": "add_value",
+                                    "slot": "head"
+                                }
+                            ]
                         }
                     ]
                 }

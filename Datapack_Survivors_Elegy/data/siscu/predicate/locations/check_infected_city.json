@@ -1,0 +1,17 @@
+{
+	"condition": "any_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"structures": "siscu:infected_city"
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"structures": "siscu:infected_citadel"
+			}
+		}
+	]
+}

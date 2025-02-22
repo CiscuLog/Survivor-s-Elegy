@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:bone",
-			"components": {"custom_model_data":548110}
+			"components": {"item_model":"siscu_se:piglin_skull"}
 		},
-		"title": "Porkless",
-		"description": "An undead skeleton of a piglin",
+		"title": {"translate": "advancements.siscu.story.zombified_piglins_rotting.title"},
+		"description": {"translate": "advancements.siscu.story.zombified_piglins_rotting.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

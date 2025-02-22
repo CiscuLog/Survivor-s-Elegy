@@ -3,5 +3,10 @@
   "textures": {
     "layer0": "siscu_se:item/copper_boots",
     "layer1": "#layer0"
-  }
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 1},"model": "siscu_se:item/exposed_copper_boots"},
+    {"predicate": {"custom_model_data": 2},"model": "siscu_se:item/weathered_copper_boots"},
+    {"predicate": {"custom_model_data": 3},"model": "siscu_se:item/oxidised_copper_boots"}
+  ]
 }

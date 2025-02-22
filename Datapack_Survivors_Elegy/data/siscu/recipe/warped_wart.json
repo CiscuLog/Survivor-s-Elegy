@@ -1,12 +1,27 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "food",
+  "category": "misc",
   "ingredients": [
-    {
-      "item": "minecraft:warped_wart_block"
-    }
+    "minecraft:warped_wart_block"
   ],
   "result": {
-    "id": "minecraft:cookie","count":9,"components": {"custom_model_data":548101,"food":{"nutrition": 1,"saturation": 0.1,"can_always_eat":true},"minecraft:item_name": "{\"translate\":\"item.siscu.warped_wart\"}","rarity": "rare"}
+    "id": "minecraft:cookie",
+    "count": 9,
+    "components": {
+      "item_name": "{\"translate\":\"item.siscu.warped_wart\"}",
+      "item_model": "siscu_se:warped_wart",
+      "custom_data": {
+        "SE_data": {
+          "id": "siscu:warped_wart",
+          "UpdateVersion": "v1.0.0"
+        }
+      },
+      "food": {
+        "nutrition": 1,
+        "saturation": 0.1,
+        "can_always_eat": true
+      },
+      "rarity": "rare"
+    }
   }
 }

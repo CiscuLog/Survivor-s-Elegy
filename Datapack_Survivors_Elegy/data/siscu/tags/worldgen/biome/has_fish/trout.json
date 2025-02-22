@@ -1,0 +1,20 @@
+{
+  "values": [
+    "river",
+    "stony_peaks",
+    "frozen_peaks",
+    "jagged_peaks",
+    "meadow",
+    "snowy_slopes",
+    "windswept_forest",
+    "windswept_gravelly_hills",
+    "windswept_hills",
+    "forest",
+    "#is_taiga",
+    "plains",
+    "snowy_plains",
+    "sunflower_plains",
+    "ice_spikes",
+    "lush_caves"
+  ]
+}

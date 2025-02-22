@@ -9,7 +9,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548120}
+			  "components": {"item_model":"siscu_se:villager_skull"}
 		  }
 		  ]
 		},
@@ -19,7 +19,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548121}
+			  "components": {"item_model":"siscu_se:villager_skull_armorer"}
 		  }
 		  ]
 		},
@@ -29,7 +29,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548122}
+			  "components": {"item_model":"siscu_se:villager_skull_butcher"}
 		  }
 		  ]
 		},
@@ -39,7 +39,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548123}
+			  "components": {"item_model":"siscu_se:villager_skull_cartographer"}
 		  }
 		  ]
 		},
@@ -49,7 +49,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548124}
+			  "components": {"item_model":"siscu_se:villager_skull_cleric"}
 		  }
 		  ]
 		},
@@ -59,7 +59,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548125}
+			  "components": {"item_model":"siscu_se:villager_skull_farmer"}
 		  }
 		  ]
 		},
@@ -69,7 +69,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548126}
+			  "components": {"item_model":"siscu_se:villager_skull_fisherman"}
 		  }
 		  ]
 		},
@@ -79,7 +79,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548127}
+			  "components": {"item_model":"siscu_se:villager_skull_fletcher"}
 		  }
 		  ]
 		},
@@ -89,7 +89,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548128}
+			  "components": {"item_model":"siscu_se:villager_skull_leatherworker"}
 		  }
 		  ]
 		},
@@ -99,7 +99,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548129}
+			  "components": {"item_model":"siscu_se:villager_skull_librarian"}
 		  }
 		  ]
 		},
@@ -109,7 +109,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548130}
+			  "components": {"item_model":"siscu_se:villager_skull_mason"}
 		  }
 		  ]
 		},
@@ -119,7 +119,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548131}
+			  "components": {"item_model":"siscu_se:villager_skull_shepherd"}
 		  }
 		  ]
 		},
@@ -129,7 +129,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548132}
+			  "components": {"item_model":"siscu_se:villager_skull_toolsmith"}
 		  }
 		  ]
 		},
@@ -139,17 +139,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548133}
-		  }
-		  ]
-		},
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bone",
-		  "functions":[
-		  {
-			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548134}
+			  "components": {"item_model":"siscu_se:villager_skull_weaponsmith"}
 		  }
 		  ]
 		}

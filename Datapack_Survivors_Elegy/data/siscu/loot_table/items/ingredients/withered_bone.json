@@ -11,7 +11,13 @@
 					"function": "minecraft:set_components",
 					"components": {
 						"item_name": "{\"italic\":false,\"translate\":\"item.siscu.withered_bone\"}",
-						"custom_model_data": 548101
+						"item_model": "siscu_se:withered_bone",
+						"custom_data": {
+							"SE_data": {
+								"id": "siscu:withered_bone",
+								"UpdateVersion": "v1.0.0"
+							}
+						}
 					}
 				}
 			]

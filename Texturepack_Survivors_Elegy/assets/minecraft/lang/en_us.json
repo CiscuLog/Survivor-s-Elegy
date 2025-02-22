@@ -1,10 +1,8 @@
 {
-	"block.minecraft.jigsaw": "Enchanter's Guide",
 	"item.minecraft.cooked_cod": "Cooked Fish",
 	"item.minecraft.cooked_salmon": "Cooked Fish",
 	"item.minecraft.pufferfish": "Porcupine Fish",
 	"item.minecraft.cod": "Cod",
 	"item.minecraft.salmon": "Salmon",
-	"effect.minecraft.unluck": "Phage",
-	"potion.potency.99": "(Strong)"
+	"effect.minecraft.unluck": "Phage"
 }

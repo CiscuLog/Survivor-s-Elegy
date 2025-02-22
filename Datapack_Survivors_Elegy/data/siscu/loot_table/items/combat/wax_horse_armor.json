@@ -1,51 +1,51 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "leather_horse_armor",
-                    "functions": [
-                        {
-                            "function":"set_components",
-                            "components":{
-                                "minecraft:damage": 0,
-                                "minecraft:item_name": "{\"translate\":\"item.siscu.wax_horse_armor\"}",
-                                "minecraft:lore": [
-                                  "{\"translate\":\"text.siscu.wax_horse_armor\",\"italic\": false,\"color\": \"gray\"}",
-                                  "{\"translate\":\"text.siscu.wax_horse_armor2\",\"italic\": false,\"color\": \"gray\"}"
-                                ],
-                                "minecraft:dyed_color": {
-                                  "rgb": 16773210,
-                                  "show_in_tooltip": false
-                                },
-                                "minecraft:custom_model_data": 548104,
-                                "minecraft:custom_data": {
-                                  "SE_data": {
-                                    "IsWax": 1,
-                                    "CustomHorseArmor": 1,
-                                    "UpdateVersion": "alpha v0.9.0"
-                                  }
-                                }
-                            }
-                        },
-                        {
-                          "function": "minecraft:set_attributes",
-                          "modifiers": [
-                            {
-                              "attribute": "minecraft:generic.armor",
-                              "name": "",
-                              "id": "f9a7c279-0f17-4a76-b6bc-55ff93886046",
-                              "amount": 7,
-                              "operation": "add_value",
-                              "slot": "body"
-                            }
-                          ]
-                        }
-                    ]
+          "type": "item",
+          "name": "raw_gold",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:damage": 0,
+                "max_stack_size": 1,
+                "minecraft:item_name": "{\"translate\":\"item.siscu.wax_horse_armor\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"text.siscu.wax_horse_armor\",\"italic\": false,\"color\": \"gray\"}",
+                  "{\"translate\":\"text.siscu.wax_horse_armor2\",\"italic\": false,\"color\": \"gray\"}"
+                ],
+                "minecraft:item_model": "siscu_se:wax_horse_armor",
+                "minecraft:custom_data": {
+                  "SE_data": {
+                    "id": "siscu:wax_horse_armor",
+                    "IsWax": 1,
+                    "UpdateVersion": "v1.0.0"
+                  }
+                },
+                "equippable": {
+                  "slot": "body",
+                  "damage_on_hurt": false,
+                  "asset_id": "siscu_se:wax"
+                },
+                "attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "armor",
+                      "id": "1a9a78b7-6441-5d92-aa4b-b3625bfe2de5",
+                      "amount": 7,
+                      "operation": "add_value",
+                      "slot": "body"
+                    }
+                  ]
                 }
-            ]
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,2 +1,2 @@
-execute as @e[type=#siscu:subject_to_check,tag=!entity_checked] at @s run function siscu:entities/global
+schedule function siscu:entities/global_scheduled 1t
 advancement revoke @s only siscu:items/use/spawn_egg

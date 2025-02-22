@@ -3,8 +3,8 @@
 		"icon": {
 			"id": "minecraft:player_head"
 		},
-		"title": "Humans",
-		"description": "Your kin",
+		"title": {"translate": "advancements.siscu.story.humans.title"},
+		"description": {"translate": "advancements.siscu.story.humans.description"},
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": true

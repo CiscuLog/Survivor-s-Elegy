@@ -10,8 +10,12 @@
 						"items": [
 							"raw_copper"
 						],
-						"components": {
-							"minecraft:custom_model_data": 540000
+						"predicates": {
+							"custom_data": {
+								"SE_data": {
+									"id": "siscu:bee_counter"
+								}
+							}
 						}
 					}
 				}

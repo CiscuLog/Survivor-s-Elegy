@@ -1,11 +1,16 @@
 {
     "function": "minecraft:set_custom_model_data",
-    "value": {
-        "type": "score",
-        "target": {
-            "type": "fixed",
-            "name": "x"
-        },
-        "score": "siscu:volatile"
+    "floats": {
+        "mode": "replace_all",
+        "values": [
+            {
+                "type": "score",
+                "score": "siscu.volatile",
+                "target": {
+                    "type": "fixed",
+                    "name": "x"
+                }
+            }
+        ]
     }
 }

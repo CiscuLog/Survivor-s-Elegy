@@ -36,7 +36,7 @@
     "announce_to_chat": false,
     "icon": {
       "id": "minecraft:barrier",
-      "components": {"custom_model_data":540000}
+      "components": {"custom_model_data":{"strings": ["siscu_se:logo"]}}
     },
     "background": "minecraft:textures/block/dark_oak_planks.png"
     },		

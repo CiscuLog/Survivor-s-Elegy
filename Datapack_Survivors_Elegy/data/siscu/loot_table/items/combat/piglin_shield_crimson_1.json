@@ -14,9 +14,10 @@
 						"minecraft:lore": [
 						  "{\"text\":\"Held by Piglins\",\"color\":\"gray\",\"italic\":false}"
 						],
-						"custom_model_data":548102,
+						"item_model": "siscu_se:crimson_shield_1",
 						"custom_data": {
 							"SE_data": {
+								"id": "siscu:crimson_shield",
 								"CustomShield": 1,
 								"UpdateVersion": "alpha v0.9.0"
 							}

@@ -1,0 +1,92 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "glass_bottle",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "redstone"
+                },
+                {
+                    "type": "item",
+                    "name": "spider_eye"
+                },
+                {
+                    "type": "item",
+                    "name": "fermented_spider_eye"
+                },
+                {
+                    "type": "item",
+                    "name": "sugar"
+                },
+                {
+                    "type": "item",
+                    "name": "rabbit_foot"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {"min": 1,"max": 2}
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.16
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "potion",
+                    "functions": [
+                        {
+                            "function": "set_potion",
+                            "id": "weakness"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.32
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "cobweb"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.8
+                }
+            ]
+        }
+    ]
+}

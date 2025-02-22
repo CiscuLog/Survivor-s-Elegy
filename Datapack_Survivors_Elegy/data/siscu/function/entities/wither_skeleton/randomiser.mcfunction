@@ -1,6 +1,6 @@
 # Tag the entity as checked
 
-tag @s add skeleton_checked
+tag @s add siscu.skeleton_checked
 
 # Replace items
 

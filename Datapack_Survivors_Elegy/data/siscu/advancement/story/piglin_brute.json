@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:leather",
-			"components": {"custom_model_data":548111}
+			"components": {"item_model":"siscu_se:piglin_brute_head"}
 		},
-		"title": "Piglin Brutes",
-		"description": "Sturdiest piglins in the underworld",
+		"title": {"translate": "advancements.siscu.story.piglin_brute.title"},
+		"description": {"translate": "advancements.siscu.story.piglin_brute.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

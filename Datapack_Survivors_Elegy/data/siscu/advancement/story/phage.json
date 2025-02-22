@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:tipped_arrow",
-			"components": {"custom_model_data":548101,"potion_contents":{"custom_color":12624973}}
+			"components": {"item_model": "siscu_se:phage_arrow","potion_contents":{"custom_color":12624973}}
 		},
-		"title": {"text": "Phage","font":"minecraft:illageralt"},
-		"description": "An unforgiving venom",
+		"title": {"translate": "advancements.siscu.story.phage.title","font":"minecraft:illageralt"},
+		"description": {"translate": "advancements.siscu.story.phage.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true
@@ -18,7 +18,7 @@
 				"items": [
 				{
 					"items": ["tipped_arrow"],
-					"components": {"custom_model_data":548101}
+					"predicates": {"custom_data": {"SE_data":{"id":"siscu:phage_arrow"}}}
 				}
 				]
 			}

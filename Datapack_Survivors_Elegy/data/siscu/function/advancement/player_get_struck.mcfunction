@@ -1,1 +1,0 @@
-advancement revoke @s only siscu:entities/player_get_struck

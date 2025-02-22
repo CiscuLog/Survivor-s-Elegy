@@ -1,6 +1,6 @@
 {
 	"condition": "minecraft:location_check",
 	"predicate": {
-		"structures": "siscu:nether_fortress"
+		"structures": "minecraft:fortress"
 	}
 }

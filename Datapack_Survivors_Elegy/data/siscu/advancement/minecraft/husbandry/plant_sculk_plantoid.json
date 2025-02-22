@@ -3,7 +3,7 @@
 	"display":{
 			"icon": {
 					"id": "minecraft:beetroot",
-					"components": {"custom_model_data":540000}
+					"components": {"item_model":"siscu_se:sculk_plantoid"}
 			},
 			"title": {"translate": "advancements.siscu.minecraft.plant_plantoid.title"},
 			"description": [{

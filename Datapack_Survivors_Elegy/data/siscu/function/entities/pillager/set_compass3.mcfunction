@@ -1,2 +1,0 @@
-execute store result entity @s Item.components.minecraft:lodestone_tracker.target.pos[0] int 1 run data get storage siscu:volatile OutpostMap.x
-execute store result entity @s Item.components.minecraft:lodestone_tracker.target.pos[2] int 1 run data get storage siscu:volatile OutpostMap.z

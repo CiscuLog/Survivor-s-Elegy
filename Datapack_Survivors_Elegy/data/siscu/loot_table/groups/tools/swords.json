@@ -46,7 +46,7 @@
 		  "conditions": [
 			  {
 				  "condition": "minecraft:location_check",
-				  "predicate": {"biomes": "#minecraft:is_jungle"}
+				  "predicate": {"biomes": "#is_jungle"}
 			  }
 		  ]
         }

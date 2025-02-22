@@ -3,8 +3,8 @@
 		"icon": {
 			"id": "minecraft:bell"
 		},
-		"title": "Villages",
-		"description": "Overworld Towns",
+		"title": {"translate": "advancements.siscu.story.villages.title"},
+		"description": {"translate": "advancements.siscu.story.villages.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

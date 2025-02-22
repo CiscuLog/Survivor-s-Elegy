@@ -1,0 +1,7 @@
+{
+	"parent": "siscu_se:item/ancient_shield/base",
+	"textures": {
+		"display": "siscu_se:item/ancient_shield/charge_0",
+		"base": "siscu_se:item/ancient_shield/shield_base_weathered"
+	}
+}

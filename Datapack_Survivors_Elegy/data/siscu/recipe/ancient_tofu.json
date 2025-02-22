@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "#siscu:tofu_ingredients",
+        "milk_bucket",
+        "#siscu:tofu_ingredients"
+    ],
+    "result": {
+        "id": "bread",
+        "count": 4,
+        "components": { "item_name": "{\"translate\":\"item.siscu.ancient_tofu\"}", "item_model": "siscu_se:sniffer_meat", "custom_data": { "SE_data": { "id": "siscu:ancient_tofu", "UpdateVersion": "v1.0.0", "SnifferMeat": 1 } }, "food": { "nutrition": 10, "saturation": 12 }, "minecraft:lore": [ "{\"text\":\"+4 HP (15:00)\",\"color\":\"blue\",\"italic\":false}" ] }
+    }
+}

@@ -10,9 +10,9 @@
 			{
 				"function": "minecraft:set_components",
 				"components": {
-					"custom_model_data":540003,
+					"item_model":"siscu_se:dripstone_zombie",
 					"item_name":"{\"translate\":\"item.siscu.spawn_egg_dripstone_zombie\"}",
-					"entity_data":{"id":"zombie","Tags":["special","dripstone_zombie","unequipped"]}
+					"entity_data":{"id":"zombie","Tags":["siscu.special","siscu.dripstone_zombie","siscu.unequipped"]}
 				}
 			}
 			]

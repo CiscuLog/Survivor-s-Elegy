@@ -1,5 +1,5 @@
 {
-	"parent":"siscu_se:item/crimson_banner_1",
+	"parent":"siscu_se:item/crimson_banner_0",
 	"textures": {
 		"0": "siscu_se:item/piglin_decoration/crimson_banner_4"
 	}

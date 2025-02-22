@@ -1,5 +1,4 @@
 {
-	"show_toast": false,
 	"criteria": {
 		"Staff": {
 			"trigger":"minecraft:consume_item",
@@ -11,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:items/consume/chorus_fruit_eat"
+		"function": "siscu:items/consume/chorus_fruit/eat"
 	}
 }

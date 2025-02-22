@@ -3,8 +3,8 @@
 		"icon": {
 			"id": "minecraft:bone"
 		},
-		"title": "Rotting",
-		"description": "Zombies eventually rot and become skeletons",
+		"title": {"translate": "advancements.siscu.story.zombie_rotting.title"},
+		"description": {"translate": "advancements.siscu.story.zombie_rotting.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

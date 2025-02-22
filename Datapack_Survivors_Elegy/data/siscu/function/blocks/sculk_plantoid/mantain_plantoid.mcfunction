@@ -1,0 +1,3 @@
+execute as @e[type=marker,tag=siscu.sculk_plantoid] at @s unless block ~ ~ ~ decorated_pot run function siscu:blocks/sculk_plantoid/kill
+execute as @e[type=marker,tag=siscu.sculk_plantoid] at @s unless items block ~ ~ ~ contents *[minecraft:custom_data~{SE_data:{id:"siscu:sculk_plantoid"}}] run function siscu:blocks/sculk_plantoid/kill
+execute if entity @e[tag=siscu.sculk_plantoid] run schedule function siscu:blocks/sculk_plantoid/mantain_plantoid 6t

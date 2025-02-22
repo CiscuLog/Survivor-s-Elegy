@@ -10,7 +10,7 @@
 			{
 				"function": "minecraft:set_components",
 				"components": {
-					"custom_model_data":548102,
+					"item_model": "siscu_se:potion_book",
 					"hide_additional_tooltip": {},
 					"item_name":"{\"translate\":\"item.siscu.potion_book\",\"font\":\"minecraft:illageralt\"}",
 					"rarity": "rare",
@@ -19,13 +19,20 @@
 							{"raw": "{\"translate\":\"text.siscu.book.brewing_guide.page1\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"},
 							{"raw": "{\"translate\":\"text.siscu.book.brewing_guide.page2\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"},
 							{"raw": "{\"translate\":\"text.siscu.book.brewing_guide.page3\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"},
-							{"raw": "{\"translate\":\"text.siscu.book.brewing_guide.page4\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"}
+							{"raw": "{\"translate\":\"text.siscu.book.brewing_guide.page4\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"},
+							{"raw": "{\"translate\":\"text.siscu.book.brewing_guide.page5\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"}
 						],
 						"generation": 3, 
 						"author": "The Gifted",
 						"title":{"raw":"Grimoire"}
 					},
-					"custom_data": {"SE_data":{"UpdateVersion":"alpha v0.9.0","Book":"potion"}}
+					"custom_data": {
+						"SE_data": {
+							"id": "siscu:potion_book",
+							"UpdateVersion": "v1.0.0",
+							"Book": "potion"
+						}
+					}
 				}
 			},
 			{

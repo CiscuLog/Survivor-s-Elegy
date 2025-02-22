@@ -13,13 +13,12 @@ advancement revoke @s only siscu:entities/blocked_explosion/30_
 advancement revoke @s only siscu:entities/boat_interaction
 advancement revoke @s only siscu:entities/breed_pigs
 advancement revoke @s only siscu:entities/cure_player
-advancement revoke @s only siscu:entities/damaged_by_amethyst_zombie
 advancement revoke @s only siscu:entities/damaged_by_guardian
 advancement revoke @s only siscu:entities/damaged_by_husk_skeleton
-advancement revoke @s only siscu:entities/damaged_by_infected_zombie
 advancement revoke @s only siscu:entities/damaged_by_lush_zombie
 advancement revoke @s only siscu:entities/damaged_by_stray_zombie
 advancement revoke @s only siscu:entities/damaged_by_zombified_player
+advancement revoke @s only siscu:entities/elytra_recover
 advancement revoke @s only siscu:entities/hurt_by_electricity
 advancement revoke @s only siscu:entities/hurt_mob_wearing_charged_copper_armor
 advancement revoke @s only siscu:entities/hurt_vex
@@ -33,7 +32,7 @@ advancement revoke @s only siscu:entities/kill_wither
 advancement revoke @s only siscu:entities/kill_wither_skeleton
 advancement revoke @s only siscu:entities/mount_enchanted_saddle
 advancement revoke @s only siscu:entities/player_flies_wearing_netherite
-advancement revoke @s only siscu:entities/player_get_struck
+advancement revoke @s only siscu:entities/player_get_phage
 advancement revoke @s only siscu:entities/player_sleep
 advancement revoke @s only siscu:entities/player_sneaks_on_grass
 advancement revoke @s only siscu:entities/sculk_plantoid_hit
@@ -51,7 +50,6 @@ advancement revoke @s only siscu:items/consume/glow_berries_eat
 advancement revoke @s only siscu:items/consume/warped_stew_eat
 advancement revoke @s only siscu:items/consume/warped_wart_eat
 advancement revoke @s only siscu:items/consume/warped_wart_stew_eat
-advancement revoke @s only siscu:items/update/bee_counter
 advancement revoke @s only siscu:items/update/dragon_egg
 advancement revoke @s only siscu:items/use/brute_shield_block
 advancement revoke @s only siscu:items/use/enchanted_saddle_interact_normal
@@ -61,10 +59,8 @@ advancement revoke @s only siscu:items/use/light_sensor_cooldown
 advancement revoke @s only siscu:items/use/light_sensor_hold
 advancement revoke @s only siscu:items/use/light_sensor_use
 advancement revoke @s only siscu:items/use/spawn_egg
-advancement revoke @s only siscu:items/use/trident_break
 advancement revoke @s only siscu:items/use/trident_use
 advancement revoke @s only siscu:items/use/use_bell_holding_void_shard
-advancement revoke @s only siscu:items/use/warped_fungus_on_a_stick_hold
 advancement revoke @s only siscu:items/click_button
 advancement revoke @s only siscu:items/play_noteblock
 advancement revoke @s only siscu:items/put_in_decorated_pot
@@ -80,3 +76,16 @@ advancement revoke @s only siscu:items/use/full_allay_container
 advancement revoke @s only siscu:items/use/full_allay_container_vex
 advancement revoke @s only siscu:items/use/ladle
 advancement revoke @s only siscu:items/use/mirage_bottle
+
+# v1.0.0
+advancement revoke @s only siscu:entities/breed_undead_wolves
+advancement revoke @s only siscu:entities/crosses_from_or_to_end
+advancement revoke @s only siscu:entities/undead_wolf_age_0
+advancement revoke @s only siscu:entities/wolf_curing
+advancement revoke @s only siscu:entities/wolf_wax_armor_interaction
+advancement revoke @s only siscu:items/consume/ancient_tofu
+advancement revoke @s only siscu:items/consume/drowned_flesh
+advancement revoke @s only siscu:items/consume/husk_flesh
+advancement revoke @s only siscu:items/consume/milk
+#advancement revoke @s only siscu:world/enter_citadel_first_time
+#advancement revoke @s only siscu:world/enter_city_first_time

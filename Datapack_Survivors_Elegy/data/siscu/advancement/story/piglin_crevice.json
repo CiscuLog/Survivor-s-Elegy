@@ -3,8 +3,8 @@
 		"icon": {
 			"id": "minecraft:cracked_polished_blackstone_bricks"
 		},
-		"title": "Piglin Crevice",
-		"description": "A split tower held together by chains",
+		"title": {"translate": "advancements.siscu.story.piglin_crevice.title"},
+		"description": {"translate": "advancements.siscu.story.piglin_crevice.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:leather",
-			"components": {"custom_model_data":548104}
+			"components": {"item_model":"siscu_se:wandering_trader_head"}
 		},
-		"title": "Wandering Traders",
-		"description": "Nomad travellers with goods to sell",
+		"title": {"translate": "advancements.siscu.story.wandering_traders.title"},
+		"description": {"translate": "advancements.siscu.story.wandering_traders.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

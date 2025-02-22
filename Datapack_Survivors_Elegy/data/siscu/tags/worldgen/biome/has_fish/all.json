@@ -1,0 +1,15 @@
+{
+  "values": [
+    "#siscu:has_fish/bass",
+    "#siscu:has_fish/catfish",
+    "#siscu:has_fish/cod",
+    "#siscu:has_fish/hake",
+    "#siscu:has_fish/koi",
+    "#siscu:has_fish/pufferfish",
+    "#siscu:has_fish/salmon",
+    "#siscu:has_fish/tropical_fish",
+    "#siscu:has_fish/trout",
+    "#siscu:has_fish/tuna",
+    "#siscu:has_fish/turbot"
+  ]
+}

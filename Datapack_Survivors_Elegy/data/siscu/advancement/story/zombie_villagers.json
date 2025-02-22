@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:leather",
-			"components": {"custom_model_data":548114}
+			"components": {"item_model":"siscu_se:zombie_villager_head"}
 		},
-		"title": "Zombie Villagers",
-		"description": "An infected villager",
+		"title": {"translate": "advancements.siscu.story.zombie_villagers.title"},
+		"description": {"translate": "advancements.siscu.story.zombie_villagers.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

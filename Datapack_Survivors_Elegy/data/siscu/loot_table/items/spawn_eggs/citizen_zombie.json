@@ -10,9 +10,9 @@
 			{
 				"function": "minecraft:set_components",
 				"components": {
-					"custom_model_data":540006,
+					"item_model":"siscu_se:citizen_zombie",
 					"item_name":"{\"translate\":\"item.siscu.spawn_egg_citizen_zombie\"}",
-					"entity_data":{"id":"zombie","Tags":["special","citizen_zombie","unequipped"]}
+					"entity_data":{"id":"zombie","Tags":["siscu.special","siscu.citizen_zombie","siscu.unequipped"]}
 				}
 			}
 			]

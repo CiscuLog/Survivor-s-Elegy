@@ -9,7 +9,15 @@
 			"functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"minecraft:custom_model_data":548104,"item_name":"{\"translate\":\"item.siscu.hake\"}"}
+				"components": {
+					"item_name":"{\"translate\":\"item.siscu.hake\"}",
+					"item_model": "siscu_se:hake",
+					"custom_data": {
+						"SE_data": {
+							"id": "siscu:hake",
+							"UpdateVersion": "v1.0.0"
+						}
+					}}
 			}
 			]
 		}

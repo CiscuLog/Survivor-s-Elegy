@@ -5,27 +5,49 @@
             "conditions": {
                 "player": [
                     {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "slots": {
-                                "weapon.mainhand": {
-                                    "items": [
-                                        "written_book"
-                                    ],
-                                    "components": {
-                                        "minecraft:custom_model_data": 548002
+                        "condition": "any_of",
+                        "terms": [
+                            {
+                                "condition": "all_of",
+                                "terms": [
+                                    {
+                                        "condition": "minecraft:entity_properties",
+                                        "entity": "this",
+                                        "predicate": {
+                                            "slots": {
+                                                "weapon.mainhand": {
+                                                    "items": [
+                                                        "written_book"
+                                                    ],
+                                                    "predicates": {
+                                                        "custom_data": {"SE_data":{"id":"siscu:pamphlet"}}
+                                                    }
+                                                }
+                                            }
+                                        }
                                     },
-                                    "predicates": {
-                                        "custom_data": {
-                                            "SE_data": {
-                                                "UpdateVersion": "alpha v0.9.0"
+                                    {
+                                        "condition": "inverted",
+                                        "term": {
+                                            "condition": "minecraft:entity_properties",
+                                            "entity": "this",
+                                            "predicate": {
+                                                "slots": {
+                                                    "weapon.mainhand": {
+                                                        "items": [
+                                                            "written_book"
+                                                        ],
+                                                        "predicates": {
+                                                            "custom_data": {"SE_data":{"UpdateVersion":"v1.0.0"}}
+                                                        }
+                                                    }
+                                                }
                                             }
                                         }
                                     }
-                                }
+                                ]
                             }
-                        }
+                        ]
                     }
                 ]
             }

@@ -1,0 +1,17 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "siscu:entities/is_holding_copper_tool"
+        },
+        {
+            "condition": "reference",
+            "name": "siscu:entities/is_holding_copper_shield"
+        },
+        {
+            "condition": "reference",
+            "name": "siscu:entities/is_wearing_copper_armor"
+        }
+    ]
+}

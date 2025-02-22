@@ -6,12 +6,8 @@
     "III"
   ],
   "key": {
-    "A": {
-      "item": "minecraft:tnt"
-    },
-    "I": {
-      "item": "minecraft:iron_ingot"
-    }
+    "A": "minecraft:tnt",
+    "I": "minecraft:iron_ingot"
   },
   "result": {
     "id": "minecraft:tnt_minecart"

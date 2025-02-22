@@ -1,0 +1,50 @@
+{
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "weapon.mainhand": {
+                                        "predicates": {
+                                            "custom_data": {
+                                                "SE_data": {
+                                                    "UpdateVersion": "v1.0.0"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "slots": {
+                                "weapon.mainhand": {
+                                    "items": [
+                                        "jigsaw"
+                                    ],
+                                    "components": {
+                                        "enchantment_glint_override": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "siscu:items/update/enchanter_book"
+    }
+}

@@ -7,15 +7,9 @@
     " /#"
   ],
   "key": {
-    "D": {
-      "item": "minecraft:dropper"
-    },
-    "/": {
-      "tag": "minecraft:stick"
-    },
-    "#": {
-      "item": "minecraft:string"
-    }
+    "D": "minecraft:dropper",
+    "/": "minecraft:stick",
+    "#": "minecraft:string"
   },
   "result": {
     "id": "minecraft:dispenser"

@@ -3,8 +3,8 @@
 		"icon": {
 			"id": "minecraft:dark_oak_planks"
 		},
-		"title": "The Mansion",
-		"description": "Illager's base of operations and research site",
+		"title": {"translate": "advancements.siscu.story.mansion.title"},
+		"description": {"translate": "advancements.siscu.story.mansion.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

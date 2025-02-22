@@ -8,6 +8,6 @@ summon wolf ~ ~ ~ {Tags:["siscu.trader_entity","siscu.bremen_dog","siscu.bremen"
 ride @e[tag=siscu.bremen_dog,limit=1] mount @s
 
 # Scoreboards
-execute as @e[tag=siscu.bremen] run scoreboard players operation @s siscu.trader_timer = @e[type=donkey,limit=1,sort=nearest] siscu.trader_timer
+scoreboard players operation @e[tag=siscu.bremen] siscu.trader_timer = @n[type=donkey] siscu.trader_timer
 
 tag @e[tag=siscu.bremen] remove siscu.bremen

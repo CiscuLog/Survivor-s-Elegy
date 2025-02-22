@@ -9,7 +9,14 @@
 			"functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"minecraft:custom_model_data":548103,"item_name":"{\"translate\":\"item.siscu.turbot\"}"}
+				"components": {"item_name":"{\"translate\":\"item.siscu.turbot\"}",
+				"item_model": "siscu_se:turbot",
+				"custom_data": {
+					"SE_data": {
+						"id": "siscu:turbot",
+						"UpdateVersion": "v1.0.0"
+					}
+				}}
 			}
 			]
 		}

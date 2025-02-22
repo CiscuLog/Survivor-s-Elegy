@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:bone",
-			"components": {"custom_model_data":548120}
+			"components": {"item_model":"siscu_se:villager_skull"}
 		},
-		"title": "Too Late",
-		"description": "An undead skeleton of a Villager",
+		"title": {"translate": "advancements.siscu.story.zombie_villagers_rotting.title"},
+		"description": {"translate": "advancements.siscu.story.zombie_villagers_rotting.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

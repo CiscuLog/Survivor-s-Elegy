@@ -7,12 +7,8 @@
     "SSS"
   ],
   "key": {
-    "A": {
-      "item": "minecraft:minecart"
-    },
-    "S": {
-      "tag": "minecraft:stone_crafting_materials"
-    }
+    "A": "minecraft:minecart",
+    "S": "#minecraft:stone_crafting_materials"
   },
   "result": {
     "id": "minecraft:furnace_minecart"

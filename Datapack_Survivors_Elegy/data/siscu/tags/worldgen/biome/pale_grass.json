@@ -13,6 +13,7 @@
     "minecraft:snowy_beach",
     "minecraft:windswept_forest",
     "#minecraft:is_end",
-    "#minecraft:is_taiga"
+    "#minecraft:is_taiga",
+    "minecraft:pale_garden"
   ]
 }

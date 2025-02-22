@@ -1,0 +1,24 @@
+{
+	"criteria": {
+		"0": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:enchanted_book"
+					],
+					"predicates": {
+						"custom_data": {
+							"SE_data": {
+								"id": "siscu:enchanter_guide"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/use/enchanter_book/use"
+	}
+}

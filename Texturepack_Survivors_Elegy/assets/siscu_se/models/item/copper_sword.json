@@ -2,5 +2,10 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "siscu_se:item/copper_sword"
-  }
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 1},"model": "siscu_se:item/exposed_copper_sword"},
+    {"predicate": {"custom_model_data": 2},"model": "siscu_se:item/weathered_copper_sword"},
+    {"predicate": {"custom_model_data": 3},"model": "siscu_se:item/oxidised_copper_sword"}
+  ]
 }

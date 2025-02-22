@@ -5,16 +5,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:air",
-			"weight":60
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:iron_sword",
 		  "functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"custom_model_data":548000}
+				"components": {"item_model":"siscu_se:baby_iron_sword"}
 			}
 			],
 			"weight":4
@@ -25,14 +20,13 @@
 		  "functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"custom_model_data":548001}
+				"components": {"item_model":"siscu_se:baby_wooden_sword"}
 			},
 			{
 				"function": "minecraft:set_attributes",
 				"modifiers": [
 				{
-					"attribute": "generic.attack_damage",
-					"name": "generic.attack_damage",
+					"attribute": "attack_damage",
 					"id": "92d15e7a-273b-43d2-b9dc-526c9bc13a1b",
 					"operation": "add_value",
 					"amount": 4,
@@ -49,14 +43,13 @@
 		  "functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"custom_model_data":548002}
+				"components": {"item_model":"siscu_se:baby_stone_sword"}
 			},
 			{
 				"function": "minecraft:set_attributes",
 				"modifiers": [
 				{
-					"attribute": "generic.attack_damage",
-					"name": "generic.attack_damage",
+					"attribute": "attack_damage",
 					"id": "b0c069c3-1f96-4475-b34a-608fdd120cfc",
 					"operation": "add_value",
 					"amount": 5,
@@ -73,14 +66,13 @@
 		  "functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"custom_model_data":548003}
+				"components": {"item_model":"siscu_se:baby_gold_sword"}
 			},
 			{
 				"function": "minecraft:set_attributes",
 				"modifiers": [
 				{
-					"attribute": "generic.attack_damage",
-					"name": "generic.attack_damage",
+					"attribute": "attack_damage",
 					"id": "8caaea74-d6d7-47e2-94f3-c66a89ec42dd",
 					"operation": "add_value",
 					"amount": 4,
@@ -97,7 +89,7 @@
 		  "functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"custom_model_data":548004}
+				"components": {"item_model":"siscu_se:baby_copper_sword"}
 			}
 			],
 			"weight":1
@@ -108,7 +100,7 @@
 		  "functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"custom_model_data":548005}
+				"components": {"item_model":"siscu_se:baby_esposed_copper_sword"}
 			}
 			],
 			"weight":1
@@ -119,7 +111,7 @@
 		  "functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"custom_model_data":548006}
+				"components": {"item_model":"siscu_se:baby_weathered_copper_sword"}
 			}
 			],
 			"weight":1
@@ -130,7 +122,7 @@
 		  "functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"custom_model_data":548007}
+				"components": {"item_model":"siscu_se:baby_oxidised_copper_sword"}
 			}
 			],
 			"weight":1

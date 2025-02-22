@@ -1,0 +1,14 @@
+{
+	"model": {
+		"type": "range_dispatch",
+		"property": "custom_model_data",
+		"fallback": {"type": "model","model": "siscu_se:item/crimson_banner_0"},
+		"entries": [
+			{"model": {"type": "model","model": "siscu_se:item/crimson_banner_1"},"threshold": 1},
+			{"model": {"type": "model","model": "siscu_se:item/crimson_banner_2"},"threshold": 2},
+			{"model": {"type": "model","model": "siscu_se:item/crimson_banner_3"},"threshold": 3},
+			{"model": {"type": "model","model": "siscu_se:item/crimson_banner_4"},"threshold": 4},
+			{"model": {"type": "model","model": "siscu_se:item/crimson_banner_5"},"threshold": 5}
+		]
+	}
+}

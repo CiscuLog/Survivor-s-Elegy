@@ -6,7 +6,7 @@
 				"damage": {
 					"type": {
 						"source_entity": {
-							"nbt": "{Tags:[\"stray_zombie\"]}"
+							"nbt": "{Tags:[\"siscu.stray_zombie\"]}"
 						}
 					}
 				}

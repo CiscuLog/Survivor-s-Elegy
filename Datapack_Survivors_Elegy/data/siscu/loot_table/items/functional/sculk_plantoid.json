@@ -1,44 +1,37 @@
 {
 	"pools": [
-	{
-		"rolls": 1,
-		"entries": [
 		{
-			"type": "minecraft:item",
-			"name": "minecraft:beetroot",
-			"functions": [
-			{
-				"function": "minecraft:set_components",
-				"components": {
-					"custom_model_data":540000,
-                    "max_stack_size": 64,
-					"item_name":"{\"translate\":\"item.siscu.sculk_plantoid\"}",
-					"rarity": "rare",
-                    "food": {
-                        "nutrition": 0,
-                        "saturation": 0,
-                        "eat_seconds": 1000000
-                    },
-                    "custom_data": {
-                        "SE_data": {
-                            "UpdateVersion":"alpha v0.9.0",
-                            "Plantoid": 1,
-                            "StoredXp": 0
-                        }
-                    }
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:beetroot",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"max_stack_size": 64,
+								"item_name": "{\"translate\":\"item.siscu.sculk_plantoid\"}",
+								"minecraft:lore": [
+								  "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.siscu.place_decorated_pot\"}"
+								],
+								"item_model": "siscu_se:sculk_plantoid",
+								"rarity": "rare",
+								"custom_data": {
+									"SE_data": {
+										"id": "siscu:sculk_plantoid",
+										"UpdateVersion": "v1.0.0",
+										"StoredXp": 0
+									}
+								},
+								"consumable": {
+									"consume_seconds": 1000000
+								}
+							}
+						}
+					]
 				}
-			},
-			{
-				"function": "minecraft:set_lore",
-				"lore": [
-				{"translate":"text.siscu.place_decorated_pot","italic": false,"color": "gray"}
-				],
-				"entity": "this",
-				"mode": "replace_all"
-			}
 			]
 		}
-		]
-	}
 	]
 }

@@ -10,9 +10,9 @@
 			{
 				"function": "minecraft:set_components",
 				"components": {
-					"custom_model_data":540005,
+					"item_model":"siscu_se:stray_zombie",
 					"item_name":"{\"translate\":\"item.siscu.spawn_egg_stray_zombie\"}",
-					"entity_data":{"id":"zombie","Tags":["special","stray_zombie","unequipped"]}
+					"entity_data":{"id":"zombie","Tags":["siscu.special","siscu.stray_zombie","siscu.unequipped"]}
 				}
 			}
 			]

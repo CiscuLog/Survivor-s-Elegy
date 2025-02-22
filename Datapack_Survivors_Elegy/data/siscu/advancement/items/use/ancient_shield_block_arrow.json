@@ -1,0 +1,50 @@
+{
+	"criteria": {
+		"0": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"type": {
+						"tags": [
+							{
+								"id": "siscu:is_deflectable",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player": [
+					{
+						"condition": "any_of",
+						"terms": [
+							{
+								"condition": "reference",
+								"name": "siscu:items/ancient_shield_mainhand"
+							},
+							{
+								"condition": "all_of",
+								"terms": [
+									{
+										"condition": "reference",
+										"name": "siscu:items/ancient_shield_offhand"
+									},
+									{
+										"condition": "inverted",
+										"term": {
+											"condition": "reference",
+											"name": "siscu:items/ancient_shield_mainhand"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/use/ancient_shield/block_arrow"
+	}
+}

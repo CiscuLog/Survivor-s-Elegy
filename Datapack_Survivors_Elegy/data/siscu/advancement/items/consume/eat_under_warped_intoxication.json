@@ -1,5 +1,4 @@
 {
-	"show_toast": false,
 	"criteria": {
 		"Staff": {
 			"trigger":"minecraft:consume_item"

@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:rabbit_stew",
-			"components": {"custom_model_data":548101}
+			"components": {"item_model":"siscu_se:warped_wart_stew"}
 		},
-		"title": "Warped Food Effects",
-		"description": "Eating too much warped food is heavily poisonous",
+		"title": {"translate": "advancements.siscu.story.warped_wart_food_side_effects.title"},
+		"description": {"translate": "advancements.siscu.story.warped_wart_food_side_effects.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

@@ -1,11 +1,6 @@
 {
   "replace": false,
   "values": [
-    "minecraft:netherite_block",
-    "minecraft:emerald_block",
-    "minecraft:diamond_block",
-    "minecraft:gold_block",
-    "minecraft:iron_block",
-    "#minecraft:copper_blocks"
+    "#siscu:copper_beacon_blocks"
   ]
 }

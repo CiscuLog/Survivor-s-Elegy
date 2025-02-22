@@ -10,7 +10,7 @@
 				"function":"set_components",
 				"components": {
 					"minecraft:item_name": "{\"text\":\"HotLeg\",\"font\":\"siscu_se:piglinalt\"}",
-					"custom_model_data":548113
+					"item_model": "siscu_se:crimson_shield_12"
 				}
 			}
 			]

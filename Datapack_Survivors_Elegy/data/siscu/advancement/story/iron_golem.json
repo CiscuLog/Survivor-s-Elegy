@@ -1,11 +1,10 @@
 {
 	"display":{
 		"icon": {
-			"id": "minecraft:iron_ingot",
-			"components": {"custom_model_data":548104}
+			"id": "minecraft:iron_ingot"
 		},
-		"title": "Iron Golem",
-		"description": "Defender of Villagers",
+		"title": {"translate": "advancements.siscu.story.iron_golem.title"},
+		"description": {"translate": "advancements.siscu.story.iron_golem.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

@@ -1,0 +1,32 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:leather",
+			"functions": [
+			{
+				"function": "set_components",
+				"components": {
+					"item_name": "{\"translate\":\"item.siscu.illusioner_hat\"}",
+					"item_model": "siscu_se:illusioner_hat",
+					"custom_data":{
+						"SE_data":{
+							"UpdateVersion": "v1.0.0"
+						}
+					},
+					"equippable": {
+						"slot": "head",
+						"damage_on_hurt": false,
+						"asset_id": "siscu_se:illusioner"
+					}
+				}
+			}
+			]
+		}
+		]
+	}
+	]
+}

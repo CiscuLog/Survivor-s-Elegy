@@ -1,5 +1,4 @@
 {
-	"show_toast": true,
 	"criteria": {
 		"0": {
 			"trigger":"minecraft:player_hurt_entity",

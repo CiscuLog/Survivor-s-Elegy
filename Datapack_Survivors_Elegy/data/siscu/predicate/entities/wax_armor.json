@@ -1,0 +1,13 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "armor.body": {
+                "predicates": {
+                    "custom_data": {"SE_data":{"IsWax":1}}
+                }
+            }
+        }
+    }
+}

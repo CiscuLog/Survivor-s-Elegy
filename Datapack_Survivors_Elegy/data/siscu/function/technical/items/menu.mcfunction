@@ -2,8 +2,8 @@ tellraw @s [{"translate":"\n\n\n\n%====== Items Inventory ======[","bold":true,"
 
 tellraw @s [{"text":"About: ","color":"white","bold":true},{"text":" Survivor's Elegy adds a variety of new items. \nThe recipes are meant to be obtained by discovering the required ingredients or getting them from mob/chest loot. However, if you don't want to spend time on it, try the following options:\n","color":"white","bold":false}]
 tellraw @s [{"text":""},{"text":"- Get all recipes: ","color":"green","clickEvent":{"action":"run_command","value":"/recipe give @a *"},"hoverEvent":{"action":"show_text","contents":{"text":"Grant all recipes"}}},{"text":"All recipes will be shown on their respective crafting stations","color":"gray"}]
-tellraw @s [{"text":""},{"text":"- Check recipes on Wiki: ","color":"green","clickEvent":{"action":"open_url","value":"https://github.com/CiscuLog/Survivor-s-Elegy/wiki/Items"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to open URL"}}},{"text":"Opens the datapack's wiki","color":"gray"}]
-#tellraw @s [{"text":"\n  [ ","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function siscu:items/config/amethyst_shield_menu"}},{"text":"Amethyst Shield Config","color":"light_purple"},{"text":" ]"}]
+tellraw @s [{"text":""},{"text":"- Check items on Wiki: ","color":"green","clickEvent":{"action":"open_url","value":"https://github.com/CiscuLog/Survivor-s-Elegy/wiki/Items"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to open URL"}}},{"text":"Opens the datapack's wiki","color":"gray"}]
+#tellraw @s [{"text":"\n  [ ","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function siscu:items/config/ancient_shield_menu"}},{"text":"Amethyst Shield Config","color":"light_purple"},{"text":" ]"}]
 
 tellraw @s [{"text":"\n"}]
 playsound minecraft:block.note_block.bell master @s ~ ~ ~ 1 1

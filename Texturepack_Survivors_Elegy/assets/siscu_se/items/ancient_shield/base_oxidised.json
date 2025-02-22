@@ -1,0 +1,33 @@
+{
+	"model": {
+		"type": "range_dispatch",
+		"property": "custom_model_data",
+		"fallback": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/base_oxidised"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/base_blocking_oxidised"}},
+		"entries": [
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/1_oxidised"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/1_blocking_oxidised"}},
+				"threshold": 1
+			},
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/2_oxidised"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/2_blocking_oxidised"}},
+				"threshold": 2
+			},
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/3_oxidised"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/3_blocking_oxidised"}},
+				"threshold": 3
+			},
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/4_oxidised"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/4_blocking_oxidised"}},
+				"threshold": 4
+			},
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/5_oxidised"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/5_blocking_oxidised"}},
+				"threshold": 5
+			},
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/6_oxidised"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/6_blocking_oxidised"}},
+				"threshold": 6
+			}
+		]
+	}
+}

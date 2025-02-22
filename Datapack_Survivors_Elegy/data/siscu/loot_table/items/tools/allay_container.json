@@ -13,13 +13,13 @@
                         "max_stack_size": 16,
                         "item_name": "{\"italic\":false,\"translate\":\"item.siscu.allay_container\"}",
                         "rarity": "rare",
-                        "custom_model_data": 540000,
+                        "item_model": "siscu_se:allay_container_empty",
                         "custom_data": {
                             "SE_data": {
-                            "AllayContainer": 1,
-                            "ContainsAllay": 0,
-                            "CustomTool": 1,
-                            "UpdateVersion": "alpha v0.9.3"
+                                "id": "siscu:allay_container",
+                                "AllayContainer": 1,
+                                "ContainsAllay": 0,
+                                "UpdateVersion": "v1.0.0"
                             }
                         }
                     }

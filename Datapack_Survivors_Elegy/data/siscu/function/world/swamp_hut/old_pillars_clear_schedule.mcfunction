@@ -1,1 +1,0 @@
-execute as @e[tag=swamp_hut_pillar_clear] at @s run function siscu:world/swamp_hut/old_pillars_clear

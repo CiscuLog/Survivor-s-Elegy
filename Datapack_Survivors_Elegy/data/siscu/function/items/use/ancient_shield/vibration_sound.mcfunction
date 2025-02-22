@@ -1,0 +1,1 @@
+$playsound siscu_se:item.ancient_shield.gather_vibrations player @a ~ ~ ~ 1 $(x)

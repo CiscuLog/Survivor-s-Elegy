@@ -1,0 +1,230 @@
+{
+  "processors": [
+    {
+      "rules": [
+        {
+          "location_predicate": {
+            "block": "minecraft:bricks",
+            "predicate_type": "minecraft:block_match"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:bricks"
+          }
+        },
+        {
+          "location_predicate": {
+            "block": "minecraft:granite",
+            "predicate_type": "minecraft:block_match"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:granite"
+          }
+        },
+        {
+          "location_predicate": {
+            "block": "minecraft:polished_granite",
+            "predicate_type": "minecraft:block_match"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:polished_granite"
+          }
+        },
+        {
+          "location_predicate": {
+            "block": "minecraft:stone_bricks",
+            "predicate_type": "minecraft:block_match"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:stone_bricks"
+          }
+        },
+        {
+          "location_predicate": {
+            "block": "minecraft:cracked_stone_bricks",
+            "predicate_type": "minecraft:block_match"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_stone_bricks"
+          }
+        },
+        {
+          "location_predicate": {
+            "block": "minecraft:mud_bricks",
+            "predicate_type": "minecraft:block_match"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:mud_bricks"
+          }
+        },
+        {
+          "location_predicate": {
+            "block": "minecraft:packed_mud",
+            "predicate_type": "minecraft:block_match"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:packed_mud"
+          }
+        },
+        {
+          "location_predicate": {
+            "block": "minecraft:sandstone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:sandstone"
+          }
+        },
+        {
+          "location_predicate": {
+            "block": "minecraft:smooth_sandstone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:smooth_sandstone"
+          }
+        },
+        {
+          "location_predicate": {
+            "block": "minecraft:cut_sandstone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:cut_sandstone"
+          }
+        },
+        {
+          "location_predicate": {
+            "block": "minecraft:deepslate_bricks",
+            "predicate_type": "minecraft:block_match"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:deepslate_bricks"
+          }
+        },
+        {
+          "location_predicate": {
+            "block": "minecraft:cracked_deepslate_bricks",
+            "predicate_type": "minecraft:block_match"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_deepslate_bricks"
+          }
+        },
+        {
+          "location_predicate": {
+            "block": "minecraft:deepslate_tiles",
+            "predicate_type": "minecraft:block_match"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:deepslate_tiles"
+          }
+        },
+        {
+          "location_predicate": {
+            "block": "minecraft:cracked_deepslate_tiles",
+            "predicate_type": "minecraft:block_match"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_deepslate_tiles"
+          }
+        },
+        {
+          "location_predicate": {
+            "block": "minecraft:white_terracotta",
+            "predicate_type": "minecraft:block_match"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:white_terracotta"
+          }
+        },
+        {
+          "location_predicate": {
+            "block": "minecraft:dirt",
+            "predicate_type": "minecraft:block_match"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:dirt"
+          }
+        },
+        {
+          "location_predicate": {
+            "block": "minecraft:grass_block",
+            "predicate_type": "minecraft:block_match"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:grass_block"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:leather",
+			"functions": [
+			{
+				"function": "set_components",
+				"components": {
+					"item_name": "{\"translate\":\"item.siscu.vindicator_chestplate\"}",
+					"item_model": "siscu_se:vindicator_chestplate",
+					"hide_additional_tooltip": {},
+					"custom_data":{
+						"SE_data":{
+							"UpdateVersion": "v1.0.0"
+						}
+					},
+					"equippable": {
+						"slot": "chest",
+						"damage_on_hurt": false,
+						"asset_id": "siscu_se:vindicator"
+					}
+				}
+			},
+			{
+				"function": "minecraft:set_attributes",
+				"modifiers": [
+					{
+						"attribute": "minecraft:armor",
+						"id": "b602c325-aa83-4b4a-baa6-5bcf2ac522a8",
+						"amount": 0,
+						"operation": "add_value",
+						"slot": "chest"
+					}
+				]
+			}
+			]
+		}
+		]
+	}
+	]
+}

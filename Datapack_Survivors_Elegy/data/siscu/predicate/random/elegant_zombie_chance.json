@@ -1,0 +1,35 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "location_check",
+                    "predicate": {
+                        "position": {"y": {"max": 130}}
+                    }
+                },
+                {
+                    "condition": "random_chance",
+                    "chance": 0.1
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "location_check",
+                    "predicate": {
+                        "position": {"y": {"min": 150}}
+                    }
+                },
+                {
+                    "condition": "random_chance",
+                    "chance": 0.5
+                }
+            ]
+        }
+    ]
+}

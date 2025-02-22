@@ -1,47 +1,74 @@
 {
 	"pools": [
-	{
-		"rolls": 1,
-		"entries": [
 		{
-			"type": "minecraft:item",
-			"name": "minecraft:warped_fungus_on_a_stick",
-			"functions": [
-			{
-				"function": "set_components",
-				"components":{
-				"minecraft:unbreakable":{"show_in_tooltip":false},
-				"minecraft:custom_model_data": 540000,
-				"minecraft:custom_data": {
-					"SE_data": {
-					"UpdateVersion": "alpha v0.9.0"
-					}
-				},
-				"minecraft:item_name": "{\"translate\":\"item.siscu.config\"}",
-				"rarity": "epic"
-				}
-			},
-			{
-				"function": "minecraft:set_lore",
-				"lore": [
-				{"translate":"text.siscu.click_keybind","italic": false,"color": "gray","extra":[
-					{"keybind":"key.use","extra":[
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:raw_gold",
+					"functions": [
 						{
-							"translate": "text.siscu.config"
+							"function": "set_components",
+							"components": {
+								"minecraft:item_name": "{\"translate\":\"item.siscu.config\"}",
+								"rarity": "epic",
+								"item_model": "siscu_se:config",
+								"minecraft:custom_data": {
+									"SE_data": {
+										"id": "siscu:config",
+										"UpdateVersion": "v1.0.0"
+									}
+								},
+								"consumable": {
+									"consume_seconds": 1000000
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "text.siscu.click_keybind",
+									"italic": false,
+									"color": "gray",
+									"extra": [
+										{
+											"keybind": "key.use",
+											"extra": [
+												{
+													"translate": "text.siscu.config"
+												}
+											]
+										}
+									]
+								},
+								{
+									"translate": "text.siscu.config1",
+									"italic": false,
+									"color": "gray"
+								},
+								{
+									"translate": "text.siscu.config2_1",
+									"italic": false,
+									"color": "red"
+								},
+								{
+									"translate": "text.siscu.config2_2",
+									"italic": false,
+									"color": "red"
+								},
+								{
+									"translate": "text.siscu.config2_3",
+									"italic": false,
+									"color": "red"
+								}
+							],
+							"entity": "this",
+							"mode": "replace_all"
 						}
-					]}
-				]},
-				{"translate":"text.siscu.config1","italic":false,"color":"gray"},
-				{"translate": "text.siscu.config2_1","italic":false,"color":"red"},
-				{"translate": "text.siscu.config2_2","italic":false,"color":"red"},
-				{"translate": "text.siscu.config2_3","italic":false,"color":"red"}
-				],
-				"entity": "this",
-				"mode": "replace_all"
-			}
+					]
+				}
 			]
 		}
-		]
-	}
 	]
 }

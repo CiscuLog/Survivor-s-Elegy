@@ -10,22 +10,20 @@
 				{
 					"function": "minecraft:set_components",
                     "components": {
-                        "food": {
-                            "nutrition": 0,
-                            "saturation": 0,
-                            "eat_seconds": 1000000,
-                            "can_always_eat": true
+                        "consumable": {
+                            "consume_seconds": 1000000,
+                            "animation": "bow"
                         },
                         "max_stack_size": 1,
                         "item_name": "{\"italic\":false,\"translate\":\"item.siscu.allay_container_full\"}",
                         "rarity": "rare",
-                        "custom_model_data": 540001,
+                        "item_model": "siscu_se:allay_container_allay",
                         "custom_data": {
                             "SE_data": {
-                            "AllayContainer": 1,
-                            "ContainsAllay": 1,
-                            "CustomTool": 1,
-                            "UpdateVersion": "alpha v0.9.3"
+                                "id": "siscu:allay_container_allay",
+                                "AllayContainer": 1,
+                                "ContainsAllay": 1,
+                                "UpdateVersion": "v1.0.0"
                             }
                         }
                     }

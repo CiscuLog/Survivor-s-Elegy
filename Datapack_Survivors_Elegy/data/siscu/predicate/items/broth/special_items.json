@@ -3,12 +3,53 @@
     "terms": [
         {
             "condition": "minecraft:entity_properties",
-            "entity":"this",
+            "entity": "this",
             "predicate": {
                 "slots": {
                     "weapon.mainhand": {
                         "predicates": {
-                            "custom_data": {"SE_data":{"FriedEgg": 1}}
+                            "custom_data": {
+                                "SE_data": {
+                                    "id": "siscu:fried_egg"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "weapon.mainhand": {
+                        "predicates": {
+                            "custom_data": {
+                                "SE_data": {
+                                    "id": "siscu:ancient_tofu"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "weapon.mainhand": {
+                        "items": [
+                            "rabbit_foot"
+                        ],
+                        "predicates": {
+                            "custom_data": {
+                                "SE_data": {
+                                    "id": "siscu:frog_leg"
+                                }
+                            }
                         }
                     }
                 }

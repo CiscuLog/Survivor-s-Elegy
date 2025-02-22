@@ -6,7 +6,7 @@
     "minecraft:drowned",
     "minecraft:husk",
     "#minecraft:skeletons",
-    "#minecraft:piglin",
+    "#siscu:piglin",
     "minecraft:armor_stand"
   ]
 }

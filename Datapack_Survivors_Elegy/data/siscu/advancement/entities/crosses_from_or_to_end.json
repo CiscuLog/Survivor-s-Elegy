@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "from": {
+            "trigger": "changed_dimension",
+            "conditions": {
+                "from":"minecraft:the_end"
+            }
+        },
+        "to": {
+            "trigger": "changed_dimension",
+            "conditions": {
+                "to":"minecraft:the_end"
+            }
+        }
+    },
+    "requirements": [
+        ["from","to"]
+    ],
+    "rewards": {
+        "function": "siscu:world/end_travel"
+    }
+}

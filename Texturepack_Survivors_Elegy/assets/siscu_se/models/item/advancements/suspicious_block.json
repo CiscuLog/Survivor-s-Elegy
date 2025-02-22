@@ -1,11 +1,11 @@
 {
-	"credit": "Made by CiscuLog with Blockbench",
 	"textures": {
 		"0": "block/gravel",
 		"1": "block/item_frame",
-		"2": "block/birch_planks",
-		"particle": "sand"
+		"2": "block/birch_planks"
 	},
+	"ambientocclusion": false,
+	"particle": "block/gravel",
 	"elements": [
 		{
 			"from": [0, 0, 0],

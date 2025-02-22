@@ -1,0 +1,132 @@
+{
+    "name": "siscu:village/infected_city/wide_apartment",
+    "fallback": "empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/apartments/apartment_wide_1",
+                "projection": "rigid",
+                "processors": "siscu:apartment"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/apartments/apartment_wide_2",
+                "projection": "rigid",
+                "processors": "siscu:apartment"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/apartments/apartment_wide_3",
+                "projection": "rigid",
+                "processors": "siscu:apartment"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/apartments/apartment_wide_4",
+                "projection": "rigid",
+                "processors": "siscu:apartment"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/apartments/apartment_wide_5",
+                "projection": "rigid",
+                "processors": "siscu:apartment"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/apartments/apartment_wide_6",
+                "projection": "rigid",
+                "processors": "siscu:apartment"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/apartments/apartment_wide_7",
+                "projection": "rigid",
+                "processors": "siscu:apartment"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/apartments/apartment_wide_8",
+                "projection": "rigid",
+                "processors": "siscu:apartment"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/apartments/apartment_wide_9",
+                "projection": "rigid",
+                "processors": "siscu:apartment"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/apartments/apartment_wide_10",
+                "projection": "rigid",
+                "processors": "siscu:apartment"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/apartments/apartment_wide_11",
+                "projection": "rigid",
+                "processors": "siscu:apartment"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/apartments/apartment_wide_12",
+                "projection": "rigid",
+                "processors": "siscu:apartment"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/apartments/apartment_wide_13",
+                "projection": "rigid",
+                "processors": "siscu:apartment"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/apartments/apartment_wide_14",
+                "projection": "rigid",
+                "processors": "siscu:apartment"
+            },
+            "weight": 1
+        }
+    ]
+}

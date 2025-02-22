@@ -1,5 +1,4 @@
 {
-	"show_toast": false,
 	"criteria": {
 		"0": 
 		{
@@ -19,6 +18,6 @@
 		  }
 	},
 	"rewards": {
-		"function": "siscu:entities/sculk_plantoid/place_in_pot"
+		"function": "siscu:advancement/put_in_decorated_pot"
 	}
 }

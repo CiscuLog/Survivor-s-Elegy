@@ -1,0 +1,188 @@
+{
+  "processors": [
+    {
+      "rules": [
+        {
+          "input_predicate": {
+            "block": "minecraft:bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.05
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:granite"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.05
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:polished_granite"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:sandstone",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:smooth_sandstone"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:sandstone",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cut_sandstone"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:smooth_sandstone",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:sandstone"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:white_concrete",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:white_concrete_powder"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:mud_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:packed_mud"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    },
+    {
+      "rules": [
+        {
+          "input_predicate": {
+            "block": "minecraft:stone_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_stone_bricks"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:deepslate_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_deepslate_bricks"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:deepslate_tiles",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_deepslate_tiles"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    },
+    {
+      "processor_type": "rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "tag": "siscu:infected_city/replace_with_bricks",
+            "predicate_type": "tag_match"
+          },
+          "location_predicate": {
+            "block": "white_concrete",
+            "predicate_type": "block_match"
+          },
+          "output_state": {
+            "Name": "bricks"
+          }
+        },
+        {
+          "input_predicate": {
+            "tag": "siscu:infected_city/replace_with_mud",
+            "predicate_type": "tag_match"
+          },
+          "location_predicate": {
+            "block": "white_concrete",
+            "predicate_type": "block_match"
+          },
+          "output_state": {
+            "Name": "mud_bricks"
+          }
+        },
+        {
+          "input_predicate": {
+            "tag": "siscu:infected_city/replace_with_sandstone",
+            "predicate_type": "tag_match"
+          },
+          "location_predicate": {
+            "block": "white_concrete",
+            "predicate_type": "block_match"
+          },
+          "output_state": {
+            "Name": "smooth_sandstone"
+          }
+        }
+      ]
+    }
+  ]
+}

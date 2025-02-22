@@ -1,1 +1,0 @@
-execute as @a[tag=struck] run function siscu:entities/player/elytra_shootdown/return_elytra

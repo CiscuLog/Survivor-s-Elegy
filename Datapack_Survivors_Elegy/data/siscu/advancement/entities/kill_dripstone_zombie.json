@@ -5,7 +5,7 @@
 			"conditions": {
 				"entity":
 				{
-					"nbt": "{Tags:[\"dripstone_zombie\"]}"
+					"nbt": "{Tags:[\"siscu.dripstone_zombie\"]}"
 				}
 			}
 		}

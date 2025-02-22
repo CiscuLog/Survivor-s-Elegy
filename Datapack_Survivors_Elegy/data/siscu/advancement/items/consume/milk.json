@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"Staff": {
+			"trigger":"minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items":["minecraft:milk_bucket"]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/consume/milk"
+	}
+}

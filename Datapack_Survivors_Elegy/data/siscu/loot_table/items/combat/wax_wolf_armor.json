@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "wolf_armor",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"item.siscu.wax_wolf_armor\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"text.siscu.wax_wolf_armor\",\"italic\": false,\"color\": \"gray\"}",
+                  "{\"translate\":\"text.siscu.wax_wolf_armor2\",\"italic\": false,\"color\": \"gray\"}"
+                ],
+                "item_model": "siscu_se:wax_wolf_armor",
+                "minecraft:custom_data": {
+                  "SE_data": {
+                    "id": "siscu:wax_wolf_armor",
+                    "IsWax": 1,
+                    "CustomWolfArmor": 1,
+                    "UpdateVersion": "v1.0.0"
+                  }
+                },
+                "equippable": {
+                    "slot": "body",
+                    "damage_on_hurt": false,
+                    "asset_id": "siscu_se:wax"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

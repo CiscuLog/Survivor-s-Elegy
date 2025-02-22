@@ -37,5 +37,12 @@
 			"translation": [0, 0, 0.75],
 			"scale": [2, 2, 2]
 		}
-	}
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 1},"model": "siscu_se:item/crimson_painting_1"},
+		{"predicate": {"custom_model_data": 2},"model": "siscu_se:item/crimson_painting_2"},
+		{"predicate": {"custom_model_data": 3},"model": "siscu_se:item/crimson_painting_3"},
+		{"predicate": {"custom_model_data": 4},"model": "siscu_se:item/crimson_painting_4"},
+		{"predicate": {"custom_model_data": 5},"model": "siscu_se:item/crimson_painting_5"}
+	]
 }

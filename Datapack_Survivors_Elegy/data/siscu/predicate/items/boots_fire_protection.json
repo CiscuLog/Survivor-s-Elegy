@@ -7,7 +7,7 @@
         "predicates": {
           "minecraft:enchantments": [
             {
-              "enchantment": "minecraft:fire_protection"
+              "enchantments": "fire_protection"
             }
           ]
         }

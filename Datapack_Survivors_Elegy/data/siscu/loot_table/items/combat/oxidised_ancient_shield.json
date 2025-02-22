@@ -1,0 +1,39 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "siscu:items/combat/ancient_shield",
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_model": "siscu_se:ancient_shield/base_oxidised",
+								"minecraft:banner_patterns": [
+									{
+										"color": "yellow",
+										"pattern": "circle"
+									},
+									{
+										"color": "yellow",
+										"pattern": "border"
+									}
+								]
+							}
+						},
+						{
+							"function": "set_custom_data",
+							"tag": {
+								"SE_data": {
+									"Oxidation": 3
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

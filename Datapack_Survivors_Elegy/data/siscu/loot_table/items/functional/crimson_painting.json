@@ -1,0 +1,29 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:leather",
+			"functions": [
+			{
+				"function": "minecraft:set_components",
+				"components": {
+					"item_name":"{\"translate\":\"item.siscu.crimson_painting\"}",
+					"rarity":"uncommon",
+					"item_model": "siscu_se:crimson_painting_0",
+					"custom_data": {
+						"SE_data": {
+							"id": "siscu:crimson_painting",
+							"UpdateVersion": "v1.0.0"
+						}
+					}
+				}
+			}
+			]
+		}
+		]
+	}
+	]
+}

@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:leather",
-			"components": {"custom_model_data":548102}
+			"components": {"item_model": "siscu_se:villager_head"}
 		},
-		"title": "Villagers",
-		"description": "A peaceful tribe",
+		"title": {"translate": "advancements.siscu.story.villagers.title"},
+		"description": {"translate": "advancements.siscu.story.villagers.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

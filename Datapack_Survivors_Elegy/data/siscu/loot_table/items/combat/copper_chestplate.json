@@ -5,45 +5,48 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "leather_chestplate",
+                    "name": "iron_chestplate",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:damage": 0,
-                            "minecraft:item_name": "{\"translate\":\"item.siscu.copper_chestplate\"}",
-                            "minecraft:dyed_color": {
-                                "rgb": 15301202,
-                                "show_in_tooltip": false
-                            },
-                            "minecraft:lore": [
-                              "{\"text\":\"Charge: 0\",\"color\":\"yellow\",\"italic\":false}"
-                            ],
-                            "minecraft:custom_model_data": 548101,
-                            "minecraft:custom_data": {
-                                "SE_data": {
-                                "IsCopper": 1,
-                                "CustomChestplate": 1,
-                                "UpdateVersion": "alpha v0.9.0",
-                                "Charge": 0,
-                                "Oxidation": 0
+                                "damage": 0,
+                                "max_stack_size": 1,
+                                "item_name": "{\"translate\":\"item.siscu.copper_chestplate\"}",
+                                "lore": [
+                                    "{\"text\":\"Charge: 0\",\"color\":\"yellow\",\"italic\":false}"
+                                ],
+                                "item_model": "siscu_se:copper_chestplate",
+                                "custom_data": {
+                                    "SE_data": {
+                                        "id": "siscu:copper_chestplate",
+                                        "IsCopper": 1,
+                                        "UpdateVersion": "v1.0.0",
+                                        "Charge": 0,
+                                        "Oxidation": 0
+                                    }
+                                },
+                                "equippable": {
+                                    "slot": "chest",
+                                    "asset_id": "siscu_se:copper",
+                                    "equip_sound": "item.armor.equip_gold"
+                                },
+                                "repairable": {
+                                    "items": "copper_ingot"
+                                },
+                                "max_damage": 140,
+                                "attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "armor",
+                                            "id": "15b5fdac-e1f9-4166-a8f1-ea205413c9c0",
+                                            "amount": 5,
+                                            "operation": "add_value",
+                                            "slot": "chest"
+                                        }
+                                    ]
                                 }
-                            },
-                            "max_damage": 140
                             }
-                        },
-                        {
-                          "function": "minecraft:set_attributes",
-                          "modifiers": [
-                            {
-                              "attribute": "minecraft:generic.armor",
-                              "name": "",
-                              "id": "15b5fdac-e1f9-4166-a8f1-ea205413c9c0",
-                              "amount": 5,
-                              "operation": "add_value",
-                              "slot": "chest"
-                            }
-                          ]
                         }
                     ]
                 }

@@ -3,8 +3,8 @@
 		"icon": {
 			"id": "minecraft:milk_bucket"
 		},
-		"title": "Drinking Milk",
-		"description": "Mitigates warped food poisoning",
+		"title": {"translate": "advancements.siscu.story.warped_wart_food_milk.title"},
+		"description": {"translate": "advancements.siscu.story.warped_wart_food_milk.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

@@ -1,0 +1,23 @@
+{
+	"criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["wolf_armor"]
+				}]
+			}
+        },
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["honeycomb"]
+				}]
+			}
+        }
+    },
+	"rewards": {
+		"recipes": ["siscu:wax_wolf_armor"]
+	}
+}

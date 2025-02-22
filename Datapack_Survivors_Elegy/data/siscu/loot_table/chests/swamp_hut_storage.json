@@ -106,7 +106,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "siscu:items/food/frog",
+          "value": "siscu:items/food/frog_leg",
 		  "functions": [{
 			  "function": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}

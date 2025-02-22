@@ -1,20 +1,23 @@
 {
     "values": [
-        "minecraft:item",
-        "minecraft:fishing_bobber",
-        "minecraft:leash_knot",
-        "minecraft:painting",
+        "guardian",
+        "elder_guardian",
+        "evoker_fangs",
+
+        "item",
+        "fishing_bobber",
+        "leash_knot",
+        "painting",
         "#siscu:item_frames",
-        "minecraft:area_effect_cloud",
-        "minecraft:falling_block",
-        "minecraft:marker",
-        "minecraft:item_display",
-        "minecraft:block_display",
-        "minecraft:text_display",
-        "minecraft:interaction",
-        "minecraft:guardian",
-        "minecraft:elder_guardian",
-        "minecraft:wind_charge",
-        "minecraft:breeze_wind_charge"
+        "area_effect_cloud",
+        "falling_block",
+        "marker",
+        "item_display",
+        "block_display",
+        "text_display",
+        "interaction",
+        "wind_charge",
+        "breeze_wind_charge",
+        "ominous_item_spawner"
     ]
 }

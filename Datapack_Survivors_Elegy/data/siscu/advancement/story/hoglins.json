@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:leather",
-			"components": {"custom_model_data":548109}
+			"components": {"item_model": "siscu_se:hoglin_head"}
 		},
-		"title": "Hoglins",
-		"description": "The one and only meat source in the nether",
+		"title": {"translate": "advancements.siscu.story.hoglins.title"},
+		"description": {"translate": "advancements.siscu.story.hoglins.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

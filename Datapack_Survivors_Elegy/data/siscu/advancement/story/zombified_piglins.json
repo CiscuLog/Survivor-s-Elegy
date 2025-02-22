@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:leather",
-			"components": {"custom_model_data":548113}
+			"components": {"item_model":"siscu_se:zombified_piglin_head"}
 		},
-		"title": "Zombified Piglins",
-		"description": "Usually passive, undead piglins",
+		"title": {"translate": "advancements.siscu.story.zombified_piglins.title"},
+		"description": {"translate": "advancements.siscu.story.zombified_piglins.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

@@ -1,6 +1,6 @@
 # Tag the entity as checked
 
-tag @s add creeper_checked
+tag @s add siscu.creeper_checked
 
 # Run the randomiser
 

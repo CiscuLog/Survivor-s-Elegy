@@ -1,0 +1,22 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "location_check",
+                    "predicate": {
+                        "position": {"y": {"min": 130,"max": 140}}
+                    }
+                },
+                {
+                    "condition": "location_check",
+                    "predicate": {
+                        "structures": "siscu:infected_citadel"
+                    }
+                }
+            ]
+        }
+    ]
+}

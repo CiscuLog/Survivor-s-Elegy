@@ -5,16 +5,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:air",
-	  "weight":1
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:bone",
 		  "functions":[
 			  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548110}
+			  "components": {"item_model":"siscu_se:piglin_skull"}
 			  }
 			],
 		"weight":3,
@@ -22,7 +17,8 @@
 		  {
 			  "condition": "minecraft:location_check",
 			  "predicate": {"dimension": "minecraft:the_nether"}
-		  }
+		  },
+		  {"condition": "random_chance","chance": 0.75}
 		  ]
       },
         {
@@ -31,7 +27,7 @@
 		  "functions":[
 			  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548120}
+			  "components": {"item_model":"siscu_se:villager_skull"}
 			  }
 			],
 		"weight":1,
@@ -39,7 +35,8 @@
 		  {
 			  "condition": "minecraft:location_check",
 			  "predicate": {"dimension": "minecraft:overworld"}
-		  }
+		  },
+		  {"condition": "random_chance","chance": 0.5}
 		  ]
       }
 	]

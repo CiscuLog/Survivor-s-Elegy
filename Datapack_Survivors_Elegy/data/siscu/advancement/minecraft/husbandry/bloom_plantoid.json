@@ -3,7 +3,7 @@
 	"display":{
 			"icon": {
 					"id": "minecraft:leather",
-					"components": {"custom_model_data":540104}
+					"components": {"item_model":"siscu_se:sculk_plantoid_4"}
 			},
 			"title": {"translate": "advancements.siscu.minecraft.bloom_plantoid.title"},
 			"description": [{

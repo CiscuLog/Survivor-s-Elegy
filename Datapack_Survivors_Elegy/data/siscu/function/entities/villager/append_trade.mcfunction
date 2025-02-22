@@ -1,6 +1,6 @@
 
-data modify entity @s Offers.Recipes[-1].buy set from entity @e[tag=new_trade,limit=1,sort=nearest] HandItems[0]
-data modify entity @s Offers.Recipes[-1].buyB set from entity @e[tag=new_trade,limit=1,sort=nearest] HandItems[1]
-data modify entity @s Offers.Recipes[-1].sell set from entity @e[tag=new_trade,limit=1,sort=nearest] ArmorItems[3]
-tag @e[tag=new_trade,limit=1,sort=nearest] add dead
+data modify entity @s Offers.Recipes[-1].buy set from entity @n[tag=siscu.new_trade] HandItems[0]
+data modify entity @s Offers.Recipes[-1].buyB set from entity @n[tag=siscu.new_trade] HandItems[1]
+data modify entity @s Offers.Recipes[-1].sell set from entity @n[tag=siscu.new_trade] ArmorItems[3]
+tag @n[tag=siscu.new_trade] add siscu.dead
 function siscu:world/kill_dead

@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:cookie",
-			"components": {"custom_model_data":548101}
+			"components": {"item_model":"siscu_se:warped_wart"}
 		},
-		"title": "Warped Wart Food",
-		"description": "Strange food, used to combat the nether's curse",
+		"title": {"translate": "advancements.siscu.story.warped_wart_food.title"},
+		"description": {"translate": "advancements.siscu.story.warped_wart_food.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

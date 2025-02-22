@@ -1,24 +1,24 @@
 {
     "sources": [
         {
-            "type": "directory",
-            "source": "block",
-            "prefix": "block/"
+            "type": "single",
+            "resource": "entity/copper_trident"
         },
         {
-            "type": "directory",
-            "source": "item",
-            "prefix": "item/"
+            "type": "single",
+            "resource": "entity/horse/horse_skeleton"
         },
         {
-            "type": "directory",
-            "source": "entity",
-            "prefix": "entity/"
+            "type": "single",
+            "resource": "entity/horse/horse_zombie"
         },
         {
-            "type": "directory",
-            "source": "models",
-            "prefix": "models/"
+            "type": "single",
+            "resource": "entity/wandering_trader"
+        },
+        {
+            "type": "single",
+            "resource": "entity/witch"
         },
         {
             "type": "directory",
@@ -26,12 +26,44 @@
             "prefix": "painting/"
         },
         {
-            "type": "single",
-            "resource": "entity/bell/bell_body"
+            "type": "directory",
+            "source": "entity/skeleton",
+            "prefix": "entity/skeleton/"
         },
         {
-            "type": "single",
-            "resource": "entity/enchanting_table_book"
+            "type": "directory",
+            "source": "entity/illager",
+            "prefix": "entity/illager/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/piglin",
+            "prefix": "entity/piglin/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/villager",
+            "prefix": "entity/villager/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/hoglin",
+            "prefix": "entity/hoglin/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/equipment",
+            "prefix": "entity/equipment/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/wither",
+            "prefix": "entity/wither/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/zombie_villager",
+            "prefix": "entity/zombie_villager/"
         }
     ]
 }

@@ -11,12 +11,15 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "{\"translate\":\"item.siscu.exposed_copper_sword\"}",
-                                "minecraft:custom_model_data": 548102,
-                                "minecraft:custom_data": {
-                                    "SE_data": {
-                                    "Oxidation": 1
-                                    }
+                                "minecraft:custom_model_data": {"floats": [1]}
                             }
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": {
+                                "SE_data": {
+                                    "Oxidation": 1
+                                }
                             }
                         }
                     ]

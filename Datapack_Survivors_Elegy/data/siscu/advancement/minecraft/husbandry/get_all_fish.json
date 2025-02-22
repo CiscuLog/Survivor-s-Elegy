@@ -1,19 +1,24 @@
 {
 	"parent": "minecraft:husbandry/fishy_business",
-	"display":{
-			"icon": {
-					"id": "minecraft:cod",
-					"components": {"custom_model_data":548102}
-			},
-			"title": {"translate": "advancements.siscu.minecraft.fish_all.title"},
-			"description": [{
+	"display": {
+		"icon": {
+			"id": "minecraft:cod",
+			"components": {
+				"item_model": "siscu_se:tuna"
+			}
+		},
+		"title": {
+			"translate": "advancements.siscu.minecraft.fish_all.title"
+		},
+		"description": [
+			{
 				"translate": "advancements.siscu.minecraft.fish_all.description"
-				},
-				{
-					"text":"\nSurvivor's Elegy",
-					"color": "gold",
-					"italic": true
-				}
+			},
+			{
+				"text": "\nSurvivor's Elegy",
+				"color": "gold",
+				"italic": true
+			}
 		],
 		"show_toast": true,
 		"announce_to_chat": false,
@@ -22,103 +27,161 @@
 	},
 	"criteria": {
 		"2": {
-			"trigger":"minecraft:inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{
-					"items": ["cod"],
-					"components": {"custom_model_data":548101}
-				}
+					{
+						"predicates": {
+							"custom_data": {
+								"SE_data": {
+									"id": "siscu:catfish"
+								}
+							}
+						}
+					}
 				]
 			}
 		},
 		"3": {
-			"trigger":"minecraft:inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{
-					"items": ["cod"],
-					"components": {"custom_model_data":548102}
-				}
+					{
+						"predicates": {
+							"custom_data": {
+								"SE_data": {
+									"id": "siscu:tuna"
+								}
+							}
+						}
+					}
 				]
 			}
 		},
 		"4": {
-			"trigger":"minecraft:inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{
-					"items": ["salmon"],
-					"components": {"custom_model_data":548101}
-				}
+					{
+						"predicates": {
+							"custom_data": {
+								"SE_data": {
+									"id": "siscu:turbot"
+								}
+							}
+						}
+					}
 				]
 			}
 		},
 		"5": {
-			"trigger":"minecraft:inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{
-					"items": ["salmon"],
-					"components": {"custom_model_data":548102}
-				}
+					{
+						"predicates": {
+							"custom_data": {
+								"SE_data": {
+									"id": "siscu:hake"
+								}
+							}
+						}
+					}
 				]
 			}
 		},
 		"6": {
-			"trigger":"minecraft:inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{
-					"items": ["tropical_fish"],
-					"components": {"custom_model_data":548100}
-				}
+					{
+						"predicates": {
+							"custom_data": {
+								"SE_data": {
+									"id": "siscu:bass"
+								}
+							}
+						}
+					}
 				]
 			}
 		},
 		"7": {
-			"trigger":"minecraft:inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{
-					"items": ["pufferfish"],
-					"components": {"custom_model_data":548100}
-				}
+					{
+						"predicates": {
+							"custom_data": {
+								"SE_data": {
+									"id": "siscu:trout"
+								}
+							}
+						}
+					}
 				]
 			}
 		},
 		"8": {
-			"trigger":"minecraft:inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{
-					"items": ["cod"],
-					"components": {"custom_model_data":548103}
-				}
+					{
+						"predicates": {
+							"custom_data": {
+								"SE_data": {
+									"id": "siscu:koi"
+								}
+							}
+						}
+					}
 				]
 			}
 		},
 		"9": {
-			"trigger":"minecraft:inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{
-					"items": ["cod"],
-					"components": {"custom_model_data":548104}
-				}
+					{
+						"predicates": {
+							"custom_data": {
+								"SE_data": {
+									"id": "siscu:pufferfish"
+								}
+							}
+						}
+					}
 				]
 			}
 		}
 	},
 	"requirements": [
-		["2"],
-		["3"],
-		["4"],
-		["5"],
-		["6"],
-		["7"],
-		["8"],
-		["9"]
-  ],
-  	"rewards": {"experience": 1000}
+		[
+			"2"
+		],
+		[
+			"3"
+		],
+		[
+			"4"
+		],
+		[
+			"5"
+		],
+		[
+			"6"
+		],
+		[
+			"7"
+		],
+		[
+			"8"
+		],
+		[
+			"9"
+		]
+	],
+	"rewards": {
+		"experience": 1000
+	}
 }

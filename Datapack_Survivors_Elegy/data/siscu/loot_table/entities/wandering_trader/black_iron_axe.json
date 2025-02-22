@@ -9,7 +9,7 @@
 			"functions": [
 				{
 					"function": "minecraft:enchant_randomly",
-					"enchantments": ["minecraft:mending","minecraft:efficiency","minecraft:sharpness","minecraft:bane_of_arthropods","minecraft:smite","minecraft:unbreaking"]
+					"options": ["minecraft:mending","minecraft:efficiency","minecraft:sharpness","minecraft:bane_of_arthropods","minecraft:smite","minecraft:unbreaking"]
 				}
 			]
 		}

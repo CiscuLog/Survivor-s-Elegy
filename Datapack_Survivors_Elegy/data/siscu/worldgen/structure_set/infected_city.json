@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "siscu:infected_city",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 49762038,
+    "spacing": 50,
+    "separation": 20,
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "chunk_count": 12,
+      "other_set": "villages"
+    }
+  }
+}

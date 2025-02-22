@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:leather",
-			"components": {"custom_model_data":548112}
+			"components": {"item_model":"siscu_se:zoglin_head"}
 		},
-		"title": "Zoglins",
-		"description": "Zombified hoglins. Dangerous, run or kill at first sight",
+		"title": {"translate": "advancements.siscu.story.zoglins.title"},
+		"description": {"translate": "advancements.siscu.story.zoglins.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

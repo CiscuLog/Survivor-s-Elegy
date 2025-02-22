@@ -1,0 +1,66 @@
+{
+  "name": "siscu:village/infected_city/ground_floor_wide",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/ground_floor/ground_floor_wide_1",
+        "processors": "siscu:apartment",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/ground_floor/ground_floor_wide_2",
+        "processors": "siscu:apartment",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/ground_floor/ground_floor_wide_3",
+        "processors": "siscu:apartment",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/ground_floor/ground_floor_wide_4",
+        "processors": "siscu:apartment",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/ground_floor/ground_floor_wide_5",
+        "processors": "siscu:apartment",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/inner_houses/ground_floor/ground_floor_wide_6",
+        "processors": "siscu:apartment",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging"
+      },
+      "weight": 1
+    }
+  ]
+}

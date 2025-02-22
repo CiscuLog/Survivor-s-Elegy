@@ -10,10 +10,15 @@
 			{
 				"function": "minecraft:set_components",
 				"components": {
-					"custom_model_data":540003,
 					"item_name":"{\"translate\":\"item.siscu.tablet_enchanted\"}",
 					"rarity":"uncommon",
-					"custom_data": {"SE_data":{"UpdateVersion": "alpha v0.9.0"}},
+					"item_model": "siscu_se:tablet_binding",
+					"custom_data": {
+						"SE_data": {
+							"id": "siscu:enchanted_tablet",
+							"UpdateVersion": "v1.0.0"
+						}
+					},
 					"stored_enchantments": {"levels":{"minecraft:binding_curse":1}}
 				}
 			}

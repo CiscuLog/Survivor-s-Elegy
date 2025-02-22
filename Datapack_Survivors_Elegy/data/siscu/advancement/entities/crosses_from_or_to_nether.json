@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "from": {
+            "trigger": "changed_dimension",
+            "conditions": {
+                "from":"minecraft:the_nether"
+            }
+        },
+        "to": {
+            "trigger": "changed_dimension",
+            "conditions": {
+                "to":"minecraft:the_nether"
+            }
+        }
+    },
+    "requirements": [
+        ["from","to"]
+    ],
+    "rewards": {
+        "function": "siscu:world/nether_travel"
+    }
+}

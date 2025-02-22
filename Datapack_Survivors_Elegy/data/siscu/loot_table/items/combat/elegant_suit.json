@@ -11,35 +11,33 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:damage": 0,
-                            "minecraft:item_name": "{\"translate\":\"item.siscu.elegant_suit\"}",
-                            "minecraft:dyed_color": {
-                                "rgb": 1381653,
-                                "show_in_tooltip": false
-                            },
-                            "minecraft:custom_model_data": 548001,
-                            "minecraft:custom_data": {
-                                "SE_data": {
-                                "IsSuit": 1,
-                                "Elegant": 1,
-                                "CustomChestplate": 1,
-                                "UpdateVersion": "alpha v0.9.0"
-                                }
-                            },
-                            "max_damage": 200
+                                "minecraft:item_name": "{\"translate\":\"item.siscu.elegant_suit\"}",
+                                "minecraft:item_model": "siscu_se:elegant_suit",
+                                "minecraft:custom_data": {
+                                    "SE_data": {
+                                        "id": "siscu:elegant_suit",
+                                        "UpdateVersion": "v1.0.0"
+                                    }
+                                },
+                                "equippable": {
+                                    "slot": "chest",
+                                    "damage_on_hurt": false,
+                                    "asset_id": "siscu_se:suit"
+                                },
+                                "max_damage": 200
                             }
                         },
                         {
-                          "function": "minecraft:set_attributes",
-                          "modifiers": [
-                            {
-                              "attribute": "minecraft:generic.armor",
-                              "name": "",
-                              "id": "de597d24-49c9-44b0-8dfd-ff6c32038775",
-                              "amount": 1,
-                              "operation": "add_value",
-                              "slot": "chest"
-                            }
-                          ]
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:armor",
+                                    "id": "de597d24-49c9-44b0-8dfd-ff6c32038775",
+                                    "amount": 1,
+                                    "operation": "add_value",
+                                    "slot": "chest"
+                                }
+                            ]
                         }
                     ]
                 }

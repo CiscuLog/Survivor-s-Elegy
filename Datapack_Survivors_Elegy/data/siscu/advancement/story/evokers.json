@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:leather",
-			"components": {"custom_model_data":548105}
+			"components": {"item_model":"siscu_se:evoker_head"}
 		},
-		"title": "Evokers",
-		"description": "Illagers with mastery of summoning magic",
+		"title": {"translate": "advancements.siscu.story.evokers.title"},
+		"description": {"translate": "advancements.siscu.story.evokers.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

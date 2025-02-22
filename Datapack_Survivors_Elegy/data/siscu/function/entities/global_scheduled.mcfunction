@@ -1,0 +1,2 @@
+# Reason to exist: spawn egg consistency. Spawned entities would keep their vanilla items. This function is always called scheduled (1t or more)
+execute as @e[type=#siscu:initialisable_tick_2s,tag=!siscu.entity_checked] at @s run function siscu:entities/global

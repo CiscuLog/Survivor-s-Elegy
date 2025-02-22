@@ -1,0 +1,46 @@
+{
+    "supported_items": [
+        "amethyst_shard"
+    ],
+    "anvil_cost": 1,
+    "description": {
+        "translate": "enchantment.siscu.dazzling"
+    },
+    "max_cost": {
+        "base": 12,
+        "per_level_above_first": 11
+    },
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 11
+    },
+    "max_level": 1,
+    "slots": [
+        "any"
+    ],
+    "weight": 1,
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "affected": "victim",
+                "enchanted": "attacker",
+                "effect": {
+                    "type": "minecraft:apply_mob_effect",
+                    "max_amplifier": 0,
+                    "max_duration": 10,
+                    "min_amplifier": 0,
+                    "min_duration": 2,
+                    "to_apply": "minecraft:blindness"
+                }
+            },
+            {
+                "affected": "victim",
+                "enchanted": "attacker",
+                "effect": {
+                    "type": "run_function",
+                    "function": "siscu:enchantment/dazzling/main"
+                }
+            }
+        ]
+    }
+}

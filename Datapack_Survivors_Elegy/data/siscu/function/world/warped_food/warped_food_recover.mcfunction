@@ -1,2 +1,2 @@
-execute if score @s siscu.warped_food matches 1.. if predicate siscu:utils/50_percent run scoreboard players remove @s siscu.warped_food 1
+execute if score @s siscu.warped_food matches 1.. run scoreboard players remove @s siscu.warped_food 1
 execute if score @s siscu.warped_food matches ..-1 run scoreboard players set @s siscu.warped_food 0

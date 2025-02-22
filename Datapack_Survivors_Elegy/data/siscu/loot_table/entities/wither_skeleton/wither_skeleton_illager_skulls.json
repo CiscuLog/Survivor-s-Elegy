@@ -10,7 +10,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548140}
+			  "components": {"item_model":"siscu_se:villager_skull_withered"}
 		  }
 		  ]
         }

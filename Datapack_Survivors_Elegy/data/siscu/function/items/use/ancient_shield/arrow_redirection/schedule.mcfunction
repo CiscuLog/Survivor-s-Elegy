@@ -1,0 +1,2 @@
+execute as @e[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] at @s run function siscu:items/use/ancient_shield/arrow_redirection/set_motion
+execute if entity @e[type=#siscu:deflectable_projectiles,tag=siscu.electric_particle] run function siscu:items/use/ancient_shield/arrow_redirection/electric_sparks

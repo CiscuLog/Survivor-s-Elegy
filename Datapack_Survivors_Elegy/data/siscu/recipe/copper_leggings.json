@@ -1,45 +1,54 @@
 {
-    "type": "crafting_shaped",
-    "category": "equipment",
-    "key": {"C":{
-        "item": "minecraft:copper_ingot"
-      }
-    },
-    "pattern": ["CCC","C C","C C"],
-    "result": {
-        "id": "minecraft:leather_leggings",
-        "count": 1,
-        "components": {
-            "minecraft:damage": 0,
-            "minecraft:item_name": "{\"translate\":\"item.siscu.copper_leggings\"}",
-            "minecraft:dyed_color": {
-              "rgb": 15301202,
-              "show_in_tooltip": false
-            },
-            "minecraft:lore": [
-              "{\"text\":\"Charge: 0\",\"color\":\"yellow\",\"italic\":false}"
-            ],
-            "minecraft:custom_model_data": 548101,
-            "minecraft:custom_data": {
-              "SE_data": {
-                "IsCopper": 1,
-                "CustomLeggings": 1,
-                "UpdateVersion": "alpha v0.9.0",
-                "Charge": 0,
-                "Oxidation": 0
-              }
-            },
-            "max_damage": 125,
-            "minecraft:attribute_modifiers": [
-              {
-                "type": "minecraft:generic.armor",
-                "slot": "legs",
-                "id": "12a1c226-96f2-4e10-b760-fd98a21cdb9e",
-                "name": "generic.armor",
-                "amount": 4,
-                "operation": "add_value"
-              }
-            ]
+  "type": "crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "copper_ingot"
+  },
+  "pattern": [
+    "CCC",
+    "C C",
+    "C C"
+  ],
+  "result": {
+    "id": "minecraft:iron_leggings",
+    "count": 1,
+    "components": {
+      "minecraft:damage": 0,
+      "minecraft:item_name": "{\"translate\":\"item.siscu.copper_leggings\"}",
+      "minecraft:lore": [
+        "{\"text\":\"Charge: 0\",\"color\":\"yellow\",\"italic\":false}"
+      ],
+      "item_model": "siscu_se:copper_leggings",
+      "minecraft:custom_data": {
+        "SE_data": {
+          "id": "siscu:copper_leggings",
+          "IsCopper": 1,
+          "UpdateVersion": "v1.0.0",
+          "Charge": 0,
+          "Oxidation": 0
+        }
+      },
+      "equippable": {
+        "slot": "legs",
+        "asset_id": "siscu_se:copper",
+        "equip_sound": "item.armor.equip_gold"
+      },
+      "repairable": {
+        "items": "copper_ingot"
+      },
+      "max_stack_size": 1,
+      "max_damage": 125,
+      "attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "armor",
+            "id": "12a1c226-96f2-4e10-b760-fd98a21cdb9e",
+            "amount": 4,
+            "operation": "add_value",
+            "slot": "legs"
           }
+        ]
+      }
     }
+  }
 }

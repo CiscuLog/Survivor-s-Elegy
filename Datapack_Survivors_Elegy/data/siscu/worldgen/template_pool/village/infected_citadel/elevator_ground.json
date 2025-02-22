@@ -1,0 +1,15 @@
+{
+  "name": "siscu:village/infected_citadel/elevator_ground",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_citadel/elevator",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

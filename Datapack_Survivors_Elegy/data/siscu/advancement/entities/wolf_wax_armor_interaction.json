@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:wolf",
+							"nbt": "{variant:\"siscu:zombified\"}"
+						}
+					}
+				],
+				"player": {
+					"slots": {
+						"weapon.*": {
+							"predicates": {"custom_data": {"SE_data":{"IsWax":1}}}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/use/wax_wolf_armor"
+	}
+}

@@ -1,1 +1,1 @@
-execute as @e[type=allay] if predicate siscu:items/allay_container at @s run function siscu:entities/allay/container/main
+execute as @e[type=allay,tag=!smithed.entity] if predicate siscu:items/allay_container at @s run function siscu:entities/allay/container/main

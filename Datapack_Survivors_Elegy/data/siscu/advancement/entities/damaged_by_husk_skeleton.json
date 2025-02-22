@@ -6,7 +6,11 @@
 				"damage": {
 					"type": {
 						"source_entity": {
-							"nbt": "{Tags:[\"husk_skeleton\"]}"
+							"nbt": "{Tags:[\"siscu.husk_skeleton\"]}"
+						},
+						"is_direct": true,
+						"direct_entity": {
+							"nbt": "{Tags:[\"siscu.husk_skeleton\"]}"
 						}
 					}
 				}

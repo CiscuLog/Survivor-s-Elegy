@@ -1,0 +1,54 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:shield",
+			"functions": [
+			{
+				"function": "set_components",
+				"components": {
+					"item_name": "{\"translate\":\"item.siscu.ancient_shield\"}",
+					"item_model":"siscu_se:ancient_shield/base",
+					"max_damage": 800,
+					"hide_additional_tooltip": {},
+					"custom_data":{
+						"SE_data":{
+							"id": "siscu:ancient_shield",
+							"Oxidation": 0,
+							"IsCopper": 1,
+							"UpdateVersion": "v1.0.0", 
+							"Vibrations": 0, 
+							"Charges": 0
+						}
+					},
+					"rarity": "rare",
+					"repairable": {
+						"items": ["copper_ingot","prismarine_shard"]
+					}
+				}
+			},
+			{
+				"function": "minecraft:set_lore",
+				"lore": [
+					{"color": "white","italic": false,
+					"translate": "text.siscu.ancient_shield_1"
+					},
+					{"color": "white","italic": false,
+						"translate": "text.siscu.ancient_shield_2"
+					},
+					{"color": "white","italic": false,
+						"translate": "text.siscu.ancient_shield_3"
+					}
+				],
+				"entity":"this",
+				"mode": "replace_all"
+			}
+			]
+		}
+		]
+	}
+	]
+}

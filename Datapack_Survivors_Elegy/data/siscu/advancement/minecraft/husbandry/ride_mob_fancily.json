@@ -4,7 +4,7 @@
 		"icon": {
 			"id": "minecraft:saddle",
 			"components": {
-				"custom_model_data": 548101
+				"enchantments": {"siscu:mount_catalyst": 1}
 			}
 		},
 		"title": {
@@ -36,19 +36,23 @@
 						"predicate": {
 							"equipment": {
 								"feet": {
-									"enchantments": [
-										{
-											"enchantment": "minecraft:frost_walker"
-										}
-									]
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantments": "frost_walker"
+											}
+										]
+									}
 								}
 							},
 							"vehicle": {
 								"type": "minecraft:strider",
 								"nbt": "{Tags:[\"siscu.enchanted_saddle\"]}",
-								"location": {
+								"stepping_on": {
 									"block": {
-										"tag": "siscu:transparent_blocks"
+										"blocks": [
+											"frosted_ice"
+										]
 									}
 								}
 							}

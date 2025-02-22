@@ -1,0 +1,2 @@
+$item modify entity @s $(Slot) {function:"set_custom_data",tag:{"SE_data":{"Vibrations":$(Vibrations),"Charges":$(Charge)}}}
+$item modify entity @s $(Slot) {function: "set_custom_model_data",floats:{mode:"replace_all","values":[$(CMD)]}}

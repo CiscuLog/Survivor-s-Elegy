@@ -3,8 +3,8 @@
 		"icon": {
 			"id": "minecraft:nether_bricks"
 		},
-		"title": "Nether Fortress",
-		"description": "A city of sorts, in the nether",
+		"title": {"translate": "advancements.siscu.story.nether_fortress.title"},
+		"description": {"translate": "advancements.siscu.story.nether_fortress.description"},
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": true
@@ -16,13 +16,10 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"structures": "siscu:nether_fortress"
+						"structures": "fortress"
 					}
 				}
 			}
 		}
-	},
-	"rewards": {
-		"function": "siscu:advancement/find_fortress"
 	}
 }

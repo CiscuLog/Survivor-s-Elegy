@@ -1,3 +1,6 @@
+
+return run function survivors_elegy:toolbox/time/next_morning
+
 execute if predicate siscu:world/check_not_morning_1 run time add 12000t
 execute if predicate siscu:world/check_not_morning_2 run time add 6000t
 execute if predicate siscu:world/check_not_morning_3 run time add 3000t

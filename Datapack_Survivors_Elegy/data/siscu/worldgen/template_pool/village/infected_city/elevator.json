@@ -1,0 +1,16 @@
+{
+  "name": "siscu:village/infected_city/elevator",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "siscu:village/infected_city/elevator",
+        "processors": "siscu:infected_city_building",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging"
+      },
+      "weight": 1
+    }
+  ]
+}

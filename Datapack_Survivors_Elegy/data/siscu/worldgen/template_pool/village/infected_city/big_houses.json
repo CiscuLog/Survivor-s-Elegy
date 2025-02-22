@@ -1,0 +1,222 @@
+{
+    "name": "siscu:village/infected_city/big_houses",
+    "elements": [
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_bricks",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_diorite",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_mud",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_sandstone",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse2_bricks",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse2_diorite",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse2_mud",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse2_sandstone",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_tall_bricks",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_tall_diorite",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_tall_mud",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_tall_sandstone",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse2_tall_bricks",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse2_tall_diorite",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse2_tall_mud",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse2_tall_sandstone",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_inner_corner_bricks",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_inner_corner_diorite",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_inner_corner_mud",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_inner_corner_sandstone",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_inner_corner_tall_bricks",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_inner_corner_tall_diorite",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_inner_corner_tall_mud",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_inner_corner_tall_sandstone",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        }
+    ],
+    "fallback": "minecraft:empty"
+}

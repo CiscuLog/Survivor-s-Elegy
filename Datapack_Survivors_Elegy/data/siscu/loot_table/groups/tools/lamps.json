@@ -1,36 +1,36 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:torch",
-		  "conditions": [
-		  {
-			  "condition": "minecraft:inverted",
-			  "term":{
-				  "condition": "minecraft:location_check",
-				  "predicate": {
-					"feature": "mansion"
-				  }
-			  }
-		  }
-		  ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:torch",
-		  "conditions": [
-		  {
-			  "condition": "minecraft:location_check",
-			  "predicate": {
-				"feature": "mansion"
-			  }
-		  }
-		  ]
-        }
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:torch",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:location_check",
+								"predicate": {
+									"structures": "mansion"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lantern",
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"structures": "mansion"
+							}
+						}
+					]
+				}
+			]
+		}
 	]
-  }
-  ]
 }

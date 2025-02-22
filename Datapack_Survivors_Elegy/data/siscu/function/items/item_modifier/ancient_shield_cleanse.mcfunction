@@ -1,0 +1,2 @@
+$item modify entity @s $(Slot) {function:"minecraft:set_custom_data",tag:{"SE_data":{"Oxidation":$(Oxidation),"Vibrations":$(Vibrations),"Charges":$(Charge)}}}
+$item modify entity @s $(Slot) {"function":"minecraft:set_components","components":{"minecraft:custom_model_data": {"floats":[$(CMD)]},"minecraft:item_model":"$(String)"}}

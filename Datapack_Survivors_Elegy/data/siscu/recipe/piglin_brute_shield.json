@@ -1,22 +1,31 @@
 {
 	"type": "crafting_shaped",
-    "category": "equipment",
+	"category": "equipment",
 	"pattern": [
-	"GG",
-	"GL",
-	"GG"
+		"GG",
+		"GL",
+		"GG"
 	],
 	"key": {
-		"G": {
-			"item": "minecraft:gold_ingot"
-		},
-		"L": {
-			"item": "minecraft:leather"
-		}
+		"G": "minecraft:gold_ingot",
+		"L": "minecraft:leather"
 	},
 	"result": {
 		"id": "minecraft:shield",
-		"components":{"custom_model_data":548101,
-		"minecraft:item_name": "{\"translate\":\"item.siscu.piglin_brute_shield\"}"}
+		"components": {
+			"minecraft:item_name": "{\"translate\":\"item.siscu.piglin_shield\",\"font\":\"siscu_se:piglinalt\"}",
+			"minecraft:lore": [
+				"{\"text\":\"Held by Piglins\",\"color\":\"gray\",\"italic\":false}"
+			],
+			"item_model": "siscu_se:brute_shield",
+			"custom_data": {
+				"SE_data": {
+					"id": "siscu:brute_shield",
+					"CustomShield": 1,
+					"UpdateVersion": "v1.0.0"
+				}
+			},
+			"max_damage": 400
+		}
 	}
 }

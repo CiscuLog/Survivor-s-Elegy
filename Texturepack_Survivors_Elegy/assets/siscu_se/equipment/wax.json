@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "siscu_se:wax"
+      }
+    ],
+    "wolf_body": [
+      {
+        "texture": "siscu_se:wax"
+      }
+    ]
+  }
+}

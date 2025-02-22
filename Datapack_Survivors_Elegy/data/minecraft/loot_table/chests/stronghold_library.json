@@ -50,7 +50,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30.0,
-              "treasure": true
+              "options": "#treasure"
             }
           ],
           "name": "minecraft:book",
@@ -78,7 +78,7 @@
 		"entries":[
 		{
 			"type": "minecraft:loot_table",
-			"value": "siscu:items/ingredients/enchanter_book",
+			"value": "siscu:items/tools/enchanter_book",
 			"conditions": [
 			{
 				"condition": "minecraft:random_chance",

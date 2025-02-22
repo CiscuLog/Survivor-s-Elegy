@@ -1,62 +1,60 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "leather_horse_armor",
-                    "functions": [
-                        {
-                            "function":"set_components",
-                            "components":{
-                              "minecraft:fire_resistant": {},
-                              "minecraft:item_name": "{\"translate\":\"item.siscu.netherite_horse_armor\"}",
-                              "minecraft:dyed_color": {
-                                "rgb": 5065037,
-                                "show_in_tooltip": false
-                              },
-                              "minecraft:custom_model_data": 548101,
-                              "minecraft:custom_data": {
-                                "SE_data": {
-                                "CustomHorseArmor": 1,
-                                "UpdateVersion": "alpha v0.9.0"
-                                }
-                              }
-                            }
-                        },
-                        {
-                          "function": "minecraft:set_attributes",
-                          "modifiers": [
-                            {
-                              "attribute": "minecraft:generic.armor",
-                              "name": "",
-                              "id": "4d9b86b4-a1c0-4802-9968-f75cb44c682a",
-                              "amount": 11,
-                              "operation": "add_value",
-                              "slot": "body"
-                            },
-                            {
-                              "attribute": "minecraft:generic.armor_toughness",
-                              "name": "",
-                              "id": "6a48636c-8e80-4d1a-b23b-fe0e49617c51",
-                              "amount": 3,
-                              "operation": "add_value",
-                              "slot": "body"
-                            },
-                            {
-                              "attribute": "minecraft:generic.knockback_resistance",
-                              "name": "",
-                              "id": "a24e443a-ca0a-4584-b48d-4add175a83ee",
-                              "amount": 0.1,
-                              "operation": "add_value",
-                              "slot": "body"
-                            }
-                          ]
-                        }
-                    ]
+          "type": "item",
+          "name": "ancient_debris",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:damage_resistant": {
+                  "types": "#is_fire"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.siscu.netherite_horse_armor\"}",
+                "item_model": "siscu_se:netherite_horse_armor",
+                "minecraft:custom_data": {
+                  "SE_data": {
+                    "id": "siscu:netherite_horse_armor",
+                    "UpdateVersion": "v1.0.0"
+                  }
+                },
+                "equippable": {
+                  "slot": "body",
+                  "asset_id": "siscu_se:netherite"
+                },
+                "attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:armor",
+                      "id": "4d9b86b4-a1c0-4802-9968-f75cb44c682a",
+                      "amount": 11,
+                      "operation": "add_value",
+                      "slot": "body"
+                    },
+                    {
+                      "type": "minecraft:armor_toughness",
+                      "id": "6a48636c-8e80-4d1a-b23b-fe0e49617c51",
+                      "amount": 3,
+                      "operation": "add_value",
+                      "slot": "body"
+                    },
+                    {
+                      "type": "minecraft:knockback_resistance",
+                      "id": "a24e443a-ca0a-4584-b48d-4add175a83ee",
+                      "amount": 0.1,
+                      "operation": "add_value",
+                      "slot": "body"
+                    }
+                  ]
                 }
-            ]
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -11,20 +11,15 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "{\"translate\":\"item.siscu.exposed_copper_helmet\"}",
-                                "minecraft:dyed_color": {
-                                    "rgb": 9464656,
-                                    "show_in_tooltip": false
-                                },
-                                "minecraft:custom_model_data": 548102,
-                                "minecraft:custom_data": {
-                                    "SE_data": {
-                                    "IsCopper": 1,
-                                    "CustomHelmet": 1,
-                                    "UpdateVersion": "alpha v0.9.0",
-                                    "Charge": 0,
-                                    "Oxidation": 1
-                                    }
+                                "minecraft:custom_model_data": {"floats": [1]}
                             }
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": {
+                                "SE_data": {
+                                    "Oxidation": 1
+                                }
                             }
                         }
                     ]

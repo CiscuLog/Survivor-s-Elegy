@@ -1,0 +1,14 @@
+{
+	"name": "siscu:villages/infected_city/dirt_pillar",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "siscu:citadel_pillar",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

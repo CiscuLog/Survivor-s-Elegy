@@ -1,20 +1,23 @@
 {
   "type": "minecraft:smelting",
-  "category":"food",
-  "ingredient": {
-    "item": "minecraft:egg"
-  },
+  "category": "food",
+  "ingredient": "minecraft:egg",
   "result": {
-    "id":"minecraft:bread",
-    "components":{
-      "custom_model_data":540000,
+    "id": "minecraft:bread",
+    "components": {
       "minecraft:item_name": "{\"translate\":\"item.siscu.fried_egg\"}",
+      "item_model": "siscu_se:fried_egg",
+      "custom_data": {
+        "SE_data": {
+          "id": "siscu:fried_egg",
+          "UpdateVersion": "v1.0.0"
+        }
+      },
       "food": {
         "nutrition": 4,
-        "saturation": 0.5
+        "saturation": 6
       },
-      "max_stack_size":16,
-      "custom_data": {"SE_data":{"FriedEgg":1}}
+      "max_stack_size": 16
     }
   },
   "experience": 0.35,

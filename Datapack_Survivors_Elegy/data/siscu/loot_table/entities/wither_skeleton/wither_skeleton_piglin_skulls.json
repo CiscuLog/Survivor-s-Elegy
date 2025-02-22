@@ -10,7 +10,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548114}
+			  "components": {"item_model":"siscu_se:piglin_skull_withered"}
 		  }
 		  ]
         }

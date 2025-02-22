@@ -1,0 +1,30 @@
+{
+    "parent": "siscu:minecraft/adventure/deflect_arrow",
+    "criteria": {
+      "0": {
+        "trigger": "impossible"
+      }
+    },
+    "display": {
+      "frame": "challenge",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:shield",
+        "components": {"item_model": "siscu_se:ancient_shield/base"}
+      },
+			"title": {"translate": "advancements.siscu.minecraft.clean_ancient_shield.title"},
+			"description": [{
+				"translate": "advancements.siscu.minecraft.clean_ancient_shield.description"
+				},
+				{
+					"text":"\nSurvivor's Elegy",
+					"color": "gold",
+					"italic": true
+				}
+      ],
+      "hidden": true
+    },
+    "rewards": {
+      "experience": 50
+    }
+  }

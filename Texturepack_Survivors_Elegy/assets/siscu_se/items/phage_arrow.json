@@ -1,0 +1,12 @@
+{
+	"model": {
+	  "type": "minecraft:model",
+	  "model": "siscu_se:item/phage_arrow",
+	  "tints": [
+		{
+		  "type": "minecraft:potion",
+		  "default": -13083194
+		}
+	  ]
+	}
+  }

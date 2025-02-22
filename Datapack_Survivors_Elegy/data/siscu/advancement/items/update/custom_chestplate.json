@@ -1,0 +1,56 @@
+{
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "all_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "slots": {
+                                        "armor.chest": {
+                                            "predicates": {
+                                                "custom_data": {
+                                                    "SE_data": {
+                                                        "CustomChestplate": 1
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "inverted",
+                                "term": {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "slots": {
+                                            "armor.chest": {
+                                                "predicates": {
+                                                    "custom_data": {
+                                                        "SE_data": {
+                                                            "UpdateVersion": "v1.0.0"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "siscu:items/update/chestplate_main"
+    }
+}

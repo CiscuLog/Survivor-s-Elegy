@@ -6,12 +6,8 @@
     "III"
   ],
   "key": {
-    "H": {
-      "item": "minecraft:hopper"
-    },
-    "I": {
-      "item": "minecraft:iron_ingot"
-    }
+    "H": "minecraft:hopper",
+    "I": "minecraft:iron_ingot"
   },
   "result": {
     "id": "minecraft:hopper_minecart"

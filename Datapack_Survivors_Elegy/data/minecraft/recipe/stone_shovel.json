@@ -6,12 +6,8 @@
     "#"
   ],
   "key": {
-    "#": {
-      "tag": "minecraft:stick"
-    },
-    "X": {
-      "tag": "minecraft:stone_tool_materials"
-    }
+    "#": "minecraft:stick",
+    "X": "#minecraft:stone_tool_materials"
   },
   "result": {
     "id": "minecraft:stone_shovel"

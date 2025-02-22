@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:bone",
-			"components": {"custom_model_data":548135}
+			"components": {"item_model":"siscu_se:wither_boss_head"}
 		},
-		"title": "The Wither",
-		"description": "A physical manifestation of the withering",
+		"title": {"translate": "advancements.siscu.story.the_wither.title"},
+		"description": {"translate": "advancements.siscu.story.the_wither.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

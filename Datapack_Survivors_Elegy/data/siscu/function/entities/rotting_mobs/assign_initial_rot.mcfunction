@@ -1,7 +1,7 @@
 
-execute unless predicate siscu:entities/is_skeleton_wolf run return 0
+execute if entity @s[type=wolf] unless predicate siscu:entities/is_zombie_wolf run return 0
 
-tag @s add rot_checked
+tag @s add siscu.rot_checked
 
 data merge storage siscu:volatile {min:0}
 execute store result storage siscu:volatile max int 1 run scoreboard players get rotting_random_limit siscu.integer

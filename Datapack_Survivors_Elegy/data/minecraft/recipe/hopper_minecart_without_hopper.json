@@ -7,15 +7,9 @@
     "MI "
   ],
   "key": {
-    "C": {
-      "item": "minecraft:chest"
-    },
-    "I": {
-      "item": "minecraft:iron_ingot"
-    },
-    "M": {
-      "item": "minecraft:minecart"
-    }
+    "C": "minecraft:chest",
+    "I": "minecraft:iron_ingot",
+    "M": "minecraft:minecart"
   },
   "result": {
     "id": "minecraft:hopper_minecart"

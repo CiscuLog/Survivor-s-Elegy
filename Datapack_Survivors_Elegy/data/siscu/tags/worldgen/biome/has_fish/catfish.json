@@ -1,0 +1,13 @@
+{
+  "values": [
+    "river",
+    "birch_forest",
+    "old_growth_birch_forest",
+    "dark_forest",
+    "desert",
+    "#is_savanna",
+    "#is_badlands",
+    "#is_jungle",
+    "pale_garden"
+  ]
+}

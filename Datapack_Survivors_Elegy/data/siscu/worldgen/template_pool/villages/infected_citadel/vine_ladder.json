@@ -1,0 +1,14 @@
+{
+	"name": "siscu:villages/infected_city/vine_ladder",
+  "elements": [
+    {
+      "element": {
+        "element_type": "feature_pool_element",
+        "feature": "siscu:vine_ladder",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

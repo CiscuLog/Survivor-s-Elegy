@@ -1,0 +1,1 @@
+execute as @e[type=#siscu:item_frames,tag=siscu.shutters_rolling] at @s run function siscu:entities/item_frame/shutters/roll_shutters

@@ -1,0 +1,26 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "siscu_se:suit",
+	  "dyeable": {
+		  "color_when_undyed": 7687433
+        }
+	  },
+	  {
+        "texture": "siscu_se:suit_overlay"
+	  }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "siscu_se:suit",
+	  "dyeable": {
+		  "color_when_undyed": 7164451
+        }
+	  },
+	  {
+		  "texture": "siscu_se:suit_overlay"
+	  }
+    ]
+  }
+}

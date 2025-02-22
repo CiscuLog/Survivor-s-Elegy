@@ -1,19 +1,34 @@
 {
 	"pools": [
-	{
-		"rolls": 1,
-		"entries": [
 		{
-			"type": "minecraft:item",
-			"name": "minecraft:cookie",
-			"functions": [
-			{
-				"function": "minecraft:set_components",
-				"components": {"custom_model_data":548101,"item_name":"{\"translate\":\"item.siscu.warped_wart\"}","food":{"nutrition": 1,"saturation": 0.1,"can_always_eat":true},"rarity": "rare"}
-			}
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cookie",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"item_name": "{\"translate\":\"item.siscu.warped_wart\"}",
+								"item_model": "siscu_se:warped_wart",
+								"custom_data": {
+									"SE_data": {
+										"id": "siscu:warped_wart",
+										"UpdateVersion": "v1.0.0"
+									}
+								},
+								"food": {
+									"nutrition": 1,
+									"saturation": 0.1,
+									"can_always_eat": true
+								},
+								"rarity": "rare"
+							}
+						}
+					]
+				}
 			]
 		}
-		]
-	}
 	]
 }

@@ -1,1 +1,0 @@
-$playsound siscu_se:item.amethyst_shield.gather_vibrations player @a ~ ~ ~ 1 $(x)

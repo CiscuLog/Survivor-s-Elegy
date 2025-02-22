@@ -4,7 +4,7 @@
 		"icon": {
 			"id": "minecraft:raw_iron",
 			"components": {
-				"custom_model_data": 540001
+				"item_model": "siscu_se:allay_container_allay"
 			}
 		},
 		"title": {

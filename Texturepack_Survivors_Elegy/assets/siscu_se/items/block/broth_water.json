@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "model",
+		"model": "siscu_se:item/block/broth_water",
+		"tints": [
+			{"type": "minecraft:dye","default": -6265536}
+		]
+	}
+}

@@ -10,8 +10,12 @@
 				"function":"set_components",
 				"components": {
 					"minecraft:item_name": "{\"text\":\"HopeBlue\",\"font\":\"siscu_se:piglinalt\"}",
-					"custom_model_data":548120
+					"item_model": "siscu_se:warped_shield_1"
 				}
+			},
+			{
+				"function": "set_custom_data",
+				"tag": {"SE_data":{"id":"siscu:warped_shield"}}
 			}
 			]
 		}

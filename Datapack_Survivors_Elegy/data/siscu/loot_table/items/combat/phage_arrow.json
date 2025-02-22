@@ -1,35 +1,49 @@
 {
 	"pools": [
-	{
-		"rolls": 1,
-		"entries": [
 		{
-			"type": "minecraft:item",
-			"name": "minecraft:tipped_arrow",
-			"functions": [
-			{
-				"function": "minecraft:set_components",
-				"components": {
-					"minecraft:item_name": "{\"translate\":\"item.siscu.phage_arrow\"}",
-					"custom_model_data":548101,
-					"rarity":"uncommon",
-					"max_stack_size":16,
-					"potion_contents":{
-						"custom_color":12624973,
-						"custom_effects":[{"id":"minecraft:unluck","amplifier":99,"duration":1200,"ambient":false,"show_particles":true,"show_icon":true}]
-					},
-					"hide_additional_tooltip":{},
-					"minecraft:lore": [
-						"{\"text\":\"Strong Phage (00:60)\",\"color\":\"red\",\"italic\":false}",
-						"{\"text\":\"\"}",
-						"{\"text\":\"When applied:\",\"color\":\"dark_purple\",\"italic\":false}",
-						"{\"text\":\"60 seconds until zombification\",\"color\":\"red\",\"italic\":false}"
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"translate\":\"item.siscu.phage_arrow\"}",
+								"item_model": "siscu_se:phage_arrow",
+								"custom_data": {
+									"SE_data": {
+										"id": "siscu:phage_arrow"
+									}
+								},
+								"rarity": "uncommon",
+								"max_stack_size": 16,
+								"potion_contents": {
+									"custom_color": 12624973,
+									"custom_effects": [
+										{
+											"id": "minecraft:unluck",
+											"amplifier": 2,
+											"duration": 1200,
+											"ambient": false,
+											"show_particles": true,
+											"show_icon": true
+										}
+									]
+								},
+								"hide_additional_tooltip": {},
+								"minecraft:lore": [
+									"{\"translate\":\"text.siscu.phage_1\",\"color\":\"red\",\"italic\":false}",
+									"{\"text\":\"\"}",
+									"{\"translate\":\"text.siscu.phage_2\",\"color\":\"dark_purple\",\"italic\":false}",
+									"{\"translate\":\"text.siscu.phage_3\",\"color\":\"red\",\"italic\":false}"
+								]
+							}
+						}
 					]
 				}
-			}
 			]
 		}
-		]
-	}
 	]
 }

@@ -1,0 +1,15 @@
+{
+  "values": [
+    "frozen_ocean",
+    "deep_frozen_ocean",
+    "cold_ocean",
+    "deep_cold_ocean",
+    "#is_river",
+    "beach",
+    "stony_shore",
+    "forest",
+    "plains",
+    "#is_taiga",
+    "windswept_hills"
+  ]
+}

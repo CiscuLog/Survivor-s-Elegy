@@ -1,0 +1,30 @@
+{
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:wolf",
+							"nbt": "{variant:\"siscu:zombified\"}",
+							"effects": {"weakness": {}}
+						}
+					}
+				],
+				"player": {
+					"slots": {
+						"weapon.mainhand": {
+							"items": ["golden_apple","enchanted_golden_apple"]
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:entities/wolf/curing_interaction"
+	}
+}

@@ -12,17 +12,31 @@
                             "components": {
                                 "minecraft:damage": 0,
                                 "minecraft:item_name": "{\"translate\":\"item.siscu.copper_sword\"}",
-                                "minecraft:custom_model_data": 548101,
+                                "item_model": "siscu_se:copper_sword",
                                 "minecraft:custom_data": {
                                     "SE_data": {
-                                    "IsCopper": 1,
-                                    "CustomWeapon": 1,
-                                    "UpdateVersion": "alpha v0.9.0",
-                                    "Charge": 0,
-                                    "Oxidation": 0
+                                        "id": "siscu:copper_sword",
+                                        "IsCopper": 1,
+                                        "UpdateVersion": "v1.0.0",
+                                        "Charge": 0,
+                                        "Oxidation": 0
                                     }
-                            },
-                            "max_damage": 150
+                                },
+                                "repairable": {
+                                    "items": "copper_ingot"
+                                },
+                                "max_damage": 150,
+                                "tool": {
+                                    "damage_per_block": 1,
+                                    "default_mining_speed": 1,
+                                    "rules": [
+                                        {
+                                            "correct_for_drops": true,
+                                            "blocks": "#sword_efficient",
+                                            "speed": 5
+                                        }
+                                    ]
+                                }
                             }
                         }
                     ]

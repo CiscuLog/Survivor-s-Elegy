@@ -1,5 +1,4 @@
 {
-	"show_toast": false,
 	"criteria": {
 		"0": 
 		{
@@ -24,6 +23,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:items/use/use_bell_holding_void_shard"
+		"function": "siscu:items/use/bell_void_shard/main"
 	}
 }

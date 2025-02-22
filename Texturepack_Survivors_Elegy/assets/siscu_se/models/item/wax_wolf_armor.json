@@ -1,0 +1,7 @@
+{
+	"parent": "siscu_se:item/allay_container_empty",
+	"textures": {
+		"layer0": "siscu_se:item/wax_wolf_armor",
+		"layer1": "siscu_se:item/blank"
+	}
+}

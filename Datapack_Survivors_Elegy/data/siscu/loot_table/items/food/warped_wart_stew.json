@@ -1,19 +1,37 @@
 {
 	"pools": [
-	{
-		"rolls": 1,
-		"entries": [
 		{
-			"type": "minecraft:item",
-			"name": "minecraft:rabbit_stew",
-			"functions": [
-			{
-				"function": "minecraft:set_components",
-				"components": {"custom_model_data":548101,"item_name":"{\"translate\":\"item.siscu.warped_wart_stew\"}","food":{"nutrition": 9,"saturation": 0.9,"can_always_eat":true,"using_converts_to":{"id":"minecraft:bowl"}},"rarity": "rare"}
-			}
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rabbit_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"item_name": "{\"translate\":\"item.siscu.warped_wart_stew\"}",
+								"item_model": "siscu_se:warped_wart_stew",
+								"custom_data": {
+									"SE_data": {
+										"id": "siscu:warped_wart_stew",
+										"UpdateVersion": "v1.0.0"
+									}
+								},
+								"food": {
+									"nutrition": 9,
+									"saturation": 0.9,
+									"can_always_eat": true
+								},
+								"use_remainder": {
+									"id": "bowl"
+								},
+								"rarity": "rare"
+							}
+						}
+					]
+				}
 			]
 		}
-		]
-	}
 	]
 }

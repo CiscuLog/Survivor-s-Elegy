@@ -1,0 +1,50 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rabbit_foot",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"item_name": "{\"translate\":\"item.siscu.frog_leg\"}",
+								"item_model": "siscu_se:frog_leg",
+								"custom_data": {
+									"SE_data": {
+										"id": "siscu:frog_leg",
+										"UpdateVersion": "v1.0.0"
+									}
+								},
+								"food": {
+									"nutrition": 2,
+									"saturation": 1
+								},
+								"consumable": {
+									"on_consume_effects": [
+										{
+											"type": "apply_effects",
+											"effects": [
+												{
+													"id": "jump_boost",
+													"amplifier": 3,
+													"duration": 120
+												}
+											]
+										}
+									]
+								},
+								"use_cooldown": {
+									"cooldown_group": "siscu:frog_leg",
+									"seconds": 10
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

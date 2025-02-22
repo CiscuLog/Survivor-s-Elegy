@@ -1,0 +1,33 @@
+{
+	"model": {
+		"type": "range_dispatch",
+		"property": "custom_model_data",
+		"fallback": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/base_weathered"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/base_blocking_weathered"}},
+		"entries": [
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/1_weathered"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/1_blocking_weathered"}},
+				"threshold": 1
+			},
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/2_weathered"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/2_blocking_weathered"}},
+				"threshold": 2
+			},
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/3_weathered"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/3_blocking_weathered"}},
+				"threshold": 3
+			},
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/4_weathered"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/4_blocking_weathered"}},
+				"threshold": 4
+			},
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/5_weathered"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/5_blocking_weathered"}},
+				"threshold": 5
+			},
+			{
+				"model": {"type": "condition","property": "using_item","on_false": {"type": "model","model": "siscu_se:item/ancient_shield/6_weathered"},"on_true": {"type": "model","model": "siscu_se:item/ancient_shield/6_blocking_weathered"}},
+				"threshold": 6
+			}
+		]
+	}
+}

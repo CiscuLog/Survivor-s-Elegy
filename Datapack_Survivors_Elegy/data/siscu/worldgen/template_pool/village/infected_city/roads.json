@@ -1,0 +1,51 @@
+{
+    "name": "siscu:village/infected_city/roads",
+    "elements": [
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/roads/central_connector",
+                "projection": "terrain_matching",
+                "processors": "empty"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/roads/central_left",
+                "projection": "terrain_matching",
+                "processors": "empty"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/roads/central_right",
+                "projection": "terrain_matching",
+                "processors": "empty"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/roads/elevator_left",
+                "projection": "terrain_matching",
+                "processors": "empty"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/roads/elevator_right",
+                "projection": "terrain_matching",
+                "processors": "empty"
+            },
+            "weight": 1
+        }
+    ],
+    "fallback": "minecraft:empty"
+}

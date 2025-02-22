@@ -1,0 +1,33 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:leather_leggings",
+			"functions": [
+			{
+				"function": "set_components",
+				"components": {
+					"item_name": "{\"translate\":\"item.siscu.evoker_leggings\"}",
+					"item_model": "siscu_se:evoker_leggings",
+					"custom_data":{
+						"SE_data":{
+							"UpdateVersion": "v1.0.0"
+						}
+					},
+					"equippable": {
+						"slot": "legs",
+						"damage_on_hurt": false,
+						"asset_id": "siscu_se:evoker"
+						
+					}
+				}
+			}
+			]
+		}
+		]
+	}
+	]
+}

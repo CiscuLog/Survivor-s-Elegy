@@ -5,9 +5,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:bamboo"
-    }
+    "#": "minecraft:bamboo"
   },
   "result": {
     "id": "minecraft:paper",

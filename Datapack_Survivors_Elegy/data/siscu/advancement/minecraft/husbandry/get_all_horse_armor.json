@@ -3,7 +3,7 @@
 	"display":{
 			"icon": {
 					"id": "minecraft:leather_horse_armor",
-					"components": {"custom_model_data":548101}
+					"components": {"item_model":"siscu_se:netherite_horse_armor"}
 			},
 			"title": {"translate": "advancements.siscu.minecraft.all_horse_armor.title"},
 			"description": [{
@@ -26,8 +26,7 @@
 			"conditions": {
 				"items": [
 				{
-					"items": ["leather_horse_armor"],
-					"components": {"custom_model_data":548101}
+					"predicates": {"custom_data":{"SE_data":{"id":"siscu:wax_horse_armor"}}}
 				}
 				]
 			}
@@ -37,8 +36,7 @@
 			"conditions": {
 				"items": [
 				{
-					"items": ["leather_horse_armor"],
-					"components": {"custom_model_data":548102}
+					"predicates": {"custom_data":{"SE_data":{"id":"siscu:netherite_horse_armor"}}}
 				}
 				]
 			}
@@ -48,8 +46,7 @@
 			"conditions": {
 				"items": [
 				{
-					"items": ["leather_horse_armor"],
-					"components": {"custom_model_data":548103}
+					"predicates": {"custom_data":{"SE_data":{"id":"siscu:chainmail_horse_armor"}}}
 				}
 				]
 			}
@@ -59,8 +56,7 @@
 			"conditions": {
 				"items": [
 				{
-					"items": ["leather_horse_armor"],
-					"components": {"custom_model_data":548104}
+					"predicates": {"custom_data":{"SE_data":{"id":"siscu:copper_horse_armor"}}}
 				}
 				]
 			}

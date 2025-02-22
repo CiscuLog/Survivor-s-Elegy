@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"0": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"type": {
+						"tags": [
+							{
+								"id": "siscu:charges_shield",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "siscu:items/ancient_shield"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/use/ancient_shield/block"
+	}
+}

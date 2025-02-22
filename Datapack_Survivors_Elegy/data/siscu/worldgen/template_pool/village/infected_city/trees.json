@@ -1,0 +1,22 @@
+{
+    "name": "siscu:villger/infected_city/trees",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "feature_pool_element",
+                "feature": "oak_bees_002",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "feature_pool_element",
+                "feature": "cherry_bees_005",
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "empty"
+}

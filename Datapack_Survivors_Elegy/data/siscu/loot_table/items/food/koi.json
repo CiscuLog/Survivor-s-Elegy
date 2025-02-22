@@ -9,7 +9,14 @@
 			"functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"custom_model_data":548100,"item_name":"{\"translate\":\"item.siscu.koi\"}"}
+				"components": {"item_name":"{\"translate\":\"item.siscu.koi\"}",
+				"item_model": "siscu_se:koi",
+				"custom_data": {
+					"SE_data": {
+						"id": "siscu:koi",
+						"UpdateVersion": "v1.0.0"
+					}
+				}}
 			}
 			]
 		}

@@ -1,0 +1,36 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bread",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"item_name": "{\"translate\":\"item.siscu.sniffer_meat\"}",
+								"item_model": "siscu_se:sniffer_meat",
+								"custom_data": {
+									"SE_data": {
+										"id": "siscu:ancient_tofu",
+										"UpdateVersion": "v1.0.0",
+										"SnifferMeat": 1
+									}
+								},
+								"food": {
+									"nutrition": 10,
+									"saturation": 12
+								},
+								"minecraft:lore": [
+									"{\"translate\":\"text.siscu.tofu\",\"color\":\"blue\",\"italic\":false}"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

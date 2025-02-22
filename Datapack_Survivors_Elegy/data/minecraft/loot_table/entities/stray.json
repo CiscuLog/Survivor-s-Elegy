@@ -121,7 +121,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "nbt": "{Tags:[\"stray_zombie\"]}",
+            "nbt": "{Tags:[\"siscu.stray_zombie\"]}",
             "flags": {
               "is_baby": false
             }

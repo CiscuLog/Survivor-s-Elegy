@@ -1,1 +1,1 @@
-$effect give @s unluck $(PhageCounter) 19
+$effect give @s unluck $(PhageCounter) 0

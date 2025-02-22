@@ -1,5 +1,4 @@
 {
-	"show_toast": false,
 	"criteria": {
 		"0": 
 		{
@@ -7,7 +6,7 @@
 			"conditions": {
 				"item": {
 					"predicates": {
-						"minecraft:custom_data" : {"SE_data":{"MirageBottle":1}}
+						"minecraft:custom_data" : {"SE_data":{"id":"siscu:mirage_bottle"}}
 					}
 				}
 			}

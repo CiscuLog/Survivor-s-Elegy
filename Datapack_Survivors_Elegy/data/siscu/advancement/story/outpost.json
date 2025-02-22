@@ -3,8 +3,8 @@
 		"icon": {
 			"id": "minecraft:cobblestone"
 		},
-		"title": "Pillager Outpost",
-		"description": "Illager settlements",
+		"title": {"translate": "advancements.siscu.story.outpost.title"},
+		"description": {"translate": "advancements.siscu.story.outpost.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

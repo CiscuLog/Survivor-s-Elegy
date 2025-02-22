@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#siscu:has_structure/infected_city",
+  "max_distance_from_center": 128,
+  "size": 20,
+  "spawn_overrides": {
+    "monster": {
+      "spawns": [
+        {
+          "type": "zombie",
+          "maxCount": 4,
+          "minCount": 1,
+          "weight": 1
+        }
+      ],
+      "bounding_box": "piece"
+    }
+  },
+  "start_height": {
+    "absolute": 133
+  },
+  "start_pool": "siscu:village/infected_citadel/sewers",
+  "step": "strongholds",
+  "terrain_adaptation": "none",
+  "use_expansion_hack": true
+}

@@ -2,10 +2,10 @@
 	"display":{
 		"icon": {
 			"id": "minecraft:bone",
-			"components": {"custom_model_data":548102}
+			"components": {"item_model": "siscu_se:ravager_horn"}
 		},
-		"title": "Ravagers",
-		"description": "Disturbing beasts with enormous strength",
+		"title": {"translate": "advancements.siscu.story.ravagers.title"},
+		"description": {"translate": "advancements.siscu.story.ravagers.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

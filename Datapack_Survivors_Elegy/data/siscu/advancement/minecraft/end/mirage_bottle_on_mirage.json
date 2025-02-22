@@ -3,7 +3,7 @@
 	"display":{
 			"icon": {
 					"id": "minecraft:amethyst_shard",
-					"components": {"custom_model_data":540005}
+					"components": {"item_model":"siscu_se:mirage_bottle"}
 			},
 			"title": {"translate": "advancements.siscu.minecraft.mirage_bottle_on_mirage.title","extra":[{"text":"^2","font":"siscu_se:superscript"}]},
 			"description": [{

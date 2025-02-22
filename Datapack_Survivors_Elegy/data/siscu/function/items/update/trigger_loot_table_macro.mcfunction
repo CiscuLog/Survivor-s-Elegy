@@ -1,0 +1,1 @@
+$execute store success score x siscu.volatile run loot replace entity @s weapon.mainhand loot $(loot_table)

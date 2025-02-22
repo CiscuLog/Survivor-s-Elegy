@@ -1,6 +1,6 @@
 # Tag the entity as checked
 
-tag @s add bogged_checked
+tag @s add siscu.bogged_checked
 
 # Run the randomiser
 item replace entity @s armor.head with air

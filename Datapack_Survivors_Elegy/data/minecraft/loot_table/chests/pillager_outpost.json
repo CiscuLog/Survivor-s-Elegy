@@ -232,7 +232,7 @@
 	"entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "siscu:items/ingredients/enchanter_book"
+          "value": "siscu:items/tools/enchanter_book"
         }
 	]
     },
@@ -241,7 +241,7 @@
 	"entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "siscu:items/tools/nearby_village_map"
+          "value": "siscu:items/tools/nearby_city_map"
         }
 	]
     }

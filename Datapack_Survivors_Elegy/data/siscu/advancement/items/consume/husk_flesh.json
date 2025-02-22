@@ -5,7 +5,7 @@
 			"conditions": {
 				"item": {
 					"items":["minecraft:rotten_flesh"],
-					"components": {"custom_model_data":548102}
+					"predicates": {"custom_data": {"SE_data":{"id":"siscu:husk_flesh"}}}
 				}
 			}
 		}

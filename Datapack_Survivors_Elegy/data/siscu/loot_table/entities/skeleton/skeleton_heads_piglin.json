@@ -10,7 +10,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548110}
+			  "components": {"item_model":"siscu_se:piglin_skull"}
 		  }
 		  ]
         },
@@ -21,7 +21,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548111}
+			  "components": {"item_model":"siscu_se:piglin_skull_golden"}
 		  }
 		  ]
         },
@@ -32,7 +32,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548112}
+			  "components": {"item_model":"siscu_se:piglin_skull_chainmail"}
 		  }
 		  ]
         },
@@ -43,7 +43,7 @@
 		  "functions":[
 		  {
 			  "function": "minecraft:set_components",
-			  "components": {"custom_model_data":548113}
+			  "components": {"item_model":"siscu_se:piglin_skull_netherite"}
 		  }
 		  ]
         }

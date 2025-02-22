@@ -1,0 +1,66 @@
+{
+	"condition": "all_of",
+	"terms": [
+		{
+			"condition": "inverted",
+			"term": {
+				"condition": "location_check",
+				"offsetY": -1,
+				"predicate": {
+					"block": {
+						"blocks": [
+							"honeycomb_block"
+						]
+					}
+				}
+			}
+		},
+		{
+			"condition": "any_of",
+			"terms": [
+				{
+					"condition": "random_chance",
+					"chance": 0.005
+				},
+				{
+					"condition": "all_of",
+					"terms": [
+						{
+							"condition": "random_chance",
+							"chance": 0.015
+						},
+						{
+							"condition": "any_of",
+							"terms": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"state": {
+												"waterlogged": "true"
+											}
+										}
+									}
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"blocks": [
+												"water"
+											]
+										}
+									}
+								},
+								{
+									"condition": "weather_check",
+									"raining": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
