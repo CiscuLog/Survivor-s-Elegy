@@ -1,6 +1,100 @@
 
 Compatible Minecraft versions: 1.21
 
+Survivor's Elegy 1.0.0 (23/02/2025)
++ Updated to 1.21.4
++ Added Ancient Shield. It stores vibrations when blocking, charging the shield up. 8 vibrations amount to a charge. It can store up to 6 charges. When blocking a projectile while crouching, if the shield has charge it will shoot the arrow where the player is looking. It's more durable than regular shields, and can be found oxidised on Infected Cities. It can be repaired on an anvil using copper ingots or prismarine shards. It has 4 oxidisation stages, charging the shield fully and blocking an attack will clean one oxidisation stage, consuming all the charge within.
++ Added Ancient Tofu. Crafted with any ancient seed and a milk bucket. Has 8 nutrition and 12 saturation. Eating a piece will grant the player 2 stackable extra hearts for 15 minutes, up to 8 extra hp, which will deplete accordingly. Death will remove the effects. Zombification will deplete the player's max HP regardless of the HP boost, which can cause sudden death after the boost wears off. Tofu has no extra effect on broths
++ Added Bee Counters now also display the honey level on a hive
++ Added Chiseled Copper variants to the beacon base blocks list. Unwaxed Oxidised Chiseled Copper is excluded from this
++ Added command toolbox to advance the world's time safely and without restarting the world count. Accessible by using the command "/function survivors_elegy:toolbox/time/*"
++ Added Creakings are immune to Phage
++ Added Credits to the config menu
++ Added Dyeable Suit, Hat and Pants.
++ Added eating Chorus Fruit increases 1 point of warped poisoning and reduces 1 point of withering
++ Added eating Frog Legs has a 10 second cooldown period
++ Added enchantment siscu:mount_catalyst
++ Added flying at cloud level while wearing netherite during a thunderstorm causes the player to get instantly struck by lightning
++ Added Infected Cities. Found on the Overworld several thousands of blocks apart from each other
++ Added Infected Zombies inflict weak phage to any entity they attack
++ Added "Mount Catalyst"(siscu:mount_catalyst) enchantment. It can only be worn on saddles, and transfers some enchantments of the player's armor to the mount. It can only be found on Enchanter Guides
++ Added names to hanging piglin decorations: Crimson Banners and Crimson Paintings
++ Added Novice Fishmongers can sell any fish
++ Added Oxidation can now be prevented by standing on a Honeycomb Block. This allows for storing Copper Armor on Armor Stands without their oxidation level being affected
++ Added Oxidation now depends on humidity. A copper set will oxidise 5 times faster under water or during rain
++ Added Pale Garden fish: bass and catfish, just like dark forests
++ Added Phantoms will disappear if there's a cat in a 32 block radius from their nearest player when they spawn
++ Added sounds and particles for travelling to and from the End
++ Added technical enchantment: Dazzling. Worn on hand by amethyst zombies, applies blindness to any victim along with the flash particle, not only to players. Theoretically unobtainable
++ Added technical enchantmet: Infectious. Worn on hand by Infected zombies, has a 50% chance of inflicting phage (unluck) to the victim on hit. Theoretically unobtainable
++ Added Undead Wolves cannot breed
++ Added Wandering Traders can now be zombified
++ Added Wax Wolf Armor. Makes zombified wolves unable to rot. Obtained by upgrading Wolf Armor in a smithing table using honeycomb. The armor can be given to the wolf anytime, the wolf will absorb it if and while it's zombified
++ Added Zombies in Infected Citadel's sewers can spawn with 4 minutes of the infested potion effect (20% of zombies)
++ Added Zombies in Strongholds can spawn with 4 minutes of the infested potion effect (5% of zombies)
++ Added Zombified Pillagers, Wandering Traders, Vindicators, Evokers and Witches. They spawn naturally, the latter the rarer. They can also be obtained by zombifying their analogous illager
++ Added Zombified Wolf curing. Wolves zombified from this version onward will recover their previous variant when unzombified. Otherwise, it defaults to "pale"
++ Changed base item for Config Book from Warped Fungus on a Stick to Raw Gold
++ Changed Bogged Zombies loot. Now they always drop the same as when shearing a Bogged Skeleton
++ Changed Citizen Zombies, reduced suit drop amount to the vanilla armor drop chance
++ Changed Copper Armor negates all discharges, regardless if the player is wearing Netherite gear
++ Changed Copper Pickaxes can no longer be used to mine diamond ore variants
++ Changed Copper Tools can no longer be used to mine materials above iron tier
++ Changed Copper Discharge's trajectories. Increased randomness
++ Changed day announcement "Xth day" to use subscript on the nuber prefixes
++ Changed Daytime Length Config panel. "Enable / Disable daylight cycle" --> "Enable / Freeze daylight cycle"
++ Changed Config Books now are given to the first player by inserting it in any slot of the inventory, instead of always in the slot 0 
++ Changed Drowned can now also wear copper boots and leggings. They will only wear leggings if they also wear a chestplate
++ Changed Enchanter Guides behave now as Enchanted Books. This change of base item tangentially makes SE compatible with other datapacks
++ Changed Enchanter Guides now can be re-rolled by using it on hand in exchange for 1 lapis and 1 xp level. Re-rolling changes the enchantment it contains. It can contain most enchantments, the original always being Mount Catalyst. It will 
++ Changed Enchanting Table recipe now requires an Enchanted Book instead of an Enchanter's Guide
++ Changed Endermen will now hold blocks according to what dimensions the nearest player has been to
++ Changed flying while wearing netherite during thunderstorms will only strike the player if it's under cloud level
++ Changed Husk Skeletons only grant the hunger effect when attacking directly
++ Changed Maps on Pillager Outposts now point to Infected Cities instead of Villages
++ Changed Patrol Leaders now hold the Pillager Compass on their offhands
++ Changed Phage and Zombification detection, it should now be more consistent
++ Changed Pillager Compasses can now point to illager mansions
++ Changed Shutters, now roll/unroll in a cascading manner instead of all in the same tick, thus reducing server stress
++ Changed Sculk Plantoid interactions. Crouching when hitting will give the player more control over how many xp is being taken from the plantoid
++ Changed Sculk Plantoids recipe now requires only 2 Echo Shards
++ Changed siscu:nether_fortress has been now removed, and is now replacing minecraft:fortress
++ Changed Stray and Husk Robes no longer get damaged when the wearer is injured
++ Changed Withering and Warped Poisoning timers to reduce tick stress. Those mechanics now progress at a constant pace, instead of relying on randomness
++ Changed Withering is now less punishing
++ Changed zombified players exposed to the sun will display small flame particles as their helmet burns
++ Fixed Bogged are now affected by the withering
++ Fixed Cats weren't black on witch huts
++ Fixed killing pigs or striders wearing enchanted saddles didn't drop the enchanted item
++ Fixed Oxidation
++ Fixed phage effect flickering when drinking milk
++ Fixed players could leave and enter the nether for a window of time without losing progress for the "Facing the Darkness" advancement
++ Fixed resourcepack's mipmapping errors
++ Fixed square root calculation method
++ Optimised Entity transformations
++ Optimised eye height dependant commands
++ Optimised Rotting timers
++ Renamed "Shutters" to "Blinds"
++ Retextured Snout Banner Pattern item
++ Rewritten shutters detection
++ Updated most tags to use the "siscu." prefix
++ Updated Potion Grimoires, they now contain the recipes for Wind Charged, Infested, Weaving and Oozing potions
+- Reduced Baby Zombie's chance of spawning with weapons to 10%
+- Removed Bamboo being used as sticks in crafting recipes
+- Removed climbable chains and cobwebs
+- Removed Combat Stick crafting recipes
+- Removed Credits from the common credits screen
+- Removed DoInsomnia gamerule being forcibly set to true when first loading the pack
+- Removed Enchanted Golden Apples recipe
+- Removed Enchanted Saddles. They've been replaced by the Mount Catalyst enchantment
+- Removed Enchanter's Guide story advancement
+- Removed non-waxed Oxidised Copper Blocks and non-waxed Oxidised Cut Copper Blocks from the beacon base blocks list
+- Removed Piglin Brute Heads
+- Removed Potions, Phantom Membranes and Milk Buckets from Cauldron Cooking. This change is provisional and will be reverted in future updates
+- Removed Ravager Horns. All horns on trades have been replaced with diamonds
+- Removed unused files
+- Restored Wandering Trader's loot table to vanilla
+
 Survivor's Elegy alpha 0.9.4 (10/09/2024)
 + Added Melon Slice to broth cauldron cooking
 + Added undead wolves now drop bones, rotten flesh or withered bones on death, depending on their variant
