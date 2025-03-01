@@ -1,10 +1,9 @@
 {
-	"credit": "Made by CiscuLog with Blockbench",
 	"textures": {
-		"particle": "siscu_se:block/sculk_plantoid_base",
 		"base": "siscu_se:block/sculk_plantoid_base",
 		"leaf": "siscu_se:block/sculk_plantoid",
-		"stem": "siscu_se:block/sculk_plantoid_0"
+		"stem": "siscu_se:block/sculk_plantoid_0",
+		"particle": "#base"
 	},
 	"elements": [
 		{

@@ -13,15 +13,14 @@
                         "consumable": {
                             "consume_seconds": 1000000
                         },
-                        "max_stack_size": 1,
+                        "max_stack_size": 64,
                         "item_name": "{\"translate\":\"item.siscu.light_sensor\"}",
                         "item_model": "siscu_se:light_sensor",
                         "custom_data": {
                             "SE_data": {
                                 "id": "siscu:light_sensor",
                                 "IsCopper": 1,
-                                "LightSensor": 1,
-                                "UpdateVersion": "v1.0.0",
+                                "UpdateVersion": "v1.0.1",
                                 "Oxidation": 0
                             }
                         }

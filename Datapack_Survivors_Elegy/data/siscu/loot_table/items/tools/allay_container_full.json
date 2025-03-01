@@ -23,7 +23,7 @@
                                 "id": "siscu:allay_container_allay",
                                 "AllayContainer": 1,
                                 "ContainsAllay": 1,
-                                "UpdateVersion": "v1.0.0"
+                                "UpdateVersion": "v1.0.1"
                             }
                         }
                     }

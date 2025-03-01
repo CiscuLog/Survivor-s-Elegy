@@ -1,4 +1,6 @@
 {
-  "replace": true,
-  "values": []
+  "replace": false,
+  "values": [
+    "siscu:withered_grounds"
+  ]
 }

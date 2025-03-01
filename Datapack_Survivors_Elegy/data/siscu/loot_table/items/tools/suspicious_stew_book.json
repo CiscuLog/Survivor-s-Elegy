@@ -27,7 +27,7 @@
 					"custom_data": {
 						"SE_data": {
 							"id": "siscu:suspicious_stew_book",
-							"UpdateVersion": "v1.0.0",
+							"UpdateVersion": "v1.0.1",
 							"Book": "suspicious_stew"
 						}
 					}

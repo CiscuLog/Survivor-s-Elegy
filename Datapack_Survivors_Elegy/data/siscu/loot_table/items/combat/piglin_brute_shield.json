@@ -19,7 +19,7 @@
 						"SE_data": {
 							"id": "siscu:brute_shield",
 							"CustomShield": 1,
-							"UpdateVersion": "v1.0.0"
+							"UpdateVersion": "v1.0.1"
 						}
 					},
 					"max_damage": 400

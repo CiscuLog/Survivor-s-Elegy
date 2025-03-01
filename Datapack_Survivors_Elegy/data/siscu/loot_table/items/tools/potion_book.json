@@ -29,7 +29,7 @@
 					"custom_data": {
 						"SE_data": {
 							"id": "siscu:potion_book",
-							"UpdateVersion": "v1.0.0",
+							"UpdateVersion": "v1.0.1",
 							"Book": "potion"
 						}
 					}

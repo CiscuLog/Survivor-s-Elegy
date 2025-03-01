@@ -15,7 +15,7 @@
                 "minecraft:custom_data": {
                   "SE_data": {
                     "id": "siscu:chainmail_horse_armor",
-                    "UpdateVersion": "v1.0.0"
+                    "UpdateVersion": "v1.0.1"
                   }
                 },
                 "equippable": {"slot": "body","allowed_entities": "horse","equip_sound": "item.armor.equip_chain","asset_id": "siscu_se:chainmail"},

@@ -4,6 +4,8 @@
 		"property": "custom_model_data",
 		"fallback": {"type": "model","model": "siscu_se:item/light_sensor"},
 		"entries": [
+			{"model": {"type": "model","model": "siscu_se:item/light_sensor_0"},
+			"threshold": 0},
 			{"model": {"type": "model","model": "siscu_se:item/light_sensor_1"},
 			"threshold": 1},
 			{"model": {"type": "model","model": "siscu_se:item/light_sensor_2"},

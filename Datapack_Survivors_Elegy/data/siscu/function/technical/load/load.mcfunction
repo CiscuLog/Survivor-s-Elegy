@@ -1,8 +1,15 @@
 #create scoreboards
-execute unless data storage siscu:world {PackVersion:"v1.0.0"} run function siscu:technical/load/load_first_time
+execute unless data storage siscu:world {PackVersion:"v1.0.1"} run function siscu:technical/load/load_first_time
 
 #delete schedules
 function siscu:technical/clear_schedules
+
+# Check for Safe mode
+scoreboard players set safe_mode siscu.integer 0
+execute store result score x siscu.volatile run function siscu:technical/randomiser {"min":1,"max":2}
+execute unless score x siscu.volatile matches 1..2 run scoreboard players set safe_mode siscu.integer 1
+## Load safe mode
+execute if score safe_mode siscu.integer matches 1 run function siscu:technical/load/safe_mode
 
 #start functions
 function siscu:technical/clocks/tick_1s
@@ -26,4 +33,4 @@ execute as @a run function siscu:technical/clear_advancements
 function siscu:advancement/clear_connections
 
 forceload add 0 0
-schedule function siscu:technical/load/load_2 10t
+schedule function siscu:technical/load/load_2 9t

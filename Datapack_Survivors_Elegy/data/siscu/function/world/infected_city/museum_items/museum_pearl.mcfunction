@@ -2,7 +2,7 @@
 execute if predicate siscu:utils/50_percent run return run function siscu:world/infected_city/museum_items/museum_stray
 
 tag @s remove siscu.worldgen
-tag @s remove siscu.museum_shield
+tag @s remove siscu.museum_pearl
 
 # Shield (oxidised?)
 item replace entity @s contents with ender_pearl

@@ -13,4 +13,5 @@ execute if score conditions_met siscu.sleep_time = players_sleeping siscu.sleep_
 execute if score SkipNight siscu.sleep_time matches 1 run function siscu:world/day_features/day_set_morning
 execute if score SkipNight siscu.sleep_time matches 1 run weather clear
 execute if score SkipNight siscu.sleep_time matches 1 as @a run function siscu:world/day_features/announce_day/split
+execute unless score SkipNight siscu.sleep_time matches 0 run return run scoreboard players set SkipNight siscu.sleep_time 0
 execute if predicate siscu:world/check_nighttime run schedule function siscu:world/day_features/sleeping 1t

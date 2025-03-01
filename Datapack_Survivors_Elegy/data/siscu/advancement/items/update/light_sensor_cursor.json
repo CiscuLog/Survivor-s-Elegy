@@ -1,0 +1,27 @@
+{
+    "rewards": {
+        "function": "siscu:items/use/light_sensor/reset_item"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "slots": {
+                                "player.cursor": {
+                                    "predicates": {
+                                        "custom_data": { "SE_data": { "id": "siscu:light_sensor" } }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

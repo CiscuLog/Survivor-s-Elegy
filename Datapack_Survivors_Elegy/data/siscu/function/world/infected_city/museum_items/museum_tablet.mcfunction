@@ -1,6 +1,6 @@
 
 tag @s remove siscu.worldgen
-tag @s remove siscu.museum_shield
+tag @s remove siscu.museum_tablet
 
 # Shield (oxidised?)
 loot replace entity @s contents loot siscu:archaeology/jungle_ruins_tablets

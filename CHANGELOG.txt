@@ -1,6 +1,14 @@
 
 Compatible Minecraft versions: 1.21
 
+Survivor's Elegy 1.0.1 (28/02/2025)
++ Added Creeper Fuse Time Variation toggle button on the config menu to disable the module
++ Added Light Sensors now default to their neutral model when dragging them in the inventory in survival. This makes them able to be stacked
++ Added Safe Mode, which should automatically disable the Creeper Fuse Time Variation module if the server doesn't support the operations used by the datapack
++ Changed Light Sensors can now be stacked up to 64
++ Fixed paintings not generating correctly on cities
++ Fixed sleeping skipped several days instead of just 1
+
 Survivor's Elegy 1.0.0 (23/02/2025)
 + Updated to 1.21.4
 + Added Ancient Shield. It stores vibrations when blocking, charging the shield up. 8 vibrations amount to a charge. It can store up to 6 charges. When blocking a projectile while crouching, if the shield has charge it will shoot the arrow where the player is looking. It's more durable than regular shields, and can be found oxidised on Infected Cities. It can be repaired on an anvil using copper ingots or prismarine shards. It has 4 oxidisation stages, charging the shield fully and blocking an attack will clean one oxidisation stage, consuming all the charge within.

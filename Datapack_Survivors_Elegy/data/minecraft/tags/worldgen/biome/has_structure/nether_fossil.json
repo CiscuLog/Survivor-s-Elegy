@@ -1,7 +1,5 @@
 {
-  "replace": true,
   "values": [
-    "minecraft:soul_sand_valley",
     "siscu:withered_grounds"
   ]
 }

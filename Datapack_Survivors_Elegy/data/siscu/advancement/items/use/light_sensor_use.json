@@ -7,7 +7,7 @@
 				"item": {
 					"items":["minecraft:raw_copper"],
 					"predicates":{
-						"custom_data": "{SE_data:{LightSensor: 1b}}"
+						"custom_data": {"SE_data":{"id": "siscu:light_sensor"}}
 					}
 				}
 			}

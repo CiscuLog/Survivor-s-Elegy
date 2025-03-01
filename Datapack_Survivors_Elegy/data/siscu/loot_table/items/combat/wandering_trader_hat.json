@@ -14,7 +14,7 @@
 					"item_model": "siscu_se:wandering_trader_hat",
 					"custom_data":{
 						"SE_data":{
-							"UpdateVersion": "v1.0.0"
+							"UpdateVersion": "v1.0.1"
 						}
 					},
 					"equippable": {

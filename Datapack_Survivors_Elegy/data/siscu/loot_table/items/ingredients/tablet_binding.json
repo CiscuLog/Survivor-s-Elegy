@@ -16,7 +16,7 @@
 					"custom_data": {
 						"SE_data": {
 							"id": "siscu:enchanted_tablet",
-							"UpdateVersion": "v1.0.0"
+							"UpdateVersion": "v1.0.1"
 						}
 					},
 					"stored_enchantments": {"levels":{"minecraft:binding_curse":1}}

@@ -15,7 +15,7 @@
                                 "minecraft:custom_data": {
                                     "SE_data": {
                                         "IsStray": 1,
-                                        "UpdateVersion": "v1.0.0"
+                                        "UpdateVersion": "v1.0.1"
                                     }
                                 },
                                 "equippable": {

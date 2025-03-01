@@ -1,4 +1,8 @@
 tellraw @s [{"text":"\n\n\n%=====Survivor's Elegy Configuration Panel=====%","bold":true,"color":"gold"}]
+
+# Safe Mode
+execute if score safe_mode siscu.integer matches 1 run tellraw @s [{"text":"\u26A0 Server Mode Activated \u26A0\n","bold":true},{"text":"This is an automatic feature and cannot be deactivated ","bold": false}, {"text": "[Learn More]","hoverEvent": {"action": "show_text","contents": "Click"},"clickEvent": {"action": "run_command","value": "/function siscu:technical/about_safe_mode"}}]
+# Menu
 tellraw @s [{"text":"- Daytime Extender Module","bold":false,"color":"green","clickEvent":{"action":"run_command","value":"/function siscu:config/daytime_extender"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to change"}}}]
 tellraw @s [{"text":"- Current Day Announcer","bold":false,"color":"green","clickEvent":{"action":"run_command","value":"/function siscu:config/day_announcement"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to change"}}}]
 tellraw @s [{"text":"- Sleep Module","bold":false,"color":"green","clickEvent":{"action":"run_command","value":"/function siscu:config/sleep_config"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to change"}}}]

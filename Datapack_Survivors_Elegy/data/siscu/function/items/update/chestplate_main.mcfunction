@@ -29,4 +29,4 @@ execute if predicate {"condition":"entity_properties","entity":"this","predicate
 function siscu:items/item_modifier/clone_components_from_storage with storage siscu:volatile
 
 # set it to latest version to avoid future checks
-item modify entity @s armor.chest {function:"set_custom_data",tag:{SE_data:{UpdateVersion:"v1.0.0"}}}
+item modify entity @s armor.chest {function:"set_custom_data",tag:{SE_data:{UpdateVersion:"v1.0.1"}}}

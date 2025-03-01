@@ -18,7 +18,7 @@
                 "minecraft:custom_data": {
                   "SE_data": {
                     "id": "siscu:netherite_horse_armor",
-                    "UpdateVersion": "v1.0.0"
+                    "UpdateVersion": "v1.0.1"
                   }
                 },
                 "equippable": {
