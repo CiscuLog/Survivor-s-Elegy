@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "minecraft:item/tropical_fish",
   "textures": {
     "layer0": "siscu_se:item/koi"
   }

@@ -4,7 +4,6 @@
 	"predicate": {
 		"effects": {
 			"minecraft:invisibility": {
-				"duration": {"min":2},
 				"visible": true 
 			}
 		}

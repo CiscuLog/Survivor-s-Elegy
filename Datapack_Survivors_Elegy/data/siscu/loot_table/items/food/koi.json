@@ -9,7 +9,7 @@
 			"functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"item_name":"{\"translate\":\"item.siscu.koi\"}",
+				"components": {"item_name":{"translate":"item.siscu.koi"},
 				"item_model": "siscu_se:koi",
 				"custom_data": {
 					"SE_data": {

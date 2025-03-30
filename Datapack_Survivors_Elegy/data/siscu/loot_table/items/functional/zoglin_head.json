@@ -10,7 +10,7 @@
 			{
 				"function": "minecraft:set_components",
 				"components": {
-					"item_name":"{\"translate\":\"item.siscu.zoglin_head\"}",
+					"item_name":{"translate":"item.siscu.zoglin_head"},
 					"rarity":"uncommon",
 					"item_model": "siscu_se:zoglin_head",
 					"custom_data": {

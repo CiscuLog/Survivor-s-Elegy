@@ -8,7 +8,7 @@ execute store result storage siscu:volatile BrothCauldronData.broth_level int 1 
 execute if score broth_level siscu.broth_data matches 0 run data merge storage siscu:volatile {BrothCauldronData:{effects:[{type:apply_effects,effects:[{id:"minecraft:water",amplifier:0, duration:0}]}]}}
 execute store result storage siscu:volatile BrothCauldronData.effects[0].effects[0].duration int 1 run scoreboard players get potion_duration siscu.broth_data
 
-# copy storage data to marker
+# copy storage data to interaction
 data modify entity @s data set from storage siscu:volatile BrothCauldronData
 
 

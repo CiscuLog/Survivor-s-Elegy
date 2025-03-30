@@ -20,7 +20,7 @@
         "animation": "bow"
       },
       "max_stack_size": 64,
-      "item_name": "{\"translate\":\"item.siscu.light_sensor\"}",
+      "item_name": {"translate":"item.siscu.light_sensor"},
       "item_model": "siscu_se:light_sensor",
       "custom_data": {
         "SE_data": {

@@ -26,11 +26,8 @@ advancement revoke @s only siscu:entities/hurt_while_wearing_copper_armor
 advancement revoke @s only siscu:entities/item_frame_interaction
 advancement revoke @s only siscu:entities/kill_dragon
 advancement revoke @s only siscu:entities/kill_dripstone_zombie
-advancement revoke @s only siscu:entities/kill_enchanted_mount
-advancement revoke @s only siscu:entities/kill_patrol_leader
 advancement revoke @s only siscu:entities/kill_wither
 advancement revoke @s only siscu:entities/kill_wither_skeleton
-advancement revoke @s only siscu:entities/mount_enchanted_saddle
 advancement revoke @s only siscu:entities/player_flies_wearing_netherite
 advancement revoke @s only siscu:entities/player_get_phage
 advancement revoke @s only siscu:entities/player_sleep
@@ -51,9 +48,6 @@ advancement revoke @s only siscu:items/consume/warped_stew_eat
 advancement revoke @s only siscu:items/consume/warped_wart_eat
 advancement revoke @s only siscu:items/consume/warped_wart_stew_eat
 advancement revoke @s only siscu:items/update/dragon_egg
-advancement revoke @s only siscu:items/use/brute_shield_block
-advancement revoke @s only siscu:items/use/enchanted_saddle_interact_normal
-advancement revoke @s only siscu:items/use/enchanted_saddle_interact
 advancement revoke @s only siscu:items/use/instrument_hold
 advancement revoke @s only siscu:items/use/light_sensor_cooldown
 advancement revoke @s only siscu:items/use/light_sensor_hold

@@ -10,10 +10,10 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:item_name": "{\"translate\":\"item.siscu.wax_wolf_armor\"}",
+                "minecraft:item_name": {"translate":"item.siscu.wax_wolf_armor"},
                 "minecraft:lore": [
-                  "{\"translate\":\"text.siscu.wax_wolf_armor\",\"italic\": false,\"color\": \"gray\"}",
-                  "{\"translate\":\"text.siscu.wax_wolf_armor2\",\"italic\": false,\"color\": \"gray\"}"
+                  {"translate":"text.siscu.wax_wolf_armor","italic": false,"color": "gray"},
+                  {"translate":"text.siscu.wax_wolf_armor2","italic": false,"color": "gray"}
                 ],
                 "item_model": "siscu_se:wax_wolf_armor",
                 "minecraft:custom_data": {

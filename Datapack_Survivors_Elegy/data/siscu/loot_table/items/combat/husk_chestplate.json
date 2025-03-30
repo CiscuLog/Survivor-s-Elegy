@@ -10,23 +10,23 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"translate\":\"item.siscu.husk_chestplate\"}",
+                                "minecraft:item_name": {
+                                    "translate": "item.siscu.husk_chestplate"
+                                },
                                 "item_model": "siscu_se:husk_chestplate",
                                 "minecraft:custom_data": {
                                     "SE_data": {
                                         "id": "siscu:husk_chestplate",
                                         "IsHusk": 1,
-                                                                                "UpdateVersion": "v1.0.1"
+                                        "UpdateVersion": "v1.0.1"
                                     }
                                 },
                                 "equippable": {
                                     "slot": "chest",
                                     "damage_on_hurt": false,
                                     "equip_sound": "item.armor.equip_leather",
-                                    "asset_id": "siscu_se:husk_layer_1"
-                                },
-                                "minecraft:damage": 0,
-                                "max_damage": 140
+                                    "asset_id": "siscu_se:husk"
+                                }
                             }
                         }
                     ]

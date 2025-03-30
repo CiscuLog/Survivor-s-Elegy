@@ -10,7 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"translate\":\"item.siscu.stray_leggings\"}",
+                                "minecraft:item_name": {"translate":"item.siscu.stray_leggings"},
                                 "minecraft:item_model": "siscu_se:stray_leggings",
                                 "minecraft:custom_data": {
                                     "SE_data": {

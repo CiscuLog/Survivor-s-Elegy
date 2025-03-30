@@ -10,7 +10,7 @@
 			{
 				"function": "set_components",
 				"components": {
-					"item_name": "{\"translate\":\"item.siscu.witch_chestplate\"}",
+					"item_name": {"translate":"item.siscu.witch_chestplate"},
 					"item_model": "siscu_se:witch_chestplate",
 					"custom_data":{
 						"SE_data":{

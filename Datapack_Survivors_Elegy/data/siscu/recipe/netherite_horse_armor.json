@@ -6,11 +6,7 @@
 	"result":{"id":"minecraft:ancient_debris",
 	"components": {
 		"minecraft:damage_resistant": {"types": "#is_fire"},
-		"minecraft:item_name": "{\"translate\":\"item.siscu.netherite_horse_armor\"}",
-		"minecraft:dyed_color": {
-		  "rgb": 5065037,
-		  "show_in_tooltip": false
-		},
+		"minecraft:item_name": {"translate":"item.siscu.netherite_horse_armor"},
 		"item_model":"siscu_se:netherite_horse_armor",
 		"minecraft:custom_data": {
 		  "SE_data": {

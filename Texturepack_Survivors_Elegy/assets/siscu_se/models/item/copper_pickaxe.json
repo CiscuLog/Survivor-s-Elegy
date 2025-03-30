@@ -2,10 +2,5 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "siscu_se:item/copper_pickaxe"
-  },
-  "overrides": [
-    {"predicate": {"custom_model_data": 1},"model": "siscu_se:item/exposed_copper_pickaxe"},
-    {"predicate": {"custom_model_data": 2},"model": "siscu_se:item/weathered_copper_pickaxe"},
-    {"predicate": {"custom_model_data": 3},"model": "siscu_se:item/oxidised_copper_pickaxe"}
-  ]
+  }
 }

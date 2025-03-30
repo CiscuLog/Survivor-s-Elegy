@@ -19,7 +19,7 @@
 				"function": "minecraft:set_components",
                 "components": {
 					"map_color":0,
-					"item_name":"{\"translate\":\"item.siscu.ancient_city_map\"}"
+					"item_name":{"translate":"item.siscu.ancient_city_map"}
 				}
 			}
 			]

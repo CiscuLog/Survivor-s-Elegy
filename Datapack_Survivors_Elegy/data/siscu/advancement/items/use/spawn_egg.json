@@ -1,14 +1,30 @@
 {
 	"criteria": {
-		"0": 
-		{
-			"trigger":"minecraft:item_used_on_block",
+		"0": {
+			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
 				"location": [
 					{
 						"condition": "match_tool",
 						"predicate": {
-							"items": ["blaze_spawn_egg","creeper_spawn_egg","drowned_spawn_egg","husk_spawn_egg","skeleton_spawn_egg","wither_skeleton_spawn_egg","zombie_spawn_egg","zombie_villager_spawn_egg","zombified_piglin_spawn_egg","piglin_spawn_egg","piglin_brute_spawn_egg","villager_spawn_egg","wandering_trader_spawn_egg","evoker_spawn_egg","vex_spawn_egg"]
+							"items": [
+								"blaze_spawn_egg",
+								"creeper_spawn_egg",
+								"drowned_spawn_egg",
+								"husk_spawn_egg",
+								"skeleton_spawn_egg",
+								"wither_skeleton_spawn_egg",
+								"zombie_spawn_egg",
+								"zombie_villager_spawn_egg",
+								"zombified_piglin_spawn_egg",
+								"piglin_spawn_egg",
+								"piglin_brute_spawn_egg",
+								"villager_spawn_egg",
+								"wandering_trader_spawn_egg",
+								"evoker_spawn_egg",
+								"vex_spawn_egg",
+								"phantom_spawn_egg"
+							]
 						}
 					}
 				]

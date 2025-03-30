@@ -4,7 +4,7 @@ scoreboard players set @s siscu.left_game 0
 title @s reset
 title @s times 20 200 100
 title @s title ""
-title @s subtitle {"translate":"text.siscu.blank","fallback":"⚠ Missing Resource Pack! ⚠","color":"red"}
+title @s subtitle {translate:"text.siscu.blank","fallback":"⚠ Missing Resource Pack! ⚠",color:"red"}
 
 # functions
 function siscu:technical/clear_advancements

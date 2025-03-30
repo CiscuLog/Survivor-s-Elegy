@@ -1,6 +1,16 @@
 {
-    "angry_texture": "siscu_se:entity/wolf/skeleton",
-    "wild_texture": "siscu_se:entity/wolf/skeleton",
-    "tame_texture": "siscu_se:entity/wolf/skeleton",
-    "biomes": "#siscu:none"
+    "assets": {
+        "angry": "siscu_se:entity/wolf/skeleton",
+        "wild": "siscu_se:entity/wolf/skeleton",
+        "tame": "siscu_se:entity/wolf/skeleton"
+    },
+    "spawn_conditions": [
+        {
+            "condition": {
+                "type": "minecraft:biome",
+                "biomes": "#siscu:none"
+            },
+            "priority": 1
+        }
+    ]
 }

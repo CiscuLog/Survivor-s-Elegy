@@ -10,7 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"translate\":\"item.siscu.exposed_copper_sword\"}",
+                                "minecraft:item_name": {"translate":"item.siscu.exposed_copper_sword"},
                                 "minecraft:custom_model_data": {"floats": [1]}
                             }
                         },

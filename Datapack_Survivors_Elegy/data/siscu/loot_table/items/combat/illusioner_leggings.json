@@ -10,7 +10,7 @@
 			{
 				"function": "set_components",
 				"components": {
-					"item_name": "{\"translate\":\"item.siscu.illusioner_leggings\"}",
+					"item_name": {"translate":"item.siscu.illusioner_leggings"},
 					"item_model": "siscu_se:illusioner_leggings",
 					"custom_data":{
 						"SE_data":{

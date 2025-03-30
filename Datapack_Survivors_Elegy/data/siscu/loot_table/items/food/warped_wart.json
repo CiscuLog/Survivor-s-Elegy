@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"item_name": "{\"translate\":\"item.siscu.warped_wart\"}",
+								"item_name": {"translate":"item.siscu.warped_wart"},
 								"item_model": "siscu_se:warped_wart",
 								"custom_data": {
 									"SE_data": {

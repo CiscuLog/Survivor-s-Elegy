@@ -1,5 +1,22 @@
 
-Compatible Minecraft versions: 1.21
+Compatible Minecraft versions: 1.21.4
+
+Survivor's Elegy 1.0.2 (29/03/2024)
++ Updated to 1.21.5
++ Added entities won't rot if they're standing on honeycomb blocks
++ Added red and brown mushrooms to broth cauldron cooking. They both fill 3 hunger and 3.6 saturation
++ Added Trader Camps to cherry groves
++ Changed generating suspicious sand now generates particles depending on the type of item frame
++ Changed Resourcepack version naming system
++ Changed Zombified players have their block breaking speed decreased to a 30%
++ Changed Zombified players will no longer be in adventure mode
++ Fixed a bunch of calculations failing due to a missing score
++ Fixed Bee Counters didn't make the item frame invisible
++ Fixed Water Bottles couldn't be used to fill up cooking cauldrons
++ Fixed generating suspicious sand would play a suspicious gravel place sound
++ Fixed novice fishermen trade changes
++ Updated to resourcepack version 2
++ Removed Pillager Compasses pointing to mansions
 
 Survivor's Elegy 1.0.1 (28/02/2025)
 + Added Creeper Fuse Time Variation toggle button on the config menu to disable the module

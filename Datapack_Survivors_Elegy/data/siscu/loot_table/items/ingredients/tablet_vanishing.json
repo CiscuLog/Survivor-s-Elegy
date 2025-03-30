@@ -11,7 +11,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"item_model": "siscu_se:tablet_vanishing",
-					"stored_enchantments": {"levels":{"minecraft:vanishing_curse":1}}
+					"stored_enchantments": {"minecraft:vanishing_curse":1}
 				}
 			}
 			]

@@ -1,5 +1,4 @@
 {
-	"show_toast": false,
 	"criteria": {
 		"0": {
 			"trigger":"minecraft:recipe_unlocked",

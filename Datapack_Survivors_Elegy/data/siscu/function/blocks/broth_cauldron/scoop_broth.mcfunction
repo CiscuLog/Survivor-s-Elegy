@@ -1,4 +1,6 @@
 
+data remove storage siscu:volatile serving_data
+
 scoreboard players set min_food siscu.broth_data 100
 #scoreboard players set min_saturation siscu.broth_data 200
 scoreboard players operation min_food siscu.broth_data *= broth_level siscu.broth_data
@@ -7,7 +9,7 @@ scoreboard players operation min_food siscu.broth_data *= broth_level siscu.brot
 # fail if broth is mainly water or undercooked
 execute if score broth_food siscu.broth_data < min_food siscu.broth_data run return 0
 #execute if score broth_saturation siscu.broth_data < min_saturation siscu.broth_data run return 0
-execute as @n[type=marker,tag=siscu.broth_interacting] if score @s siscu.broth_temperature matches ..99 run return 0
+execute as @n[type=interaction,tag=siscu.broth_interacting] if score @s siscu.broth_temperature matches ..99 run return 0
 
 ## serving data calculation
 # set resulting broth nutrition values
@@ -38,21 +40,21 @@ execute if score broth_level siscu.broth_data matches ..0 run scoreboard players
 execute if score broth_level siscu.broth_data matches ..0 run scoreboard players set broth_saturation siscu.broth_data 0
 execute if score potion_duration siscu.broth_data matches ..0 run scoreboard players set potion_duration siscu.broth_data 0
 
-execute store result storage siscu:volatile broth_food int 0.01 run scoreboard players get food siscu.broth_data
-execute store result storage siscu:volatile broth_saturation int 0.01 run scoreboard players get saturation siscu.broth_data
+execute store result storage siscu:volatile serving_data.broth_food int 0.01 run scoreboard players get food siscu.broth_data
+execute store result storage siscu:volatile serving_data.broth_saturation int 0.01 run scoreboard players get saturation siscu.broth_data
 execute store result storage siscu:volatile BrothCauldronData.effects[0].effect.duration int 1 run scoreboard players get serving_potion_duration siscu.broth_data
 
 ## set resulting item
-data merge storage siscu:volatile {String:"bowl",String2:"siscu_se:broth_bowl"}
-execute if items entity @s weapon.mainhand bucket run data merge storage siscu:volatile {String:"bucket",String2:"siscu_se:broth_bucket"}
-execute if items entity @s weapon.mainhand glass_bottle run data merge storage siscu:volatile {String:"glass_bottle",String2:"siscu_se:broth_bottle"}
+data merge storage siscu:volatile {serving_data:{name:"broth",remainder:"bowl",model:"siscu_se:broth_bowl",consume_seconds:2}}
+execute if items entity @s weapon.mainhand bucket run data merge storage siscu:volatile {serving_data:{name:"broth_bucket",remainder:"bucket",model:"siscu_se:broth_bucket",consume_seconds:10}}
+execute if items entity @s weapon.mainhand glass_bottle run data merge storage siscu:volatile {serving_data:{name:"broth_bottle",remainder:"glass_bottle",model:"siscu_se:broth_bottle"}}
 
 # remove item and give broth
 item modify entity @s[gamemode=!creative] weapon.mainhand siscu:decrease_1
-execute at @s run function siscu:blocks/broth_cauldron/update/summon_serving with storage siscu:volatile
+execute at @s run function siscu:blocks/broth_cauldron/update/summon_serving with storage siscu:volatile serving_data
 #execute as @e[type=item,tag=siscu.unset_broth] if score has_potion siscu.broth_data matches 1 run data modify entity @s Item.components."minecraft:consumable".on_consume_effects set from storage siscu:volatile BrothCauldronData.effects
 
 # play effects
-execute at @e[type=marker,tag=siscu.broth_interacting] run function siscu:blocks/broth_cauldron/effects/scoop
+execute at @e[type=interaction,tag=siscu.broth_interacting] run function siscu:blocks/broth_cauldron/effects/scoop
 
 return 1

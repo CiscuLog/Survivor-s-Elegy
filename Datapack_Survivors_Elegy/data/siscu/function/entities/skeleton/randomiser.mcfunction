@@ -9,7 +9,7 @@ item replace entity @s armor.legs with air
 item replace entity @s armor.feet with air
 
 ## Piglin skeletons
-execute at @s if predicate siscu:utils/75_percent if predicate siscu:utils/check_the_nether run tag @s[tag=!siscu.husk_skeleton,tag=!villager] add piglin
+execute at @s if predicate siscu:utils/75_percent if dimension the_nether run tag @s[tag=!siscu.husk_skeleton,tag=!villager] add piglin
 execute if entity @s[tag=piglin] run function siscu:entities/skeleton/piglin
 
 ## Villager Skeletons
@@ -17,7 +17,7 @@ execute at @s if predicate siscu:utils/5_percent if dimension overworld run tag 
 execute at @s if predicate siscu:locations/check_village run tag @s add villager
 execute unless predicate siscu:entities/skeleton_is_riding run loot replace entity @s[tag=villager] weapon loot siscu:entities/skeleton/villager_skeleton_weapons
 loot replace entity @s[tag=villager] armor.head loot siscu:entities/skeleton/villager_skeleton_heads_natural
-data modify entity @s[tag=villager] ArmorDropChances[3] set value 0.0f
+data merge entity @s[tag=villager] {drop_chances:{head:0.0}}
 
 ## Husk Skeletons
 execute at @s[tag=!villager] if biome ~ ~ ~ desert if predicate siscu:locations/check_surface if predicate siscu:utils/80_percent run tag @s add siscu.husk_skeleton

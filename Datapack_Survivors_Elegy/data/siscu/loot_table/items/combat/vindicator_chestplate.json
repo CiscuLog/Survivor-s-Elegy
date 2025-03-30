@@ -10,9 +10,9 @@
 			{
 				"function": "set_components",
 				"components": {
-					"item_name": "{\"translate\":\"item.siscu.vindicator_chestplate\"}",
+					"item_name": {"translate":"item.siscu.vindicator_chestplate"},
 					"item_model": "siscu_se:vindicator_chestplate",
-					"hide_additional_tooltip": {},
+					"tooltip_display": {"hidden_components": []},
 					"custom_data":{
 						"SE_data":{
 							"UpdateVersion": "v1.0.1"

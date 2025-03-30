@@ -11,22 +11,22 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"item_model": "siscu_se:broth_book",
-								"hide_additional_tooltip": {},
-								"item_name": "{\"translate\":\"item.siscu.broth_book\"}",
+								"tooltip_display": {"hidden_components": []},
+								"item_name": {"translate":"item.siscu.broth_book"},
 								"rarity": "rare",
 								"written_book_content": {
 									"pages": [
 										{
-											"raw": "{\"translate\":\"text.siscu.book.broth_book.page1\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"
+											"raw": {"translate":"text.siscu.book.broth_book.page1","color":"white","font":"siscu_se:book_pages"}
 										},
 										{
-											"raw": "{\"translate\":\"text.siscu.book.broth_book.page2\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"
+											"raw": {"translate":"text.siscu.book.broth_book.page2","color":"white","font":"siscu_se:book_pages"}
 										},
 										{
-											"raw": "{\"translate\":\"text.siscu.book.broth_book.page3\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"
+											"raw": {"translate":"text.siscu.book.broth_book.page3","color":"white","font":"siscu_se:book_pages"}
 										},
 										{
-											"raw": "{\"translate\":\"text.siscu.book.broth_book.page4\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"
+											"raw": {"translate":"text.siscu.book.broth_book.page4","color":"white","font":"siscu_se:book_pages"}
 										}
 									],
 									"generation": 2,

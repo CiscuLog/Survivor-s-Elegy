@@ -10,7 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"translate\":\"item.siscu.copper_hoe\"}",
+                                "minecraft:item_name": {"translate":"item.siscu.copper_hoe"},
                                 "item_model": "siscu_se:copper_hoe",
                                 "minecraft:max_damage":150,
                                 "repairable": {

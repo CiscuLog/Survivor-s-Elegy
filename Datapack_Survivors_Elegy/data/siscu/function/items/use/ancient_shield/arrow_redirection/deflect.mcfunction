@@ -7,7 +7,7 @@ execute as @e[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile
 execute as @e[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] store result score z siscu.volatile run data get entity @s Pos[2] 10
 
 # set endpoint
-execute positioned ^ ^1 ^8 run summon area_effect_cloud ~ ~ ~ {Tags:["siscu.vector_endpoint"]}
+execute positioned ^ ^1 ^8 run summon area_effect_cloud ~ ~ ~ {Tags:["siscu.vector_endpoint"],Duration:1,Radius:0,Age:20}
 execute positioned ^ ^1.8 ^10 store result score x1 siscu.volatile run data get entity @n[type=area_effect_cloud,tag=siscu.vector_endpoint] Pos[0] 10
 execute positioned ^ ^1.8 ^10 store result score y1 siscu.volatile run data get entity @n[type=area_effect_cloud,tag=siscu.vector_endpoint] Pos[1] 10
 execute positioned ^ ^1.8 ^10 store result score z1 siscu.volatile run data get entity @n[type=area_effect_cloud,tag=siscu.vector_endpoint] Pos[2] 10

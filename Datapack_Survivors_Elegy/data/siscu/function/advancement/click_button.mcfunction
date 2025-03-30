@@ -1,2 +1,2 @@
 advancement revoke @a only siscu:items/click_button
-execute at @s as @e[type=#siscu:item_frames,distance=..5] at @s if block ~ ~ ~ #buttons[powered=true] at @s if block ^ ^ ^-0.5 #siscu:suspicious_blocks if data entity @s Item run function siscu:entities/item_frame/suspicious_item/push
+execute at @s as @e[type=#siscu:item_frames,distance=..5] at @s if block ~ ~ ~ #buttons[powered=true] at @s if block ^ ^ ^-0.5 #siscu:suspicious_blocks if data entity @s Item run function siscu:entities/item_frame/suspicious_item/push_split

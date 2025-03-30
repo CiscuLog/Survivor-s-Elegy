@@ -13,15 +13,14 @@ data modify entity @n[tag=converted] Tags append from entity @s Tags[]
 data modify entity @n[tag=converted] DeathLootTable set from entity @s DeathLootTable
 data modify entity @n[tag=converted] active_effects append from entity @s active_effects
 data modify entity @n[tag=converted] LeftHanded set from entity @s LeftHanded
-data modify entity @n[tag=converted] ArmorDropChances set from entity @s ArmorDropChances
-data modify entity @n[tag=converted] HandDropChances set from entity @s HandDropChances
+data modify entity @n[tag=converted] drop_chances set from entity @s drop_chances
 
 data modify entity @n[tag=converted] CustomName set from entity @s CustomName
 data modify entity @n[tag=converted] PersistenceRequired set from entity @s PersistenceRequired
 data modify entity @n[tag=converted] CanPickUpLoot set from entity @s CanPickUpLoot
 
 data modify entity @n[tag=converted] Rotation set from entity @s Rotation
-data modify entity @n[tag=converted] FallDistance set from entity @s FallDistance
+data modify entity @n[tag=converted] fall_distance set from entity @s fall_distance
 
 playsound minecraft:entity.husk.converted_to_zombie hostile @a ~ ~ ~
 particle minecraft:bubble ~ ~1 ~ 0.2 0.5 0.2 0.07 20 normal

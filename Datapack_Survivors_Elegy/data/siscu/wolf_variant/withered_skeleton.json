@@ -1,6 +1,16 @@
 {
-    "angry_texture": "siscu_se:entity/wolf/withered_skeleton",
-    "wild_texture": "siscu_se:entity/wolf/withered_skeleton",
-    "tame_texture": "siscu_se:entity/wolf/withered_skeleton",
-    "biomes": "#siscu:none"
+    "assets": {
+        "angry": "siscu_se:entity/wolf/withered_skeleton",
+        "wild": "siscu_se:entity/wolf/withered_skeleton",
+        "tame": "siscu_se:entity/wolf/withered_skeleton"
+    },
+    "spawn_conditions": [
+        {
+            "condition": {
+                "type": "minecraft:biome",
+                "biomes": "#siscu:none"
+            },
+            "priority": 1
+        }
+    ]
 }

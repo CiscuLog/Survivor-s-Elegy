@@ -9,7 +9,7 @@
 			"functions": [{
 				"function":"set_components",
 				"components": {
-					"minecraft:item_name": "{\"text\":\"TanMob\",\"font\":\"siscu_se:piglinalt\"}",
+					"minecraft:item_name": {"text":"TanMob","font":"siscu_se:piglinalt"},
 					"item_model": "siscu_se:crimson_shield_11"
 				}
 			}

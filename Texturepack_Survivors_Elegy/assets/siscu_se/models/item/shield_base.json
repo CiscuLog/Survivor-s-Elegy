@@ -1,13 +1,10 @@
 {
-	"credit": "Made by CiscuLog with Blockbench",
-	"texture_size": [64, 32],
 	"textures": {
 		"2": "siscu_se:item/crimson_shield_1",
 		"particle": "minecraft:block/dark_oak_planks"
 	},
 	"elements": [
 		{
-			"name": "Cube",
 			"from": [-6, -11, 1],
 			"to": [6, 11, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 1.5]},
@@ -21,7 +18,6 @@
 			}
 		},
 		{
-			"name": "Cube",
 			"from": [6, -11, 1],
 			"to": [-6, 11, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [12, 0, 1.5]},
@@ -35,7 +31,6 @@
 			}
 		},
 		{
-			"name": "Cube",
 			"from": [-1, -3, -5],
 			"to": [1, 3, 1],
 			"shade": false,
@@ -50,7 +45,6 @@
 			}
 		},
 		{
-			"name": "odd_texture",
 			"from": [-5.025, -10.05, 2.01],
 			"to": [5.025, 10.05, 2.01],
 			"faces": {

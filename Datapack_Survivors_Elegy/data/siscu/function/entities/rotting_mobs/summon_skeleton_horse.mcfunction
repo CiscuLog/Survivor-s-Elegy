@@ -1,9 +1,11 @@
-$summon skeleton_horse ~ ~ ~ {Tags:["converted","rotten_horse"],ArmorItems:$(ArmorItems),HandItems:$(HandItems),ArmorDropChances:$(ArmorDropChances),HandDropChances:$(HandDropChances),Rotation:$(Rotation),FallDistance:$(FallDistance),\
+$summon skeleton_horse ~ ~ ~ {Tags:["converted","rotten_horse"],Rotation:$(Rotation),fall_distance:$(fall_distance),\
 \
 Tame:$(Tame),Age:$(Age),attributes:$(attributes),PersistenceRequired:$(PersistenceRequired)\
 \
 }
 
+execute if data entity @s drop_chances run data modify entity @n[tag=converted] drop_chances set from entity @s drop_chances
+execute if data entity @s equipment run data modify entity @n[tag=converted] equipment set from entity @s equipment
 execute if data entity @s DeathLootTable run data modify entity @n[tag=converted] DeathLootTable set from entity @s DeathLootTable
 execute if data entity @s CustomName run data modify entity @n[tag=converted] CustomName set from entity @s CustomName
 execute if data entity @s CustomNameVisible run data modify entity @n[tag=converted] CustomNameVisible set from entity @s CustomNameVisible

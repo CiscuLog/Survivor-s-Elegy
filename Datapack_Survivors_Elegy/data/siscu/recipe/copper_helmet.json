@@ -13,9 +13,15 @@
     "count": 1,
     "components": {
       "minecraft:damage": 0,
-      "minecraft:item_name": "{\"translate\":\"item.siscu.copper_helmet\"}",
+      "minecraft:item_name": {
+        "translate": "item.siscu.copper_helmet"
+      },
       "minecraft:lore": [
-        "{\"text\":\"Charge: 0\",\"color\":\"yellow\",\"italic\":false}"
+        {
+          "text": "Charge: 0",
+          "color": "yellow",
+          "italic": false
+        }
       ],
       "item_model": "siscu_se:copper_helmet",
       "minecraft:custom_data": {
@@ -37,17 +43,15 @@
       },
       "max_stack_size": 1,
       "max_damage": 125,
-      "attribute_modifiers": {
-        "modifiers": [
-          {
-            "type": "armor",
-            "id": "408581be-5d70-4515-8bcb-d82e3b358486",
-            "amount": 2,
-            "operation": "add_value",
-            "slot": "head"
-          }
-        ]
-      }
+      "attribute_modifiers": [
+        {
+          "type": "armor",
+          "id": "408581be-5d70-4515-8bcb-d82e3b358486",
+          "amount": 2,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ]
     }
   }
 }

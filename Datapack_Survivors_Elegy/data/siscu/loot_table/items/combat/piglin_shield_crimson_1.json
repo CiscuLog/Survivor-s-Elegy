@@ -10,9 +10,9 @@
 				{
 					"function":"set_components",
 					"components": {
-						"minecraft:item_name": "{\"text\":\"CrimShield\",\"font\":\"siscu_se:piglinalt\"}",
+						"minecraft:item_name": {"text":"CrimShield","font":"siscu_se:piglinalt"},
 						"minecraft:lore": [
-						  "{\"text\":\"Held by Piglins\",\"color\":\"gray\",\"italic\":false}"
+						  {"text":"Held by Piglins","color":"gray","italic":false}
 						],
 						"item_model": "siscu_se:crimson_shield_1",
 						"custom_data": {

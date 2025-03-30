@@ -1,5 +1,5 @@
 
-$data merge storage siscu:database {WolfVariant:{UUID:$(UUID),variant:"$(Variant)"}}
+$data merge storage siscu:volatile {WolfVariant:{UUID:$(UUID),variant:"$(variant)"}}
 #data modify storage siscu:volatile WolfVariant.UUID set from entity @s UUID
 #data modify storage siscu:volatile WolfVariant.variant set from entity @s variant
 

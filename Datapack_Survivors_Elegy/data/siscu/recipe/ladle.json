@@ -17,9 +17,9 @@
                 "consume_seconds": 1000000
             },
             "max_stack_size": 1,
-            "item_name": "{\"translate\":\"item.siscu.ladle\"}",
+            "item_name": {"translate":"item.siscu.ladle"},
             "lore": [
-                "{\"translate\":\"text.siscu.place_cauldron\",\"italic\": false,\"color\": \"gray\"}"
+                {"translate":"text.siscu.place_cauldron","italic": false,"color": "gray"}
             ],
             "item_model": "siscu_se:ladle",
             "custom_data": {

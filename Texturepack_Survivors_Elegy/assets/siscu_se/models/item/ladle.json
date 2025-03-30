@@ -1,5 +1,4 @@
 {
-	"credit": "Made by CiscuLog with Blockbench",
 	"parent": "minecraft:item/generated",
 	"textures": {
 		"layer0": "siscu_se:item/ladle"

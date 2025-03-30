@@ -18,8 +18,8 @@
 			]
 		},
 		{
-			"condition": "minecraft:reference",
-			"name": "siscu:utils/check_the_nether"
+			"condition": "minecraft:location_check",
+			"predicate": {"dimension": "the_nether"}
 		},
 		{
 			"condition": "minecraft:location_check",

@@ -11,7 +11,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"item_model":"siscu_se:bogged_zombie",
-					"item_name":"{\"translate\":\"item.siscu.spawn_egg_bogged_zombie\"}",
+					"item_name":{"translate":"item.siscu.spawn_egg_bogged_zombie"},
 					"entity_data":{"id":"zombie","Tags":["siscu.special","siscu.bogged_zombie","siscu.unequipped"]}
 				}
 			}

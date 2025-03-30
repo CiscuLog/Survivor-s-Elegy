@@ -11,7 +11,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "item_name": "{\"translate\":\"item.siscu.mayors_note\"}",
+                                "item_name": {"translate":"item.siscu.mayors_note"},
                                 "item_model": "siscu_se:mayor_note",
                                 "custom_data": {
                                     "SE_data": {
@@ -24,10 +24,10 @@
                                     "title": "Mayor's Note",
                                     "generation": 1,
                                     "pages": [
-                                        "{\"translate\":\"text.siscu.mayor_note.page1_1\",\"extra\":[{\"type\":\"nbt\",\"entity\": \"@n[tag=siscu.infected_city_name]\",\"nbt\": \"data.Name1\"},{\"type\":\"nbt\",\"entity\": \"@n[tag=siscu.infected_city_name]\",\"nbt\": \"data.Name2\"},{\"translate\":\"text.siscu.mayor_note.page1_2\"}]}",
-                                        "{\"translate\":\"text.siscu.mayor_note.page2_1\"}",
-                                        "{\"translate\":\"text.siscu.mayor_note.page3_1\"}",
-                                        "{\"translate\":\"text.siscu.mayor_note.page4_1\",\"extra\":[{\"type\":\"nbt\",\"entity\": \"@n[tag=siscu.infected_city_name]\",\"nbt\": \"data.Mayor1\"},{\"type\":\"nbt\",\"entity\": \"@n[tag=siscu.infected_city_name]\",\"nbt\": \"data.Mayor2\"},{\"translate\":\"text.siscu.mayor_note.page4_2\"},{\"type\":\"nbt\",\"entity\": \"@n[tag=siscu.infected_city_name]\",\"nbt\": \"data.Name1\"},{\"type\":\"nbt\",\"entity\": \"@n[tag=siscu.infected_city_name]\",\"nbt\": \"data.Name2\"}]}"
+                                        {"translate":"text.siscu.mayor_note.page1_1","extra":[{"type":"nbt","entity": "@n[tag=siscu.infected_city_name]","nbt": "data.Name1"},{"type":"nbt","entity": "@n[tag=siscu.infected_city_name]","nbt": "data.Name2"},{"translate":"text.siscu.mayor_note.page1_2"}]},
+                                        {"translate":"text.siscu.mayor_note.page2_1"},
+                                        {"translate":"text.siscu.mayor_note.page3_1"},
+                                        {"translate":"text.siscu.mayor_note.page4_1","extra":[{"type":"nbt","entity": "@n[tag=siscu.infected_city_name]","nbt": "data.Mayor1"},{"type":"nbt","entity": "@n[tag=siscu.infected_city_name]","nbt": "data.Mayor2"},{"translate":"text.siscu.mayor_note.page4_2"},{"type":"nbt","entity": "@n[tag=siscu.infected_city_name]","nbt": "data.Name1"},{"type":"nbt","entity": "@n[tag=siscu.infected_city_name]","nbt": "data.Name2"}]}
                                     ]
                                 }
                             }

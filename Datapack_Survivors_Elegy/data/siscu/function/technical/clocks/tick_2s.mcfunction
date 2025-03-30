@@ -10,8 +10,8 @@ schedule function siscu:technical/clocks/tick_2s 2s
 execute as @e[type=#siscu:initialisable_tick_2s,tag=!siscu.entity_checked] at @s run function siscu:entities/global
 
 ## Rotting ##
-execute as @e[type=#siscu:rotting_mobs_all,tag=!smithed.entity] run function siscu:entities/rotting_mobs/main
+execute as @e[type=#siscu:rotting_mobs_any,tag=!smithed.entity] run function siscu:entities/rotting_mobs/main
 
 ## Withering ##
 execute as @e[type=#siscu:withering_convertible,tag=!smithed.entity] if score @s siscu.withering matches 10.. at @s run function siscu:world/withering/skeleton_conversion
-execute as @e[type=wolf,predicate=siscu:entities/is_skeleton_wolf] at @s run return run function siscu:entities/wolf/wither with entity @s
+execute as @e[type=wolf,predicate=siscu:entities/is_skeleton_wolf] if score @s siscu.withering matches 20.. at @s run return run function siscu:entities/wolf/wither with entity @s

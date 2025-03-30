@@ -10,10 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:dyed_color": {
-                                    "rgb": 5148365,
-                                    "show_in_tooltip": true
-                                }
+                                "minecraft:dyed_color": 5148365
                             }
                         }
                     ]

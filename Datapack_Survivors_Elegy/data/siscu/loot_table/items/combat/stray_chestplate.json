@@ -10,7 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"translate\":\"item.siscu.stray_chestplate\"}",
+                                "minecraft:item_name": {"translate":"item.siscu.stray_chestplate"},
                                 "minecraft:item_model": "siscu_se:stray_chestplate",
                                 "minecraft:custom_data": {
                                     "SE_data": {

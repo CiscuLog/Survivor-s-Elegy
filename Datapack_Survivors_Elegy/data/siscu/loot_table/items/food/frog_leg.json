@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"item_name": "{\"translate\":\"item.siscu.frog_leg\"}",
+								"item_name": {"translate":"item.siscu.frog_leg"},
 								"item_model": "siscu_se:frog_leg",
 								"custom_data": {
 									"SE_data": {

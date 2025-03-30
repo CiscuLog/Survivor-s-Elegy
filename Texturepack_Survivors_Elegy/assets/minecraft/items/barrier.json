@@ -1,8 +1,0 @@
-{
-    "model": {
-        "type": "select",
-        "property": "custom_model_data",
-        "fallback": {"type": "model","model": "item/barrier"},
-        "cases": [{"model": {"type": "model","model": "siscu_se:item/logo"},"when": "siscu_se:logo"}]
-    }
-}

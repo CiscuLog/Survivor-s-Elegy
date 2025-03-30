@@ -3,8 +3,7 @@ execute if predicate siscu:utils/10_percent run loot replace entity @s[tag=!sisc
 execute if predicate siscu:utils/10_percent run loot replace entity @s[tag=!siscu.special] weapon.offhand loot siscu:entities/zombie/baby_zombie_shields
 
 # Data
-data modify entity @s ArmorDropChances[3] set value 0.0f
-data merge entity @s {HandDropChances:[0.0f,0.0f],CanPickUpLoot:0b}
+data merge entity @s {drop_chances:{head:0.0,mainhand:0.0,offhand:0.0},CanPickUpLoot:0b}
 attribute @s minecraft:attack_damage base set 2
 
 # Riders

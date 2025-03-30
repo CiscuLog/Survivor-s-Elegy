@@ -15,7 +15,7 @@
                             "animation": "bow"
                         },
                         "max_stack_size": 1,
-                        "item_name": "{\"italic\":false,\"translate\":\"item.siscu.allay_container_vex\"}",
+                        "item_name": {"italic":false,"translate":"item.siscu.allay_container_vex"},
                         "rarity": "rare",
                         "item_model": "siscu_se:allay_container_vex",
                         "custom_data": {

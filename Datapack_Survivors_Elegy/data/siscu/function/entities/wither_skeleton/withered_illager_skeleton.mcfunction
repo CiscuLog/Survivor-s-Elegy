@@ -8,4 +8,4 @@ loot replace entity @s armor.legs loot siscu:entities/wither_skeleton/wither_ske
 loot replace entity @s armor.feet loot siscu:entities/wither_skeleton/wither_skeleton_boots
 
 
-data modify entity @s ArmorDropChances[3] set value 0.0f
+data merge entity @s {drop_chances:{head:0.0}}

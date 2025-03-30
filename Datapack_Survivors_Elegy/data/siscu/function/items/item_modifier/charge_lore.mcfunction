@@ -1,1 +1,1 @@
-$item modify entity @s $(Slot) {function:"set_components",components:{"minecraft:lore":['{"text":"Charge: $(Charge)","italic":false,"color":"yellow"}']}}
+$item modify entity @s $(Slot) {function:"set_components",components:{"minecraft:lore":['{text:"Charge: $(Charge)","italic":false,color:"yellow"}']}}

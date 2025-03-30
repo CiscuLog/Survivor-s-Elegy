@@ -11,7 +11,7 @@
 					"function": "minecraft:set_components",
                     "components": {
                         "max_stack_size": 16,
-                        "item_name": "{\"italic\":false,\"translate\":\"item.siscu.allay_container\"}",
+                        "item_name": {"italic":false,"translate":"item.siscu.allay_container"},
                         "rarity": "rare",
                         "item_model": "siscu_se:allay_container_empty",
                         "custom_data": {

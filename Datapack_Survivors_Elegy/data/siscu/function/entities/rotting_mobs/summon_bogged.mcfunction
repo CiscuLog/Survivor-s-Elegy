@@ -1,4 +1,4 @@
-$summon bogged ~ ~ ~ {Tags:["siscu.bogged_checked","converted","rotten"],ArmorItems:$(ArmorItems),HandItems:$(HandItems),ArmorDropChances:$(ArmorDropChances),HandDropChances:$(HandDropChances),Rotation:$(Rotation),FallDistance:$(FallDistance),\
+$summon bogged ~ ~ ~ {Tags:["siscu.bogged_checked","converted","rotten"],Rotation:$(Rotation),fall_distance:$(fall_distance),\
 \
 LeftHanded:$(LeftHanded),PersistenceRequired:$(PersistenceRequired),CanPickUpLoot:$(CanPickUpLoot)\
 \
@@ -6,11 +6,12 @@ LeftHanded:$(LeftHanded),PersistenceRequired:$(PersistenceRequired),CanPickUpLoo
 
 execute if entity @s[predicate=siscu:utils/is_baby,tag=!set_scale] run function siscu:entities/rotting_mobs/set_size
 
-data modify entity @n[tag=converted] Tags append from entity @s Tags[]
-
+execute if data entity @s drop_chances run data modify entity @n[tag=converted] drop_chances set from entity @s drop_chances
+execute if data entity @s equipment run data modify entity @n[tag=converted] equipment set from entity @s equipment
 execute if data entity @s DeathLootTable run data modify entity @n[tag=converted] DeathLootTable set from entity @s DeathLootTable
 execute if data entity @s CustomName run data modify entity @n[tag=converted] CustomName set from entity @s CustomName
 execute if data entity @s CustomNameVisible run data modify entity @n[tag=converted] CustomNameVisible set from entity @s CustomNameVisible
+data modify entity @n[tag=converted] Tags append from entity @s Tags[]
 
 execute if entity @s[tag=baby] as @n[tag=converted] run function siscu:entities/rotting_mobs/set_size_2 {Scale:0.5}
 

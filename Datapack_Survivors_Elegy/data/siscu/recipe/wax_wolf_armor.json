@@ -3,4 +3,4 @@
 	"template":"minecraft:honeycomb",
 	"base":"minecraft:wolf_armor",
 	"addition":"minecraft:honeycomb",
-	"result":{"id":"minecraft:wolf_armor","components":{ "minecraft:lore": ["{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.siscu.wax_wolf_armor\"}","{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.siscu.wax_wolf_armor2\"}"], "minecraft:damage": 0, "minecraft:item_name": "{\"translate\":\"item.siscu.wax_wolf_armor\"}", "minecraft:custom_data": {"SE_data": {"CustomWolfArmor": 1, "UpdateVersion": "v1.0.1", "IsWax": 1}}, "minecraft:dyed_color": {"show_in_tooltip": false, "rgb": 16773210}}}}
+	"result":{"id":"minecraft:wolf_armor","components":{ "minecraft:item_name": {"translate":"item.siscu.wax_wolf_armor"}, "minecraft:lore": [ {"translate":"text.siscu.wax_wolf_armor","italic": false,"color": "gray"}, {"translate":"text.siscu.wax_wolf_armor2","italic": false,"color": "gray"} ], "item_model": "siscu_se:wax_wolf_armor", "minecraft:custom_data": { "SE_data": { "id": "siscu:wax_wolf_armor", "IsWax": 1, "CustomWolfArmor": 1, "UpdateVersion": "v1.0.1" } }, "equippable": { "slot": "body", "damage_on_hurt": false, "asset_id": "siscu_se:wax" } }}}

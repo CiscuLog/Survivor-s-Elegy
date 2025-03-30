@@ -8,7 +8,7 @@ execute if score random siscu.volatile matches 2 run loot replace entity @s weap
 execute unless score random siscu.volatile matches 1 run item replace entity @s weapon with arrow[item_model="siscu_se:blank",enchantment_glint_override=false,enchantments={"siscu:infectious":1}]
 execute if predicate siscu:utils/10_percent unless score random siscu.volatile matches 2 run loot replace entity @s weapon.offhand loot siscu:entities/zombie/zombie_shields
 
-data merge entity @s {ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandDropChances:[0.0f,0.0f],DeathLootTable:"siscu:entities/special_zombie_loot",CanPickUpLoot:false}
+data merge entity @s {drop_chances:{mainhand:0.0,offhand:0.0,head:0.0},DeathLootTable:"siscu:entities/special_zombie_loot",CanPickUpLoot:false}
 
 effect give @s unluck infinite 1
 tag @s remove siscu.unequipped

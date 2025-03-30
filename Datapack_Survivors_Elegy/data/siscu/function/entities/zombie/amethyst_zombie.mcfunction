@@ -3,8 +3,7 @@ item replace entity @s weapon with amethyst_shard[item_model="siscu_se:blank",en
 
 data merge entity @s {DeathLootTable:"siscu:entities/special_zombie_loot",CanPickUpLoot:false}
 
-data modify entity @s HandDropChances[0] set value 0.0f
-data modify entity @s ArmorDropChances[3] set value 0.0f
+data merge entity @s {drop_chances:{mainhand:0.0,head:0.0}}
 
 
 tag @s remove siscu.unequipped

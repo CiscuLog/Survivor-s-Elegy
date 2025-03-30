@@ -9,7 +9,7 @@
 			"functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"item_name":"{\"translate\":\"item.siscu.warped_stew\"}",
+				"components": {"item_name":{"translate":"item.siscu.warped_stew"},
 				"item_model": "siscu_se:warped_stew",
 				"custom_data": {
 					"SE_data": {

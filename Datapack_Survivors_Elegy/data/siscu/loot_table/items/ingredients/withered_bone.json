@@ -10,7 +10,7 @@
 				{
 					"function": "minecraft:set_components",
 					"components": {
-						"item_name": "{\"italic\":false,\"translate\":\"item.siscu.withered_bone\"}",
+						"item_name": {"italic":false,"translate":"item.siscu.withered_bone"},
 						"item_model": "siscu_se:withered_bone",
 						"custom_data": {
 							"SE_data": {

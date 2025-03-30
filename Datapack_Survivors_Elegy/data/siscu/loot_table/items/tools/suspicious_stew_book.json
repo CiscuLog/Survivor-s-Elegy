@@ -11,14 +11,14 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"item_model": "siscu_se:suspicious_stew_book",
-					"hide_additional_tooltip": {},
-					"item_name":"{\"translate\":\"item.siscu.suspicious_stew_book\",\"font\":\"minecraft:illageralt\"}",
+					"tooltip_display": {"hidden_components": ["written_book_content"]},
+					"item_name":{"translate":"item.siscu.suspicious_stew_book","font":"minecraft:illageralt"},
 					"rarity": "rare",
 					"written_book_content":{
 						"pages":[
-							{"raw": "{\"translate\":\"text.siscu.book.suspicious_stew_guide.page1\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"},
-							{"raw": "{\"translate\":\"text.siscu.book.suspicious_stew_guide.page2\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"},
-							{"raw": "{\"translate\":\"text.siscu.book.suspicious_stew_guide.page3\",\"color\":\"white\",\"font\":\"siscu_se:book_pages\"}"}
+							{"raw": {"translate":"text.siscu.book.suspicious_stew_guide.page1","color":"white","font":"siscu_se:book_pages"}},
+							{"raw": {"translate":"text.siscu.book.suspicious_stew_guide.page2","color":"white","font":"siscu_se:book_pages"}},
+							{"raw": {"translate":"text.siscu.book.suspicious_stew_guide.page3","color":"white","font":"siscu_se:book_pages"}}
 						],
 						"generation": 3, 
 						"author": "Calendula",

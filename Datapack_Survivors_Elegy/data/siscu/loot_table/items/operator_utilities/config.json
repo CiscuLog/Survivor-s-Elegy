@@ -10,7 +10,7 @@
 						{
 							"function": "set_components",
 							"components": {
-								"minecraft:item_name": "{\"translate\":\"item.siscu.config\"}",
+								"minecraft:item_name": {"translate":"item.siscu.config"},
 								"rarity": "epic",
 								"item_model": "siscu_se:config",
 								"minecraft:custom_data": {

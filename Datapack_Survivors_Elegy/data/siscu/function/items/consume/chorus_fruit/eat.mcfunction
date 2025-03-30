@@ -6,8 +6,8 @@ execute as @s at @s run function siscu:world/warped_food/warped_food_effects
 
 # teleportation tweaks
 advancement revoke @s only siscu:items/consume/chorus_fruit_eat
-execute if predicate siscu:entities/is_falling if predicate siscu:locations/check_void run advancement grant @s only siscu:minecraft/end/eat_chorus_fruit_in_the_void
+execute if predicate siscu:locations/check_void run advancement grant @s only siscu:minecraft/end/eat_chorus_fruit_in_the_void
 
 # if falling, teleport to a ledge (if possible)
-execute if predicate siscu:entities/is_falling if dimension the_end run spreadplayers ~ ~ 0 8 true @s
+execute if predicate siscu:locations/chorus_fruit_valid_location if dimension the_end run spreadplayers ~ ~ 0 8 true @s
 execute at @s run particle minecraft:portal ~ ~0.5 ~ 0.5 0.5 0.5 0 100

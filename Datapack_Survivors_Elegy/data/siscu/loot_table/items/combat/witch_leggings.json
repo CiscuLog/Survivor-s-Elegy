@@ -10,9 +10,9 @@
 			{
 				"function": "set_components",
 				"components": {
-					"item_name": "{\"translate\":\"item.siscu.witch_leggings\"}",
+					"item_name": {"translate":"item.siscu.witch_leggings"},
 					"item_model": "siscu_se:witch_leggings",
-					"hide_additional_tooltip": {},
+					"tooltip_display": {"hidden_components": []},
 					"custom_data":{
 						"SE_data":{
 							"UpdateVersion": "v1.0.1"

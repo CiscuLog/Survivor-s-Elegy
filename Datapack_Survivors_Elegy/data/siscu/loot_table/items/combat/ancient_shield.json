@@ -10,10 +10,10 @@
 			{
 				"function": "set_components",
 				"components": {
-					"item_name": "{\"translate\":\"item.siscu.ancient_shield\"}",
+					"item_name": {"translate":"item.siscu.ancient_shield"},
 					"item_model":"siscu_se:ancient_shield/base",
 					"max_damage": 800,
-					"hide_additional_tooltip": {},
+					"tooltip_display": {"hidden_components": []},
 					"custom_data":{
 						"SE_data":{
 							"id": "siscu:ancient_shield",

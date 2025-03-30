@@ -10,7 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "item_name": "{\"italic\":false,\"translate\":\"item.siscu.mirage_bottle\"}",
+                                "item_name": {"italic":false,"translate":"item.siscu.mirage_bottle"},
                                 "item_model": "siscu_se:mirage_bottle",
                                 "custom_data": {
                                     "SE_data": {

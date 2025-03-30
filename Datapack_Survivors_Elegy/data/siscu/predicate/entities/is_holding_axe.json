@@ -1,11 +1,33 @@
 {
-	"condition": "minecraft:entity_properties",
-	"entity":"this",
-	"predicate": {
-		"equipment": {
-			"mainhand": {
-				"items": "#minecraft:axes"
+	"condition": "any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"items": "#minecraft:axes"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"predicates": {
+							"custom_data": {
+								"SE_data": {
+									"id": "siscu:copper_axe"
+								}
+							}
+						}
+					}
+				}
 			}
 		}
-	}
+	]
 }

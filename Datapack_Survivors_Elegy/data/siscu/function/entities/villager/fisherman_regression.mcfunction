@@ -1,0 +1,2 @@
+advancement revoke @s only siscu:entities/villager_fisherman_regression
+execute as @e[type=villager,predicate=!siscu:entities/is_fisherman_lvl1,tag=siscu.fisherman_lvl1] run tag @s remove siscu.fisherman_lvl1

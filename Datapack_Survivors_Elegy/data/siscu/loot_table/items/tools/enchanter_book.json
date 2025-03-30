@@ -10,14 +10,14 @@
 				{
 					"function": "minecraft:set_components",
 					"components": {
-						"item_name": "{\"italic\":false,\"translate\":\"item.siscu.enchanter_guide\",\"font\":\"minecraft:alt\"}",
+						"item_name": {"italic":false,"translate":"item.siscu.enchanter_guide","font":"minecraft:alt"},
 						"lore": [
-							"{\"text\":\"\"}",
-							"{\"translate\":\"text.siscu.hold_keybind\",\"color\":\"gray\",\"italic\":false,\"extra\": [{\"keybind\": \"key.use\"},{\"translate\":\"text.siscu.enchantment_reroll_1\"}]}",
-							"{\"translate\":\"text.siscu.enchantment_reroll_2\",\"color\":\"gray\",\"italic\":false}",
-							"{\"text\":\"\"}",
-							"{\"translate\":\"text.siscu.enchanter_guide_author1\",\"color\":\"gray\",\"extra\": [{\"translate\": \"text.siscu.enchanter_guide_author2\",\"font\":\"minecraft:alt\"}],\"color\":\"gray\",\"italic\":false}",
-							"{\"translate\":\"book.generation.3\",\"color\":\"gray\",\"italic\":false}"
+							{"text":""},
+							{"translate":"text.siscu.hold_keybind","color":"gray","italic":false,"extra": [{"keybind": "key.use"},{"translate":"text.siscu.enchantment_reroll_1"}]},
+							{"translate":"text.siscu.enchantment_reroll_2","color":"gray","italic":false},
+							{"text":""},
+							{"translate":"text.siscu.enchanter_guide_author1","color":"gray","extra": [{"translate": "text.siscu.enchanter_guide_author2","font":"minecraft:alt"}],"color":"gray","italic":false},
+							{"translate":"book.generation.3","color":"gray","italic":false}
 						],
 						"item_model": "siscu_se:enchanter_guide",
 						"custom_data": {

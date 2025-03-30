@@ -5,7 +5,7 @@ execute unless predicate siscu:items/enchanter_guide/mainhand run return 0
 
 ## reroll
 # return if not enough lapis
-execute unless predicate siscu:items/enchanter_guide/has_lapis if entity @s[gamemode=!creative] run return run scoreboard players set @s siscu.enchantment_reroll 0
+execute unless predicate siscu:items/in_inventory/lapis_lazuli if entity @s[gamemode=!creative] run return run scoreboard players set @s siscu.enchantment_reroll 0
 # return if not enough xp
 execute store result score x siscu.volatile run xp query @s levels
 execute unless score x siscu.volatile matches 1.. if entity @s[gamemode=!creative] run return run scoreboard players set @s siscu.enchantment_reroll 0

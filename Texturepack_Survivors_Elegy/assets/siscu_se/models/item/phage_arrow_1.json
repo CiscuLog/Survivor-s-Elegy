@@ -1,6 +1,4 @@
 {
-	"credit": "Made by CiscuLog with Blockbench",
-	"texture_size": [32, 32],
 	"textures": {
 		"0": "siscu_se:item/phage_arrow_shot",
 		"particle": "#0"

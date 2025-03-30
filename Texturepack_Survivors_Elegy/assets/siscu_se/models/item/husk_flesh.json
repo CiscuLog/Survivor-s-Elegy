@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "minecraft:item/rotten_flesh",
   "textures": {
     "layer0": "siscu_se:item/husk_flesh"
   }

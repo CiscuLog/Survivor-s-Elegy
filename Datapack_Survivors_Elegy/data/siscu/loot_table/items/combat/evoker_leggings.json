@@ -10,7 +10,7 @@
 			{
 				"function": "set_components",
 				"components": {
-					"item_name": "{\"translate\":\"item.siscu.evoker_leggings\"}",
+					"item_name": {"translate":"item.siscu.evoker_leggings"},
 					"item_model": "siscu_se:evoker_leggings",
 					"custom_data":{
 						"SE_data":{

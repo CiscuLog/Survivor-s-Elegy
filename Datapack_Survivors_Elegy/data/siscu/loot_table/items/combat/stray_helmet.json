@@ -10,7 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"translate\":\"item.siscu.stray_helmet\"}",
+                                "minecraft:item_name": {"translate":"item.siscu.stray_helmet"},
                                 "minecraft:item_model": "siscu_se:stray_helmet",
                                 "minecraft:custom_data": {
                                     "SE_data": {

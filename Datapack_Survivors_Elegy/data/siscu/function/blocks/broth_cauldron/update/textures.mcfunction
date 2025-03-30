@@ -1,11 +1,11 @@
 
 # set broth color
 ## broth ready
-execute if score @s siscu.broth_temperature matches 100.. run data modify entity @n[type=item_display,tag=siscu.broth_water] item.components."minecraft:dyed_color".rgb set value 10968102
+execute if score @s siscu.broth_temperature matches 100.. run data modify entity @n[type=item_display,tag=siscu.broth_water] item.components."minecraft:dyed_color" set value 10968102
 ## broth cooking
-execute unless score @s siscu.broth_temperature matches 100.. run data modify entity @n[type=item_display,tag=siscu.broth_water] item.components."minecraft:dyed_color".rgb set value 9986410
+execute unless score @s siscu.broth_temperature matches 100.. run data modify entity @n[type=item_display,tag=siscu.broth_water] item.components."minecraft:dyed_color" set value 9986410
 ## if there's no food, set to blue
-execute if score food siscu.broth_data matches ..100 run data modify entity @n[type=item_display,tag=siscu.broth_water] item.components."minecraft:dyed_color".rgb set value 5003235
+execute if score food siscu.broth_data matches ..100 run data modify entity @n[type=item_display,tag=siscu.broth_water] item.components."minecraft:dyed_color" set value 5003235
 
 # display bubbles
 #execute positioned ~ ~1 ~ run particle cloud

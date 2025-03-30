@@ -12,9 +12,15 @@
                             "components": {
                                 "damage": 0,
                                 "max_stack_size": 1,
-                                "item_name": "{\"translate\":\"item.siscu.copper_chestplate\"}",
+                                "item_name": {
+                                    "translate": "item.siscu.copper_chestplate"
+                                },
                                 "lore": [
-                                    "{\"text\":\"Charge: 0\",\"color\":\"yellow\",\"italic\":false}"
+                                    {
+                                        "text": "Charge: 0",
+                                        "color": "yellow",
+                                        "italic": false
+                                    }
                                 ],
                                 "item_model": "siscu_se:copper_chestplate",
                                 "custom_data": {
@@ -35,17 +41,15 @@
                                     "items": "copper_ingot"
                                 },
                                 "max_damage": 140,
-                                "attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "armor",
-                                            "id": "15b5fdac-e1f9-4166-a8f1-ea205413c9c0",
-                                            "amount": 5,
-                                            "operation": "add_value",
-                                            "slot": "chest"
-                                        }
-                                    ]
-                                }
+                                "attribute_modifiers": [
+                                    {
+                                        "type": "armor",
+                                        "id": "15b5fdac-e1f9-4166-a8f1-ea205413c9c0",
+                                        "amount": 5,
+                                        "operation": "add_value",
+                                        "slot": "chest"
+                                    }
+                                ]
                             }
                         }
                     ]

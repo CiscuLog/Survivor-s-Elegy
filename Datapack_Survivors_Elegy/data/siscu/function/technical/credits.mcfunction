@@ -1,4 +1,4 @@
-tellraw @s [{"translate":"\n\n\n\n%====== Credits ======[","bold":true},{"text":"Return","font":"siscu_se:superscript","bold":false,"color":"red","clickEvent":{"action":"run_command","value":"/function siscu:technical/about"},"hoverEvent":{"action":"show_text","contents":{"text":"Return to menu"}}},{"text":"]"}]
+tellraw @s [{"translate":"\n\n\n\n%====== Credits ======[","bold":true},{"text":"Return","font":"siscu_se:superscript","bold":false,"color":"red","click_event":{"action":"run_command","command":"/function siscu:technical/about"},"hover_event":{"action":"show_text","value":{"text":"Return to menu"}}},{"text":"]"}]
 
 tellraw @s [{"text":"Author, Programmer and Artist","color":"gray","bold": true}]
 tellraw @s [{"text":"- Siscu","color":"gray"}]

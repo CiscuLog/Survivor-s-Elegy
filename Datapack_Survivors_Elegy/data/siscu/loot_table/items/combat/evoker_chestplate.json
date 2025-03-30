@@ -10,7 +10,7 @@
 			{
 				"function": "set_components",
 				"components": {
-					"item_name": "{\"translate\":\"item.siscu.evoker_chestplate\"}",
+					"item_name": {"translate":"item.siscu.evoker_chestplate"},
 					"item_model": "siscu_se:evoker_chestplate",
 					"custom_data":{
 						"SE_data":{

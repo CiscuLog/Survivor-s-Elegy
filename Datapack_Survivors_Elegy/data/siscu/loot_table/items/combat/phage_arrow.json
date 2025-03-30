@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_name": "{\"translate\":\"item.siscu.phage_arrow\"}",
+								"item_name": {"translate":"item.siscu.phage_arrow"},
 								"item_model": "siscu_se:phage_arrow",
 								"custom_data": {
 									"SE_data": {
@@ -32,12 +32,12 @@
 										}
 									]
 								},
-								"hide_additional_tooltip": {},
+								"tooltip_display": {"hidden_components": ["potion_contents"]},
 								"minecraft:lore": [
-									"{\"translate\":\"text.siscu.phage_1\",\"color\":\"red\",\"italic\":false}",
-									"{\"text\":\"\"}",
-									"{\"translate\":\"text.siscu.phage_2\",\"color\":\"dark_purple\",\"italic\":false}",
-									"{\"translate\":\"text.siscu.phage_3\",\"color\":\"red\",\"italic\":false}"
+									{"translate":"text.siscu.phage_1","color":"red","italic":false},
+									{"text":""},
+									{"translate":"text.siscu.phage_2","color":"dark_purple","italic":false},
+									{"translate":"text.siscu.phage_3","color":"red","italic":false}
 								]
 							}
 						}

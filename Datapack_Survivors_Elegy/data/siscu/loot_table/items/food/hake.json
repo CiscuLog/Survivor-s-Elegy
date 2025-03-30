@@ -10,7 +10,7 @@
 			{
 				"function": "minecraft:set_components",
 				"components": {
-					"item_name":"{\"translate\":\"item.siscu.hake\"}",
+					"item_name":{"translate":"item.siscu.hake"},
 					"item_model": "siscu_se:hake",
 					"custom_data": {
 						"SE_data": {

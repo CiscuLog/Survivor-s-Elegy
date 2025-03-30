@@ -1,0 +1,1 @@
+give @s cooked_beef[consumable={on_consume_effects:[{type:"apply_effects",effects:[{id:"absorption",duration:10}]},{type:teleport_randomly,diameter:10}],consume_seconds:1},food={nutrition:0,saturation:0}]

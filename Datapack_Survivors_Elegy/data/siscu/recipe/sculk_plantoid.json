@@ -6,9 +6,9 @@
     "id": "minecraft:beetroot",
     "components": {
       "max_stack_size": 64,
-      "item_name": "{\"translate\":\"item.siscu.sculk_plantoid\"}",
+      "item_name": {"translate":"item.siscu.sculk_plantoid"},
       "minecraft:lore": [
-        "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.siscu.place_decorated_pot\"}"
+        {"color":"gray","italic":false,"translate":"text.siscu.place_decorated_pot"}
       ],
       "item_model": "siscu_se:sculk_plantoid",
       "rarity": "rare",

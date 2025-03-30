@@ -1,6 +1,4 @@
 {
-	"credit": "Made by CiscuLog with Blockbench",
-	"texture_size": [32, 32],
 	"textures": {
 		"0": "siscu_se:item/head_dripleaf_0",
 		"particle": "siscu_se:item/head_dripleaf_0"

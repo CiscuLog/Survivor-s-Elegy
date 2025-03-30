@@ -4,7 +4,7 @@
 execute if data storage siscu:world PackVersion unless data storage siscu:world MajorUpdate run schedule function siscu:technical/load/warning 5s
 
 # Update (siscu:world)
-data merge storage siscu:world {PackVersion:"v1.0.1",MajorUpdate:1}
+data merge storage siscu:world {PackVersion:"v1.0.2",MajorUpdate:1}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 execute unless data storage siscu:world day_length run data merge storage siscu:world {day_length:3}
 
@@ -63,6 +63,7 @@ scoreboard players set server_randN siscu.volatile 0
 scoreboard players set siscu.added_damage siscu.volatile 0
 ## constants
 scoreboard players set -1 siscu.integer -1
+scoreboard players set 2 siscu.integer 2
 scoreboard players set 10 siscu.integer 10
 scoreboard players set 20 siscu.integer 20
 scoreboard players set 60 siscu.integer 60

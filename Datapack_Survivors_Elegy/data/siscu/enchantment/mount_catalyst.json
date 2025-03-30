@@ -7,15 +7,16 @@
         "translate": "enchantment.siscu.mount_catalyst"
     },
     "max_cost": {
-      "base": 12,
-      "per_level_above_first": 11
+        "base": 12,
+        "per_level_above_first": 11
     },
     "min_cost": {
-      "base": 1,
-      "per_level_above_first": 11
+        "base": 1,
+        "per_level_above_first": 11
     },
     "max_level": 1,
     "slots": [
+        "saddle",
         "body"
     ],
     "weight": 1,

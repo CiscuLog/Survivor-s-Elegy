@@ -11,7 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:damage": 0,
-                                "minecraft:item_name": "{\"translate\":\"item.siscu.copper_sword\"}",
+                                "minecraft:item_name": {"translate":"item.siscu.copper_sword"},
                                 "item_model": "siscu_se:copper_sword",
                                 "minecraft:custom_data": {
                                     "SE_data": {

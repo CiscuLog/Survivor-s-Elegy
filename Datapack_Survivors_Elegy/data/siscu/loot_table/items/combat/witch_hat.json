@@ -10,7 +10,7 @@
 			{
 				"function": "set_components",
 				"components": {
-					"item_name": "{\"translate\":\"item.siscu.witch_hat\"}",
+					"item_name": {"translate":"item.siscu.witch_hat"},
 					"item_model": "siscu_se:witch_hat",
 					"custom_data":{
 						"SE_data":{

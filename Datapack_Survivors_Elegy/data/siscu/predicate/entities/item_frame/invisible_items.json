@@ -21,6 +21,22 @@
 				"slots": {
 					"contents": {
 						"items": [
+							"raw_copper"
+						],
+						"predicates": {
+							"custom_data": {"SE_data":{"id":"siscu:bee_counter"}}
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"contents": {
+						"items": [
 							"stick"
 						],
 						"predicates": {

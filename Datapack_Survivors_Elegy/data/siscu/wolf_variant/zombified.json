@@ -1,6 +1,16 @@
 {
-    "angry_texture": "siscu_se:entity/wolf/zombified_angry",
-    "wild_texture": "siscu_se:entity/wolf/zombified",
-    "tame_texture": "siscu_se:entity/wolf/zombified",
-    "biomes": "#siscu:none"
+    "assets": {
+        "angry": "siscu_se:entity/wolf/zombified",
+        "wild": "siscu_se:entity/wolf/zombified",
+        "tame": "siscu_se:entity/wolf/zombified"
+    },
+    "spawn_conditions": [
+        {
+            "condition": {
+                "type": "minecraft:biome",
+                "biomes": "#siscu:none"
+            },
+            "priority": 1
+        }
+    ]
 }

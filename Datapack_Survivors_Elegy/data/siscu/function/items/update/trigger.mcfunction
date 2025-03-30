@@ -4,10 +4,10 @@ scoreboard players reset @s siscu.update_item
 function siscu:items/update/enable_trigger
 
 # return if the item is already at the latest version
-execute if predicate {condition:"entity_properties",entity:"this",predicate:{slots:{weapon.mainhand:{predicates:{custom_data:{SE_data:{UpdateVersion:"v1.0.1"}}}}}}} run return run tellraw @s {"text":"<Item Update> This item is already up to date"}
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{slots:{weapon.mainhand:{predicates:{custom_data:{SE_data:{UpdateVersion:"v1.0.1"}}}}}}} run return run tellraw @s {text:"<Item Update> This item is already up to date"}
 
 ## data update
-tellraw @s {"text":"<Item Update> Updating item, some data might get lost in the process"}
+tellraw @s {text:"<Item Update> Updating item, some data might get lost in the process"}
 
 # prepare storage
 data merge storage siscu:volatile {components:{},Slot:"weapon.mainhand"}
@@ -26,7 +26,7 @@ scoreboard players set x siscu.volatile 0
 function siscu:items/update/trigger_item_choose
 
 # return if it cannot be updated
-execute unless score x siscu.volatile matches 1 run return run tellraw @s {"text":"<Item Update> This item couldn't (or doesn't need to) be updated"}
+execute unless score x siscu.volatile matches 1 run return run tellraw @s {text:"<Item Update> This item couldn't (or doesn't need to) be updated"}
 
 # clone old components (and amount)
 function siscu:items/item_modifier/clone_components_from_storage with storage siscu:volatile

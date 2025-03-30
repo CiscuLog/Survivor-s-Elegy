@@ -14,7 +14,7 @@
     "id": "minecraft:iron_axe",
     "count": 1,
     "components": {
-      "minecraft:item_name": "{\"translate\":\"item.siscu.copper_axe\"}",
+      "minecraft:item_name": {"translate":"item.siscu.copper_axe"},
       "item_model": "siscu_se:copper_axe",
       "minecraft:max_damage": 150,
       "repairable": {

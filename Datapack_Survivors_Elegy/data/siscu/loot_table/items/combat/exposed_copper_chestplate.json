@@ -10,8 +10,13 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"translate\":\"item.siscu.exposed_copper_chestplate\"}",
-                                "minecraft:custom_model_data": {"floats": [1]}
+                                "minecraft:item_name": {"translate":"item.siscu.exposed_copper_chestplate"},
+                                "minecraft:custom_model_data": {"floats": [1]},
+                                "equippable": {
+                                    "slot": "chest",
+                                    "asset_id": "siscu_se:exposed_copper",
+                                    "equip_sound": "item.armor.equip_gold"
+                                }
                             }
                         },
                         {

@@ -11,7 +11,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"item_model": "siscu_se:tablet_frost_walker",
-					"stored_enchantments": {"levels":{"minecraft:frost_walker":1}}
+					"stored_enchantments": {"minecraft:frost_walker":1}
 				}
 			}
 			]

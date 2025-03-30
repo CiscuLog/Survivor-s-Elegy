@@ -1,8 +1,10 @@
 scoreboard players set x siscu.volatile -1
 # interaction
-execute align xyz run summon minecraft:interaction ~0.5 ~0.2 ~0.5 {width:0.8,height:0.8,Tags:["siscu.broth_cauldron"]}
+execute align xyz run summon minecraft:interaction ~0.5 ~0.2 ~0.5 {width:0.8,height:0.8,Tags:["siscu.broth_cauldron"],data:{broth_level:0,broth_food:0,broth_saturation:0,\
+effects:[{type:apply_effects,effects:[{id:"minecraft:luck",amplifier:0, duration:0}]}]\
+}}
 # marker
-execute align xyz run summon minecraft:marker ~0.5 ~0.2 ~0.5 {Tags:["siscu.broth_cauldron"],data:{broth_level:0,broth_food:0,broth_saturation:0,\
+#execute align xyz run summon minecraft:marker ~0.5 ~0.2 ~0.5 {Tags:["siscu.broth_cauldron"],data:{broth_level:0,broth_food:0,broth_saturation:0,\
 effects:[{type:apply_effects,effects:[{id:"minecraft:luck",amplifier:0, duration:0}]}]\
 }}
 # display (water)
@@ -14,7 +16,10 @@ execute align xyz run summon minecraft:item_display ~0.5 ~0.2 ~0.5 {Tags:["siscu
 execute if score cauldron_amount siscu.volatile matches 9999 run scoreboard players set cauldron_amount siscu.volatile 0
 scoreboard players add cauldron_amount siscu.volatile 1
 execute store result storage siscu:volatile cauldron_amount int 1 run scoreboard players get cauldron_amount siscu.volatile
-execute as @e[type=marker,tag=siscu.broth_cauldron] unless score @s siscu.broth_temperature matches 0.. run function siscu:blocks/broth_cauldron/summon/set_name with storage siscu:volatile
+execute as @e[type=interaction,tag=siscu.broth_cauldron] unless score @s siscu.broth_temperature matches 0.. run function siscu:blocks/broth_cauldron/summon/set_name with storage siscu:volatile
+
+# Playsound
+playsound block.lantern.place block @a
 
 schedule function siscu:blocks/broth_cauldron/summon2 2t
 schedule function siscu:blocks/broth_cauldron/update/check_cauldron_schedule 1t

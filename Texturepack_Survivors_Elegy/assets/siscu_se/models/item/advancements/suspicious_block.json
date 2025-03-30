@@ -5,7 +5,6 @@
 		"2": "block/birch_planks"
 	},
 	"ambientocclusion": false,
-	"particle": "block/gravel",
 	"elements": [
 		{
 			"from": [0, 0, 0],

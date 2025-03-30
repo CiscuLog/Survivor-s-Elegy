@@ -50,12 +50,12 @@ scoreboard players operation broth_saturation siscu.broth_data += saturation sis
 scoreboard players operation broth_level siscu.broth_data += increase siscu.broth_data
 
 # store data
-execute as @e[type=marker,tag=siscu.broth_interacting] run function siscu:blocks/broth_cauldron/update/store_data
-execute as @e[type=marker,tag=siscu.broth_interacting] at @s run function siscu:blocks/broth_cauldron/effects/add_food
-execute as @e[type=marker,tag=siscu.broth_interacting] run tellraw @a[tag=siscu.broth_interacting] [{"nbt": "data","entity": "@s"}]
+execute as @e[type=interaction,tag=siscu.broth_interacting] run function siscu:blocks/broth_cauldron/update/store_data
+execute as @e[type=interaction,tag=siscu.broth_interacting] at @s run function siscu:blocks/broth_cauldron/effects/add_food
+execute as @e[type=interaction,tag=siscu.broth_interacting] run tellraw @a[tag=siscu.broth_interacting] [{"nbt": "data","entity": "@s"}]
 
 # lower temperature, divides current temperature by 2
-scoreboard players operation @e[type=marker,tag=siscu.broth_interacting] siscu.broth_temperature /= 2 siscu.integer
+execute at @s run scoreboard players operation @n[type=interaction,tag=siscu.broth_interacting] siscu.broth_temperature /= 2 siscu.integer
 
 # replace player's hand item (to fix)
 scoreboard players set x siscu.volatile 0

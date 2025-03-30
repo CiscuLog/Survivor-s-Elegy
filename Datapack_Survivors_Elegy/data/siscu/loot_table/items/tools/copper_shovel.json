@@ -10,7 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"translate\":\"item.siscu.copper_shovel\"}",
+                                "minecraft:item_name": {"translate":"item.siscu.copper_shovel"},
                                 "item_model": "siscu_se:copper_shovel",
                                 "minecraft:max_damage":150,
                                 "repairable": {

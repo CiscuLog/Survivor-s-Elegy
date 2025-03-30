@@ -11,7 +11,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"item_model":"siscu_se:infected_zombie",
-					"item_name":"{\"translate\":\"item.siscu.spawn_egg_infected_zombie\"}",
+					"item_name":{"translate":"item.siscu.spawn_egg_infected_zombie"},
 					"entity_data":{"id":"zombie","Tags":["siscu.special","siscu.infected_zombie","siscu.unequipped"]}
 				}
 			}

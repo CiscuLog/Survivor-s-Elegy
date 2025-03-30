@@ -3,8 +3,5 @@
 	"textures": {
 		"2": "siscu_se:item/warped_shield_3",
 		"particle": "block/warped_planks"
-	},
-	"overrides": [
-		{"predicate": {"blocking": 1},"model": "siscu_se:item/warped_shield_3_blocking"}
-	]
+	}
 }

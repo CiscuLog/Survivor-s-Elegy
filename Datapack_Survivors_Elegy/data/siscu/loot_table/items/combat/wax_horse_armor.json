@@ -12,10 +12,20 @@
               "components": {
                 "minecraft:damage": 0,
                 "max_stack_size": 1,
-                "minecraft:item_name": "{\"translate\":\"item.siscu.wax_horse_armor\"}",
+                "minecraft:item_name": {
+                  "translate": "item.siscu.wax_horse_armor"
+                },
                 "minecraft:lore": [
-                  "{\"translate\":\"text.siscu.wax_horse_armor\",\"italic\": false,\"color\": \"gray\"}",
-                  "{\"translate\":\"text.siscu.wax_horse_armor2\",\"italic\": false,\"color\": \"gray\"}"
+                  {
+                    "translate": "text.siscu.wax_horse_armor",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "text.siscu.wax_horse_armor2",
+                    "italic": false,
+                    "color": "gray"
+                  }
                 ],
                 "minecraft:item_model": "siscu_se:wax_horse_armor",
                 "minecraft:custom_data": {
@@ -30,17 +40,15 @@
                   "damage_on_hurt": false,
                   "asset_id": "siscu_se:wax"
                 },
-                "attribute_modifiers": {
-                  "modifiers": [
-                    {
-                      "type": "armor",
-                      "id": "1a9a78b7-6441-5d92-aa4b-b3625bfe2de5",
-                      "amount": 7,
-                      "operation": "add_value",
-                      "slot": "body"
-                    }
-                  ]
-                }
+                "attribute_modifiers": [
+                  {
+                    "type": "armor",
+                    "id": "1a9a78b7-6441-5d92-aa4b-b3625bfe2de5",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "body"
+                  }
+                ]
               }
             }
           ]

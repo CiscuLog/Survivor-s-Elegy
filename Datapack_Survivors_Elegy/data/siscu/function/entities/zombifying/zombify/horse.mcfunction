@@ -1,13 +1,14 @@
-$summon zombie_horse ~ ~ ~ {Tags:["siscu.zombified"],ArmorItems:$(ArmorItems),HandItems:$(HandItems),ArmorDropChances:$(ArmorDropChances),HandDropChances:$(HandDropChances),Rotation:$(Rotation),FallDistance:$(FallDistance),\
+$summon zombie_horse ~ ~ ~ {Tags:["siscu.zombified"],Rotation:$(Rotation),fall_distance:$(fall_distance),\
 \
 Tame:$(Tame),Age:$(Age),attributes:$(attributes),PersistenceRequired:$(PersistenceRequired)\
 \
 }
 
-execute if data entity @s SaddleItem run data modify entity @n[tag=converted] SaddleItem set from entity @s SaddleItem
-execute if data entity @s DeathLootTable run data modify entity @n[tag=converted] DeathLootTable set from entity @s DeathLootTable
-execute if data entity @s CustomName run data modify entity @n[tag=converted] CustomName set from entity @s CustomName
-execute if data entity @s CustomNameVisible run data modify entity @n[tag=converted] CustomNameVisible set from entity @s CustomNameVisible
+execute if data entity @s drop_chances run data modify entity @n[tag=siscu.zombified] drop_chances set from entity @n[type=horse] drop_chances
+execute if data entity @s equipment run data modify entity @n[tag=siscu.zombified] equipment set from entity @n[type=horse] equipment
+execute if data entity @s DeathLootTable run data modify entity @n[tag=siscu.zombified] DeathLootTable set from entity @n[type=horse] DeathLootTable
+execute if data entity @s CustomName run data modify entity @n[tag=siscu.zombified] CustomName set from entity @n[type=horse] CustomName
+execute if data entity @s CustomNameVisible run data modify entity @n[tag=siscu.zombified] CustomNameVisible set from entity @n[type=horse] CustomNameVisible
 
 execute if predicate siscu:entities/has_wax_armor run tag @n[tag=siscu.zombified] add siscu.rotting_protected
 execute if predicate siscu:entities/has_wax_armor run tag @n[tag=siscu.zombified] add siscu.rot_checked

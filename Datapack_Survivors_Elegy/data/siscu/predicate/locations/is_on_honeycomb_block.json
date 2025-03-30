@@ -1,0 +1,11 @@
+{
+    "condition": "location_check",
+    "offsetY": -1,
+    "predicate": {
+        "block": {
+            "blocks": [
+                "honeycomb_block"
+            ]
+        }
+    }
+}

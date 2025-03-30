@@ -3,7 +3,6 @@
 	"terms": [
 		{
 			"condition": "minecraft:location_check",
-			"dimension": "minecraft:overworld",
 			"predicate": {
 				"position": {
 					"y": {
@@ -16,6 +15,17 @@
 			"condition": "minecraft:location_check",
 			"predicate": {
 				"dimension": "minecraft:the_end",
+				"position": {
+					"y": {
+						"max": 0
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"dimension": "minecraft:the_nether",
 				"position": {
 					"y": {
 						"max": 0

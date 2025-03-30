@@ -10,6 +10,6 @@ execute if predicate siscu:utils/10_percent run loot replace entity @s armor.che
 execute if predicate siscu:utils/20_percent if predicate siscu:entities/is_wearing_copper_chestplate run loot replace entity @s armor.legs loot siscu:entities/drowned/drowned_leggings
 execute if predicate siscu:utils/10_percent run loot replace entity @s armor.feet loot siscu:entities/drowned/drowned_boots
 
-execute if predicate siscu:entities/is_holding_trident if predicate siscu:utils/is_baby run data merge entity @s {HandDropChances:[0.0f,0.0f]}
+execute if predicate siscu:entities/is_holding_trident if predicate siscu:utils/is_baby run data merge entity @s {drop_chances:{mainhand:0.0,offhand:0.0}}
 
 execute if predicate siscu:entities/is_wearing_copper_armor if predicate siscu:utils/50_percent run function siscu:items/passive_behav/charge/copper_armor

@@ -10,7 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"translate\":\"item.siscu.oxidised_copper_axe\"}",
+                                "minecraft:item_name": {"translate":"item.siscu.oxidised_copper_axe"},
                                 "minecraft:custom_model_data": {"floats": [3]}
                             }
                         },

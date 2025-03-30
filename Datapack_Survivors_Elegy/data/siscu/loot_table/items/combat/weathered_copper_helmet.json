@@ -10,8 +10,13 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"translate\":\"item.siscu.weathered_copper_helmet\"}",
-                                "minecraft:custom_model_data": {"floats": [2]}
+                                "minecraft:item_name": {"translate":"item.siscu.weathered_copper_helmet"},
+                                "minecraft:custom_model_data": {"floats": [2]},
+                                "equippable": {
+                                    "slot": "head",
+                                    "asset_id": "siscu_se:weathered_copper",
+                                    "equip_sound": "item.armor.equip_gold"
+                                }
                             }
                         },
                         {

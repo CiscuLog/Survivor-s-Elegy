@@ -11,9 +11,9 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:damage": 0,
-                                "minecraft:item_name": "{\"translate\":\"item.siscu.elegant_hat\"}",
+                                "minecraft:item_name": {"translate":"item.siscu.elegant_hat"},
                                 "minecraft:lore": [
-                                    "{\"translate\":\"text.siscu.sun_protection\",\"color\":\"gray\",\"italic\":false}"
+                                    {"translate":"text.siscu.sun_protection","color":"gray","italic":false}
                                 ],
                                 "item_model": "siscu_se:elegant_hat",
                                 "minecraft:custom_data": {

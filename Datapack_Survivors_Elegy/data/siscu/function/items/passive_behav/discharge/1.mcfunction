@@ -28,7 +28,7 @@ execute if score charge siscu.volatile matches 1.. if score N siscu.volatile mat
 tag @s add discharging
 scoreboard players set N siscu.volatile 0
 
-execute on attacker at @s anchored eyes run summon area_effect_cloud ~ ~1 ~ {Tags:["siscu.discharge_path"]}
+execute on attacker at @s anchored eyes run summon area_effect_cloud ~ ~1 ~ {Tags:["siscu.discharge_path"],Duration:1,Radius:0,Age:20}
 execute as @e[tag=siscu.discharge_path] at @s facing entity @e[type=player,limit=1] feet rotated ~40 ~ run function siscu:items/passive_behav/discharge/effect
 
 execute on attacker at @s run playsound minecraft:entity.blaze.hurt ambient @a ~ ~ ~ 1 2

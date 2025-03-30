@@ -1,6 +1,4 @@
 {
-	"credit": "Made by CiscuLog with Blockbench",
-	"texture_size": [64, 64],
 	"textures": {
 		"0": "entity/illager/evoker",
 		"particle": "entity/illager/evoker"

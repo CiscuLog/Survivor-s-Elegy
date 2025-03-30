@@ -10,7 +10,7 @@
 			{
 				"function": "minecraft:set_components",
 				"components": {
-					"item_name":"{\"translate\":\"item.siscu.crimson_painting\"}",
+					"item_name":{"translate":"item.siscu.crimson_painting"},
 					"rarity":"uncommon",
 					"item_model": "siscu_se:crimson_painting_0",
 					"custom_data": {

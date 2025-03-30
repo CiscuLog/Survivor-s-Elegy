@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"item_name": "{\"translate\":\"item.siscu.sniffer_meat\"}",
+								"item_name": {"translate":"item.siscu.sniffer_meat"},
 								"item_model": "siscu_se:sniffer_meat",
 								"custom_data": {
 									"SE_data": {
@@ -24,7 +24,7 @@
 									"saturation": 12
 								},
 								"minecraft:lore": [
-									"{\"translate\":\"text.siscu.tofu\",\"color\":\"blue\",\"italic\":false}"
+									{"translate":"text.siscu.tofu","color":"blue","italic":false}
 								]
 							}
 						}

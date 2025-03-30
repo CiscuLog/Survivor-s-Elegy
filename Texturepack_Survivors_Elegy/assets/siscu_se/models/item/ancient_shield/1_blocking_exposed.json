@@ -1,0 +1,6 @@
+{
+	"parent": "siscu_se:item/ancient_shield/base_blocking_exposed",
+	"textures": {
+		"display": "siscu_se:item/ancient_shield/charge_1"
+	}
+}

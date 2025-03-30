@@ -11,7 +11,9 @@
               "function": "set_components",
               "components": {
                 "minecraft:damage": 0,
-                "minecraft:item_name": "{\"translate\":\"item.siscu.copper_horse_armor\"}",
+                "minecraft:item_name": {
+                  "translate": "item.siscu.copper_horse_armor"
+                },
                 "item_model": "siscu_se:copper_horse_armor",
                 "minecraft:custom_data": {
                   "SE_data": {
@@ -28,17 +30,15 @@
                   "asset_id": "siscu_se:copper",
                   "equip_sound": "item.armor.equip_gold"
                 },
-                "attribute_modifiers": {
-                  "modifiers": [
-                    {
-                      "type": "armor",
-                      "id": "82a661a9-0797-4ce9-b855-0ff20e34d220",
-                      "amount": 4,
-                      "operation": "add_value",
-                      "slot": "body"
-                    }
-                  ]
-                }
+                "attribute_modifiers": [
+                  {
+                    "type": "armor",
+                    "id": "82a661a9-0797-4ce9-b855-0ff20e34d220",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "body"
+                  }
+                ]
               }
             }
           ]

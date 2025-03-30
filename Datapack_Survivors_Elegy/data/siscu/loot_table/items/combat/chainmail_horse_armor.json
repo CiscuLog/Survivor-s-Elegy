@@ -10,7 +10,9 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:item_name": "{\"translate\":\"item.siscu.chainmail_horse_armor\"}",
+                "minecraft:item_name": {
+                  "translate": "item.siscu.chainmail_horse_armor"
+                },
                 "minecraft:item_model": "siscu_se:chainmail_horse_armor",
                 "minecraft:custom_data": {
                   "SE_data": {
@@ -18,19 +20,22 @@
                     "UpdateVersion": "v1.0.1"
                   }
                 },
-                "equippable": {"slot": "body","allowed_entities": "horse","equip_sound": "item.armor.equip_chain","asset_id": "siscu_se:chainmail"},
+                "equippable": {
+                  "slot": "body",
+                  "allowed_entities": "horse",
+                  "equip_sound": "item.armor.equip_chain",
+                  "asset_id": "siscu_se:chainmail"
+                },
                 "minecraft:damage": 0,
-                "attribute_modifiers": {
-                  "modifiers": [
-                    {
-                      "type": "armor",
-                      "id": "825724e2-4674-4452-bdd8-834d4e8a18d9",
-                      "amount": 6,
-                      "operation": "add_value",
-                      "slot": "body"
-                    }
-                  ]
-                }
+                "attribute_modifiers": [
+                  {
+                    "type": "armor",
+                    "id": "825724e2-4674-4452-bdd8-834d4e8a18d9",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "body"
+                  }
+                ]
               }
             }
           ]

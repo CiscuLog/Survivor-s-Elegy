@@ -6,7 +6,6 @@
 				"entity": [
 					{
 						"condition": "minecraft:reference",
-						"entity": "this",
 						"name": "siscu:entities/is_wearing_charged_armor"
 					},
 					{

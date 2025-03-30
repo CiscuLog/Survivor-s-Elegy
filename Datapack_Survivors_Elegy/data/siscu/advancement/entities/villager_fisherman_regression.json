@@ -1,0 +1,41 @@
+{
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:tick",
+			"conditions": {
+				"player": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "player",
+							"looking_at": {
+								"distance": {"absolute": {"min":0,"max":10}},
+								"type": "minecraft:villager",
+								"nbt": "{VillagerData:{profession:\"minecraft:none\"}}"
+							}
+						}
+					}
+				},
+				{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type_specific": {
+								"type": "player",
+								"looking_at": {
+									"distance": {"absolute": {"min":1,"max":10}},
+									"nbt": "{Tags:[\"siscu.fisherman_lvl1\"]}"
+								}
+							}
+					}
+				}
+			]
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:entities/villager/fisherman_regression"
+	}
+}

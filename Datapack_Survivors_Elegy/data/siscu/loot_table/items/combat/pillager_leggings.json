@@ -10,7 +10,7 @@
 			{
 				"function": "set_components",
 				"components": {
-					"item_name": "{\"translate\":\"item.siscu.pillager_leggings\"}",
+					"item_name": {"translate":"item.siscu.pillager_leggings"},
 					"item_model": "siscu_se:pillager_leggings",
 					"custom_data":{
 						"SE_data":{

@@ -32,7 +32,7 @@ scoreboard objectives remove siscu.tofu_boost_2
 scoreboard objectives remove siscu.tofu_boost_3
 scoreboard objectives remove siscu.tofu_boost_4
 scoreboard objectives remove siscu.tofu_boost_5
-scoreboard objectives remove siscu.countdown_display
+#scoreboard objectives remove siscu.countdown_display
 scoreboard objectives remove siscu.enchantment_reroll
 scoreboard objectives remove siscu.update_item
 

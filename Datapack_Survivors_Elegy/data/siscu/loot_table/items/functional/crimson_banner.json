@@ -10,7 +10,7 @@
 			{
 				"function": "minecraft:set_components",
 				"components": {
-					"item_name":"{\"translate\":\"item.siscu.crimson_banner\"}",
+					"item_name":{"translate":"item.siscu.crimson_banner"},
 					"rarity":"uncommon",
 					"item_model": "siscu_se:crimson_banner_0",
 					"custom_data": {

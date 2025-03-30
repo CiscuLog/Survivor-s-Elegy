@@ -4,7 +4,7 @@
   "result": {
     "id": "minecraft:bread",
     "components": {
-      "minecraft:item_name": "{\"translate\":\"item.siscu.fried_egg\"}",
+      "minecraft:item_name": {"translate":"item.siscu.fried_egg"},
       "item_model": "siscu_se:fried_egg",
       "custom_data": {
         "SE_data": {

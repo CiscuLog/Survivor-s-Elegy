@@ -16,7 +16,7 @@
     "id": "minecraft:raw_copper",
     "components": {
       "max_stack_size": 64,
-      "item_name": "{\"italic\":false,\"translate\":\"item.siscu.bee_counter\"}",
+      "item_name": {"italic":false,"translate":"item.siscu.bee_counter"},
       "item_model": "siscu_se:bee_counter",
       "custom_data": {
         "SE_data": {

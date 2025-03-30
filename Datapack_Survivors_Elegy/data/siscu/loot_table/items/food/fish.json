@@ -9,7 +9,7 @@
 			"functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"item_name":"{\"translate\":\"item.siscu.fish\"}",
+				"components": {"item_name":{"translate":"item.siscu.fish"},
 				"item_model": "siscu_se:fish",
 				"custom_data": {
 					"SE_data": {

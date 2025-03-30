@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "item",
+              "name": "minecraft:emerald",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 7,
+                    "max": 10
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "slots": {
+                      "armor.head": {
+                        "predicates": {
+                          "custom_data": {
+                            "SE_data": {
+                              "id": "siscu:koi"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:emerald",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 2,
+                    "max": 4
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

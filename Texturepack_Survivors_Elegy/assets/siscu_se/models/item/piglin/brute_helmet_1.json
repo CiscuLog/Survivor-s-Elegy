@@ -1,6 +1,4 @@
 {
-	"credit": "Made by CiscuLog with Blockbench",
-	"texture_size": [64, 16],
 	"textures": {
 		"1": "siscu_se:item/piglin_decoration/brute_helmet_1",
 		"particle": "siscu_se:item/piglin_skull"
@@ -56,15 +54,5 @@
 		"head": {
 			"scale": [1.61, 1.61, 1.61]
 		}
-	},
-	"groups": [
-		{
-			"name": "helmet",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
-			"children": [0, 1, 2, 3]
-		}
-	]
+	}
 }
