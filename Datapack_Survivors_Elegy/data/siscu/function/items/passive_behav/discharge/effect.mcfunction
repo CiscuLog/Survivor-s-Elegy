@@ -12,12 +12,14 @@ execute positioned ^ ^ ^0.1 run particle minecraft:electric_spark ~ ~-0.5 ~ 0 0 
 execute positioned ^ ^ ^0.2 run particle minecraft:electric_spark ~ ~-0.5 ~ 0 0 0 0.1 1 force
 execute positioned ^ ^ ^0.3 run particle minecraft:electric_spark ~ ~-0.5 ~ 0 0 0 0.1 1 force
 
-# exit if it's too far
+# end if it's too far
 execute if score N siscu.volatile matches 334.. run return 0
 
 # bend lightning
-execute store result storage siscu:volatile x byte 1 run random value -40..40
-execute store result storage siscu:volatile y byte 1 run random value -40..40
+execute store result score x siscu.volatile run random value -30..30
+execute store result score y siscu.volatile run random value -30..30
+execute store result storage siscu:volatile x byte 1 run scoreboard players operation x siscu.volatile += x1 siscu.volatile
+execute store result storage siscu:volatile y byte 1 run scoreboard players operation y siscu.volatile += y1 siscu.volatile
 
 execute if predicate siscu:utils/25_percent run particle soul_fire_flame ~ ~-0.5 ~ 0 0 0 0 1 force
 

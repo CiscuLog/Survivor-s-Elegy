@@ -10,7 +10,7 @@ data merge storage siscu:database {enchanter_book_list:[\
 {String:"blast_protection",String2:"enchantment.minecraft.blast_protection",lvl:2},\
 {String:"blast_protection",String2:"enchantment.minecraft.blast_protection",lvl:3},\
 {String:"blast_protection",String2:"enchantment.minecraft.blast_protection",lvl:4},\
-{String:"channeling",String2:"enchantment.minecraft.protection",lvl:1},\
+{String:"channeling",String2:"enchantment.minecraft.channeling",lvl:1},\
 {String:"depth_strider",String2:"enchantment.minecraft.depth_strider",lvl:1},\
 {String:"depth_strider",String2:"enchantment.minecraft.depth_strider",lvl:2},\
 {String:"depth_strider",String2:"enchantment.minecraft.depth_strider",lvl:3},\

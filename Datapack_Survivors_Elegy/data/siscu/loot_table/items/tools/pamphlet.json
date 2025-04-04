@@ -23,6 +23,7 @@
 							{"translate":"text.siscu.blank","fallback":"You seem to be missing Survivor's Elegy required resourcepack!\nDownload it from the datapack download page or ask the server owner for more details.","extra":[{"translate":"text.siscu.pamphlet4_1","color":"black","fallback":""},{"translate":"text.siscu.pamphlet4_2","font":"siscu_se:book_pages","color":"white","fallback":""}]}
 					  	]
 					},
+					"tooltip_display": {"hidden_components": ["written_book_content"]},
 					"custom_data": {
 						"SE_data":{
 							"id": "siscu:pamphlet",

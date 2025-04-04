@@ -1,11 +1,11 @@
 
 # Failsafe
 execute unless items entity @s armor.chest elytra run return 0
-execute unless data entity @s Inventory[{Slot:102b}].components.minecraft:custom_data.SE_data.old_durability run return 0
+execute unless data entity @s equipment.chest.components.minecraft:custom_data.SE_data.old_durability run return 0
 
 # Recover elytra durability
 data remove storage siscu:volatile components
-data modify storage siscu:volatile components set from entity @s Inventory[{Slot:102b}].components
+data modify storage siscu:volatile components set from entity @s equipment.chest.components
 data modify storage siscu:volatile components.minecraft:damage set from storage siscu:volatile components.minecraft:custom_data.SE_data.old_durability
 data remove storage siscu:volatile components.minecraft:custom_data.SE_data.old_durability
 data remove storage siscu:volatile components.minecraft:custom_data.SE_data.shut_down_elytra

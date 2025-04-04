@@ -1,9 +1,9 @@
 tellraw @s [{"translate":"\n\n\n\n%====== About ======[","bold":true},{"text":"Return","font":"siscu_se:superscript","bold":false,"color":"red","click_event":{"action":"run_command","command":"/function siscu:config"},"hover_event":{"action":"show_text","value":{"text":"Return to menu"}}},{"text":"]"}]
 
 tellraw @s [{"text":"Survivor's Elegy\n","color":"gray"}]
-tellraw @s [{"text":"Datapack Version: ","color":"gray"},{"storage":"siscu:world","nbt":"PackVersion"}]
-tellraw @s [{"text":"Required Resourcepack Version: ","color":"gray"},{"text":"2","bold":true}]
-tellraw @s [{"text":"Loaded Resourcepack Version: ","color":"gray"},{"translate":"pack.siscu.version","bold":true}]
+tellraw @s [{"text":"Datapack Version: ","color":"gray"},{"storage":"siscu:world","nbt":"PackVersion","color":"gold"}]
+tellraw @s [{"text":"Required Resourcepack Version: ","color":"gray"},{"text":"2","bold":true,"color":"green"}]
+tellraw @s [{"text":"Loaded Resourcepack Version: ","color":"gray"},{"translate":"pack.siscu.version","bold":true,"color":"green"}]
 tellraw @s [{"text":"[Credits]","color":"gray","click_event":{"action": "run_command","command": "/function siscu:technical/credits"},"hover_event": {"action": "show_text","value": "Click to check everyone who has influenced this project"}}]
 tellraw @s [{"text":"Links:","bold": true,"color": "gray"}]
 tellraw @s [{"text":"  [Discord]","bold":false,"color":"aqua","click_event":{"action":"open_url","url":"https://discord.gg/AQBdJTr"},"hover_event":{"action":"show_text","value":{"text":"https://discord.gg/AQBdJTr"}}},{"text":"        ","hover_event":{"action":"show_text","value":{"text":""}}},{"text":"[Wiki]","click_event":{"action":"open_url","url":"https://github.com/CiscuLog/Survivor-s-Elegy/wiki"},"hover_event":{"action":"show_text","value":{"text":"github.com/CiscuLog/Survivor-s-Elegy/wiki"}}},{"text":"            ","hover_event":{"action":"show_text","value":{"text":""}}}]

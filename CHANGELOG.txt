@@ -1,6 +1,12 @@
 
 Compatible Minecraft versions: 1.21.4
 
+Survivor's Elegy 1.0.3 (04/04/2025)
++ Added Copper Discharges now have a default arc which they follow, instead of always going straight
++ Fixed Copper Armor's Lore to correctly display Charge
++ Fixed Elytra Shootdown module
++ Fixed Electric Discharges
+
 Survivor's Elegy 1.0.2 (29/03/2024)
 + Updated to 1.21.5
 + Added entities won't rot if they're standing on honeycomb blocks

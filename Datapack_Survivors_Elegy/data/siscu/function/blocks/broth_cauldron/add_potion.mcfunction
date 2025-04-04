@@ -9,8 +9,8 @@ execute if score broth_level siscu.broth_data matches 3 run return 0
 scoreboard players add broth_level siscu.broth_data 1
 execute as @e[type=interaction,tag=siscu.broth_interacting] run function siscu:blocks/broth_cauldron/update/store_data
 
-item modify entity @s weapon.mainhand siscu:decrease_1
-give @s glass_bottle
+item modify entity @s[gamemode=!creative] weapon.mainhand siscu:decrease_1
+give @s[gamemode=!creative] glass_bottle
 execute as @e[type=interaction,tag=siscu.broth_interacting] at @s run playsound item.bottle.empty block @a
 
 return 1
