@@ -5,14 +5,32 @@ execute unless items entity @s weapon potion[potion_contents={potion:water}] run
 # return if the cauldron is full
 execute if score broth_level siscu.broth_data matches 3 run return 0
 
-#else
+# else, general water bottle behavior
 scoreboard players add broth_level siscu.broth_data 1
-execute as @e[type=interaction,tag=siscu.broth_interacting] run function siscu:blocks/broth_cauldron/update/store_data
-
 item modify entity @s[gamemode=!creative] weapon.mainhand siscu:decrease_1
 give @s[gamemode=!creative] glass_bottle
 execute as @e[type=interaction,tag=siscu.broth_interacting] at @s run playsound item.bottle.empty block @a
 
+# return if it's not a potion
+scoreboard players set x siscu.volatile 0
+execute if items entity @s weapon potion[potion_contents={potion:water}] as @e[type=interaction,tag=siscu.broth_interacting] run return run function siscu:blocks/broth_cauldron/update/store_data
+execute if items entity @s weapon potion[potion_contents={potion:awkward}] as @e[type=interaction,tag=siscu.broth_interacting] run return run function siscu:blocks/broth_cauldron/update/store_data
+execute if items entity @s weapon potion[potion_contents={potion:thick}] as @e[type=interaction,tag=siscu.broth_interacting] run return run function siscu:blocks/broth_cauldron/update/store_data
+execute if items entity @s weapon potion[potion_contents={potion:mundane}] as @e[type=interaction,tag=siscu.broth_interacting] run return run function siscu:blocks/broth_cauldron/update/store_data
+
+# potion stuff
+
+# get potion type and its values
+
+# store it to the cauldron data
+
+# lower temperature, divides current temperature by 1/3
+execute at @s as @n[type=interaction,tag=siscu.broth_interacting] if score @s siscu.broth_temperature matches 100.. run scoreboard players set @s siscu.broth_temperature 100
+execute at @s run scoreboard players operation @n[type=interaction,tag=siscu.broth_interacting] siscu.broth_temperature *= 2 siscu.integer
+execute at @s run scoreboard players operation @n[type=interaction,tag=siscu.broth_interacting] siscu.broth_temperature /= 3 siscu.integer
+
+# end interaction
+execute as @e[type=interaction,tag=siscu.broth_interacting] run function siscu:blocks/broth_cauldron/update/store_data
 return 1
 
 ## Old behav

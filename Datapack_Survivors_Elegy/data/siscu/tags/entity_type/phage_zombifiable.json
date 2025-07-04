@@ -1,18 +1,19 @@
 {
   "values": [
-    "minecraft:player",
-    "minecraft:pillager",
-    "minecraft:vindicator",
-    "minecraft:evoker",
-    "minecraft:villager",
-    "minecraft:horse",
-    "minecraft:hoglin",
-    "minecraft:piglin",
-    "minecraft:piglin_brute",
-    "minecraft:witch",
-    "minecraft:rabbit",
+    "#siscu:phage_zombifiable_special",
     "minecraft:allay",
-    "minecraft:wolf",
-    "minecraft:wandering_trader"
+    "minecraft:evoker",
+    "minecraft:hoglin",
+    "minecraft:horse",
+    "minecraft:piglin_brute",
+    "minecraft:piglin",
+    "minecraft:pillager",
+    "minecraft:player",
+    "minecraft:rabbit",
+    "minecraft:villager",
+    "minecraft:vindicator",
+    "minecraft:wandering_trader",
+    "minecraft:witch",
+    "minecraft:wolf"
   ]
 }

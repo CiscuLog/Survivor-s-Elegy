@@ -1,10 +1,11 @@
+
 # Storages
 ## check if it's updating from pre 1.21.4
-# warn if PackVersion exists and MajorUpdate doesn't
+# warn if PackVersion exists but MajorUpdate doesn't
 execute if data storage siscu:world PackVersion unless data storage siscu:world MajorUpdate run schedule function siscu:technical/load/warning 5s
 
 # Update (siscu:world)
-data merge storage siscu:world {PackVersion:"v1.0.3",MajorUpdate:1}
+data merge storage siscu:world {PackVersion:"v1.0.4",MajorUpdate:1}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 execute unless data storage siscu:world day_length run data merge storage siscu:world {day_length:3}
 
@@ -62,6 +63,7 @@ execute unless score death_message siscu.integer matches 0.. run scoreboard play
 ## constants
 scoreboard players set -1 siscu.integer -1
 scoreboard players set 2 siscu.integer 2
+scoreboard players set 8 siscu.integer 8
 scoreboard players set 10 siscu.integer 10
 scoreboard players set 20 siscu.integer 20
 scoreboard players set 60 siscu.integer 60

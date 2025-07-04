@@ -1,4 +1,7 @@
 
+# clears all mechanic-related advancements.
+# It ignores advancements that can be seen on advancement tabs.
+
 advancement revoke @s only siscu:entities/blocked_explosion/1_4
 advancement revoke @s only siscu:entities/blocked_explosion/4_5
 advancement revoke @s only siscu:entities/blocked_explosion/5_6
@@ -45,8 +48,6 @@ advancement revoke @s only siscu:items/consume/drink_milk_under_warped_intoxicat
 advancement revoke @s only siscu:items/consume/eat_under_warped_intoxication
 advancement revoke @s only siscu:items/consume/glow_berries_eat
 advancement revoke @s only siscu:items/consume/warped_stew_eat
-advancement revoke @s only siscu:items/consume/warped_wart_eat
-advancement revoke @s only siscu:items/consume/warped_wart_stew_eat
 advancement revoke @s only siscu:items/update/dragon_egg
 advancement revoke @s only siscu:items/use/instrument_hold
 advancement revoke @s only siscu:items/use/light_sensor_cooldown
@@ -81,5 +82,6 @@ advancement revoke @s only siscu:items/consume/ancient_tofu
 advancement revoke @s only siscu:items/consume/drowned_flesh
 advancement revoke @s only siscu:items/consume/husk_flesh
 advancement revoke @s only siscu:items/consume/milk
+# ignore those two, it defeats the objective of them being 1-time only
 #advancement revoke @s only siscu:world/enter_citadel_first_time
 #advancement revoke @s only siscu:world/enter_city_first_time

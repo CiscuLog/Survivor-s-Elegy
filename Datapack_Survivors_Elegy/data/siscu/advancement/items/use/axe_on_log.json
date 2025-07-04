@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "strip": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "match_tool",
+                        "predicate": {
+                            "items": "#minecraft:axes"
+                        }
+                    },
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#logs_that_burn"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "siscu:items/use/axe_on_log/strip_log"
+    }
+}

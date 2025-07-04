@@ -1,14 +1,14 @@
 {
     "values": [
         "#siscu:rotting_mobs_all",
-        "minecraft:cow",
-        "minecraft:ocelot",
-        "minecraft:mooshroom",
-        "minecraft:pig",
-        "minecraft:panda",
-        "minecraft:sheep",
-        "minecraft:spider",
-        "minecraft:cave_spider",
-        "minecraft:armadillo"
+        "armadillo",
+        "cave_spider",
+        "cow",
+        "mooshroom",
+        "ocelot",
+        "panda",
+        "pig",
+        "sheep",
+        "spider"
     ]
 }

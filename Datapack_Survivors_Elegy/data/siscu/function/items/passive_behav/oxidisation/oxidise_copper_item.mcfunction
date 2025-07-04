@@ -17,7 +17,6 @@ $execute store result storage siscu:volatile Oxidation int 1 run scoreboard play
 function siscu:items/item_modifier/oxidisation with storage siscu:volatile
 
 # New name (stores it in siscu:volatile.String and String2)
-#$execute if score $(score) siscu.volatile matches 0 run data merge storage siscu:volatile {String:""}
 $execute if score $(score) siscu.volatile matches 1 run data merge storage siscu:volatile {String:"exposed_"}
 $execute if score $(score) siscu.volatile matches 2 run data merge storage siscu:volatile {String:"weathered_"}
 $execute if score $(score) siscu.volatile matches 3 run data merge storage siscu:volatile {String:"oxidised_"}

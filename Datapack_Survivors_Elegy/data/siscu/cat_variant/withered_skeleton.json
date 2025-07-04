@@ -1,0 +1,12 @@
+{
+    "asset_id": "siscu_se:entity/cat/withered",
+    "spawn_conditions": [
+        {
+            "condition": {
+                "type": "minecraft:biome",
+                "biomes": "#siscu:none"
+            },
+            "priority": 1
+        }
+    ]
+}

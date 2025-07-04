@@ -1,11 +1,11 @@
 {
     "values": [
-        "tall_grass",
-        "large_fern",
         "#flowers",
-        "sugar_cane",
+        "large_fern",
+        "pale_hanging_moss",
         "seagrass",
-        "tall_seagrass",
-        "pale_hanging_moss"
+        "sugar_cane",
+        "tall_grass",
+        "tall_seagrass"
     ]
 }

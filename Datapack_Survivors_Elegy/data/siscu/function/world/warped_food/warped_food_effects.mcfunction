@@ -12,4 +12,4 @@ execute if score @s siscu.warped_food matches 40.. run effect give @s minecraft:
 execute at @s if score @s siscu.warped_food matches 25.. run particle minecraft:glow_squid_ink ~ ~1.6 ~ 0 0 0 0.05 5
 execute at @s if score @s siscu.warped_food matches 35.. run particle minecraft:glow_squid_ink ~ ~1.6 ~ 0 0 0 0.05 5
 
-execute if score @s siscu.warped_food matches 20.. run advancement grant @s[advancements={siscu:story/withering_damage=true}] only siscu:story/warped_wart_food_side_effects
+execute if score @s siscu.warped_food matches 20.. run advancement grant @s[advancements={siscu:story/withering_damage=true}] only siscu:story/warped_food_side_effects

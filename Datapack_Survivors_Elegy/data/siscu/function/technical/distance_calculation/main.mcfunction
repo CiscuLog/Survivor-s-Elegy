@@ -12,8 +12,8 @@ execute store result storage siscu:volatile v_y float 1 run data get storage sis
 execute store result storage siscu:volatile v_z float 1 run data get storage siscu:volatile Vector[2]
 
 # return distance in a scoreboard value
-execute positioned 0 0 0 as @n[type=block_display,tag=siscu.distance_calculation,distance=..10] run function siscu:technical/distance_calculation/macro with storage siscu:volatile
+execute positioned 0 0 0 as @n[type=block_display,tag=siscu.distance_calculation,distance=..10] store result score d siscu.volatile run function siscu:technical/distance_calculation/macro with storage siscu:volatile
 
 #tellraw @a [{text:"Distance:"},{"storage": "siscu:volatile","nbt": "d"},{text: ", score -> "},{"score": {"name": "d","objective": "siscu.volatile"}}]
 
-return run execute store result score d siscu.volatile run data get storage siscu:volatile d
+#return run execute store result score d siscu.volatile run data get storage siscu:volatile d

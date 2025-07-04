@@ -1,0 +1,19 @@
+{
+	"display":{
+		"icon": {
+			"id": "minecraft:rabbit_stew",
+			"components": {"item_model":"siscu_se:mob_effect/poisoning"}
+		},
+		"title": {"translate": "advancements.siscu.story.warped_wart_food_side_effects.title"},
+		"description": {"translate": "advancements.siscu.story.warped_wart_food_side_effects.description"},
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"parent": "siscu:story/warped_food",
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

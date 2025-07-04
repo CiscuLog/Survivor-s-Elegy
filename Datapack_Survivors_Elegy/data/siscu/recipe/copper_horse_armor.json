@@ -10,7 +10,7 @@
     "C C"
   ],
   "result": {
-    "id": "minecraft:raw_copper",
+    "id": "minecraft:iron_horse_armor",
     "count": 1,
     "components": {
       "minecraft:damage": 0,
@@ -22,7 +22,7 @@
         "SE_data": {
           "id": "siscu:copper_horse_armor",
           "IsCopper": 1,
-          "UpdateVersion": "v1.0.1",
+          "UpdateVersion": "v1.1.0",
           "Charge": 0,
           "Oxidation": 0
         }

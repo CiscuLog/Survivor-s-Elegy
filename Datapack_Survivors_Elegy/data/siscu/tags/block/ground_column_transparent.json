@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "#siscu:transparent_blocks",
     "#siscu:swamp_hut_pillar_blocks",
-    "minecraft:dirt",
-    "minecraft:grass_block",
-    "minecraft:sand",
+    "#siscu:transparent_blocks",
+    "dirt",
+    "grass_block",
+    "sand",
     "stone"
   ]
 }

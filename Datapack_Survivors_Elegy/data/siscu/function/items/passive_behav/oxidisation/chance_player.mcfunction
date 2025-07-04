@@ -25,7 +25,7 @@ scoreboard players set boots_ox siscu.volatile -1
 
 # Get all ox values if said piece is copper
 execute if predicate siscu:entities/is_holding_copper_tool store result score tool_ox siscu.volatile run data get entity @s SelectedItem.components."minecraft:custom_data".SE_data.Oxidation
-execute if predicate siscu:entities/is_holding_copper_shield store result score shield_ox siscu.volatile run data get entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".SE_data.Oxidation
+execute if predicate siscu:entities/is_holding_copper_shield store result score shield_ox siscu.volatile run data get entity @s equipment.offhand.components."minecraft:custom_data".SE_data.Oxidation
 execute if predicate siscu:entities/is_wearing_copper_helmet store result score helmet_ox siscu.volatile run data get entity @s equipment.head.components."minecraft:custom_data".SE_data.Oxidation
 execute if predicate siscu:entities/is_wearing_copper_chestplate store result score chestplate_ox siscu.volatile run data get entity @s equipment.chest.components."minecraft:custom_data".SE_data.Oxidation
 execute if predicate siscu:entities/is_wearing_copper_leggings store result score leggings_ox siscu.volatile run data get entity @s equipment.legs.components."minecraft:custom_data".SE_data.Oxidation
@@ -41,7 +41,7 @@ execute if score boots_ox siscu.volatile matches 0..2 if score boots_ox siscu.vo
 
 # Oxidise a piece if the chance succeeds
 execute if score tool_ox siscu.volatile = min_ox siscu.volatile if predicate siscu:random/oxidisation_chance run function siscu:items/passive_behav/oxidisation/oxidise_copper_item {Slot:"weapon.mainhand",Slot_raw:"SelectedItem",score:"tool_ox"}
-execute if score shield_ox siscu.volatile = min_ox siscu.volatile if predicate siscu:random/oxidisation_chance run function siscu:items/passive_behav/oxidisation/oxidise_copper_item {Slot:"weapon.offhand",Slot_raw:"Inventory[{Slot:-106b}]",score:"shield_ox"}
+execute if score shield_ox siscu.volatile = min_ox siscu.volatile if predicate siscu:random/oxidisation_chance run function siscu:items/passive_behav/oxidisation/oxidise_copper_item {Slot:"weapon.offhand",Slot_raw:"equipment.offhand",score:"shield_ox"}
 execute if score helmet_ox siscu.volatile = min_ox siscu.volatile if predicate siscu:random/oxidisation_chance run function siscu:items/passive_behav/oxidisation/oxidise_copper_item {Slot:"armor.head",Slot_raw:"equipment.head",score:"helmet_ox"}
 execute if score chestplate_ox siscu.volatile = min_ox siscu.volatile if predicate siscu:random/oxidisation_chance run function siscu:items/passive_behav/oxidisation/oxidise_copper_item {Slot:"armor.chest",Slot_raw:"equipment.chest",score:"chestplate_ox"}
 execute if score leggings_ox siscu.volatile = min_ox siscu.volatile if predicate siscu:random/oxidisation_chance run function siscu:items/passive_behav/oxidisation/oxidise_copper_item {Slot:"armor.legs",Slot_raw:"equipment.legs",score:"leggings_ox"}

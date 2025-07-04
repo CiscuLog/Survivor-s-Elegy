@@ -1,17 +1,17 @@
 {
   "replace": false,
   "values": [
-    "minecraft:air",
-    "minecraft:cave_air",
-    "minecraft:water",
-    "minecraft:lily_pad",
-    "minecraft:short_grass",
-    "minecraft:tall_grass",
-    "minecraft:seagrass",
-    "minecraft:tall_seagrass",
-    "minecraft:vine",
-    "#minecraft:logs",
-    "#minecraft:leaves",
-    "#minecraft:flowers"
+    "#flowers",
+    "#leaves",
+    "#logs",
+    "air",
+    "cave_air",
+    "lily_pad",
+    "seagrass",
+    "short_grass",
+    "tall_grass",
+    "tall_seagrass",
+    "vine",
+    "water"
   ]
 }

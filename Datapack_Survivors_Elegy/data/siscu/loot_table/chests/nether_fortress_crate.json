@@ -16,7 +16,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "siscu:items/food/warped_wart",
+          "value": "siscu:items/food/warped_gall",
           "weight": 5
         },
         {

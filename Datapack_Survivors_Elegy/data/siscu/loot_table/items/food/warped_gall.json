@@ -1,0 +1,40 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cookie",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"item_name": {"translate":"item.siscu.warped_gall"},
+								"item_model": "siscu_se:warped_gall",
+								"custom_data": {
+									"SE_data": {
+										"id": "siscu:warped_gall",
+										"UpdateVersion": "v1.1.0"
+									}
+								},
+								"food": {
+									"nutrition": 1,
+									"saturation": 0.1,
+									"can_always_eat": false
+								},
+								"rarity": "rare",
+								"lore": [
+									{"text": ""},
+									{"translate": "text.siscu.when_consumed","color": "dark_purple","italic": false},
+									{"translate": "text.siscu.warped_gall","color": "dark_green","italic": false},
+									{"translate": "text.siscu.warped_gall2","color": "red","italic": false}
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

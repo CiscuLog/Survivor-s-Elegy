@@ -1,11 +1,7 @@
 scoreboard players set x siscu.volatile -1
 # interaction
 execute align xyz run summon minecraft:interaction ~0.5 ~0.2 ~0.5 {width:0.8,height:0.8,Tags:["siscu.broth_cauldron"],data:{broth_level:0,broth_food:0,broth_saturation:0,\
-effects:[{type:apply_effects,effects:[{id:"minecraft:luck",amplifier:0, duration:0}]}]\
-}}
-# marker
-#execute align xyz run summon minecraft:marker ~0.5 ~0.2 ~0.5 {Tags:["siscu.broth_cauldron"],data:{broth_level:0,broth_food:0,broth_saturation:0,\
-effects:[{type:apply_effects,effects:[{id:"minecraft:luck",amplifier:0, duration:0}]}]\
+effects:[]\
 }}
 # display (water)
 execute align xyz run summon minecraft:item_display ~0.5 ~0.2 ~0.5 {Tags:["siscu.broth_cauldron","siscu.broth_water","siscu.new_water"],item:{id:"minecraft:leather_horse_armor",count:1,components:{"item_model":"siscu_se:block/broth_water"}}}

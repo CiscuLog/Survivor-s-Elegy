@@ -1,1 +1,1 @@
-function siscu:items/passive_behav/discharge/main_macro {ChargeAmount:1}
+function siscu:items/passive_behav/discharge/main_macro {DischargeAmount:1}

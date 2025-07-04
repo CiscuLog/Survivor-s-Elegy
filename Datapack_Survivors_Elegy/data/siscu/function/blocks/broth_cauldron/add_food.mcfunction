@@ -52,7 +52,7 @@ scoreboard players operation broth_level siscu.broth_data += increase siscu.brot
 # store data
 execute as @e[type=interaction,tag=siscu.broth_interacting] run function siscu:blocks/broth_cauldron/update/store_data
 execute as @e[type=interaction,tag=siscu.broth_interacting] at @s run function siscu:blocks/broth_cauldron/effects/add_food
-execute as @e[type=interaction,tag=siscu.broth_interacting] run tellraw @a[tag=siscu.broth_interacting] [{"nbt": "data","entity": "@s"}]
+#execute as @e[type=interaction,tag=siscu.broth_interacting] run tellraw @a[tag=siscu.broth_interacting] [{"nbt": "data","entity": "@s"}]
 
 # lower temperature, divides current temperature by 2
 execute at @s run scoreboard players operation @n[type=interaction,tag=siscu.broth_interacting] siscu.broth_temperature /= 2 siscu.integer
@@ -61,8 +61,8 @@ execute at @s run scoreboard players operation @n[type=interaction,tag=siscu.bro
 scoreboard players set x siscu.volatile 0
 execute if items entity @s weapon.mainhand #siscu:bowled_food run scoreboard players set x siscu.volatile 1
 execute if items entity @s weapon.mainhand #siscu:bottled_food run scoreboard players set x siscu.volatile 2
-item modify entity @s weapon.mainhand siscu:decrease_1
-execute if score x siscu.volatile matches 1 run give @s bowl
-execute if score x siscu.volatile matches 2 run give @s glass_bottle
+item modify entity @s[gamemode=!creative] weapon.mainhand siscu:decrease_1
+execute if score x siscu.volatile matches 1 run give @s[gamemode=!creative] bowl
+execute if score x siscu.volatile matches 2 run give @s[gamemode=!creative] glass_bottle
 
 return 1

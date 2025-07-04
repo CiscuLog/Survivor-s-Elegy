@@ -1,5 +1,30 @@
 
-Compatible Minecraft versions: 1.21.4
+Compatible Minecraft versions: 1.21.6, 1.21.7
+
+Survivor's Elegy 1.0.4 (04/07/2025)
++ Updated to mc 1.21.6 and 1.21.7
++ Changed Resourcepack version to 3
++ Added Shields to Nether Fortress weaponsmith chests
++ Added stripping Pale Oak logs has a 1% chance of dropping 1 resin clump
++ Added stripping wooden logs has a 10% chance of dropping 1 stick
++ Added Warped Gall. Obtainable when stripping Warped Stem. It can be also found in Piglin Crevices and Fortresses. It removes 5 minutes of withering, while granting 7 of warped poisoning
++ Changed Copper Horse Armor base item to iron horse armor
++ Changed Fire Springs can appear on blackstone, gilded blacktone and nylium blocks.
++ Changed models for trimmed copper, elegant and stray gear
++ Changed outer walls of Nether Fortresses now touch the terrain instead of leaving a giant gap
++ Fixed [Ancient Restoration] would trigger at the wrong time
++ Fixed Bogged Zombies not rendering their headgear correctly
++ Fixed lightning rod item model
++ Fixed Shutters blocking item frames
++ Fixed Shutters now properly update comparators
++ Fixed Warped Poisoning was not being reset when the player died
++ Fixed Zombified Wandering Traders turned into nitwits with trades
++ Redone Phage and zombie conversion. Now the Unluck effect is no longer used, and the time remaining until zombification is displayed in the actionbar
+- Removed Mob Spawners dropping chains
+- Removed Warped Wart and related recipes
+- Removed Warped Wart Stew and related recipes
+- Removed shutters delay
+- Reverted Piglin Bartering to use the default vanilla table
 
 Survivor's Elegy 1.0.3 (04/04/2025)
 + Added Copper Discharges now have a default arc which they follow, instead of always going straight

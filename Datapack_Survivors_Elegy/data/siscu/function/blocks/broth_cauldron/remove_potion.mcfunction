@@ -3,7 +3,7 @@
 execute if score has_potion siscu.broth_data matches 0 run return 0
 
 # set water
-data merge entity @n[type=interaction,tag=siscu.broth_interacting] {data:{effects:[{probability:1,effect:{id:"minecraft:water",amplifier:0, duration:0}}]}}
+data merge entity @n[type=interaction,tag=siscu.broth_interacting] {data:{effects:[]}}
 
 # clear item on hand
 item modify entity @s weapon.mainhand siscu:decrease_1

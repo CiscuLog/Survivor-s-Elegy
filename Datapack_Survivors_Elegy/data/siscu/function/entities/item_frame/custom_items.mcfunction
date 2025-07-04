@@ -9,7 +9,7 @@ tag @s[tag=!siscu.item_frame_check_again] add siscu.item_frame_check_again
 execute if items entity @s contents raw_copper[minecraft:item_model="siscu_se:bee_counter"] at @s if block ^ ^ ^-1 #minecraft:beehives if entity @e[type=player,distance=..10] run return run function siscu:entities/item_frame/bee_counter/bee_counter
 
 # Shutters #
-function siscu:entities/item_frame/shutters/main
+execute if items entity @s contents *[minecraft:custom_data~{SE_data:{id:"siscu:shutters"}}] run return run function siscu:entities/item_frame/shutters/main
 
 # Light Sensor #
-execute if predicate siscu:entities/item_frame/light_sensor at @s run function siscu:entities/item_frame/light_sensor
+execute if predicate siscu:entities/item_frame/light_sensor at @s run return run function siscu:entities/item_frame/light_sensor

@@ -1,0 +1,2 @@
+
+$dialog show @s $(Dialog)

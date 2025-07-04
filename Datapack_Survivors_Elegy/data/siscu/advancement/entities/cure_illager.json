@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "1": {
+            "trigger": "cured_zombie_villager"
+        }
+    },
+    "rewards": {
+        "function": "siscu:advancement/cure_illager"
+    }
+}

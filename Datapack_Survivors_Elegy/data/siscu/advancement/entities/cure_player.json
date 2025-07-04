@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:entities/zombifying/unzombify_player"
+		"function": "siscu:entities/phage/unzombify/player"
 	}
 }

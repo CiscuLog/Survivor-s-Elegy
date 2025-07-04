@@ -40,7 +40,7 @@
           "name": "minecraft:gold_ingot",
           "functions": [{
             "function": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":1.0,"max":4.0}
+            "count": {"type":"minecraft:uniform","min":0.0,"max":4.0}
           }]
         }
       ]

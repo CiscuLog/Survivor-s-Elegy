@@ -1,4 +1,3 @@
-# Works in 1.21.5 yayyy
 
 execute unless predicate siscu:entities/is_falling on controller if predicate siscu:items/boots_frost_walker run function siscu:enchantment/mount_catalyst/horse_frost_walker
 execute on controller if predicate siscu:items/boots_soul_speed run function siscu:enchantment/mount_catalyst/horse_soul_speed

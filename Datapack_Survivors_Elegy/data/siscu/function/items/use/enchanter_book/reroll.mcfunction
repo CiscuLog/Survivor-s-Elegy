@@ -1,4 +1,4 @@
-# We will have one of the 8 next enchantments on the 10 enchs enchantment list. This ensures the player doesn't get the same enchantment after a reroll
+# We will have one of the 20 next enchantments on the enchantments list. This ensures the player doesn't get the same enchantment after a reroll
 execute store result score x siscu.volatile run random value 1..20
 execute store result score y siscu.volatile run data get entity @s SelectedItem.components.minecraft:custom_data.SE_data.last_roll
 scoreboard players set z siscu.volatile 58

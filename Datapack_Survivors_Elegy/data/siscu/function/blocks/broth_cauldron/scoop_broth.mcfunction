@@ -42,7 +42,7 @@ execute if score potion_duration siscu.broth_data matches ..0 run scoreboard pla
 
 execute store result storage siscu:volatile serving_data.broth_food int 0.01 run scoreboard players get food siscu.broth_data
 execute store result storage siscu:volatile serving_data.broth_saturation int 0.01 run scoreboard players get saturation siscu.broth_data
-execute store result storage siscu:volatile BrothCauldronData.effects[0].effect.duration int 1 run scoreboard players get serving_potion_duration siscu.broth_data
+execute if data storage siscu:volatile BrothCauldronData[0] store result storage siscu:volatile BrothCauldronData.effects[0].effect.duration int 1 run scoreboard players get serving_potion_duration siscu.broth_data
 
 ## set resulting item
 data merge storage siscu:volatile {serving_data:{name:"broth",remainder:"bowl",model:"siscu_se:broth_bowl",consume_seconds:2}}

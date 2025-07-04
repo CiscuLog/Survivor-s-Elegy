@@ -1,1 +1,0 @@
-summon zombie ~ ~ ~ {Tags:["siscu.zombie_checked"],CanPickUpLoot:1b}

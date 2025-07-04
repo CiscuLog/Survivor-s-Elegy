@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "eat": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {"custom_data": {"SE_data":{"id":"siscu:warped_gall"}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "siscu:items/consume/warped_gall"
+    }
+}

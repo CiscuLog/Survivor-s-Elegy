@@ -5,7 +5,7 @@ execute unless score @s siscu.warped_food matches 60.. run scoreboard players ad
 execute as @s at @s run function siscu:world/warped_food/warped_food_effects
 
 # teleportation tweaks
-advancement revoke @s only siscu:items/consume/chorus_fruit_eat
+advancement revoke @s only siscu:items/consume/chorus_fruit
 execute if predicate siscu:locations/check_void run advancement grant @s only siscu:minecraft/end/eat_chorus_fruit_in_the_void
 
 # if falling, teleport to a ledge (if possible)

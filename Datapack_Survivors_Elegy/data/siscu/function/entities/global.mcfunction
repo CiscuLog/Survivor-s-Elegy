@@ -23,7 +23,7 @@ execute as @s[type=pillager,tag=!siscu.pillager_checked] run return run function
 execute as @s[type=skeleton,tag=!siscu.skeleton_checked] run return run function siscu:entities/skeleton/randomiser
 execute as @s[type=wandering_trader,tag=!siscu.trader_checked] run return run function siscu:entities/wandering_trader/randomiser
 execute as @s[type=trader_llama,tag=!siscu.llama_checked] run return run function siscu:entities/trader_llama/randomiser
-execute as @s[type=villager,tag=!siscu.villager_checked] run return run function siscu:entities/villager/randomiser
+execute as @s[type=villager,tag=!siscu.villager_checked] run return run function siscu:entities/villager/main
 execute as @s[type=witch,tag=!siscu.witch_checked] run return run function siscu:entities/witch/randomiser
 execute as @s[type=wither_skeleton,tag=!siscu.skeleton_checked] run return run function siscu:entities/wither_skeleton/randomiser
 execute as @s[type=vex,tag=!siscu.vex_checked] run return run function siscu:entities/vex/randomiser

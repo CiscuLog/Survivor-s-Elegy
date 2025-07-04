@@ -1,14 +1,14 @@
 {
     "values": [
-        "grass_block",
-        "dirt",
-        "podzol",
+        "#leaves",
+        "coarse_dirt",
+        "coarse_dirt",
         "dirt_path",
-        "coarse_dirt",
-        "coarse_dirt",
-        "rooted_dirt",
+        "dirt",
+        "grass_block",
         "moss_block",
         "pale_moss_block",
-        "#leaves"
+        "podzol",
+        "rooted_dirt"
     ]
 }

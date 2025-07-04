@@ -2,7 +2,7 @@
 advancement revoke @s only siscu:items/use/ancient_shield_block_arrow
 
 # detect slot
-execute if predicate siscu:items/ancient_shield_offhand unless predicate siscu:items/ancient_shield_mainhand run data merge storage siscu:volatile {Slot:"weapon.offhand",Slot_raw:"Inventory[{Slot:-106b}"}
+execute if predicate siscu:items/ancient_shield_offhand unless predicate siscu:items/ancient_shield_mainhand run data merge storage siscu:volatile {Slot:"weapon.offhand",Slot_raw:"equipment.offhand"}
 execute if predicate siscu:items/ancient_shield_mainhand run data merge storage siscu:volatile {Slot:"weapon.mainhand",Slot_raw:"SelectedItem"}
 
 # check if crouching, if not: add charge and return

@@ -1,4 +1,4 @@
-advancement revoke @s only siscu:entities/broth_interact
+advancement revoke @s only siscu:interactions/broth_cauldron
 
 # promptly stop if wrong item usage
 execute unless items entity @s weapon.mainhand #siscu:broth_items run return run function siscu:blocks/broth_cauldron/end_interaction

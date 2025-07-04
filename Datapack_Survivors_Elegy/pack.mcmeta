@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 71,
+    "pack_format": 81,
+    "supported_formats": {"min_inclusive": 80, "max_inclusive": 81},
     "description": "By Siscu\n§a[Vanilla]"
   }
 }

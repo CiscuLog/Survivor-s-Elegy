@@ -3,5 +3,5 @@ execute unless score @s siscu.warped_food matches 60.. run scoreboard players ad
 
 execute as @s at @s run function siscu:world/warped_food/warped_food_effects
 
-advancement grant @s only siscu:story/warped_wart_food
+advancement grant @s only siscu:story/warped_food
 advancement revoke @s only siscu:items/consume/warped_stew_eat

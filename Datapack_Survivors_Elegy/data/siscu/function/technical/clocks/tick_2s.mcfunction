@@ -4,7 +4,7 @@ schedule function siscu:technical/clocks/tick_2s_2 1t
 
 schedule function siscu:technical/clocks/tick_2s 2s
 
-# Turns out if there are too many commands the function cannot be resolved and it all breaks. Thus, in this function we schedule the checks so they're not all contained in the same "command". It's not all-proof, but it should do his job. The self schedules are declared here too so when and if an issue exists, the clock doesn't stop ticking.
+# Turns out if there are too many commands the function cannot be resolved and it all breaks. Thus, in this function we schedule the checks so they're not all contained in the same tick. It's not all-proof, but it should do his job. The self schedules are declared here too so when and if an issue exists, the clock doesn't stop ticking.
 
 ## Check newly spawned entities ##
 execute as @e[type=#siscu:initialisable_tick_2s,tag=!siscu.entity_checked] at @s run function siscu:entities/global

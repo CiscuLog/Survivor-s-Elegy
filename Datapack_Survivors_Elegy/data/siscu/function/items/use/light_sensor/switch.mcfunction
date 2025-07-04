@@ -10,7 +10,7 @@ execute if score x siscu.volatile matches 1 run data merge storage siscu:volatil
 execute unless score x siscu.volatile matches 1 run data merge storage siscu:volatile {Slot:"weapon.offhand"}
 
 execute if score x siscu.volatile matches 1 store result score x siscu.volatile run data get entity @s SelectedItem.components.minecraft:custom_model_data.floats[0]
-execute if score x siscu.volatile matches 0 store result score x siscu.volatile run data get entity @s Inventory[{Slot:-106b}].components.minecraft:custom_model_data.floats[0]
+execute if score x siscu.volatile matches 0 store result score x siscu.volatile run data get entity @s equipment.offhand.components.minecraft:custom_model_data.floats[0]
 
 execute if score x siscu.volatile matches 0..15 run scoreboard players set y siscu.volatile 1
 execute if score y siscu.volatile matches 1 run scoreboard players add x siscu.volatile 16
