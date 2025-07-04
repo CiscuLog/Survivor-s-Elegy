@@ -1,0 +1,7 @@
+{
+    "parent": "item/iron_helmet",
+    "textures": {
+        "layer0": "siscu_se:item/blank",
+        "layer1": "trims/items/helmet_trim_gold"
+    }
+}

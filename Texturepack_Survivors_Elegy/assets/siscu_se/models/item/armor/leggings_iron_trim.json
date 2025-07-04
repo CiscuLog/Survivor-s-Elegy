@@ -1,0 +1,7 @@
+{
+    "parent": "item/iron_leggings",
+    "textures": {
+        "layer0": "siscu_se:item/blank",
+        "layer1": "trims/items/leggings_trim_iron"
+    }
+}

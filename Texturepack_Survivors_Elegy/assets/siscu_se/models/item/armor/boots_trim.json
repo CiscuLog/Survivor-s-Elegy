@@ -1,0 +1,7 @@
+{
+    "parent": "item/iron_boots",
+    "textures": {
+        "layer0": "siscu_se:item/blank",
+        "layer1": "trims/items/boots_trim_gold"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "item/iron_chestplate",
+    "textures": {
+        "layer0": "siscu_se:item/blank",
+        "layer1": "trims/items/chestplate_trim_redstone"
+    }
+}

@@ -5,6 +5,11 @@
             "resource": "entity/copper_trident"
         },
         {
+            "type": "directory",
+            "source": "mob_effect",
+            "prefix": "mob_effect/"
+        },
+        {
             "type": "single",
             "resource": "entity/horse/horse_skeleton"
         },

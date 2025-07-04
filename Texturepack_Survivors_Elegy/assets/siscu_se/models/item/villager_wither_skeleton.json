@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/custom_spawn_egg_template",
+  "parent": "minecraft:item/handheld",
   "textures": {
-    "0": "siscu_se:item/spawn_eggs/villager_wither_skeleton"
+    "layer0": "siscu_se:item/spawn_eggs/villager_wither_skeleton"
   }
 }

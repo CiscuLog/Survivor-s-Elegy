@@ -107,6 +107,24 @@
 			"chars": [
 				"\u0302"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:item/config.png",
+			"ascent": 11,
+			"height": 16,
+			"chars": [
+				"\u1000"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:mob_effect/phage.png",
+			"ascent": 11,
+			"height": 16,
+			"chars": [
+				"\u2000"
+			]
 		}
 	]
 }

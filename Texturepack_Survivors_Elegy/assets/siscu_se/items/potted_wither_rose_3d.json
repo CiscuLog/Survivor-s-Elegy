@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "cases": [
+            {
+                "when": "fixed",
+                "model": {
+                    "type": "model",
+                    "model": "siscu_se:item/potted_wither_rose/base_3d"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "siscu_se:item/potted_wither_rose/base_item"
+        }
+    }
+}
