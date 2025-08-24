@@ -1,3 +1,4 @@
 dev_utils/
 *.zip
 !Uninstall_Versions/*
+Uninstall_Versions/uninstall
