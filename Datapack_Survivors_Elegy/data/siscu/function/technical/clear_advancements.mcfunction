@@ -32,7 +32,6 @@ advancement revoke @s only siscu:entities/kill_dripstone_zombie
 advancement revoke @s only siscu:entities/kill_wither
 advancement revoke @s only siscu:entities/kill_wither_skeleton
 advancement revoke @s only siscu:entities/player_flies_wearing_netherite
-advancement revoke @s only siscu:entities/player_get_phage
 advancement revoke @s only siscu:entities/player_sleep
 advancement revoke @s only siscu:entities/player_sneaks_on_grass
 advancement revoke @s only siscu:entities/sculk_plantoid_hit
@@ -43,7 +42,7 @@ advancement revoke @s only siscu:entities/villager_cartographer_lvl4
 advancement revoke @s only siscu:entities/villager_fletcher_stick_nerf
 advancement revoke @s only siscu:entities/villager_librarian_mending_nerf
 advancement revoke @s only siscu:entities/wandering_trader_black_market
-advancement revoke @s only siscu:items/consume/chorus_fruit_eat
+advancement revoke @s only siscu:items/consume/chorus_fruit
 advancement revoke @s only siscu:items/consume/drink_milk_under_warped_intoxication
 advancement revoke @s only siscu:items/consume/eat_under_warped_intoxication
 advancement revoke @s only siscu:items/consume/glow_berries_eat
@@ -63,9 +62,9 @@ advancement revoke @s only siscu:items/put_in_decorated_pot
 # alpha v0.9.3
 advancement revoke @s only siscu:entities/blocked_explosion/any
 advancement revoke @s only siscu:entities/allay_interaction
-advancement revoke @s only siscu:entities/broth_interact
+advancement revoke @s only siscu:interactions/broth_cauldron
 advancement revoke @s only siscu:entities/hurt_vex
-advancement revoke @s only siscu:entities/mirage_display_interact
+advancement revoke @s only siscu:interactions/mirage_display
 advancement revoke @s only siscu:entities/player_join_back
 advancement revoke @s only siscu:items/use/full_allay_container
 advancement revoke @s only siscu:items/use/full_allay_container_vex

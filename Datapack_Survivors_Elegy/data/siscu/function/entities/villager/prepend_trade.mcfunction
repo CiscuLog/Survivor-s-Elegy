@@ -11,5 +11,4 @@ execute if score x siscu.volatile matches 1 run data remove entity @s Offers.Rec
 # sold item
 data modify entity @s Offers.Recipes[0].sell set from entity @n[tag=siscu.new_trade] equipment.head
 
-tag @n[tag=siscu.new_trade] add siscu.dead
-function siscu:world/kill_dead
+execute as @n[tag=siscu.new_trade] run function siscu:world/kill_dead

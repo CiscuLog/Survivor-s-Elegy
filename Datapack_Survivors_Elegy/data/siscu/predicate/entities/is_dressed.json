@@ -4,7 +4,7 @@
 	"predicate": {
 		"equipment": {
 			"chest": {
-				"items": ["leather_chestplate","golden_chestplate","chainmail_chestplate","iron_chestplate"]
+				"items": ["leather_chestplate","golden_chestplate","chainmail_chestplate","iron_chestplate","copper_chestplate"]
 			}
 		}
 	}

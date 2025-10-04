@@ -7,10 +7,6 @@
         },
         {
             "condition": "reference",
-            "name": "siscu:entities/is_holding_copper_shield"
-        },
-        {
-            "condition": "reference",
             "name": "siscu:entities/is_wearing_copper_armor"
         }
     ]

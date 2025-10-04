@@ -1,0 +1,12 @@
+{
+	"model": {
+		"type": "range_dispatch",
+		"property": "custom_model_data",
+		"fallback": {"type": "model","model": "siscu_se:item/copper_pickaxe"},
+		"entries": [
+			{"model": {"type": "model","model": "siscu_se:item/exposed_copper_pickaxe"},"threshold": 1},
+			{"model": {"type": "model","model": "siscu_se:item/weathered_copper_pickaxe"},"threshold": 2},
+			{"model": {"type": "model","model": "siscu_se:item/oxidised_copper_pickaxe"},"threshold": 3}
+		]
+	}
+}

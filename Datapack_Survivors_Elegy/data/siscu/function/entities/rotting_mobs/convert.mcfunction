@@ -13,3 +13,5 @@ execute if score @s[type=zoglin] siscu.rotting_mob >= rotting_timer_limit siscu.
 execute if score @s[type=zombie_villager] siscu.rotting_mob >= rotting_timer_limit siscu.integer at @s run return run function siscu:entities/rotting_mobs/summon_skeleton with entity @s
 execute if score @s[type=zombie_horse] siscu.rotting_mob >= rotting_timer_limit siscu.integer at @s run return run function siscu:entities/rotting_mobs/summon_skeleton_horse with entity @s
 execute if score @s[type=wolf] siscu.rotting_mob >= rotting_timer_limit siscu.integer at @s run return run function siscu:entities/rotting_mobs/summon_wolf
+execute if score @s[type=#siscu:rotting_mobs_any] siscu.rotting_mob >= rotting_timer_limit siscu.integer at @s run return run function siscu:entities/rotting_mobs/summon_generic_passive_mob
+

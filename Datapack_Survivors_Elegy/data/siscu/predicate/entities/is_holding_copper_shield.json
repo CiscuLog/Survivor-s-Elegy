@@ -1,65 +1,13 @@
 {
-    "condition": "all_of",
-    "terms": [
-        {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-                "slots": {
-                "weapon.offhand": {
-                    "predicates": {
-                        "custom_data": {"SE_data":{"IsCopper": 1}}
-                    }
-                }
-                }
-            }
-        },
-        {
-            "condition": "inverted",
-            "term": {
-                "condition": "any_of",
-                "terms": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "slots": {
-                            "weapon.offhand": {
-                                "predicates": {
-                                    "custom_data": {"SE_data":{"id": "siscu:light_sensor"}}
-                                }
-                            }
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "slots": {
-                            "weapon.offhand": {
-                                "predicates": {
-                                    "custom_data": {"SE_data":{"id": "siscu:bee_counter"}}
-                                }
-                            }
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "slots": {
-                            "weapon.offhand": {
-                                "predicates": {
-                                    "custom_data": {"SE_data":{"id": "siscu:ancient_shield"}}
-                                }
-                            }
-                            }
-                        }
-                    }
-                ]
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+        "weapon.*": {
+            "predicates": {
+                "custom_data": {"SE_data":{"id": "siscu:ancient_shield"}}
             }
         }
-    ]
+        }
+    }
 }

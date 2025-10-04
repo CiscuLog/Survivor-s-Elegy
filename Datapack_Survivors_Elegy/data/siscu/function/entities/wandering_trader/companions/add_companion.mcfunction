@@ -1,5 +1,4 @@
-execute as @n[type=trader_llama,limit=2,distance=..10] run tag @s add siscu.dead
-function siscu:world/kill_dead
+execute as @n[type=trader_llama,limit=2,distance=..10] run function siscu:world/kill_dead
 
 scoreboard players set trader_companion siscu.volatile 0
 execute if predicate siscu:utils/1_percent run scoreboard players set trader_companion siscu.volatile 1

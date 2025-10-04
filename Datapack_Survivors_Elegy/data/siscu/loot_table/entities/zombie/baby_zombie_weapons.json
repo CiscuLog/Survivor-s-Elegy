@@ -16,76 +16,40 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:wooden_sword",
 		  "functions": [
 			{
 				"function": "minecraft:set_components",
 				"components": {"item_model":"siscu_se:baby_wooden_sword"}
-			},
-			{
-				"function": "minecraft:set_attributes",
-				"modifiers": [
-				{
-					"attribute": "attack_damage",
-					"id": "92d15e7a-273b-43d2-b9dc-526c9bc13a1b",
-					"operation": "add_value",
-					"amount": 4,
-					"slot": "mainhand"
-				}
-				]
 			}
 			],
 			"weight":4
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:stone_sword",
 		  "functions": [
 			{
 				"function": "minecraft:set_components",
 				"components": {"item_model":"siscu_se:baby_stone_sword"}
-			},
-			{
-				"function": "minecraft:set_attributes",
-				"modifiers": [
-				{
-					"attribute": "attack_damage",
-					"id": "b0c069c3-1f96-4475-b34a-608fdd120cfc",
-					"operation": "add_value",
-					"amount": 5,
-					"slot": "mainhand"
-				}
-				]
 			}
 			],
 			"weight":4
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:golden_sword",
 		  "functions": [
 			{
 				"function": "minecraft:set_components",
 				"components": {"item_model":"siscu_se:baby_gold_sword"}
-			},
-			{
-				"function": "minecraft:set_attributes",
-				"modifiers": [
-				{
-					"attribute": "attack_damage",
-					"id": "8caaea74-d6d7-47e2-94f3-c66a89ec42dd",
-					"operation": "add_value",
-					"amount": 4,
-					"slot": "mainhand"
-				}
-				]
 			}
 			],
 			"weight":4
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:copper_sword",
 		  "functions": [
 			{
 				"function": "minecraft:set_components",
@@ -96,7 +60,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:copper_sword",
 		  "functions": [
 			{
 				"function": "minecraft:set_components",
@@ -107,7 +71,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:copper_sword",
 		  "functions": [
 			{
 				"function": "minecraft:set_components",
@@ -118,7 +82,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:copper_sword",
 		  "functions": [
 			{
 				"function": "minecraft:set_components",

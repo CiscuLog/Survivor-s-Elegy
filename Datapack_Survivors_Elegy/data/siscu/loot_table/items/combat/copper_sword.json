@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "iron_sword",
+                    "name": "copper_sword",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
@@ -15,27 +15,9 @@
                                 "item_model": "siscu_se:copper_sword",
                                 "minecraft:custom_data": {
                                     "SE_data": {
-                                        "id": "siscu:copper_sword",
-                                        "IsCopper": 1,
-                                        "UpdateVersion": "v1.0.1",
                                         "Charge": 0,
                                         "Oxidation": 0
                                     }
-                                },
-                                "repairable": {
-                                    "items": "copper_ingot"
-                                },
-                                "max_damage": 150,
-                                "tool": {
-                                    "damage_per_block": 1,
-                                    "default_mining_speed": 1,
-                                    "rules": [
-                                        {
-                                            "correct_for_drops": true,
-                                            "blocks": "#sword_efficient",
-                                            "speed": 5
-                                        }
-                                    ]
                                 }
                             }
                         }

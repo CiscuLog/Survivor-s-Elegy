@@ -5,19 +5,19 @@
 scoreboard players set N siscu.volatile 0
 scoreboard players set charge siscu.volatile 0
 scoreboard players set charge siscu.volatile 0
-execute if predicate siscu:entities/is_wearing_copper_helmet store result score charge siscu.volatile run data get entity @s equipment.head.components."minecraft:custom_data".SE_data.ChargeCharge
+execute if items entity @s armor.head copper_helmet store result score charge siscu.volatile run data get entity @s equipment.head.components."minecraft:custom_data".SE_data.Charge
 $execute if score charge siscu.volatile matches $(DischargeAmount).. if score N siscu.volatile matches 0 run function siscu:items/passive_behav/discharge/copper_item {Slot:"armor.head",DischargeAmount:$(DischargeAmount)}
 
 scoreboard players set charge siscu.volatile 0
-execute if predicate siscu:entities/is_wearing_copper_boots store result score charge siscu.volatile run data get entity @s equipment.feet.components."minecraft:custom_data".SE_data.Charge
+execute if items entity @s armor.feet copper_boots store result score charge siscu.volatile run data get entity @s equipment.feet.components."minecraft:custom_data".SE_data.Charge
 $execute if score charge siscu.volatile matches $(DischargeAmount).. if score N siscu.volatile matches 0 run function siscu:items/passive_behav/discharge/copper_item {Slot:"armor.feet",DischargeAmount:$(DischargeAmount)}
 
 scoreboard players set charge siscu.volatile 0
-execute if predicate siscu:entities/is_wearing_copper_leggings store result score charge siscu.volatile run data get entity @s equipment.legs.components."minecraft:custom_data".SE_data.Charge
+execute if items entity @s armor.legs copper_leggings store result score charge siscu.volatile run data get entity @s equipment.legs.components."minecraft:custom_data".SE_data.Charge
 $execute if score charge siscu.volatile matches $(DischargeAmount).. if score N siscu.volatile matches 0 run function siscu:items/passive_behav/discharge/copper_item {Slot:"armor.legs",DischargeAmount:$(DischargeAmount)}
 
 scoreboard players set charge siscu.volatile 0
-execute if predicate siscu:entities/is_wearing_copper_chestplate store result score charge siscu.volatile run data get entity @s equipment.chest.components."minecraft:custom_data".SE_data.Charge
+execute if items entity @s armor.chest copper_chestplate store result score charge siscu.volatile run data get entity @s equipment.chest.components."minecraft:custom_data".SE_data.Charge
 $execute if score charge siscu.volatile matches $(DischargeAmount).. if score N siscu.volatile matches 0 run function siscu:items/passive_behav/discharge/copper_item {Slot:"armor.chest",DischargeAmount:$(DischargeAmount)}
 
 execute if score N siscu.volatile matches 0 run return 0
@@ -37,9 +37,9 @@ execute on attacker at @s run playsound minecraft:entity.blaze.hurt ambient @a ~
 execute on attacker at @s run particle minecraft:electric_spark ~ ~0.3 ~ 0.2 0.2 0.2 0.3 10
 # Negate all damage if it's wearing copper
 # Damage strongly if wearing netherite armor (6HP)
-execute on attacker if predicate siscu:entities/is_wearing_netherite unless predicate siscu:entities/is_wearing_copper_armor run damage @s[type=!#siscu:discharge_immune] 6 siscu:copper_discharge by @e[tag=discharging,limit=1]
+execute on attacker if predicate siscu:entities/is_wearing_netherite unless items entity @s armor.* #siscu:oxidisable_items run damage @s[type=!#siscu:discharge_immune] 6 siscu:copper_discharge by @e[tag=discharging,limit=1]
 # Damage slightly otherwise (3HP)
-execute on attacker unless predicate siscu:entities/is_wearing_netherite unless predicate siscu:entities/is_wearing_copper_armor run damage @s[type=!#siscu:discharge_immune] 3 siscu:copper_discharge by @e[tag=discharging,limit=1]
+execute on attacker unless predicate siscu:entities/is_wearing_netherite unless items entity @s armor.* #siscu:oxidisable_items run damage @s[type=!#siscu:discharge_immune] 3 siscu:copper_discharge by @e[tag=discharging,limit=1]
 tag @s remove discharging
 
 

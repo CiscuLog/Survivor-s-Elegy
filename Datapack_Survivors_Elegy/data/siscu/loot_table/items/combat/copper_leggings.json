@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "iron_leggings",
+                    "name": "copper_leggings",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
@@ -24,9 +24,6 @@
                                 "item_model": "siscu_se:copper_leggings",
                                 "minecraft:custom_data": {
                                     "SE_data": {
-                                        "id": "siscu:copper_leggings",
-                                        "IsCopper": 1,
-                                        "UpdateVersion": "v1.0.1",
                                         "Charge": 0,
                                         "Oxidation": 0
                                     }
@@ -34,22 +31,8 @@
                                 "equippable": {
                                     "slot": "legs",
                                     "asset_id": "siscu_se:copper",
-                                    "equip_sound": "item.armor.equip_gold"
-                                },
-                                "repairable": {
-                                    "items": "copper_ingot"
-                                },
-                                "max_stack_size": 1,
-                                "max_damage": 125,
-                                "attribute_modifiers": [
-                                    {
-                                        "type": "armor",
-                                        "id": "12a1c226-96f2-4e10-b760-fd98a21cdb9e",
-                                        "amount": 4,
-                                        "operation": "add_value",
-                                        "slot": "legs"
-                                    }
-                                ]
+                                    "equip_sound": "item.armor.equip_copper"
+                                }
                             }
                         }
                     ]

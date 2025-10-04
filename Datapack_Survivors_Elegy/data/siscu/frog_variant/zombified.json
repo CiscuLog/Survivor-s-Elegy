@@ -1,5 +1,5 @@
 {
-    "asset_id": "siscu_se:entity/frog/zombified",
+    "asset_id": "siscu_se:entity/frog/zombie",
     "spawn_conditions": [
         {
             "condition": {

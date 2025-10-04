@@ -4,9 +4,7 @@
     "predicate": {
         "slots": {
         "armor.*": {
-            "predicates": {
-                "minecraft:custom_data": {"SE_data":{"IsCopper": 1}}
-            }
+            "items": "#siscu:oxidisable_items"
         }
         }
     }

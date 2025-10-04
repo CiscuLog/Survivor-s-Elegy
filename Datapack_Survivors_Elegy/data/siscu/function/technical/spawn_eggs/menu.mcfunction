@@ -23,6 +23,9 @@ tellraw @s [{"font":"siscu_se:icons","text":"\u0101","click_event":{"action":"ru
 \
 {"text":"\u0301","click_event":{"action":"run_command","command":"/loot give @s loot siscu:items/spawn_eggs/villager_wither_skeleton"},"hover_event":{"action":"show_text","value":{"translate":"item.siscu.spawn_egg_villager_wither_skeleton"}}},\
 \
-{"text":"\u0302","click_event":{"action":"run_command","command":"/loot give @s loot siscu:items/spawn_eggs/piglin_wither_skeleton"},"hover_event":{"action":"show_text","value":{"translate":"item.siscu.spawn_egg_piglin_wither_skeleton"}}}]
+{"text":"\u0302","click_event":{"action":"run_command","command":"/loot give @s loot siscu:items/spawn_eggs/piglin_wither_skeleton"},"hover_event":{"action":"show_text","value":{"translate":"item.siscu.spawn_egg_piglin_wither_skeleton"}}},\
+\
+{"text":"\u0401","click_event":{"action":"run_command","command":"/loot give @s loot siscu:items/spawn_eggs/fire_spring"},"hover_event":{"action":"show_text","value":{"translate":"item.siscu.spawn_egg_fire_spring"}}}\
+]
 
 tellraw @s [{"text":"\n"}]

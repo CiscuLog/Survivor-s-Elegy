@@ -1,4 +1,8 @@
 {	
+
+	"pack.siscu": "Survivor's Elegy",
+	"pack.siscu.version": "4",
+	
 	"advancements.siscu.description_1": "A song to the memories that have been lost",
 	"advancements.siscu.description_2": "By Siscu",
 	"advancements.siscu.minecraft.all_horse_armor.title": "Equestrian Expertise",
@@ -245,6 +249,7 @@
 	"item.siscu.spawn_egg_bogged_zombie": "Bogged Zombie",
 	"item.siscu.spawn_egg_citizen_zombie": "Citizen Zombie",
 	"item.siscu.spawn_egg_dripstone_zombie": "Dripstone Zombie",
+	"item.siscu.spawn_egg_fire_spring": "Fire Spring",
 	"item.siscu.spawn_egg_husk_skeleton": "Husk Skeleton",
 	"item.siscu.spawn_egg_infected_zombie": "Infected Zombie",
 	"item.siscu.spawn_egg_lush_zombie": "Lush Zombie",
@@ -278,9 +283,6 @@
 	"item.siscu.warped_wart_stew": "Warped Wart Stew",
 	"item.siscu.withered_bone": "Withered Bone",
 	"item.siscu.zoglin_head": "Zoglin Head",
-
-	"pack.siscu": "Survivor's Elegy",
-	"pack.siscu.version": "3",
 	
 	"sound.siscu.boat_banner_place": "Banner placed on boat",
 	"sound.siscu.broth_bowl_scoop": "Bowl fills",

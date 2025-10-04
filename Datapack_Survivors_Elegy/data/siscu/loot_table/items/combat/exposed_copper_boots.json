@@ -15,7 +15,7 @@
                                 "equippable": {
                                     "slot": "feet",
                                     "asset_id": "siscu_se:exposed_copper",
-                                    "equip_sound": "item.armor.equip_gold"
+                                    "equip_sound": "item.armor.equip_copper"
                                 }
                             }
                         },

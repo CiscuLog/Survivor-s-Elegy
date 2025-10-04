@@ -1,6 +1,11 @@
 {
   "values": [
-    "minecraft:rabbit",
-    "minecraft:wolf"
+    "cat",
+    "chicken",
+    "cow",
+    "frog",
+    "pig",
+    "rabbit",
+    "wolf"
   ]
 }

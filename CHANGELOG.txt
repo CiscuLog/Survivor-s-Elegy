@@ -1,5 +1,18 @@
 
-Compatible Minecraft versions: 1.21.6, 1.21.7
+Compatible Minecraft versions: 1.21.9
+
+Survivor's Elegy 1.0.5 (04/10/2025)
++ Updated to 1.21.9
++ Changed Resourcepack version to 4
++ Added Fire Spring spawn egg. Obtained through the config menu
++ Added Skeleton Cats, Chickens, Cows, Pigs and Frogs. Obtained when a zombified mob of their respective type rots away
++ Added Withered Skeleton Cats, Chickens, Cows, Pigs and Frogs. Obtained when their respective skeleton variant withers in the nether
++ Added wolves and cats that spawn with Wandering Traders are the Trader's pets and cannot be tamed
++ Added zombified Cats, Chickens, Cows, Pigs and Frogs. Obtained when their respective base mob gets infected with Phage
++ Fixed Ancient Shields shouldn't oxidise back
++ Retextured custom spawn eggs
++ Updated copper gear properties to their defaults of vanilla 1.21.9
++ Updated Survivor's Elegy Copper Gear to use the new vanilla items. Existing items from previous versions will act as they used to, but lose their electric properties and ability to oxidise
 
 Survivor's Elegy 1.0.4 (04/07/2025)
 + Updated to mc 1.21.6 and 1.21.7

@@ -24,5 +24,4 @@ particle minecraft:smoke ~ ~1.3 ~ 0 0.3 0 0.06 30
 execute on passengers run ride @s dismount
 ride @s dismount
 tag @n[tag=converted] remove converted
-tag @s add siscu.dead
 function siscu:world/kill_dead

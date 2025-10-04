@@ -110,6 +110,15 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "siscu_se:item/spawn_eggs/fire_spring.png",
+			"ascent": 11,
+			"height": 16,
+			"chars": [
+				"\u0401"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "siscu_se:item/config.png",
 			"ascent": 11,
 			"height": 16,

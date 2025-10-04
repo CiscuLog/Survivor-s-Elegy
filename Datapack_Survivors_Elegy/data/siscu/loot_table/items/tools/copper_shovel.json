@@ -5,33 +5,15 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "iron_shovel",
+                    "name": "copper_shovel",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {"translate":"item.siscu.copper_shovel"},
                                 "item_model": "siscu_se:copper_shovel",
-                                "minecraft:max_damage":150,
-                                "repairable": {
-                                  "items": "copper_ingot"
-                                },
-                                "tool": {
-                                    "damage_per_block": 1,
-                                    "default_mining_speed": 1,
-                                    "rules": [
-                                        {
-                                            "correct_for_drops": true,
-                                            "blocks": "#mineable/shovel",
-                                            "speed": 5
-                                        }
-                                    ]
-                                },
                                 "minecraft:custom_data": {
                                     "SE_data": {
-                                        "id": "siscu:copper_shovel",
-                                      "IsCopper": 1,
-                                      "UpdateVersion": "v1.0.1",
                                       "Charge": 0,
                                       "Oxidation": 0
                                     }

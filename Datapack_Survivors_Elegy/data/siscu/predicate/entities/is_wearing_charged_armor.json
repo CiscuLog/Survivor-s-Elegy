@@ -6,20 +6,14 @@
             "name": "siscu:entities/is_wearing_copper_armor"
         },
         {
-            "condition":"inverted",
-            "term":{
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                    "slots": {
-                    "armor.*": {
-                        "predicates": {
-                            "custom_data": {"SE_data":{"Charge": 0}}
-                        }
-                    }
-                    }
-                }
-            }
+            "condition": "any_of",
+            "terms": [
+                { "condition":"inverted", "term":{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "slots": { "armor.head": { "predicates": { "custom_data": {"SE_data":{"Charge": 0}} } } } } } },
+                { "condition":"inverted", "term":{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "slots": { "armor.chest": { "predicates": { "custom_data": {"SE_data":{"Charge": 0}} } } } } } },
+                { "condition":"inverted", "term":{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "slots": { "armor.legs": { "predicates": { "custom_data": {"SE_data":{"Charge": 0}} } } } } } },
+                { "condition":"inverted", "term":{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "slots": { "armor.feet": { "predicates": { "custom_data": {"SE_data":{"Charge": 0}} } } } } } }
+
+            ]
         }
     ]
 }

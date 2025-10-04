@@ -10,5 +10,4 @@ execute at @n[type=#siscu:felines] run particle smoke ~ ~ ~ 0.3 0 0.3 0 6
 # Death
 data merge entity @s {Silent:true}
 effect give @s invisibility 1 1 true
-tag @s add siscu.dead
 function siscu:world/kill_dead

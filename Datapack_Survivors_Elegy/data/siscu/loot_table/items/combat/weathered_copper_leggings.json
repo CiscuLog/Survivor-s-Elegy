@@ -15,7 +15,7 @@
                                 "equippable": {
                                     "slot": "legs",
                                     "asset_id": "siscu_se:weathered_copper",
-                                    "equip_sound": "item.armor.equip_gold"
+                                    "equip_sound": "item.armor.equip_copper"
                                 }
                             }
                         },

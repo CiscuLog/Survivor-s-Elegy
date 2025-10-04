@@ -4,9 +4,7 @@
     "predicate": {
         "slots": {
         "armor.feet": {
-            "predicates": {
-                "custom_data": {"SE_data":{"IsCopper": 1}}
-            }
+            "items": "copper_boots"
         }
         }
     }

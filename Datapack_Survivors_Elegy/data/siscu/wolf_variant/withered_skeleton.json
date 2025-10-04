@@ -1,8 +1,8 @@
 {
     "assets": {
-        "angry": "siscu_se:entity/wolf/withered_skeleton",
-        "wild": "siscu_se:entity/wolf/withered_skeleton",
-        "tame": "siscu_se:entity/wolf/withered_skeleton"
+        "angry": "siscu_se:entity/wolf/withered",
+        "wild": "siscu_se:entity/wolf/withered",
+        "tame": "siscu_se:entity/wolf/withered"
     },
     "spawn_conditions": [
         {

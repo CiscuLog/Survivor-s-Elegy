@@ -19,7 +19,7 @@
 	"item.brute_shield.use": {
 		"subtitle": "sound.siscu.piglin_shield",
 		"sounds": [
-			"siscu_se:item/golden_shield/block"
+			"siscu_se:item/golden_shield/block3"
 		]
 	},
 	"item.ancient_shield.gather_vibrations": {

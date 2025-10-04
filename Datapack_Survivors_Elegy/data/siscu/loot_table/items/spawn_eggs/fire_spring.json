@@ -1,0 +1,23 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:blaze_spawn_egg",
+			"functions": [
+			{
+				"function": "minecraft:set_components",
+				"components": {
+					"item_model":"siscu_se:fire_spring",
+					"item_name":{"translate":"item.siscu.spawn_egg_fire_spring"},
+					"entity_data":{"id":"blaze","Tags":["fire_spring"]}
+				}
+			}
+			]
+		}
+		]
+	}
+	]
+}

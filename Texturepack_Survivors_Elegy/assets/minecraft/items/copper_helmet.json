@@ -1,0 +1,107 @@
+{
+	"model": {
+		"type": "composite",
+		"models": [
+			{
+				"type": "range_dispatch",
+				"property": "custom_model_data",
+				"fallback": {"type": "model","model": "siscu_se:item/copper_helmet"},
+				"entries": [
+					{"model": {"type": "model","model": "siscu_se:item/exposed_copper_helmet"},"threshold": 1},
+					{"model": {"type": "model","model": "siscu_se:item/weathered_copper_helmet"},"threshold": 2},
+					{"model": {"type": "model","model": "siscu_se:item/oxidised_copper_helmet"},"threshold": 3}
+				]
+			},
+			{
+                "type": "condition",
+                "property": "has_component",
+                "component": "trim",
+                "on_true": {
+                    "type": "minecraft:select",
+                    "cases": [
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "siscu_se:item/armor/helmet_quartz_trim"
+                            },
+                            "when": ["quartz"]
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "siscu_se:item/armor/helmet_iron_trim"
+                            },
+                            "when": "minecraft:iron"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "siscu_se:item/armor/helmet_netherite_trim"
+                            },
+                            "when": "minecraft:netherite"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "siscu_se:item/armor/helmet_redstone_trim"
+                            },
+                            "when": "minecraft:redstone"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "siscu_se:item/armor/helmet_copper_trim"
+                            },
+                            "when": "minecraft:copper"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "siscu_se:item/armor/helmet_gold_trim"
+                            },
+                            "when": "minecraft:gold"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "siscu_se:item/armor/helmet_emerald_trim"
+                            },
+                            "when": "minecraft:emerald"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "siscu_se:item/armor/helmet_diamond_trim"
+                            },
+                            "when": "minecraft:diamond"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "siscu_se:item/armor/helmet_lapis_trim"
+                            },
+                            "when": "minecraft:lapis"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "siscu_se:item/armor/helmet_amethyst_trim"
+                            },
+                            "when": "minecraft:amethyst"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "siscu_se:item/armor/helmet_resin_trim"
+                            },
+                            "when": "minecraft:resin"
+                        }
+                    ],
+                    "property": "trim_material",
+                    "fallback": {"type": "empty"}
+                },
+                "on_false": {"type": "empty"}
+            }
+		]
+	}
+}

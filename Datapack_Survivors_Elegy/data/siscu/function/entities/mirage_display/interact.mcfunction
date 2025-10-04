@@ -1,4 +1,4 @@
-advancement revoke @s only siscu:entities/mirage_display_interact
+advancement revoke @s only siscu:interactions/mirage_display
 tag @s add siscu.mirage_interacting
 
 execute if items entity @s weapon.* glass_bottle if predicate siscu:entities/is_sneaking run tag @s add siscu.bottle

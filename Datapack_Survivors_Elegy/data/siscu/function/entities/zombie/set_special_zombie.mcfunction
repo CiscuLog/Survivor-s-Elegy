@@ -23,6 +23,7 @@ execute if predicate siscu:locations/check_surface if predicate siscu:utils/1_pe
 execute if predicate siscu:locations/check_surface if predicate siscu:utils/1_percent if score phage_enabled siscu.integer matches 1 run tag @s add siscu.infected_zombie
 execute if predicate siscu:locations/check_infected_city if predicate siscu:utils/20_percent run tag @s add siscu.infected_zombie
 execute as @s[tag=siscu.infected_zombie] run return run tag @s add siscu.unequipped
+execute as @s[tag=siscu.citizen_zombie] run return run tag @s add siscu.unequipped
 ### stray ###
 execute if biome ~ ~ ~ #siscu:stray_biomes if predicate siscu:locations/check_surface if predicate siscu:utils/80_percent unless predicate siscu:locations/check_infected_city run tag @s add siscu.stray_zombie
 execute as @s[tag=siscu.stray_zombie] run return run tag @s add siscu.unequipped

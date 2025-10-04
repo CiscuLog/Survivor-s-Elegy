@@ -2,6 +2,11 @@
   "replace": true,
   "values": [
     "#siscu:rotting_mobs_all",
-    "minecraft:wolf"
+    "cat",
+    "chicken",
+    "cow",
+    "frog",
+    "pig",
+    "wolf"
   ]
 }

@@ -29,8 +29,7 @@ function siscu:items/item_modifier/set_item_name_2_inputs with storage siscu:vol
 ## Armor model
 # Return if it cannot be worn
 $execute unless items entity @s $(Slot) *[minecraft:equippable] run return 0
-# Get and store components."mineccraft:equippable" data so it can be re-added
-$data modify storage siscu:volatile Slot_component set from entity @s $(Slot_raw).components."minecraft:equippable".slot
-$data modify storage siscu:volatile String3 set from entity @s $(Slot_raw).components."minecraft:equippable".equip_sound
+# Update minecraft:equippable component
+function siscu:items/passive_behav/oxidisation/item_slots with storage siscu:volatile
 data merge storage siscu:volatile {String2:"copper"}
-function siscu:items/item_modifier/set_armor_texture with storage siscu:volatile
+function siscu:items/passive_behav/oxidisation/set_copper_armor_texture with storage siscu:volatile

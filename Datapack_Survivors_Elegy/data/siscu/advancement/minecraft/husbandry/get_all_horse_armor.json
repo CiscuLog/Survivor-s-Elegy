@@ -54,11 +54,7 @@
 		"4": {
 			"trigger":"minecraft:inventory_changed",
 			"conditions": {
-				"items": [
-				{
-					"predicates": {"custom_data":{"SE_data":{"id":"siscu:copper_horse_armor"}}}
-				}
-				]
+				"items": [{"items": "copper_horse_armor"}]
 			}
 		},
 		"5": {

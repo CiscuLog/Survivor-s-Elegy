@@ -16,7 +16,4 @@ execute if entity @e[type=marker,tag=siscu.sculk_plantoid] run function siscu:bl
 schedule function siscu:entities/mirage_display/empty_effects 1t
 schedule function siscu:blocks/broth_cauldron/update/check_cauldron_schedule 2t
 
-## Kill stray entities on death row ##
-function siscu:world/kill_dead
-
 schedule function siscu:technical/clocks/tick_15s 15s

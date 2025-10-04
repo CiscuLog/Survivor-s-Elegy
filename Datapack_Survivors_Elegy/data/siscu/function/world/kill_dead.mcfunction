@@ -1,4 +1,7 @@
 
+execute store result score x siscu.volatile run gamerule showDeathMessages
 gamerule showDeathMessages false
-execute as @e[tag=siscu.dead] at @s run function siscu:world/kill_dead_2
-gamerule showDeathMessages true
+data merge entity @s {DeathLootTable:"siscu:entities/empty",DeathTime:-19}
+tp ~ -1024 ~
+kill @s
+execute unless score x siscu.volatile matches 0 run gamerule showDeathMessages true

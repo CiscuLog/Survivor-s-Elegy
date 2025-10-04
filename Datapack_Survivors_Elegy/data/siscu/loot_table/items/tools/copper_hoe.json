@@ -5,33 +5,15 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "iron_hoe",
+                    "name": "copper_hoe",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {"translate":"item.siscu.copper_hoe"},
                                 "item_model": "siscu_se:copper_hoe",
-                                "minecraft:max_damage":150,
-                                "repairable": {
-                                  "items": "copper_ingot"
-                                },
-                                "tool": {
-                                    "damage_per_block": 1,
-                                    "default_mining_speed": 1,
-                                    "rules": [
-                                        {
-                                            "correct_for_drops": true,
-                                            "blocks": "#mineable/hoe",
-                                            "speed": 5
-                                        }
-                                    ]
-                                },
                                 "minecraft:custom_data": {
                                     "SE_data": {
-                                        "id": "siscu:copper_hoe",
-                                      "IsCopper": 1,
-                                      "UpdateVersion": "v1.0.1",
                                       "Charge": 0,
                                       "Oxidation": 0
                                     }

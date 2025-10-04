@@ -1,12 +1,12 @@
-# This function is always called from the entitie's location. Execute at @s is not required
+# This function is always called from the entity's location. Further execute at @s is not required
 
-execute if entity @s[tag=entity_checked] run return run tag @s add siscu.entity_checked
 tag @s add siscu.entity_checked
+execute if entity @s[tag=entity_checked] run return run tag @s remove entity_checked
 
 # Incredible smithed compatibility feature
 execute if entity @s[tag=smithed.entity] run return 0
 
-#Differentiate
+# Differentiate
 execute as @s[type=blaze,tag=!siscu.blaze_checked] run return run function siscu:entities/blaze/randomiser
 execute as @s[type=bogged,tag=!siscu.bogged_checked] run return run function siscu:entities/bogged/randomiser
 execute as @s[type=creeper,tag=!siscu.creeper_checked] run return run function siscu:entities/creeper/randomiser

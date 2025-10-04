@@ -15,7 +15,7 @@
                                 "equippable": {
                                     "slot": "chest",
                                     "asset_id": "siscu_se:oxidised_copper",
-                                    "equip_sound": "item.armor.equip_gold"
+                                    "equip_sound": "item.armor.equip_copper"
                                 }
                             }
                         },

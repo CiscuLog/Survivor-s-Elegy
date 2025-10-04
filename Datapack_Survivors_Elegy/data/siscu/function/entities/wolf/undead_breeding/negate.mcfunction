@@ -6,5 +6,4 @@ loot spawn ~ ~ ~ loot siscu:entities/special_wolf
 data merge entity @s {Silent:true}
 
 # Die
-tag @s add siscu.dead
 function siscu:world/kill_dead
