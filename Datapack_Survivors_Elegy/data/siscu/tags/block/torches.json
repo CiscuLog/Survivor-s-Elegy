@@ -1,0 +1,10 @@
+{
+    "values": [
+        "torch",
+        "wall_torch",
+        "soul_torch",
+        "soul_wall_torch",
+        "copper_torch",
+        "copper_wall_torch"
+    ]
+}

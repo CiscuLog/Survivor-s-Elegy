@@ -1,0 +1,16 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"offsetY": -1,
+			"predicate": {
+				"block": {
+					"blocks": [
+						"redstone_torch","redstone_wall_torch"
+					]
+				}
+			}
+		}
+	]
+}

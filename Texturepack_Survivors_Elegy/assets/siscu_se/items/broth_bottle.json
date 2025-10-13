@@ -1,6 +1,7 @@
 {
 	"model": {
 		"type": "model",
-		"model": "siscu_se:item/broth_bottle"
+		"model": "siscu_se:item/broth_bottle",
+		"tints": [ {"type": "minecraft:dye","default": -5809114} ]
 	}
 }

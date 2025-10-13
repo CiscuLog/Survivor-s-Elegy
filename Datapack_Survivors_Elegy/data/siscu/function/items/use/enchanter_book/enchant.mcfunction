@@ -8,4 +8,4 @@ $item modify entity @s weapon.mainhand {function:set_custom_data,tag:{SE_data:{l
 # announcement (Q.O.L.)
 # This announces the reroll in the actionbar. We use the actionbar because it's discrete and doesn't flood the chat with messages
 title @s reset
-$title @s actionbar [{"translate":"actionbar.siscu.enchantment_reroll","color":"green"},{"translate":"$(String2)","bold":true},{"text":" !!!"}]
+$title @s actionbar [{"translate":"actionbar.siscu.enchantment_reroll","color":"green"},{"translate":"$(String2)","bold":true},{"text":" "},{"text":"$(roman_numeral)","bold":true},{"text":" !!!"}]

@@ -5,6 +5,7 @@
     "minecraft:phantom_membrane",
     "minecraft:milk_bucket",
     "minecraft:water_bucket",
-    "#siscu:broth_scooping"
+    "#siscu:broth_scooping",
+    "wet_sponge"
   ]
 }

@@ -1,1 +1,1 @@
-execute at @s positioned ~ ~1.7 ~ run particle minecraft:flash ^ ^ ^0.3
+execute at @s positioned ~ ~1.7 ~ run particle minecraft:flash{color:16777215} ^ ^ ^0.3

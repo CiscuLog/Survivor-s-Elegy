@@ -1,0 +1,20 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"content": "siscu_se:block/stew_residue_stained"
+	},
+	"elements": [
+		{
+			"from": [2.01, 12.01, 2.01],
+			"to": [13.99, 4.01, 13.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 8, 0]},
+			"faces": {
+				"north": {"uv": [6, 5.5, 0, 1.5], "texture": "#content", "tintindex": 0},
+				"east": {"uv": [12, 5.5, 6, 1.5], "texture": "#content", "tintindex": 0},
+				"south": {"uv": [6.03, 10, 0.03, 6], "texture": "#content", "tintindex": 0},
+				"west": {"uv": [12.03, 10, 6.03, 6], "texture": "#content", "tintindex": 0},
+				"up": {"uv": [0, 10, 6, 16], "texture": "#content", "tintindex": 0}
+			}
+		}
+	]
+}

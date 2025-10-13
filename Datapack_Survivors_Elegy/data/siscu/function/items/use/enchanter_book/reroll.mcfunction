@@ -1,10 +1,11 @@
 # We will have one of the 20 next enchantments on the enchantments list. This ensures the player doesn't get the same enchantment after a reroll
 execute store result score x siscu.volatile run random value 1..20
 execute store result score y siscu.volatile run data get entity @s SelectedItem.components.minecraft:custom_data.SE_data.last_roll
-scoreboard players set z siscu.volatile 58
+execute store result score z siscu.volatile run data get storage siscu:database enchanter_book_list
+scoreboard players remove z siscu.volatile 1
 
-# Get last roll, add 5 so it's not the same enchantment, apply offset, constrain index within the list
-scoreboard players add x siscu.volatile 5
+# Get last roll, add 4 so it's not the same enchantment, apply offset, constrain index within the list
+scoreboard players add x siscu.volatile 4
 scoreboard players operation x siscu.volatile += y siscu.volatile
 scoreboard players operation x siscu.volatile %= z siscu.volatile
 
@@ -16,4 +17,5 @@ function siscu:items/use/enchanter_book/get_enchantment with storage siscu:volat
 function siscu:items/use/enchanter_book/enchantment_list_macro with storage siscu:volatile
 
 # Set data
+function siscu:items/use/enchanter_book/roman_numerals
 function siscu:items/use/enchanter_book/enchant with storage siscu:volatile

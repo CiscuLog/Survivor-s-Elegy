@@ -1,6 +1,28 @@
 
 Compatible Minecraft versions: 1.21.9
 
+Survivor's Elegy 1.0.6 (13/10/2025)
++ Updated to 1.21.10
++ Updated to resourcepack version 5
++ Added advancements: "Cooking Pot", "A Warm Meal", "Witch" and "Scrub Scrub Scrub"
++ Added Broth Cauldrons broken with water still inside will extinguish the block below
++ Added Broth Cauldrons can now hold multiple potion effects. A potion increases the cauldron's water level by 1, and cannot be dilluted on empty cauldrons. The duration of a potion is divided proportionally in every serving taken from the cauldron
++ Added broth cauldrons will become dirty when scooping its contents. It has 3 stages. It's just decorative, and can be cleaned by interacting with the cauldron using a wet sponge when the cauldron is empty
++ Added Broth Cauldrons with potions give off status effect particles
++ Added Cakes can be used in broth cauldrons
++ Added Copper Torches can be used to warm up broth cauldrons as a dim source
++ Added food with inherent status effects can pass those to the Broth Cauldron they're added in. Each item added will increase the duration of the effect existing in that broth. Items that won't transfer their status effects to the broth: pufferfish, raw chicken
++ Added Honey Bottles negate poison in broth cauldrons
++ Added interacting with a broth cauldron without a compatible item will move the ladle around, stirring the broth. Stirring repeatedly will shorten the cooking time
++ Added Milk Buckets can be used to remove all effects from a Broth Cauldron. Milk doesn't increase the water level of the cauldron
++ Added Ominous Bottles can be emptied on broth cauldrons to add the bad omen effect
++ Added Phantom Menbranes can be added to broth cauldrons that contain potions to hide the status effect particles
++ Changed "Greedy Gut" advancement's parent is now "A Warm Meal"
++ Changed Enchanter Guide's enchantment pool. It can now provide a wider range of enchantment levels
++ Changed Enchanter Guides now show the level of the rolled enchantment
++ Fixed Nether Fortress towers were carving big air pockets in the outer walls
++ Improved overall broth cauldron system
+
 Survivor's Elegy 1.0.5 (04/10/2025)
 + Updated to 1.21.9
 + Changed Resourcepack version to 4

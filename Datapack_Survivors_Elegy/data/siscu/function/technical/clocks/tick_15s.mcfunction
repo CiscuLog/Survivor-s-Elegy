@@ -14,6 +14,6 @@ execute if entity @e[type=marker,tag=siscu.sculk_plantoid] run function siscu:bl
 
 ## alpha 0.9.3: mirage displays and Broth Textures ##
 schedule function siscu:entities/mirage_display/empty_effects 1t
-schedule function siscu:blocks/broth_cauldron/update/check_cauldron_schedule 2t
+schedule function siscu:blocks/broth_cauldron/update/check_schedule 1t append
 
 schedule function siscu:technical/clocks/tick_15s 15s

@@ -1,0 +1,2 @@
+
+give @s suspicious_stew[item_model="siscu_se:broth_bowl",item_name={"translate":"item.siscu.$(name)"},food={nutrition:0,saturation:0},consumable={consume_seconds:1},custom_data={"SE_data":{id:"siscu:broth"}}]

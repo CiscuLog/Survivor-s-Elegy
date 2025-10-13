@@ -5,13 +5,13 @@
 execute if data storage siscu:world PackVersion unless data storage siscu:world MajorUpdate run schedule function siscu:technical/load/warning 5s
 
 # Update (siscu:world)
-data merge storage siscu:world {PackVersion:"v1.0.5",MajorUpdate:1}
+data merge storage siscu:world {PackVersion:"v1.0.6",RPVersion:5,MajorUpdate:1}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 execute unless data storage siscu:world day_length run data merge storage siscu:world {day_length:3}
 
 # Database (siscu:database)
-execute unless data storage siscu:database enchanter_book_list run function siscu:items/use/enchanter_book/enchantment_list/list
-execute unless data storage siscu:database enderman_block_pool run function siscu:entities/enderman/list
+function siscu:items/use/enchanter_book/enchantment_list/list
+function siscu:entities/enderman/list
 
 #set gamerules
 gamerule doDaylightCycle false

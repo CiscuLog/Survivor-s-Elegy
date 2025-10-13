@@ -1,0 +1,1 @@
+scoreboard players set @s siscu.broth_temperature 0

@@ -4,7 +4,7 @@ execute if entity @e[type=item_display,tag=boat_flag] run function siscu:entitie
 advancement revoke @a[advancements={siscu:entities/struck_by_lightning_while_wearing_copper_armor=true}] only siscu:entities/struck_by_lightning_while_wearing_copper_armor
 
 ## Broth Temperature ##
-execute if entity @e[type=interaction,tag=siscu.broth_cauldron] run schedule function siscu:blocks/broth_cauldron/temperature/check 1s
+execute if entity @e[type=interaction,tag=siscu.broth_cauldron] run schedule function siscu:blocks/broth_cauldron/temperature/check_schedule 1s
 
 ## Oxidation ##
 # Disabled in update alpha v0.9.0: further testing required

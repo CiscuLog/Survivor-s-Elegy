@@ -16,7 +16,8 @@ execute if predicate siscu:entities/has_wax_armor at @n[tag=siscu.zombified] run
 execute if predicate siscu:entities/has_wax_armor run playsound minecraft:block.honey_block.hit neutral @a ~ ~ ~ 1 0.8
 
 playsound minecraft:entity.zombie_horse.death neutral @a ~ ~ ~ 1 0.8
-effect give @e[tag=siscu.zombified] slowness 3 2 true
+effect give @n[tag=siscu.zombified] slowness 3 2 true
+effect give @n[tag=siscu.zombified] fire_resistance infinite 1 true
 
 execute on passengers run ride @s dismount
 ride @s dismount

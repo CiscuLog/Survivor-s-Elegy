@@ -1,0 +1,27 @@
+{
+	"parent": "siscu:minecraft/husbandry/broth_cauldron",
+	"display":{
+			"icon": {
+					"id": "minecraft:suspicious_stew",
+					"components": {"item_model":"siscu_se:broth_bowl"}
+			},
+			"title": {"translate": "advancements.siscu.minecraft.broth_scoop.title"},
+			"description": [{
+				"translate": "advancements.siscu.minecraft.broth_scoop.description"
+				},
+				{
+					"text":"\nSurvivor's Elegy",
+					"color": "gold",
+					"italic": true
+				}
+		],
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+    "criteria": {
+        "1":{
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

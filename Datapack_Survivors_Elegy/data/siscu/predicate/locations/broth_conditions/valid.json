@@ -12,6 +12,10 @@
 		{
 			"condition": "minecraft:reference",
 			"name": "siscu:locations/broth_conditions/hot_source"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "siscu:locations/broth_conditions/dumb_source"
 		}
 	]
 }

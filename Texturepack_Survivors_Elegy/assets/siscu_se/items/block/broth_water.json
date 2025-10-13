@@ -1,9 +1,50 @@
 {
 	"model": {
-		"type": "model",
-		"model": "siscu_se:item/block/broth_water",
-		"tints": [
-			{"type": "minecraft:dye","default": -6265536}
+		"type": "composite",
+		"models": [
+		{
+			"type": "condition",
+			"property": "custom_model_data",
+			"on_true": {
+				"type": "range_dispatch",
+				"property": "custom_model_data",
+				"entries": [
+				{
+					"model": { "type": "model", "model": "siscu_se:item/block/broth_cauldron_level1", "tints": [ {"type": "minecraft:dye","default": -6265536} ] },
+					"threshold": 1
+				},
+				{
+					"model": { "type": "model", "model": "siscu_se:item/block/broth_cauldron_level2", "tints": [ {"type": "minecraft:dye","default": -6265536} ] },
+					"threshold": 2
+				},
+				{
+					"model": { "type": "model", "model": "siscu_se:item/block/broth_cauldron_full", "tints": [ {"type": "minecraft:dye","default": -6265536} ] },
+					"threshold": 3
+				}
+				],
+				"fallback": {"type": "empty"}
+			},
+			"on_false": {"type": "empty"}
+		},		
+		{
+			"type": "select",
+			"property": "custom_model_data",
+			"cases": [
+				{
+					"when": "stained",
+					"model": {"type": "model","model": "siscu_se:item/block/broth_cauldron_stained", "tints": [ {"type": "constant","value": 10968102} ]}
+				},
+				{
+					"when": "dirty",
+					"model": {"type": "model","model": "siscu_se:item/block/broth_cauldron_dirty", "tints": [ {"type": "constant","value": 10968102} ]}
+				},
+				{
+					"when": "filthy",
+					"model": {"type": "model","model": "siscu_se:item/block/broth_cauldron_filthy", "tints": [ {"type": "constant","value": 10968102} ]}
+				}
+			],
+			"fallback": {"type": "empty"}
+		}
 		]
 	}
 }

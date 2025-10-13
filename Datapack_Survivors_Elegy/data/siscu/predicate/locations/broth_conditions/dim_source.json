@@ -12,7 +12,8 @@
 					"condition": "minecraft:location_check",
 					"offsetY": 1,
 					"predicate": {
-						"can_see_sky": true
+						"can_see_sky": true,
+						"light": {"light": {"min": 14}}
 					}
 				}
 			]
@@ -27,7 +28,7 @@
 			"predicate": {
 				"block": {
 					"blocks": [
-						"minecraft:torch"
+						"torch","copper_torch","wall_torch","copper_wall_torch"
 					]
 				}
 			}

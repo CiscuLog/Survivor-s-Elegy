@@ -1,5 +1,5 @@
 
-execute if entity @s[type=#siscu:phage_zombifiable_special] unless predicate siscu:entities/is_zombie_wolf run return 0
+execute if entity @s[type=#siscu:phage_zombifiable_special] unless predicate siscu:entities/is_zombie_variant run return 0
 
 tag @s add siscu.rot_checked
 

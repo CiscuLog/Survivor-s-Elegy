@@ -1,0 +1,15 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "content": "siscu_se:block/water_still"
+    },
+    "elements": [
+        {
+            "from": [ 2, 4, 2 ],
+            "to": [ 14, 15.1, 14 ],
+            "faces": {
+                "up": { "texture": "#content", "tintindex": 0 }
+            }
+        }
+    ]
+}

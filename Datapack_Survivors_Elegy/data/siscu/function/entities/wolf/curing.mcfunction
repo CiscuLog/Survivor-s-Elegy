@@ -9,7 +9,7 @@ scoreboard players reset @s siscu.rotting_mob
 data modify storage siscu:volatile UUID set from entity @s UUID
 function siscu:entities/wolf/macro/get_variant with storage siscu:volatile
 function siscu:entities/wolf/macro/remove_from_list with storage siscu:volatile
-execute if predicate siscu:entities/is_zombie_wolf run data merge entity @s {variant:"pale"}
+execute if predicate siscu:entities/is_zombie_variant run data merge entity @s {variant:"pale"}
 
 # effects
 playsound entity.zombie_villager.cure neutral @a ~ ~ ~

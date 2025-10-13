@@ -1,6 +1,7 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "siscu_se:item/broth_bucket"
+		"layer0": "siscu_se:item/broth/bucket_broth",
+		"layer1": "siscu_se:item/broth/bucket"
 	}
 }
