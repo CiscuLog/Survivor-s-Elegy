@@ -1,6 +1,6 @@
 
 # stall undead wolf growth
-execute as @e[type=#siscu:withering_convertible_variants] run function siscu:entities/generic/stall_growth
+execute as @e[type=#siscu:withering_convertible_variants,predicate=siscu:entities/wolf_undead] run function siscu:entities/generic/stall_growth
 
 # Give fire protection to withered entities
 execute as @e[type=#siscu:withering_convertible_variants,tag=withering_invulnerable] run effect give @s fire_resistance infinite 1 true

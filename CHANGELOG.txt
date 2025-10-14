@@ -1,6 +1,9 @@
 
 Compatible Minecraft versions: 1.21.9
 
+Survivor's Elegy v1.0.7 (14/10/2025)
++ Fixed passive mobs couldn't breed nor grow up
+
 Survivor's Elegy 1.0.6 (13/10/2025)
 + Updated to 1.21.10
 + Updated to resourcepack version 5
