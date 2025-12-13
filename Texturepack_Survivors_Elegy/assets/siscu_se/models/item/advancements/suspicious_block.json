@@ -2,7 +2,8 @@
 	"textures": {
 		"0": "block/gravel",
 		"1": "block/item_frame",
-		"2": "block/birch_planks"
+		"2": "block/birch_planks",
+		"particle": "#0"
 	},
 	"ambientocclusion": false,
 	"elements": [

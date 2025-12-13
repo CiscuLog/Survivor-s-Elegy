@@ -12,5 +12,5 @@ execute unless predicate siscu:entities/skeleton_is_riding run loot replace enti
 execute if predicate siscu:utils/10_percent run loot replace entity @s weapon.offhand loot siscu:entities/skeleton/skeleton_shields
 
 ## Baby Skeletons
-execute if predicate siscu:utils/5_percent run tag @s add baby
-execute if entity @s[tag=baby] run function siscu:entities/bogged/baby_bogged
+execute if predicate siscu:utils/5_percent run tag @s add siscu.baby
+execute if entity @s[tag=siscu.baby] run function siscu:entities/bogged/baby_bogged

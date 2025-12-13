@@ -1,1 +1,1 @@
-gamerule doDaylightCycle false
+gamerule advance_time false

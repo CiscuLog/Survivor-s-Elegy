@@ -3,7 +3,7 @@
 		"0": "siscu_se:block/fire_spring_cracks",
 		"1": "block/magma",
 		"2": "block/netherrack",
-		"particle": "siscu_se:block/netherrack"
+		"particle": "#2"
 	},
 	"elements": [
 		{

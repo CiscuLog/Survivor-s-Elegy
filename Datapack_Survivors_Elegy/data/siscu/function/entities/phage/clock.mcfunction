@@ -21,6 +21,8 @@ execute if score @s[type=player,tag=!siscu.zombie] siscu.zombifying matches 0.. 
 execute if score @s siscu.zombifying matches 1.. run function siscu:entities/phage/clear_zombifying
 execute if score @s[type=hoglin] siscu.zombifying matches 0.. run return run function siscu:entities/phage/zombify/hoglin with entity @s
 execute if score @s[type=horse] siscu.zombifying matches 0.. run return run function siscu:entities/phage/zombify/horse with entity @s
+execute if score @s[type=camel] siscu.zombifying matches 0.. run return run function siscu:entities/phage/zombify/camel with entity @s
+execute if score @s[type=nautilus] siscu.zombifying matches 0.. run return run function siscu:entities/phage/zombify/nautilus with entity @s
 execute if score @s[type=#siscu:piglin] siscu.zombifying matches 0.. run return run function siscu:entities/phage/zombify/piglin with entity @s
 execute if score @s[type=#siscu:illager] siscu.zombifying matches 0.. run return run function siscu:entities/phage/zombify/illager_split with entity @s
 execute if score @s[type=rabbit] siscu.zombifying matches 0.. run return run data merge entity @s {RabbitType:99}

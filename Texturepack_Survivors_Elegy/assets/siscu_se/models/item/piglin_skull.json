@@ -1,7 +1,8 @@
 {
 	"textures": {
 		"0": "siscu_se:item/piglin_skull",
-		"1": "siscu_se:item/blank"
+		"1": "siscu_se:item/blank",
+		"particle": "#0"
 	},
 	"elements": [
 		{

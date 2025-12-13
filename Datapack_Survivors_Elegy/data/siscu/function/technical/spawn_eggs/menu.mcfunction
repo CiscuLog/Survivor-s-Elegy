@@ -19,8 +19,6 @@ tellraw @s [{"font":"siscu_se:icons","text":"\u0101","click_event":{"action":"ru
 \
 {"text":"\u0202","click_event":{"action":"run_command","command":"/loot give @s loot siscu:items/spawn_eggs/piglin_skeleton"},"hover_event":{"action":"show_text","value":{"translate":"item.siscu.spawn_egg_piglin_skeleton"}}},\
 \
-{"text":"\u0203","click_event":{"action":"run_command","command":"/loot give @s loot siscu:items/spawn_eggs/husk_skeleton"},"hover_event":{"action":"show_text","value":{"text":"Husk Skeleton"}}},\
-\
 {"text":"\u0301","click_event":{"action":"run_command","command":"/loot give @s loot siscu:items/spawn_eggs/villager_wither_skeleton"},"hover_event":{"action":"show_text","value":{"translate":"item.siscu.spawn_egg_villager_wither_skeleton"}}},\
 \
 {"text":"\u0302","click_event":{"action":"run_command","command":"/loot give @s loot siscu:items/spawn_eggs/piglin_wither_skeleton"},"hover_event":{"action":"show_text","value":{"translate":"item.siscu.spawn_egg_piglin_wither_skeleton"}}},\

@@ -1,19 +1,21 @@
 {
   "values": [
     "#siscu:phage_zombifiable_special",
-    "minecraft:allay",
-    "minecraft:evoker",
-    "minecraft:hoglin",
-    "minecraft:horse",
-    "minecraft:piglin_brute",
-    "minecraft:piglin",
-    "minecraft:pillager",
-    "minecraft:player",
-    "minecraft:rabbit",
-    "minecraft:villager",
-    "minecraft:vindicator",
-    "minecraft:wandering_trader",
-    "minecraft:witch",
-    "minecraft:wolf"
+    "allay",
+    "camel",
+    "evoker",
+    "hoglin",
+    "horse",
+    "nautilus",
+    "piglin_brute",
+    "piglin",
+    "pillager",
+    "player",
+    "rabbit",
+    "villager",
+    "vindicator",
+    "wandering_trader",
+    "witch",
+    "wolf"
   ]
 }

@@ -1,7 +1,7 @@
 {	
 
 	"pack.siscu": "Survivor's Elegy",
-	"pack.siscu.version": "5",
+	"pack.siscu.version": "6",
 	
 	"advancements.siscu.description_1": "A song to the memories that have been lost",
 	"advancements.siscu.description_2": "By Siscu",
@@ -44,7 +44,7 @@
 	"advancements.siscu.minecraft.ride_mob_fancily.title":"Polar Opposites",
 	"advancements.siscu.minecraft.ride_mob_fancily.description":"Ride a Strider equipped with an Enchanted Saddle and freeze the waters using Frost Walker",
 	"advancements.siscu.minecraft.shocking_encounter.title":"Shocking Encounter",
-	"advancements.siscu.minecraft.shocking_encounter.description":"Get hurt by an entity while wearing charged Copper Armor",
+	"advancements.siscu.minecraft.shocking_encounter.description":"Get hurt by an undead while wearing charged Copper Armor",
 	"advancements.siscu.minecraft.sneak_in_tall_grass.title":"Hidden in Plain Sight",
 	"advancements.siscu.minecraft.sneak_in_tall_grass.description":"Sneak inside Tall Grass armorless and become part of the environment",
 	"advancements.siscu.minecraft.stray_clothes.title":"It's cold out here",
@@ -215,6 +215,7 @@
 	"item.siscu.exposed_copper_sword": "Exposed Copper Sword",
 	"item.siscu.fish": "Fish",
 	"item.siscu.frog": "Frog Leg",
+	"item.siscu.frog_leg": "Frog Leg",
 	"item.siscu.fried_egg": "Fried Egg",
 	"item.siscu.gilded_scroll": "Gilded Scroll",
 	"item.siscu.gilded_texts": "Gileded Texts",

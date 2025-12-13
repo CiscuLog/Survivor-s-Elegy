@@ -1,7 +1,8 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "content": "siscu_se:block/water_still"
+        "content": "siscu_se:block/water_still",
+		"particle": "#content"
     },
     "elements": [
         {

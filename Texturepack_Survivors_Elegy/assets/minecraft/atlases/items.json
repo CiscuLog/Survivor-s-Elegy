@@ -5,9 +5,12 @@
             "resource": "entity/copper_trident"
         },
         {
-            "type": "directory",
-            "source": "mob_effect",
-            "prefix": "mob_effect/"
+            "type": "single",
+            "resource": "mob_effect/poison"
+        },
+        {
+            "type": "single",
+            "resource": "mob_effect/phage"
         },
         {
             "type": "single",

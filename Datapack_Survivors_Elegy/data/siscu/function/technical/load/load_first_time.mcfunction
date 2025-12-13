@@ -5,7 +5,7 @@
 execute if data storage siscu:world PackVersion unless data storage siscu:world MajorUpdate run schedule function siscu:technical/load/warning 5s
 
 # Update (siscu:world)
-data merge storage siscu:world {PackVersion:"v1.0.7",RPVersion:5,MajorUpdate:1}
+data merge storage siscu:world {PackVersion:"v1.0.8",RPVersion:6,MajorUpdate:1}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 execute unless data storage siscu:world day_length run data merge storage siscu:world {day_length:3}
 
@@ -14,7 +14,7 @@ function siscu:items/use/enchanter_book/enchantment_list/list
 function siscu:entities/enderman/list
 
 #set gamerules
-gamerule doDaylightCycle false
+gamerule advance_time false
 
 #create scoreboards
 scoreboard objectives add siscu.broth_data dummy {"text":"Broth Data","color":"gold"}
@@ -24,7 +24,6 @@ scoreboard objectives add siscu.day dummy {"text":"Day","color":"aqua"}
 scoreboard objectives add siscu.death deathCount {"text":"Single_dead","color":"gold"}
 scoreboard objectives add siscu.debug_panel dummy {"text":"Info","color":"gold"}
 scoreboard objectives add siscu.dimension dummy {"text":"Dimension","color":"dark_green"}
-scoreboard objectives add siscu.elytra_durability dummy {"text":"Elytra Durability","color":"light_purple"}
 scoreboard objectives add siscu.enchantment_reroll dummy {"text":"Enchantment Reroll Data","color":"dark_purple"}
 scoreboard objectives add siscu.grass_stealth dummy {"text":"Grass Stealth","color":"green"}
 scoreboard objectives add siscu.integer dummy {"text":"Int","color":"gold"}

@@ -12,7 +12,7 @@
 				"components": {
 					"item_model":"siscu_se:piglin_wither_skeleton",
 					"item_name":{"translate":"item.siscu.spawn_egg_piglin_wither_skeleton"},
-					"entity_data":{"id":"wither_skeleton","Tags":["piglin"]}
+					"entity_data":{"id":"wither_skeleton","Tags":["siscu.piglin"]}
 				}
 			}
 			]

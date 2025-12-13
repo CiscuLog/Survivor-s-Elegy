@@ -1,7 +1,8 @@
 {
 	"ambientocclusion": false,
 	"textures": {
-		"content": "siscu_se:block/stew_residue_filthy"
+		"content": "siscu_se:block/stew_residue_filthy",
+		"particle": "#content"
 	},
 	"elements": [
 		{

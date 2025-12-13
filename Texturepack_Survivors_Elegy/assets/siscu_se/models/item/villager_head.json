@@ -1,6 +1,7 @@
 {
 	"textures": {
-		"0": "entity/villager/villager"
+		"0": "entity/villager/villager",
+		"particle": "#0"
 	},
 	"elements": [
 		{

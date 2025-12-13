@@ -2,8 +2,7 @@
 	"parent": "siscu:minecraft/husbandry/ride_mob_fancily",
 	"display":{
 			"icon": {
-					"id": "minecraft:leather_horse_armor",
-					"components": {"item_model":"siscu_se:netherite_horse_armor"}
+					"id": "netherite_horse_armor"
 			},
 			"title": {"translate": "advancements.siscu.minecraft.all_horse_armor.title"},
 			"description": [{
@@ -35,9 +34,7 @@
 			"trigger":"minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{
-					"predicates": {"custom_data":{"SE_data":{"id":"siscu:netherite_horse_armor"}}}
-				}
+					{"items": ["netherite_horse_armor"]}
 				]
 			}
 		},

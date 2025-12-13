@@ -12,7 +12,7 @@
 				"components": {
 					"item_model":"siscu_se:villager_skeleton",
 					"item_name":{"translate":"item.siscu.spawn_egg_villager_skeleton"},
-					"entity_data":{"id":"skeleton","Tags":["villager"]}
+					"entity_data":{"id":"skeleton","Tags":["siscu.villager"]}
 				}
 			}
 			]

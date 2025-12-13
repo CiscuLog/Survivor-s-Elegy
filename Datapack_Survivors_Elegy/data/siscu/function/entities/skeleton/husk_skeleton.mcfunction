@@ -1,7 +1,7 @@
 
 tag @s add siscu.husk_skeleton
 
-item replace entity @s[tag=!baby] armor.head with bone[item_model="siscu_se:blank"]
+item replace entity @s[tag=!siscu.baby] armor.head with bone[item_model="siscu_se:blank"]
 loot replace entity @s armor.chest loot siscu:items/combat/husk_chestplate
 attribute @s minecraft:scale base set 1.06
 

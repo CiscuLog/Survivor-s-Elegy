@@ -1,6 +1,12 @@
 
 # Tag the entity as checked
 tag @s add siscu.zombie_checked
+
+scoreboard players set x siscu.volatile 0
+execute on vehicle if entity @s[type=zombie_horse] run scoreboard players set x siscu.volatile 1
+execute if score x siscu.volatile matches 1 run tag @s add siscu.special
+execute if score x siscu.volatile matches 1 run tag @s add siscu.faux_special
+
 execute as @s[tag=!siscu.special] run function siscu:entities/zombie/set_special_zombie
 
 ## Set weapons
@@ -22,3 +28,6 @@ execute if predicate siscu:entities/is_holding_axe run data merge entity @s[tag=
 execute if predicate siscu:locations/citadel_sewers if predicate siscu:utils/20_percent run effect give @s infested 240 0
 # Stronghold Sewer Zombies (5%) Infested I, 04:00
 execute if predicate siscu:locations/check_stronghold if predicate siscu:utils/5_percent run effect give @s infested 240 0
+
+execute if entity @s[tag=siscu.faux_special] run tag @s remove siscu.special
+tag @s remove siscu.faux_special

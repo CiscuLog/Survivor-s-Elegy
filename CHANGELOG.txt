@@ -1,5 +1,21 @@
 
-Compatible Minecraft versions: 1.21.9
+Compatible Minecraft versions: 1.21.11
+
+Survivor's Elegy 1.0.8 (13/12/2025)
++ Updated to 1.21.11
++ Changed ResourcePack version to 6
++ Added Camels and Nautilus can be zombified
++ Added Husks will now rot into Parched
++ Added zombified Nautilus will turn into the coral variant if it converts while in a warm biome
++ Changed Nautilus Copper Armor to fit the datapack's copper theme
++ Changed "Shocking Encounter" advancement has been limited to attacks from undead mobs
++ Changed "⚠ Missing Resource Pack! ⚠" message is now displayed on chat instead of as a title
++ Fixed Frog Legs weren't displaying their names correctly
++ Fixed Ravagers advancement had a missing item texture
++ Fixed Witches were despawning in Witch Huts
++ Updated Netherite Horse Armor to vanilla. An old item can be updated with the command /trigger siscu.update_item
+- Removed SE's Netherite Horse Armor
+- Removed Husk Skeletons
 
 Survivor's Elegy v1.0.7 (14/10/2025)
 + Fixed passive mobs couldn't breed nor grow up

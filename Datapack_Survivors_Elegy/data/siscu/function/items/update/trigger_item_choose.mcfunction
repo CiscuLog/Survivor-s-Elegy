@@ -1,4 +1,7 @@
 
+# Netherite Horse Armor
+execute if items entity @s weapon.mainhand *[custom_data~{SE_data:{id:"siscu:netherite_horse_armor"}}] run return run item replace entity @s weapon.mainhand with netherite_horse_armor
+
 # Jigsaw
 execute if items entity @s weapon.mainhand jigsaw run return run function siscu:items/update/trigger_loot_table_macro {"loot_table":"siscu:items/ingredients/enchanter_book"}
 # Leather Armor pieces

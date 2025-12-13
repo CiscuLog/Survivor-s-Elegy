@@ -2,7 +2,7 @@
 	"textures": {
 		"0": "siscu_se:item/head_amethyst_front",
 		"1": "siscu_se:item/head_amethyst_side",
-		"2": "block/amethyst_block",
+		"2": "siscu_se:item/blank",
 		"particle": "siscu_se:item/head_amethyst_side"
 	},
 	"elements": [

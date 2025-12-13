@@ -7,6 +7,6 @@ execute if score sleep_module_on siscu.day matches 0 run tellraw @s [{"text":"Sk
 
 execute if score sleep_module_on siscu.day matches 1 run tellraw @s [{"text":"Skipping the night by sleeping is now: ","bold":false,"color":"white"},{"text":" [ON]","bold":true,"color":"green","click_event":{"action":"run_command","command":"/function siscu:world/day_features/config/disable_sleep"},"hover_event":{"action":"show_text","value":{"text":"Click to change"}}}]
 
-execute store result score player_sleeping_percentage siscu.day run gamerule playersSleepingPercentage
+execute store result score player_sleeping_percentage siscu.day run gamerule players_sleeping_percentage
 
-tellraw @s [{"text":"The required percentage of players to sleep in order to pass the night is "},{"score":{"name":"player_sleeping_percentage","objective":"siscu.day"},"click_event":{"action":"suggest_command","command":"/gamerule playersSleepingPercentage "},"color":"gold","hover_event":{"action":"show_text","value":"Click to edit"}},{"text":"%\n"}]
+tellraw @s [{"text":"The required percentage of players to sleep in order to pass the night is "},{"score":{"name":"player_sleeping_percentage","objective":"siscu.day"},"click_event":{"action":"suggest_command","command":"/gamerule players_sleeping_percentage "},"color":"gold","hover_event":{"action":"show_text","value":"Click to edit"}},{"text":"%\n"}]

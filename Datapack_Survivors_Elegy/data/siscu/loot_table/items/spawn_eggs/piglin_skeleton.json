@@ -12,7 +12,7 @@
 				"components": {
 					"item_model":"siscu_se:piglin_skeleton",
 					"item_name":{"translate":"item.siscu.spawn_egg_piglin_skeleton"},
-					"entity_data":{"id":"skeleton","Tags":["piglin"]}
+					"entity_data":{"id":"skeleton","Tags":["siscu.piglin"]}
 				}
 			}
 			]

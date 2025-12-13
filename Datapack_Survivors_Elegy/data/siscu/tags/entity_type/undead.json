@@ -2,14 +2,11 @@
   "replace": false,
   "values": [
     "minecraft:bogged",
-    "minecraft:drowned",
-    "minecraft:husk",
     "minecraft:skeleton_horse",
     "minecraft:skeleton",
     "minecraft:stray",
+    "minecraft:parched",
     "minecraft:wither_skeleton",
-    "minecraft:zombie_horse",
-    "minecraft:zombie_villager",
-    "minecraft:zombie"
+    "#zombies"
   ]
 }
