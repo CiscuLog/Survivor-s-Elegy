@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "0": {
+            "trigger": "effects_changed",
+            "conditions": {
+                "effects": {"invisibility": {"visible": true}}
+            }
+        }
+    },
+    "rewards": {"function": "siscu:entities/player/grass_stealth/visible_invis_to_stealth"}
+}

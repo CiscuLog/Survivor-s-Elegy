@@ -1,6 +1,6 @@
 
 ## Ambient Effects ##
-execute as @e[type=#siscu:fire_spring,tag=fire_spring] at @s run function siscu:blocks/fire_spring/fire_spring_effects
+execute as @e[type=#siscu:fire_spring,tag=siscu.fire_spring] at @s run function siscu:blocks/fire_spring/fire_spring_effects
 
 ## Rotting ##
 execute as @e[type=#siscu:rotting_mobs_any,tag=!siscu.rotting_protected,tag=siscu.rot_checked] if predicate siscu:utils/50_percent run function siscu:entities/rotting_mobs/rot

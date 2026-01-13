@@ -86,5 +86,8 @@ data merge storage siscu:database {enchanter_book_list:[\
 {String:"thorns",String2:"enchantment.minecraft.thorns",lvl:2},\
 {String:"unbreaking",String2:"enchantment.minecraft.unbreaking",lvl:1},\
 {String:"unbreaking",String2:"enchantment.minecraft.unbreaking",lvl:2},\
-{String:"unbreaking",String2:"enchantment.minecraft.unbreaking",lvl:3}\
+{String:"unbreaking",String2:"enchantment.minecraft.unbreaking",lvl:3},\
+{String:"lunge",String2:"enchantment.minecraft.lunge",lvl:1},\
+{String:"lunge",String2:"enchantment.minecraft.lunge",lvl:2},\
+{String:"lunge",String2:"enchantment.minecraft.lunge",lvl:3}\
 ]}

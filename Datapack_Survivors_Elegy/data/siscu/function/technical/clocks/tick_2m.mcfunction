@@ -8,4 +8,7 @@ execute as @e[type=#siscu:withering_convertible_variants,tag=withering_invulnera
 # Resume tofu boost decrease
 execute if entity @a[scores={siscu.tofu_boost_1=1..}] run schedule function siscu:items/consume/ancient_tofu/decrease_boost 1s
 
+# Update old fire springs to Smithed conventions
+execute as @e[type=#siscu:fire_spring,tag=fire_spring] run function siscu:blocks/fire_spring/update_old
+
 schedule function siscu:technical/clocks/tick_2m 120s

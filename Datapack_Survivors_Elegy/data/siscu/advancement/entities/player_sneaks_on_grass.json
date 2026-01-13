@@ -7,20 +7,12 @@
 			{
 			  "condition": "minecraft:location_check",
 			  "offsetY": 1,
-			  "predicate": {
-				"block": {
-				  "blocks": "#siscu:grass_stealth_valid"
-				}
-			  }
+			  "predicate": { "block": { "blocks": "#siscu:grass_stealth_valid" } }
 			},
 			{
 			  "condition": "minecraft:entity_properties",
 			  "entity": "this",
-			  "predicate": {
-				"flags": {
-				  "is_sneaking": true
-				}
-			  }
+			  "predicate": { "flags": { "is_sneaking": true } }
 			}
 		  ]
 		}

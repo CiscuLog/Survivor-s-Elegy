@@ -1,0 +1,75 @@
+{
+	"criteria": {
+		"0": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true
+				},
+				"player": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"equipment": {
+										"mainhand": {
+											"items": [
+												"shield"
+											],
+											"components": {
+												"minecraft:item_model": "siscu_se:brute_shield"
+											}
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:all_of",
+								"terms": [
+									{
+										"condition": "minecraft:inverted",
+										"term": {
+											"condition": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"equipment": {
+													"mainhand": {
+														"items": [
+															"shield"
+														]
+													}
+												}
+											}
+										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"equipment": {
+												"offhand": {
+													"items": [
+														"shield"
+													],
+													"components": {
+														"minecraft:item_model": "siscu_se:brute_shield"
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/use/brute_shield/block"
+	}
+}

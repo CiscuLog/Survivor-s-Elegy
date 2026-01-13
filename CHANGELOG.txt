@@ -1,6 +1,14 @@
 
 Compatible Minecraft versions: 1.21.11
 
+Survivor's Elegy 1.0.9 (13/01/2026)
++ Updated to resourcepack version to 7
++ Added Lunge to the Enchanter's Guide pool
++ Fixed Fire Springs were not following Smithed conventions
++ Fixed Golden Shield sounds
++ Fixed Nether biomes had no fog or particles
++ Renamed "I'll use that" advancement to "Ricochet"
+
 Survivor's Elegy 1.0.8 (13/12/2025)
 + Updated to 1.21.11
 + Changed ResourcePack version to 6

@@ -14,4 +14,4 @@ execute if score @s siscu.fire_spring >= fire_spring_limit siscu.integer run fun
 
 execute unless block ~ ~-1 ~ #siscu:fire_spring_blocks run function siscu:blocks/fire_spring/fire_spring_explode
 
-execute if entity @s[tag=fire_spring] run schedule function siscu:blocks/fire_spring/fire_spring_effects_schedule 4t
+execute if entity @s[tag=siscu.fire_spring] run schedule function siscu:blocks/fire_spring/fire_spring_effects_schedule 4t

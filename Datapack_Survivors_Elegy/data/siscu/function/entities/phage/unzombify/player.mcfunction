@@ -1,5 +1,9 @@
 
-execute if entity @s[tag=!siscu.zombifying] run return run advancement revoke @s only siscu:entities/cure_player
+# Only trigger if zombified
+scoreboard players set x siscu.volatile 0
+execute if entity @s[tag=siscu.zombifying] run scoreboard players add x siscu.volatile 1
+execute if entity @s[tag=siscu.zombie] run scoreboard players add x siscu.volatile 1
+execute if score x siscu.volatile matches 0 run return run advancement revoke @s only siscu:entities/cure_player
 
 function siscu:entities/phage/unzombify/player_cure_text
 

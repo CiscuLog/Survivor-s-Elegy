@@ -1,38 +1,39 @@
 {
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "additions": {
+        "sound": "minecraft:ambient.nether_wastes.additions",
+        "tick_chance": 0.0111
+      },
+      "loop": "minecraft:ambient.nether_wastes.loop",
+      "mood": {
+        "block_search_extent": 8,
+        "offset": 2.0,
+        "sound": "minecraft:ambient.basalt_deltas.mood",
+        "tick_delay": 6000
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "minecraft:music.nether.nether_wastes"
+      }
+    },
+    "minecraft:visual/fog_color": 11485484,
+    "minecraft:visual/sky_color": 10180142,
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:flame"
+          },
+        "probability": 0.0005
+      }
+    ]
+  },
   "carvers": "minecraft:nether_cave",
   "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.basalt_deltas.mood",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2.0
-    },
-    "additions_sound": {
-      "sound": "minecraft:ambient.nether_wastes.additions",
-      "tick_chance": 0.0111
-    },
-    "music": [
-      {
-        "data": {
-          "max_delay": 12000,
-          "min_delay": 24000,
-          "replace_current_music": false,
-          "sound": "music.nether.nether_wastes"
-        },
-        "weight": 1
-      }
-    ],
-    "particle": {
-      "options": {
-        "type": "minecraft:flame"
-      },
-      "probability": 0.0005
-    },
-    "ambient_sound": "minecraft:ambient.nether_wastes.loop",
-    "sky_color": 10180142,
-    "fog_color": 11485484,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_color": 4159204
   },
   "features": [
     [],
