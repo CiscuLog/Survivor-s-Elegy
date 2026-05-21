@@ -1,10 +1,11 @@
 {
+	"parent": "siscu:interactions/root",
 	"criteria": {
 		"0": {
 			"trigger":"minecraft:player_interacted_with_entity",
 			"conditions": {
 				"entity":{
-					"type": "minecraft:interaction",
+					"entity_type": "minecraft:interaction",
 					"nbt": "{Tags:[\"siscu.broth_cauldron\"]}"
 				}
 			}

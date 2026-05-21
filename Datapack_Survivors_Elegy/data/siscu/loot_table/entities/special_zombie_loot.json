@@ -11,7 +11,7 @@
 			"conditions": [{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
-				"predicate": {"type": "minecraft:zombie"}
+				"predicate": {"entity_type": "minecraft:zombie"}
 			}]
 		},
 		{
@@ -20,7 +20,7 @@
 			"conditions": [{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
-				"predicate": {"type": "minecraft:drowned"}
+				"predicate": {"entity_type": "minecraft:drowned"}
 			}]
 		},
 		{
@@ -29,7 +29,7 @@
 			"conditions": [{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
-				"predicate": {"type": "minecraft:husk"}
+				"predicate": {"entity_type": "minecraft:husk"}
 			}]
 		},
 		{
@@ -38,7 +38,7 @@
 			"conditions": [{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
-				"predicate": {"type": "minecraft:skeleton"}
+				"predicate": {"entity_type": "minecraft:skeleton"}
 			}]
 		},
 		{
@@ -47,7 +47,7 @@
 			"conditions": [{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
-				"predicate": {"type": "minecraft:wither_skeleton"}
+				"predicate": {"entity_type": "minecraft:wither_skeleton"}
 			}]
 		},
 		{
@@ -56,7 +56,7 @@
 			"conditions": [{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
-				"predicate": {"type": "minecraft:stray"}
+				"predicate": {"entity_type": "minecraft:stray"}
 			}]
 		},
 		{
@@ -65,7 +65,7 @@
 			"conditions": [{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
-				"predicate": {"type": "minecraft:bogged"}
+				"predicate": {"entity_type": "minecraft:bogged"}
 			}]
 		}
 		]
@@ -183,9 +183,7 @@
 			"term": {
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
-				"predicate": {
-					"type": "minecraft:stray"
-				}
+				"predicate": { "entity_type": "minecraft:stray" }
 			}
 		}
 		]
@@ -219,9 +217,7 @@
 			"term": {
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
-				"predicate": {
-					"type": "minecraft:stray"
-				}
+				"predicate": { "entity_type": "minecraft:stray" }
 			}
 		}
 		]

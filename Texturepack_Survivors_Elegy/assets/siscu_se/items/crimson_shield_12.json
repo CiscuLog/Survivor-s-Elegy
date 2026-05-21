@@ -3,11 +3,11 @@
 		"type": "condition",
 		"property": "using_item",
 		"on_false": {
-			"type": "model","model": "siscu_se:item/crimson_shield_12"
+			"type": "model","model": "siscu_se:item/piglin/shields/crimson_shield_12"
 		},
 		"on_true": {
 			"type": "model",
-			"model": "siscu_se:item/crimson_shield_12_blocking"
+			"model": "siscu_se:item/piglin/shields/crimson_shield_12_blocking"
 		}
 	}
 }

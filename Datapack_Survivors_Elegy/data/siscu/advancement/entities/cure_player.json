@@ -1,4 +1,5 @@
 {
+	"parent": "siscu:entities/root",
 	"criteria": {
 		"1": {
 			"trigger":"minecraft:consume_item",
@@ -18,8 +19,21 @@
 				}
 				]
 			}
+		},
+		"2": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"custom_data": {
+							"SE_data": {"flags":[{"cures_phage":true}]}
+						}
+					}
+				}
+			}
 		}
 	},
+	"requirements": [["1","2"]],
 	"rewards": {
 		"function": "siscu:entities/phage/unzombify/player"
 	}

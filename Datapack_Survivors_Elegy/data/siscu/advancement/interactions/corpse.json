@@ -1,0 +1,17 @@
+{
+	"parent": "siscu:interactions/root",
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity":{
+					"entity_type": "minecraft:interaction",
+					"nbt": "{Tags:[\"siscu.player_corpse\"]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:entities/player_corpse/interact/advancement"
+	}
+}

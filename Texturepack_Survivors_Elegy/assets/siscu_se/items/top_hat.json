@@ -1,0 +1,53 @@
+{
+  "model": {
+    "type": "select",
+    "property": "display_context",
+    "cases": [
+      {
+        "when": "head",
+        "model": {
+          "type": "range_dispatch",
+          "property": "bundle/fullness",
+          "entries": [
+            {
+              "threshold": 0.75,
+              "model": {"type": "model","model": "siscu_se:item/top_hat_worn3"}
+            },
+            {
+              "threshold": 0.5,
+              "model": {"type": "model","model": "siscu_se:item/top_hat_worn2"}
+            },
+            {
+              "threshold": 0.25,
+              "model": {"type": "model","model": "siscu_se:item/top_hat_worn1"}
+            }
+          ],
+          "fallback": {"type": "model","model": "siscu_se:item/top_hat_worn"}
+        }
+      },
+      {
+        "when": "gui",
+        "model": {
+          "type": "condition",
+          "property": "bundle/has_selected_item",
+          "on_true": {
+            "type": "composite",
+            "models": [
+              {
+                "type": "model","model": "siscu_se:item/top_hat_open_back"
+              },
+              {
+                "type": "bundle/selected_item"
+              },
+              {
+                "type": "model","model": "siscu_se:item/top_hat_open"
+              }
+            ]
+          },
+          "on_false": {"type":"model","model":"siscu_se:item/top_hat"}
+        }
+      }
+    ],
+    "fallback": {"type":"model","model":"siscu_se:item/top_hat"}
+  }
+}

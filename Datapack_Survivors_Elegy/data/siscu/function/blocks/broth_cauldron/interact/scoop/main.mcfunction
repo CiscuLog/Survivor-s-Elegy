@@ -16,7 +16,7 @@ execute if items entity @s weapon.mainhand bucket run scoreboard players set div
 # set resulting broth nutrition values
 # serving_food = broth_food / div_factor
 # broth_food = broth_food - serving_food
-data merge storage siscu:volatile {BrothServingData:{food:1,saturation:1,effects:[],food_effects:[],recipient:"bowl",sound:"entity.generic.eat",consume_seconds:2,max_stack_size:1,model:"siscu_se:broth_bowl",name:"item.siscu.broth",has_consume_particles:false,command:"item replace entity @s weapon.mainhand with"}}
+data merge storage siscu:volatile {BrothServingData:{food:1,saturation:1,effects:[],food_effects:[],recipient:"bowl",sound:"entity.generic.eat",consume_seconds:2,max_stack_size:1,model:"siscu_se:broth_bowl",name:"item.siscu.broth",has_consume_particles:false,command:"item replace entity @s weapon.mainhand with",flags:[],tp_diameter:""}}
 scoreboard players operation serving_food siscu.broth_data = broth_food siscu.broth_data
 scoreboard players operation serving_saturation siscu.broth_data = broth_saturation siscu.broth_data
 scoreboard players operation serving_food siscu.broth_data /= div_factor siscu.broth_data
@@ -26,15 +26,31 @@ scoreboard players operation broth_saturation siscu.broth_data -= serving_satura
 execute store result storage siscu:volatile BrothServingData.food int 0.01 run scoreboard players get serving_food siscu.broth_data
 execute store result storage siscu:volatile BrothServingData.saturation int 0.01 run scoreboard players get serving_saturation siscu.broth_data
 
+# ingredient amount
+scoreboard players operation x siscu.volatile = ingredients_amount siscu.broth_data
+scoreboard players operation x siscu.volatile /= div_factor siscu.broth_data
+scoreboard players operation ingredients_amount siscu.broth_data -= x siscu.volatile
+# teleportation capabilities
+scoreboard players operation serving_tp_diameter siscu.broth_data = tp_diameter siscu.broth_data
+scoreboard players operation serving_tp_diameter siscu.broth_data /= div_factor siscu.broth_data
+scoreboard players operation tp_diameter siscu.broth_data -= serving_tp_diameter siscu.broth_data
+execute if score serving_tp_diameter siscu.broth_data matches 1.. store result storage siscu:volatile BrothServingData.tp_diameter float 1 run scoreboard players get serving_tp_diameter siscu.broth_data
+
 # calculate broth effect list
 # keep remaining values for cauldron
 execute if data storage siscu:volatile BrothCauldronData.effects[0] run function siscu:blocks/broth_cauldron/interact/scoop/potions_loop/main {list:"effects"}
 execute if data storage siscu:volatile BrothCauldronData.food_effects[0] run function siscu:blocks/broth_cauldron/interact/scoop/potions_loop/main {list:"food_effects"}
 # copy serving food effects to the serving effects list
-execute if data storage siscu:volatile BrothServingData.food_effects[0] run function siscu:technical/merge_lists/main {objective:"storage siscu:volatile BrothServingData.effects",addition:"storage siscu:volatile BrothServingData.food_effects"}
+execute if data storage siscu:volatile BrothServingData.food_effects[0] run function siscu:technical/operations/merge_lists/main {objective:"storage siscu:volatile BrothServingData.effects",addition:"storage siscu:volatile BrothServingData.food_effects"}
 
 scoreboard players set x siscu.volatile 0
 execute if data storage siscu:volatile BrothServingData.effects[0] run scoreboard players set x siscu.volatile 1
+
+# Add flags for special behavior
+execute as @n[tag=siscu.broth_interacted] run function siscu:blocks/broth_cauldron/interact/scoop/flags
+
+# Textures
+function siscu:blocks/broth_cauldron/update/water_color
 
 # give player the item
 execute if items entity @s weapon.mainhand glass_bottle run data merge storage siscu:volatile {BrothServingData:{recipient:"glass_bottle",sound:"entity.generic.drink",model:"siscu_se:broth_bottle",name:"item.siscu.broth_bottle",has_consume_particles:false}}
@@ -46,7 +62,7 @@ execute if score x siscu.volatile matches 0 run function siscu:blocks/broth_caul
 execute if score x siscu.volatile matches 1 run function siscu:blocks/broth_cauldron/interact/scoop/has_potions with storage siscu:volatile BrothServingData
 
 # stain
-execute as @n[tag=siscu.broth_water] run function siscu:blocks/broth_cauldron/interact/scoop/stain
+execute as @n[tag=siscu.broth_water] run function siscu:blocks/broth_cauldron/interact/stain/stain
 
 # remove water
 execute if score div_factor siscu.broth_data matches 2.. run scoreboard players remove broth_level siscu.broth_data 1

@@ -1,7 +1,7 @@
 {
 	"textures": {
-		"0": "entity/wandering_trader",
-		"particle": "entity/wandering_trader"
+		"0": "entity/wandering_trader/wandering_trader",
+		"particle": "#0"
 	},
 	"elements": [
 		{

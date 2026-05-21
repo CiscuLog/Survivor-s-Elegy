@@ -71,7 +71,7 @@
         "type": "minecraft:blaze",
         "weight": 3,
         "minCount": 1,
-        "maxCount": 3
+        "maxCount": 2
       }
     ],
     "creature": [],

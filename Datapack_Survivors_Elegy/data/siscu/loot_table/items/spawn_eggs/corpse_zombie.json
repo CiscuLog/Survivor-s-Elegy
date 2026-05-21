@@ -1,0 +1,29 @@
+{
+	"type": "generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "item_frame",
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"entity_data": {
+									"id": "item_frame",
+									"Tags": [
+										"siscu.player_corpse",
+										"siscu.player_corpse_unset",
+										"siscu.zombie_model"
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

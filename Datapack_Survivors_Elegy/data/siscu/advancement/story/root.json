@@ -2,33 +2,35 @@
     "display": {
     "title": {
       "translate": "pack.siscu",
-      "fallback": "SE (MISSING RESOURCES)",
+      "fallback": "%s",
       "color": "white",
-      "bold": true
+      "bold": true,
+      "with": [{"text": "SE (MISSING RESOURCES)","color": "red"}]
     },
     "description": {
-      "translate": "The required Survivor's Elegy Resource Pack is not installed. Read INSTALL.txt for info on that matter",
+      "translate": "pack.loaded",
+      "fallback": "The required Survivor's Elegy Resource Pack is not installed. Read INSTALL.txt for info on the matter",
       "with": [
         [
-		{
-			"translate": "advancements.siscu.description_1",
-			"color": "gold"
-		},
-		{
-			"text":"\n"
-		},
-		{
-			"translate": "advancements.siscu.description_2",
-			"color": "gray"
-		},
-		{
-			"text":"\n"
-		},
-		{
-			"translate": "pack.siscu.version",
-			"color": "blue",
-			"font": "siscu_se:superscript"
-		}
+          {
+            "translate": "advancements.siscu.description_1",
+            "color": "gold"
+          },
+          {
+            "text":"\n"
+          },
+          {
+            "translate": "advancements.siscu.description_2",
+            "color": "gray"
+          },
+          {
+            "text":"\n"
+          },
+          {
+            "translate": "pack.siscu.version",
+            "color": "blue",
+            "font": "siscu_se:superscript"
+          }
         ]
       ]
     },

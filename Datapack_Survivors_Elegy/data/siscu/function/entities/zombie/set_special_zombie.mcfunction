@@ -31,6 +31,5 @@ execute as @s[tag=siscu.stray_zombie] run return run tag @s add siscu.unequipped
 execute if biome ~ ~ ~ #siscu:is_swamp if predicate siscu:locations/check_surface if predicate siscu:utils/40_percent run tag @s add siscu.bogged_zombie
 execute as @s[tag=siscu.bogged_zombie] run return run tag @s add siscu.unequipped
 
-
 #tag @s[tag=special] add siscu.unequipped
 #execute at @s[tag=special] run particle minecraft:totem_of_undying ~ ~1 ~ 0 0 0 0.3 30

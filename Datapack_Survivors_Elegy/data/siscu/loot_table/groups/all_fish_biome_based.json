@@ -1,0 +1,135 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "value": "gameplay/fishing/fish",
+                    "weight": 40
+                },
+				{
+					"type": "minecraft:loot_table",
+					"value": "siscu:items/food/fish",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "location_check",
+								"predicate": {
+									"biomes": "#siscu:has_fish/all"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "siscu:items/food/bass",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "location_check",
+							"predicate": {
+								"biomes": "#siscu:has_fish/bass"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "siscu:items/food/catfish",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "location_check",
+							"predicate": {
+								"biomes": "#siscu:has_fish/catfish"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "siscu:items/food/tuna",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "location_check",
+							"predicate": {
+								"biomes": "#siscu:has_fish/tuna"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "siscu:items/food/trout",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "location_check",
+							"predicate": {
+								"biomes": "#siscu:has_fish/trout"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "siscu:items/food/pufferfish",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "location_check",
+							"predicate": {
+								"biomes": "#siscu:has_fish/pufferfish"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "siscu:items/food/koi",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "location_check",
+							"predicate": {
+								"biomes": "#siscu:has_fish/koi"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "siscu:items/food/turbot",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "location_check",
+							"predicate": {
+								"biomes": "#siscu:has_fish/turbot"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "siscu:items/food/hake",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "location_check",
+							"predicate": {
+								"biomes": "#siscu:has_fish/hake"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

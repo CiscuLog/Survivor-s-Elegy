@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/food/fish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/food/bass"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/food/catfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/food/tuna"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/food/trout"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/food/pufferfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/food/koi"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/food/turbot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "siscu:items/food/hake"
+        }
+      ]
+    }
+  ]
+}

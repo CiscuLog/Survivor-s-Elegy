@@ -6,6 +6,10 @@ execute if entity @s[tag=entity_checked] run return run tag @s remove entity_che
 # Incredible smithed compatibility feature
 execute if entity @s[tag=smithed.entity] run return 0
 
+# Incredible trial spawners fix that in no way can be exploited to circumvent other entity modifications
+execute if entity @s[type=#siscu:trial_spawnable] if predicate {condition:"location_check",predicate:{structures:"#on_trial_chambers_maps"}} run return 0
+execute if entity @s[type=#siscu:trial_spawnable] if items entity @s armor.* *[trim] run return 0
+
 # Differentiate
 execute as @s[type=blaze,tag=!siscu.blaze_checked] run return run function siscu:entities/blaze/randomiser
 execute as @s[type=bogged,tag=!siscu.bogged_checked] run return run function siscu:entities/bogged/randomiser

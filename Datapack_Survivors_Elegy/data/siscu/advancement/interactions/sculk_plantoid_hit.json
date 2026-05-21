@@ -1,0 +1,17 @@
+{
+	"parent": "siscu:interactions/root",
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:player_hurt_entity",
+			"conditions": {
+				"entity":{
+					"entity_type": "minecraft:interaction",
+					"nbt": "{Tags:[\"siscu.sculk_plantoid\"]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:blocks/sculk_plantoid/attack/main"
+	}
+}

@@ -1,8 +1,10 @@
-execute as @s[tag=siscu.unequipped,tag=siscu.amethyst_zombie] run function siscu:entities/zombie/amethyst_zombie
-execute as @s[tag=siscu.unequipped,tag=siscu.lush_zombie] run function siscu:entities/zombie/lush_zombie
-execute as @s[tag=siscu.unequipped,tag=siscu.dripstone_zombie] run function siscu:entities/zombie/dripstone_zombie
-execute as @s[tag=siscu.unequipped,tag=siscu.citizen_zombie] run function siscu:entities/zombie/citizen_zombie
-execute as @s[tag=siscu.unequipped,tag=siscu.infected_zombie] run function siscu:entities/zombie/infected_zombie
-execute as @s[tag=siscu.unequipped,tag=siscu.stray_zombie] run function siscu:entities/zombie/stray_zombie
-execute as @s[tag=siscu.unequipped,tag=siscu.bogged_zombie] run function siscu:entities/zombie/bogged_zombie
+execute unless entity @s[tag=siscu.unequipped] run return fail
 tag @s remove siscu.unequipped
+
+execute as @s[tag=siscu.amethyst_zombie] run function siscu:entities/zombie/variants/amethyst_zombie
+execute as @s[tag=siscu.lush_zombie] run function siscu:entities/zombie/variants/lush_zombie
+execute as @s[tag=siscu.dripstone_zombie] run function siscu:entities/zombie/variants/dripstone_zombie
+execute as @s[tag=siscu.citizen_zombie] run function siscu:entities/zombie/variants/citizen_zombie
+execute as @s[tag=siscu.infected_zombie] run function siscu:entities/zombie/variants/infected_zombie
+execute as @s[tag=siscu.stray_zombie] run function siscu:entities/zombie/variants/stray_zombie
+execute as @s[tag=siscu.bogged_zombie] run function siscu:entities/zombie/variants/bogged_zombie

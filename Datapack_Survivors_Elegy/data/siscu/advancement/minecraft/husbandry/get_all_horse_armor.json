@@ -23,29 +23,19 @@
 		"1": {
 			"trigger":"minecraft:inventory_changed",
 			"conditions": {
-				"items": [
-				{
-					"predicates": {"custom_data":{"SE_data":{"id":"siscu:wax_horse_armor"}}}
-				}
-				]
+				"items": [{"predicates": {"custom_data":{"SE_data":{"id":"siscu:wax_horse_armor"}}}}]
 			}
 		},
 		"2": {
 			"trigger":"minecraft:inventory_changed",
 			"conditions": {
-				"items": [
-					{"items": ["netherite_horse_armor"]}
-				]
+				"items": [{"items": ["netherite_horse_armor"]}]
 			}
 		},
 		"3": {
 			"trigger":"minecraft:inventory_changed",
 			"conditions": {
-				"items": [
-				{
-					"predicates": {"custom_data":{"SE_data":{"id":"siscu:chainmail_horse_armor"}}}
-				}
-				]
+				"items": [{"predicates": {"custom_data":{"SE_data":{"id":"siscu:chainmail_horse_armor"}}}}]
 			}
 		},
 		"4": {
@@ -57,41 +47,25 @@
 		"5": {
 			"trigger":"minecraft:inventory_changed",
 			"conditions": {
-				"items": [
-				{
-					"items": ["iron_horse_armor"]
-				}
-				]
+				"items": [{"items": ["iron_horse_armor"]}]
 			}
 		},
 		"6": {
 			"trigger":"minecraft:inventory_changed",
 			"conditions": {
-				"items": [
-				{
-					"items": ["golden_horse_armor"]
-				}
-				]
+				"items": [{"items": ["golden_horse_armor"]}]
 			}
 		},
 		"7": {
 			"trigger":"minecraft:inventory_changed",
 			"conditions": {
-				"items": [
-				{
-					"items": ["diamond_horse_armor"]
-				}
-				]
+				"items": [{"items": ["diamond_horse_armor"]}]
 			}
 		},
 		"8": {
 			"trigger":"minecraft:inventory_changed",
 			"conditions": {
-				"items": [
-				{
-					"items": ["leather_horse_armor"]
-				}
-				]
+				"items": [{"items": ["leather_horse_armor"]}]
 			}
 		}
 	},

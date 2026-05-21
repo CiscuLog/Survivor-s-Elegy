@@ -1,4 +1,5 @@
 {
+	"parent": "siscu:world/root",
   "criteria": {
     "1": {
       "trigger": "location",

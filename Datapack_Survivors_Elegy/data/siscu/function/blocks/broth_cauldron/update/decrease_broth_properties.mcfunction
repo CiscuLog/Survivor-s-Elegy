@@ -8,3 +8,9 @@ scoreboard players operation broth_food siscu.broth_data /= broth_level siscu.br
 scoreboard players operation broth_food siscu.broth_data *= cauldron_level siscu.broth_data
 scoreboard players operation broth_saturation siscu.broth_data /= broth_level siscu.broth_data
 scoreboard players operation broth_saturation siscu.broth_data *= cauldron_level siscu.broth_data
+
+scoreboard players operation ingredients_amount siscu.broth_data /= broth_level siscu.broth_data
+scoreboard players operation ingredients_amount siscu.broth_data *= cauldron_level siscu.broth_data
+scoreboard players operation tp_diameter siscu.broth_data /= broth_level siscu.broth_data
+scoreboard players operation tp_diameter siscu.broth_data *= cauldron_level siscu.broth_data
+

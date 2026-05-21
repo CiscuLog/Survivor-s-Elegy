@@ -1,0 +1,16 @@
+{
+	"parent": "siscu:entities/root",
+    "criteria": {
+        "0": {
+            "trigger": "fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": "#siscu:fish_replaceable"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "siscu:world/fishing/advancement"
+    }
+}

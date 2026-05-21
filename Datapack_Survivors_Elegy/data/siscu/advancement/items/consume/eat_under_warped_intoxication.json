@@ -1,4 +1,5 @@
 {
+	"parent": "siscu:items/root",
 	"criteria": {
 		"Staff": {
 			"trigger":"minecraft:consume_item"

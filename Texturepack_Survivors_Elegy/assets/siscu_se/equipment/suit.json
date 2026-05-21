@@ -3,8 +3,8 @@
     "humanoid": [
       {
         "texture": "siscu_se:suit",
-	  "dyeable": {
-		  "color_when_undyed": 7687433
+        "dyeable": {
+          "color_when_undyed": 7687433
         }
 	  },
 	  {
@@ -14,13 +14,22 @@
     "humanoid_leggings": [
       {
         "texture": "siscu_se:suit",
-	  "dyeable": {
-		  "color_when_undyed": 7164451
+        "dyeable": {
+          "color_when_undyed": 7164451
         }
 	  },
 	  {
 		  "texture": "siscu_se:suit_overlay"
 	  }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "siscu_se:suit",
+        "dyeable": {"color_when_undyed": 7164451}
+      },
+      {
+        "texture": "siscu_se:suit_overlay"
+      }
     ]
   }
 }

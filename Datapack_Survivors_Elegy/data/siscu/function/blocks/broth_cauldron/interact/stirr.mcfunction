@@ -9,7 +9,7 @@ execute store result entity @s data.resting_pos int 1 run scoreboard players add
 
 #sounds
 execute if block ~ ~ ~ cauldron run playsound siscu_se:item.ladle.place block @a
-execute if block ~ ~ ~ water_cauldron run playsound siscu_se:item.ladle.stirr block @a ~ ~ ~ 0.5 0.4
+execute if block ~ ~ ~ water_cauldron run playsound siscu_se:item.ladle block @a ~ ~ ~ 0.5 0.4
 
 # chance of speeding up cooking!
 execute if predicate siscu:utils/10_percent if predicate siscu:locations/broth_conditions/valid as @n[type=interaction,tag=siscu.broth_cauldron] if score @s siscu.broth_temperature matches ..100 run scoreboard players add @s siscu.broth_temperature 1

@@ -7,10 +7,16 @@ scoreboard players set @s siscu.left_game 0
 #title @s subtitle {translate:"text.siscu.blank","fallback":"⚠ Missing Resource Pack! ⚠",color:"red"}
 tellraw @s {translate:"text.siscu.blank","fallback":"⚠ Missing Resource Pack! ⚠",color:"red"}
 
+# Tags
+tag @s remove siscu.fisherman
+
+# Triggers
+scoreboard players enable @s siscu.spam_lectern_dismiss
+
 # functions
 function siscu:technical/clear_advancements
 schedule function siscu:entities/mirage_display/empty_effects 40t append
-schedule function siscu:blocks/sculk_plantoid/mantain_plantoid 60t append
-schedule function siscu:blocks/broth_cauldron/update/check_schedule 24t append
+schedule function siscu:blocks/sculk_plantoid/update/mantain_plantoid 60t append
+schedule function siscu:blocks/broth_cauldron/maintain/check_schedule 24t append
 schedule function siscu:items/consume/ancient_tofu/decrease_boost 1s
 schedule function siscu:items/update/enable_trigger 1s

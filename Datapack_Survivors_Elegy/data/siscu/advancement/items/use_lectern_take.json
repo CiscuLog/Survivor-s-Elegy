@@ -1,0 +1,17 @@
+{
+	"parent": "siscu:items/use_lectern",
+	"criteria": {
+		"0": 
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["written_book"]
+				}]
+			}
+		  }
+	},
+	"rewards": {
+		"function": "siscu:advancement/use_lectern"
+	}
+}

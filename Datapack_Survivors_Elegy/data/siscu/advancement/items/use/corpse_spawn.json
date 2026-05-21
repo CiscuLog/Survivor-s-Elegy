@@ -1,0 +1,21 @@
+{
+	"parent": "siscu:items/root",
+	"criteria": {
+		"0": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "match_tool",
+						"predicate": {
+							"items": "item_frame"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:entities/player_corpse/summon/dev_tools/spawn"
+	}
+}

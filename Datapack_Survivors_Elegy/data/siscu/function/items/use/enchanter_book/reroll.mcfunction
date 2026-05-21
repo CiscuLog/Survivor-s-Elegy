@@ -1,21 +1,29 @@
-# We will have one of the 20 next enchantments on the enchantments list. This ensures the player doesn't get the same enchantment after a reroll
-execute store result score x siscu.volatile run random value 1..20
-execute store result score y siscu.volatile run data get entity @s SelectedItem.components.minecraft:custom_data.SE_data.last_roll
-execute store result score z siscu.volatile run data get storage siscu:database enchanter_book_list
-scoreboard players remove z siscu.volatile 1
 
-# Get last roll, add 4 so it's not the same enchantment, apply offset, constrain index within the list
-scoreboard players add x siscu.volatile 4
-scoreboard players operation x siscu.volatile += y siscu.volatile
-scoreboard players operation x siscu.volatile %= z siscu.volatile
+# get xp
+execute store result score @s siscu.volatile run xp query @s levels
+execute if score @s siscu.volatile matches 30.. run scoreboard players set @s siscu.volatile 30
 
-# Store the index so we can store it in the item data. Thus, in following rerolls we will know at which point of the list we are
-execute store result storage siscu:volatile x int 1 run scoreboard players get x siscu.volatile
+# Summon enchanted book
+kill @e[type=item_frame,tag=siscu.enchantment]
+execute at @s run summon item_frame ~ ~ ~ {Tags:["siscu.enchantment"],Silent:true}
+execute at @s run scoreboard players operation @n[type=item_frame,tag=siscu.enchantment] siscu.volatile = @s siscu.volatile
+execute at @s as @n[type=item_frame,tag=siscu.enchantment] run loot replace entity @s contents loot siscu:items/tools/enchanter_book_technical
+execute as @n[type=item_frame,tag=siscu.enchantment] run data modify entity @s data.stored_enchantments set from entity @s Item.components.minecraft:stored_enchantments
+item replace entity @n[type=item_frame,tag=siscu.enchantment] contents from entity @s weapon.mainhand
+execute as @n[type=item_frame,tag=siscu.enchantment] run data modify entity @s Item.components.minecraft:stored_enchantments set from entity @s data.stored_enchantments
 
-# Choose an enchantment from the global list
-function siscu:items/use/enchanter_book/get_enchantment with storage siscu:volatile
-function siscu:items/use/enchanter_book/enchantment_list_macro with storage siscu:volatile
+# Remove ingredients
+execute if score @s siscu.volatile matches 30.. run function siscu:items/use/enchanter_book/clear_materials {amount:3}
+execute if score @s siscu.volatile matches 20..29 run function siscu:items/use/enchanter_book/clear_materials {amount:2}
+execute if score @s siscu.volatile matches 0..19 run function siscu:items/use/enchanter_book/clear_materials {amount:1}
+#function siscu:items/use/enchanter_book/clear_materials {amount:1}
 
-# Set data
-function siscu:items/use/enchanter_book/roman_numerals
-function siscu:items/use/enchanter_book/enchant with storage siscu:volatile
+# Replace Item
+item replace entity @s weapon.mainhand from entity @n[type=item_frame,tag=siscu.enchantment] contents
+
+# kill enchanted book
+kill @e[type=item_frame,tag=siscu.enchantment]
+# Announce enchantment
+function siscu:items/use/enchanter_book/announce_enchantment/start
+
+scoreboard players reset @s siscu.volatile

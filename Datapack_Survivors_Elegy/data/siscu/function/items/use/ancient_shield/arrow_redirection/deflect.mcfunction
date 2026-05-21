@@ -1,10 +1,10 @@
 
 # tag deflected projectile
-execute as @e[type=#siscu:deflectable_projectiles,nbt={inGround:0b},distance=..5] run tag @s add siscu.deflected_projectile
+execute at @s as @n[type=#siscu:deflectable_projectiles,nbt={inGround:0b},distance=..5] run tag @s add siscu.deflected_projectile
 
-execute as @e[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] store result score x siscu.volatile run data get entity @s Pos[0] 10
-execute as @e[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] store result score y siscu.volatile run data get entity @s Pos[1] 10
-execute as @e[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] store result score z siscu.volatile run data get entity @s Pos[2] 10
+execute as @n[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] store result score x siscu.volatile run data get entity @s Pos[0] 10
+execute as @n[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] store result score y siscu.volatile run data get entity @s Pos[1] 10
+execute as @n[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] store result score z siscu.volatile run data get entity @s Pos[2] 10
 
 # set endpoint
 execute positioned ^ ^1 ^8 run summon area_effect_cloud ~ ~ ~ {Tags:["siscu.vector_endpoint"],Duration:1,Radius:0,Age:20}
@@ -20,13 +20,15 @@ scoreboard players operation z1 siscu.volatile -= z siscu.volatile
 # set motion
 scoreboard players add y1 siscu.volatile 10
 
-data merge storage siscu:volatile {Motion:[0.0d,0.0d,0.0d]}
-execute store result storage siscu:volatile Motion[0] double 0.02 run scoreboard players get x1 siscu.volatile
-execute store result storage siscu:volatile Motion[1] double 0.02 run scoreboard players get y1 siscu.volatile
-execute store result storage siscu:volatile Motion[2] double 0.02 run scoreboard players get z1 siscu.volatile
+data merge entity @n[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] {data:{Motion:[0.0d,0.0d,0.0d]}}
+execute store result entity @n[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] data.Motion[0] double 0.02 run scoreboard players get x1 siscu.volatile
+execute store result entity @n[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] data.Motion[1] double 0.02 run scoreboard players get y1 siscu.volatile
+execute store result entity @n[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] data.Motion[2] double 0.02 run scoreboard players get z1 siscu.volatile
+
+data modify entity @n[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] data.Owner set from entity @s UUID
 
 # debug motion announcements
-#tellraw @a [{"text":"Motion (storage):"},{"nbt": "Motion","source": "storage","storage": "siscu:volatile"}]
+#tellraw @a [{"text":"Motion (entity):"},{"nbt": "data.Motion","source":"entity","entity": "@n[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile]"}]
 
 # end function
 kill @e[type=area_effect_cloud,tag=siscu.vector_endpoint]

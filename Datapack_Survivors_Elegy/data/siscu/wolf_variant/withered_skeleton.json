@@ -12,5 +12,10 @@
             },
             "priority": 1
         }
-    ]
+    ],
+    "baby_assets": {
+        "angry": "siscu_se:entity/wolf/withered_baby",
+        "tame": "siscu_se:entity/wolf/withered_baby",
+        "wild": "siscu_se:entity/wolf/withered_baby"
+    }
 }

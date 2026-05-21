@@ -19,8 +19,6 @@ execute if score @s siscu.enchantment_reroll matches ..59 run return 0
 
 # reroll!
 scoreboard players set @s siscu.enchantment_reroll 0
-clear @s[gamemode=!creative] lapis_lazuli 1
-xp add @s[gamemode=!creative] -1 levels
 execute at @s run playsound block.enchantment_table.use player @a ~ ~ ~
 
-function siscu:items/use/enchanter_book/reroll
+execute at @s run function siscu:items/use/enchanter_book/reroll

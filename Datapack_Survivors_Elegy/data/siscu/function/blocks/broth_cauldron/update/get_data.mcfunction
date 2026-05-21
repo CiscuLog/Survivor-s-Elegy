@@ -7,13 +7,12 @@ execute store result score broth_level siscu.broth_data run data get entity @s d
 execute store result score broth_food siscu.broth_data run data get entity @s data.broth_food
 execute store result score broth_saturation siscu.broth_data run data get entity @s data.broth_saturation
 
+execute store result score ingredients_amount siscu.broth_data run data get entity @s data.ingredients_amount
+execute store result score tp_diameter siscu.broth_data run data get entity @s data.tp_diameter
+
+execute store result score ingredient_color siscu.broth_data run data get entity @s data.dye_ingredients
+execute store result score potion_color siscu.broth_data run data get entity @s data.dye_potions
+
 data modify storage siscu:volatile BrothCauldronData set from entity @s data
-
-# get potion effect duration
-#execute store result score potion_duration siscu.broth_data run data get entity @s data.effects[0].duration
-#execute store result score has_potion siscu.broth_data run execute if entity @s[tag=siscu.broth_potion]
-
-# put data in storage for unchanged values
-#data modify storage siscu:volatile BrothCauldronData set from entity @s data
 
 #tellraw @a {"storage": "siscu:volatile","nbt": "BrothCauldronData"}

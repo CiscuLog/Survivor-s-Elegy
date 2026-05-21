@@ -5,6 +5,7 @@ function siscu:items/update/enable_trigger
 
 # return if the item is already at the latest version
 execute if predicate {condition:"entity_properties",entity:"this",predicate:{slots:{weapon.mainhand:{predicates:{custom_data:{SE_data:{UpdateVersion:"v1.0.8"}}}}}}} run return run tellraw @s {text:"<Item Update> This item is already up to date"}
+execute if items entity @s weapon.mainhand *[custom_data~{SE_data:{"id":"siscu:ancient_tofu",UpdateVersion:"1.0.10"}}] run return run tellraw @s {text:"<Item Update> This tofu is already up to date"}
 
 ## data update
 tellraw @s {text:"<Item Update> Updating item, some data might get lost in the process"}

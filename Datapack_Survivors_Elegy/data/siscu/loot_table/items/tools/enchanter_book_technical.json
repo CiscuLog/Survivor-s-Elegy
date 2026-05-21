@@ -1,0 +1,42 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:book",
+			"functions": [
+				{
+					"function": "set_custom_data",
+					"tag": {"SE_data":{"id":"siscu:enchanter_book_technical"}}
+				},
+				{
+					"function": "enchant_randomly",
+					"options": 
+					"#siscu:in_enchanters_guide/treasure",
+					"conditions": [
+						{"condition": "random_chance","chance": 0.05}
+					]
+				},
+				{
+					"function": "enchant_with_levels",
+					"levels": {"type": "score","target": "this","score": "siscu.volatile"},
+					"options": "#siscu:in_enchanters_guide/normal",
+					"conditions": [
+						{
+							"condition": "inverted",
+							"term": {
+								"condition": "entity_properties",
+								"entity": "this",
+								"predicate": {"slots": {"contents": {"components": {"stored_enchantments": {}}}}}
+							}
+						}
+					]
+				}
+			]
+		}
+		]
+	}
+	]
+}

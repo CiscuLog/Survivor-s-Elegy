@@ -6,6 +6,7 @@
     "minecraft:milk_bucket",
     "minecraft:water_bucket",
     "#siscu:broth_scooping",
-    "wet_sponge"
+    "wet_sponge",
+    "debug_stick"
   ]
 }

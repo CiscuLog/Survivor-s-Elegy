@@ -1,0 +1,12 @@
+{
+	"parent": "siscu:world/root",
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:tick",
+			"conditions": {}
+		}
+	},
+	"rewards": {
+		"function": "siscu:entities/player/spawn"
+	}
+}

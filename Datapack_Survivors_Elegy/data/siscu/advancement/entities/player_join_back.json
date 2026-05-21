@@ -1,4 +1,5 @@
 {
+	"parent": "siscu:entities/root",
     "criteria": {
         "1":{
 			"trigger":"minecraft:tick",

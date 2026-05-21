@@ -1,12 +1,12 @@
 #create scoreboards
-execute unless data storage siscu:world {PackVersion:"v1.0.9"} run function siscu:technical/load/load_first_time
+execute unless data storage siscu:world {PackVersion:"v1.0.10"} run function siscu:technical/load/load_first_time
 
 #delete schedules
 function siscu:technical/clear_schedules
 
 # Check for Safe mode
 scoreboard players set safe_mode siscu.integer 0
-execute store result score x siscu.volatile run function siscu:technical/randomiser {"min":1,"max":2}
+execute store result score x siscu.volatile run function siscu:technical/operations/randomiser {"min":1,"max":2}
 execute unless score x siscu.volatile matches 1..2 run scoreboard players set safe_mode siscu.integer 1
 ## Load safe mode
 execute if score safe_mode siscu.integer matches 1 run function siscu:technical/load/safe_mode
@@ -24,7 +24,7 @@ execute if score do_daylight_cycle siscu.day matches 1 unless score daytime_spee
 # [ *,  , x,  , X ,  ,  *,   , x,  ,X ,  , *,  , x,  ,X ,  , *,  ] # (Plantoid, varies between X, x, *)
 # [  ,  ,D ,  ,   ,  ,D  ,T  ,  ,  ,D ,  ,  ,  ,D ,  ,  ,  ,D ,  ] # Cauldron (Data, Temp)
 # [  ,MD,  ,  ,   ,MD,   ,   ,  ,MD,  ,  ,  ,MD,  ,  ,  ,MD,  ,  ] # Mirage displays
-# [  ,  ,  ,  , X ,X , X , X , (···) ] # (drowning zombie, lasts between 1 and 300 ticks)
+# [  ,  ,  ,  , X ,X , X , X , (···) ] # (drowning zombie, lasts between 1 and 300 ticks. Always starts at tick 5)
 
 # Remove advancements
 execute as @a run function siscu:technical/clear_advancements

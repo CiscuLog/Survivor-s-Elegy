@@ -1,7 +1,7 @@
 execute if entity @s[type=wolf] run return run function siscu:world/withering/conversion_wolf
 
 tag @s add siscu.zombifying_invulnerable
-tag @s add withering_invulnerable
+tag @s add siscu.withering_invulnerable
 tag @s remove siscu.rot_checked
 scoreboard players reset @s siscu.rotting_mob
 scoreboard players reset @s siscu.withering

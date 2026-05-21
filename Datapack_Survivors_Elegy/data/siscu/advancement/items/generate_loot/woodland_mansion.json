@@ -1,0 +1,14 @@
+{
+  "parent": "siscu:items/root",
+  "criteria": {
+    "0": {
+      "trigger": "player_generates_container_loot",
+      "conditions": {
+        "loot_table": "chests/woodland_mansion"
+      }
+    }
+  },
+  "rewards": {
+    "function": "siscu:blocks/loot_blocks/woodland_mansion"
+  }
+}

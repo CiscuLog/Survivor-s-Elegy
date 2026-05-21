@@ -1,0 +1,18 @@
+{
+	"parent": "siscu:entities/root",
+    "criteria": {
+        "0": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "siscu:advancement/feed/undead_baby"
+    }
+}

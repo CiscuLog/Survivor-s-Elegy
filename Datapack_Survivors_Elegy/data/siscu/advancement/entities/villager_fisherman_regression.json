@@ -1,4 +1,5 @@
 {
+	"parent": "siscu:entities/root",
 	"criteria": {
 		"0": {
 			"trigger":"minecraft:tick",
@@ -13,22 +14,9 @@
 							"looking_at": {
 								"distance": {"absolute": {"min":0,"max":10}},
 								"type": "minecraft:villager",
-								"nbt": "{VillagerData:{profession:\"minecraft:none\"}}"
+								"nbt": "{VillagerData:{profession:\"minecraft:none\"},Tags:[\"siscu.fisherman_lvl1\"]}"
 							}
 						}
-					}
-				},
-				{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type_specific": {
-								"type": "player",
-								"looking_at": {
-									"distance": {"absolute": {"min":1,"max":10}},
-									"nbt": "{Tags:[\"siscu.fisherman_lvl1\"]}"
-								}
-							}
 					}
 				}
 			]
@@ -36,6 +24,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:entities/villager/fisherman_regression"
+		"function": "siscu:entities/villager/fisherman/regression"
 	}
 }

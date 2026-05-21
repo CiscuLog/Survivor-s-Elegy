@@ -12,3 +12,4 @@ execute if score @s siscu.tofu_boost_5 matches 1.. run scoreboard players add x 
 execute unless score @s siscu.tofu_boost = x siscu.volatile run function siscu:items/consume/ancient_tofu/boost_change
 scoreboard players operation @s siscu.tofu_boost = x siscu.volatile
 
+return 1

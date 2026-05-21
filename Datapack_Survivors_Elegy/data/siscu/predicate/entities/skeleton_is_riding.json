@@ -6,7 +6,7 @@
 			"entity": "this",
 			"predicate": {
 				"vehicle": {
-					"type": "minecraft:skeleton_horse"
+					"entity_type": "minecraft:skeleton_horse"
 				}
 			}
 		},
@@ -15,7 +15,7 @@
 			"entity": "this",
 			"predicate": {
 				"vehicle": {
-					"type": "minecraft:spider"
+					"entity_type": "minecraft:spider"
 				}
 			}
 		}

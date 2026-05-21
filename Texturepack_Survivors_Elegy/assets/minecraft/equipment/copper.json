@@ -19,6 +19,11 @@
       {
         "texture": "siscu_se:copper"
       }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "siscu_se:copper"
+      }
     ]
   }
 }

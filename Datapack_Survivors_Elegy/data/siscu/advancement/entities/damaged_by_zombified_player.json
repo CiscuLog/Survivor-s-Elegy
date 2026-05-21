@@ -1,4 +1,5 @@
 {
+	"parent": "siscu:entities/root",
 	"criteria": {
 		"0": {
 			"trigger":"minecraft:entity_hurt_player",

@@ -1,4 +1,5 @@
 {
+	"parent": "siscu:entities/root",
     "criteria": {
         "from": {
             "trigger": "changed_dimension",

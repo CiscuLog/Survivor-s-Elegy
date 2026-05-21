@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smelting",
+  "category": "misc",
   "ingredient": "minecraft:ancient_debris",
   "result": {"id":"minecraft:netherite_scrap"},
   "experience": 2.0,

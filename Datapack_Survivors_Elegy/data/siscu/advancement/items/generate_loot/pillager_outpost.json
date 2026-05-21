@@ -1,0 +1,14 @@
+{
+  "parent": "siscu:items/root",
+  "criteria": {
+    "0": {
+      "trigger": "player_generates_container_loot",
+      "conditions": {
+        "loot_table": "chests/pillager_outpost"
+      }
+    }
+  },
+  "rewards": {
+    "function": "siscu:blocks/loot_blocks/pillager_outpost"
+  }
+}

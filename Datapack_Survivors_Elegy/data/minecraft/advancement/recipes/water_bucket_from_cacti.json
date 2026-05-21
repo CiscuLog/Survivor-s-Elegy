@@ -1,0 +1,16 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"0": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["bucket","cactus"]
+				}]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["siscu:water_bucket_cactus"]
+	}
+}

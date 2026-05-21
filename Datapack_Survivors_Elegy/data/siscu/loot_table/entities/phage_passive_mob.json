@@ -59,10 +59,10 @@
 		]
 	},
 	{ "rolls": 1, "entries": [ { "type": "loot_table", "value": "minecraft:entities/cat" } ],
-	"conditions": [{"condition": "entity_properties","entity": "this","predicate": {"type": "cat"}}] },
+	"conditions": [{"condition": "entity_properties","entity": "this","predicate": {"entity_type": "cat"}}] },
 	{ "rolls": 1, "entries": [ { "type": "loot_table", "value": "minecraft:entities/frog" } ],
-	"conditions": [{"condition": "entity_properties","entity": "this","predicate": {"type": "frog"}}] },
+	"conditions": [{"condition": "entity_properties","entity": "this","predicate": {"entity_type": "frog"}}] },
 	{ "rolls": 1, "entries": [ { "type": "loot_table", "value": "minecraft:entities/wolf" } ],
-	"conditions": [{"condition": "entity_properties","entity": "this","predicate": {"type": "wolf"}}] }
+	"conditions": [{"condition": "entity_properties","entity": "this","predicate": {"entity_type": "wolf"}}] }
   ]
 }

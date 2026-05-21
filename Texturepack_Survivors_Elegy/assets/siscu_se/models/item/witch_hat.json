@@ -1,7 +1,7 @@
 {
 	"textures": {
-		"0": "entity/witch",
-		"particle": "entity/witch"
+		"0": "entity/witch/witch",
+		"particle": "#0"
 	},
 	"elements": [
 		{

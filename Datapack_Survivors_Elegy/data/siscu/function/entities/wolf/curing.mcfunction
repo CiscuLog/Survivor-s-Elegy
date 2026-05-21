@@ -5,11 +5,8 @@ tag @s remove siscu.rotting_protected
 scoreboard players reset @s siscu.zombifying
 scoreboard players reset @s siscu.rotting_mob
 
-# get previous wolf state and set the variant [[ FIX ]]
-data modify storage siscu:volatile UUID set from entity @s UUID
-function siscu:entities/wolf/macro/get_variant with storage siscu:volatile
-function siscu:entities/wolf/macro/remove_from_list with storage siscu:volatile
-execute if predicate siscu:entities/is_zombie_variant run data merge entity @s {variant:"pale"}
+execute unless data entity @s data.variant run function siscu:entities/wolf/curing_legacy/main
+execute if data entity @s data.variant run data modify entity @s variant set from entity @s data.variant
 
 # effects
 playsound entity.zombie_villager.cure neutral @a ~ ~ ~

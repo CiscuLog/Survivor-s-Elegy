@@ -18,6 +18,7 @@ execute if items entity @s weapon.mainhand water_bucket if score broth_level sis
 execute if items entity @s weapon.mainhand milk_bucket at @s run return run function siscu:blocks/broth_cauldron/interact/misc/milk
 execute if items entity @s weapon.mainhand phantom_membrane at @s run return run function siscu:blocks/broth_cauldron/interact/misc/phantom_membrane
 execute if items entity @s weapon.mainhand wet_sponge at @s run return run function siscu:blocks/broth_cauldron/interact/misc/scrub
+execute if items entity @s[gamemode=creative] weapon.mainhand debug_stick at @s as @n[type=interaction,tag=siscu.broth_interacted] at @s run return run function siscu:blocks/broth_cauldron/interact/stain/debug_stick
 
 # exception case
 execute at @n[tag=siscu.broth_interacted] as @n[tag=siscu.broth_ladle] run function siscu:blocks/broth_cauldron/interact/stirr

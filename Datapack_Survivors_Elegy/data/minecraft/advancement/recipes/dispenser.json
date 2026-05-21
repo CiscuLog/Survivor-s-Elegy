@@ -1,0 +1,14 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "minecraft:dispenser"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["minecraft:dispenser_shapeless","minecraft:dispenser_without_bow"]
+	}
+}

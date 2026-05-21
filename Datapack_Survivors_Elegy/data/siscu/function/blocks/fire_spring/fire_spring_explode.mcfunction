@@ -7,3 +7,4 @@ execute at @s run playsound minecraft:entity.blaze.death ambient @a ~ ~ ~
 summon creeper ~ ~ ~ {ignited:true,Fuse:0,CustomName:'{"translate":"entity.siscu.fire_spring"}',Tags:["siscu.creeper_checked"],Invulnerable:1b}
 
 kill @s
+return 1

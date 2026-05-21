@@ -1,0 +1,16 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"0": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["red_sand"]
+				}]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["minecraft:smelting_orange_stained_glass"]
+	}
+}

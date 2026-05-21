@@ -1,4 +1,5 @@
 {
+	"parent": "siscu:items/root",
     "criteria": {
         "eat": {
             "trigger": "consume_item",

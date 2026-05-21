@@ -17,24 +17,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:trident",
-					"weight": 7,
-					"conditions": [
-						{
-							"condition": "minecraft:reference",
-							"name": "siscu:utils/is_not_baby"
-						}
-					]
-				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "siscu:items/combat/huge_trident",
-					"weight": 7,
-					"conditions": [
-						{
-							"condition": "minecraft:reference",
-							"name": "siscu:utils/is_baby"
-						}
-					]
+					"weight": 7
 				}
 			],
 			"conditions": [

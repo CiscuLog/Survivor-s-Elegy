@@ -4,6 +4,11 @@
       {
         "texture": "siscu_se:stray"
       }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "siscu_se:stray"
+      }
     ]
   }
 }

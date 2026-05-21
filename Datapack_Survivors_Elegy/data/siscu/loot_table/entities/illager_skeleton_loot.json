@@ -110,7 +110,7 @@
             "entries":[
                 {
                     "type":"minecraft:loot_table",
-                    "value":"siscu:gameplay/fishing/fish"
+                    "value":"siscu:groups/all_fish_biome_based"
                 }
             ],
             "conditions": [
@@ -168,8 +168,8 @@
             },
             {
                 "type": "minecraft:item",
-                "name": "enchanted_book",
-                "functions": [{"function": "enchant_with_levels","levels": 1}]
+                "name": "book",
+                "functions": [{"function": "enchant_with_levels","levels": 20,"options": "#tradeable"}]
             }],
             "conditions": [
                 {

@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smelting",
+  "category": "blocks",
   "ingredient": "minecraft:red_sand",
   "result": {"id":"minecraft:orange_stained_glass"},
   "experience": 0.1,

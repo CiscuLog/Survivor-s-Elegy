@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smelting",
+  "category": "blocks",
   "ingredient": "minecraft:sand",
   "result":{"id": "minecraft:glass"},
   "experience": 0.1,

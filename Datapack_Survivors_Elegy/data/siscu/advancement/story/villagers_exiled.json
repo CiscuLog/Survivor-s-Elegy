@@ -4,8 +4,8 @@
 			"id": "minecraft:leather",
 			"components": {"item_model":"siscu_se:pillager_head"}
 		},
-		"title": {"translate": "advancements.siscu.story.villagers_exiled.title"},
-		"description": {"translate": "advancements.siscu.story.villagers_exiled.description"},
+		"title": {"translate": "advancements.siscu.story.illagers.title"},
+		"description": {"translate": "advancements.siscu.story.illagers.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

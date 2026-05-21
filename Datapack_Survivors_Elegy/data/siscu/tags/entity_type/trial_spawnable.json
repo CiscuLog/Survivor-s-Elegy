@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#skeletons",
+    "#zombies",
+    "breeze",
+    "cave_spider",
+    "silverfish",
+    "slime",
+    "spider"
+  ]
+}

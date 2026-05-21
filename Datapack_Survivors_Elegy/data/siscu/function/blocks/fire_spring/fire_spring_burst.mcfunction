@@ -11,3 +11,4 @@ playsound minecraft:entity.blaze.shoot ambient @a ~ ~ ~
 execute if predicate siscu:utils/5_percent run summon blaze ~ ~ ~ {Tags:["siscu.blaze_checked"]}
 
 kill @s
+return 1

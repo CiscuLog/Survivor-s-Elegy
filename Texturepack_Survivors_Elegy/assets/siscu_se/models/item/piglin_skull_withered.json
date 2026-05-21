@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "siscu_se:item/piglin_skull_withered",
+		"0": "siscu_se:item/skulls_piglin/piglin_skull_withered",
 		"1": "siscu_se:item/blank",
 		"particle": "#0"
 	},

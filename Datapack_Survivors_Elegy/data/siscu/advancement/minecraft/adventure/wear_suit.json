@@ -23,21 +23,17 @@
 	"criteria": {
 		"0": 
 		{
-			"trigger":"minecraft:tick",
+			"trigger":"inventory_changed",
 			"conditions": {
-				"player": [{
-					"condition": "minecraft:entity_properties",
-					"entity":"this",
-					"predicate": {
-						"slots": {
-							"armor.chest": {
-								"predicates": {
-									"custom_data": {"SE_data":{"id": "siscu:elegant_suit"}}
-								}
+				"player": {
+					"slots": {
+						"armor.chest": {
+							"predicates": {
+								"custom_data": {"SE_data":{"id": "siscu:elegant_suit"}}
 							}
 						}
 					}
-				}]
+				}
 			}
 		}
 	}

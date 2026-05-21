@@ -1,8 +1,8 @@
 
 # get day
-execute store result score x siscu.volatile run time query day
+execute store result score x siscu.volatile run time query day repetition
 # add 1 day if it's already morning
-execute store result score y siscu.volatile run time query daytime
+execute store result score y siscu.volatile run time query day
 execute if score y siscu.volatile matches 23451.. run scoreboard players add x siscu.volatile 1
 # convert day to daytime scale
 scoreboard players set y siscu.volatile 24000

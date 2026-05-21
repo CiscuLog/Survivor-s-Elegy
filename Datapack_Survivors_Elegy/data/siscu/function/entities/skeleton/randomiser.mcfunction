@@ -10,7 +10,7 @@ item replace entity @s armor.feet with air
 
 ## Piglin skeletons
 execute at @s if predicate siscu:utils/75_percent if dimension the_nether run tag @s[tag=!siscu.husk_skeleton,tag=!siscu.villager] add siscu.piglin
-execute if entity @s[tag=siscu.piglin] run function siscu:entities/skeleton/piglin
+execute if entity @s[tag=siscu.piglin] run function siscu:entities/skeleton/variants/piglin
 
 ## Villager Skeletons
 execute at @s if predicate siscu:utils/5_percent if dimension overworld run tag @s[tag=!siscu.husk_skeleton,tag=!siscu.piglin] add siscu.villager

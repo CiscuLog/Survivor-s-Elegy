@@ -1,0 +1,14 @@
+{
+  "parent": "siscu:items/root",
+  "criteria": {
+    "0": {
+      "trigger": "player_generates_container_loot",
+      "conditions": {
+        "loot_table": "chests/stronghold_library"
+      }
+    }
+  },
+  "rewards": {
+    "function": "siscu:blocks/loot_blocks/stronghold_library"
+  }
+}

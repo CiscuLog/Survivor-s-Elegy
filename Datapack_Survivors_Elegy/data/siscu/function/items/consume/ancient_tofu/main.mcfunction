@@ -12,4 +12,4 @@ scoreboard players set @s siscu.tofu_boost_1 900
 # apply effects
 function siscu:items/consume/ancient_tofu/decrease_boost_2
 
-execute if entity @a[scores={siscu.tofu_boost_1=1..}] run schedule function siscu:items/consume/ancient_tofu/decrease_boost 1s
+schedule function siscu:items/consume/ancient_tofu/decrease_boost 1s

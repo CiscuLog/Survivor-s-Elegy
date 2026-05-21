@@ -1,6 +1,6 @@
 {
-  "group": "hopper_minecart",
   "type": "minecraft:crafting_shapeless",
+  "group": "hopper_minecart",
   "ingredients": [
     "minecraft:hopper",
     "minecraft:minecart"

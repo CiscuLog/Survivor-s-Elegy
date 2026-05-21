@@ -1,14 +1,9 @@
 
 # Failsafe
 execute unless items entity @s armor.chest elytra run return 0
-execute unless data entity @s equipment.chest.components.minecraft:custom_data.SE_data.old_durability run return 0
+execute unless data entity @s equipment.chest.components.minecraft:custom_data.SE_data.shut_down_elytra run return 0
 
-# Recover elytra durability
-data remove storage siscu:volatile components
-data modify storage siscu:volatile components set from entity @s equipment.chest.components
-data modify storage siscu:volatile components.minecraft:damage set from storage siscu:volatile components.minecraft:custom_data.SE_data.old_durability
-data remove storage siscu:volatile components.minecraft:custom_data.SE_data.old_durability
-data remove storage siscu:volatile components.minecraft:custom_data.SE_data.shut_down_elytra
-function siscu:entities/player/elytra_shootdown/recover_elytra_macro with storage siscu:volatile
-
+# Recover elytra 
+item modify entity @s armor.chest {"function":"set_custom_data","tag":{"SE_data":{"shut_down_elytra":false}}}
+item modify entity @s armor.chest {function:"set_components","components":{"glider":{}}}
 return 0

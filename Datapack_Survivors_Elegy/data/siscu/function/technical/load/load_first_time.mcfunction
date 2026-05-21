@@ -5,12 +5,11 @@
 execute if data storage siscu:world PackVersion unless data storage siscu:world MajorUpdate run schedule function siscu:technical/load/warning 5s
 
 # Update (siscu:world)
-data merge storage siscu:world {PackVersion:"v1.0.9",RPVersion:7,MajorUpdate:1}
+data merge storage siscu:world {PackVersion:"v1.0.10",RPVersion:8,MajorUpdate:1}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 execute unless data storage siscu:world day_length run data merge storage siscu:world {day_length:3}
 
 # Database (siscu:database)
-function siscu:items/use/enchanter_book/enchantment_list/list
 function siscu:entities/enderman/list
 
 #set gamerules
@@ -18,6 +17,7 @@ gamerule advance_time false
 
 #create scoreboards
 scoreboard objectives add siscu.broth_data dummy {"text":"Broth Data","color":"gold"}
+scoreboard objectives add siscu.broth_ingredients dummy {"text":"Amount of Broth Ingredients","color":"gold"}
 scoreboard objectives add siscu.broth_temperature dummy {"text":"Broth Temperature","color":"red"}
 scoreboard objectives add siscu.config_cooldown dummy {"text":"Config Cooldown","color":"gold"}
 scoreboard objectives add siscu.day dummy {"text":"Day","color":"aqua"}
@@ -56,12 +56,17 @@ scoreboard objectives add siscu.tofu_boost_3 dummy {"text":"Boost 3","color": "r
 scoreboard objectives add siscu.tofu_boost_4 dummy {"text":"Boost 4","color": "red"}
 scoreboard objectives add siscu.tofu_boost_5 dummy {"text":"Boost 5","color": "red"}
 
+scoreboard objectives add siscu.entity_hit dummy {"text":"Hits on entity"}
+scoreboard objectives add siscu.spam_lectern dummy {"text":"Lectern Spamming"}
+scoreboard objectives add siscu.spam_lectern_dismiss trigger {"text":"Lectern Spam Message"}
+scoreboard objectives add siscu.balancer dummy {"text":"Tick Load Balancer"}
 
 #set scoreboards
 execute unless score death_message siscu.integer matches 0.. run scoreboard players set death_message siscu.integer 1
 ## constants
 scoreboard players set -1 siscu.integer -1
 scoreboard players set 2 siscu.integer 2
+scoreboard players set 5 siscu.integer 2
 scoreboard players set 8 siscu.integer 8
 scoreboard players set 10 siscu.integer 10
 scoreboard players set 20 siscu.integer 20
@@ -104,6 +109,8 @@ execute unless score withering_timer siscu.integer matches 0.. run scoreboard pl
 execute unless score rotting siscu.integer matches 0.. run scoreboard players set rotting siscu.integer 1
 execute unless score rotting_random_limit siscu.integer matches 0.. run scoreboard players set rotting_random_limit siscu.integer 10
 execute unless score rotting_timer_limit siscu.integer matches 0.. run scoreboard players set rotting_timer_limit siscu.integer 15
+## load balancer
+scoreboard players set 20 siscu.balancer 20
 
 # announce
 tellraw @a [{"text":"   Survivor's Elegy","color":"gold","bold":true}]

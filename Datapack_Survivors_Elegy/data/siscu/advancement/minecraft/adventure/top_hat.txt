@@ -1,0 +1,39 @@
+{
+	"parent": "minecraft:adventure/root",
+	"display":{
+			"icon": {
+					"id": "minecraft:bundle",
+					"components": {"item_model":"siscu_se:top_hat"}
+			},
+			"title": {"translate": "advancements.siscu.minecraft.top_hat.title"},
+			"description": [{
+				"translate": "advancements.siscu.minecraft.top_hat.description"
+				},
+				{
+					"text":"\nSurvivor's Elegy",
+					"color": "gold",
+					"italic": true
+				}
+		],
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false,
+		"frame": "task"
+	},
+	"criteria": {
+		"0": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"player": {
+					"slots": {
+						"armor.head": {
+							"predicates": {
+								"custom_data": {"SE_data":{"id":"siscu:top_hat"}}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

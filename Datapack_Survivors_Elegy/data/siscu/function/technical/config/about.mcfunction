@@ -1,0 +1,13 @@
+tellraw @s [{"translate":"\n\n\n\n%====== About ======[","bold":true},{"text":"Return","font":"siscu_se:superscript","bold":false,"color":"red","click_event":{"action":"run_command","command":"/function siscu:config"},"hover_event":{"action":"show_text","value":{"text":"Return to menu"}}},{"text":"]"}]
+
+tellraw @s [{"text":"Survivor's Elegy\n","color":"gray"}]
+tellraw @s [{"text":"Datapack Version: ","color":"gray"},{"storage":"siscu:world","nbt":"PackVersion","color":"gold"}]
+tellraw @s [{"text":"Loaded Resourcepack Version: ","color":"gray"},{"translate":"pack.siscu.version","bold":true,"color":"green","fallback": "%s","with": [{"text": "-no pack loaded-","color": "red"}]},{text:" (required: "},{storage:"siscu:world","nbt":"RPVersion",bold:true,color:gold},{text:" )"}]
+tellraw @s [{"text":"[Credits]","color":"gray","click_event":{"action": "run_command","command": "/function siscu:technical/config/credits"},"hover_event": {"action": "show_text","value": "Click to check everyone who has influenced this project"}}]
+tellraw @s [{"text":"Links:","bold": true,"color": "gray"}]
+tellraw @s [{"text":"  [Discord]","bold":false,"color":"aqua","click_event":{"action":"open_url","url":"https://discord.gg/AQBdJTr"},"hover_event":{"action":"show_text","value":{"text":"https://discord.gg/AQBdJTr"}}},{"text":"        ","hover_event":{"action":"show_text","value":{"text":""}}},{"text":"[Wiki]","click_event":{"action":"open_url","url":"https://github.com/CiscuLog/Survivor-s-Elegy/wiki"},"hover_event":{"action":"show_text","value":{"text":"github.com/CiscuLog/Survivor-s-Elegy/wiki"}}},{"text":"            ","hover_event":{"action":"show_text","value":{"text":""}}}]
+tellraw @s [{"text":"   [F.A.Q.]","bold":false,"color":"red","click_event":{"action":"open_url","url":"https://github.com/CiscuLog/Survivor-s-Elegy/wiki/Frequently-Asked-Questions"},"hover_event":{"action":"show_text","value":{"text":"https://github.com/CiscuLog/Survivor-s-Elegy/wiki/Frequently-Asked-Questions"}}},{"text":"      ","hover_event":{"action":"show_text","value":{"text":""}}},{"text":"[Bug Report]","bold":false,"color":"red","click_event":{"action":"open_url","url":"https://github.com/CiscuLog/Survivor-s-Elegy/issues"},"hover_event":{"action":"show_text","value":{"text":"https://github.com/CiscuLog/Survivor-s-Elegy/issues"}}}]
+tellraw @s [{"text":"         ","color":"red"},{"text":"[Uninstall]","click_event":{"action":"open_url","url":"https://github.com/CiscuLog/Survivor-s-Elegy/blob/main/HOW_TO_UNINSTALL.txt"},"hover_event":{"action":"show_text","value":{"text":"https://github.com/CiscuLog/Survivor-s-Elegy/blob/main/HOW_TO_UNINSTALL.txt"}}}]
+
+tellraw @s [{"text":"\n"}]
+playsound minecraft:block.note_block.bell master @s ~ ~ ~ 1 1

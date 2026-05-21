@@ -3,7 +3,7 @@
 	"entity": "this",
 	"predicate": {
 		"vehicle": {
-			"type": "minecraft:strider"
+			"entity_type": "minecraft:strider"
 		}
 	}
 }

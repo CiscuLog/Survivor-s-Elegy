@@ -1,0 +1,48 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bundle",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_name": {"translate":"item.siscu.top_hat"},
+                                "minecraft:lore": [
+                                    {"translate":"text.siscu.sun_protection","color":"gray","italic":false}
+                                ],
+                                "item_model": "siscu_se:top_hat",
+                                "minecraft:custom_data": {
+                                    "SE_data": {
+                                        "id": "siscu:top_hat",
+                                        "UpdateVersion": "v1.0.10"
+                                    }
+                                },
+                                "equippable": {
+                                    "slot": "head",
+                                    "damage_on_hurt": false
+                                },
+                                "dyed_color": 4342338
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:armor",
+                                    "id": "9c95950d-b664-4a56-b71d-f19e6718e97d",
+                                    "amount": 1,
+                                    "operation": "add_value",
+                                    "slot": "head"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

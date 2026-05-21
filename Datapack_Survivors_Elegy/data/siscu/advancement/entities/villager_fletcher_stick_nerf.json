@@ -1,4 +1,5 @@
 {
+	"parent": "siscu:entities/root",
 	"criteria": {
 		"0": {
 			"trigger":"minecraft:tick",
@@ -23,6 +24,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:entities/villager/fletcher_tier1"
+		"function": "siscu:entities/villager/fletcher/tier1"
 	}
 }

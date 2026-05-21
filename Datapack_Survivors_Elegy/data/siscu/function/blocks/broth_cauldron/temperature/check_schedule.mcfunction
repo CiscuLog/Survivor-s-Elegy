@@ -1,3 +1,2 @@
 
-execute as @e[type=interaction,tag=siscu.broth_cauldron] at @s run function siscu:blocks/broth_cauldron/temperature/check
-schedule function siscu:blocks/broth_cauldron/temperature/check_schedule 1s
+execute as @e[type=interaction,tag=siscu.broth_cauldron] at @s if function siscu:blocks/broth_cauldron/temperature/check run schedule function siscu:blocks/broth_cauldron/temperature/check_schedule 1s

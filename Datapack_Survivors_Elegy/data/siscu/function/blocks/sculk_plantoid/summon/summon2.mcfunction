@@ -1,0 +1,2 @@
+execute as @e[type=item_display,tag=siscu.sculk_plantoid_new] run data merge entity @s {transformation:{translation:[0.0,1.65,0.0]}}
+tag @e[type=item_display,tag=siscu.sculk_plantoid_new] remove siscu.sculk_plantoid_new

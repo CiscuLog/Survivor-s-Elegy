@@ -1,0 +1,2 @@
+
+execute as @e[type=interaction,tag=siscu.player_corpse] if score @s siscu.entity_hit matches 1.. if function siscu:entities/player_corpse/attack/recover run schedule function siscu:entities/player_corpse/attack/recover_schedule 1s

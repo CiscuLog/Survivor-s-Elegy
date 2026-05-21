@@ -1,0 +1,3 @@
+
+$execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon item_display ~ ~ ~ {Tags:["siscu.lectern_book","smithed.strict","smithed.entity"],item:{id:"book",components:{item_model:"siscu_se:lectern_book",custom_model_data:{strings:["minecraft:vanilla"]}}},transformation:{scale:[1.03f,1.03f,1.03f],left_rotation:[0,0,0,1],right_rotation:[0,0,0,1],translation:[0,0,0]},Rotation:$(Rotation)}
+execute align xyz positioned ~0.5 ~0.5 ~0.5 as @n[type=item_display,tag=siscu.lectern_book] at @s run function siscu:blocks/lectern_books/update/texture

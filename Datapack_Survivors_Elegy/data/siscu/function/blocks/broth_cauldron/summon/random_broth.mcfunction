@@ -7,4 +7,4 @@ execute as @n[type=interaction,tag=siscu.broth_cauldron] store result entity @s 
 execute as @n[type=interaction,tag=siscu.broth_cauldron] store result entity @s data.broth_level int 1 run random value 0..3
 ## Stains
 execute as @n[type=item_display,tag=siscu.broth_water] store result entity @s data.stains int 1 run random value 0..35
-execute as @n[type=item_display,tag=siscu.broth_water] run function siscu:blocks/broth_cauldron/interact/scoop/stain
+execute as @n[type=item_display,tag=siscu.broth_water] run function siscu:blocks/broth_cauldron/interact/stain/stain

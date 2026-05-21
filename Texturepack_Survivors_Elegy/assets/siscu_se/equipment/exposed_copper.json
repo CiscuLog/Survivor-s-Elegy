@@ -9,6 +9,11 @@
       {
         "texture": "siscu_se:exposed_copper"
       }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "siscu_se:exposed_copper"
+      }
     ]
   }
 }

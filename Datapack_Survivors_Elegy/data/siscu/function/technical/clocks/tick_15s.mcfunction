@@ -10,10 +10,12 @@ execute as @e[type=#siscu:lamp_holders,tag=!smithed.entity] run function siscu:e
 execute if entity @e[type=marker,tag=siscu.well_unused] run function siscu:world/desert_well/reward_schedule
 
 ## Sculk Plantoids ##
-execute if entity @e[type=marker,tag=siscu.sculk_plantoid] run function siscu:blocks/sculk_plantoid/mantain_plantoid
+execute if entity @e[type=interaction,tag=siscu.sculk_plantoid] run function siscu:blocks/sculk_plantoid/update/clock
 
 ## alpha 0.9.3: mirage displays and Broth Textures ##
 schedule function siscu:entities/mirage_display/empty_effects 1t
-schedule function siscu:blocks/broth_cauldron/update/check_schedule 1t append
+schedule function siscu:blocks/broth_cauldron/maintain/check_schedule 1t append
+
+execute if entity @e[type=interaction,tag=siscu.player_corpse] run schedule function siscu:entities/player_corpse/update/schedule 1t
 
 schedule function siscu:technical/clocks/tick_15s 15s

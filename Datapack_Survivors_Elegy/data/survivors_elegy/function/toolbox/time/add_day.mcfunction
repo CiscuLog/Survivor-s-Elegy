@@ -1,9 +1,9 @@
 
-execute store result score x siscu.volatile run time query day
+execute store result score x siscu.volatile run time query day repetition
 scoreboard players add x siscu.volatile 1
 scoreboard players set y siscu.volatile 24000
 scoreboard players operation x siscu.volatile *= y siscu.volatile
-execute store result score y siscu.volatile run time query daytime
+execute store result score y siscu.volatile run time query day
 scoreboard players operation x siscu.volatile += y siscu.volatile
 
 execute store result storage siscu:volatile x int 1 run scoreboard players get x siscu.volatile

@@ -1,0 +1,24 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"0": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["glass_bottle"]
+				}]
+			}
+		},
+		"1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["cactus"]
+				}]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["siscu:water_bottle_cactus"]
+	}
+}

@@ -22,22 +22,26 @@
 		],
 		"show_toast": true,
 		"announce_to_chat": false,
-		"hidden": false,
+		"hidden": true,
 		"frame": "challenge"
 	},
 	"criteria": {
+		"1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": { "custom_data": { "SE_data": { "id": "siscu:fish" } } }
+					}
+				]
+			}
+		},
 		"2": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"predicates": {
-							"custom_data": {
-								"SE_data": {
-									"id": "siscu:catfish"
-								}
-							}
-						}
+						"predicates": { "custom_data": { "SE_data": { "id": "siscu:catfish" } } }
 					}
 				]
 			}
@@ -47,13 +51,7 @@
 			"conditions": {
 				"items": [
 					{
-						"predicates": {
-							"custom_data": {
-								"SE_data": {
-									"id": "siscu:tuna"
-								}
-							}
-						}
+						"predicates": { "custom_data": { "SE_data": { "id": "siscu:tuna" } } }
 					}
 				]
 			}
@@ -63,13 +61,7 @@
 			"conditions": {
 				"items": [
 					{
-						"predicates": {
-							"custom_data": {
-								"SE_data": {
-									"id": "siscu:turbot"
-								}
-							}
-						}
+						"predicates": { "custom_data": { "SE_data": { "id": "siscu:turbot" } } }
 					}
 				]
 			}
@@ -79,13 +71,7 @@
 			"conditions": {
 				"items": [
 					{
-						"predicates": {
-							"custom_data": {
-								"SE_data": {
-									"id": "siscu:hake"
-								}
-							}
-						}
+						"predicates": { "custom_data": { "SE_data": { "id": "siscu:hake" } } }
 					}
 				]
 			}
@@ -95,13 +81,7 @@
 			"conditions": {
 				"items": [
 					{
-						"predicates": {
-							"custom_data": {
-								"SE_data": {
-									"id": "siscu:bass"
-								}
-							}
-						}
+						"predicates": { "custom_data": { "SE_data": { "id": "siscu:bass" } } }
 					}
 				]
 			}
@@ -111,13 +91,7 @@
 			"conditions": {
 				"items": [
 					{
-						"predicates": {
-							"custom_data": {
-								"SE_data": {
-									"id": "siscu:trout"
-								}
-							}
-						}
+						"predicates": { "custom_data": { "SE_data": { "id": "siscu:trout" } } }
 					}
 				]
 			}
@@ -127,13 +101,7 @@
 			"conditions": {
 				"items": [
 					{
-						"predicates": {
-							"custom_data": {
-								"SE_data": {
-									"id": "siscu:koi"
-								}
-							}
-						}
+						"predicates": { "custom_data": { "SE_data": { "id": "siscu:koi" } } }
 					}
 				]
 			}
@@ -143,43 +111,14 @@
 			"conditions": {
 				"items": [
 					{
-						"predicates": {
-							"custom_data": {
-								"SE_data": {
-									"id": "siscu:pufferfish"
-								}
-							}
-						}
+						"predicates": { "custom_data": { "SE_data": { "id": "siscu:pufferfish" } } }
 					}
 				]
 			}
 		}
 	},
 	"requirements": [
-		[
-			"2"
-		],
-		[
-			"3"
-		],
-		[
-			"4"
-		],
-		[
-			"5"
-		],
-		[
-			"6"
-		],
-		[
-			"7"
-		],
-		[
-			"8"
-		],
-		[
-			"9"
-		]
+		[ "1" ], [ "2" ], [ "3" ], [ "4" ], [ "5" ], [ "6" ], [ "7" ], [ "8" ], [ "9" ]
 	],
 	"rewards": {
 		"experience": 1000

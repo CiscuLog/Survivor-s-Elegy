@@ -2,8 +2,7 @@ execute as @n[type=trader_llama,limit=2,distance=..10] run function siscu:world/
 
 scoreboard players set trader_companion siscu.volatile 0
 execute if predicate siscu:utils/1_percent run scoreboard players set trader_companion siscu.volatile 1
-#execute if score trader_companion siscu.volatile matches 1 summon donkey run function siscu:entities/wandering_trader/companions/bremen
-#execute if score trader_companion siscu.volatile matches 1 run return 0
+execute if score trader_companion siscu.volatile matches 1 summon donkey run return run function siscu:entities/wandering_trader/companions/bremen
 
 # Pack animal
 execute store result score trader_companion siscu.volatile run random value 1..3

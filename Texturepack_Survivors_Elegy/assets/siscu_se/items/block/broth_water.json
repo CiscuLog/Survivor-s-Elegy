@@ -32,7 +32,7 @@
 			"cases": [
 				{
 					"when": "stained",
-					"model": {"type": "model","model": "siscu_se:item/block/broth_cauldron_stained", "tints": [ {"type": "constant","value": 10968102} ]}
+					"model": {"type": "model","model": "siscu_se:item/block/broth_cauldron_stained", "tints": [ {"type": "dye","default": -6265536} ]}
 				},
 				{
 					"when": "dirty",

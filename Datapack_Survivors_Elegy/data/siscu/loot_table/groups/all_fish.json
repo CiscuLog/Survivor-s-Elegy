@@ -6,24 +6,13 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
+          "type": "loot_table",
+          "value": "gameplay/fishing/fish",
+          "weight": 4
+        },
+        {
           "type": "minecraft:loot_table",
           "value": "siscu:items/food/fish"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cod"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:salmon"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:tropical_fish"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:pufferfish"
         },
         {
           "type": "minecraft:loot_table",

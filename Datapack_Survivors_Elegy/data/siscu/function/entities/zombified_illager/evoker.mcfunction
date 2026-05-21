@@ -1,3 +1,4 @@
+execute if entity @s[predicate=siscu:utils/is_baby] run return run tag @s remove siscu.zombified_evoker
 tag @s add siscu.zombified_evoker
 
 loot replace entity @s armor.chest loot siscu:items/combat/evoker_chestplate

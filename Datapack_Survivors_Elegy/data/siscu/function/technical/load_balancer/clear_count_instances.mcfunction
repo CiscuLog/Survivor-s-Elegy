@@ -1,0 +1,21 @@
+
+scoreboard players reset instances_0 siscu.balancer
+scoreboard players reset instances_1 siscu.balancer
+scoreboard players reset instances_2 siscu.balancer
+scoreboard players reset instances_3 siscu.balancer
+scoreboard players reset instances_4 siscu.balancer
+scoreboard players reset instances_5 siscu.balancer
+scoreboard players reset instances_6 siscu.balancer
+scoreboard players reset instances_7 siscu.balancer
+scoreboard players reset instances_8 siscu.balancer
+scoreboard players reset instances_9 siscu.balancer
+scoreboard players reset instances_10 siscu.balancer
+scoreboard players reset instances_11 siscu.balancer
+scoreboard players reset instances_12 siscu.balancer
+scoreboard players reset instances_13 siscu.balancer
+scoreboard players reset instances_14 siscu.balancer
+scoreboard players reset instances_15 siscu.balancer
+scoreboard players reset instances_16 siscu.balancer
+scoreboard players reset instances_17 siscu.balancer
+scoreboard players reset instances_18 siscu.balancer
+scoreboard players reset instances_19 siscu.balancer

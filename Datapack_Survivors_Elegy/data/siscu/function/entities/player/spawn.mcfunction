@@ -1,5 +1,5 @@
 # First Day Check #
-execute store result score Day siscu.day run time query day
+execute store result score Day siscu.day run time query day repetition
 execute unless data storage siscu:world {FirstLogin:1} if score Day siscu.day matches 0 run function siscu:world/day_features/day_set_morning
 # Give Config Book
 execute unless data storage siscu:world {FirstLogin:1} run loot give @s loot siscu:items/operator_utilities/config

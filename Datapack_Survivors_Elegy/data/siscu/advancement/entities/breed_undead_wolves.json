@@ -1,4 +1,5 @@
 {
+	"parent": "siscu:entities/root",
 	"criteria": {
 		"0": {
 			"trigger": "minecraft:bred_animals",
@@ -9,7 +10,7 @@
 						"terms": [
 							{
 								"condition": "reference",
-								"name": "siscu:entities/wolf_undead"
+								"name": "siscu:entities/variant_undead"
 							}
 						]
 					}

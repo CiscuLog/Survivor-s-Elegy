@@ -22,11 +22,11 @@
         },
         {
             "type": "single",
-            "resource": "entity/wandering_trader"
+            "resource": "entity/wandering_trader/wandering_trader"
         },
         {
             "type": "single",
-            "resource": "entity/witch"
+            "resource": "entity/witch/witch"
         },
         {
             "type": "directory",
@@ -72,6 +72,16 @@
             "type": "directory",
             "source": "entity/zombie_villager",
             "prefix": "entity/zombie_villager/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/player/wide",
+            "prefix": "entity/player/wide/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/zombie",
+            "prefix": "entity/zombie/"
         }
     ]
 }

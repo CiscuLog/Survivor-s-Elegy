@@ -1,3 +1,4 @@
+execute if entity @s[predicate=siscu:utils/is_baby] run return run tag @s remove siscu.zombified_witch
 tag @s add siscu.zombified_witch
 
 loot replace entity @s armor.head loot siscu:items/combat/witch_hat

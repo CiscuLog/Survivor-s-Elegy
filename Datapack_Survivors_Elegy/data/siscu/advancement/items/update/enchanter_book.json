@@ -1,4 +1,5 @@
 {
+	"parent": "siscu:items/root",
     "criteria": {
         "0": {
             "trigger": "minecraft:tick",

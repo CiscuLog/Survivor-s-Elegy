@@ -1,14 +1,14 @@
 
 tag @s add wolf_checked
 tag @s add siscu.zombifying_invulnerable
-tag @s add withering_invulnerable
+tag @s add siscu.withering_invulnerable
 tag @s remove siscu.rot_checked
 scoreboard players reset @s siscu.rotting_mob
 scoreboard players reset @s siscu.withering
 
 # Clear database
 data modify storage siscu:volatile UUID set from entity @s UUID
-function siscu:entities/wolf/macro/remove_from_list with storage siscu:volatile
+function siscu:entities/wolf/curing_legacy/remove_from_list with storage siscu:volatile
 
 # Set entity data
 data merge entity @s {variant:"siscu:withered_skeleton"}

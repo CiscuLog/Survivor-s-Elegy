@@ -1,3 +1,4 @@
+execute if entity @s[predicate=siscu:utils/is_baby] run return run tag @s remove siscu.zombified_wandering_trader
 tag @s add siscu.zombified_wandering_trader
 
 loot replace entity @s armor.head loot siscu:items/combat/wandering_trader_hat

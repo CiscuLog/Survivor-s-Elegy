@@ -1,4 +1,5 @@
 {
+	"parent": "siscu:items/root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

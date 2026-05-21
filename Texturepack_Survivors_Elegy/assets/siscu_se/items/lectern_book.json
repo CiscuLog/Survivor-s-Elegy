@@ -1,0 +1,22 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "index": 0,
+        "cases": [
+            {
+                "model": {"type": "model","model": "siscu_se:item/lectern_book_purple"},
+                "when": "siscu:potion_book"
+            },
+            {
+                "model": {"type": "model","model": "siscu_se:item/lectern_book_green"},
+                "when": "siscu:suspicious_stew_book"
+            },
+            {
+                "model": {"type": "model","model": "siscu_se:item/lectern_book"},
+                "when": "siscu:pamphlet"
+            }
+        ],
+        "fallback": {"type": "empty"}
+    }
+}

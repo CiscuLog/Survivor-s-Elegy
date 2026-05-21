@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:multi_action",
+  "external_title": [
+    {"translate": "pack.loaded","fallback": "","with": [{"translate": "\u1000","font": "siscu_se:icons"}]},
+    {"text": " Survivor's Elegy"}
+  ],
+  "title": [
+    {"translate": "pack.loaded","fallback": "","with": [{"translate": "\u1000","font": "siscu_se:icons"}]},
+    {"translate": "pack.siscu","fallback":"Survivor's Elegy"},
+    {"translate": "pack.loaded","fallback": "","with": [{"translate": "\u1000","font": "siscu_se:icons"}]}
+  ],
+  "body": [
+    {
+        "type": "plain_message",
+        "contents": [{"text":"Loaded Resourcepack Version: ","color":"gray"},
+        {"translate":"pack.siscu.version","bold":true,"color":"green","fallback": "%s","with": [{"text": "-no pack loaded-","color": "red"}]},
+        {"text":" (required: "},{"text":"8","bold":true,"color":"gold"},{"text":" )"}]
+    },
+    {
+      "type": "plain_message",
+      "contents": {
+        "text": "v1.0.10\nBy Siscu",
+        "color": "gray"
+      },
+      "width": 300
+    }
+  ],
+  "actions": [
+    {
+      "label": [{"text":"Smithed"}],
+      "action": {
+        "type": "open_url",
+        "url": "https://smithed.net/packs/survivor-s-elegy"
+      }
+    },
+    {
+      "label": [{"text":"Modrinth"}],
+      "action": {
+        "type": "open_url",
+        "url": "https://modrinth.com/datapack/survivors-elegy"
+      }
+    },
+    {
+      "label": [{"text":"Wiki"}],
+      "action": {
+        "type": "open_url",
+        "url": "https://github.com/CiscuLog/Survivor-s-Elegy/wiki"
+      }
+    },
+    {
+      "label": [{"text":"FAQ"}],
+      "action": {
+        "type": "open_url",
+        "url": "https://github.com/CiscuLog/Survivor-s-Elegy/wiki/Frequently-Asked-Questions"
+      }
+    },
+    {
+      "label": [{"text":"Bug Report"}],
+      "action": {
+        "type": "open_url",
+        "url": "https://github.com/CiscuLog/Survivor-s-Elegy/issues"
+      }
+    },
+    {
+      "label": [{"text":"Uninstall"}],
+      "action": {
+        "type": "open_url",
+        "url": "https://github.com/CiscuLog/Survivor-s-Elegy/blob/main/HOW_TO_UNINSTALL.txt"
+      }
+    }
+  ],
+  "exit_action": {
+    "label": [{"text":"Return"}],
+    "action": {"type": "show_dialog","dialog": "smithed:data_packs"}
+  }
+}

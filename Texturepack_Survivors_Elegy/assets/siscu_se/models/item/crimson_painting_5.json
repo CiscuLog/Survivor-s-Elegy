@@ -1,6 +1,0 @@
-{
-	"parent": "siscu_se:item/crimson_painting_0",
-	"textures": {
-		"layer0": "siscu_se:item/piglin_decoration/crimson_painting_5"
-	}
-}

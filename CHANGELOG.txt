@@ -1,5 +1,54 @@
 
-Compatible Minecraft versions: 1.21.11
+Compatible Minecraft versions: 26.1.2
+
+Survivor's Elegy 1.0.10 (21/05/2026)
++ Updated to 26.1.2
++ Changed resourcepack version to 8
++ Add baby mob variants for zombified, skeleton and withered variant textures
++ Added "about" dialog tab using Smithed conventions
++ Added baby armor textures for copper oxidation levels, suits and stray gear
++ Added Bremen companions back
++ Added broths with weakness and absorption are now able to cure the phage status
++ Added chorus fruit will add teleportation capabilities to broths
++ Added Combat Sticks can now be found on Desert Wells as rewards
++ Added custom books will have new textures when placed on lecterns. This applies to Pamphlets, Potion Grimoires and Apothecary Guides
++ Added hitting Mirage Displays will generate end_rod particles
++ Added mobs that spawn in trial chambers won't be processed by the datapack's entity modifications
++ Added mobs that spawn with trimmed armor won't be processed by the datapack's entity modifications
++ Added Phantoms will spawn on Infected Citadels along with infected zombies. There can be only 5 phantoms at a time
++ Added piglets spawned by breeding will have the same variant as the closest adult pig
++ Added sculk plantoid breaking sounds
++ Added sculk plantoids will now eject multiple xp orbs when being destroyed
++ Added using a debug stick on a broth cauldron interaction will cycle between stain stages
++ Added Villager Mending Nerf warning message. It will show up if the player has repeatedly placed a lectern and interacted with a novice librarian in a short amount of time
++ Added xp_bottle_from_plantoid advancement
++ Changed "Echo Botanist" from goal to task
++ Changed "Fishmonger" requires the item "Fish"
++ Changed Copper Horse Armor saddle colors to vanilla's
++ Changed custom items are now added to vanilla loot chests after generating the vanilla loot table
++ Changed Enchanter Guides now roll random enchantments proportional to the xp level on the player, as if it were enchanting it in the enchanting table. It consumes up to 3 lapis and 3 xp levels. Treasure enchantments (mending, frost walker or mount catalyst) now have a 5% chance of being rolled anytime
++ Changed fishing system no longer replaces the vanilla loot table. Changed to an advancement-controlled system that will be interrupted if the reeled fish item has custom data
++ Changed Mirage Displays interaction responses don't have hitting noises anymore
++ Changed Novice Fishermen sells two random fish in exchange for a local fish variant and emeralds. Previously, they always traded Koi
++ Changed sounds for Sculk Plantoids
++ Changed the namespace "siscu" no longer uses functions from the "surivors_elegy" namespace's toolbox
++ Changed Trader Camps no longer rely on postgen systems
++ Fixed banners would drag behind boats when first being placed in a boat
++ Fixed Bee Counter floating displays flickering
++ Fixed Broth Cauldrons and Sculk Plantoids could take up to 30 seconds between being placed and acting correctly
++ Fixed Broth Cauldrons temperature clock would stop if the only broth cauldron in the world had no water
++ Fixed fire springs not spawning
++ Fixed Skeleton Librarian Villagers dropped Enchanted Books with no enchantments on them
++ Fixed undead baby creatures could grow up if rapidly fed
++ Fixed Villager Mending Nerf not working
++ Fixed wandering trader companions despawning system
++ Removed Name Tags from the Desert Well rewards
++ Removed Zombie Horses and Skeleton Horses advancements
++ Reverted Polar Bear death loot table to vanilla
++ Updated all clocks predicates
++ Updated baby mob stalling method to use new NBTs
++ Updated elytra shootdown. Technically simplified the system
++ Updated Sculk Plantoids system to 26.1 standards
 
 Survivor's Elegy 1.0.9 (13/01/2026)
 + Updated to resourcepack version to 7

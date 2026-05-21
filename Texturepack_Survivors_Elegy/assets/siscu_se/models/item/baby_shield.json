@@ -34,13 +34,13 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, 90, 0],
-			"translation": [1, -2, 5],
-			"scale": [2, 2, 2]
+			"translation": [0.5, -1, 3],
+			"scale": [1, 1, 1]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [0, 90, 0],
-			"translation": [1, -2, 5],
-			"scale": [2, 2, 2]
+			"translation": [0.5, -1, 3],
+			"scale": [1, 1, 1]
 		},
 		"firstperson_righthand": {
 			"rotation": [0, 180, 5],

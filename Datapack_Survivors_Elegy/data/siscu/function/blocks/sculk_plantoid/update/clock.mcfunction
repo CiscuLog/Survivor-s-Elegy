@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=siscu.sculk_plantoid] at @s if function siscu:blocks/sculk_plantoid/update/mantain_plantoid run schedule function siscu:blocks/sculk_plantoid/update/clock 6t

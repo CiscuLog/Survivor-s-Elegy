@@ -1,5 +1,6 @@
 {
   "type": "crafting_shaped",
+  "category": "misc",
   "group": "paper",
   "pattern": [
     "###"

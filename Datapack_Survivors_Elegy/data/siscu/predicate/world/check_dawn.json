@@ -1,5 +1,6 @@
 {
 	"condition": "minecraft:time_check",
 	"value": {"min":23450,"max":24000},
-	"period": 24000
+	"period": 24000,
+	"clock": "minecraft:overworld"
 }

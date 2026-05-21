@@ -1,4 +1,5 @@
 {
+	"parent": "siscu:entities/root",
 	"criteria": {
 		"0": {
 			"trigger":"minecraft:player_killed_entity",

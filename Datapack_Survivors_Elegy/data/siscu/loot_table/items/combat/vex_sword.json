@@ -10,7 +10,7 @@
 			{
 				"function": "minecraft:set_components",
 				"components": {
-					"item_model": "siscu_se:baby_iron_sword"
+					"item_model": "siscu_se:vex_sword"
 				}
 			}
 			]

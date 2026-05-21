@@ -1,4 +1,5 @@
 {
+	"parent": "siscu:entities/root",
 	"criteria": {
 		"0": {
 			"trigger":"minecraft:tick",
@@ -39,6 +40,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:entities/villager/armorer_tier5_detect"
+		"function": "siscu:entities/villager/armorer/tier5_detect"
 	}
 }

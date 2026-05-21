@@ -34,3 +34,5 @@ execute if predicate siscu:locations/broth_conditions/dumb_source if score @s si
 
 # clamp max temp to 150
 execute if score @s siscu.broth_temperature matches 151.. run scoreboard players set @s siscu.broth_temperature 150
+
+return 1

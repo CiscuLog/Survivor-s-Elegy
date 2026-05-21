@@ -1,5 +1,6 @@
 {
   "type": "minecraft:blasting",
+  "category": "blocks",
   "ingredient": "minecraft:raw_gold_block",
   "result": {"id":"minecraft:gold_block"},
   "experience": 9.0,

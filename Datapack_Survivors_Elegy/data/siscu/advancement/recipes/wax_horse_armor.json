@@ -1,4 +1,5 @@
 {
+	"parent": "recipes/root",
 	"criteria": {
         "0": {
             "trigger": "minecraft:inventory_changed",

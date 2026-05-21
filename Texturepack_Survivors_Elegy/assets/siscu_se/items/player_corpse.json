@@ -1,0 +1,36 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "fleeing",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "model": {"type": "model","model": "siscu_se:item/player_corpse/fleeing/player"},
+              "when": "player"
+            },
+            {
+              "model": {"type": "model","model": "siscu_se:item/player_corpse/fleeing/zombie"},
+              "when": "zombie"
+            },
+            {
+              "model": {"type": "model","model": "siscu_se:item/player_corpse/fleeing/skeleton"},
+              "when": "skeleton"
+            }
+          ],
+          "fallback": {"type": "model","model": "siscu_se:item/player_corpse/fleeing/rotting_player"}
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "siscu_se:item/player_corpse/standing_skeleton"
+    }
+  }
+}

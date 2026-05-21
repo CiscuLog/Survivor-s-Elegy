@@ -1,6 +1,6 @@
 execute unless score vibrations_max siscu.integer matches 0.. run function siscu:technical/load/load_first_time
 
-tellraw @s [{"translate":"\n\n\n\n%====== Amethyst Shield Config ======[","bold":true,"color":"aqua"},{"text":"Return","font":"siscu_se:superscript","bold":false,"color":"red","click_event":{"action":"run_command","command":"/function siscu:technical/items/menu"},"hover_event":{"action":"show_text","value":{"text":"Return to menu"}}},{"text":"]","color":"aqua"}]
+tellraw @s [{"translate":"\n\n\n\n%====== Amethyst Shield Config ======[","bold":true,"color":"aqua"},{"text":"Return","font":"siscu_se:superscript","bold":false,"color":"red","click_event":{"action":"run_command","command":"/function siscu:technical/config/items/menu"},"hover_event":{"action":"show_text","value":{"text":"Return to menu"}}},{"text":"]","color":"aqua"}]
 
 tellraw @s [{"text":"About: ","color":"white","bold":true},{"text":" Amethyst shields store \"vibrations\" while blocking standing up to build up \"charges\". Those charges can then be spent by blocking while crouching on a burst of energy that knocks mobs away.\n","color":"white","bold":false}]
 

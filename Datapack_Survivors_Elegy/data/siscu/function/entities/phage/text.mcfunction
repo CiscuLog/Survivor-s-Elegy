@@ -1,7 +1,7 @@
 
 scoreboard players operation timer.time_in_seconds siscu.volatile = @s siscu.zombifying
 scoreboard players operation timer.time_in_seconds siscu.volatile *= -1 siscu.integer
-function siscu:technical/display_seconds_in_minutes
+function siscu:technical/operations/display_seconds_in_minutes
 
 #title @s reset
 execute if score @s siscu.zombifying matches 0 run return run title @s actionbar [{"text":"\u2000","font":"siscu_se:icons","color":"white"},{"text":" You have been Zombified ",bold:true,color:red,"font":"minecraft:default"},{"text":"\u2000"}]

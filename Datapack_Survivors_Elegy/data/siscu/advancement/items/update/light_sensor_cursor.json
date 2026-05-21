@@ -1,4 +1,5 @@
 {
+	"parent": "siscu:items/root",
     "rewards": {
         "function": "siscu:items/use/light_sensor/reset_item"
     },

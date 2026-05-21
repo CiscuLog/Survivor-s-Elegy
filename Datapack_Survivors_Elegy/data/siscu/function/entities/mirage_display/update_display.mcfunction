@@ -6,3 +6,4 @@ data merge entity @n[type=item_display,tag=siscu.mirage] {billboard:"vertical",i
 #playsound minecraft:block.trial_spawner.spawn_item_begin block @a ~ ~ ~ 0.5 1.5
 playsound siscu_se:item.mirage_bottle.update block @a ~ ~ ~ 0.5 1.5
 execute as @p[tag=siscu.mirage_interacting] if items entity @s weapon.mainhand *[minecraft:custom_data~{SE_data:{id:"siscu:mirage_bottle"}}] run advancement grant @s only siscu:minecraft/end/mirage_bottle_on_mirage
+execute at @s run particle end_rod ~ ~0.2 ~ 0 0 0 0.03 5

@@ -2,7 +2,7 @@
 	"model": {
 		"type": "condition",
 		"property": "using_item",
-		"on_false": {"type": "model","model": "siscu_se:item/warped_shield_4"},
-		"on_true": {"type": "model","model": "siscu_se:item/warped_shield_4_blocking"}
+		"on_false": {"type": "model","model": "siscu_se:item/piglin/shields/warped_shield_4"},
+		"on_true": {"type": "model","model": "siscu_se:item/piglin/shields/warped_shield_4_blocking"}
 	}
 }

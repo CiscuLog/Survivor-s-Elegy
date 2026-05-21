@@ -1,6 +1,6 @@
 
-execute store result score x siscu.volatile run time query day
-execute store result score y siscu.volatile run time query daytime
+execute store result score x siscu.volatile run time query day repetition
+execute store result score y siscu.volatile run time query day
 execute unless score y siscu.volatile matches 23450.. run scoreboard players remove x siscu.volatile 1
 execute if score x siscu.volatile matches ..-1 run scoreboard players set x siscu.volatile 0
 scoreboard players set y siscu.volatile 24000

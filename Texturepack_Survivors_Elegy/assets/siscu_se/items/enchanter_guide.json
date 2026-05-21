@@ -1,6 +1,8 @@
 {
   "model": {
-    "type": "model",
-    "model": "siscu_se:item/enchanter_guide"
+    "type": "condition",
+    "property": "using_item",
+    "on_true": { "type": "model", "model": "siscu_se:item/enchanter_guide" },
+    "on_false": { "type": "model", "model": "siscu_se:item/enchanter_guide" }
   }
 }

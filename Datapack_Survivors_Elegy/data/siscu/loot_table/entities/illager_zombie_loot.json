@@ -11,7 +11,7 @@
 				"conditions": [{
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
-					"predicate": {"type": "minecraft:zombie_villager"}
+					"predicate": {"entity_type": "minecraft:zombie_villager"}
 				}]
 			},
 			{
@@ -20,7 +20,7 @@
 				"conditions": [{
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
-					"predicate": {"type": "minecraft:skeleton"}
+					"predicate": {"entity_type": "minecraft:skeleton"}
 				}]
 			}
 		]

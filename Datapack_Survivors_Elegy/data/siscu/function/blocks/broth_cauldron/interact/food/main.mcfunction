@@ -58,6 +58,12 @@ execute if items entity @s weapon.mainhand #siscu:broth_give_effects if function
 # if item clears an effect
 execute if items entity @s weapon.mainhand honey_bottle run function siscu:blocks/broth_cauldron/interact/food/clears_effects
 
+# if item teleports the player
+execute if items entity @s weapon.mainhand chorus_fruit as @n[tag=siscu.broth_interacted] run function siscu:blocks/broth_cauldron/interact/food/add_tp_capabilities
+
+# Increase ingredient count
+scoreboard players add ingredients_amount siscu.broth_data 1
+
 # store data
 execute as @n[type=interaction,tag=siscu.broth_interacted] at @s run function siscu:blocks/broth_cauldron/interact/food/cauldron
 

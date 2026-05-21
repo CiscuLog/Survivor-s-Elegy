@@ -1,0 +1,16 @@
+{
+	"parent": "siscu:entities/root",
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "#boat"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:entities/boat/hurt_boat"
+	}
+}

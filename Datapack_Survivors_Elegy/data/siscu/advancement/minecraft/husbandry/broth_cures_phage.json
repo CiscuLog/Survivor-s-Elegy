@@ -1,0 +1,35 @@
+{
+	"parent": "siscu:minecraft/husbandry/broth_potion",
+	"display":{
+		"icon": {
+				"id": "minecraft:suspicious_stew",
+				"components": {"item_model":"siscu_se:broth_bowl","dyed_color": 16701501}
+		},
+		"title": {"translate": "advancements.siscu.minecraft.broth_cures_phage.title"},
+		"description": [{
+			"translate": "advancements.siscu.minecraft.broth_cures_phage.description"
+			},
+			{
+				"text":"\nSurvivor's Elegy",
+				"color": "gold",
+				"italic": true
+			}
+		],
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"1":{
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"custom_data": {"SE_data":{"id":"siscu:broth","flags":[{"cures_phage":true}]}}
+					}
+				}
+			}
+		}
+	}
+}

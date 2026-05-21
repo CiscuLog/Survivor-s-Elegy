@@ -1,4 +1,5 @@
 {
+	"parent": "siscu:items/root",
 	"criteria": {
 		"0": {
 			"trigger": "minecraft:item_used_on_block",

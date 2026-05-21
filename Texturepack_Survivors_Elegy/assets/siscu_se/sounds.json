@@ -28,8 +28,8 @@
 		}
 		]
 	},
-	"item.ladle.stirr": {
-		"subtitle": "sound.siscu.ladle_stirr",
+	"item.ladle.stir": {
+		"subtitle": "sound.siscu.ladle_stir",
 		"sounds": [
 		"item/bottle/drink_honey1",
 		"item/bottle/drink_honey2",

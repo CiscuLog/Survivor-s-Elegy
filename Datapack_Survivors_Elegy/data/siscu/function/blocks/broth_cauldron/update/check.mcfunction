@@ -14,6 +14,7 @@ execute store result score broth_level siscu.broth_data run data get entity @s d
 
 # textures
 execute at @s run function siscu:blocks/broth_cauldron/update/textures
+#execute at @s run function siscu:blocks/broth_cauldron/update/water_color/main
 
 # return if the water level hasn't changed
 execute if score cauldron_level siscu.broth_data = broth_level siscu.broth_data run return 1
