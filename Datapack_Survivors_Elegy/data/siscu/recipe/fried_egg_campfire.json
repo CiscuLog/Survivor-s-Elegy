@@ -1,6 +1,6 @@
 {
   "type": "minecraft:campfire_cooking",
-  "ingredient": "minecraft:egg",
+  "ingredient": "#eggs",
   "result": {
     "id": "minecraft:bread",
     "components": {

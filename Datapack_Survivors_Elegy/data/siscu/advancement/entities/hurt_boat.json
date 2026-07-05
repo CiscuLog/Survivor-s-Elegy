@@ -5,7 +5,7 @@
 			"trigger":"minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "#boat"
+					"entity_type": "#boat"
 				}
 			}
 		}

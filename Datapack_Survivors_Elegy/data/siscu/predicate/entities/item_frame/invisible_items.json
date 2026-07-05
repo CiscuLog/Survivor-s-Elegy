@@ -20,9 +20,6 @@
 			"predicate": {
 				"slots": {
 					"contents": {
-						"items": [
-							"raw_copper"
-						],
 						"predicates": {
 							"custom_data": {"SE_data":{"id":"siscu:bee_counter"}}
 						}
@@ -36,9 +33,6 @@
 			"predicate": {
 				"slots": {
 					"contents": {
-						"items": [
-							"stick"
-						],
 						"predicates": {
 							"custom_data": {"SE_data":{"id":"siscu:shutters"}}
 						}
@@ -52,9 +46,6 @@
 			"predicate": {
 				"slots": {
 					"contents": {
-						"items": [
-							"leather"
-						],
 						"predicates": {
 							"custom_data": {"SE_data":{"id":"siscu:hoglin_head"}}
 						}
@@ -68,9 +59,6 @@
 			"predicate": {
 				"slots": {
 					"contents": {
-						"items": [
-							"leather"
-						],
 						"predicates": {
 							"custom_data": {"SE_data":{"id":"siscu:zoglin_head"}}
 						}

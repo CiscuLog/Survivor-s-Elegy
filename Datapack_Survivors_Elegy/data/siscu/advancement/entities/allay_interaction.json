@@ -9,7 +9,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": "minecraft:allay"
+							"entity_type": "minecraft:allay"
 						}
 					}
 				]

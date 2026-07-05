@@ -1,0 +1,6 @@
+{
+    "type": "stonecutting",
+    "ingredient": "structure_void",
+    "result": "structure_void",
+    "show_notification": false
+}

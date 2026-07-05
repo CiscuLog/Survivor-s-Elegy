@@ -9,11 +9,10 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"type_specific": {
-							"type": "player",
+						"type_specific/player": {
 							"looking_at": {
 								"distance": {"absolute": {"min":1,"max":10}},
-								"type": "minecraft:villager",
+								"entity_type": "minecraft:villager",
 								"nbt": "{VillagerData:{profession:\"minecraft:armorer\", level: 5}}"
 							}
 						}
@@ -25,11 +24,10 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"type_specific/player": {
 								"looking_at": {
 									"distance": {"absolute": {"min":1,"max":10}},
-									"nbt": "{Tags:[\"armorer_lvl5\"]}"
+									"nbt": "{Tags:[\"siscu.armorer_lvl5\"]}"
 								}
 							}
 						}

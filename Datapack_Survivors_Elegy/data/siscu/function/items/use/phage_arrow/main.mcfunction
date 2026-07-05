@@ -1,3 +1,3 @@
 
 effect clear @s unluck
-execute as @s run function siscu:entities/phage/start_phage {value:60}
+execute as @s run function siscu:entities/phage/buildup/start_zombification {value:60}

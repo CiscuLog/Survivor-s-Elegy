@@ -2,7 +2,7 @@
 ## Lightning arc effect
 
 # return if arrived to destination
-execute positioned ~ ~-0.8 ~ if entity @e[tag=discharging,distance=..1] run return 0
+execute positioned ~ ~-0.8 ~ if entity @e[tag=siscu.discharging,distance=..1] run return 0
 
 # particles
 scoreboard players add N siscu.volatile 1
@@ -23,4 +23,4 @@ execute store result storage siscu:volatile y byte 1 run scoreboard players oper
 
 execute if predicate siscu:utils/25_percent run particle soul_fire_flame ~ ~-0.5 ~ 0 0 0 0 1 force
 
-execute positioned ^ ^ ^0.4 facing entity @n[tag=discharging] eyes run return run function siscu:items/passive_behav/discharge/effect_bend_macro with storage siscu:volatile
+execute positioned ^ ^ ^0.4 facing entity @n[tag=siscu.discharging] eyes run return run function siscu:items/passive_behav/discharge/effect_bend_macro with storage siscu:volatile

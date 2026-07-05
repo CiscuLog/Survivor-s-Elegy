@@ -6,6 +6,7 @@ $execute if items entity @s $(Slot) copper_pickaxe run return run data merge sto
 $execute if items entity @s $(Slot) copper_sword run return run data merge storage siscu:volatile {String2:"copper_sword"}
 $execute if items entity @s $(Slot) copper_shovel run return run data merge storage siscu:volatile {String2:"copper_shovel"}
 $execute if items entity @s $(Slot) copper_hoe run return run data merge storage siscu:volatile {String2:"copper_hoe"}
+$execute if items entity @s $(Slot) copper_spear run return run data merge storage siscu:volatile {String2:"copper_spear"}
 
 $execute if items entity @s $(Slot) copper_helmet run return run data merge storage siscu:volatile {String2:"copper_helmet"}
 $execute if items entity @s $(Slot) copper_chestplate run return run data merge storage siscu:volatile {String2:"copper_chestplate"}

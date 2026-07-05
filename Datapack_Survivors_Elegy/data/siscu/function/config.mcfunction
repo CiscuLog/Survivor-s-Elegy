@@ -13,7 +13,7 @@ tellraw @s [{"text":"- Rotting Undead Mobs","bold":false,"color":"green","click_
 tellraw @s [{"text":"- Withering","bold":false,"color":"green","click_event":{"action":"run_command","command":"/function siscu:config/withering"},"hover_event":{"action":"show_text","value":{"text":"Click to change"}}}]
 tellraw @s [{"text":"- Entity tweaks","bold":false,"color":"green","click_event":{"action":"run_command","command":"/function siscu:entities/config/menu"},"hover_event":{"action":"show_text","value":{"text":"Click to access menu"}}}]
 tellraw @s [{"text":"- New Creatures","bold":false,"color":"green","click_event":{"action":"run_command","command":"/function siscu:config/spawn_eggs"},"hover_event":{"action":"show_text","value":{"text":"Click to access Inventory"}}}]
-tellraw @s [{"text":"- New Items","bold":false,"color":"green","click_event":{"action":"run_command","command":"/function siscu:technical/config/items/menu"},"hover_event":{"action":"show_text","value":{"text":"Click to access Inventory"}}}]
+tellraw @s [{"text":"- New Items","bold":false,"color":"green","click_event":{"action":"run_command","command":"/function siscu:technical/config/items/menu"},"hover_event":{"action":"show_text","value":{"text":"Click to access menu"}}}]
 tellraw @s [{"text":""}]
 tellraw @s [{"text":"[About]\n","bold":false,"color":"gray","click_event":{"action":"run_command","command":"/function siscu:technical/config/about"},"hover_event":{"action":"show_text","value":{"text":"Click"}}}]
 playsound minecraft:block.note_block.bell master @s ~ ~ ~ 1 1

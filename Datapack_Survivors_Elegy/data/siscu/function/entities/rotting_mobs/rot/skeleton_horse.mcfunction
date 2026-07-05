@@ -15,8 +15,7 @@ playsound minecraft:entity.skeleton.converted_to_stray neutral @a ~ ~ ~ 1 0.8
 function siscu:entities/rotting_mobs/big_particles
 effect give @e[tag=siscu.converted] slowness 3 2 true
 
-execute on passengers run ride @s dismount
-ride @s dismount
+function siscu:entities/generic/switch_vehicle
 tag @e[tag=siscu.converted] remove siscu.converted
 tag @s[type=!player] add siscu.dead
 function siscu:world/kill_dead

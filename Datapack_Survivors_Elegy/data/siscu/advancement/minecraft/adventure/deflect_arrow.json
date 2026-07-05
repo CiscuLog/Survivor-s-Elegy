@@ -6,7 +6,7 @@
           "entity": [],
           "killing_blow": {
             "direct_entity": {
-              "type": "#siscu:deflectable_projectiles",
+              "entity_type": "#siscu:deflectable_projectiles",
               "nbt": "{Tags:[\"siscu.deflected_projectile_2\"]}"
             },
             "tags": [

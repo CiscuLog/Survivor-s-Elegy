@@ -76,3 +76,7 @@ execute if function siscu:technical/load_balancer/set_value2 run scoreboard play
 ## Tick 19
 execute store result score x siscu.balancer if entity @e[type=#siscu:tech_block_bases,scores={siscu.balancer=19}]
 execute if function siscu:technical/load_balancer/set_value2 run scoreboard players set @s siscu.balancer 19
+
+scoreboard players reset x siscu.balancer
+scoreboard players reset y siscu.balancer
+scoreboard players reset z siscu.balancer

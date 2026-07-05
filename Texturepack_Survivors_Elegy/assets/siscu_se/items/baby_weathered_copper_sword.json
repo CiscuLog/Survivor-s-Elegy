@@ -1,6 +1,13 @@
 {
 	"model": {
-		"type": "model",
-		"model": "siscu_se:item/baby_weathered_copper_sword"
+		"type": "select",
+		"property": "context_entity_type",
+		"cases": [
+			{
+				"when": ["zombie","husk","drowned"],
+				"model": {"type":"model","model":"siscu_se:item/baby_sword/weathered_copper"}
+			}
+		],
+		"fallback": {"type":"model","model":"siscu_se:item/baby_sword/big/weathered_copper"}
 	}
 }

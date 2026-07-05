@@ -25,7 +25,7 @@
 			"trigger":"minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {"items":["raw_copper"],"predicates":{"custom_data":{"SE_data":{"id":"siscu:bee_counter"}}}},
-				"entity": {"type":"minecraft:item_frame"}
+				"entity": {"entity_type":"minecraft:item_frame"}
 			}
 		}
 	}

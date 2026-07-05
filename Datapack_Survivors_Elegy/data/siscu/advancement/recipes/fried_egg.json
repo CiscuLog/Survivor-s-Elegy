@@ -1,11 +1,11 @@
 {
-	"parent": "recipes/root",
+	"parent": "siscu:recipes/root",
 	"criteria": {
         "0": {
             "trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [{
-					"items": ["egg"]
+					"items": "#eggs"
 				}]
 			}
         }

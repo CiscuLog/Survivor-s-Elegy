@@ -5,7 +5,7 @@
 			"trigger":"minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:vex"
+					"entity_type": "minecraft:vex"
 				}
 			}
 		}

@@ -4,7 +4,7 @@
     "icon": {
       "id": "minecraft:bone",
       "components": {
-        "item_model": "siscu_se:block/fire_spring_advancement"
+        "item_model": "siscu_se:advancements/fire_spring"
       }
     },
     "title": {

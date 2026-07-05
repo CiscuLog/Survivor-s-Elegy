@@ -1,0 +1,16 @@
+{
+	"parent": "siscu:items/consume/golden_food",
+	"criteria": {
+		"Staff": {
+			"trigger":"minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": ["enchanted_golden_apple"]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/consume/golden_food"
+	}
+}

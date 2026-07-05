@@ -1,0 +1,50 @@
+{
+  "parent": "siscu:recipes/root",
+  "criteria": {
+    "0": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "siscu:root"
+      }
+    }
+  },
+  "rewards": {
+    "function": "siscu:advancement/grant_recipes",
+    "recipes": [
+      "bread",
+      "chest_minecart_without_chest",
+      "chest_minecart_without_minecart",
+      "copper_block_from_blasting_raw_copper_block",
+      "copper_block_from_smelting_raw_copper_block",
+      "dispenser_shapeless",
+      "dispenser_without_bow",
+      "enchanting_table",
+      "furnace_minecart_without_furnace",
+      "gold_block_from_blasting_raw_gold_block",
+      "gold_block_from_smelting_raw_gold_block",
+      "hopper_minecart_without_hopper",
+      "hopper_minecart_without_minecart",
+      "iron_block_from_blasting_raw_iron_block",
+      "iron_block_from_smelting_raw_iron_block",
+      "minecraft:furnace_minecart_without_minecart",
+      "paper_from_bamboo",
+      "smelting_brown_stained_glass",
+      "smelting_orange_stained_glass",
+      "tnt_minecart_without_minecart",
+      "siscu:ancient_tofu",
+      "siscu:bee_counter",
+      "siscu:crimson_stew",
+      "siscu:ladle",
+      "siscu:light_sensor",
+      "siscu:mirage_bottle",
+      "siscu:piglin_brute_shield",
+      "siscu:sculk_plantoid",
+      "siscu:shutters",
+      "siscu:warped_stew",
+      "siscu:water_bottle_cactus",
+      "siscu:water_bucket_cactus",
+      "siscu:wax_horse_armor",
+      "siscu:wax_wolf_armor"
+    ]
+  }
+}

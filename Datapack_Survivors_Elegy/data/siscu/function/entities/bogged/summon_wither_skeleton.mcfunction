@@ -1,16 +1,17 @@
-$summon wither_skeleton ~ ~ ~ {Tags:["siscu.entity_checked","bogged_checned","siscu.converted","withered"],Rotation:$(Rotation),fall_distance:$(fall_distance),\
+$summon wither_skeleton ~ ~ ~ {Tags:["siscu.entity_checked","siscu.bogged_checked","siscu.converted","siscu.withered"],Rotation:$(Rotation),fall_distance:$(fall_distance),\
 \
 LeftHanded:$(LeftHanded),PersistenceRequired:$(PersistenceRequired),CanPickUpLoot:$(CanPickUpLoot)\
 \
 }
 
-execute if data entity @s drop_chances run data modify entity @n[tag=siscu.converted] drop_chances set from entity @n[type=skeleton] drop_chances
-execute if data entity @s equipment run data modify entity @n[tag=siscu.converted] equipment set from entity @n[type=skeleton] equipment
-execute if data entity @s DeathLootTable run data modify entity @n[tag=siscu.converted] DeathLootTable set from entity @n[type=skeleton] DeathLootTable
-execute if data entity @s CustomName run data modify entity @n[tag=siscu.converted] CustomName set from entity @n[type=skeleton] CustomName
-execute if data entity @s CustomNameVisible run data modify entity @n[tag=siscu.converted] CustomNameVisible set from entity @n[type=skeleton] CustomNameVisible
-execute unless items entity @s armor.head air run item replace entity @n[tag=siscu.converted] armor.head from entity @s armor.head
-execute if items entity @s armor.head air run item replace entity @n[tag=siscu.converted] armor.head with small_dripleaf[item_model="siscu_se:bogged_shrooms"]
+execute if data entity @s drop_chances run data modify entity @n[tag=siscu.converted] drop_chances set from entity @s drop_chances
+execute if data entity @s equipment run data modify entity @n[tag=siscu.converted] equipment set from entity @s equipment
+execute if data entity @s DeathLootTable run data modify entity @n[tag=siscu.converted] DeathLootTable set from entity @s DeathLootTable
+execute if data entity @s CustomName run data modify entity @n[tag=siscu.converted] CustomName set from entity @s CustomName
+execute if data entity @s CustomNameVisible run data modify entity @n[tag=siscu.converted] CustomNameVisible set from entity @s CustomNameVisible
+
+data merge entity @s {drop_chances:{head:0}}
+execute unless items entity @s armor.head * run item replace entity @n[tag=siscu.converted] armor.head with small_dripleaf[item_model="siscu_se:bogged_shrooms"]
 
 data modify entity @n[tag=siscu.converted] Tags append from entity @s Tags[]
 

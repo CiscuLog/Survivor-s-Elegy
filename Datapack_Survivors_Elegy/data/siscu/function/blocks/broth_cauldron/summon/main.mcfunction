@@ -12,6 +12,10 @@ scoreboard players add cauldron_amount siscu.volatile 1
 execute store result storage siscu:volatile cauldron_amount int 1 run scoreboard players get cauldron_amount siscu.volatile
 execute as @e[type=interaction,tag=siscu.broth_cauldron] unless score @s siscu.broth_temperature matches 0.. run function siscu:blocks/broth_cauldron/summon/set_name with storage siscu:volatile
 
+# Load Balancer
+execute align xyz positioned ~ ~0.2 ~ as @n[type=interaction,tag=siscu.broth_cauldron] at @s run function siscu:technical/load_balancer/set_value
+
+# Data Initialisation
 execute align xyz positioned ~ ~0.2 ~ as @n[type=interaction,tag=siscu.broth_cauldron] at @s run function siscu:blocks/broth_cauldron/update/check
 execute align xyz positioned ~ ~0.2 ~ run scoreboard players set @n[type=interaction,tag=siscu.broth_cauldron] siscu.broth_temperature 0
 execute align xyz positioned ~ ~0.2 ~ as @n[type=interaction,tag=siscu.broth_cauldron] at @s run function siscu:blocks/broth_cauldron/temperature/check
@@ -20,5 +24,3 @@ execute align xyz positioned ~ ~0.2 ~ as @n[type=interaction,tag=siscu.broth_cau
 playsound siscu_se:item.ladle.place block @a
 
 schedule function siscu:blocks/broth_cauldron/summon/main_2 2t
-schedule function siscu:blocks/broth_cauldron/maintain/check_schedule 1t append
-schedule function siscu:blocks/broth_cauldron/temperature/check_schedule 1s append

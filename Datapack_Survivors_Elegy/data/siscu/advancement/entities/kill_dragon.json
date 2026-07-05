@@ -8,7 +8,7 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "type": "minecraft:ender_dragon"
+              "entity_type": "minecraft:ender_dragon"
             },
             "entity": "this"
           }

@@ -3,7 +3,7 @@ tellraw @s [{"translate":"\n\n\n\n%====== Credits ======[","bold":true},{"text":
 tellraw @s [{"text":"Author, Programmer and Artist","color":"gray","bold": true}]
 tellraw @s [{"text":"- Siscu","color":"gray"}]
 
-tellraw @s [{"text":"Contributors","color":"gray","bold": true}]
+tellraw @s [{"text":"Contributions","color":"gray","bold": true}]
 tellraw @s [{"text":"- Almostjake","color":"gray",hover_event:{action:"show_text",value:"Author of the lectern book models"}}]
 tellraw @s [{"text":"- AncientKingg","color":"gray",hover_event:{action:"show_text",value:"Author of the FancyPants shader, used extensively on early versions of SE for custom armor textures"}}]
 

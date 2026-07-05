@@ -1,4 +1,4 @@
-tag @s add wolf_checked
+tag @s add siscu.wolf_checked
 tag @s add siscu.zombifying_invulnerable
 tag @s remove siscu.rot_checked
 scoreboard players reset @s siscu.rotting_mob

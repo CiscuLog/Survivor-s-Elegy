@@ -1,0 +1,37 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+            "type": "range_dispatch",
+            "property": "custom_model_data",
+            "fallback": {"type": "model","model": "siscu_se:item/copper_spear"},
+            "entries": [
+                {"model": {"type": "model","model": "siscu_se:item/exposed_copper_spear"},"threshold": 1},
+                {"model": {"type": "model","model": "siscu_se:item/weathered_copper_spear"},"threshold": 2},
+                {"model": {"type": "model","model": "siscu_se:item/oxidised_copper_spear"},"threshold": 3}
+            ]
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+		"type": "range_dispatch",
+		"property": "custom_model_data",
+		"fallback": {"type": "model","model": "siscu_se:item/copper_spear_in_hand"},
+		"entries": [
+			{"model": {"type": "model","model": "siscu_se:item/exposed_copper_spear_in_hand"},"threshold": 1},
+			{"model": {"type": "model","model": "siscu_se:item/weathered_copper_spear_in_hand"},"threshold": 2},
+			{"model": {"type": "model","model": "siscu_se:item/oxidised_copper_spear_in_hand"},"threshold": 3}
+		]
+	},
+    "property": "minecraft:display_context"
+  },
+  "swap_animation_scale": 1.95
+}

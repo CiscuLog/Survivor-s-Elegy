@@ -12,4 +12,4 @@ execute if predicate siscu:utils/10_percent run loot replace entity @s armor.fee
 
 execute if predicate siscu:entities/is_holding_trident if predicate siscu:utils/is_baby run data merge entity @s {drop_chances:{mainhand:0.0,offhand:0.0}}
 
-execute if predicate siscu:entities/is_wearing_copper_armor if predicate siscu:utils/50_percent run function siscu:items/passive_behav/charge/copper_armor
+execute if items entity @s armor.* #siscu:armor_items/copper if predicate siscu:utils/50_percent run function siscu:items/passive_behav/charge/copper_armor

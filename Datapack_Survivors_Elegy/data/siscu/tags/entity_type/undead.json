@@ -1,12 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft:bogged",
-    "minecraft:skeleton_horse",
-    "minecraft:skeleton",
-    "minecraft:stray",
-    "minecraft:parched",
-    "minecraft:wither_skeleton",
+    "#skeletons",
     "#zombies"
   ]
 }

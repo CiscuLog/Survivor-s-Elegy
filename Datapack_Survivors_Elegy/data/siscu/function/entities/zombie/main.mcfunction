@@ -21,7 +21,7 @@ execute as @s[tag=siscu.unequipped] run function siscu:entities/zombie/equip_spe
 
 ## Others
 # Charge copper armors (50%)
-execute if predicate siscu:entities/is_wearing_copper_armor if predicate siscu:utils/50_percent run function siscu:items/passive_behav/charge/copper_armor
+execute if items entity @s armor.* #siscu:armor_items/copper if predicate siscu:utils/50_percent run function siscu:items/passive_behav/charge/copper_armor
 # Zombies with axes can always break doors
 execute if predicate siscu:entities/is_holding_axe run data merge entity @s[tag=!siscu.special] {CanBreakDoors: 1b}
 # Infested Sewer Zombies (20%) Infested I, 04:00

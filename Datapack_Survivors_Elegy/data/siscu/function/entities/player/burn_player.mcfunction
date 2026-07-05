@@ -1,5 +1,3 @@
-# clear head
-execute unless items entity @s armor.head * unless predicate siscu:entities/is_on_fire run return run summon small_fireball ~ ~3 ~ {Motion:[0.0,-10.0,0.0],CustomName:'[{translate:"The Sun"}]'}
 
 # invulnerable helmet
 execute if predicate siscu:items/sun_invulnerable run return 0

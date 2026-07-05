@@ -1,2 +1,2 @@
-damage @s[advancements={siscu:entities/blocked_explosion/6_7=true}] 1.75 minecraft:explosion
+function siscu:advancement/blocked_explosion/damage {damage:1.75}
 advancement revoke @s only siscu:entities/blocked_explosion/6_7

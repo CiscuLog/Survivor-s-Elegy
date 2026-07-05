@@ -1,8 +1,8 @@
 {	
 
 	"pack.siscu": "Survivor's Elegy",
-	"pack.siscu.version": "8",
-	"pack.loaded": "%s",
+	"pack.siscu.version": "9",
+	"pack.siscu.loaded": "%s",
 	
 	"advancements.siscu.description_1": "A song to the memories that have been lost",
 	"advancements.siscu.description_2": "By Siscu",
@@ -60,6 +60,8 @@
 	"advancements.siscu.minecraft.stray_clothes.description":"Alleviate a Stray from its clothing",
 	"advancements.siscu.minecraft.stray_clothes_nether.title":"Facing the Darkness",
 	"advancements.siscu.minecraft.stray_clothes_nether.description":"Stay 60 minutes straight in the Nether wearing Stray Clothing",
+	"advancements.siscu.minecraft.top_hat.title": "Smooth Criminal",
+	"advancements.siscu.minecraft.top_hat.description": "Hide a weapon in your Top Hat and wear it",
 	"advancements.siscu.minecraft.create_suspicious_block.title":"Time Capsule",
 	"advancements.siscu.minecraft.create_suspicious_block.description":"Make a suspicious block using an item frame and a button",
 	"advancements.siscu.minecraft.warden_retreat.title":"Overpowered",
@@ -221,6 +223,7 @@
 	"item.siscu.exposed_copper_leggings": "Exposed Copper Leggings",
 	"item.siscu.exposed_copper_pickaxe": "Exposed Copper Pickaxe",
 	"item.siscu.exposed_copper_shovel": "Exposed Copper Shovel",
+	"item.siscu.exposed_copper_spear": "Exposed Copper Spear",
 	"item.siscu.exposed_copper_sword": "Exposed Copper Sword",
 	"item.siscu.fish": "Fish",
 	"item.siscu.fishy_crate": "Fishy Crate",
@@ -246,6 +249,7 @@
 	"item.siscu.oxidised_copper_leggings": "Oxidised Copper Leggings",
 	"item.siscu.oxidised_copper_pickaxe": "Oxidised Copper Pickaxe",
 	"item.siscu.oxidised_copper_shovel": "Oxidised Copper Shovel",
+	"item.siscu.oxidised_copper_spear": "Oxidised Copper Spear",
 	"item.siscu.oxidised_copper_sword": "Oxidised Copper Sword",
 	"item.siscu.pamphlet": "Survivor's Elegy Introduction Booklet",
 	"item.siscu.patrol_compass": "Patrol Compass",
@@ -295,6 +299,7 @@
 	"item.siscu.weathered_copper_leggings": "Weathered Copper Leggings",
 	"item.siscu.weathered_copper_pickaxe": "Weathered Copper Pickaxe",
 	"item.siscu.weathered_copper_shovel": "Weathered Copper Shovel",
+	"item.siscu.weathered_copper_spear": "Weathered Copper Spear",
 	"item.siscu.weathered_copper_sword": "Weathered Copper Sword",
 	"item.siscu.wax_horse_armor": "Wax Horse Armor",
 	"item.siscu.wax_wolf_armor": "Wax Wolf Armor",

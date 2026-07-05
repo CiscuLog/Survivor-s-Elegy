@@ -35,6 +35,6 @@
 	},
 	"requirements": [["1","2"]],
 	"rewards": {
-		"function": "siscu:entities/phage/unzombify/player"
+		"function": "siscu:entities/phage/cure/player"
 	}
 }

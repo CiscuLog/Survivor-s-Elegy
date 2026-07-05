@@ -12,8 +12,7 @@
 								"condition": "minecraft:entity_properties",
 								"entity": "this",
 								"predicate": {
-									"type_specific": {
-										"type": "player",
+									"type_specific/player": {
 										"looking_at": {
 											"distance": {
 												"absolute": {
@@ -32,8 +31,7 @@
 										"condition": "minecraft:entity_properties",
 										"entity": "this",
 										"predicate": {
-											"type_specific": {
-												"type": "player",
+											"type_specific/player": {
 												"looking_at": {
 													"distance": {
 														"absolute": {
@@ -49,8 +47,7 @@
 										"condition": "minecraft:entity_properties",
 										"entity": "this",
 										"predicate": {
-											"type_specific": {
-												"type": "player",
+											"type_specific/player": {
 												"looking_at": {
 													"distance": {
 														"absolute": {
@@ -66,8 +63,7 @@
 										"condition": "minecraft:entity_properties",
 										"entity": "this",
 										"predicate": {
-											"type_specific": {
-												"type": "player",
+											"type_specific/player": {
 												"looking_at": {
 													"distance": {
 														"absolute": {

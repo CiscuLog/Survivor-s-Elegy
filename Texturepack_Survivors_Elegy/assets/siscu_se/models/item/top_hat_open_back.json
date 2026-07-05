@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/leather_helmet",
-  "textures": {
-    "layer0": "minecraft:item/bundle_open_back",
-    "layer1": "siscu_se:item/elegant_hat_overlay"
-  }
-}

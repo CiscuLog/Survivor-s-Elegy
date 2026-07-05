@@ -1,6 +1,13 @@
 {
 	"model": {
-		"type": "model",
-		"model": "siscu_se:item/baby_shield"
+		"type": "select",
+		"property": "context_entity_type",
+		"cases": [
+			{
+				"when": ["zombie","husk","drowned"],
+				"model": {"type":"model","model":"siscu_se:item/baby_shield"}
+			}
+		],
+		"fallback": {"type":"model","model":"siscu_se:item/baby_shield_big"}
 	}
 }

@@ -1,14 +1,14 @@
-$summon wither_skeleton ~ ~ ~ {Tags:["siscu.entity_checked","siscu.skeleton_checked","siscu.converted","withered"],Rotation:$(Rotation),fall_distance:$(fall_distance),\
+$summon wither_skeleton ~ ~ ~ {Tags:["siscu.entity_checked","siscu.skeleton_checked","siscu.converted","siscu.withered"],Rotation:$(Rotation),fall_distance:$(fall_distance),\
 \
 LeftHanded:$(LeftHanded),PersistenceRequired:$(PersistenceRequired),CanPickUpLoot:$(CanPickUpLoot)\
 \
 }
 
-execute if data entity @s drop_chances run data modify entity @n[tag=siscu.converted] drop_chances set from entity @n[type=skeleton] drop_chances
-execute if data entity @s equipment run data modify entity @n[tag=siscu.converted] equipment set from entity @n[type=skeleton] equipment
-execute if data entity @s DeathLootTable run data modify entity @n[tag=siscu.converted] DeathLootTable set from entity @n[type=skeleton] DeathLootTable
-execute if data entity @s CustomName run data modify entity @n[tag=siscu.converted] CustomName set from entity @n[type=skeleton] CustomName
-execute if data entity @s CustomNameVisible run data modify entity @n[tag=siscu.converted] CustomNameVisible set from entity @n[type=skeleton] CustomNameVisible
+execute if data entity @s drop_chances run data modify entity @n[tag=siscu.converted] drop_chances set from entity @s drop_chances
+execute if data entity @s equipment run data modify entity @n[tag=siscu.converted] equipment set from entity @s equipment
+execute if data entity @s DeathLootTable run data modify entity @n[tag=siscu.converted] DeathLootTable set from entity @s DeathLootTable
+execute if data entity @s CustomName run data modify entity @n[tag=siscu.converted] CustomName set from entity @s CustomName
+execute if data entity @s CustomNameVisible run data modify entity @n[tag=siscu.converted] CustomNameVisible set from entity @s CustomNameVisible
 
 execute if entity @s[tag=piglin] run loot replace entity @n[tag=siscu.converted] armor.head loot siscu:entities/wither_skeleton/wither_skeleton_piglin_skulls
 execute if entity @s[tag=villager] run loot replace entity @n[tag=siscu.converted] armor.head loot siscu:entities/wither_skeleton/wither_skeleton_illager_skulls

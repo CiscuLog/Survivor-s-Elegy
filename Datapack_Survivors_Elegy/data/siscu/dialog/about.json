@@ -1,25 +1,25 @@
 {
   "type": "minecraft:multi_action",
   "external_title": [
-    {"translate": "pack.loaded","fallback": "","with": [{"translate": "\u1000","font": "siscu_se:icons"}]},
+    {"translate": "pack.siscu.loaded","fallback": "","with": [{"translate": "\u1000","font": "siscu_se:icons"}]},
     {"text": " Survivor's Elegy"}
   ],
   "title": [
-    {"translate": "pack.loaded","fallback": "","with": [{"translate": "\u1000","font": "siscu_se:icons"}]},
+    {"translate": "pack.siscu.loaded","fallback": "","with": [{"translate": "\u1000","font": "siscu_se:icons"}]},
     {"translate": "pack.siscu","fallback":"Survivor's Elegy"},
-    {"translate": "pack.loaded","fallback": "","with": [{"translate": "\u1000","font": "siscu_se:icons"}]}
+    {"translate": "pack.siscu.loaded","fallback": "","with": [{"translate": "\u1000","font": "siscu_se:icons"}]}
   ],
   "body": [
     {
         "type": "plain_message",
         "contents": [{"text":"Loaded Resourcepack Version: ","color":"gray"},
         {"translate":"pack.siscu.version","bold":true,"color":"green","fallback": "%s","with": [{"text": "-no pack loaded-","color": "red"}]},
-        {"text":" (required: "},{"text":"8","bold":true,"color":"gold"},{"text":" )"}]
+        {"text":" (required: "},{"text":"9","bold":true,"color":"gold"},{"text":" )"}]
     },
     {
       "type": "plain_message",
       "contents": {
-        "text": "v1.0.10\nBy Siscu",
+        "text": "v1.0.11\nBy Siscu",
         "color": "gray"
       },
       "width": 300

@@ -1,6 +1,13 @@
 {
 	"model": {
-		"type": "model",
-		"model": "siscu_se:item/baby_iron_sword"
+		"type": "select",
+		"property": "context_entity_type",
+		"cases": [
+			{
+				"when": ["zombie","husk","drowned"],
+				"model": {"type":"model","model":"siscu_se:item/baby_sword/iron"}
+			}
+		],
+		"fallback": {"type":"model","model":"siscu_se:item/baby_sword/big/iron"}
 	}
 }

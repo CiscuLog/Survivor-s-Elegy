@@ -1,5 +1,5 @@
 {
-	"parent": "siscu:world/root",
+	"parent": "siscu:world/enter_city_first_time",
   "criteria": {
     "1": {
       "trigger": "location",

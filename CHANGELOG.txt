@@ -1,6 +1,44 @@
 
 Compatible Minecraft versions: 26.1.2
 
+Survivor's Elegy 1.0.11 (05/07/2026)
++ Updated to 26.2
++ Changed resourcepack version to 9
++ Added "siscu:recipes/root" advancement and "siscu:root" recipe. Granting any of those to the player will unlock all new or modified datapack recipes to be shown on its crafting stations
++ Added "Smooth Criminal" advancement for wearing a Top Hat with a weapon in it
++ Added all chicken egg variants can be cooked into Fried Eggs
++ Added Baby Parched
++ Added breaking filled Broth Cauldrons on top of Lava Cauldrons will place an obsidian block and drop a cauldron
++ Added Cave Spiders will remove Cave Spider Spawners around them on generation
++ Added Copper Spears can oxidise
++ Added cracked Iron Golems now will heal 25 HP every 15 seconds when standing near villagers that can repair them. Those are villagers with the professions of Armorer, Toolsmith or Weaponsmith. They can only be repaired when not angry
++ Added Evokers spawned outside of mansions won't drop a totem of undying if they use it. This lowers the amount of totems per raid by 50%
++ Added Gunpowder can now be crafted with 1 coal/charcoal, 1 bonemeal and 1 sulfur spike
++ Added Iron Golems now chase zombified players
++ Added Mount Catalyst enchantment now also takes the Thorns enchantment. It acts 50% of the time, always as if it was Thorns II
++ Added Parched can now wither away. They will keep the parched headgear
++ Added Shield Nerf config menu. It can be used to toggle the nerf on and off. It's accessed through the "items" menu
++ Added Sulfur Cubes are immune to Phage and Withering
++ Added Top Hat. Works as a hat and a bundle. It cannot be dyed. The height of the hat when worn changes depending on the fullness of the bundle. Found on infected citadels and worn by Elegant Zombies. When worn by Armor Stands, they will add a wooden head to the stand. They will protect zombified players from the sun
++ Changed electric discharges damage is now armor-dependent. Gold, Iron and Netherite changes the damage to 1, 2 and 5 HP respectively. The base discharge damage is still 3 HP
++ Changed Infection process. Added a phage buildup meter: players can now be hit a few times before the zombification process starts. The buildup meter can be decreased by eating golden food. Death resets all zombification stats, including buildup.
++ Changed Light Sensors and Bee Counters don't count as oxidisable items
++ Changed Mount Catalyst enchantment mimics the rider's enchantments closer to vanilla. Horses are no longer lavaproof, frost walker updates on location change and never while the entity is in the air
++ Changed Mount Catalyst now take enchantments from any passenger, not just the controller
++ Changed the infection clock will only remind the player every 30 seconds, unless it has less than 60 seconds until zombification
++ Changed Zombie Villagers keep their equipment when unzombified. This opens the possibility of villagers with witch hats or wandering trader headgear
++ Changed zombification on illagers. Witches will turn into cleric swamp villagers. Wandering traders will turn into desert unemployed villagers. Other illagers will become plains nitwit villagers as before
++ Enhanced all checks for Broth Cauldrons. Implemented load balancer to spread cauldron temperature checks along 20 ticks, instead of performing all checks on the same tick
++ Fixed Ancient Shield config menu was referring the item as "Amethyst Shield"
++ Fixed Broth Cauldron with Debug Stick interaction changes were being reverted after scooping the broth
++ Fixed Broth Cauldrons were taking custom items that used food items as the base. They will now only take those item's values if said item has both "custom_data" and "food" components
++ Fixed Copper Armor wasn't oxidising when worn by entities other than players
++ Fixed custom items from datapacks that had copper gear items as a base item would undergo oxidisation
++ Fixed zombifying wandering traders kept their trades, making them unzombify into nitwits with trades
++ Removed day counter title when first joining the game
++ Removed zombified player health decrease
++ Reverted mineshafts to vanilla generation
+
 Survivor's Elegy 1.0.10 (21/05/2026)
 + Updated to 26.1.2
 + Changed resourcepack version to 8

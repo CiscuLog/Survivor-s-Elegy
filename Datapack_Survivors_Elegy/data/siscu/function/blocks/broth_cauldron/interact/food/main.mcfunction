@@ -41,7 +41,8 @@ execute if items entity @s weapon.mainhand #siscu:saturation/14.4 run scoreboard
 
 # get food and saturation if it's a special item
 scoreboard players set x siscu.volatile 0
-execute if predicate siscu:items/broth/special_items run scoreboard players set x siscu.volatile 1
+execute if items entity @s weapon.mainhand *[custom_data,food] run scoreboard players set x siscu.volatile 1
+#execute if predicate siscu:items/broth/special_items run scoreboard players set x siscu.volatile 1
 execute if score x siscu.volatile matches 1 store result score food siscu.broth_data run data get entity @s SelectedItem.components."minecraft:food".nutrition 100
 execute if score x siscu.volatile matches 1 store result score saturation siscu.broth_data run data get entity @s SelectedItem.components."minecraft:food".saturation 100
 
@@ -57,6 +58,8 @@ execute if score broth_saturation siscu.broth_data > max_saturation_level siscu.
 execute if items entity @s weapon.mainhand #siscu:broth_give_effects if function siscu:blocks/broth_cauldron/interact/food/contains_effect run tag @n[type=interaction,tag=siscu.broth_interacted] add siscu.broth_potion
 # if item clears an effect
 execute if items entity @s weapon.mainhand honey_bottle run function siscu:blocks/broth_cauldron/interact/food/clears_effects
+# if item is a custom item that adds an effect too (TO-DO)
+#execute if items entity @s weapon.mainhand *[consumable={on_consume_effects:[{type:"apply_effects",effects:[]}]}]
 
 # if item teleports the player
 execute if items entity @s weapon.mainhand chorus_fruit as @n[tag=siscu.broth_interacted] run function siscu:blocks/broth_cauldron/interact/food/add_tp_capabilities

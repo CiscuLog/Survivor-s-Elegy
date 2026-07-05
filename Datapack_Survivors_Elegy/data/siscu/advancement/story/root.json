@@ -3,12 +3,11 @@
     "title": {
       "translate": "pack.siscu",
       "fallback": "%s",
-      "color": "white",
       "bold": true,
       "with": [{"text": "SE (MISSING RESOURCES)","color": "red"}]
     },
     "description": {
-      "translate": "pack.loaded",
+      "translate": "pack.siscu.loaded",
       "fallback": "The required Survivor's Elegy Resource Pack is not installed. Read INSTALL.txt for info on the matter",
       "with": [
         [
@@ -27,7 +26,7 @@
             "text":"\n"
           },
           {
-            "translate": "pack.siscu.version",
+            "text": "1.0.11",
             "color": "blue",
             "font": "siscu_se:superscript"
           }

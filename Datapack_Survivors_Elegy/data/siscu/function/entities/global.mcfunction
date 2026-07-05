@@ -13,6 +13,7 @@ execute if entity @s[type=#siscu:trial_spawnable] if items entity @s armor.* *[t
 # Differentiate
 execute as @s[type=blaze,tag=!siscu.blaze_checked] run return run function siscu:entities/blaze/randomiser
 execute as @s[type=bogged,tag=!siscu.bogged_checked] run return run function siscu:entities/bogged/randomiser
+execute as @s[type=cave_spider,tag=!siscu.cave_spider_checked] run return run function siscu:entities/cave_spider/main
 execute as @s[type=creeper,tag=!siscu.creeper_checked] run return run function siscu:entities/creeper/randomiser
 execute as @s[type=drowned,tag=!siscu.drowned_checked] run return run function siscu:entities/drowned/randomiser
 execute as @s[type=enderman,tag=!siscu.enderman_checked] run return run function siscu:entities/enderman/randomiser

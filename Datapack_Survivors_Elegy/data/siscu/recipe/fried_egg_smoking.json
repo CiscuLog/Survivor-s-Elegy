@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smoking",
   "category": "food",
-  "ingredient": "minecraft:egg",
+  "ingredient": "#eggs",
   "result": {
     "id": "minecraft:bread",
     "components": {

@@ -5,49 +5,94 @@
     "cases": [
       {
         "when": "head",
-        "model": {
-          "type": "range_dispatch",
-          "property": "bundle/fullness",
-          "entries": [
+        "model": 
+        {
+          "type": "select",
+          "property": "context_entity_type",
+          "cases": [
             {
-              "threshold": 0.75,
-              "model": {"type": "model","model": "siscu_se:item/top_hat_worn3"}
-            },
-            {
-              "threshold": 0.5,
-              "model": {"type": "model","model": "siscu_se:item/top_hat_worn2"}
-            },
-            {
-              "threshold": 0.25,
-              "model": {"type": "model","model": "siscu_se:item/top_hat_worn1"}
+              "when": ["zombie","drowned","husk","skeleton","stray","bogged","parched"],
+              "model": {"type": "model","model": "siscu_se:item/tophat/worn_zombie"}
             }
           ],
-          "fallback": {"type": "model","model": "siscu_se:item/top_hat_worn"}
+          "fallback": {
+            "type": "composite",
+            "models": [
+              {
+                "type": "range_dispatch",
+                "property": "bundle/fullness",
+                "entries": [
+                  {
+                    "threshold": 0.99,
+                    "model": {"type": "model","model": "siscu_se:item/tophat/worn_4"}
+                  },
+                  {
+                    "threshold": 0.75,
+                    "model": {"type": "model","model": "siscu_se:item/tophat/worn_3"}
+                  },
+                  {
+                    "threshold": 0.5,
+                    "model": {"type": "model","model": "siscu_se:item/tophat/worn_2"}
+                  },
+                  {
+                    "threshold": 0.25,
+                    "model": {"type": "model","model": "siscu_se:item/tophat/worn_1"}
+                  }
+                ],
+                "fallback": {"type": "model","model": "siscu_se:item/tophat/worn"}
+              },
+              {
+                "type": "select",
+                "property": "context_entity_type",
+                "cases": [{"when": "armor_stand","model": {"type": "model","model": "siscu_se:item/tophat/armor_stand_head"}}],
+                "fallback": {"type": "empty"}
+              }
+            ]
+          }
+
         }
-      },
-      {
-        "when": "gui",
-        "model": {
+      }
+    ],
+    "fallback": {
           "type": "condition",
           "property": "bundle/has_selected_item",
           "on_true": {
             "type": "composite",
             "models": [
               {
-                "type": "model","model": "siscu_se:item/top_hat_open_back"
+                "type": "model","model": "siscu_se:item/tophat/open"
               },
               {
                 "type": "bundle/selected_item"
               },
               {
-                "type": "model","model": "siscu_se:item/top_hat_open"
+                "type": "model","model": "siscu_se:item/tophat/open_front"
               }
             ]
           },
-          "on_false": {"type":"model","model":"siscu_se:item/top_hat"}
+          "on_false": {
+            "type": "range_dispatch",
+            "property": "bundle/fullness",
+            "entries": [
+              {
+                "threshold": 0.99,
+                "model": {"type": "model","model": "siscu_se:item/tophat/4"}
+              },
+              {
+                "threshold": 0.75,
+                "model": {"type": "model","model": "siscu_se:item/tophat/3"}
+              },
+              {
+                "threshold": 0.5,
+                "model": {"type": "model","model": "siscu_se:item/tophat/2"}
+              },
+              {
+                "threshold": 0.25,
+                "model": {"type": "model","model": "siscu_se:item/tophat/1"}
+              }
+            ],
+            "fallback": {"type": "model","model": "siscu_se:item/tophat/empty"}
+          }
         }
-      }
-    ],
-    "fallback": {"type":"model","model":"siscu_se:item/top_hat"}
   }
 }

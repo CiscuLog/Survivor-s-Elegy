@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "bone_meal",
+        "#coals",
+        "sulfur_spike"
+    ],
+    "result": {
+        "id": "gunpowder"
+    }
+}

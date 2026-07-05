@@ -6,7 +6,6 @@ execute store result storage siscu:volatile BrothCauldronData.broth_saturation i
 execute store result storage siscu:volatile BrothCauldronData.broth_level int 1 run scoreboard players get broth_level siscu.broth_data
 execute store result storage siscu:volatile BrothCauldronData.tp_diameter int 1 run scoreboard players get tp_diameter siscu.broth_data
 execute store result storage siscu:volatile BrothCauldronData.ingredients_amount int 1 run scoreboard players get ingredients_amount siscu.broth_data
-execute store result storage siscu:volatile BrothCauldronData.tp_diameter int 1 run scoreboard players get tp_diameter siscu.broth_data
 execute store result storage siscu:volatile BrothCauldronData.dye_ingredients int 1 run scoreboard players get ingredient_color siscu.broth_data
 execute store result storage siscu:volatile BrothCauldronData.dye_potions int 1 run scoreboard players get potion_color siscu.broth_data
 

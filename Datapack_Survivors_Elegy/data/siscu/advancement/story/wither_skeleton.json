@@ -19,11 +19,10 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"type_specific": {
-							"type": "player",
+						"type_specific/player": {
 							"looking_at": {
 								"distance": {"absolute": {"min":1,"max":10}},
-								"type": "minecraft:wither_skeleton",
+								"entity_type": "minecraft:wither_skeleton",
 								"nbt": "{Tags:[\"withered\"]}"
 							}
 						}

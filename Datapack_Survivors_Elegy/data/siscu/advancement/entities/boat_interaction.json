@@ -9,7 +9,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": "#minecraft:boat"
+							"entity_type": "#minecraft:boat"
 						}
 					},
 					{
@@ -19,7 +19,7 @@
 							"entity":"this",
 							"predicate":{
 								"passenger":{
-									"type":"minecraft:item_display"
+									"entity_type":"minecraft:item_display"
 								}
 							}
 						}

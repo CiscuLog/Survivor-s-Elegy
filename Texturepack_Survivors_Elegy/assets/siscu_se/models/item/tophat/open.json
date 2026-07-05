@@ -1,0 +1,6 @@
+{
+  "parent": "item/bundle_open_back",
+  "textures": {
+    "layer0": "siscu_se:item/top_hat/open"
+  }
+}

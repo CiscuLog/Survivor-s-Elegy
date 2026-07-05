@@ -13,8 +13,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"type_specific/player": {
 								"looking_at": {
 									"distance": {
 										"absolute": {
@@ -22,7 +21,7 @@
 											"max": 4
 										}
 									},
-									"type": "minecraft:wandering_trader"
+									"entity_type": "minecraft:wandering_trader"
 								}
 							}
 						}
@@ -36,8 +35,7 @@
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"type_specific": {
-											"type": "player",
+										"type_specific/player": {
 											"looking_at": {
 												"distance": {
 													"absolute": {
@@ -45,7 +43,7 @@
 														"max": 4
 													}
 												},
-												"type": "minecraft:wandering_trader",
+												"entity_type": "minecraft:wandering_trader",
 												"nbt": "{Tags:[\"siscu.black_market\"]}"
 											}
 										}
@@ -55,8 +53,7 @@
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"type_specific": {
-											"type": "player",
+										"type_specific/player": {
 											"looking_at": {
 												"distance": {
 													"absolute": {

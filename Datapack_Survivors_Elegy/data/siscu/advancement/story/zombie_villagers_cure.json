@@ -25,8 +25,7 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"type_specific": {
-							"type": "player",
+						"type_specific/player": {
 							"advancements": {"siscu:story/phage":true}}
 						
 					}

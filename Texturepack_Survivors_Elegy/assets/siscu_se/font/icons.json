@@ -134,6 +134,24 @@
 			"chars": [
 				"\u2000"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/icons/zombification/human.png",
+			"ascent": 11,
+			"height": 16,
+			"chars": [
+				"\u2001"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:font/icons/zombification/zombie.png",
+			"ascent": 11,
+			"height": 16,
+			"chars": [
+				"\u2002"
+			]
 		}
 	]
 }

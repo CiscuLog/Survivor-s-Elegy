@@ -1,0 +1,16 @@
+{
+	"parent": "siscu:recipes/root",
+	"criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": "sulfur_spike"
+				}]
+			}
+        }
+    },
+	"rewards": {
+		"recipes": ["siscu:sulfur_gunpowder"]
+	}
+}

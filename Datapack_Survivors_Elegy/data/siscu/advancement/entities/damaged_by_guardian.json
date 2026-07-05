@@ -6,7 +6,7 @@
 			"conditions": {
 				"damage": {
 						"source_entity": {
-							"type": "minecraft:guardian"
+							"entity_type": "minecraft:guardian"
 						}
 				}
 			}
@@ -17,7 +17,7 @@
 				"damage": {
 					"type": {
 						"source_entity": {
-							"type": "minecraft:elder_guardian"
+							"entity_type": "minecraft:elder_guardian"
 						}
 					}
 				}

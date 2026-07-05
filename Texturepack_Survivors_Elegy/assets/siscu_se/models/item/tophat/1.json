@@ -1,0 +1,7 @@
+{
+  "parent": "siscu_se:item/tophat/empty",
+  "textures": {
+    "layer0": "siscu_se:item/top_hat/1",
+    "layer1": "#layer0"
+  }
+}

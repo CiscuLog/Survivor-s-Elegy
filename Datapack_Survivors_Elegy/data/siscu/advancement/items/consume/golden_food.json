@@ -1,0 +1,16 @@
+{
+	"parent": "siscu:items/root",
+	"criteria": {
+		"Staff": {
+			"trigger":"minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": ["golden_carrot"]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/consume/golden_food"
+	}
+}

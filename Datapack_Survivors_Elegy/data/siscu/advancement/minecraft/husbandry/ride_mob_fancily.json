@@ -46,7 +46,7 @@
 								}
 							},
 							"vehicle": {
-								"type": "minecraft:strider",
+								"entity_type": "minecraft:strider",
 								"nbt": "{Tags:[\"siscu.enchanted_saddle\"]}",
 								"stepping_on": {
 									"block": {

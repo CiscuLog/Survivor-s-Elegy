@@ -38,8 +38,23 @@
                             }
                         },
                         {
-                            "condition": "random_chance",
-                            "chance": 0.5
+                            "condition": "any_of",
+                            "terms": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.5
+                                },
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {"entity_type": "player" }
+                                }
+                            ]
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {"entity_type": "#siscu:phage_zombifiable"}
                         }
                     ]
                 }

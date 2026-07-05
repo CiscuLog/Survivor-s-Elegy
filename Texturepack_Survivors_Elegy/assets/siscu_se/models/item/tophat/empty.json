@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/leather_helmet",
+  "textures": {
+    "layer0": "siscu_se:item/top_hat/empty",
+    "layer1": "#layer0"
+  }
+}

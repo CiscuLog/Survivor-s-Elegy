@@ -9,7 +9,7 @@ execute store result entity @s data.stains int 1 run scoreboard players get stai
 
 function siscu:blocks/broth_cauldron/interact/stain/text
 
-execute if score stains siscu.broth_data matches ..0 run return run data merge entity @n[type=item_display,tag=siscu.broth_water] {item:{components:{"minecraft:custom_model_data":{strings:["clean"]}}}}
-execute if score stains siscu.broth_data matches 1..10 run return run data merge entity @n[type=item_display,tag=siscu.broth_water] {item:{components:{"minecraft:custom_model_data":{strings:["stained"]}}}}
-execute if score stains siscu.broth_data matches 11..20 run return run data merge entity @n[type=item_display,tag=siscu.broth_water] {item:{components:{"minecraft:custom_model_data":{strings:["dirty"]}}}}
-execute if score stains siscu.broth_data matches 21.. run return run data merge entity @n[type=item_display,tag=siscu.broth_water] {item:{components:{"minecraft:custom_model_data":{strings:["filthy"]}}}}
+execute if score stains siscu.broth_data matches ..0 run return run data merge entity @s {item:{components:{"minecraft:custom_model_data":{strings:["clean"]}}}}
+execute if score stains siscu.broth_data matches 1..10 run return run data merge entity @s {item:{components:{"minecraft:custom_model_data":{strings:["stained"]}}}}
+execute if score stains siscu.broth_data matches 11..20 run return run data merge entity @s {item:{components:{"minecraft:custom_model_data":{strings:["dirty"]}}}}
+execute if score stains siscu.broth_data matches 21.. run return run data merge entity @s {item:{components:{"minecraft:custom_model_data":{strings:["filthy"]}}}}

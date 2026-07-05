@@ -5,7 +5,7 @@
 execute if data storage siscu:world PackVersion unless data storage siscu:world MajorUpdate run schedule function siscu:technical/load/warning 5s
 
 # Update (siscu:world)
-data merge storage siscu:world {PackVersion:"v1.0.10",RPVersion:8,MajorUpdate:1}
+data merge storage siscu:world {PackVersion:"v1.0.11",RPVersion:9,MajorUpdate:1}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 execute unless data storage siscu:world day_length run data merge storage siscu:world {day_length:3}
 
@@ -47,6 +47,7 @@ scoreboard objectives add siscu.item_frame_inv dummy {"text":"Frame Invisibility
 scoreboard objectives add siscu.rotting_mob dummy {"text":"Rotting Mobs","color":"dark_green"}
 scoreboard objectives add siscu.fire_spring dummy {"text":"Fire Spring","color":"yellow"}
 scoreboard objectives add siscu.zombifying dummy {"text":"Zombifying","color":"dark_green"}
+scoreboard objectives add siscu.phage_buildup dummy {text:"Phage buildup",color:"dark_green"}
 scoreboard objectives add siscu.trader_timer dummy {"text":"Trader Pet Timer","color":"blue"}
 
 scoreboard objectives add siscu.tofu_boost dummy {"text":"Boost Main","color": "red"}
@@ -66,10 +67,11 @@ execute unless score death_message siscu.integer matches 0.. run scoreboard play
 ## constants
 scoreboard players set -1 siscu.integer -1
 scoreboard players set 2 siscu.integer 2
-scoreboard players set 5 siscu.integer 2
+scoreboard players set 5 siscu.integer 5
 scoreboard players set 8 siscu.integer 8
 scoreboard players set 10 siscu.integer 10
 scoreboard players set 20 siscu.integer 20
+scoreboard players set 30 siscu.integer 30
 scoreboard players set 60 siscu.integer 60
 scoreboard players set 100 siscu.integer 100
 ## daytime variables
@@ -87,6 +89,7 @@ execute unless score fletcher_stick_nerf siscu.integer matches 0.. run scoreboar
 execute unless score librarian_mending_nerf siscu.integer matches 0.. run scoreboard players set librarian_mending_nerf siscu.integer 1
 execute unless score warden_retreat siscu.integer matches 0.. run scoreboard players set warden_retreat siscu.integer 1
 execute unless score fire_springs_enabled siscu.integer matches 0.. run scoreboard players set fire_springs_enabled siscu.integer 1
+execute unless score shield_nerf siscu.integer matches 0.. run scoreboard players set shield_nerf siscu.integer 1
 ## fire spring variables
 scoreboard players set fire_spring_lava siscu.integer 0
 scoreboard players set fire_spring_flame siscu.integer 50
@@ -102,6 +105,7 @@ execute unless score zombie_timer_limit siscu.integer matches 0.. run scoreboard
 scoreboard players operation zombie_timer_limit_2 siscu.integer = zombie_timer_limit siscu.integer
 scoreboard players operation zombie_timer_limit_2 siscu.integer += 60 siscu.integer
 execute unless score zombie_min_health siscu.integer matches 0.. run scoreboard players set zombie_min_health siscu.integer 8
+execute unless score phage_buildup_max siscu.integer matches 1.. run scoreboard players set phage_buildup_max siscu.integer 5
 ## withering
 execute unless score withering siscu.integer matches 0.. run scoreboard players set withering siscu.integer 1
 execute unless score withering_timer siscu.integer matches 0.. run scoreboard players set withering_timer siscu.integer 20

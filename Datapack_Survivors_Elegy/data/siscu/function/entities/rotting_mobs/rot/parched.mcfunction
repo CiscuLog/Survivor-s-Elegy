@@ -14,6 +14,7 @@ execute if data entity @s CustomName run data modify entity @n[tag=siscu.convert
 execute if data entity @s CustomNameVisible run data modify entity @n[tag=siscu.converted] CustomNameVisible set from entity @s CustomNameVisible
 
 execute if entity @s[tag=siscu.baby] as @n[tag=siscu.converted] run function siscu:entities/rotting_mobs/set_size_2 {Scale:0.5}
+execute if entity @s[tag=siscu.baby] as @n[tag=siscu.converted] run function siscu:entities/skeleton/baby_skeleton
 
 playsound minecraft:entity.skeleton.converted_to_stray hostile @a ~ ~ ~
 function siscu:entities/rotting_mobs/big_particles

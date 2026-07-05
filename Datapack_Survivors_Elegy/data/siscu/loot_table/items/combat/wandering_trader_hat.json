@@ -16,11 +16,6 @@
 						"SE_data":{
 							"UpdateVersion": "v1.0.1"
 						}
-					},
-					"equippable": {
-						"slot": "head",
-						"damage_on_hurt": false,
-						"asset_id": "siscu_se:wandering_trader"
 					}
 				}
 			}

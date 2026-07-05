@@ -1,5 +1,5 @@
 {
-	"parent": "recipes/root",
+	"parent": "siscu:recipes/root",
 	"criteria": {
         "1": {
             "trigger": "minecraft:inventory_changed",

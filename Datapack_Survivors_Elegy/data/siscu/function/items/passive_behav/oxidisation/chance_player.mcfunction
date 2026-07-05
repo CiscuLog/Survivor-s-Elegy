@@ -24,12 +24,12 @@ scoreboard players set leggings_ox siscu.volatile -1
 scoreboard players set boots_ox siscu.volatile -1
 
 # Get all ox values if said piece is copper
-execute if predicate siscu:entities/is_holding_copper_tool store result score tool_ox siscu.volatile run data get entity @s SelectedItem.components."minecraft:custom_data".SE_data.Oxidation
-execute if predicate siscu:entities/is_holding_copper_shield store result score shield_ox siscu.volatile run data get entity @s equipment.offhand.components."minecraft:custom_data".SE_data.Oxidation
-execute if predicate siscu:entities/is_wearing_copper_helmet store result score helmet_ox siscu.volatile run data get entity @s equipment.head.components."minecraft:custom_data".SE_data.Oxidation
-execute if predicate siscu:entities/is_wearing_copper_chestplate store result score chestplate_ox siscu.volatile run data get entity @s equipment.chest.components."minecraft:custom_data".SE_data.Oxidation
-execute if predicate siscu:entities/is_wearing_copper_leggings store result score leggings_ox siscu.volatile run data get entity @s equipment.legs.components."minecraft:custom_data".SE_data.Oxidation
-execute if predicate siscu:entities/is_wearing_copper_boots store result score boots_ox siscu.volatile run data get entity @s equipment.feet.components."minecraft:custom_data".SE_data.Oxidation
+execute if items entity @s weapon.mainhand #siscu:oxidisable_items store result score tool_ox siscu.volatile run data get entity @s SelectedItem.components."minecraft:custom_data".SE_data.Oxidation
+execute if items entity @s weapon.offhand #siscu:oxidisable_items store result score shield_ox siscu.volatile run data get entity @s equipment.offhand.components."minecraft:custom_data".SE_data.Oxidation
+execute if items entity @s armor.head #siscu:oxidisable_items store result score helmet_ox siscu.volatile run data get entity @s equipment.head.components."minecraft:custom_data".SE_data.Oxidation
+execute if items entity @s armor.chest #siscu:oxidisable_items store result score chestplate_ox siscu.volatile run data get entity @s equipment.chest.components."minecraft:custom_data".SE_data.Oxidation
+execute if items entity @s armor.legs #siscu:oxidisable_items store result score leggings_ox siscu.volatile run data get entity @s equipment.legs.components."minecraft:custom_data".SE_data.Oxidation
+execute if items entity @s armor.feet #siscu:oxidisable_items store result score boots_ox siscu.volatile run data get entity @s equipment.feet.components."minecraft:custom_data".SE_data.Oxidation
 
 # Compare all positive ox values and get the minimum one
 execute if score tool_ox siscu.volatile matches 0..2 run scoreboard players operation min_ox siscu.volatile = tool_ox siscu.volatile

@@ -68,7 +68,7 @@ data merge storage siscu:volatile {string_list:[\
 "Sarah",\
 "Victoria",\
 "Waxed Lightly Weathered Cut Copper Stairs"]}
-execute store result storage siscu:volatile Randomiser byte 1 run random value 0..17
+execute store result storage siscu:volatile Randomiser byte 1 run random value 0..19
 data merge storage siscu:volatile {String:"Mayor1"}
 function siscu:world/infected_city/name_randomiser/store_data with storage siscu:volatile
 
@@ -97,7 +97,7 @@ data merge storage siscu:volatile {string_list:[\
 "da Figueira",\
 "Weber",\
 "Silvers"]}
-execute store result storage siscu:volatile Randomiser byte 1 run random value 0..21
+execute store result storage siscu:volatile Randomiser byte 1 run random value 0..22
 data merge storage siscu:volatile {String:"Mayor2"}
 function siscu:world/infected_city/name_randomiser/store_data with storage siscu:volatile
 

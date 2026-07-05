@@ -11,4 +11,5 @@ execute if items entity @s weapon.mainhand glass_bottle run tag @s add siscu.scu
 execute unless items entity @s weapon.mainhand glass_bottle as @n[type=interaction,tag=siscu.plantoid_interacted] at @s run function siscu:blocks/sculk_plantoid/interact/add_xp
 execute if items entity @s weapon.mainhand glass_bottle as @e[type=interaction,tag=siscu.sculk_plantoid] at @s run function siscu:blocks/sculk_plantoid/interact/fill_bottle
 tag @e[tag=siscu.plantoid_interacted] remove siscu.plantoid_interacted
+tag @s remove siscu.sculk_bottling
 tag @s remove siscu.plantoid_interacting

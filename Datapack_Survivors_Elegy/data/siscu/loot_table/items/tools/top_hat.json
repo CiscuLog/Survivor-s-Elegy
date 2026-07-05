@@ -18,14 +18,16 @@
                                 "minecraft:custom_data": {
                                     "SE_data": {
                                         "id": "siscu:top_hat",
-                                        "UpdateVersion": "v1.0.10"
+                                        "UpdateVersion": "v1.0.11"
                                     }
                                 },
                                 "equippable": {
                                     "slot": "head",
                                     "damage_on_hurt": false
                                 },
-                                "dyed_color": 4342338
+                                "tooltip_display": {
+                                    "hidden_components": ["dye"]
+                                }
                             }
                         },
                         {

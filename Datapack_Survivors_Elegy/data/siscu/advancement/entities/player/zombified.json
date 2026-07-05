@@ -1,0 +1,24 @@
+{
+  "parent": "siscu:entities/root",
+  "criteria": {
+    "0": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_tags": {
+                "all_of": ["siscu.zombie"]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "siscu:entities/phage/zombified/player"
+  }
+}

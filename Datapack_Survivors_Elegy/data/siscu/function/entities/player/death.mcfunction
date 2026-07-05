@@ -13,8 +13,8 @@ tag @s add siscu.respawning
 
 # Reset zombification
 execute if score @s siscu.zombifying matches 60.. at @s run summon zombie ~ ~ ~ {Tags:["siscu.zombie_checked"],CanPickUpLoot:1b}
-function siscu:entities/phage/unzombify/player
-function siscu:entities/phage/clear_zombifying
+function siscu:entities/phage/cure/player
+function siscu:entities/phage/cure/clear_zombifying
 
 # reset HP attribute
 attribute @s max_health base set 20

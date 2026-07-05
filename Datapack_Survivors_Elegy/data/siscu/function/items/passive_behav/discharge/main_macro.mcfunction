@@ -23,7 +23,7 @@ $execute if score charge siscu.volatile matches $(DischargeAmount).. if score N 
 execute if score N siscu.volatile matches 0 run return 0
 
 # Discharge effect
-tag @s add discharging
+tag @s add siscu.discharging
 scoreboard players set N siscu.volatile 0
 # lateral arc
 execute store result score x1 siscu.volatile run random value -30..30
@@ -35,12 +35,9 @@ execute as @e[tag=siscu.discharge_path] at @s facing entity @e[type=player,limit
 
 execute on attacker at @s run playsound minecraft:entity.blaze.hurt ambient @a ~ ~ ~ 1 2
 execute on attacker at @s run particle minecraft:electric_spark ~ ~0.3 ~ 0.2 0.2 0.2 0.3 10
-# Negate all damage if it's wearing copper
-# Damage strongly if wearing netherite armor (6HP)
-execute on attacker if predicate siscu:entities/is_wearing_netherite unless items entity @s armor.* #siscu:oxidisable_items run damage @s[type=!#siscu:discharge_immune] 6 siscu:copper_discharge by @e[tag=discharging,limit=1]
-# Damage slightly otherwise (3HP)
-execute on attacker unless predicate siscu:entities/is_wearing_netherite unless items entity @s armor.* #siscu:oxidisable_items run damage @s[type=!#siscu:discharge_immune] 3 siscu:copper_discharge by @e[tag=discharging,limit=1]
-tag @s remove discharging
+
+execute on attacker run function siscu:items/passive_behav/discharge/damage
+tag @s remove siscu.discharging
 
 
 ##Proposed new behavior:

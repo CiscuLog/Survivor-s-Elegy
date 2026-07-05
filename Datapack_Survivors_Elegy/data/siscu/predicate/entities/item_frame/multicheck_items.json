@@ -7,14 +7,9 @@
 			"predicate": {
 				"slots": {
 					"contents": {
-						"items": [
-							"raw_copper"
-						],
 						"predicates": {
 							"custom_data": {
-								"SE_data": {
-									"id": "siscu:bee_counter"
-								}
+								"SE_data": { "id": "siscu:bee_counter" }
 							}
 						}
 					}

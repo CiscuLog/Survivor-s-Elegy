@@ -8,7 +8,7 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "type": "minecraft:wither"
+              "entity_type": "minecraft:wither"
             },
             "entity": "this"
           }

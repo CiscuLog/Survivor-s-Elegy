@@ -17,7 +17,7 @@
             },
             {
               "model": {"type": "model","model": "siscu_se:item/player_corpse/fleeing/zombie"},
-              "when": "zombie"
+              "when": ["zombie","husk","drowned"]
             },
             {
               "model": {"type": "model","model": "siscu_se:item/player_corpse/fleeing/skeleton"},

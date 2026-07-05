@@ -1,6 +1,13 @@
 {
 	"model": {
-		"type": "model",
-		"model": "siscu_se:item/baby_oxidised_copper_sword"
+		"type": "select",
+		"property": "context_entity_type",
+		"cases": [
+			{
+				"when": ["zombie","husk","drowned"],
+				"model": {"type":"model","model":"siscu_se:item/baby_sword/oxidised_copper"}
+			}
+		],
+		"fallback": {"type":"model","model":"siscu_se:item/baby_sword/big/oxidised_copper"}
 	}
 }

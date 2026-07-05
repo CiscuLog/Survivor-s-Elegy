@@ -1,5 +1,5 @@
 
-tag @s add wolf_checked
+tag @s add siscu.wolf_checked
 tag @s add siscu.zombifying_invulnerable
 tag @s add siscu.withering_invulnerable
 tag @s remove siscu.rot_checked
