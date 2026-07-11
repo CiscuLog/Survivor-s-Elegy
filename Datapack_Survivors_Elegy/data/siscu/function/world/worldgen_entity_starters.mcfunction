@@ -16,6 +16,6 @@ execute if entity @s[tag=siscu.museum_pearl] at @s positioned ^1 ^-1 ^ run retur
 # crevice
 execute if entity @s[tag=siscu.crevice_food] at @s positioned ^1 ^-1 ^ run return run function siscu:world/piglin/food_frame
 execute if entity @s[tag=siscu.piglin_painting] at @s run function siscu:world/piglin/painting
-execute if entity @s[tag=siscu.piglin_banner] at @s run function siscu:world/piglin/banner
+execute if entity @s[tag=siscu.piglin_banner] at @s run return run function siscu:world/piglin/banner
 # corpses
-execute if entity @s[tag=siscu.player_corpse] at @s align xyz positioned ~0.5 ~0 ~0.5 run function siscu:entities/player_corpse/summon/main
+execute if entity @s[tag=siscu.player_corpse] at @s align xyz positioned ~0.5 ~0 ~0.5 run return run function siscu:entities/player_corpse/summon/main

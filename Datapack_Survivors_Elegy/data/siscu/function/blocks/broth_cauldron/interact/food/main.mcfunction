@@ -1,6 +1,8 @@
 
 # return if pot is empty
 execute if score broth_level siscu.broth_data matches 0 at @n[type=interaction,tag=siscu.broth_interacted] as @n[tag=siscu.broth_ladle] run return run function siscu:blocks/broth_cauldron/interact/stirr
+# Return if it has no food values
+execute if items entity @s weapon.mainhand *[!food] unless items entity @s weapon.mainhand cake run return run function siscu:blocks/broth_cauldron/interact/stirr
 
 # set variables
 scoreboard players set max_food_level siscu.broth_data 1400
@@ -39,9 +41,9 @@ execute if items entity @s weapon.mainhand #siscu:saturation/12.8 run scoreboard
 execute if items entity @s weapon.mainhand #siscu:saturation/12 run scoreboard players set saturation siscu.broth_data 1200
 execute if items entity @s weapon.mainhand #siscu:saturation/14.4 run scoreboard players set saturation siscu.broth_data 1440
 
-# get food and saturation if it's a special item
+# get food and saturation if it's an item with special food values
 scoreboard players set x siscu.volatile 0
-execute if items entity @s weapon.mainhand *[custom_data,food] run scoreboard players set x siscu.volatile 1
+execute if items entity @s weapon.mainhand *[custom_data] store success score x siscu.volatile run data get entity @s SelectedItem.components."minecraft:food"
 #execute if predicate siscu:items/broth/special_items run scoreboard players set x siscu.volatile 1
 execute if score x siscu.volatile matches 1 store result score food siscu.broth_data run data get entity @s SelectedItem.components."minecraft:food".nutrition 100
 execute if score x siscu.volatile matches 1 store result score saturation siscu.broth_data run data get entity @s SelectedItem.components."minecraft:food".saturation 100
@@ -55,7 +57,7 @@ execute if score broth_food siscu.broth_data > max_food_level siscu.broth_data a
 execute if score broth_saturation siscu.broth_data > max_saturation_level siscu.broth_data at @n[type=interaction,tag=siscu.broth_interacted] as @n[tag=siscu.broth_ladle] run return run function siscu:blocks/broth_cauldron/interact/stirr
 
 # if item adds an effect
-execute if items entity @s weapon.mainhand #siscu:broth_give_effects if function siscu:blocks/broth_cauldron/interact/food/contains_effect run tag @n[type=interaction,tag=siscu.broth_interacted] add siscu.broth_potion
+execute if items entity @s weapon.mainhand #siscu:broth_give_effects if function siscu:blocks/broth_cauldron/interact/food/contains_effect store success score x siscu.volatile run tag @n[type=interaction,tag=siscu.broth_interacted] add siscu.broth_potion
 # if item clears an effect
 execute if items entity @s weapon.mainhand honey_bottle run function siscu:blocks/broth_cauldron/interact/food/clears_effects
 # if item is a custom item that adds an effect too (TO-DO)

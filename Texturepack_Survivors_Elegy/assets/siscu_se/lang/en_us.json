@@ -1,7 +1,7 @@
 {	
 
 	"pack.siscu": "Survivor's Elegy",
-	"pack.siscu.version": "9",
+	"pack.siscu.version": "10",
 	"pack.siscu.loaded": "%s",
 	
 	"advancements.siscu.description_1": "A song to the memories that have been lost",
@@ -403,7 +403,7 @@
 	"text.siscu.wax_horse_armor2": "Must be equipped before zombification",
 	"text.siscu.wax_wolf_armor": "Protects Zombie Wolves from Rotting",
 	"text.siscu.wax_wolf_armor2": "Can be equipped anytime",
-
+	
 	"title.siscu.cardinal_1":"st",
 	"title.siscu.cardinal_2":"nd",
 	"title.siscu.cardinal_3":"rd",
@@ -422,4 +422,5 @@
 	"actionbar.siscu.enchantment_reroll": "Rerolled with level ",
 	
 	"chat.siscu.system_notification":"<Notification> "
+
 }

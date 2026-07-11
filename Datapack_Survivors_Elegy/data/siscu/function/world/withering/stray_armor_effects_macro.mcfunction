@@ -1,0 +1,1 @@
+$advancement grant @s only siscu:minecraft/adventure/stray_clothes_nether $(stray_advancement)

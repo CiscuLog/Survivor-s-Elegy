@@ -5,5 +5,5 @@ execute if block ~ ~ ~ soul_campfire run return run setblock ~ ~ ~ soul_campfire
 execute if block ~ ~ ~ magma_block run return run setblock ~ ~ ~ netherrack
 execute if block ~ ~ ~ lava run return run setblock ~ ~ ~ obsidian
 execute if block ~ ~ ~ #siscu:torches run return run fill ~ ~ ~ ~ ~ ~ air destroy
-execute if block ~ ~ ~ lava_cauldron run loot spawn ~ ~ ~ loot blocks/cauldron
+execute if block ~ ~ ~ lava_cauldron run loot spawn ~ ~ ~ mine ~ ~ ~
 execute if block ~ ~ ~ lava_cauldron run return run setblock ~ ~ ~ obsidian

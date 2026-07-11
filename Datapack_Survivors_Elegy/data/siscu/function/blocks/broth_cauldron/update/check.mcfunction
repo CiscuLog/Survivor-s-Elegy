@@ -28,6 +28,7 @@ execute if score cauldron_level siscu.broth_data > broth_level siscu.broth_data 
 # put in storage
 execute store result storage siscu:volatile BrothCauldronData.broth_food int 1 run scoreboard players get broth_food siscu.broth_data
 execute store result storage siscu:volatile BrothCauldronData.broth_saturation int 1 run scoreboard players get broth_saturation siscu.broth_data
+execute store result storage siscu:volatile BrothCauldronData.tp_diameter int 1 run scoreboard players get tp_diameter siscu.broth_data
 scoreboard players operation broth_level siscu.broth_data = broth_level siscu.broth_data
 execute store result storage siscu:volatile BrothCauldronData.broth_level int 1 run scoreboard players get broth_level siscu.broth_data
 data modify entity @s data set from storage siscu:volatile BrothCauldronData

@@ -1,5 +1,17 @@
 
-Compatible Minecraft versions: 26.1.2
+Compatible Minecraft versions: 26.2
+
+Survivor's Elegy 1.0.12 (11/07/2026)
++ Changed resourcepack version to 10
++ Changed all zombified illagers will spawn as nitwits
++ Fixed Copper Armor discharges wouldn't harm the attacker if there were discharge immune entities around
++ Changed "Fishmonger" advancement is no longer hidden
++ Changed advancement "Facing the Darkness" now displays the progress (in minutes) until the advancement is granted
++ Changed items with custom data whose base item would grant custom effects to the broth don't count anymore
++ Fixed Broth Cauldrons would keep their teleportation properties while empty
++ Fixed Broth Cauldrons would sometimes accept custom food but not read their food values
++ Fixed Broths couldn't cure zombification
++ Fixed Broken Baby Copper Sword textures
 
 Survivor's Elegy 1.0.11 (05/07/2026)
 + Updated to 26.2

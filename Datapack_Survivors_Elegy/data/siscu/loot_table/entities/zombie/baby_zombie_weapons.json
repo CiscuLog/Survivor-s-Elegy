@@ -64,7 +64,7 @@
 		  "functions": [
 			{
 				"function": "minecraft:set_components",
-				"components": {"item_model":"siscu_se:baby_esposed_copper_sword"}
+				"components": {"item_model":"siscu_se:baby_exposed_copper_sword"}
 			}
 			],
 			"weight":1

@@ -6,7 +6,7 @@ execute at @s positioned ~ ~1.4 ~ positioned ^ ^ ^1 run loot spawn ~ ~ ~ loot si
 execute at @s positioned ~ ~1.4 ~ positioned ^ ^ ^1 run particle minecraft:soul_fire_flame ~ ~0.1 ~ 0.2 0.2 0.2 0.01 10
 
 scoreboard players set x siscu.volatile 0
-execute if predicate siscu:items/allay_container_full_mainhand run scoreboard players set x siscu.volatile 1
+execute if items entity @s weapon.mainhand *[custom_data~{"SE_data":{"ContainsAllay": true}}] run scoreboard players set x siscu.volatile 1
 
 execute if score x siscu.volatile matches 1 run return run item replace entity @s weapon.mainhand with air
 execute if score x siscu.volatile matches 0 run item replace entity @s weapon.offhand with air

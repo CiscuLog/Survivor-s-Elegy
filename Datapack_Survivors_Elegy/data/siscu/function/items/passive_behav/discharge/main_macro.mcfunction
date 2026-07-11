@@ -4,7 +4,6 @@
 # helmet -> boots -> leggings -> chestplate
 scoreboard players set N siscu.volatile 0
 scoreboard players set charge siscu.volatile 0
-scoreboard players set charge siscu.volatile 0
 execute if items entity @s armor.head copper_helmet store result score charge siscu.volatile run data get entity @s equipment.head.components."minecraft:custom_data".SE_data.Charge
 $execute if score charge siscu.volatile matches $(DischargeAmount).. if score N siscu.volatile matches 0 run function siscu:items/passive_behav/discharge/copper_item {Slot:"armor.head",DischargeAmount:$(DischargeAmount)}
 

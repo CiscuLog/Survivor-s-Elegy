@@ -14,12 +14,12 @@
         "type": "plain_message",
         "contents": [{"text":"Loaded Resourcepack Version: ","color":"gray"},
         {"translate":"pack.siscu.version","bold":true,"color":"green","fallback": "%s","with": [{"text": "-no pack loaded-","color": "red"}]},
-        {"text":" (required: "},{"text":"9","bold":true,"color":"gold"},{"text":" )"}]
+        {"text":" (required: "},{"text":"10","bold":true,"color":"gold"},{"text":" )"}]
     },
     {
       "type": "plain_message",
       "contents": {
-        "text": "v1.0.11\nBy Siscu",
+        "text": "v1.0.12\nBy Siscu",
         "color": "gray"
       },
       "width": 300

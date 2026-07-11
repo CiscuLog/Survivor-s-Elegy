@@ -26,7 +26,7 @@ execute if score broth_level siscu.broth_data matches 3 at @s run setblock ~ ~ ~
 # update textures
 data modify storage siscu:volatile BrothCauldronData.dye_ingredients set value -5809114
 data modify storage siscu:volatile BrothCauldronData.dye_potions set value 5809114
-execute at @s run function siscu:blocks/broth_cauldron/update/water_color
+execute at @s run function siscu:blocks/broth_cauldron/update/textures
 
 # remove all potion data if there's no broth
 execute unless score broth_level siscu.broth_data matches 0 run return 1
