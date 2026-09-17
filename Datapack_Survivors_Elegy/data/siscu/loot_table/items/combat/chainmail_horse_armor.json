@@ -6,9 +6,9 @@
         {
           "type": "item",
           "name": "raw_iron",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:item_name": {
                   "translate": "item.siscu.chainmail_horse_armor"

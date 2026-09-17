@@ -7,12 +7,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:fishing_rod",
 					"weight": 4,
-					"conditions": [
-						{
-							"condition": "minecraft:reference",
-							"name": "siscu:locations/check_surface"
-						}
-					]
+					"condition": "siscu:locations/check_surface"
 				},
 				{
 					"type": "minecraft:item",
@@ -20,12 +15,7 @@
 					"weight": 7
 				}
 			],
-			"conditions": [
-				{
-					"condition": "random_chance",
-					"chance": 0.1
-				}
-			]
+			"condition": { "type": "random_chance", "chance": 0.1 }
 		}
 	]
 }

@@ -1,6 +1,5 @@
 {
 	"type": "minecraft:block_column",
-	"config": {
 	  "allowed_placement": {
 		"type": "minecraft:matching_block_tag",
 		"offset":[
@@ -10,23 +9,22 @@
 		],
 		"tag": "siscu:column_traspassable"
 	  },
-	  "prioritize_tip": true,
+	  "prioritize_tip": false,
 	  "direction": "down",
 	  "layers": [
 		{
 		  "height": 100,
 		  "provider": {
-			"type": "minecraft:weighted_state_provider",
+			"type": "minecraft:weighted",
 			"entries": [
 			  {
 				"data": {
-				  "Name": "minecraft:dirt"
+				  "id": "minecraft:oak_log"
 				},
 				"weight": 1
 			  }
 			]
 		  }
 		}
-	  ]
-	}
-  }
+	]
+}

@@ -6,9 +6,9 @@
                 {
                     "type": "item",
                     "name": "bundle",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_components",
+                            "type": "set_components",
                             "components": {
                                 "minecraft:item_name": {"translate":"item.siscu.top_hat"},
                                 "minecraft:lore": [
@@ -31,7 +31,7 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_attributes",
+                            "type": "minecraft:set_attributes",
                             "modifiers": [
                                 {
                                     "attribute": "minecraft:armor",

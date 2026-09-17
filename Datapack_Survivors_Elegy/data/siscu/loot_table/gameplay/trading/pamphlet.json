@@ -6,9 +6,9 @@
           {
             "type": "loot_table",
             "value": "siscu:items/tools/pamphlet",
-            "functions": [
+            "modifier": [
                 {
-                    "function": "minecraft:set_lore",
+                    "type": "minecraft:set_lore",
                     "lore": [{
                         "translate": "By Siscu",
                         "italic": false,

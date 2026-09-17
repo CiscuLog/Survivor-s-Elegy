@@ -7,9 +7,9 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond",
 					"weight":5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:limit_count",
+							"type": "minecraft:limit_count",
 							"limit": {"min": 2, "max": 4}
 						}
 					]
@@ -18,9 +18,9 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_block",
 					"weight":5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:limit_count",
+							"type": "minecraft:limit_count",
 							"limit": {"min": 2, "max": 4}
 						}
 					]
@@ -29,9 +29,9 @@
           "type": "minecraft:item",
           "name": "minecraft:lapis_lazuli",
 					"weight":5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:limit_count",
+							"type": "minecraft:limit_count",
 							"limit": {"min": 10, "max": 20}
 						}
 					]
@@ -40,9 +40,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
 					"weight":5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:limit_count",
+							"type": "minecraft:limit_count",
 							"limit": {"min": 1, "max": 4}
 						}
 					]
@@ -66,9 +66,9 @@
           "type": "minecraft:item",
           "name": "minecraft:nautilus_shell",
 					"weight":1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:limit_count",
+							"type": "minecraft:limit_count",
 							"limit": {"min": 2, "max": 3}
 						}
 					]
@@ -82,9 +82,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_carrot",
 					"weight":1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:limit_count",
+							"type": "minecraft:limit_count",
 							"limit": {"min": 3, "max": 6}
 						}
 					]

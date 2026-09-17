@@ -4,9 +4,9 @@
     "0": {
       "trigger": "location",
       "conditions": {
-        "player": [
+        "player": 
           {
-            "condition": "entity_properties",
+            "type": "entity_properties",
             "entity": "this",
             "predicate": {
               "entity_tags": {
@@ -14,7 +14,6 @@
               }
             }
           }
-        ]
       }
     }
   },

@@ -6,9 +6,9 @@
                 {
                     "type": "loot_table",
                     "value": "siscu:items/combat/copper_boots",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {"translate":"item.siscu.oxidised_copper_boots"},
                                 "minecraft:custom_model_data": {"floats": [3]},
@@ -20,7 +20,7 @@
                             }
                         },
                         {
-                            "function": "set_custom_data",
+                            "type": "set_custom_data",
                             "tag": {
                                 "SE_data": {
                                     "Oxidation": 3

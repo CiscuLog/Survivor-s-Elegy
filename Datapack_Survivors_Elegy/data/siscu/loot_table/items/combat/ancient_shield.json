@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:shield",
-			"functions": [
+			"modifier": [
 			{
-				"function": "set_components",
+				"type": "set_components",
 				"components": {
 					"item_name": {"translate":"item.siscu.ancient_shield"},
 					"item_model":"siscu_se:ancient_shield/base",
@@ -31,7 +31,7 @@
 				}
 			},
 			{
-				"function": "minecraft:set_lore",
+				"type": "minecraft:set_lore",
 				"lore": [
 					{"color": "white","italic": false,
 					"translate": "text.siscu.ancient_shield_1"

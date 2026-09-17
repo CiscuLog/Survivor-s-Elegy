@@ -5,8 +5,7 @@
 			"trigger":"minecraft:player_interacted_with_entity",
 			"conditions": {
 				"entity":{
-					"entity_type": "minecraft:interaction",
-					"nbt": "{Tags:[\"siscu.broth_cauldron\"]}"
+					"type": "entity_properties","entity": "this","predicate": { "entity_type": "minecraft:interaction", "nbt": "{Tags:[\"siscu.broth_cauldron\"]}" }
 				}
 			}
 		}

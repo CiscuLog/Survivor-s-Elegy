@@ -4,22 +4,25 @@
         "strip": {
             "trigger": "item_used_on_block",
             "conditions": {
-                "location": [
-                    {
-                        "condition": "match_tool",
-                        "predicate": {
-                            "items": "#minecraft:axes"
-                        }
-                    },
-                    {
-                        "condition": "location_check",
-                        "predicate": {
-                            "block": {
-                                "blocks": "#warped_stems"
+                "location": {
+                    "type": "all_of",
+                    "terms": [
+                        {
+                            "type": "match_tool",
+                            "predicate": {
+                                "items": "#minecraft:axes"
+                            }
+                        },
+                        {
+                            "type": "location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#warped_stems"
+                                }
                             }
                         }
-                    }
-                ]
+                    ]
+                }
             }
         }
     },

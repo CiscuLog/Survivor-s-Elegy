@@ -1,57 +1,57 @@
 {
-    "condition": "minecraft:any_of",
+    "type": "minecraft:any_of",
     "terms": [
         {
-            "condition": "minecraft:entity_properties",
+            "type": "minecraft:entity_properties",
             "entity":"this",
             "predicate": {
                 "slots": {
                     "weapon.mainhand": {
                         "items": ["potion"],
                         "predicates": {
-                            "potion_contents": "minecraft:harming"
+                            "potion_contents": {"potions": "minecraft:harming"}
                         }
                     }
                 }
             }
         },
         {
-            "condition": "minecraft:entity_properties",
+            "type": "minecraft:entity_properties",
             "entity":"this",
             "predicate": {
                 "slots": {
                     "weapon.mainhand": {
                         "items": ["potion"],
                         "predicates": {
-                            "potion_contents": "minecraft:strong_harming"
+                            "potion_contents": {"potions": "minecraft:strong_harming"}
                         }
                     }
                 }
             }
         },
         {
-            "condition": "minecraft:entity_properties",
+            "type": "minecraft:entity_properties",
             "entity":"this",
             "predicate": {
                 "slots": {
                     "weapon.mainhand": {
                         "items": ["potion"],
                         "predicates": {
-                            "potion_contents": "minecraft:healing"
+                            "potion_contents": {"potions": "minecraft:healing"}
                         }
                     }
                 }
             }
         },
         {
-            "condition": "minecraft:entity_properties",
+            "type": "minecraft:entity_properties",
             "entity":"this",
             "predicate": {
                 "slots": {
                     "weapon.mainhand": {
                         "items": ["potion"],
                         "predicates": {
-                            "potion_contents": "minecraft:strong_healing"
+                            "potion_contents": {"potions": "minecraft:strong_healing"}
                         }
                     }
                 }

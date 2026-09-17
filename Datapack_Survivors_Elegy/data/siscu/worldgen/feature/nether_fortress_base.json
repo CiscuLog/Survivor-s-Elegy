@@ -1,6 +1,5 @@
 {
 	"type": "minecraft:block_column",
-	"config": {
 	  "allowed_placement": {
 		"type": "minecraft:matching_block_tag",
 		"offset":[
@@ -16,17 +15,17 @@
 		{
 		  "height": 5,
 		  "provider": {
-			"type": "minecraft:weighted_state_provider",
+			"type": "minecraft:weighted",
 			"entries": [
 				{
 				  "data": {
-					"Name": "minecraft:nether_bricks"
+					"id": "minecraft:nether_bricks"
 				  },
 				  "weight": 10
 				},
 				{
 				  "data": {
-					"Name": "minecraft:cracked_nether_bricks"
+					"id": "minecraft:cracked_nether_bricks"
 				  },
 				  "weight": 1
 				}
@@ -36,17 +35,17 @@
 		{
 		  "height": 1,
 		  "provider": {
-			"type": "minecraft:weighted_state_provider",
+			"type": "minecraft:weighted",
 			"entries": [
 				{
 				  "data": {
-					"Name": "minecraft:nether_bricks"
+					"id": "minecraft:nether_bricks"
 				  },
 				  "weight": 4
 				},
 				{
 				  "data": {
-					"Name": "minecraft:red_nether_bricks"
+					"id": "minecraft:red_nether_bricks"
 				  },
 				  "weight": 1
 				}
@@ -56,17 +55,17 @@
 		{
 		  "height": 1,
 		  "provider": {
-			"type": "minecraft:weighted_state_provider",
+			"type": "minecraft:weighted",
 			"entries": [
 				{
 				  "data": {
-					"Name": "minecraft:nether_bricks"
+					"id": "minecraft:nether_bricks"
 				  },
 				  "weight": 2
 				},
 				{
 				  "data": {
-					"Name": "minecraft:red_nether_bricks"
+					"id": "minecraft:red_nether_bricks"
 				  },
 				  "weight": 1
 				}
@@ -76,17 +75,17 @@
 		{
 		  "height": 1,
 		  "provider": {
-			"type": "minecraft:weighted_state_provider",
+			"type": "minecraft:weighted",
 			"entries": [
 				{
 				  "data": {
-					"Name": "minecraft:nether_bricks"
+					"id": "minecraft:nether_bricks"
 				  },
 				  "weight": 1
 				},
 				{
 				  "data": {
-					"Name": "minecraft:red_nether_bricks"
+					"id": "minecraft:red_nether_bricks"
 				  },
 				  "weight": 1
 				}
@@ -96,17 +95,17 @@
 		{
 		  "height": 1,
 		  "provider": {
-			"type": "minecraft:weighted_state_provider",
+			"type": "minecraft:weighted",
 			"entries": [
 				{
 				  "data": {
-					"Name": "minecraft:nether_bricks"
+					"id": "minecraft:nether_bricks"
 				  },
 				  "weight": 1
 				},
 				{
 				  "data": {
-					"Name": "minecraft:red_nether_bricks"
+					"id": "minecraft:red_nether_bricks"
 				  },
 				  "weight": 2
 				}
@@ -116,17 +115,17 @@
 		{
 		  "height": 1,
 		  "provider": {
-			"type": "minecraft:weighted_state_provider",
+			"type": "minecraft:weighted",
 			"entries": [
 				{
 				  "data": {
-					"Name": "minecraft:nether_bricks"
+					"id": "minecraft:nether_bricks"
 				  },
 				  "weight": 1
 				},
 				{
 				  "data": {
-					"Name": "minecraft:red_nether_bricks"
+					"id": "minecraft:red_nether_bricks"
 				  },
 				  "weight": 4
 				}
@@ -136,17 +135,16 @@
 		{
 		  "height": 100,
 		  "provider": {
-			"type": "minecraft:weighted_state_provider",
+			"type": "minecraft:weighted",
 			"entries": [
 			  {
 				"data": {
-				  "Name": "minecraft:red_nether_bricks"
+				  "id": "minecraft:red_nether_bricks"
 				},
 				"weight": 1
 			  }
 			]
 		  }
 		}
-	  ]
-	}
-  }
+	]
+}

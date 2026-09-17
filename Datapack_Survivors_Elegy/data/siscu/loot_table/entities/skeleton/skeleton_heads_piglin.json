@@ -7,9 +7,9 @@
           "type": "minecraft:item",
           "name": "minecraft:bone",
 		  "weight": 89,
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:piglin_skull"}
 		  }
 		  ]
@@ -18,9 +18,9 @@
           "type": "minecraft:item",
           "name": "minecraft:bone",
 		  "weight": 5,
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:piglin_skull_golden"}
 		  }
 		  ]
@@ -29,9 +29,9 @@
           "type": "minecraft:item",
           "name": "minecraft:bone",
 		  "weight": 5,
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:piglin_skull_chainmail"}
 		  }
 		  ]
@@ -40,9 +40,9 @@
           "type": "minecraft:item",
           "name": "minecraft:bone",
 		  "weight": 1,
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:piglin_skull_netherite"}
 		  }
 		  ]

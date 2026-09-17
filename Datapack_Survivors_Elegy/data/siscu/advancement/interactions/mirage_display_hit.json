@@ -4,10 +4,7 @@
 		"0": {
 			"trigger":"minecraft:player_hurt_entity",
 			"conditions": {
-				"entity":{
-					"entity_type": "minecraft:interaction",
-					"nbt": "{Tags:[\"siscu.mirage\"]}"
-				}
+				"entity":{"type":"entity_properties","entity":"this","predicate": { "entity_type": "minecraft:interaction", "nbt": "{Tags:[\"siscu.mirage\"]}" }}
 			}
 		}
 	},

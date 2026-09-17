@@ -8,65 +8,65 @@
 		{
 			"type": "minecraft:loot_table",
 			"value": "minecraft:entities/zombie",
-			"conditions": [{
-				"condition": "minecraft:entity_properties",
+			"condition":{
+				"type": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {"entity_type": "minecraft:zombie"}
-			}]
+			}
 		},
 		{
 			"type": "minecraft:loot_table",
 			"value": "minecraft:entities/drowned",
-			"conditions": [{
-				"condition": "minecraft:entity_properties",
+			"condition":{
+				"type": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {"entity_type": "minecraft:drowned"}
-			}]
+			}
 		},
 		{
 			"type": "minecraft:loot_table",
 			"value": "minecraft:entities/husk",
-			"conditions": [{
-				"condition": "minecraft:entity_properties",
+			"condition":{
+				"type": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {"entity_type": "minecraft:husk"}
-			}]
+			}
 		},
 		{
 			"type": "minecraft:loot_table",
 			"value": "minecraft:entities/skeleton",
-			"conditions": [{
-				"condition": "minecraft:entity_properties",
+			"condition":{
+				"type": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {"entity_type": "minecraft:skeleton"}
-			}]
+			}
 		},
 		{
 			"type": "minecraft:loot_table",
 			"value": "minecraft:entities/wither_skeleton",
-			"conditions": [{
-				"condition": "minecraft:entity_properties",
+			"condition":{
+				"type": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {"entity_type": "minecraft:wither_skeleton"}
-			}]
+			}
 		},
 		{
 			"type": "minecraft:loot_table",
 			"value": "minecraft:entities/stray",
-			"conditions": [{
-				"condition": "minecraft:entity_properties",
+			"condition":{
+				"type": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {"entity_type": "minecraft:stray"}
-			}]
+			}
 		},
 		{
 			"type": "minecraft:loot_table",
 			"value": "minecraft:entities/bogged",
-			"conditions": [{
-				"condition": "minecraft:entity_properties",
+			"condition":{
+				"type": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {"entity_type": "minecraft:bogged"}
-			}]
+			}
 		}
 		]
 	},
@@ -79,15 +79,13 @@
 			"value": "siscu:items/combat/phage_arrow"
 		}
 		],
-		"conditions": [
-		{
-			"condition": "minecraft:entity_properties",
+		"condition": {
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"siscu.infected_zombie\"]}"
 			}
 		}
-		]
 	},
 	{
 		"rolls": 1.0,
@@ -98,15 +96,13 @@
 			"name": "minecraft:amethyst_shard"
 		}
 		],
-		"conditions": [
-		{
-			"condition": "minecraft:entity_properties",
+		"condition": {
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"siscu.amethyst_zombie\"]}"
 			}
 		}
-		]
 	},
 	{
 		"rolls": 1.0,
@@ -121,15 +117,13 @@
 			"name": "minecraft:small_dripleaf"
 		}
 		],
-		"conditions": [
-		{
-			"condition": "minecraft:entity_properties",
+		"condition": {
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"siscu.lush_zombie\"]}"
 			}
 		}
-		]
 	},
 	{
 		"rolls": 1.0,
@@ -138,9 +132,9 @@
 			{
 				"type": "minecraft:item",
 				"name": "minecraft:tipped_arrow",
-				"functions": [
+				"modifier": [
 					{
-					"function": "minecraft:set_count",
+					"type": "minecraft:set_count",
 					"add": false,
 					"count": {
 						"type": "minecraft:uniform",
@@ -154,20 +148,22 @@
 						"max": 1.0,
 						"min": 0.0
 					},
-					"function": "enchanted_count_increase",
+					"type": "enchanted_count_increase",
               "enchantment": "minecraft:looting",
 					"limit": 1
 					},
 					{
-					"function": "minecraft:set_potion",
+					"type": "minecraft:set_potion",
 					"id": "minecraft:slowness"
 					}
 				]
 			}
 		],
-		"conditions": [
+		"condition": {
+			"type": "all_of",
+			"terms": [
 		{
-			"condition": "minecraft:entity_properties",
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"siscu.stray_zombie\"]}",
@@ -179,14 +175,15 @@
 			}
 		},
 		{
-			"condition": "minecraft:inverted",
+			"type": "minecraft:inverted",
 			"term": {
-				"condition": "minecraft:entity_properties",
+				"type": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": { "entity_type": "minecraft:stray" }
 			}
 		}
 		]
+		}
 	},
 	{
 		"rolls": 1.0,
@@ -197,9 +194,11 @@
 				"value": "siscu:items/combat/stray_chestplate"
 			}
 		],
-		"conditions": [
+		"condition": {
+			"type": "all_of",
+			"terms": [
 		{
-			"condition": "minecraft:entity_properties",
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"siscu.stray_zombie\"]}",
@@ -209,18 +208,19 @@
 			}
 		},
 		{
-			"condition": "minecraft:random_chance",
+			"type": "minecraft:random_chance",
 			"chance": 0.085		
 		},
 		{
-			"condition": "minecraft:inverted",
+			"type": "minecraft:inverted",
 			"term": {
-				"condition": "minecraft:entity_properties",
+				"type": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": { "entity_type": "minecraft:stray" }
 			}
 		}
 		]
+		}
 	},
 	{
 		"rolls": 1.0,
@@ -231,9 +231,11 @@
 				"value": "siscu:items/combat/elegant_hat"
 			}
 		],
-		"conditions": [
+		"condition": {
+			"type": "all_of",
+			"terms": [
 		{
-			"condition": "minecraft:entity_properties",
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"equipment": {
@@ -244,10 +246,11 @@
 			}
 		},
 		{
-			"condition": "minecraft:random_chance",
+			"type": "minecraft:random_chance",
 			"chance": 0.08
 		}
 		]
+		}
 	},
 	{
 		"rolls": 1.0,
@@ -258,9 +261,11 @@
 				"value": "siscu:items/combat/elegant_suit"
 			}
 		],
-		"conditions": [
+		"condition": {
+			"type": "all_of",
+			"terms": [
 		{
-			"condition": "minecraft:entity_properties",
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"equipment": {
@@ -271,10 +276,11 @@
 			}
 		},
 		{
-			"condition": "minecraft:random_chance",
+			"type": "minecraft:random_chance",
 			"chance": 0.08
 		}
 		]
+		}
 	},
 	{
 		"rolls": 1.0,
@@ -285,9 +291,11 @@
 				"value": "siscu:items/combat/elegant_trousers"
 			}
 		],
-		"conditions": [
+		"condition": {
+			"type": "all_of",
+			"terms": [
 		{
-			"condition": "minecraft:entity_properties",
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"equipment": {
@@ -298,10 +306,11 @@
 			}
 		},
 		{
-			"condition": "minecraft:random_chance",
+			"type": "minecraft:random_chance",
 			"chance": 0.08
 		}
 		]
+		}
 	},
 	{
 		"rolls": 1.0,
@@ -312,9 +321,11 @@
 				"value": "siscu:items/combat/brown_hat"
 			}
 		],
-		"conditions": [
+		"condition": {
+			"type": "all_of",
+			"terms": [
 		{
-			"condition": "minecraft:entity_properties",
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"equipment": {
@@ -325,10 +336,11 @@
 			}
 		},
 		{
-			"condition": "minecraft:random_chance",
+			"type": "minecraft:random_chance",
 			"chance": 0.08
 		}
 		]
+		}
 	},
 	{
 		"rolls": 1.0,
@@ -339,9 +351,11 @@
 				"value": "siscu:items/combat/brown_suit"
 			}
 		],
-		"conditions": [
+		"condition": {
+			"type": "all_of",
+			"terms": [
 		{
-			"condition": "minecraft:entity_properties",
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"equipment": {
@@ -352,10 +366,11 @@
 			}
 		},
 		{
-			"condition": "minecraft:random_chance",
+			"type": "minecraft:random_chance",
 			"chance": 0.08
 		}
 		]
+		}
 	},
 	{
 		"rolls": 1.0,
@@ -366,9 +381,11 @@
 				"value": "siscu:items/combat/brown_trousers"
 			}
 		],
-		"conditions": [
+		"condition": {
+			"type": "all_of",
+			"terms": [
 		{
-			"condition": "minecraft:entity_properties",
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"equipment": {
@@ -379,10 +396,11 @@
 			}
 		},
 		{
-			"condition": "minecraft:random_chance",
+			"type": "minecraft:random_chance",
 			"chance": 0.08
 		}
 		]
+		}
 	},
 	{
 		"rolls": 1.0,
@@ -393,18 +411,16 @@
 				"value": "minecraft:shearing/bogged"
 			}
 		],
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"siscu.bogged_zombie\"]}",
-					"flags": {
-						"is_baby": false
-					}
+		"condition": {
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"siscu.bogged_zombie\"]}",
+				"flags": {
+					"is_baby": false
 				}
 			}
-		]
+		}
 	}
   ]
 }

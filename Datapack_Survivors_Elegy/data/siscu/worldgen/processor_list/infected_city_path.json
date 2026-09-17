@@ -12,7 +12,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:grass_block"
+            "id": "minecraft:grass_block"
           }
         }
       ],

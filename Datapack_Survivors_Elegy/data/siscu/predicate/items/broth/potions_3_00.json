@@ -1,15 +1,15 @@
 {
-    "condition": "any_of",
+    "type": "any_of",
     "terms": [
         {
-            "condition": "entity_properties",
+            "type": "entity_properties",
             "entity":"this",
             "predicate": {
                 "slots": {
                     "weapon.mainhand": {
                         "items": ["potion"],
                         "predicates": {
-                            "potion_contents": ["swiftness","fire_resistance","night_vision","strength","leaping","invisibility","water_breathing","infested","oozing","weaving","wind_charged"]
+                            "potion_contents": {"potions": ["swiftness","fire_resistance","night_vision","strength","leaping","invisibility","water_breathing","infested","oozing","weaving","wind_charged"]}
                         }
                     }
                 }

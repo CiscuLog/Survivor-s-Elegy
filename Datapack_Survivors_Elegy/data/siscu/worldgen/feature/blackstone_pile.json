@@ -1,0 +1,20 @@
+{
+  "type": "block_pile",
+  "state_provider": {
+		  "type": "minecraft:weighted",
+		  "entries": [
+		  {
+			  "data": {"id": "minecraft:polished_blackstone_bricks"},
+			  "weight": 4
+		  },
+		  {
+			  "data": {"id": "minecraft:cracked_polished_blackstone_bricks"},
+			  "weight": 3
+		  },
+		  {
+			  "data": {"id": "minecraft:gilded_blackstone"},
+			  "weight": 1
+		  }
+	  ]
+	}
+}

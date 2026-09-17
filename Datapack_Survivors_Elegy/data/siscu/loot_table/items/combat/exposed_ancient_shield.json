@@ -6,15 +6,15 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "siscu:items/combat/ancient_shield",
-					"functions": [
+					"modifier": [
 						{
-							"function": "set_components",
+							"type": "set_components",
 							"components": {
 								"item_model": "siscu_se:ancient_shield/base_exposed"
 							}
 						},
 						{
-							"function": "set_custom_data",
+							"type": "set_custom_data",
 							"tag": {
 								"SE_data": {
 									"Oxidation": 1

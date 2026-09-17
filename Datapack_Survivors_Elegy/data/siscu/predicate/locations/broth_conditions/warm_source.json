@@ -1,15 +1,15 @@
 {
-	"condition": "minecraft:any_of",
+	"type": "minecraft:any_of",
 	"terms": [
 		{
-			"condition": "minecraft:location_check",
+			"type": "minecraft:location_check",
 			"offsetY": -1,
 			"predicate": {
 				"block": {"blocks":["magma_block","fire","soul_torch"]}
 			}
 		},
 		{
-			"condition": "minecraft:location_check",
+			"type": "minecraft:location_check",
 			"offsetY": -1,
 			"predicate": {
 				"block": {

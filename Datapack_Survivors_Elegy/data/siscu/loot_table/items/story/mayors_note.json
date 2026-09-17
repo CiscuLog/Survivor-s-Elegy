@@ -7,9 +7,9 @@
                 {
                     "type": "item",
                     "name": "written_book",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_components",
+                            "type": "set_components",
                             "components": {
                                 "item_name": {"translate":"item.siscu.mayors_note"},
                                 "item_model": "siscu_se:mayor_note",

@@ -17,15 +17,15 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_boots",
 		  "weight":1,
-		  "functions": [
+		  "modifier": [
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"repair_cost":100}
 		  }
 		  ]
         }	
 	],
-  "conditions": [{"condition": "random_chance","chance": 0.1}]
+  "condition": {"type": "random_chance","chance": 0.1}
     }
   ]
 }

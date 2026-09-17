@@ -6,9 +6,9 @@
                 {
                     "type": "item",
                     "name": "leather_helmet",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:damage": 0,
                                 "minecraft:item_name": {"translate":"item.siscu.elegant_hat"},
@@ -31,7 +31,7 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_attributes",
+                            "type": "minecraft:set_attributes",
                             "modifiers": [
                                 {
                                     "attribute": "minecraft:armor",

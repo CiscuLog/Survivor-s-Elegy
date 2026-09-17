@@ -29,30 +29,30 @@
                 },
                 "enchanted": "attacker",
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:damage_source_properties",
+                            "type": "minecraft:damage_source_properties",
                             "predicate": {
                                 "is_direct": true
                             }
                         },
                         {
-                            "condition": "any_of",
+                            "type": "any_of",
                             "terms": [
                                 {
-                                    "condition": "random_chance",
+                                    "type": "random_chance",
                                     "chance": 0.5
                                 },
                                 {
-                                    "condition": "entity_properties",
+                                    "type": "entity_properties",
                                     "entity": "this",
                                     "predicate": {"entity_type": "player" }
                                 }
                             ]
                         },
                         {
-                            "condition": "entity_properties",
+                            "type": "entity_properties",
                             "entity": "this",
                             "predicate": {"entity_type": "#siscu:phage_zombifiable"}
                         }

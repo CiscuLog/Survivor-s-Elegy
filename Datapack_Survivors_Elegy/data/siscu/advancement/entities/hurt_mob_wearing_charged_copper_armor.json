@@ -4,22 +4,22 @@
 		"0": {
 			"trigger":"minecraft:player_hurt_entity",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:reference",
-						"name": "siscu:entities/is_wearing_charged_armor"
-					},
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"entity_type": "player"
+				"entity": {
+					"type": "all_of",
+					"terms": [
+						"siscu:entities/is_wearing_charged_armor",
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"entity_type": "player"
+								}
 							}
 						}
-					}
-				]
+					]
+				}
 			}
 		}
 	},

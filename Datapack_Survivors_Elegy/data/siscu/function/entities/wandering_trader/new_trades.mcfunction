@@ -1,5 +1,5 @@
 
-execute unless data entity @s Offers run return fail
+#execute unless data entity @s Offers run return fail
 tag @s add siscu.trader_basic
 # Trades
 data get entity @s Offers

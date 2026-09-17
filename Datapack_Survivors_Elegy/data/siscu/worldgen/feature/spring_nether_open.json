@@ -1,0 +1,18 @@
+{
+  "rock_count": 4,
+  "hole_count": 1,
+  "valid_blocks": [
+    "minecraft:netherrack",
+    "minecraft:blackstone",
+    "minecraft:basalt",
+    "minecraft:magma_block"
+  ],
+  "state": {
+    "properties": {
+      "falling": "true"
+    },
+    "id": "minecraft:lava"
+  },
+  "requires_block_below": false,
+  "type": "minecraft:spring_feature"
+}

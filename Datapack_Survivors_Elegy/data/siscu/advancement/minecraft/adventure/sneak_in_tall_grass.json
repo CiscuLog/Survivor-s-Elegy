@@ -23,22 +23,19 @@
         "1":{
 			"trigger":"minecraft:tick",
 			"conditions": {
-			  "player": [
-				{
-				  "condition": "minecraft:entity_scores",
-				  "scores":{
-					"siscu.grass_stealth": {"min":40} 
-				  },
-				  "entity": "this"
-				},
-				{
-					"condition": "minecraft:inverted",
-					"term": {
-						"condition": "minecraft:reference",
-						"name": "siscu:entities/is_wearing_armor"
-					}
-				}
-			  ]
+			  "player": {
+				"type": "all_of",
+				"terms": [
+					{
+						"type": "minecraft:entity_scores",
+						"scores":{
+							"siscu.grass_stealth": {"min":40} 
+						},
+						"entity": "this"
+					},
+					"siscu:entities/is_wearing_armor"
+				]
+			  }
 			}
 		}
     }

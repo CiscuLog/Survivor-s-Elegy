@@ -7,7 +7,7 @@
 				"damage": {
 					"blocked": true,
 					"type": {
-						"tags": [{"id":"is_explosion","expected":true}]
+						"tags": [{"id":"#is_explosion","expected":true}]
 					}
 				}
 			}

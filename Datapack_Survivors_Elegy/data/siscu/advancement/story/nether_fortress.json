@@ -15,9 +15,8 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
-					"location": {
-						"structures": "fortress"
-					}
+					"type": "location_check",
+					"predicate": {"structures": "fortress"}
 				}
 			}
 		}

@@ -13,7 +13,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:mossy_stone_bricks"
+            "id": "minecraft:mossy_stone_bricks"
           }
         }
       ]
@@ -30,7 +30,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:cracked_stone_bricks"
+            "id": "minecraft:cracked_stone_bricks"
           }
         }
       ],
@@ -48,7 +48,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:infested_stone_bricks"
+            "id": "minecraft:infested_stone_bricks"
           }
         }
       ],
@@ -66,7 +66,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:infested_mossy_stone_bricks"
+            "id": "minecraft:infested_mossy_stone_bricks"
           }
         }
       ],
@@ -84,7 +84,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:infested_cracked_stone_bricks"
+            "id": "minecraft:infested_cracked_stone_bricks"
           }
         }
       ],

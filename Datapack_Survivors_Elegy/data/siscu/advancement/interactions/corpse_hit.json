@@ -5,8 +5,10 @@
 			"trigger":"minecraft:player_hurt_entity",
 			"conditions": {
 				"entity":{
+					"type": "entity_properties","entity": "this","predicate": {
 					"entity_type": "minecraft:interaction",
 					"nbt": "{Tags:[\"siscu.player_corpse\"]}"
+				}
 				}
 			}
 		}

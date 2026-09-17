@@ -1,6 +1,5 @@
 {
 	"type": "minecraft:block_column",
-	"config": {
 	  "allowed_placement": {
 		"type": "minecraft:matching_block_tag",
 		"offset":[
@@ -16,23 +15,16 @@
 		{
 		  "height": 100,
 		  "provider": {
-			"type": "minecraft:weighted_state_provider",
+			"type": "minecraft:weighted",
 			"entries": [
 			  {
 				"data": {
-				  "Name": "minecraft:mossy_cobblestone"
+				  "id": "minecraft:dirt"
 				},
 				"weight": 1
-			  },
-			  {
-				"data": {
-				  "Name": "minecraft:cobblestone"
-				},
-				"weight": 5
 			  }
 			]
 		  }
 		}
-	  ]
-	}
-  }
+	]
+}

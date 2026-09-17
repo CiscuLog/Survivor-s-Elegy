@@ -15,9 +15,7 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
-					"location": {
-						"structures": "minecraft:pillager_outpost"
-					}
+					"type": "location_check","predicate": {"structures": "pillager_outpost"}
 				}
 			}
 		}

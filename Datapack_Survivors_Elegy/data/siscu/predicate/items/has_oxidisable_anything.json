@@ -1,13 +1,4 @@
 {
-    "condition": "any_of",
-    "terms": [
-        {
-            "condition": "reference",
-            "name": "siscu:entities/is_holding_copper_tool"
-        },
-        {
-            "condition": "reference",
-            "name": "siscu:entities/is_wearing_copper_armor"
-        }
-    ]
+    "type": "any_of",
+    "terms": [ "siscu:entities/is_holding_copper_tool","siscu:entities/is_wearing_copper_armor" ]
 }

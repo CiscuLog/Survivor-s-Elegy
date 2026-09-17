@@ -30,10 +30,7 @@
                     },
                     "blocked": false
                 },
-                "player": [
-                    {"condition": "reference",
-                "name": "siscu:entities/is_wearing_charged_armor"}
-                ]
+                "player": "siscu:entities/is_wearing_charged_armor"
             }
         }
     }

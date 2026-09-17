@@ -29,36 +29,34 @@
 		"1": {
 			"trigger": "minecraft:tick",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"feet": {
-									"predicates": {
-										"enchantments": [
-											{
-												"enchantments": "frost_walker"
-											}
-										]
-									}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"feet": {
+								"predicates": {
+									"enchantments": [
+										{
+											"enchantments": "frost_walker"
+										}
+									]
 								}
-							},
-							"vehicle": {
-								"entity_type": "minecraft:strider",
-								"nbt": "{Tags:[\"siscu.enchanted_saddle\"]}",
-								"stepping_on": {
-									"block": {
-										"blocks": [
-											"frosted_ice"
-										]
-									}
+							}
+						},
+						"vehicle": {
+							"entity_type": "minecraft:strider",
+							"nbt": "{Tags:[\"siscu.enchanted_saddle\"]}",
+							"stepping_on": {
+								"block": {
+									"blocks": [
+										"frosted_ice"
+									]
 								}
 							}
 						}
 					}
-				]
+				}
 			}
 		}
 	}

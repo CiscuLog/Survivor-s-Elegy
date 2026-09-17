@@ -14,11 +14,7 @@
 		"0": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"location": {
-						"structures": "#minecraft:village"
-					}
-				}
+				"player": {"type": "location_check","predicate": {"structures": "#village"}}
 			}
 		}
 	}

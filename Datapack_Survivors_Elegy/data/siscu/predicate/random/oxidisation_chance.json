@@ -1,10 +1,10 @@
 {
-	"condition": "all_of",
+	"type": "all_of",
 	"terms": [
 		{
-			"condition": "inverted",
+			"type": "inverted",
 			"term": {
-				"condition": "location_check",
+				"type": "location_check",
 				"offsetY": -1,
 				"predicate": {
 					"block": {
@@ -16,24 +16,24 @@
 			}
 		},
 		{
-			"condition": "any_of",
+			"type": "any_of",
 			"terms": [
 				{
-					"condition": "random_chance",
+					"type": "random_chance",
 					"chance": 0.005
 				},
 				{
-					"condition": "all_of",
+					"type": "all_of",
 					"terms": [
 						{
-							"condition": "random_chance",
+							"type": "random_chance",
 							"chance": 0.015
 						},
 						{
-							"condition": "any_of",
+							"type": "any_of",
 							"terms": [
 								{
-									"condition": "location_check",
+									"type": "location_check",
 									"predicate": {
 										"block": {
 											"state": {
@@ -43,7 +43,7 @@
 									}
 								},
 								{
-									"condition": "location_check",
+									"type": "location_check",
 									"predicate": {
 										"block": {
 											"blocks": [
@@ -53,7 +53,7 @@
 									}
 								},
 								{
-									"condition": "weather_check",
+									"type": "weather_check",
 									"raining": true
 								}
 							]

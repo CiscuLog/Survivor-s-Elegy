@@ -4,16 +4,18 @@
         "1":{
             "trigger": "minecraft:lightning_strike",
             "conditions": {
-                "lightning": {"distance": {
-                    "absolute": {
-                        "max":120,"min":0
+                "lightning": {
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "distance": {
+                        "absolute": {
+                            "max":120,"min":0
+                        }
                     }
-                }},
-                "player":[
-                    {
-                        "condition": "reference",
-                        "name": "siscu:entities/is_wearing_copper_armor"}
-                ]
+                }
+                },
+                "player": "siscu:entities/is_wearing_copper_armor"
             }
         }
     },

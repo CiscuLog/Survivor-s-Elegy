@@ -12,9 +12,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chicken",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1.0,
@@ -27,9 +27,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:carrot",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2.0,
@@ -42,9 +42,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:potato",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2.0,
@@ -57,9 +57,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:beetroot",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2.0,
@@ -72,9 +72,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2.0,
@@ -87,9 +87,9 @@
         {
           "type": "minecraft:loot_table",
             "value": "siscu:groups/all_fish_biome_based",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1.0,
@@ -103,6 +103,7 @@
     },
     {
       "rolls": {
+        "type": "uniform",
         "max": 1.0,
         "min": 0.0
       },
@@ -132,7 +133,7 @@
           "weight": 2
         }
       ],
-      "conditions": [{"condition": "random_chance","chance": 0.5}]
+      "condition": {"type": "random_chance","chance": 0.5}
     },
     {
       "rolls": 1.0,
@@ -141,9 +142,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cobweb",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1.0,

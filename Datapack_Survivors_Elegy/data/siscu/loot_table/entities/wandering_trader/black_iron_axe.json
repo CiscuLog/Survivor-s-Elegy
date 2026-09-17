@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:iron_axe",
-			"functions": [
+			"modifier": [
 				{
-					"function": "minecraft:enchant_randomly",
+					"type": "minecraft:enchant_randomly",
 					"options": ["minecraft:mending","minecraft:efficiency","minecraft:sharpness","minecraft:bane_of_arthropods","minecraft:smite","minecraft:unbreaking"]
 				}
 			]

@@ -15,9 +15,8 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
-					"location": {
-						"structures": "minecraft:mansion"
-					}
+					"type": "location_check",
+					"predicate": { "structures": "minecraft:mansion" }
 				}
 			}
 		}

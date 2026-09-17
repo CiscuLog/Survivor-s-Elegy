@@ -7,9 +7,9 @@
 				{
 					"type": "item",
 					"name": "item_frame",
-					"functions": [
+					"modifier": [
 						{
-							"function": "set_components",
+							"type": "set_components",
 							"components": {
 								"entity_data": {
 									"id": "item_frame",

@@ -4,21 +4,23 @@
 		"0": {
 			"trigger":"minecraft:player_interacted_with_entity",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
+				"entity": {
+						"type": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
 							"entity_type": "minecraft:wolf",
 							"nbt": "{variant:\"siscu:zombified\"}",
 							"effects": {"weakness": {}}
 						}
-					}
-				],
+					},
 				"player": {
-					"slots": {
-						"weapon.mainhand": {
-							"items": ["golden_apple","enchanted_golden_apple"]
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"slots": {
+							"weapon.mainhand": {
+								"items": ["golden_apple","enchanted_golden_apple"]
+							}
 						}
 					}
 				}

@@ -8,8 +8,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone_block",
-          "functions": [{
-            "function": "minecraft:set_count",
+          "modifier": [{
+            "type": "minecraft:set_count",
             "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
           }],
           "weight": 5
@@ -17,8 +17,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-          "functions": [{
-            "function": "minecraft:set_count",
+          "modifier": [{
+            "type": "minecraft:set_count",
             "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
           }],
           "weight": 5

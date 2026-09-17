@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:leather_leggings",
-			"functions": [
+			"modifier": [
 			{
-				"function": "set_components",
+				"type": "set_components",
 				"components": {
 					"item_name": {"translate":"item.siscu.evoker_leggings"},
 					"item_model": "siscu_se:evoker_leggings",

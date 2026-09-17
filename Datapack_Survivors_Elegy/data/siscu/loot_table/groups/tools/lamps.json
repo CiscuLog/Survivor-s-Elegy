@@ -6,29 +6,25 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:torch",
-					"conditions": [
-						{
-							"condition": "minecraft:inverted",
-							"term": {
-								"condition": "minecraft:location_check",
-								"predicate": {
-									"structures": "mansion"
-								}
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:lantern",
-					"conditions": [
-						{
-							"condition": "minecraft:location_check",
+					"condition":{
+						"type": "minecraft:inverted",
+						"term": {
+							"type": "minecraft:location_check",
 							"predicate": {
 								"structures": "mansion"
 							}
 						}
-					]
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lantern",
+					"condition":{
+						"type": "minecraft:location_check",
+						"predicate": {
+							"structures": "mansion"
+						}
+					}
 				}
 			]
 		}

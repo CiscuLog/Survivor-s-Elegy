@@ -8,8 +8,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:crimson_fungus",
-		      "functions": [{
-            "function": "minecraft:set_count",
+		      "modifier": [{
+            "type": "minecraft:set_count",
             "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
           }],
 		      "weight": 4
@@ -17,8 +17,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:crimson_nylium",
-		      "functions": [{
-            "function": "minecraft:set_count",
+		      "modifier": [{
+            "type": "minecraft:set_count",
             "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
           }],
 		      "weight": 1
@@ -26,8 +26,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:crimson_roots",
-		      "functions": [{
-            "function": "minecraft:set_count",
+		      "modifier": [{
+            "type": "minecraft:set_count",
             "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
           }],
 		      "weight": 2
@@ -35,8 +35,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:weeping_vines",
-		      "functions": [{
-            "function": "minecraft:set_count",
+		      "modifier": [{
+            "type": "minecraft:set_count",
             "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
           }],
 		      "weight": 2

@@ -6,7 +6,7 @@
 			"conditions": {
 				"damage": {
 					"type": {
-						"tags": [{"id":"siscu:is_electric","expected":true}]
+						"tags": [{"id":"#siscu:is_electric","expected":true}]
 					}
 				}
 			}

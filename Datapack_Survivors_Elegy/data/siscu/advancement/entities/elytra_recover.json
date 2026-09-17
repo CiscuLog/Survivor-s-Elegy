@@ -4,11 +4,15 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
-					"slots": {
-						"armor.chest": {
-							"items": ["elytra"],
-							"predicates": {
-								"custom_data": {"SE_data":{"shut_down_elytra":true}}
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"slots": {
+							"armor.chest": {
+								"items": ["elytra"],
+								"predicates": {
+									"custom_data": {"SE_data":{"shut_down_elytra":true}}
+								}
 							}
 						}
 					}

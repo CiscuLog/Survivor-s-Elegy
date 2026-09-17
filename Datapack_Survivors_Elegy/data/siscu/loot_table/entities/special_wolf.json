@@ -10,15 +10,13 @@
 			"name": "minecraft:rotten_flesh"
 		}
 		],
-		"conditions": [
-		{
-			"condition": "minecraft:entity_properties",
+		"condition":{
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"nbt": "{variant:\"siscu:zombified\"}"
 			}
 		}
-		]
 	},
 	{
 		"rolls": 1.0,
@@ -29,15 +27,13 @@
 			"name": "minecraft:bone"
 		}
 		],
-		"conditions": [
-		{
-			"condition": "minecraft:entity_properties",
+		"condition":{
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"nbt": "{variant:\"siscu:skeleton\"}"
 			}
 		}
-		]
 	},
 	{
 		"rolls": 1.0,
@@ -48,15 +44,13 @@
 			"value": "siscu:items/ingredients/withered_bone"
 		}
 		],
-		"conditions": [
-		{
-			"condition": "minecraft:entity_properties",
+		"condition":{
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"nbt": "{variant:\"siscu:withered_skeleton\"}"
 			}
 		}
-		]
 	},
 	{
 		"rolls": 1,

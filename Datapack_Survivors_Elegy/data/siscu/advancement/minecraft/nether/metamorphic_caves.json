@@ -30,7 +30,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "siscu:metamorphic_caves"
           }
         }

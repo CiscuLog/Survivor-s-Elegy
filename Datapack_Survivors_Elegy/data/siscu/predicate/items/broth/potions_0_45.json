@@ -1,15 +1,15 @@
 {
-    "condition": "any_of",
+    "type": "any_of",
     "terms": [
         {
-            "condition": "entity_properties",
+            "type": "entity_properties",
             "entity":"this",
             "predicate": {
                 "slots": {
                     "weapon.mainhand": {
                         "items": ["potion"],
                         "predicates": {
-                            "potion_contents": ["regeneration","poison"]
+                            "potion_contents": {"potions": ["regeneration","poison"]}
                         }
                     }
                 }

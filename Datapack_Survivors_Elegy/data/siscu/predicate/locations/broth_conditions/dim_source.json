@@ -1,15 +1,15 @@
 {
-	"condition": "minecraft:any_of",
+	"type": "minecraft:any_of",
 	"terms": [
 		{
-			"condition": "minecraft:all_of",
+			"type": "minecraft:all_of",
 			"terms": [
 				{
-					"condition": "location_check",
+					"type": "location_check",
 					"predicate": {"biomes": "desert"}
 				},
 				{
-					"condition": "minecraft:location_check",
+					"type": "minecraft:location_check",
 					"offsetY": 1,
 					"predicate": {
 						"can_see_sky": true,
@@ -19,11 +19,11 @@
 			]
 		},
 		{
-			"condition": "minecraft:location_check",
+			"type": "minecraft:location_check",
 			"predicate": {"dimension": "the_nether"}
 		},
 		{
-			"condition": "minecraft:location_check",
+			"type": "minecraft:location_check",
 			"offsetY": -1,
 			"predicate": {
 				"block": {

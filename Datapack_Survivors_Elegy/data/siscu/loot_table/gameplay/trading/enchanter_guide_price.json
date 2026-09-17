@@ -6,10 +6,11 @@
         {
           "type": "item",
           "name": "minecraft:emerald",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
+                "type": "uniform",
                 "max": 5,
                 "min": 2
               }

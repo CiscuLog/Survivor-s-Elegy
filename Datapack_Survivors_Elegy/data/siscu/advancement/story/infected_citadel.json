@@ -15,7 +15,8 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
-					"location": {
+					"type": "location_check",
+					"predicate": {
 						"structures": ["siscu:infected_citadel"],
 						"position": {"y": {"min": 167}}
 					}

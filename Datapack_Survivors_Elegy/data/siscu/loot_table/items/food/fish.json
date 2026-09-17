@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:cod",
-			"functions": [
+			"modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {"item_name":{"translate":"item.siscu.fish"},
 				"item_model": "siscu_se:fish",
 				"custom_data": {

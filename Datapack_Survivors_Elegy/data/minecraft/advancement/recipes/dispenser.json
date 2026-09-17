@@ -4,7 +4,7 @@
 		"0": {
 			"trigger":"minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "minecraft:dispenser"
+				"recipes": "minecraft:dispenser"
 			}
 		}
 	},

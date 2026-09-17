@@ -12,9 +12,9 @@
           "type": "minecraft:item",
           "name":"minecraft:bow",
           "weight":2,
-          "functions": [
+          "modifier": [
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {"item_model":"minecraft:crossbow"}
             }
           ]

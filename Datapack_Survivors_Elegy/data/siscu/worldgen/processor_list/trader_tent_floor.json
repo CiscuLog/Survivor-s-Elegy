@@ -4,7 +4,7 @@
       "rules": [
         {
           "output_state": {
-            "Name": "minecraft:sand"
+            "id": "minecraft:sand"
           },
           "input_predicate": {
             "block": "minecraft:grass_block",
@@ -17,7 +17,7 @@
         },
         {
           "output_state": {
-            "Name": "minecraft:sandstone"
+            "id": "minecraft:sandstone"
           },
           "input_predicate": {
             "block": "minecraft:grass_block",
@@ -30,7 +30,7 @@
         },
         {
           "output_state": {
-            "Name": "minecraft:stone"
+            "id": "minecraft:stone"
           },
           "input_predicate": {
             "block": "minecraft:grass_block",

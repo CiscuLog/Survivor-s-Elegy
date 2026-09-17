@@ -24,15 +24,13 @@
 		"main": {
 			"trigger":"minecraft:tick",
 			"conditions": {
-			  "player": [
-				{
-				  "condition": "minecraft:entity_scores",
+			  "player": {
+				  "type": "minecraft:entity_scores",
 				  "scores":{
 					"siscu.stray_armor": {"min":60} 
 				  },
 				  "entity": "this"
 				}
-			  ]
 			}
 		},
 		"1": {"trigger": "impossible"}, "2": {"trigger": "impossible"}, "3": {"trigger": "impossible"}, "4": {"trigger": "impossible"}, "5": {"trigger": "impossible"}, "6": {"trigger": "impossible"}, "7": {"trigger": "impossible"}, "8": {"trigger": "impossible"}, "9": {"trigger": "impossible"}, "10": {"trigger": "impossible"}, "11": {"trigger": "impossible"}, "12": {"trigger": "impossible"}, "13": {"trigger": "impossible"}, "14": {"trigger": "impossible"}, "15": {"trigger": "impossible"}, "16": {"trigger": "impossible"}, "17": {"trigger": "impossible"}, "18": {"trigger": "impossible"}, "19": {"trigger": "impossible"}, "20": {"trigger": "impossible"}, "21": {"trigger": "impossible"}, "22": {"trigger": "impossible"}, "23": {"trigger": "impossible"}, "24": {"trigger": "impossible"}, "25": {"trigger": "impossible"}, "26": {"trigger": "impossible"}, "27": {"trigger": "impossible"}, "28": {"trigger": "impossible"}, "29": {"trigger": "impossible"}, "30": {"trigger": "impossible"}, "31": {"trigger": "impossible"}, "32": {"trigger": "impossible"}, "33": {"trigger": "impossible"}, "34": {"trigger": "impossible"}, "35": {"trigger": "impossible"}, "36": {"trigger": "impossible"}, "37": {"trigger": "impossible"}, "38": {"trigger": "impossible"}, "39": {"trigger": "impossible"}, "40": {"trigger": "impossible"}, "41": {"trigger": "impossible"}, "42": {"trigger": "impossible"}, "43": {"trigger": "impossible"}, "44": {"trigger": "impossible"}, "45": {"trigger": "impossible"}, "46": {"trigger": "impossible"}, "47": {"trigger": "impossible"}, "48": {"trigger": "impossible"}, "49": {"trigger": "impossible"}, "50": {"trigger": "impossible"}, "51": {"trigger": "impossible"}, "52": {"trigger": "impossible"}, "53": {"trigger": "impossible"}, "54": {"trigger": "impossible"}, "55": {"trigger": "impossible"}, "56": {"trigger": "impossible"}, "57": {"trigger": "impossible"}, "58": {"trigger": "impossible"}, "59": {"trigger": "impossible"}

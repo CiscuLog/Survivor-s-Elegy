@@ -6,9 +6,9 @@
                 {
                     "type": "item",
                     "name": "saddle",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_enchantments",
+                            "type": "set_enchantments",
                             "enchantments": {
                                 "siscu:mount_catalyst": 1
                             }

@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:written_book",
-			"functions": [
+			"modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {
 					"item_model": "siscu_se:suspicious_stew_book",
 					"tooltip_display": {"hidden_components": ["written_book_content"]},
@@ -34,7 +34,7 @@
 				}
 			},
 			{
-				"function": "minecraft:set_lore",
+				"type": "minecraft:set_lore",
 				"lore": [{
 					"translate": "By ",
 					"italic": false,

@@ -4,15 +4,13 @@
     "0": {
       "trigger": "location",
       "conditions": {
-        "player": [
-          {
-            "condition": "entity_scores",
-            "entity": "this",
-            "scores": {
-              "siscu.spam_lectern_dismiss": {"min": 1}
-            }
+        "player": {
+          "type": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "siscu.spam_lectern_dismiss": {"min": 1}
           }
-        ]
+        }
       }
     }
   },

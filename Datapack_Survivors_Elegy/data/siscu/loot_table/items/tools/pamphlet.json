@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:written_book",
-			"functions": [
+			"modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {
 					"item_model": "siscu_se:pamphlet",
 					"written_book_content": {
@@ -34,7 +34,7 @@
 				}
 			},
 			{
-				"function": "minecraft:set_name",
+				"type": "minecraft:set_name",
 				"name": {
 					"translate": "item.siscu.pamphlet",
 					"italic": false,
@@ -43,7 +43,7 @@
 				}
 			},
 			{
-				"function": "minecraft:set_lore",
+				"type": "minecraft:set_lore",
 				"lore": [{
 					"translate": "By Siscu",
 					"italic": false,

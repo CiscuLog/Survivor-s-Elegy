@@ -4,15 +4,13 @@
 	  "0": {
         "trigger":"minecraft:tick",
         "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_scores",
-              "scores":{
-                "siscu.update_item": {"min":1} 
-              },
-              "entity": "this"
-            }
-          ]
+          "player": {
+            "type": "minecraft:entity_scores",
+            "scores":{
+              "siscu.update_item": {"min":1} 
+            },
+            "entity": "this"
+          }
         }
     }
 	},

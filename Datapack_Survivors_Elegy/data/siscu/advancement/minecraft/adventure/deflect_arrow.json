@@ -3,7 +3,6 @@
     "criteria": {
       "0": {
         "conditions": {
-          "entity": [],
           "killing_blow": {
             "direct_entity": {
               "entity_type": "#siscu:deflectable_projectiles",
@@ -12,7 +11,7 @@
             "tags": [
               {
                 "expected": true,
-                "id": "minecraft:is_projectile"
+                "id": "#minecraft:is_projectile"
               }
             ]
           }

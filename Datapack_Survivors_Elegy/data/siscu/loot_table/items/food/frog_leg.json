@@ -6,9 +6,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:rabbit_foot",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"item_name": {"translate":"item.siscu.frog_leg"},
 								"item_model": "siscu_se:frog_leg",

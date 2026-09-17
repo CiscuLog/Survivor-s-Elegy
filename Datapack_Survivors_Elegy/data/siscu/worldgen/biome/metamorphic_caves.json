@@ -29,7 +29,36 @@
           },
         "probability": 0.0005
       }
-    ]
+    ],
+    "gameplay/natural_mob_spawns": {
+      "spawns_by_category": {
+        "monster": [
+          {
+            "type": "minecraft:blaze",
+            "weight": 3,
+            "count": {"type": "uniform", "min_inclusive": 1, "max_inclusive": 3}
+          },
+          {
+            "type": "minecraft:magma_cube",
+            "weight": 1,
+            "count": {"type": "uniform", "min_inclusive": 2, "max_inclusive": 5}
+          }
+        ],
+        "creature": [],
+        "ambient": [],
+        "axolotls": [],
+        "underground_water_creature": [],
+        "water_creature": [],
+        "water_ambient": [],
+        "misc": []
+      },
+      "spawn_costs": {
+        "minecraft:blaze": {
+          "energy_budget": 0.5,
+          "charge": 0.1
+        }
+      }
+    }
   },
   "carvers": "minecraft:nether_cave",
   "effects": {
@@ -65,29 +94,6 @@
       "minecraft:spring_lava"
     ]
   ],
-  "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:blaze",
-        "weight": 3,
-        "minCount": 1,
-        "maxCount": 2
-      }
-    ],
-    "creature": [],
-    "ambient": [],
-    "axolotls": [],
-    "underground_water_creature": [],
-    "water_creature": [],
-    "water_ambient": [],
-    "misc": []
-  },
-  "spawn_costs": {
-    "minecraft:blaze": {
-      "energy_budget": 0.5,
-      "charge": 0.1
-    }
-  },
   "has_precipitation": false,
   "temperature": 2.0,
   "downfall": 0.0

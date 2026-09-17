@@ -4,19 +4,14 @@
 		"0": {
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
-				"parent": [
-					{
-						"condition": "any_of",
-						"terms": [
-							{
-								"condition": "reference",
-								"name": "siscu:entities/variant_undead"
-							}
-						]
-					}
-				],
+				"parent": {
+					"type": "any_of",
+					"terms": [ "siscu:entities/variant_undead" ]
+				},
 				"child": {
-					"entity_type": "minecraft:wolf"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {"entity_type": "wolf"}
 				}
 			}
 		}

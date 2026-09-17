@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_sword",
-		  "functions": [
+		  "modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {"item_model":"siscu_se:baby_iron_sword"}
 			}
 			],
@@ -17,9 +17,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:wooden_sword",
-		  "functions": [
+		  "modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {"item_model":"siscu_se:baby_wooden_sword"}
 			}
 			],
@@ -28,9 +28,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stone_sword",
-		  "functions": [
+		  "modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {"item_model":"siscu_se:baby_stone_sword"}
 			}
 			],
@@ -39,9 +39,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_sword",
-		  "functions": [
+		  "modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {"item_model":"siscu_se:baby_gold_sword"}
 			}
 			],
@@ -50,9 +50,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:copper_sword",
-		  "functions": [
+		  "modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {"item_model":"siscu_se:baby_copper_sword"}
 			}
 			],
@@ -61,9 +61,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:copper_sword",
-		  "functions": [
+		  "modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {"item_model":"siscu_se:baby_exposed_copper_sword"}
 			}
 			],
@@ -72,9 +72,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:copper_sword",
-		  "functions": [
+		  "modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {"item_model":"siscu_se:baby_weathered_copper_sword"}
 			}
 			],
@@ -83,9 +83,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:copper_sword",
-		  "functions": [
+		  "modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {"item_model":"siscu_se:baby_oxidised_copper_sword"}
 			}
 			],

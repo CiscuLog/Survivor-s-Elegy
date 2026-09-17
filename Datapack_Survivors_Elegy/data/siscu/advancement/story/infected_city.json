@@ -15,9 +15,8 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
-					"location": {
-						"structures": ["siscu:infected_citadel","siscu:infected_city"]
-					}
+					"type": "location_check",
+					"predicate": { "structures": ["siscu:infected_citadel","siscu:infected_city"] }
 				}
 			}
 		}

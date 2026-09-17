@@ -1,8 +1,8 @@
 {
-	"condition": "minecraft:any_of",
+	"type": "minecraft:any_of",
 	"terms": [
 		{
-			"condition": "minecraft:location_check",
+			"type": "minecraft:location_check",
 			"predicate": {
 				"position": {
 					"y": {
@@ -12,7 +12,7 @@
 			}
 		},
 		{
-			"condition": "minecraft:location_check",
+			"type": "minecraft:location_check",
 			"predicate": {
 				"dimension": "minecraft:the_end",
 				"position": {
@@ -23,7 +23,7 @@
 			}
 		},
 		{
-			"condition": "minecraft:location_check",
+			"type": "minecraft:location_check",
 			"predicate": {
 				"dimension": "minecraft:the_nether",
 				"position": {

@@ -9,39 +9,26 @@
 					"type": {
 						"tags": [
 							{
-								"id": "siscu:is_deflectable",
+								"id": "#siscu:is_deflectable",
 								"expected": true
 							}
 						]
 					}
 				},
-				"player": [
-					{
-						"condition": "any_of",
-						"terms": [
-							{
-								"condition": "reference",
-								"name": "siscu:items/ancient_shield_mainhand"
-							},
-							{
-								"condition": "all_of",
-								"terms": [
-									{
-										"condition": "reference",
-										"name": "siscu:items/ancient_shield_offhand"
-									},
-									{
-										"condition": "inverted",
-										"term": {
-											"condition": "reference",
-											"name": "siscu:items/ancient_shield_mainhand"
-										}
-									}
-								]
-							}
-						]
-					}
-				]
+				"player":
+				{
+					"type": "any_of",
+					"terms": [
+						"siscu:items/ancient_shield_mainhand",
+						{
+							"type": "all_of",
+							"terms": [
+								"siscu:items/ancient_shield_offhand",
+								{ "type": "inverted", "term": "siscu:items/ancient_shield_mainhand" }
+							]
+						}
+					]
+				}
 			}
 		}
 	},

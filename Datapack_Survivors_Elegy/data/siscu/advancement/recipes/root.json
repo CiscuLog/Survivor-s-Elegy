@@ -4,7 +4,7 @@
     "0": {
       "trigger": "recipe_unlocked",
       "conditions": {
-        "recipe": "siscu:root"
+        "recipes": "siscu:root"
       }
     }
   },

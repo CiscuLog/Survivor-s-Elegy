@@ -7,9 +7,9 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": -1.0,
@@ -18,7 +18,7 @@
               "add": false
             },
             {
-              "function": "enchanted_count_increase",
+              "type": "enchanted_count_increase",
               "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",
@@ -37,9 +37,9 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 0.0,
@@ -48,7 +48,7 @@
               "add": false
             },
             {
-              "function": "enchanted_count_increase",
+              "type": "enchanted_count_increase",
               "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",
@@ -68,9 +68,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:arrow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1.0,
@@ -79,7 +79,7 @@
               "add": false
             },
             {
-              "function": "enchanted_count_increase",
+              "type": "enchanted_count_increase",
               "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",
@@ -88,15 +88,13 @@
               }
             }
           ],
-		  "conditions": [
-		  {
-			  "condition": "minecraft:entity_properties",
-			  "entity": "this",
-			  "predicate": {
-				  "equipment": {"mainhand": {"items":["bow"]}}
-			  }
-		  }
-		  ]
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {"mainhand": {"items":["bow"]}}
+            }
+          }
         }
       ]
     },
@@ -109,12 +107,14 @@
           "name": "minecraft:wither_skeleton_skull"
         }
       ],
-      "conditions": [
+      "condition": {
+        "type": "all_of",
+        "terms": [
         {
-          "condition": "minecraft:killed_by_player"
+          "type": "minecraft:killed_by_player"
         },
         {
-          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "type": "minecraft:random_chance_with_enchanted_bonus",
           "enchanted_chance": {
             "type": "minecraft:linear",
             "base": 0.035,
@@ -124,6 +124,7 @@
           "unenchanted_chance": 0.025
         }
       ]
+      } 
     }
   ]
 }

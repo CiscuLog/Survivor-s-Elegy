@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:wither_skeleton_spawn_egg",
-			"functions": [
+			"modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {
 					"item_model":"siscu_se:villager_wither_skeleton",
 					"item_name":{"translate":"item.siscu.spawn_egg_villager_wither_skeleton"},

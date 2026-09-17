@@ -32,23 +32,16 @@
           "type": "minecraft:loot_table",
           "value": "siscu:items/combat/battle_staff",
 		  "weight":5,
-		  "conditions": [
-		  {
-			  "condition": "minecraft:reference",
-			  "name": "siscu:locations/check_surface"
-		  }
-		  ]
+		  "condition": "siscu:locations/check_surface"
         },
         {
           "type": "minecraft:loot_table",
           "value": "siscu:items/combat/battle_staff_bamboo",
 		  "weight":30,
-		  "conditions": [
-			  {
-				  "condition": "minecraft:location_check",
+		  "condition": {
+				  "type": "minecraft:location_check",
 				  "predicate": {"biomes": "#is_jungle"}
 			  }
-		  ]
         }
 	]
   }

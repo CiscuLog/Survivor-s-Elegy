@@ -1,8 +1,8 @@
 {
-    "condition": "any_of",
+    "type": "any_of",
     "terms": [
         {
-            "condition": "entity_properties",
+            "type": "entity_properties",
             "entity": "this",
             "predicate": {
                 "slots": {
@@ -15,7 +15,7 @@
             }
         },
         {
-            "condition": "entity_properties",
+            "type": "entity_properties",
             "entity": "this",
             "predicate": {
                 "slots": {

@@ -6,9 +6,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:cookie",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"item_name": {"translate":"item.siscu.warped_gall"},
 								"item_model": "siscu_se:warped_gall",

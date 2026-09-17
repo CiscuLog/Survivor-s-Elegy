@@ -4,15 +4,13 @@
     "killed_dragon": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "predicate": {
-              "entity_type": "minecraft:wither_skeleton"
-            },
-            "entity": "this"
-          }
-        ]
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "predicate": {
+            "entity_type": "minecraft:wither_skeleton"
+          },
+          "entity": "this"
+        }
       }
     }
   },

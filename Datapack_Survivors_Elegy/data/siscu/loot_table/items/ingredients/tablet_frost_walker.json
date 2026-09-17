@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:loot_table",
 			"value": "siscu:items/ingredients/tablet_binding",
-			"functions": [
+			"modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {
 					"item_model": "siscu_se:tablet_frost_walker",
 					"stored_enchantments": {"minecraft:frost_walker":1}

@@ -1,6 +1,5 @@
 {
 	"type": "minecraft:block_column",
-	"config": {
 	  "allowed_placement": {
 		"type": "minecraft:matching_block_tag",
 		"offset":[
@@ -8,23 +7,25 @@
 			1,
 			0
 		],
-		"tag": "siscu:ladder_transparent"
+		"tag": "siscu:vine_ladder"
 	  },
-	  "prioritize_tip": false,
+	  "prioritize_tip": true,
 	  "direction": "down",
 	  "layers": [
 		{
 		  "height": 100,
 		  "provider": {
-			"type": "minecraft:simple_state_provider",
+			"type": "minecraft:simple",
 			"state": {
-				"Name": "ladder",
-				"Properties": {
-					"facing": "west"
+				"id": "vine",
+				"properties": {
+					"east": "true",
+					"north": "true",
+					"south": "true",
+					"west": "true"
 				}
 			}
 		  }
 		}
-	  ]
-	}
-  }
+	]
+}

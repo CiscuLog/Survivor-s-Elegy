@@ -1,1 +1,1 @@
-{ "pools": [ { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:pointed_dripstone", "functions": [ { "function": "minecraft:set_components", "components": { "item_model": "siscu_se:dripstone_hand" } } ] } ] } ] }
+{ "pools": [ { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:pointed_dripstone", "modifier": [ { "type": "minecraft:set_components", "components": { "item_model": "siscu_se:dripstone_hand" } } ] } ] } ] }

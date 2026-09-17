@@ -11,15 +11,14 @@
             },
             "input_predicate": {
               "predicate_type": "minecraft:block_match",
-              "block": "sand",
-              "probability": 1.0
+              "block": "sand"
             },
             "location_predicate": {
               "predicate_type": "minecraft:always_true"
             },
             "output_state": {
-              "Name": "minecraft:suspicious_sand",
-              "Properties": {
+              "id": "minecraft:suspicious_sand",
+              "properties": {
                 "dusted": "0"
               }
             }

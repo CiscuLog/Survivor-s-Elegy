@@ -8,8 +8,7 @@
       "spawns": [
         {
           "type": "zombie",
-          "maxCount": 4,
-          "minCount": 1,
+          "count": {"type": "uniform","max_inclusive": 4,"min_inclusive": 1},
           "weight": 1
         }
       ],

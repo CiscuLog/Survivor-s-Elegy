@@ -6,9 +6,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:tipped_arrow",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"item_name": {"translate":"item.siscu.phage_arrow"},
 								"item_model": "siscu_se:phage_arrow",

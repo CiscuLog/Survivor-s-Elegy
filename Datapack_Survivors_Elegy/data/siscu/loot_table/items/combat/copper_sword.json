@@ -6,9 +6,9 @@
                 {
                     "type": "item",
                     "name": "copper_sword",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:damage": 0,
                                 "minecraft:item_name": {"translate":"item.siscu.copper_sword"},

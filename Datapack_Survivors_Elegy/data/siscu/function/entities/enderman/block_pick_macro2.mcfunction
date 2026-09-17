@@ -1,2 +1,2 @@
 
-$data merge entity @s[type=enderman] {carriedBlockState:{Name:$(String)}}
+$data merge entity @s[type=enderman] {carriedBlockState:{id:$(String)}}

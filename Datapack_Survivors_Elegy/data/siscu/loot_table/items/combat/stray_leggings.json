@@ -6,9 +6,9 @@
                 {
                     "type": "item",
                     "name": "leather_leggings",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {"translate":"item.siscu.stray_leggings"},
                                 "minecraft:item_model": "siscu_se:stray_leggings",
@@ -28,7 +28,7 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_attributes",
+                            "type": "minecraft:set_attributes",
                             "modifiers": [
                                 {
                                     "attribute": "minecraft:armor",

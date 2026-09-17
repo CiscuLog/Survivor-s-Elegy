@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -14,7 +14,7 @@
                 "max": 2.0,
                 "min": 0.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             },
             {
               "count": {
@@ -22,7 +22,7 @@
                 "max": 1.0,
                 "min": 0.0
               },
-              "function": "enchanted_count_increase",
+              "type": "enchanted_count_increase",
               "enchantment": "minecraft:looting"
             }
           ],
@@ -36,7 +36,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -44,7 +44,7 @@
                 "max": 2.0,
                 "min": 0.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             },
             {
               "count": {
@@ -52,7 +52,7 @@
                 "max": 1.0,
                 "min": 0.0
               },
-              "function": "enchanted_count_increase",
+              "type": "enchanted_count_increase",
               "enchantment": "minecraft:looting"
             }
           ],
@@ -63,15 +63,11 @@
     },
     {
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
-        }
-      ],
+      "condition": { "type": "minecraft:killed_by_player" },
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -79,7 +75,7 @@
                 "max": 1.0,
                 "min": 0.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             },
             {
               "count": {
@@ -87,12 +83,12 @@
                 "max": 1.0,
                 "min": 0.0
               },
-              "function": "enchanted_count_increase",
+              "type": "enchanted_count_increase",
               "enchantment": "minecraft:looting",
               "limit": 1
             },
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:slowness"
             }
           ],
@@ -110,25 +106,27 @@
           "value": "siscu:items/combat/stray_chestplate"
         }
       ],
-      "conditions": [
-      {
-        "condition": "minecraft:random_chance",
-        "chance": 0.1
-      },
-      {
-        "condition": "minecraft:inverted",
-        "term": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "nbt": "{Tags:[\"siscu.stray_zombie\"]}",
-            "flags": {
-              "is_baby": false
+      "condition": {
+        "type": "all_of",
+        "terms": [
+        {
+          "type": "minecraft:random_chance",
+          "chance": 0.1
+        },
+        {
+          "type": "minecraft:inverted",
+          "term": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"siscu.stray_zombie\"]}",
+              "flags": {
+                "is_baby": false
+              }
             }
           }
-        }
+        }]
       }
-      ]
     }
   ],
   "random_sequence": "minecraft:entities/stray"

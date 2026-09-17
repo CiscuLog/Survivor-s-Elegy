@@ -1,2 +1,2 @@
-$item modify entity @s $(Slot) {function:"set_count",count:$(count)}
-$item modify entity @s $(Slot) {function:"set_components",components:$(components)}
+$item modify entity @s $(Slot) {type:"set_count",count:$(count)}
+$item modify entity @s $(Slot) {type:"set_components",components:$(components)}

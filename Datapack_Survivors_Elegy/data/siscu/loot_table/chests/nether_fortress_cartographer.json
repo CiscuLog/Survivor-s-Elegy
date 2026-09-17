@@ -8,24 +8,24 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:paper",
-          "functions": [{
-            "function": "minecraft:set_count",
+          "modifier": [{
+            "type": "minecraft:set_count",
             "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
           }]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:feather",
-          "functions": [{
-            "function": "minecraft:set_count",
+          "modifier": [{
+            "type": "minecraft:set_count",
             "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
           }]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:ink_sac",
-          "functions": [{
-            "function": "minecraft:set_count",
+          "modifier": [{
+            "type": "minecraft:set_count",
             "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
           }]
         },
@@ -41,12 +41,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:map",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.75
-            }
-          ]
+          "condition":{ "type": "minecraft:random_chance", "chance": 0.75 }
         }
       ]
     }

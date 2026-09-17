@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:raw_copper",
-			"functions": [
+			"modifier": [
 				{
-					"function": "minecraft:set_components",
+					"type": "minecraft:set_components",
                     "components": {
                         "max_stack_size": 64,
                         "item_name": {"italic":false,"translate":"item.siscu.bee_counter"},

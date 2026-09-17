@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:leather",
-			"functions": [
+			"modifier": [
 			{
-				"function": "set_components",
+				"type": "set_components",
 				"components": {
 					"item_name": {"translate":"item.siscu.vindicator_chestplate"},
 					"item_model": "siscu_se:vindicator_chestplate",
@@ -26,7 +26,7 @@
 				}
 			},
 			{
-				"function": "minecraft:set_attributes",
+				"type": "minecraft:set_attributes",
 				"modifiers": [
 					{
 						"attribute": "minecraft:armor",

@@ -8,9 +8,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:arrow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1.0,
@@ -19,7 +19,7 @@
               "add": false
             },
             {
-              "function": "enchanted_count_increase",
+              "type": "enchanted_count_increase",
               "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",
@@ -28,15 +28,13 @@
               }
             }
           ],
-		  "conditions": [
-		  {
-			  "condition": "minecraft:entity_properties",
-			  "entity": "this",
-			  "predicate": {
-				  "equipment": {"mainhand": {"items":["bow"]}}
-			  }
-		  }
-		  ]
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {"mainhand": {"items":["bow"]}}
+            }
+          }
         }
       ]
     },
@@ -46,9 +44,9 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 0.0,
@@ -57,7 +55,7 @@
               "add": false
             },
             {
-              "function": "enchanted_count_increase",
+              "type": "enchanted_count_increase",
               "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",

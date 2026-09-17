@@ -1,2 +1,2 @@
 
-$item modify entity @s $(Slot) {function:"set_components",components:{"minecraft:damage":$(x)}}
+$item modify entity @s $(Slot) {type:"set_components",components:{"minecraft:damage":$(x)}}

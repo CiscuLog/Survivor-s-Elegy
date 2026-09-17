@@ -26,10 +26,14 @@
 			"trigger":"inventory_changed",
 			"conditions": {
 				"player": {
-					"slots": {
-						"armor.chest": {
-							"predicates": {
-								"custom_data": {"SE_data":{"id": "siscu:elegant_suit"}}
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"slots": {
+							"armor.chest": {
+								"predicates": {
+									"custom_data": {"SE_data":{"id": "siscu:elegant_suit"}}
+								}
 							}
 						}
 					}

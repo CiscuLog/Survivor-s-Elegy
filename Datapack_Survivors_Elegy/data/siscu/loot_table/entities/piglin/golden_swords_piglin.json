@@ -12,9 +12,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_sword",
 		  "weight":1,
-		  "functions": [
+		  "modifier": [
 		  {
-			  "function": "minecraft:enchant_randomly",
+			  "type": "minecraft:enchant_randomly",
         "options": "#minecraft:on_mob_spawn_equipment"
 		  }
 		  ]

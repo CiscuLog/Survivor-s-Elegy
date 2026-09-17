@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:villager_skull"}
 		  }
 		  ]
@@ -16,9 +16,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:villager_skull_armorer"}
 		  }
 		  ]
@@ -26,9 +26,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:villager_skull_butcher"}
 		  }
 		  ]
@@ -36,9 +36,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:villager_skull_cartographer"}
 		  }
 		  ]
@@ -46,9 +46,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:villager_skull_cleric"}
 		  }
 		  ]
@@ -56,9 +56,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:villager_skull_farmer"}
 		  }
 		  ]
@@ -66,9 +66,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:villager_skull_fisherman"}
 		  }
 		  ]
@@ -76,9 +76,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:villager_skull_fletcher"}
 		  }
 		  ]
@@ -86,9 +86,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:villager_skull_leatherworker"}
 		  }
 		  ]
@@ -96,9 +96,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:villager_skull_librarian"}
 		  }
 		  ]
@@ -106,9 +106,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:villager_skull_mason"}
 		  }
 		  ]
@@ -116,9 +116,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:villager_skull_shepherd"}
 		  }
 		  ]
@@ -126,9 +126,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:villager_skull_toolsmith"}
 		  }
 		  ]
@@ -136,9 +136,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:villager_skull_weaponsmith"}
 		  }
 		  ]

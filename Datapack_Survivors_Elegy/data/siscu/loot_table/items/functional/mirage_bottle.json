@@ -6,9 +6,9 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:amethyst_shard",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "item_name": {"italic":false,"translate":"item.siscu.mirage_bottle"},
                                 "item_model": "siscu_se:mirage_bottle",

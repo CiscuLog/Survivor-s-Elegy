@@ -1,10 +1,10 @@
 {
-  "parent": "siscu:items/root",
+  "parent": "siscu:items/generate_loot/root",
   "criteria": {
     "0": {
       "trigger": "player_generates_container_loot",
       "conditions": {
-        "loot_table": "chests/stronghold_library"
+        "loot_tables": "chests/stronghold_library"
       }
     }
   },

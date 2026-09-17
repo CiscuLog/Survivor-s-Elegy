@@ -4,15 +4,13 @@
 		"0": {
 			"trigger":"minecraft:player_interacted_with_entity",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:allay"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:allay"
 					}
-				]
+				}
 			}
 		}
 	},

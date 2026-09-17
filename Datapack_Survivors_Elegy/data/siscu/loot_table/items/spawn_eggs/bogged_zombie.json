@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:zombie_spawn_egg",
-			"functions": [
+			"modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {
 					"item_model":"siscu_se:bogged_zombie",
 					"item_name":{"translate":"item.siscu.spawn_egg_bogged_zombie"},

@@ -6,9 +6,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:raw_gold",
-					"functions": [
+					"modifier": [
 						{
-							"function": "set_components",
+							"type": "set_components",
 							"components": {
 								"minecraft:item_name": {"translate":"item.siscu.config"},
 								"rarity": "epic",
@@ -25,7 +25,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"type": "minecraft:set_lore",
 							"lore": [
 								{
 									"translate": "text.siscu.click_keybind",

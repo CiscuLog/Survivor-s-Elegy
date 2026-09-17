@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:shield",
-			"functions": [
+			"modifier": [
 				{
-					"function":"set_components",
+					"type":"set_components",
 					"components": {
 						"minecraft:item_name": {"text":"CrimShield","font":"siscu_se:piglinalt"},
 						"minecraft:lore": [

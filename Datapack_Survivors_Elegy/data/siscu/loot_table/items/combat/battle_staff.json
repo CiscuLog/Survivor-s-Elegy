@@ -6,9 +6,9 @@
                 {
                     "type": "item",
                     "name": "wooden_sword",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:damage": 0,
                                 "minecraft:item_name": {
@@ -57,7 +57,7 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_lore",
+                            "type": "minecraft:set_lore",
                             "entity": "this",
                             "mode": "replace_all",
                             "lore": [

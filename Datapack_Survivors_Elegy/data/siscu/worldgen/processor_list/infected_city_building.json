@@ -12,7 +12,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:granite"
+            "id": "minecraft:granite"
           }
         },
         {
@@ -25,7 +25,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:polished_granite"
+            "id": "minecraft:polished_granite"
           }
         },
         {
@@ -38,7 +38,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:smooth_sandstone"
+            "id": "minecraft:smooth_sandstone"
           }
         },
         {
@@ -51,7 +51,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:cut_sandstone"
+            "id": "minecraft:cut_sandstone"
           }
         },
         {
@@ -64,7 +64,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:sandstone"
+            "id": "minecraft:sandstone"
           }
         },
         {
@@ -77,7 +77,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:white_concrete_powder"
+            "id": "minecraft:white_concrete_powder"
           }
         },
         {
@@ -90,7 +90,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:packed_mud"
+            "id": "minecraft:packed_mud"
           }
         }
       ],
@@ -108,7 +108,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:cracked_stone_bricks"
+            "id": "minecraft:cracked_stone_bricks"
           }
         },
         {
@@ -121,7 +121,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:cracked_deepslate_bricks"
+            "id": "minecraft:cracked_deepslate_bricks"
           }
         },
         {
@@ -134,7 +134,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:cracked_deepslate_tiles"
+            "id": "minecraft:cracked_deepslate_tiles"
           }
         }
       ],
@@ -153,7 +153,7 @@
             "predicate_type": "block_match"
           },
           "output_state": {
-            "Name": "bricks"
+            "id": "bricks"
           }
         },
         {
@@ -166,7 +166,7 @@
             "predicate_type": "block_match"
           },
           "output_state": {
-            "Name": "mud_bricks"
+            "id": "mud_bricks"
           }
         },
         {
@@ -179,7 +179,7 @@
             "predicate_type": "block_match"
           },
           "output_state": {
-            "Name": "smooth_sandstone"
+            "id": "smooth_sandstone"
           }
         }
       ]

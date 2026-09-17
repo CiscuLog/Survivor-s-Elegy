@@ -1,6 +1,5 @@
 {
 	"type": "minecraft:block_column",
-	"config": {
 	  "allowed_placement": {
 		"type": "minecraft:matching_block_tag",
 		"offset":[
@@ -8,7 +7,7 @@
 			1,
 			0
 		],
-		"tag": "siscu:column_traspassable"
+		"tag": "siscu:ladder_transparent"
 	  },
 	  "prioritize_tip": false,
 	  "direction": "down",
@@ -16,17 +15,14 @@
 		{
 		  "height": 100,
 		  "provider": {
-			"type": "minecraft:weighted_state_provider",
-			"entries": [
-			  {
-				"data": {
-				  "Name": "minecraft:oak_log"
-				},
-				"weight": 1
-			  }
-			]
+			"type": "minecraft:simple",
+			"state": {
+				"id": "ladder",
+				"properties": {
+					"facing": "west"
+				}
+			}
 		  }
 		}
-	  ]
-	}
-  }
+	]
+}

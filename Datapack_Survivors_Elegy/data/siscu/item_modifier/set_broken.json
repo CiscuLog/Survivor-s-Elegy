@@ -1,5 +1,5 @@
 {
-  "function": "minecraft:set_damage",
+  "type": "minecraft:set_damage",
   "damage": {
 	  "type": "minecraft:constant",
 	  "value": 0.0

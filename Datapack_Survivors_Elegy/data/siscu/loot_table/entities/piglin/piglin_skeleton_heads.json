@@ -6,24 +6,22 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {"item_model": "siscu_se:piglin_skull"}
 			}
 		  ]
         }
 		],
-		"conditions":[
-			{
-				"condition":"minecraft:inverted",
-				"term": {
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {"equipment":{"head":{"items":["golden_helmet","chainmail_helmet","netherite_helmet"]}}}
-				}
+		"condition": {
+			"type":"minecraft:inverted",
+			"term": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {"equipment":{"head":{"items":["golden_helmet","chainmail_helmet","netherite_helmet"]}}}
 			}
-		]
+		}
     },
     {
       "rolls": 1,
@@ -31,21 +29,19 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {"item_model": "siscu_se:piglin_skull_golden"}
 			}
 		  ]
         }
 		],
-		"conditions":[
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {"equipment":{"head":{"items":["minecraft:golden_helmet"]}}}
-			}
-		]
+		"condition":{
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {"equipment":{"head":{"items":["minecraft:golden_helmet"]}}}
+		}
     },
     {
       "rolls": 1,
@@ -53,21 +49,19 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {"item_model": "siscu_se:piglin_skull_chainmail"}
 			}
 		  ]
         }
 		],
-		"conditions":[
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {"equipment":{"head":{"items":["minecraft:chainmail_helmet"]}}}
-			}
-		]
+		"condition":{
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {"equipment":{"head":{"items":["minecraft:chainmail_helmet"]}}}
+		}
     },
     {
       "rolls": 1,
@@ -75,21 +69,19 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {"item_model": "siscu_se:piglin_skull_netherite"}
 			}
 		  ]
         }
 		],
-		"conditions":[
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {"equipment":{"head":{"items":["minecraft:netherite_helmet"]}}}
-			}
-		]
+		"condition":{
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {"equipment":{"head":{"items":["minecraft:netherite_helmet"]}}}
+		}
     }
   ]
 }

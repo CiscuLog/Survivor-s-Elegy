@@ -1,6 +1,16 @@
 
 Compatible Minecraft versions: 26.2
 
+Survivor's Elegy 1.0.13 (17/09/2026)
++ Updated to 26.3
++ Updated resourcepack version to 11
++ Added fish to Sulfur Caves: Bass, Pufferfish and Porcupinefish
++ Added fish to Dappled Forest: Bass and Salmon
++ Added sneaking on tall grass on Dappled Forests displays red tinted particles
++ Changed Shields no longer make item frames invisible
++ Fixed zombified players on creative mode would have their helmet durability decrease
+- Removed Expert Cartographers sold Ancient City Explorer Maps
+
 Survivor's Elegy 1.0.12 (11/07/2026)
 + Changed resourcepack version to 10
 + Changed all zombified illagers will spawn as nitwits

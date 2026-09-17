@@ -12,7 +12,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:grass_block"
+            "id": "minecraft:grass_block"
           }
         },
         {
@@ -25,7 +25,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:grass_block"
+            "id": "minecraft:grass_block"
           }
         },
         {
@@ -34,7 +34,7 @@
             "predicate_type": "minecraft:block_match"
           },
           "output_state": {
-            "Name": "minecraft:water"
+            "id": "minecraft:water"
           },
           "location_predicate": {
             "block": "minecraft:water",
@@ -51,19 +51,18 @@
           {
             "block_entity_modifier": {
               "type": "minecraft:append_loot",
-              "loot_table": "minecraft:archaeology/trail_ruins_rare"
+              "loot_table": "siscu:archaeology/jungle_ruins_house"
             },
             "input_predicate": {
               "predicate_type": "minecraft:tag_match",
-              "tag": "siscu:jungle_ruins_replaceable",
-              "probability": 0.1
+              "tag": "siscu:jungle_ruins_replaceable"
             },
             "location_predicate": {
               "predicate_type": "minecraft:always_true"
             },
             "output_state": {
-              "Name": "minecraft:suspicious_gravel",
-              "Properties": {
+              "id": "minecraft:suspicious_gravel",
+              "properties": {
                 "dusted": "0"
               }
             }

@@ -14,12 +14,7 @@
 		  "weight":1
         }		
 	],
-	"conditions": [
-	{
-		"condition": "minecraft:random_chance",
-		"chance": 0.1
-	}
-	]
+	"condition": {"type":"minecraft:random_chance","chance": 0.1}
     }
   ]
 }

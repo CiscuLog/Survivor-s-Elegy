@@ -27,8 +27,8 @@
           "type": "minecraft:item",
           "name": "minecraft:raw_gold",
           "weight": 10,
-          "functions": [{
-            "function": "set_components",
+          "modifier": [{
+            "type": "set_components",
             "components": {"item_model":"siscu_se:piglin/brute_helmet_1"}
             }]
         },
@@ -36,18 +36,13 @@
           "type": "minecraft:item",
           "name": "minecraft:raw_gold",
           "weight": 10,
-          "functions": [{
-            "function": "set_components",
+          "modifier": [{
+            "type": "set_components",
             "components": {"item_model":"siscu_se:piglin/brute_helmet_1"}
             }]
         }
 	],
-	"conditions": [
-	{
-		"condition": "minecraft:random_chance",
-		"chance": 0.75
-	}
-	]
+	"condition":{ "type": "minecraft:random_chance", "chance": 0.75 }
     }
   ]
 }

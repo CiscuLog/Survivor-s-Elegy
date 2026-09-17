@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:leather",
-			"functions": [
+			"modifier": [
 			{
-				"function": "set_components",
+				"type": "set_components",
 				"components": {
 					"item_name": {"translate":"item.siscu.wandering_trader_leggings"},
 					"item_model": "siscu_se:wandering_trader_leggings",

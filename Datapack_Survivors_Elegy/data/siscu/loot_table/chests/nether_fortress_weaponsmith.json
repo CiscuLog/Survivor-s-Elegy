@@ -31,9 +31,9 @@
           "weight": 5
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_damage",
+          "type": "minecraft:set_damage",
           "damage": {"type": "uniform","max": 0.7,"min": 0.01}
         }
       ]
@@ -58,12 +58,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:rib_armor_trim_smithing_template",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.25
-            }
-          ]
+          "condition": { "type": "minecraft:random_chance", "chance": 0.25 }
         }
       ]
     }

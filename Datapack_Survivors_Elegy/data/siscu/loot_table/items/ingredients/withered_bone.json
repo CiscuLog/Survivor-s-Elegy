@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:bone",
-			"functions": [
+			"modifier": [
 				{
-					"function": "minecraft:set_components",
+					"type": "minecraft:set_components",
 					"components": {
 						"item_name": {"italic":false,"translate":"item.siscu.withered_bone"},
 						"item_model": "siscu_se:withered_bone",

@@ -6,9 +6,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:arrow",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"item_model": "siscu_se:phage_arrow_1"
 							}
@@ -18,9 +18,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:arrow",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"item_model": "siscu_se:phage_arrow_1"
 							}
@@ -30,9 +30,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:arrow",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"item_model": "siscu_se:phage_arrow_1"
 							}
@@ -40,9 +40,9 @@
 					]
 				}
 			],
-			"functions": [
+			"modifier": [
 				{
-					"function": "set_components",
+					"type": "set_components",
 					"components": {
 						"enchantment_glint_override": false,
 						"enchantments": {

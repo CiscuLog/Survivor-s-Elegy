@@ -8,20 +8,20 @@
 			{
 				"type": "minecraft:loot_table",
 				"value": "minecraft:entities/zombie_villager",
-				"conditions": [{
-					"condition": "minecraft:entity_properties",
+				"condition": {
+					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {"entity_type": "minecraft:zombie_villager"}
-				}]
+				}
 			},
 			{
 				"type": "minecraft:loot_table",
 				"value": "siscu:entities/illager_skeleton_loot",
-				"conditions": [{
-					"condition": "minecraft:entity_properties",
+				"condition": {
+					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {"entity_type": "minecraft:skeleton"}
-				}]
+				}
 			}
 		]
 	},
@@ -34,15 +34,13 @@
 			"value": "minecraft:entities/evoker"
 		}
 		],
-		"conditions": [
-		{
-			"condition": "minecraft:entity_properties",
+		"condition":{
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"siscu.zombified_evoker\"]}"
 			}
 		}
-		]
 	},
 	{
 		"rolls": 1.0,
@@ -53,15 +51,13 @@
 			"value": "minecraft:entities/illusioner"
 		}
 		],
-		"conditions": [
-		{
-			"condition": "minecraft:entity_properties",
+		"condition":{
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"siscu.zombified_illusioner\"]}"
 			}
 		}
-		]
 	},
 	{
 		"rolls": 1.0,
@@ -72,15 +68,13 @@
 			"value": "minecraft:entities/pillager"
 		}
 		],
-		"conditions": [
-		{
-			"condition": "minecraft:entity_properties",
+		"condition":{
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"siscu.zombified_pillager\"]}"
 			}
 		}
-		]
 	},
 	{
 		"rolls": 1.0,
@@ -91,15 +85,13 @@
 			"value": "minecraft:entities/vindicator"
 		}
 		],
-		"conditions": [
-		{
-			"condition": "minecraft:entity_properties",
+		"condition":{
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"siscu.zombified_vindicator\"]}"
 			}
 		}
-		]
 	},
 	{
 		"rolls": 1.0,
@@ -110,15 +102,13 @@
 			"value": "minecraft:entities/wandering_trader"
 		}
 		],
-		"conditions": [
-		{
-			"condition": "minecraft:entity_properties",
+		"condition":{
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"siscu.zombified_wandering_trader\"]}"
 			}
 		}
-		]
 	},
 	{
 		"rolls": 1.0,
@@ -129,15 +119,13 @@
 			"value": "minecraft:entities/witch"
 		}
 		],
-		"conditions": [
-		{
-			"condition": "minecraft:entity_properties",
+		"condition":{
+			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"siscu.zombified_witch\"]}"
 			}
 		}
-		]
 	}
   ]
 }

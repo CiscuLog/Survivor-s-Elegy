@@ -4,14 +4,12 @@
 		"0": {
 			"trigger": "item_used_on_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "match_tool",
-						"predicate": {
-							"items": "item_frame"
-						}
+				"location": {
+					"type": "match_tool",
+					"predicate": {
+						"items": "item_frame"
 					}
-				]
+				}
 			}
 		}
 	},

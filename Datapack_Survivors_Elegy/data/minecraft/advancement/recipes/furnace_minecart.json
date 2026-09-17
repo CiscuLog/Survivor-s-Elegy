@@ -4,7 +4,7 @@
 		"0": {
 			"trigger":"minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "minecraft:furnace_minecart"
+				"recipes": "minecraft:furnace_minecart"
 			}
 		}
 	},

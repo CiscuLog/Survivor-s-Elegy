@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:tropical_fish",
-			"functions": [
+			"modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {"item_name":{"translate":"item.siscu.koi"},
 				"item_model": "siscu_se:koi",
 				"custom_data": {

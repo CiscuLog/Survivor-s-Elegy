@@ -1,2 +1,2 @@
 
-$item modify entity @s $(Slot) {function:"set_components",components:{"equippable": { "slot": "$(Slot_component)", "asset_id": "siscu_se:$(String)$(String2)", "equip_sound": "$(String3)" }}}
+$item modify entity @s $(Slot) {type:"set_components",components:{"equippable": { "slot": "$(Slot_component)", "asset_id": "siscu_se:$(String)$(String2)", "equip_sound": "$(String3)" }}}

@@ -26,17 +26,20 @@
           "type": "minecraft:ignite",
           "duration": 8
         },
-        "requirements": [
+        "requirements": {
+          "type": "all_of",
+          "terms": [
           {
-            "condition": "location_check",
+            "type": "location_check",
             "predicate": {
               "can_see_sky": true,
               "light": {"light": {"min": 15}}
             }
           },
-          {"condition": "entity_properties","entity": "this","predicate": {"equipment": {"head": {"items": "air"}}}},
-          {"condition": "entity_properties","entity": "this","predicate": {"flags": {"is_on_fire": false}}}
+          {"type": "entity_properties","entity": "this","predicate": {"equipment": {"head": {"items": "air"}}}},
+          {"type": "entity_properties","entity": "this","predicate": {"flags": {"is_on_fire": false}}}
         ]
+        }
       }
     ]
   }

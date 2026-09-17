@@ -12,12 +12,7 @@
           "value": "siscu:items/combat/piglin_brute_shield"
         }
 		],
-		"conditions": [
-		{
-			"condition": "minecraft:random_chance",
-			"chance": 0.4
-		}
-		]
+		"condition": { "type": "minecraft:random_chance", "chance": 0.4 }
 	}
   ]
 }

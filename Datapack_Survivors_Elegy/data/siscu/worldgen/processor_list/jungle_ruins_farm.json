@@ -12,7 +12,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:grass_block"
+            "id": "minecraft:grass_block"
           }
         },
         {
@@ -25,7 +25,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:gravel"
+            "id": "minecraft:gravel"
           }
         },
         {
@@ -38,7 +38,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:rooted_dirt"
+            "id": "minecraft:rooted_dirt"
           }
         },
         {
@@ -51,7 +51,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:gravel"
+            "id": "minecraft:gravel"
           }
         },
         {
@@ -64,7 +64,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:farmland"
+            "id": "minecraft:farmland"
           }
         }
       ],
@@ -77,19 +77,18 @@
           {
             "block_entity_modifier": {
               "type": "minecraft:append_loot",
-              "loot_table": "siscu:archaeology/jungle_ruins_farm"
+              "loot_table": "siscu:archaeology/jungle_ruins_house"
             },
             "input_predicate": {
               "predicate_type": "minecraft:tag_match",
-              "tag": "siscu:jungle_ruins_replaceable",
-              "probability": 0.1
+              "tag": "siscu:jungle_ruins_replaceable"
             },
             "location_predicate": {
               "predicate_type": "minecraft:always_true"
             },
             "output_state": {
-              "Name": "minecraft:suspicious_gravel",
-              "Properties": {
+              "id": "minecraft:suspicious_gravel",
+              "properties": {
                 "dusted": "0"
               }
             }

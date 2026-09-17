@@ -8,16 +8,16 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_nugget",
-          "functions": [{
-            "function": "minecraft:set_count",
+          "modifier": [{
+            "type": "minecraft:set_count",
             "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
           }]
         },
       {
         "type": "minecraft:item",
         "name": "minecraft:gold_ingot",
-    "functions": [{
-      "function": "minecraft:set_count",
+    "modifier": [{
+      "type": "minecraft:set_count",
       "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
     }],
 		  "weight": 1
@@ -25,8 +25,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:raw_gold_block",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
 		  }],
 		  "weight": 1
@@ -34,8 +34,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_block",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
 		  }],
 		  "weight": 1
@@ -43,16 +43,16 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_nugget",
-          "functions": [{
-            "function": "minecraft:set_count",
+          "modifier": [{
+            "type": "minecraft:set_count",
             "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
           }]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
 		  }],
 		  "weight": 1
@@ -60,8 +60,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:raw_iron_block",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
 		  }],
 		  "weight": 1
@@ -69,8 +69,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_block",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
 		  }],
 		  "weight": 1
@@ -100,12 +100,7 @@
           "name": "netherite_upgrade_smithing_template"
         }
       ],
-      "conditions": [
-        {
-          "condition": "random_chance",
-          "chance": 0.3
-        }
-      ]
+      "condition": { "type": "random_chance", "chance": 0.3 }
     }
   ]
 }

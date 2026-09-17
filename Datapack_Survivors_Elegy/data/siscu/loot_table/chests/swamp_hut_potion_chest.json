@@ -30,74 +30,74 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-		  "functions":[{
-			  "function":"minecraft:set_components",
+		  "modifier":{
+			  "type":"minecraft:set_components",
 			  "components": {"potion_contents":{"potion":"minecraft:water"}}
-		  }]
+		  }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-		  "functions":[{
-			  "function":"minecraft:set_components",
+		  "modifier":{
+			  "type":"minecraft:set_components",
 			  "components": {"potion_contents":{"potion":"minecraft:swiftness"}}
-		  }]
+		  }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-		  "functions":[{
-			  "function":"minecraft:set_components",
+		  "modifier":{
+			  "type":"minecraft:set_components",
 			  "components": {"potion_contents":{"potion":"minecraft:leaping"}}
-		  }]
+		  }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-		  "functions":[{
-			  "function":"minecraft:set_components",
+		  "modifier":{
+			  "type":"minecraft:set_components",
 			  "components": {"potion_contents":{"potion":"minecraft:healing"}}
-		  }]
+		  }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-		  "functions":[{
-			  "function":"minecraft:set_components",
+		  "modifier":{
+			  "type":"minecraft:set_components",
 			  "components": {"potion_contents":{"potion":"minecraft:poison"}}
-		  }]
+		  }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-		  "functions":[{
-			  "function":"minecraft:set_components",
+		  "modifier":{
+			  "type":"minecraft:set_components",
 			  "components": {"potion_contents":{"potion":"minecraft:strength"}}
-		  }]
+		  }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-		  "functions":[{
-			  "function":"minecraft:set_components",
+		  "modifier":{
+			  "type":"minecraft:set_components",
 			  "components": {"potion_contents":{"potion":"minecraft:water_breathing"}}
-		  }]
+		  }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-		  "functions":[{
-			  "function":"minecraft:set_components",
+		  "modifier":{
+			  "type":"minecraft:set_components",
 			  "components": {"potion_contents":{"potion":"minecraft:night_vision"}}
-		  }]
+		  }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-		  "functions":[{
-			  "function":"minecraft:set_components",
+		  "modifier":{
+			  "type":"minecraft:set_components",
 			  "components": {"potion_contents":{"potion":"minecraft:fire_resistance"}}
-		  }]
+		  }
         }
       ]
     }

@@ -15,9 +15,7 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
-					"location": {
-						"structures": "siscu:piglin_crevice"
-					}
+					"type": "location_check","predicate": {"structures": "siscu:piglin_crevice"}
 				}
 			}
 		}

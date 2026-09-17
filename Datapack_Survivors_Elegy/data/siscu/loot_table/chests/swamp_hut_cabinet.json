@@ -13,8 +13,8 @@
 			"type": "minecraft:item",
 			"name": "minecraft:book",
 			"weight": 50,
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": {
 					"type": "minecraft:uniform","min":1.0,"max":5.0
 				}
@@ -23,9 +23,9 @@
         {
 			"type": "minecraft:item",
 			"name": "minecraft:book",
-			"functions": [
+			"modifier": [
 			{
-				"function": "minecraft:enchant_with_levels",
+				"type": "minecraft:enchant_with_levels",
 				"levels": 30.0
 			}
 			]
@@ -34,8 +34,8 @@
 			"type": "minecraft:item",
 			"name": "minecraft:paper",
 			"weight": 30,
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": {
 					"type": "minecraft:uniform","min":2.0,"max":5.0
 				}
@@ -45,8 +45,8 @@
 			"type": "minecraft:item",
 			"name": "minecraft:feather",
 			"weight": 10,
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": {
 					"type": "minecraft:uniform","min":1.0,"max":5.0
 				}
@@ -56,8 +56,8 @@
 			"type": "minecraft:item",
 			"name": "minecraft:leather",
 			"weight": 5,
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": {
 					"type": "minecraft:uniform","min":1.0,"max":4.0
 				}
@@ -67,8 +67,8 @@
 			"type": "minecraft:item",
 			"name": "minecraft:ink_sac",
 			"weight": 5,
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": {
 					"type": "minecraft:uniform","min":1.0,"max":3.0
 				}

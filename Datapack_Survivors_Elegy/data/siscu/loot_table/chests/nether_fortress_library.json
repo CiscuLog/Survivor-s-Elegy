@@ -8,25 +8,25 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:paper",
-          "functions": [{
-            "function": "minecraft:set_count",
+          "modifier": [{
+            "type": "minecraft:set_count",
             "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
           }]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "functions": [{
-            "function": "minecraft:set_count",
+          "modifier": [{
+            "type": "minecraft:set_count",
             "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
           }]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": ["minecraft:mending","minecraft:efficiency","minecraft:fire_protection","minecraft:silk_touch","minecraft:soul_speed","minecraft:flame","minecraft:fire_aspect","minecraft:blast_protection","minecraft:smite","minecraft:power","minecraft:unbreaking"]
             }
           ]
@@ -34,16 +34,16 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:feather",
-          "functions": [{
-            "function": "minecraft:set_count",
+          "modifier": [{
+            "type": "minecraft:set_count",
             "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
           }]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:ink_sac",
-          "functions": [{
-            "function": "minecraft:set_count",
+          "modifier": [{
+            "type": "minecraft:set_count",
             "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
           }]
         }

@@ -5,8 +5,12 @@
             "trigger": "player_interacted_with_entity",
             "conditions": {
                 "entity": {
-                    "flags": {
-                        "is_baby": true
+                    "type": "entity_properties",
+                    "entity": "this",
+                        "predicate": {
+                        "flags": {
+                            "is_baby": true
+                        }
                     }
                 }
             }

@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:rabbit_stew",
-			"functions": [
+			"modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {"item_name":{"translate":"item.siscu.crimson_stew"},
 				"item_model": "siscu_se:crimson_stew",
 				"custom_data": {

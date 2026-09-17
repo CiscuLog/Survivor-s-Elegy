@@ -4,13 +4,12 @@
 		"0": {
 			"trigger": "minecraft:tick",
 			"conditions": {
-				"player": [
+				"player": {
+					"type": "all_of",
+					"terms": [
+						"siscu:items/ominous_banner",
 					{
-						"condition": "minecraft:reference",
-						"name": "siscu:items/ominous_banner"
-					},
-					{
-						"condition": "minecraft:entity_properties",
+						"type": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
 							"type_specific/player": {
@@ -27,12 +26,12 @@
 						}
 					},
 					{
-						"condition": "minecraft:inverted",
+						"type": "minecraft:inverted",
 						"term": {
-							"condition": "all_of",
+							"type": "all_of",
 							"terms": [
 								{
-									"condition": "minecraft:entity_properties",
+									"type": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
 										"type_specific/player": {
@@ -50,7 +49,7 @@
 									}
 								},
 								{
-									"condition": "minecraft:entity_properties",
+									"type": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
 										"type_specific/player": {
@@ -70,6 +69,7 @@
 						}
 					}
 				]
+				}
 			}
 		}
 	},

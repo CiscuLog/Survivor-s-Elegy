@@ -6,8 +6,8 @@
 		{
 			"type": "minecraft:loot_table",
 			"value": "siscu:items/combat/piglin_axe_1",
-			"functions": [{
-			  "function": "set_components",
+			"modifier": [{
+			  "type": "set_components",
 			  "components": {"item_model": "siscu_se:piglin_axe_3"}
 			  }]
 		}

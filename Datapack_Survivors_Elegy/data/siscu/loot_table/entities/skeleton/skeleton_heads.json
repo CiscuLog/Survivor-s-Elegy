@@ -6,38 +6,44 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 			  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:piglin_skull"}
 			  }
 			],
 		"weight":3,
-		"conditions": [
-		  {
-			  "condition": "minecraft:location_check",
-			  "predicate": {"dimension": "minecraft:the_nether"}
-		  },
-		  {"condition": "random_chance","chance": 0.75}
-		  ]
+		"condition": {
+			"type": "all_of",
+			"terms": [
+			{
+				"type": "minecraft:location_check",
+				"predicate": {"dimension": "minecraft:the_nether"}
+			},
+			{"type": "random_chance","chance": 0.75}
+			]
+		}
       },
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-		  "functions":[
+		  "modifier":[
 			  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:villager_skull"}
 			  }
 			],
 		"weight":1,
-		"conditions": [
-		  {
-			  "condition": "minecraft:location_check",
-			  "predicate": {"dimension": "minecraft:overworld"}
-		  },
-		  {"condition": "random_chance","chance": 0.5}
-		  ]
+		"condition": {
+			"type": "all_of",
+			"terms": [
+			{
+				"type": "minecraft:location_check",
+				"predicate": {"dimension": "minecraft:overworld"}
+			},
+			{"type": "random_chance","chance": 0.5}
+			]
+		}
       }
 	]
 	}

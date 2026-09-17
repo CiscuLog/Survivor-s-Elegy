@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:salmon",
-			"functions": [
+			"modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {"item_name":{"translate":"item.siscu.trout"},
 				"item_model": "siscu_se:trout",
 				"custom_data": {

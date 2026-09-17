@@ -8,7 +8,7 @@
 					"blocked": true,
 					"dealt": {"min":10,"max":14.5},
 					"type": {
-						"tags": [{"id":"is_explosion","expected":true}]
+						"tags": [{"id":"#is_explosion","expected":true}]
 					}
 				}
 			}

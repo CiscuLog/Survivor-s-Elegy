@@ -7,22 +7,20 @@
 	  {
 		  "type": "minecraft:item",
 		  "name": "minecraft:player_head",
-		  "functions": [
+		  "modifier": [
 		  {
-			  "function": "minecraft:fill_player_head",
+			  "type": "minecraft:fill_player_head",
 			  "entity": "this"
 		  }
 		  ],
-		  "conditions": [
-		  {
-			  "condition": "minecraft:entity_properties",
-			  "entity": "attacker",
-			  "predicate": {
-				  "entity_type": "minecraft:creeper",
-				  "nbt": "{powered: 1b}"
-			  }
+		  "condition": {
+			"type": "minecraft:entity_properties",
+			"entity": "attacker",
+			"predicate": {
+				"entity_type": "minecraft:creeper",
+				"nbt": "{powered: 1b}"
+			}
 		  }
-		  ]
 		}
 		]
   }

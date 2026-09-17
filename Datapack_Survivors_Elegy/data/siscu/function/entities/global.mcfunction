@@ -7,7 +7,7 @@ execute if entity @s[tag=entity_checked] run return run tag @s remove entity_che
 execute if entity @s[tag=smithed.entity] run return 0
 
 # Incredible trial spawners fix that in no way can be exploited to circumvent other entity modifications
-execute if entity @s[type=#siscu:trial_spawnable] if predicate {condition:"location_check",predicate:{structures:"#on_trial_chambers_maps"}} run return 0
+execute if entity @s[type=#siscu:trial_spawnable] if predicate {type:"location_check",predicate:{structures:"#on_buried_trial_chambers_maps"}} run return 0
 execute if entity @s[type=#siscu:trial_spawnable] if items entity @s armor.* *[trim] run return 0
 
 # Differentiate

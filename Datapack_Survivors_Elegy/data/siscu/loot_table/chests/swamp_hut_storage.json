@@ -8,8 +8,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:nether_wart",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
 		  }],
 		  "weight": 4
@@ -17,8 +17,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:glowstone_dust",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
 		  }],
 		  "weight": 2
@@ -26,8 +26,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:redstone",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
 		  }],
 		  "weight": 2
@@ -35,8 +35,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:sugar",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
 		  }],
 		  "weight": 2
@@ -44,8 +44,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:spider_eye",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
 		  }],
 		  "weight": 2
@@ -53,8 +53,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:glass_bottle",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
 		  }],
 		  "weight": 2
@@ -62,8 +62,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gunpowder",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
 		  }],
 		  "weight": 2
@@ -71,8 +71,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:red_mushroom",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
 		  }],
 		  "weight": 2
@@ -80,8 +80,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:brown_mushroom",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
 		  }],
 		  "weight": 2
@@ -89,8 +89,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_carrot",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
 		  }],
 		  "weight": 2
@@ -98,8 +98,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:rabbit_foot",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
 		  }],
 		  "weight": 1
@@ -107,8 +107,8 @@
         {
           "type": "minecraft:loot_table",
           "value": "siscu:items/food/frog_leg",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
 		  }],
 		  "weight": 1

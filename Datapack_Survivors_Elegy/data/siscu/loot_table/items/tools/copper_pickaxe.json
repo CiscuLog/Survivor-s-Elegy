@@ -6,9 +6,9 @@
                 {
                     "type": "item",
                     "name": "copper_pickaxe",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {"translate":"item.siscu.copper_pickaxe"},
                                 "item_model": "siscu_se:copper_pickaxe",

@@ -1,17 +1,14 @@
 {
-    "condition": "all_of",
+    "type": "all_of",
     "terms": [
+        "siscu:entities/is_wearing_copper_armor",
         {
-            "condition": "reference",
-            "name": "siscu:entities/is_wearing_copper_armor"
-        },
-        {
-            "condition": "any_of",
+            "type": "any_of",
             "terms": [
-                { "condition":"inverted", "term":{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "slots": { "armor.head": { "predicates": { "custom_data": {"SE_data":{"Charge": 0}} } } } } } },
-                { "condition":"inverted", "term":{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "slots": { "armor.chest": { "predicates": { "custom_data": {"SE_data":{"Charge": 0}} } } } } } },
-                { "condition":"inverted", "term":{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "slots": { "armor.legs": { "predicates": { "custom_data": {"SE_data":{"Charge": 0}} } } } } } },
-                { "condition":"inverted", "term":{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "slots": { "armor.feet": { "predicates": { "custom_data": {"SE_data":{"Charge": 0}} } } } } } }
+                { "type":"inverted", "term":{ "type": "minecraft:entity_properties", "entity": "this", "predicate": { "slots": { "armor.head": { "predicates": { "custom_data": {"SE_data":{"Charge": 0}} } } } } } },
+                { "type":"inverted", "term":{ "type": "minecraft:entity_properties", "entity": "this", "predicate": { "slots": { "armor.chest": { "predicates": { "custom_data": {"SE_data":{"Charge": 0}} } } } } } },
+                { "type":"inverted", "term":{ "type": "minecraft:entity_properties", "entity": "this", "predicate": { "slots": { "armor.legs": { "predicates": { "custom_data": {"SE_data":{"Charge": 0}} } } } } } },
+                { "type":"inverted", "term":{ "type": "minecraft:entity_properties", "entity": "this", "predicate": { "slots": { "armor.feet": { "predicates": { "custom_data": {"SE_data":{"Charge": 0}} } } } } } }
 
             ]
         }

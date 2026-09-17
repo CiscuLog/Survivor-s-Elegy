@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:rotten_flesh",
-			"functions": [
+			"modifier": [
 			{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {"item_name":{"translate":"item.siscu.drowned_flesh"},
 					"item_model": "siscu_se:drowned_flesh",
 					"custom_data": {

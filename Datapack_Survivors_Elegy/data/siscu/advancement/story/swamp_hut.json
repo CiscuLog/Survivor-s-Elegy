@@ -14,11 +14,7 @@
 		"0": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"location": {
-						"structures": "#minecraft:witch_hut"
-					}
-				}
+				"player": {"type": "location_check","predicate": {"structures": "#minecraft:witch_hut"}}
 			}
 		}
 	}

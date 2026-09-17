@@ -25,12 +25,16 @@
 			"trigger": "inventory_changed",
 			"conditions": {
 				"player": {
-					"slots": {
-						"armor.head": {
-							"predicates": {
-								"custom_data": {"SE_data":{"id":"siscu:top_hat"}},
-								"bundle_contents": {
-									"items": {"contains": [{"items": "#enchantable/weapon"}]}
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"slots": {
+							"armor.head": {
+								"predicates": {
+									"custom_data": {"SE_data":{"id":"siscu:top_hat"}},
+									"bundle_contents": {
+										"items": {"contains": [{"items": "#enchantable/weapon"}]}
+									}
 								}
 							}
 						}

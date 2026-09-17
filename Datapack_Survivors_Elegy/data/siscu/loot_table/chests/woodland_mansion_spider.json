@@ -12,8 +12,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:string",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":5.0,"max":10.0}
 		  }],
 		  "weight": 2
@@ -21,8 +21,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:spider_eye",
-		  "functions": [{
-			  "function": "minecraft:set_count",
+		  "modifier": [{
+			  "type": "minecraft:set_count",
 			  "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
 		  }],
 		  "weight": 1

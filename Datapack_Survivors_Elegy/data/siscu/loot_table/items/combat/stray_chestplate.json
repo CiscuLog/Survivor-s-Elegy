@@ -6,9 +6,9 @@
                 {
                     "type": "item",
                     "name": "leather_chestplate",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {"translate":"item.siscu.stray_chestplate"},
                                 "minecraft:item_model": "siscu_se:stray_chestplate",
@@ -29,7 +29,7 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_attributes",
+                            "type": "minecraft:set_attributes",
                             "modifiers": [
                                 {
                                     "attribute": "minecraft:armor",

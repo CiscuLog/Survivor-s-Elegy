@@ -4,7 +4,7 @@
 		"0": {
 			"trigger":"minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "minecraft:chest_minecart"
+				"recipes": "minecraft:chest_minecart"
 			}
 		}
 	},

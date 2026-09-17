@@ -7,34 +7,24 @@
           "type": "minecraft:loot_table",
           "value": "siscu:groups/tools/swords",
 		  "weight":170,
-		  "conditions": [
-		  {
-			  "condition": "minecraft:reference",
-			  "name": "siscu:locations/check_surface"
-		  }
-		  ]
+		  "condition": "siscu:locations/check_surface"
         },
         {
           "type": "minecraft:loot_table",
           "value": "siscu:groups/tools/pickaxes",
 		  "weight":100,
-		  "conditions": [
-		  {
-			  "condition": "minecraft:any_of",
+		  "condition": {
+			  "type": "minecraft:any_of",
 			  "terms": [
-			  {
-				  "condition": "minecraft:reference",
-				  "name": "siscu:locations/check_underground"
-			  },
-			  {
-				  "condition": "minecraft:location_check",
-				  "predicate":{
-					"structures": "mineshaft"
-				  }
-			  }
+				"siscu:locations/check_underground",
+				{
+					"type": "minecraft:location_check",
+					"predicate":{
+						"structures": "mineshaft"
+					}
+				}
 			  ]
 		  }
-		  ]
         },
         {
           "type": "minecraft:loot_table",
@@ -50,37 +40,22 @@
           "type": "minecraft:item",
           "name": "minecraft:shears",
 		  "weight":1,
-		  "conditions": [
-		  {
-			  "condition": "minecraft:reference",
-			  "name": "siscu:locations/check_surface"
-		  }
-		  ]
+		  "condition": "siscu:locations/check_surface"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:potato",
 		  "weight":5,
-		  "conditions": [
-		  {
-			  "condition": "minecraft:reference",
-			  "name": "siscu:locations/check_surface"
-		  }
-		  ]
+		  "condition": "siscu:locations/check_surface"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:carrot",
 		  "weight":5,
-		  "conditions": [
-		  {
-			  "condition": "minecraft:reference",
-			  "name": "siscu:locations/check_surface"
-		  }
-		  ]
+		  "condition": "siscu:locations/check_surface"
         }
 		],
-		"conditions": [{"condition": "random_chance","chance": 0.5}]
+		"condition": {"type": "random_chance","chance": 0.5}
 	}
   ]
 }

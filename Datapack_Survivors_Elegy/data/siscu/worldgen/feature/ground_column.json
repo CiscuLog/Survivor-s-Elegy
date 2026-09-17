@@ -1,6 +1,5 @@
 {
 	"type": "minecraft:block_column",
-	"config": {
 	  "allowed_placement": {
 		"type": "minecraft:matching_block_tag",
 		"offset":[
@@ -14,32 +13,31 @@
 	  "direction": "down",
 	  "layers": [
 		{
-		  "height": {"type": "uniform","max_inclusive": 4,"min_inclusive": 2},
+		  "height": 1,
 		  "provider": {
-			"type": "minecraft:simple_state_provider",
+			"type": "minecraft:simple",
 			"state": {
-				"Name": "stone_bricks"
+				"id": "dirt"
 			}
 		  }
 		},
 		{
-		  "height": {"type": "uniform","max_inclusive": 6,"min_inclusive": 4},
+		  "height": 2,
 		  "provider": {
-			"type": "minecraft:simple_state_provider",
+			"type": "minecraft:simple",
 			"state": {
-				"Name": "cobblestone"
+				"id": "dirt"
 			}
 		  }
 		},
 		{
 		  "height": 128,
 		  "provider": {
-			"type": "minecraft:simple_state_provider",
+			"type": "minecraft:simple",
 			"state": {
-				"Name": "stone"
+				"id": "stone"
 			}
 		  }
 		}
-	  ]
-	}
-  }
+	]
+}

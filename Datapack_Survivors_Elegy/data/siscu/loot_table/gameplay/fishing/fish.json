@@ -8,173 +8,147 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "siscu:items/food/fish",
-					"conditions": [
-						{
-							"condition": "minecraft:inverted",
-							"term": {
-								"condition": "location_check",
-								"predicate": {
-									"biomes": "#siscu:has_fish/all"
-								}
+					"condition": {
+						"type": "minecraft:inverted",
+						"term": {
+							"type": "location_check",
+							"predicate": {
+								"biomes": "#siscu:has_fish/all"
 							}
 						}
-					]
+					}
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:cod",
-					"conditions": [
-						{
-							"condition": "location_check",
-							"predicate": {
-								"biomes": "#siscu:has_fish/cod"
-							}
+					"condition": {
+						"type": "location_check",
+						"predicate": {
+							"biomes": "#siscu:has_fish/cod"
 						}
-					],
+					},
 					"weight": 10
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:salmon",
-					"conditions": [
-						{
-							"condition": "location_check",
-							"predicate": {
-								"biomes": "#siscu:has_fish/salmon"
-							}
+					"condition": {
+						"type": "location_check",
+						"predicate": {
+							"biomes": "#siscu:has_fish/salmon"
 						}
-					],
+					},
 					"weight": 10
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:tropical_fish",
 					"weight": 20,
-					"conditions": [
-						{
-							"condition": "location_check",
-							"predicate": {
-								"biomes": "#siscu:has_fish/tropical_fish"
-							}
+					"condition": {
+						"type": "location_check",
+						"predicate": {
+							"biomes": "#siscu:has_fish/tropical_fish"
 						}
-					]
+					}
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:pufferfish",
 					"weight": 10,
-					"conditions": [
-						{
-							"condition": "location_check",
-							"predicate": {
-								"biomes": "#siscu:has_fish/pufferfish"
-							}
+					"condition": {
+						"type": "location_check",
+						"predicate": {
+							"biomes": "#siscu:has_fish/pufferfish"
 						}
-					]
+					}
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "siscu:items/food/bass",
 					"weight": 10,
-					"conditions": [
-						{
-							"condition": "location_check",
-							"predicate": {
-								"biomes": "#siscu:has_fish/bass"
-							}
+					"condition": {
+						"type": "location_check",
+						"predicate": {
+							"biomes": "#siscu:has_fish/bass"
 						}
-					]
+					}
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "siscu:items/food/catfish",
 					"weight": 10,
-					"conditions": [
-						{
-							"condition": "location_check",
-							"predicate": {
-								"biomes": "#siscu:has_fish/catfish"
-							}
+					"condition": {
+						"type": "location_check",
+						"predicate": {
+							"biomes": "#siscu:has_fish/catfish"
 						}
-					]
+					}
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "siscu:items/food/tuna",
 					"weight": 10,
-					"conditions": [
-						{
-							"condition": "location_check",
-							"predicate": {
-								"biomes": "#siscu:has_fish/tuna"
-							}
+					"condition": {
+						"type": "location_check",
+						"predicate": {
+							"biomes": "#siscu:has_fish/tuna"
 						}
-					]
+					}
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "siscu:items/food/trout",
 					"weight": 10,
-					"conditions": [
-						{
-							"condition": "location_check",
-							"predicate": {
-								"biomes": "#siscu:has_fish/trout"
-							}
+					"condition": {
+						"type": "location_check",
+						"predicate": {
+							"biomes": "#siscu:has_fish/trout"
 						}
-					]
+					}
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "siscu:items/food/pufferfish",
 					"weight": 10,
-					"conditions": [
-						{
-							"condition": "location_check",
-							"predicate": {
-								"biomes": "#siscu:has_fish/pufferfish"
-							}
+					"condition": {
+						"type": "location_check",
+						"predicate": {
+							"biomes": "#siscu:has_fish/pufferfish"
 						}
-					]
+					}
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "siscu:items/food/koi",
 					"weight": 10,
-					"conditions": [
-						{
-							"condition": "location_check",
-							"predicate": {
-								"biomes": "#siscu:has_fish/koi"
-							}
+					"condition": {
+						"type": "location_check",
+						"predicate": {
+							"biomes": "#siscu:has_fish/koi"
 						}
-					]
+					}
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "siscu:items/food/turbot",
 					"weight": 10,
-					"conditions": [
-						{
-							"condition": "location_check",
-							"predicate": {
-								"biomes": "#siscu:has_fish/turbot"
-							}
+					"condition": {
+						"type": "location_check",
+						"predicate": {
+							"biomes": "#siscu:has_fish/turbot"
 						}
-					]
+					}
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "siscu:items/food/hake",
 					"weight": 10,
-					"conditions": [
-						{
-							"condition": "location_check",
-							"predicate": {
-								"biomes": "#siscu:has_fish/hake"
-							}
+					"condition": {
+						"type": "location_check",
+						"predicate": {
+							"biomes": "#siscu:has_fish/hake"
 						}
-					]
+					}
 				}
 			]
 		}

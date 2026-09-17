@@ -9,20 +9,17 @@
       "spawns": [
         {
           "type": "zombie",
-          "maxCount": 5,
-          "minCount": 3,
+          "count": {"type": "uniform","max_inclusive": 5,"min_inclusive": 3},
           "weight": 4
         },
         {
           "type": "creeper",
-          "maxCount": 2,
-          "minCount": 1,
+          "count": {"type": "uniform","max_inclusive": 2,"min_inclusive": 1},
           "weight": 1
         },
         {
           "type": "spider",
-          "maxCount": 3,
-          "minCount": 2,
+          "count": {"type": "uniform","max_inclusive": 3,"min_inclusive": 2},
           "weight": 1
         }
       ],

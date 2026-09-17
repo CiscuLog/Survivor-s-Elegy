@@ -7,9 +7,9 @@
           "type": "minecraft:item",
           "name": "minecraft:bone",
 		  "weight": 89,
-		  "functions":[
+		  "modifier":[
 		  {
-			  "function": "minecraft:set_components",
+			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:villager_skull_withered"}
 		  }
 		  ]

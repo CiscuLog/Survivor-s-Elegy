@@ -6,9 +6,9 @@
         {
           "type": "item",
           "name": "wolf_armor",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.siscu.wax_wolf_armor"},
                 "minecraft:lore": [

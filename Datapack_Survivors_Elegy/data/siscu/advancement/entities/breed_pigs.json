@@ -6,7 +6,9 @@
 			"conditions": {
 				"child":
 				{
-					"entity_type": "minecraft:pig"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {"entity_type": "minecraft:pig"}
 				}
 			}
 		}

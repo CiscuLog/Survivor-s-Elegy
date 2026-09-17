@@ -6,10 +6,10 @@
         {
           "type": "item",
           "name": "minecraft:emerald",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
-              "count": {"min":20,"max":40}
+              "type": "set_count",
+              "count": {"type": "uniform","min":20,"max":40}
             }
           ]
         }
@@ -21,10 +21,10 @@
         {
           "type": "item",
           "name": "diamond",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
-              "count": {"min":2,"max":3}
+              "type": "set_count",
+              "count": {"type": "uniform","min":2,"max":3}
             }
           ]
         }

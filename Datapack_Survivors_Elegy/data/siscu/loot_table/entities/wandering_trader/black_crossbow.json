@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:crossbow",
-			"functions": [
+			"modifier": [
 				{
-					"function": "minecraft:enchant_randomly",
+					"type": "minecraft:enchant_randomly",
 					"options": ["minecraft:mending","minecraft:quick_charge","minecraft:piercing","minecraft:multishot","minecraft:unbreaking"]
 				}
 			]

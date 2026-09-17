@@ -6,9 +6,9 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:bow",
-			"functions": [
+			"modifier": [
 			{
-				"function": "minecraft:set_enchantments",
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"flame": 1
 				}

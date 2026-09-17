@@ -4,9 +4,10 @@
 		"0": {
 			"trigger":"minecraft:player_killed_entity",
 			"conditions": {
-				"entity":
-				{
-					"nbt": "{Tags:[\"siscu.dripstone_zombie\"]}"
+				"entity": {
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": { "nbt": "{Tags:[\"siscu.dripstone_zombie\"]}" }
 				}
 			}
 		}

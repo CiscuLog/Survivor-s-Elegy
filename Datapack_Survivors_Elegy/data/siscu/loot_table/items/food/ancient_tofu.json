@@ -6,9 +6,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:bread",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"item_name": {"translate":"item.siscu.sniffer_meat"},
 								"item_model": "siscu_se:sniffer_meat",

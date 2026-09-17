@@ -6,9 +6,9 @@
                 {
                     "type": "item",
                     "name": "copper_chestplate",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "damage": 0,
                                 "max_stack_size": 1,

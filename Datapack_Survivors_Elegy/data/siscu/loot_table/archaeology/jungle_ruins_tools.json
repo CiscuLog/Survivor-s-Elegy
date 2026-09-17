@@ -8,10 +8,10 @@
                 {
                 "type":"minecraft:loot_table",
                 "value":"siscu:groups/tools/axes",
-                "functions":[
+                "modifier":[
                     {
-                    "function": "minecraft:set_damage",
-                    "damage": {"min":0.1,"max":0.9}
+                    "type": "minecraft:set_damage",
+                    "damage": {"type": "uniform","min":0.1,"max":0.9}
                     }
                 ],
                 "weight": 2
@@ -19,10 +19,10 @@
                 {
                 "type":"minecraft:loot_table",
                 "value":"siscu:groups/tools/shovels",
-                "functions":[
+                "modifier":[
                     {
-                    "function": "minecraft:set_damage",
-                    "damage": {"min":0.1,"max":0.9}
+                    "type": "minecraft:set_damage",
+                    "damage": {"type": "uniform","min":0.1,"max":0.9}
                     }
                 ],
                 "weight": 2
@@ -30,10 +30,10 @@
                 {
                 "type":"minecraft:loot_table",
                 "value":"siscu:groups/tools/pickaxes",
-                "functions":[
+                "modifier":[
                     {
-                    "function": "minecraft:set_damage",
-                    "damage": {"min":0.1,"max":0.9}
+                    "type": "minecraft:set_damage",
+                    "damage": {"type": "uniform","min":0.1,"max":0.9}
                     }
                 ],
                 "weight": 2
@@ -41,10 +41,10 @@
                 {
                 "type":"minecraft:item",
                 "name":"minecraft:brush",
-                "functions":[
+                "modifier":[
                     {
-                    "function": "minecraft:set_damage",
-                    "damage": {"min":0.1,"max":0.9}
+                    "type": "minecraft:set_damage",
+                    "damage": {"type": "uniform","min":0.1,"max":0.9}
                     }
                 ],
                 "weight": 1

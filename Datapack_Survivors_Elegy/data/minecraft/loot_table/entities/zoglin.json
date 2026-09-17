@@ -7,9 +7,9 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1.0,
@@ -18,7 +18,7 @@
               "add": false
             },
             {
-              "function": "enchanted_count_increase",
+              "type": "enchanted_count_increase",
               "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",
@@ -38,16 +38,14 @@
 		{
 			"type": "minecraft:loot_table",
 			"value": "siscu:items/functional/zoglin_head",
-			"conditions": [
-			{
-			  "condition": "minecraft:entity_properties",
+			"condition":{
+			  "type": "minecraft:entity_properties",
 			  "entity": "attacker",
 			  "predicate": {
 				  "entity_type": "minecraft:creeper",
 				  "nbt": "{powered: 1b}"
 			  }
 			}
-			]
 		}
 		]
 	}

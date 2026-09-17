@@ -9,15 +9,13 @@
                     "name":"iron_nugget"
                 }
             ],
-            "conditions": [
-                {
-                    "condition": "entity_properties",
+            "condition":{
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_armorer"}}}
                     }
                 }
-            ]
         },
         {
             "rolls":1.0,
@@ -27,15 +25,13 @@
                     "name":"rotten_flesh"
                 }
             ],
-            "conditions": [
-                {
-                    "condition": "entity_properties",
+            "condition":{
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_butcher"}}}
                     }
                 }
-            ]
         },
         {
             "rolls": 1.0,
@@ -45,15 +41,13 @@
                     "name":"gold_nugget"
                 }
             ],
-            "conditions": [
-                {
-                    "condition": "entity_properties",
+            "condition":{
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_cartographer"}}}
                     }
                 }
-            ]
         },
         {
             "rolls": 1.0,
@@ -61,15 +55,13 @@
                 "type":"minecraft:item",
                 "name": "redstone"
             }],
-            "conditions": [
-                {
-                    "condition": "entity_properties",
+            "condition":{
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_cleric"}}}
                     }
                 }
-            ]
         },
         {
             "rolls": 1.0,
@@ -95,15 +87,13 @@
                     "name":"poisonous_potato"
                 }
             ],
-            "conditions": [
-                {
-                    "condition": "entity_properties",
+            "condition":{
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_farmer"}}}
                     }
                 }
-            ]
         },
         {
             "rolls":1.0,
@@ -113,15 +103,13 @@
                     "value":"siscu:groups/all_fish_biome_based"
                 }
             ],
-            "conditions": [
-                {
-                    "condition": "entity_properties",
+            "condition":{
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_fisherman"}}}
                     }
                 }
-            ]
         },
         {
             "rolls":1.0,
@@ -131,15 +119,13 @@
                     "name":"feather"
                 }
             ],
-            "conditions": [
-                {
-                    "condition": "entity_properties",
+            "condition":{
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_fletcher"}}}
                     }
                 }
-            ]
         },
         {
             "rolls": 1.0,
@@ -150,15 +136,13 @@
                 "type":"minecraft:item",
                 "name": "rabbit_hide"
             }],
-            "conditions": [
-                {
-                    "condition": "entity_properties",
+            "condition":{
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_leatherworker"}}}
                     }
                 }
-            ]
         },
         {
             "rolls": 1.0,
@@ -169,17 +153,15 @@
             {
                 "type": "minecraft:item",
                 "name": "book",
-                "functions": [{"function": "enchant_with_levels","levels": 20,"options": "#tradeable"}]
+                "modifier": [{"type": "enchant_with_levels","levels": 20,"options": "#tradeable"}]
             }],
-            "conditions": [
-                {
-                    "condition": "entity_properties",
+            "condition":{
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_librarian"}}}
                     }
                 }
-            ]
         },
         {
             "rolls": 1.0,
@@ -187,15 +169,13 @@
                 "type":"minecraft:item",
                 "name": "brick"
             }],
-            "conditions": [
-                {
-                    "condition": "entity_properties",
+            "condition":{
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_mason"}}}
                     }
                 }
-            ]
         },
         {
             "rolls": 1.0,
@@ -203,15 +183,13 @@
                 "type":"minecraft:item",
                 "name": "white_wool"
             }],
-            "conditions": [
-                {
-                    "condition": "entity_properties",
+            "condition":{
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_shepherd"}}}
                     }
                 }
-            ]
         },
         {
             "rolls":1.0,
@@ -221,15 +199,13 @@
                     "name":"iron_nugget"
                 }
             ],
-            "conditions": [
-                {
-                    "condition": "entity_properties",
+            "condition":{
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_toolsmith"}}}
                     }
                 }
-            ]
         },
         {
             "rolls":1.0,
@@ -239,15 +215,13 @@
                     "name":"iron_nugget"
                 }
             ],
-            "conditions": [
-                {
-                    "condition": "entity_properties",
+            "condition":{
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_weaponsmith"}}}
                     }
                 }
-            ]
         }
     ]
 }

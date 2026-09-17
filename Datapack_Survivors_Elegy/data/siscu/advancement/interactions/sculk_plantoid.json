@@ -4,10 +4,7 @@
 		"0": {
 			"trigger":"minecraft:player_interacted_with_entity",
 			"conditions": {
-				"entity":{
-					"entity_type": "minecraft:interaction",
-					"nbt": "{Tags:[\"siscu.sculk_plantoid\"]}"
-				}
+				"entity":{"type":"entity_properties","entity":"this","predicate": { "entity_type": "minecraft:interaction", "nbt": "{Tags:[\"siscu.sculk_plantoid\"]}" }}
 			}
 		}
 	},

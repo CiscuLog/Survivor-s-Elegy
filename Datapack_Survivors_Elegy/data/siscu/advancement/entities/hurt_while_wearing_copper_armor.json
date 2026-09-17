@@ -7,10 +7,10 @@
                 "damage": {
                     "blocked": false
                 },
-                "player": [
-                    {"condition": "reference",
-                "name": "siscu:entities/is_wearing_copper_armor"}
-                ]
+                "player": {
+                    "type": "all_of",
+                    "terms": ["siscu:entities/is_wearing_copper_armor"]
+                }
             }
         }
     },

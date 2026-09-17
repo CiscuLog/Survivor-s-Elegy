@@ -4,7 +4,7 @@ scoreboard players reset @s siscu.update_item
 function siscu:items/update/enable_trigger
 
 # return if the item is already at the latest version
-execute if predicate {condition:"entity_properties",entity:"this",predicate:{slots:{weapon.mainhand:{predicates:{custom_data:{SE_data:{UpdateVersion:"v1.0.8"}}}}}}} run return run tellraw @s {text:"<Item Update> This item is already up to date"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{slots:{weapon.mainhand:{predicates:{custom_data:{SE_data:{UpdateVersion:"v1.0.8"}}}}}}} run return run tellraw @s {text:"<Item Update> This item is already up to date"}
 execute if items entity @s weapon.mainhand *[custom_data~{SE_data:{"id":"siscu:ancient_tofu",UpdateVersion:"1.0.10"}}] run return run tellraw @s {text:"<Item Update> This tofu is already up to date"}
 
 ## data update
@@ -33,4 +33,4 @@ execute unless score x siscu.volatile matches 1 run return run tellraw @s {text:
 function siscu:items/item_modifier/clone_components_from_storage with storage siscu:volatile
 
 # set it to latest version to avoid future checks
-item modify entity @s weapon.mainhand {function:"set_custom_data",tag:{SE_data:{UpdateVersion:"v1.0.8"}}}
+item modify entity @s weapon.mainhand {type:"set_custom_data",tag:{SE_data:{UpdateVersion:"v1.0.8"}}}

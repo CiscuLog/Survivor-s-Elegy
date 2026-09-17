@@ -1,13 +1,7 @@
 {
-    "condition": "any_of",
+    "type": "any_of",
     "terms": [
-        {
-            "condition": "reference",
-            "name": "siscu:world/is_raining_any"
-        },
-        {
-            "condition": "reference",
-            "name": "siscu:world/check_nighttime"
-        }
+        "siscu:world/is_raining_any",
+        "siscu:world/check_nighttime"
     ]
 }

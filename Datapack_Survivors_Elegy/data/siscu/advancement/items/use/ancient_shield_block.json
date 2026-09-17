@@ -9,18 +9,13 @@
 					"type": {
 						"tags": [
 							{
-								"id": "siscu:charges_shield",
+								"id": "#siscu:charges_shield",
 								"expected": true
 							}
 						]
 					}
 				},
-				"player": [
-					{
-						"condition": "minecraft:reference",
-						"name": "siscu:items/ancient_shield"
-					}
-				]
+				"player": "siscu:items/ancient_shield"
 			}
 		}
 	},

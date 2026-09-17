@@ -5,24 +5,22 @@
 		{
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-			  "location": [
+			  "location": 
 				{
-					"condition": "minecraft:location_check",
+					"type": "minecraft:location_check",
 					"predicate": {
 						"block": {
 							"blocks":["lectern"]
 						}
 					}
 				}
-				]
 			}
 		},
 		"villager": {
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "villager",
-					"nbt": "{VillagerData:{profession:\"minecraft:librarian\", level: 1}}"
+					"type": "entity_properties","entity": "this","predicate": { "entity_type": "villager", "nbt": "{VillagerData:{profession:\"minecraft:librarian\", level: 1}}" }
 				}
 			}
 		}

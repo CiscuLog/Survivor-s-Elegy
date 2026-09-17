@@ -1,0 +1,36 @@
+{
+	"to_place": {
+		"type": "weighted",
+		"entries": [
+		{
+			"data": {
+				"id": "minecraft:nether_wart",
+				"properties": {"age":"3"}
+			},
+			"weight": 1
+		},
+		{
+			"data": {
+				"id": "minecraft:nether_wart",
+				"properties": {"age":"2"}
+			},
+			"weight": 2
+		},
+		{
+			"data": {
+				"id": "minecraft:nether_wart",
+				"properties": {"age":"1"}
+			},
+			"weight": 5
+		},
+		{
+			"data": {
+				"id": "minecraft:nether_wart",
+				"properties": {"age":"0"}
+			},
+			"weight": 10
+		}
+		]
+  	},
+  	"type": "minecraft:simple_block"
+}

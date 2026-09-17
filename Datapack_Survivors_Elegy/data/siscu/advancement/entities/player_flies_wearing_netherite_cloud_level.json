@@ -4,13 +4,12 @@
 		"0": {
 			"trigger": "minecraft:tick",
 			"conditions": {
-				"player": [
+				"player": {
+					"type": "all_of",
+					"terms": [
+						"siscu:world/is_thundering",
 					{
-						"condition": "minecraft:weather_check",
-						"thundering": true
-					},
-					{
-						"condition": "location_check",
+						"type": "location_check",
 						"predicate": {
 							"dimension": "overworld",
 							"position": {
@@ -21,20 +20,10 @@
 							}
 						}
 					},
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"flags": {
-								"is_flying": true
-							}
-						}
-					},
-					{
-						"condition": "minecraft:reference",
-						"name": "siscu:entities/is_wearing_netherite"
-					}
+					"siscu:entities/is_flying",
+					"siscu:entities/is_wearing_netherite"
 				]
+				}
 			}
 		}
 	},

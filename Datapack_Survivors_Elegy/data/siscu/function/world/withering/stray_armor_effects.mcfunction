@@ -1,6 +1,6 @@
 
 item modify entity @s armor.chest siscu:use/reduce_stray_armor_1
-execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"armor.body":{"predicates":{"minecraft:damage":{"durability":0}}}}}} run item replace entity @s armor.body with air
+execute if predicate {"type":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"armor.body":{"predicates":{"minecraft:damage":{"durability":0}}}}}} run item replace entity @s armor.body with air
 
 execute at @s if score @s siscu.withering matches 10.. run particle minecraft:smoke ~ ~1 ~ 0 0 0 0.05 5
 

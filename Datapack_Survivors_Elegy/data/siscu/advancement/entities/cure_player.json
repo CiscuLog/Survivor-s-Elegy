@@ -7,9 +7,8 @@
 				"item": {
 					"items":["enchanted_golden_apple","golden_apple"]
 				},
-				"player": [
-				{
-					"condition": "minecraft:entity_properties",
+				"player": {
+					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
 						"effects": {
@@ -17,7 +16,6 @@
 						}
 					}
 				}
-				]
 			}
 		},
 		"2": {
