@@ -1,0 +1,8 @@
+{
+  "type": "set_components",
+  "components": {
+    "!food": {},
+    "!consumable": {},
+    "custom_data": {"SE_data":{"id":"siscu:dummy"},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+  }
+}

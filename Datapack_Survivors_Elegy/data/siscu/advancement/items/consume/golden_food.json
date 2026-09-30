@@ -1,7 +1,23 @@
 {
-	"parent": "siscu:items/root",
+	"parent": "siscu:items/consume/golden_food",
 	"criteria": {
-		"Staff": {
+		"gapple": {
+			"trigger":"minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": ["golden_apple"]
+				}
+			}
+		},
+		"ench_gapple": {
+			"trigger":"minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": ["enchanted_golden_apple"]
+				}
+			}
+		},
+		"other": {
 			"trigger":"minecraft:consume_item",
 			"conditions": {
 				"item": {
@@ -10,6 +26,7 @@
 			}
 		}
 	},
+	"requirements": [["ench_gapple","gapple","other"]],
 	"rewards": {
 		"function": "siscu:items/consume/golden_food"
 	}

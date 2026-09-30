@@ -36,5 +36,6 @@
 	],
   "condition": {"type": "random_chance","chance": 0.2}
   }
-  ]
+  ],
+  "modifier": "siscu:entity/natural_enchantment_chance"
 }

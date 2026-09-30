@@ -14,7 +14,8 @@
 					"item_name":{"translate":"item.siscu.spawn_egg_fire_spring"},
 					"entity_data":{"id":"blaze","Tags":["siscu.fire_spring"]}
 				}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

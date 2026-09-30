@@ -1,0 +1,19 @@
+{
+	"parent": "siscu:items/root",
+	"criteria": {
+		"0": 
+		{
+			"trigger":"minecraft:using_item",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"minecraft:custom_data" : {"SE_data":{"id":"siscu:bound_allay"}}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "siscu:items/use/bound_allay/advancement"
+	}
+}

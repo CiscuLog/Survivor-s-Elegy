@@ -1,5 +1,6 @@
 
 # if it has book already, check which one and then update
+execute if block ~ ~ ~ lectern[has_book=true] run data modify storage siscu:volatile lectern.book set from block ~ ~ ~ Book
 execute if block ~ ~ ~ lectern run return run function siscu:blocks/lectern_books/set_rotation
 # if it has no book, remove books if there are any
 #execute if

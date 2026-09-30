@@ -34,6 +34,11 @@
 							}
 						}
 					}
+				},
+				{
+					"type": "int_value_check",
+					"test": "siscu:config/new_fish_check",
+					"value": {"type": "min","inputs": 1}
 				}
 			]
 				}

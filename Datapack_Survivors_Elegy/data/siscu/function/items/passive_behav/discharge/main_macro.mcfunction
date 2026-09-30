@@ -29,8 +29,7 @@ execute store result score x1 siscu.volatile run random value -30..30
 # vertical arch. The more negative, the more upwards the arch will go
 execute store result score y1 siscu.volatile run random value -40..-10
 
-execute on attacker at @s anchored eyes run summon area_effect_cloud ~ ~1 ~ {Tags:["siscu.discharge_path"],Duration:1,Radius:0,Age:20}
-execute as @e[tag=siscu.discharge_path] at @s facing entity @e[type=player,limit=1] feet rotated ~40 ~ run function siscu:items/passive_behav/discharge/effect
+execute on attacker at @s at @s facing entity @p[tag=siscu.discharging,limit=1] feet rotated ~40 ~ run function siscu:items/passive_behav/discharge/effect
 
 execute on attacker at @s run playsound minecraft:entity.blaze.hurt ambient @a ~ ~ ~ 1 2
 execute on attacker at @s run particle minecraft:electric_spark ~ ~0.3 ~ 0.2 0.2 0.2 0.3 10

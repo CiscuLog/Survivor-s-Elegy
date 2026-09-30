@@ -1,4 +1,5 @@
 advancement revoke @a only siscu:entities/player_fishing
+execute unless score custom_fishing siscu.integer matches 1.. run return fail
 tag @s add siscu.fisherman
 
 # Explicit Fathoms compatibility because Lead hates me :(

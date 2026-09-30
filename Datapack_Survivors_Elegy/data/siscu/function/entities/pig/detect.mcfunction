@@ -1,1 +1,2 @@
-execute as @e[type=pig,predicate=siscu:utils/is_baby,tag=!siscu.pig_checked] run function siscu:entities/pig/breed
+execute as @a[advancements={siscu:entities/breed_pigs=true}] at @s as @n[type=pig,predicate=siscu:utils/is_baby,tag=!siscu.pig_checked] run function siscu:entities/pig/breed
+advancement revoke @a only siscu:entities/breed_pigs

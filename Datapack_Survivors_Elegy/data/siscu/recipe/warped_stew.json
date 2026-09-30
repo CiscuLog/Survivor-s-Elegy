@@ -10,11 +10,11 @@
     "id": "minecraft:rabbit_stew",
     "components": {
       "item_name": {"translate":"item.siscu.warped_stew"},
+      "lore": [{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}],
       "item_model": "siscu_se:warped_stew",
       "custom_data": {
         "SE_data": {
-          "id": "siscu:warped_stew",
-          "UpdateVersion": "v1.0.1"
+          "id": "siscu:warped_stew"
         }
       }
     }

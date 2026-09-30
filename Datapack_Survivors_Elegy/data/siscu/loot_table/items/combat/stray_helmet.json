@@ -14,8 +14,7 @@
                                 "minecraft:item_model": "siscu_se:stray_helmet",
                                 "minecraft:custom_data": {
                                     "SE_data": {
-                                        "IsStray": 1,
-                                        "UpdateVersion": "v1.0.1"
+                                        "IsStray": 1
                                     }
                                 },
                                 "equippable": {
@@ -38,7 +37,8 @@
                                     "slot": "chest"
                                 }
                             ]
-                        }
+                        },
+            			"siscu:tooltip"
                     ]
                 }
             ]

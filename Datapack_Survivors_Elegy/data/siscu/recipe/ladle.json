@@ -19,14 +19,13 @@
             "max_stack_size": 1,
             "item_name": {"translate":"item.siscu.ladle"},
             "lore": [
-                {"translate":"text.siscu.place_cauldron","italic": false,"color": "gray"}
+                {"translate":"text.siscu.place_cauldron","italic": false,"color": "gray"},{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
             ],
             "item_model": "siscu_se:ladle",
             "custom_data": {
                 "SE_data": {
                     "id": "siscu:ladle",
-                    "Ladle": 1,
-                    "UpdateVersion": "v1.0.1"
+                    "Ladle": 1
                 }
             }
         }

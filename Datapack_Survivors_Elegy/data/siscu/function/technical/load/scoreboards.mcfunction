@@ -35,7 +35,6 @@ scoreboard objectives add siscu.tofu_boost_2 dummy {"text":"Boost 2","color": "r
 scoreboard objectives add siscu.tofu_boost_3 dummy {"text":"Boost 3","color": "red"}
 scoreboard objectives add siscu.tofu_boost_4 dummy {"text":"Boost 4","color": "red"}
 scoreboard objectives add siscu.tofu_boost_5 dummy {"text":"Boost 5","color": "red"}
-scoreboard objectives add siscu.update_item trigger {"text":"Update item","color":"white"}
 scoreboard objectives add siscu.use_goat_horn minecraft.used:minecraft.goat_horn {"text":"Horn"}
 
 # Blocks

@@ -4,16 +4,16 @@
 # Requires a vector in siscu:volatile {Vector:[0.0f, 0.0f, 0.0f]}
 # Returns a rounded score in d siscu.volatile and stores the full value in siscu:volatile {d: 0.0f}
 
-execute positioned 0 0 0 unless entity @n[type=block_display,tag=siscu.distance_calculation,distance=..10] run tellraw @a {text:"Error found performing distance calculation, returning '1'"}
+# d = sqrt(x^2+y^2+z^2)
 
-# store vector
-execute store result storage siscu:volatile v_x float 1 run data get storage siscu:volatile Vector[0]
-execute store result storage siscu:volatile v_y float 1 run data get storage siscu:volatile Vector[1]
-execute store result storage siscu:volatile v_z float 1 run data get storage siscu:volatile Vector[2]
+execute store result score d siscu.volatile run data modify storage siscu:volatile d set compute default float {type:"length",inputs:[\
+    {type:"storage",storage:"siscu:volatile",path:"Vector[0]"},\
+    {type:"storage",storage:"siscu:volatile",path:"Vector[1]"},\
+    {type:"storage",storage:"siscu:volatile",path:"Vector[2]"}\
+  ]\
+}
 
-# return distance in a scoreboard value
-execute positioned 0 0 0 as @n[type=block_display,tag=siscu.distance_calculation,distance=..10] store result score d siscu.volatile run function siscu:technical/operations/distance_calculation/macro with storage siscu:volatile
 
-#tellraw @a [{text:"Distance:"},{"storage": "siscu:volatile","nbt": "d"},{text: ", score -> "},{"score": {"name": "d","objective": "siscu.volatile"}}]
+tellraw @p [{text:"Distance calc from vector "},{storage:"siscu:volatile",nbt:"Vector"},{text:" -> "},{score:{name:"d",objective:"siscu.volatile"}},{text:"d, "},{storage:"siscu:volatile",nbt:"d"}]
 
-#return run execute store result score d siscu.volatile run data get storage siscu:volatile d
+return run scoreboard players get d siscu.volatile

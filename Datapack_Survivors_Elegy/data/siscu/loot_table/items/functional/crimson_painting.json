@@ -15,12 +15,12 @@
 					"item_model": "siscu_se:crimson_painting_0",
 					"custom_data": {
 						"SE_data": {
-							"id": "siscu:crimson_painting",
-							"UpdateVersion": "v1.0.1"
+							"id": "siscu:crimson_painting"
 						}
 					}
 				}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

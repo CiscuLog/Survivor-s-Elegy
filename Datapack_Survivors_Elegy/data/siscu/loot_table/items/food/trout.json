@@ -13,11 +13,11 @@
 				"item_model": "siscu_se:trout",
 				"custom_data": {
 					"SE_data": {
-						"id": "siscu:trout",
-						"UpdateVersion": "v1.0.1"
+						"id": "siscu:trout"
 					}
 				}}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

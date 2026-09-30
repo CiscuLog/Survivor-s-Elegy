@@ -9,6 +9,6 @@
     "result": {
         "id": "bread",
         "count": 4,
-        "components": { "item_name": {"translate":"item.siscu.ancient_tofu"}, "item_model": "siscu_se:sniffer_meat", "custom_data": { "SE_data": { "id": "siscu:ancient_tofu", "UpdateVersion": "v1.0.10", "SnifferMeat": 1 } }, "food": { "nutrition": 10, "saturation": 12 }, "minecraft:lore": [ {"translate":"text.siscu.tofu","color":"blue","italic":false} ] }
+        "components": { "item_name": {"translate":"item.siscu.ancient_tofu"}, "item_model": "siscu_se:sniffer_meat", "custom_data": { "SE_data": { "id": "siscu:ancient_tofu", "SnifferMeat": 1 } }, "food": { "nutrition": 10, "saturation": 12 }, "minecraft:lore": [ {"translate":"text.siscu.tofu","color":"blue","italic":false},{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"} ] }
     }
 }

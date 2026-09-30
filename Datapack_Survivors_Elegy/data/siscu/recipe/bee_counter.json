@@ -17,13 +17,11 @@
     "components": {
       "max_stack_size": 64,
       "item_name": {"italic":false,"translate":"item.siscu.bee_counter"},
+      "lore": [{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}],
       "item_model": "siscu_se:bee_counter",
       "custom_data": {
         "SE_data": {
-          "id": "siscu:bee_counter",
-          "IsCopper": 1,
-                    "UpdateVersion": "v1.0.1",
-          "Oxidation": 0
+          "id": "siscu:bee_counter"
         }
       }
     }

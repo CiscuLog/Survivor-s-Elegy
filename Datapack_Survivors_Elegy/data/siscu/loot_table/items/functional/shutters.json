@@ -4,25 +4,19 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:stick",
+					"type": "item",
+					"name": "poisonous_potato",
 					"modifier": [
+						"siscu:base_item",
 						{
 							"type": "minecraft:set_components",
 							"components": {
 								"item_name": {"translate":"item.siscu.shutters"},
-								"lore": [
-									{"translate":"text.siscu.place_frame","italic":false,"color":"gray"}
-								],
-								"item_model": "siscu_se:shutters",
-								"custom_data": {
-									"SE_data": {
-										"id": "siscu:shutters",
-										"UpdateVersion": "v1.0.1"
-									}
-								}
+								"item_model": "siscu_se:shutters"
 							}
-						}
+						},
+						{"type": "set_custom_data","tag": {"SE_data":{"id":"siscu:shutters"}}},
+						"siscu:tooltip"
 					]
 				}
 			]

@@ -13,11 +13,11 @@
 				"item_model": "siscu_se:warped_stew",
 				"custom_data": {
 					"SE_data": {
-						"id": "siscu:warped_stew",
-						"UpdateVersion": "v1.0.1"
+						"id": "siscu:warped_stew"
 					}
 				}}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

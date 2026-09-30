@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:any_of",
+	"terms":[
+		{
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"contents": {
+						"predicates": {
+							"minecraft:custom_data": {"SE_data":{"id":"siscu:bee_counter"}}
+						}
+					}
+				}
+			}
+		}
+	]
+}

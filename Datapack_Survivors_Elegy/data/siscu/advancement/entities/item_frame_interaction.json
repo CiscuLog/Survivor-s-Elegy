@@ -7,6 +7,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:entities/item_frame/item_frame_interaction"
+		"function": "siscu:entities/item_frame/interact"
 	}
 }

@@ -6,14 +6,8 @@
 					"components": {"item_model":"siscu_se:advancements/suspicious_block"}
 			},
 			"title": {"translate": "advancements.siscu.minecraft.create_suspicious_block.title"},
-			"description": [{
-				"translate": "advancements.siscu.minecraft.create_suspicious_block.description"
-				},
-				{
-					"text":"\nSurvivor's Elegy",
-					"color": "gold",
-					"italic": true
-				}
+			"description": [{"translate": "advancements.siscu.minecraft.create_suspicious_block.description"},
+			{"text":"\n"},{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
 		],
 		"show_toast": true,
 		"announce_to_chat": false,

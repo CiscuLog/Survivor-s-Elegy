@@ -7,12 +7,12 @@
 			"type": "minecraft:item",
 			"name": "minecraft:iron_boots",
 			"modifier": [
-                {
-                  "type": "minecraft:set_enchantments",
-                  "enchantments": {
-                    "minecraft:depth_strider": 2
-                  }
-                }
+				{
+					"type": "minecraft:set_enchantments",
+					"enchantments": {
+						"minecraft:depth_strider": 2
+					}
+				}
 			]
 		}
 		]

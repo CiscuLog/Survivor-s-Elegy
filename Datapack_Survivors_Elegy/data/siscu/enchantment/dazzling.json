@@ -3,9 +3,10 @@
         "amethyst_shard"
     ],
     "anvil_cost": 1,
-    "description": {
-        "translate": "enchantment.siscu.dazzling"
-    },
+    "description": [
+        {"translate": "enchantment.siscu.dazzling"},
+        {"translate": "enchantment.siscu.technical_enchantment","font": "siscu_se:superscript","fallback": ": ⚠ Unattainable in survival.\n Contact the dev if you see this ⚠"}
+    ],
     "max_cost": {
         "base": 12,
         "per_level_above_first": 11

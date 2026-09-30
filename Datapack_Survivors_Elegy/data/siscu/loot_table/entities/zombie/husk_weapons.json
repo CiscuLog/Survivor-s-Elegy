@@ -5,54 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "siscu:groups/tools/swords",
-		  "weight":170,
-		  "condition": "siscu:locations/check_surface"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "siscu:groups/tools/pickaxes",
-		  "weight":100,
-		  "condition": {
-			  "type": "minecraft:any_of",
-			  "terms": [
-				"siscu:locations/check_underground",
-				{
-					"type": "minecraft:location_check",
-					"predicate":{
-						"structures": "mineshaft"
-					}
-				}
-			  ]
-		  }
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "siscu:groups/tools/shovels",
-		  "weight":100
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bow",
-		  "weight":50
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:shears",
-		  "weight":1,
-		  "condition": "siscu:locations/check_surface"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:potato",
-		  "weight":5,
-		  "condition": "siscu:locations/check_surface"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:carrot",
-		  "weight":5,
-		  "condition": "siscu:locations/check_surface"
+          "value": "siscu:entities/zombie/zombie_weapons"
         }
 		],
 		"condition": {"type": "random_chance","chance": 0.5}

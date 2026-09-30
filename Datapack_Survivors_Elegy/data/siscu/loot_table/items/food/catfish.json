@@ -13,11 +13,11 @@
 				"item_model": "siscu_se:catfish",
 				"custom_data": {
 					"SE_data": {
-						"id": "siscu:catfish",
-						"UpdateVersion": "v1.0.1"
+						"id": "siscu:catfish"
 					}
 				}}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

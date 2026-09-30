@@ -14,7 +14,8 @@
 					"item_name":{"translate":"item.siscu.spawn_egg_lush_zombie"},
 					"entity_data":{"id":"zombie","Tags":["siscu.special","siscu.lush_zombie","siscu.unequipped"]}
 				}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

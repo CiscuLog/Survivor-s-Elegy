@@ -1,7 +1,7 @@
 
 tag @s add siscu.shutters_moving
 
-data merge entity @s {Item:{components:{"minecraft:item_model":"siscu_se:shutters"}},ItemRotation: 0b}
+data merge entity @s {Item:{id:"minecraft:poisonous_potato",components:{"minecraft:item_model":"siscu_se:shutters"}},ItemRotation: 0b}
 
 # sound
 execute run playsound siscu_se:block.shutters.sound master @a ~ ~ ~ 1 0.7

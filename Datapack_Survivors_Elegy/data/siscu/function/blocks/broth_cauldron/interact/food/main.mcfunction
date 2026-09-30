@@ -12,41 +12,17 @@ scoreboard players operation max_saturation_level siscu.broth_data *= broth_leve
 scoreboard players set food siscu.broth_data 0
 scoreboard players set saturation siscu.broth_data 0
 
-# get food value
-execute if items entity @s weapon.mainhand #siscu:food/1 run scoreboard players set food siscu.broth_data 100
-execute if items entity @s weapon.mainhand #siscu:food/2 run scoreboard players set food siscu.broth_data 200
-execute if items entity @s weapon.mainhand #siscu:food/3 run scoreboard players set food siscu.broth_data 300
-execute if items entity @s weapon.mainhand #siscu:food/4 run scoreboard players set food siscu.broth_data 400
-execute if items entity @s weapon.mainhand #siscu:food/5 run scoreboard players set food siscu.broth_data 500
-execute if items entity @s weapon.mainhand #siscu:food/6 run scoreboard players set food siscu.broth_data 600
-execute if items entity @s weapon.mainhand #siscu:food/8 run scoreboard players set food siscu.broth_data 800
-execute if items entity @s weapon.mainhand #siscu:food/10 run scoreboard players set food siscu.broth_data 1000
-execute if items entity @s weapon.mainhand #siscu:food/14 run scoreboard players set food siscu.broth_data 1400
-# get saturation value
-execute if items entity @s weapon.mainhand #siscu:saturation/0.2 run scoreboard players set saturation siscu.broth_data 20
-execute if items entity @s weapon.mainhand #siscu:saturation/0.4 run scoreboard players set saturation siscu.broth_data 40
-execute if items entity @s weapon.mainhand #siscu:saturation/0.6 run scoreboard players set saturation siscu.broth_data 60
-execute if items entity @s weapon.mainhand #siscu:saturation/0.8 run scoreboard players set saturation siscu.broth_data 80
-execute if items entity @s weapon.mainhand #siscu:saturation/1.2 run scoreboard players set saturation siscu.broth_data 120
-execute if items entity @s weapon.mainhand #siscu:saturation/1.8 run scoreboard players set saturation siscu.broth_data 180
-execute if items entity @s weapon.mainhand #siscu:saturation/2.4 run scoreboard players set saturation siscu.broth_data 240
-execute if items entity @s weapon.mainhand #siscu:saturation/2.8 run scoreboard players set saturation siscu.broth_data 280
-execute if items entity @s weapon.mainhand #siscu:saturation/3.2 run scoreboard players set saturation siscu.broth_data 320
-execute if items entity @s weapon.mainhand #siscu:saturation/3.6 run scoreboard players set saturation siscu.broth_data 360
-execute if items entity @s weapon.mainhand #siscu:saturation/4.8 run scoreboard players set saturation siscu.broth_data 480
-execute if items entity @s weapon.mainhand #siscu:saturation/6 run scoreboard players set saturation siscu.broth_data 600
-execute if items entity @s weapon.mainhand #siscu:saturation/7.2 run scoreboard players set saturation siscu.broth_data 720
-execute if items entity @s weapon.mainhand #siscu:saturation/9.6 run scoreboard players set saturation siscu.broth_data 960
-execute if items entity @s weapon.mainhand #siscu:saturation/12.8 run scoreboard players set saturation siscu.broth_data 1280
-execute if items entity @s weapon.mainhand #siscu:saturation/12 run scoreboard players set saturation siscu.broth_data 1200
-execute if items entity @s weapon.mainhand #siscu:saturation/14.4 run scoreboard players set saturation siscu.broth_data 1440
+# vanilla food values
+function siscu:blocks/broth_cauldron/interact/food/vanilla_food
 
-# get food and saturation if it's an item with special food values
+# get food and saturation if it's an unhandled item with special food values
 scoreboard players set x siscu.volatile 0
 execute if items entity @s weapon.mainhand *[custom_data] store success score x siscu.volatile run data get entity @s SelectedItem.components."minecraft:food"
-#execute if predicate siscu:items/broth/special_items run scoreboard players set x siscu.volatile 1
 execute if score x siscu.volatile matches 1 store result score food siscu.broth_data run data get entity @s SelectedItem.components."minecraft:food".nutrition 100
 execute if score x siscu.volatile matches 1 store result score saturation siscu.broth_data run data get entity @s SelectedItem.components."minecraft:food".saturation 100
+
+# get food and saturation for addon items
+function #siscu:items/broth_cauldron/custom_food_values
 
 # add values to broth
 scoreboard players operation broth_food siscu.broth_data += food siscu.broth_data
@@ -57,22 +33,24 @@ execute if score broth_food siscu.broth_data > max_food_level siscu.broth_data a
 execute if score broth_saturation siscu.broth_data > max_saturation_level siscu.broth_data at @n[type=interaction,tag=siscu.broth_interacted] as @n[tag=siscu.broth_ladle] run return run function siscu:blocks/broth_cauldron/interact/stirr
 
 # if item adds an effect
-execute if items entity @s weapon.mainhand #siscu:broth_give_effects if function siscu:blocks/broth_cauldron/interact/food/contains_effect store success score x siscu.volatile run tag @n[type=interaction,tag=siscu.broth_interacted] add siscu.broth_potion
+execute if items entity @s weapon.mainhand #siscu:broth_give_effects store success score x siscu.volatile run function siscu:blocks/broth_cauldron/interact/food/contains_effect
+execute if score x siscu.volatile matches 1 run tag @n[type=interaction,tag=siscu.broth_interacted] add siscu.broth_potion
 # if item clears an effect
-execute if items entity @s weapon.mainhand honey_bottle run function siscu:blocks/broth_cauldron/interact/food/clears_effects
-# if item is a custom item that adds an effect too (TO-DO)
-#execute if items entity @s weapon.mainhand *[consumable={on_consume_effects:[{type:"apply_effects",effects:[]}]}]
+execute if items entity @s weapon.mainhand honey_bottle[!custom_data] run function siscu:blocks/broth_cauldron/interact/food/clears_effects
+# get custom addon effects
+function #siscu:items/broth_cauldron/custom_food_effects
 
 # if item teleports the player
-execute if items entity @s weapon.mainhand chorus_fruit as @n[tag=siscu.broth_interacted] run function siscu:blocks/broth_cauldron/interact/food/add_tp_capabilities
+execute if items entity @s weapon.mainhand chorus_fruit[!custom_data] as @n[tag=siscu.broth_interacted] run function siscu:blocks/broth_cauldron/interact/food/add_tp_capabilities {value:8}
+function #siscu:items/broth_cauldron/custom_tp_addition
 
-# Increase ingredient count
+# Increase ingredient count ((INCOMPLETE PURPOSE))
 scoreboard players add ingredients_amount siscu.broth_data 1
 
 # store data
 execute as @n[type=interaction,tag=siscu.broth_interacted] at @s run function siscu:blocks/broth_cauldron/interact/food/cauldron
 
-# replace player's hand item
+# replace player's hand item ((REVISE AGAIN))
 scoreboard players set x siscu.volatile 0
 execute if items entity @s weapon.mainhand #siscu:bowled_food run scoreboard players set x siscu.volatile 1
 execute if items entity @s weapon.mainhand #siscu:bottled_food run scoreboard players set x siscu.volatile 2

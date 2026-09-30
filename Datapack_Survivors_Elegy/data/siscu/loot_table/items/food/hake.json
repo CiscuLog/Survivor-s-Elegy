@@ -14,11 +14,11 @@
 					"item_model": "siscu_se:hake",
 					"custom_data": {
 						"SE_data": {
-							"id": "siscu:hake",
-							"UpdateVersion": "v1.0.1"
+							"id": "siscu:hake"
 						}
 					}}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

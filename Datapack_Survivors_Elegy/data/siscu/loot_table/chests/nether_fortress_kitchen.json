@@ -2,15 +2,15 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {"type":"minecraft:uniform","min":1.0,"max":3.0},
-      "bonus_rolls": 0.0,
+      "rolls": {"type":"minecraft:uniform","min":1,"max":3},
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:nether_wart",
           "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
+            "count": {"type":"minecraft:uniform","min":1,"max":5}
           }],
           "weight": 1
         },
@@ -19,7 +19,7 @@
           "value": "siscu:items/food/warped_gall",
           "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":1.0,"max":2.0}
+            "count": {"type":"minecraft:uniform","min":1,"max":2}
           }],
           "weight": 1
         },
@@ -33,7 +33,7 @@
           "name": "minecraft:warped_fungus",
           "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
+            "count": {"type":"minecraft:uniform","min":1,"max":3}
           }],
           "weight": 1
         },
@@ -42,7 +42,7 @@
           "name": "minecraft:bowl",
           "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
+            "count": {"type":"minecraft:uniform","min":1,"max":3}
           }],
           "weight": 1
         },
@@ -51,7 +51,7 @@
           "name": "minecraft:rotten_flesh",
           "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
+            "count": {"type":"minecraft:uniform","min":1,"max":3}
           }]
         },
         {
@@ -59,7 +59,7 @@
           "value": "siscu:items/food/husk_flesh",
           "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
+            "count": {"type":"minecraft:uniform","min":1,"max":3}
           }]
         },
         {
@@ -67,7 +67,7 @@
           "name": "minecraft:red_mushroom",
           "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
+            "count": {"type":"minecraft:uniform","min":1,"max":3}
           }]
         },
         {
@@ -75,7 +75,7 @@
           "name": "minecraft:brown_mushroom",
           "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":1.0,"max":3.0}
+            "count": {"type":"minecraft:uniform","min":1,"max":3}
           }]
         }
       ]

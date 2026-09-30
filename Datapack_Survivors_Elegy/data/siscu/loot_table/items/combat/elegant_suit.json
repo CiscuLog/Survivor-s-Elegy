@@ -15,8 +15,7 @@
                                 "minecraft:item_model": "siscu_se:elegant_suit",
                                 "minecraft:custom_data": {
                                     "SE_data": {
-                                        "id": "siscu:elegant_suit",
-                                        "UpdateVersion": "v1.0.1"
+                                        "id": "siscu:elegant_suit"
                                     }
                                 },
                                 "equippable": {
@@ -38,7 +37,8 @@
                                     "slot": "chest"
                                 }
                             ]
-                        }
+                        },
+                        "siscu:tooltip"
                     ]
                 }
             ]

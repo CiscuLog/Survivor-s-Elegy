@@ -6,7 +6,7 @@
 			"trigger":"minecraft:using_item",
 			"conditions": {
 				"item": {
-					"items":["minecraft:raw_iron"],
+					"items":["minecraft:raw_iron","poisonous_potato"],
 					"predicates": {
 						"minecraft:custom_data" : {"SE_data":{"ContainsVex":1}}
 					}

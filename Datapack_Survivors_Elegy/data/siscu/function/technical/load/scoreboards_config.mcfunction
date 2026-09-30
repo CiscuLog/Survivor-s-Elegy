@@ -24,6 +24,8 @@ function siscu:world/day_features/config/normal_cycle
 # Withering
 execute unless score withering siscu.integer matches 0.. run scoreboard players set withering siscu.integer 1
 execute unless score withering_timer siscu.integer matches 0.. run scoreboard players set withering_timer siscu.integer 20
+# Fishing
+execute unless score custom_fishing siscu.integer matches 0.. store success storage siscu:world config.custom_fishing int 1 run scoreboard players set custom_fishing siscu.integer 1
 
 ## Items
 # Shield Nerf
@@ -57,7 +59,7 @@ execute unless score zombie_timer_limit siscu.integer matches 0.. run scoreboard
 scoreboard players operation zombie_timer_limit_2 siscu.integer = zombie_timer_limit siscu.integer
 scoreboard players operation zombie_timer_limit_2 siscu.integer += 60 siscu.integer
 execute unless score zombie_min_health siscu.integer matches 0.. run scoreboard players set zombie_min_health siscu.integer 8
-execute unless score phage_buildup_max siscu.integer matches 1.. run scoreboard players set phage_buildup_max siscu.integer 5
+execute unless score phage_buildup_max siscu.integer matches 1.. run scoreboard players set phage_buildup_max siscu.integer 6
 # Rotting
 execute unless score rotting siscu.integer matches 0.. run scoreboard players set rotting siscu.integer 1
 execute unless score rotting_random_limit siscu.integer matches 0.. run scoreboard players set rotting_random_limit siscu.integer 10
@@ -65,3 +67,7 @@ execute unless score rotting_timer_limit siscu.integer matches 0.. run scoreboar
 
 ## Load Balancer
 scoreboard players set 20 siscu.balancer 20
+
+## Technical flags
+execute unless score damaged_entities siscu.volatile matches 0.. run scoreboard players set damaged_entities siscu.volatile 0
+execute unless score clandestine_trading siscu.integer matches 0.. run scoreboard players set clandestine_trading siscu.integer 0

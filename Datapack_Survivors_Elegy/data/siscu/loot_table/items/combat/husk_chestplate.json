@@ -16,9 +16,7 @@
                                 "item_model": "siscu_se:husk_chestplate",
                                 "minecraft:custom_data": {
                                     "SE_data": {
-                                        "id": "siscu:husk_chestplate",
-                                        "IsHusk": 1,
-                                        "UpdateVersion": "v1.0.1"
+                                        "id": "siscu:husk_chestplate"
                                     }
                                 },
                                 "equippable": {
@@ -28,7 +26,8 @@
                                     "asset_id": "siscu_se:husk"
                                 }
                             }
-                        }
+                        },
+            			"siscu:tooltip"
                     ]
                 }
             ]

@@ -40,7 +40,8 @@
 									{"translate":"text.siscu.phage_3","color":"red","italic":false}
 								]
 							}
-						}
+						},
+						"siscu:tooltip"
 					]
 				}
 			]

@@ -1,8 +1,11 @@
 {
+	"effect.minecraft.unluck": "Phage",
+	"entity.minecraft.pufferfish": "Porcupinefish",
+	"item.minecraft.cod": "Cod",
 	"item.minecraft.cooked_cod": "Cooked Fish",
 	"item.minecraft.cooked_salmon": "Cooked Fish",
-	"item.minecraft.pufferfish": "Porcupine Fish",
-	"item.minecraft.cod": "Cod",
-	"item.minecraft.salmon": "Salmon",
-	"effect.minecraft.unluck": "Phage"
+	"item.minecraft.pufferfish_bucket": "Bucket of Porcupinefish",
+	"item.minecraft.pufferfish_spawn_egg": "Porcupinefish Spawn Egg",
+	"item.minecraft.pufferfish": "Porcupinefish",
+	"item.minecraft.salmon": "Salmon"
 }

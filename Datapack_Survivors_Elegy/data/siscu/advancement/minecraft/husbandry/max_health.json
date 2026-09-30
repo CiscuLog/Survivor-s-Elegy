@@ -26,9 +26,10 @@
     }
   },
   "display": {
-    "description": {
-      "translate": "advancements.siscu.minecraft.max_hp.description"
-    },
+    "description": [
+      {"translate": "advancements.siscu.minecraft.max_hp.description"},
+      {"text":"\n"},{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
+    ],
     "frame": "challenge",
     "icon": {
       "count": 1,

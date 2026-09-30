@@ -51,5 +51,6 @@
         }
 	]
   }
-  ]
+  ],
+  "modifier": "siscu:entity/natural_enchantment_chance"
 }

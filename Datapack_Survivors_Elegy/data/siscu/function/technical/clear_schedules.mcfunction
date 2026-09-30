@@ -9,8 +9,7 @@ schedule clear siscu:technical/clocks/tick_1m
 schedule clear siscu:technical/clocks/tick_2m
 
 schedule clear siscu:blocks/fire_spring/fire_spring_effects_schedule
-schedule clear siscu:entities/allay/announce_noteblock_schedule
-schedule clear siscu:entities/boat/remove_flag
+schedule clear siscu:entities/boat/flag_clock
 schedule clear siscu:entities/drownable/tick_schedule
 schedule clear siscu:entities/player/grass_stealth/sneak_on_grass_recover_schedule
 schedule clear siscu:blocks/sculk_plantoid/update/mantain_plantoid

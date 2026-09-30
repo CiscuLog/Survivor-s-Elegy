@@ -15,8 +15,7 @@
                                 "minecraft:custom_data": {
                                     "SE_data": {
                                         "id": "siscu:stray_chestplate",
-                                        "IsStray": 1,
-                                        "UpdateVersion": "v1.0.1"
+                                        "IsStray": 1
                                     }
                                 },
                                 "equippable": {
@@ -39,7 +38,8 @@
                                     "slot": "chest"
                                 }
                             ]
-                        }
+                        },
+            			"siscu:tooltip"
                     ]
                 }
             ]

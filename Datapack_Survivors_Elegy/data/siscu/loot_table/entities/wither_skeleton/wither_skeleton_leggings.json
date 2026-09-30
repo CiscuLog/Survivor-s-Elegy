@@ -16,5 +16,6 @@
 	],
 	"condition": {"type":"minecraft:random_chance","chance": 0.1}
     }
-  ]
+  ],
+  "modifier": "siscu:entity/natural_enchantment_chance"
 }

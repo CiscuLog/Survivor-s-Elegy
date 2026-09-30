@@ -1,13 +1,18 @@
 {
-	"type": "minecraft:entity_properties",
-	"entity":"this",
-	"predicate": {
-		"slots": {
-			"contents": {
-				"predicates": {
-					"custom_data": {"SE_data":{"id": "siscu:light_sensor"}}
+	"type": "minecraft:any_of",
+	"terms":[
+		{
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"contents": {
+						"components": {
+							"minecraft:custom_data": {"SE_data":{"id":"siscu:light_sensor"}}
+						}
+					}
 				}
 			}
 		}
-	}
+	]
 }

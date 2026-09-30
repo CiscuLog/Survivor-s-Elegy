@@ -4,30 +4,34 @@
     {
       "rolls": {
 		  "type": "minecraft:uniform",
-		  "min": 3.0,
-		  "max": 6.0
+		  "min": 3,
+		  "max": 6
 	  },
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:string",
-		  "modifier": [{
-			  "type": "minecraft:set_count",
-			  "count": {"type":"minecraft:uniform","min":5.0,"max":10.0}
-		  }],
-		  "weight": 2
+          "modifier": [{
+            "type": "minecraft:set_count",
+            "count": {"type":"minecraft:uniform","min":5,"max":10}
+          }],
+          "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:spider_eye",
-		  "modifier": [{
-			  "type": "minecraft:set_count",
-			  "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
-		  }],
-		  "weight": 1
+          "modifier": [{
+            "type": "minecraft:set_count",
+            "count": {"type":"minecraft:uniform","min":2,"max":4}
+          }],
+          "weight": 1
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [{"type": "loot_table","value": "siscu:items/tools/nearby_city_map"}]
     }
   ]
 }

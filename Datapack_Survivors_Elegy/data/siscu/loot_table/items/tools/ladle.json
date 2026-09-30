@@ -28,12 +28,12 @@
                                 "custom_data": {
                                     "SE_data": {
                                         "id": "siscu:ladle",
-                                        "Ladle": 1,
-                                        "UpdateVersion": "v1.0.1"
+                                        "Ladle": 1
                                     }
                                 }
                             }
-                        }
+                        },
+            			"siscu:tooltip"
                     ]
                 }
             ]

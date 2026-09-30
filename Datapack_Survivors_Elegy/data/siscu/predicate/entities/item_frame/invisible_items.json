@@ -7,6 +7,20 @@
 			"predicate": {
 				"slots": {
 					"contents": {
+						"items": ["shield"],
+						"predicates": {
+							"custom_data": {"SE_data":{}}
+						}
+					}
+				}
+			}
+		},
+		{
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"contents": {
 						"predicates": {
 							"custom_data": {"SE_data":{"id":"siscu:bee_counter"}}
 						}

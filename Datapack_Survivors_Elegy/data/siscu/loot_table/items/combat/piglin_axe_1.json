@@ -13,8 +13,7 @@
 					"item_model": "siscu_se:piglin_axe_1",
 					"custom_data": {
 						"SE_data": {
-							"id": "siscu:piglin_axe",
-							"UpdateVersion": "v1.0.1"
+							"id": "siscu:piglin_axe"
 						}
 					},
 					"max_damage": 160
@@ -24,5 +23,6 @@
 		}
 		]
 	}
-	]
+	],
+	"modifier": ["siscu:tooltip"]
 }

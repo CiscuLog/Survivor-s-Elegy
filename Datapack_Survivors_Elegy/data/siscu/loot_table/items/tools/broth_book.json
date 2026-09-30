@@ -38,7 +38,6 @@
 								"custom_data": {
 									"SE_data": {
 										"id": "siscu:broth_book",
-										"UpdateVersion": "v1.0.1",
 										"Book": "broth"
 									}
 								}
@@ -67,7 +66,8 @@
 							],
 							"entity": "this",
 							"mode": "replace_all"
-						}
+						},
+	    			"siscu:tooltip"
 					]
 				}
 			]

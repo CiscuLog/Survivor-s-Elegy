@@ -14,7 +14,8 @@
 					"item_name":{"translate":"item.siscu.spawn_egg_villager_wither_skeleton"},
 					"entity_data":{"id":"wither_skeleton","Tags":["siscu.villager"]}
 				}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

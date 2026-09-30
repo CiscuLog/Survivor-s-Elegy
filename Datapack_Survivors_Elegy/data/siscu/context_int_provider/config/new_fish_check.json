@@ -1,0 +1,6 @@
+{
+  "type": "storage",
+  "storage": "siscu:world",
+  "path": "config.custom_fishing",
+  "fallback": 0
+}

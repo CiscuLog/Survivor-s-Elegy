@@ -1,0 +1,21 @@
+Oop! Removed advancement (until further notice)
+```json
+{
+	"display":{
+		"icon": {
+			"id": "minecraft:white_banner",
+			"components": {"minecraft:banner_patterns": [{"color": "cyan", "pattern": "minecraft:rhombus"}, {"color": "light_gray", "pattern": "minecraft:stripe_bottom"}, {"color": "gray", "pattern": "minecraft:stripe_center"}, {"color": "light_gray", "pattern": "minecraft:border"}, {"color": "black", "pattern": "minecraft:stripe_middle"}, {"color": "light_gray", "pattern": "minecraft:half_horizontal"}, {"color": "light_gray", "pattern": "minecraft:circle"}, {"color": "black", "pattern": "minecraft:border"}]}
+		},
+		"title": {"translate": "advancements.siscu.story.clandestine_market.title"},
+		"description": {"translate": "advancements.siscu.story.clandestine_market.description"},
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"parent": "siscu:story/wandering_traders",
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:impossible"
+		}
+	}
+}```

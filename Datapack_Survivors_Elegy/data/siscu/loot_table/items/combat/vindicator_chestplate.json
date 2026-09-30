@@ -15,7 +15,6 @@
 					"tooltip_display": {"hidden_components": []},
 					"custom_data":{
 						"SE_data":{
-							"UpdateVersion": "v1.0.1"
 						}
 					},
 					"equippable": {
@@ -36,7 +35,8 @@
 						"slot": "chest"
 					}
 				]
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

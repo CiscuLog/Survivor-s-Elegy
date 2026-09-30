@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:set_custom_model_data",
-    "floats": {
-        "mode": "replace_all",
-        "values": [
-            0.0
-        ]
-    }
-}

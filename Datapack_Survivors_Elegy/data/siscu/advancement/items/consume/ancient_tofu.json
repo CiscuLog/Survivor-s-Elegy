@@ -5,7 +5,7 @@
 			"trigger":"minecraft:consume_item",
 			"conditions": {
 				"item": {
-					"items":["minecraft:bread"],
+					"items":["bread"],
 					"predicates": {"custom_data": {"SE_data":{"id":"siscu:ancient_tofu"}}}
 				}
 			}

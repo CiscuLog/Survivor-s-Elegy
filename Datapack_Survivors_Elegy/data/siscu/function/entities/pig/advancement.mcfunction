@@ -1,0 +1,1 @@
+schedule function siscu:entities/pig/detect 1t append

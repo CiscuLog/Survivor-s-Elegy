@@ -9,11 +9,7 @@
 		"description": [{
 			"translate": "advancements.siscu.minecraft.broth_teleports.description"
 			},
-			{
-				"text":"\nSurvivor's Elegy",
-				"color": "gold",
-				"italic": true
-			}
+			{"text":"\n"},{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
 		],
 		"frame": "goal",
 		"show_toast": true,

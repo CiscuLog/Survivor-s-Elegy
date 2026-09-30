@@ -1,6 +1,8 @@
 {
 	"model": {
-	  "type": "model",
-	  "model": "siscu_se:item/shutters"
+	  "type": "select",
+		"property": "display_context",
+		"cases": [{"when": "fixed","model": {"type": "model","model": "siscu_se:item/shutters_placed"}}],
+		"fallback": {"type": "model","model": "siscu_se:item/shutters"}
 	}
 }

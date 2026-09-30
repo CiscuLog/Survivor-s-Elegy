@@ -1,4 +1,7 @@
+
+# Stop if there are too many baby pigs already
+execute at @s store result score x siscu.volatile if entity @e[type=pig,predicate=siscu:utils/is_baby,distance=..1]
+execute if score x siscu.volatile matches 4.. run return fail
+
 # Summon baby pig
-summon pig ~ ~ ~ {Age:-24000,Tags:["siscu.pig_checked","siscu.new_pig"]}
-execute as @n[type=pig,tag=siscu.new_pig] at @s run data modify entity @s variant set from entity @n[type=pig,tag=!siscu.new_pig,predicate=!siscu:utils/is_baby,] variant
-tag @e[tag=siscu.new_pig] remove siscu.new_pig
+$summon pig ~ ~ ~ {Age:-23999,Tags:["siscu.pig_checked"],variant:"$(variant)"}

@@ -13,11 +13,11 @@
 				"item_model": "siscu_se:fish",
 				"custom_data": {
 					"SE_data": {
-						"id": "siscu:fish",
-						"UpdateVersion": "v1.0.1"
+						"id": "siscu:fish"
 					}
 				}}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

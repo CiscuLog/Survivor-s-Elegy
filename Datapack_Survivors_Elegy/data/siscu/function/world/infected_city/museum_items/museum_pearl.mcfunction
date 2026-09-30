@@ -6,7 +6,7 @@ tag @s remove siscu.museum_pearl
 
 # Shield (oxidised?)
 item replace entity @s contents with ender_pearl
-function siscu:entities/item_frame/item_frame_detection
+function siscu:entities/item_frame/main
 
 # Explanation book
 data merge block ~ ~ ~ {Book:{id:"written_book",count:1,components:{ "written_book_content": { "author": "Museum", "title": "Ender Pearls", "generation": 1, "pages": [\

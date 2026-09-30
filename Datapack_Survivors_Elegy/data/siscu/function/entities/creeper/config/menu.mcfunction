@@ -2,9 +2,6 @@
 tellraw @s [{"text":"","color":"white"},{"translate":"\n\n\n\n%==Creeper Fuse Length Configuration==[","bold":true,"color":"dark_green"},{"text":"Return","font":"siscu_se:superscript","bold":false,"color":"red","click_event":{"action":"run_command","command":"/function siscu:config"},"hover_event":{"action":"show_text","value":{"text":"Return to menu"}}},{"text":"]","bold":true,"color":"dark_green"}]
 tellraw @s [{"text":"About: ","color":"white","bold":true},{"text":"This panel is used to change the creeper fuse time and even add variation and impredactibility to its length.","bold":false}]
 
-# Safe Mode
-execute if score safe_mode siscu.integer matches 1 run return run tellraw @s [{"text":"\n⚠ Safe Mode has blocked this feature in your session ","color": "red"},{"text": "[Learn More]","bold": true,"click_event": {"action": "run_command","command": "/function siscu:technical/config/about_safe_mode"},"hover_event": {"action": "show_text","value": "Click here"}}]
-
 # Enable/disable
 execute if score creeper_fuse siscu.integer matches 0 run return run tellraw @s [{"text":"- Fuse Variation is: ","bold":false,"color":"gold"},{"text":" [Disabled]\n\n","bold":true,"color":"red","click_event":{"action":"run_command","command":"/function siscu:entities/creeper/config/enable"},"hover_event":{"action":"show_text","value":{"text":"Click to change"}}}]
 execute if score creeper_fuse siscu.integer matches 1 run tellraw @s [{"text":"- Fuse Variation is: ","bold":false,"color":"gold"},{"text":" [Enabled]","bold":true,"color":"green","click_event":{"action":"run_command","command":"/function siscu:entities/creeper/config/disable"},"hover_event":{"action":"show_text","value":{"text":"Click to change"}}}]

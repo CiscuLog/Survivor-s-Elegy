@@ -1,0 +1,5 @@
+{
+  "type": "enchant_randomly",
+  "condition": "siscu:random/enchantability_chance",
+  "options": "#on_mob_spawn_equipment"
+}

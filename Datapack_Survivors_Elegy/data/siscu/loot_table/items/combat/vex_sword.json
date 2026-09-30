@@ -12,7 +12,8 @@
 				"components": {
 					"item_model": "siscu_se:vex_sword"
 				}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

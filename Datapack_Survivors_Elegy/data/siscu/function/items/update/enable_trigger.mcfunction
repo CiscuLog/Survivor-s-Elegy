@@ -1,1 +1,0 @@
-scoreboard players enable @a siscu.update_item

@@ -1,0 +1,1 @@
+$data modify entity @s item.components."minecraft:custom_model_data".floats set value [$(x)]

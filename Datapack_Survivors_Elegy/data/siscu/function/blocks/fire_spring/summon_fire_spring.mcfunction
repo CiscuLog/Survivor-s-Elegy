@@ -1,5 +1,5 @@
 
-execute align xyz run summon minecraft:item_display ~0.5 ~ ~0.5 {Tags:["siscu.fire_spring","siscu.fire_spring_spawned"]}
+execute align xyz run summon minecraft:item_display ~0.5 ~ ~0.5 {Tags:["smithed.entity","smithed.strict","siscu.fire_spring","siscu.fire_spring_spawned"]}
 execute as @e[tag=siscu.fire_spring_spawned] run data merge entity @s {item:{id:"minecraft:bone",count:1b,components:{"item_model":"siscu_se:block/fire_spring"}},transformation:{scale:[1.01,1.01,1.01],translation:[0.0,-0.5,0.0]},start_interpolation: 0}
 tag @e[tag=siscu.fire_spring_spawned] remove siscu.fire_spring_spawned
 

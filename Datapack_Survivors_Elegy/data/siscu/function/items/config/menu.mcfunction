@@ -1,0 +1,16 @@
+tellraw @s [{"translate":"\n\n\n\n%====== Items Inventory ======[","bold":true,"color":"aqua"},{"text":"Return","font":"siscu_se:superscript","bold":false,"color":"red","click_event":{"action":"run_command","command":"/function siscu:config"},"hover_event":{"action":"show_text","value":{"text":"Return to menu"}}},{"text":"]","color":"aqua"}]
+
+tellraw @s [{"text":"About: ","color":"white","bold":true},{"text":" Survivor's Elegy adds a variety of new items. \nThe recipes are meant to be obtained by discovering the required ingredients or getting them from mob/chest loot. However, if you don't want to spend time on it, try the following options:\n","color":"white","bold":false}]
+
+# all recipes
+tellraw @s [{"text":""},{"text":"- Get all recipes: ","color":"green","click_event":{"action":"run_command","command":"/recipe give @a siscu:root"},"hover_event":{"action":"show_text","value":{"text":"Grant all recipes"}}},{"text":"All recipes will be shown on their respective crafting stations","color":"gray"}]
+# wiki
+tellraw @s [{"text":""},{"text":"- Check items on Wiki: ","color":"green","click_event":{"action":"open_url","url":"https://github.com/CiscuLog/Survivor-s-Elegy/wiki/Items"},"hover_event":{"action":"show_text","value":{"text":"Click to open URL"}}},{"text":"Opens the datapack's wiki","color":"gray"}]
+# fishing items
+function siscu:world/fishing/config/main {menu: "siscu:items/config/menu"}
+# ancient shield
+tellraw @s [{"text":"\n  [ ","color":"gold","bold":true,"click_event":{"action":"run_command","command":"/function siscu:items/config/ancient_shield/menu"}},{"text":"Ancient Shield Config","color":"red"},{"text":" ]"}]
+tellraw @s [{"text":"\n  [ ","color":"gold","bold":true,"click_event":{"action":"run_command","command":"/function siscu:items/config/ancient_shield/nerf_menu"}},{"text":"Shield Nerf Config","color":"white"},{"text":" ]"}]
+
+tellraw @s [{"text":"\n"}]
+playsound minecraft:block.note_block.bell master @s ~ ~ ~ 1 1

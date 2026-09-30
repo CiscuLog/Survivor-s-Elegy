@@ -1,0 +1,26 @@
+{
+	"parent": "minecraft:husbandry/allay_deliver_item_to_player",
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_book",
+			"components": {
+				"stored_enchantments": {"binding_curse": 1}
+			}
+		},
+		"title": {
+			"translate": "advancements.siscu.minecraft.bind_allay.title"
+		},
+		"description": [
+			{
+				"translate": "advancements.siscu.minecraft.bind_allay.description"
+			},
+			{"text":"\n"},{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
+		]
+	},
+	"criteria": {
+		"0": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {"items": [{"predicates": {"custom_data": {"SE_data":{"id":"siscu:bound_allay"}}}}]}
+		}
+	}
+}

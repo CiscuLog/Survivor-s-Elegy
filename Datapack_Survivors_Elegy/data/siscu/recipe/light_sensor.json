@@ -21,13 +21,11 @@
       },
       "max_stack_size": 64,
       "item_name": {"translate":"item.siscu.light_sensor"},
+      "lore": [{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}],
       "item_model": "siscu_se:light_sensor",
       "custom_data": {
         "SE_data": {
-          "id": "siscu:light_sensor",
-          "IsCopper": 1,
-          "UpdateVersion": "v1.0.1",
-          "Oxidation": 0
+          "id": "siscu:light_sensor"
         }
       }
     }

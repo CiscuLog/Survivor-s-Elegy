@@ -15,8 +15,7 @@
                                 "minecraft:item_model": "siscu_se:elegant_pants",
                                 "minecraft:custom_data": {
                                     "SE_data": {
-                                        "id": "siscu:elegant_trousers",
-                                        "UpdateVersion": "v1.0.1"
+                                        "id": "siscu:elegant_trousers"
                                     }
                                 },
                                 "equippable": {
@@ -38,7 +37,8 @@
                                     "slot": "legs"
                                 }
                             ]
-                        }
+                        },
+                        "siscu:tooltip"
                     ]
                 }
             ]

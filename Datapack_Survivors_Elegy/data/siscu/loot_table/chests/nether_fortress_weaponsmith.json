@@ -2,8 +2,8 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {"type":"minecraft:uniform","min":2.0,"max":4.0},
-      "bonus_rolls": 0.0,
+      "rolls": {"type":"minecraft:uniform","min":2,"max":4},
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:loot_table",
@@ -34,13 +34,14 @@
       "modifier": [
         {
           "type": "minecraft:set_damage",
-          "damage": {"type": "uniform","max": 0.7,"min": 0.01}
-        }
+          "damage": {"type": "uniform","max": 0.7,"min": 0.1}
+        },
+        "siscu:entity/natural_enchantment_chance"
       ]
     },
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -53,7 +54,7 @@
       ]
     },
     {
-      "rolls": 1.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",

@@ -1,5 +1,6 @@
 
 # Random situation
+#execute if predicate siscu:locations/check_infected_city unless predicate siscu:locations/infected_citadel run tag @s add siscu.corpse_fleeing
 execute if predicate siscu:locations/check_infected_city run tag @s add siscu.corpse_fleeing
 
 # Random variant

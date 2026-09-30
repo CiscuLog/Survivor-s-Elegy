@@ -2,7 +2,7 @@
     "type": "minecraft:generic",
     "pools": [
         {
-            "rolls":1.0,
+            "rolls":1,
             "entries":[
                 {
                     "type":"minecraft:item",
@@ -18,7 +18,7 @@
                 }
         },
         {
-            "rolls":1.0,
+            "rolls":1,
             "entries":[
                 {
                     "type":"minecraft:item",
@@ -34,7 +34,7 @@
                 }
         },
         {
-            "rolls": 1.0,
+            "rolls": 1,
             "entries": [
                 {
                     "type":"minecraft:item",
@@ -50,7 +50,7 @@
                 }
         },
         {
-            "rolls": 1.0,
+            "rolls": 1,
             "entries": [{
                 "type":"minecraft:item",
                 "name": "redstone"
@@ -64,7 +64,7 @@
                 }
         },
         {
-            "rolls": 1.0,
+            "rolls": 1,
             "entries": [
                 {
                     "type":"minecraft:item",
@@ -96,7 +96,7 @@
                 }
         },
         {
-            "rolls":1.0,
+            "rolls":1,
             "entries":[
                 {
                     "type":"minecraft:loot_table",
@@ -104,15 +104,24 @@
                 }
             ],
             "condition":{
+                "type": "all_of",
+                "terms": [
+                {
                     "type": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "equipment": {"head":{"items": ["bone"],"components": {"item_model":"siscu_se:villager_skull_fisherman"}}}
                     }
-                }
+                },
+                {
+                    "type": "int_value_check",
+                    "test": "siscu:config/new_fish_check",
+                    "value": {"type": "min","inputs": 1}}
+                ]
+            }
         },
         {
-            "rolls":1.0,
+            "rolls":1,
             "entries":[
                 {
                     "type":"minecraft:item",
@@ -128,7 +137,7 @@
                 }
         },
         {
-            "rolls": 1.0,
+            "rolls": 1,
             "entries": [{
                 "type":"minecraft:item",
                 "name": "leather"
@@ -145,7 +154,7 @@
                 }
         },
         {
-            "rolls": 1.0,
+            "rolls": 1,
             "entries": [{
                 "type":"minecraft:item",
                 "name": "book"
@@ -164,7 +173,7 @@
                 }
         },
         {
-            "rolls": 1.0,
+            "rolls": 1,
             "entries": [{
                 "type":"minecraft:item",
                 "name": "brick"
@@ -178,7 +187,7 @@
                 }
         },
         {
-            "rolls": 1.0,
+            "rolls": 1,
             "entries": [{
                 "type":"minecraft:item",
                 "name": "white_wool"
@@ -192,7 +201,7 @@
                 }
         },
         {
-            "rolls":1.0,
+            "rolls":1,
             "entries":[
                 {
                     "type":"minecraft:item",
@@ -208,7 +217,7 @@
                 }
         },
         {
-            "rolls":1.0,
+            "rolls":1,
             "entries":[
                 {
                     "type":"minecraft:item",

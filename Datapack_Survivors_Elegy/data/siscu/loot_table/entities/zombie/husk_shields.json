@@ -4,16 +4,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:shield",
-		  "weight":100,
-		  "condition": "siscu:locations/check_surface"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:torch",
-		  "weight":100,
-		  "condition": "siscu:locations/check_underground"
+          "type": "minecraft:loot_table",
+          "value": "siscu:entities/zombie/zombie_shields"
         }
 	]
   }

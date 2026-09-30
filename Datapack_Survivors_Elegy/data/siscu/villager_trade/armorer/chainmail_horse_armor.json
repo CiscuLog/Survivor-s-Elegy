@@ -1,0 +1,42 @@
+{
+  "wants": {
+    "id": "emerald",
+    "count": {"type": "uniform","max": 40,"min": 30}
+  },
+  "gives": {
+    "id": "poisonous_potato",
+    "components": {
+      "!food": {},
+      "!consumable": {},
+      "minecraft:item_name": {
+        "translate": "item.siscu.chainmail_horse_armor"
+      },
+      "minecraft:item_model": "siscu_se:chainmail_horse_armor",
+      "minecraft:custom_data": {
+        "SE_data": {
+          "id": "siscu:chainmail_horse_armor"
+        }
+      },
+      "equippable": {
+        "slot": "body",
+        "allowed_entities": "horse",
+        "equip_sound": "item.armor.equip_chain",
+        "asset_id": "siscu_se:chainmail"
+      },
+      "minecraft:damage": 0,
+      "attribute_modifiers": [
+        {
+          "type": "armor",
+          "id": "825724e2-4674-4452-bdd8-834d4e8a18d9",
+          "amount": 6,
+          "operation": "add_value",
+          "slot": "body"
+        }
+      ],
+      "lore": [{"translate": "text.siscu.tooltip","italic": false, "color": "white","font": "siscu_se:sprites"}]
+    }
+  },
+  "max_uses": 3,
+  "reputation_discount": 0.2,
+  "xp": 30
+}

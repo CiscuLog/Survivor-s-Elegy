@@ -2,15 +2,15 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {"type":"minecraft:uniform","min":2.0,"max":3.0},
-      "bonus_rolls": 0.0,
+      "rolls": {"type":"minecraft:uniform","min":2,"max":3},
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:bone_block",
           "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
+            "count": {"type":"minecraft:uniform","min":1,"max":5}
           }],
           "weight": 5
         },
@@ -19,7 +19,7 @@
           "name": "minecraft:bone",
           "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
+            "count": {"type":"minecraft:uniform","min":1,"max":5}
           }],
           "weight": 5
         },

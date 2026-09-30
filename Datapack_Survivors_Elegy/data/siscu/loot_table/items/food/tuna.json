@@ -13,11 +13,11 @@
 				"item_model": "siscu_se:tuna",
 				"custom_data": {
 					"SE_data": {
-						"id": "siscu:tuna",
-						"UpdateVersion": "v1.0.1"
+						"id": "siscu:tuna"
 					}
 				}}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

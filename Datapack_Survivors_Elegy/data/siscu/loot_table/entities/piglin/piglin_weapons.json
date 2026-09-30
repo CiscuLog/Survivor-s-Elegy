@@ -6,14 +6,20 @@
         {
           "type": "minecraft:loot_table",
           "value": "siscu:entities/piglin/golden_swords_piglin",
-		  "weight":3
+    		  "weight":9
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
-	  "weight":1
+      	  "weight":10
+        },
+        {
+          "type": "item",
+          "name": "golden_spear",
+          "weight": 1
         }
       ]
     }
-  ]
+  ],
+  "modifier": "siscu:entity/natural_enchantment_chance"
 }

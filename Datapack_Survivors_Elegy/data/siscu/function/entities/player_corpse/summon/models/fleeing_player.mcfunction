@@ -6,7 +6,7 @@ execute on passengers store result entity @s Rotation[1] float 0.1 run random va
 
 # Facing away from citadel (or a random cauldron, for this matter)
 scoreboard players set x siscu.volatile 0
-execute store success score x siscu.volatile on passengers at @s if predicate siscu:locations/check_infected_city facing entity @n[tag=siscu.broth_cauldron] eyes rotated ~ 40 run rotate @s facing ^ ^ ^-1
+execute store success score x siscu.volatile on passengers at @s if predicate siscu:locations/check_infected_city facing entity @n[tag=siscu.broth_cauldron] eyes rotated ~ 0.1 run rotate @s facing ^ ^ ^-1
 # If no cauldron found, random rotation
 execute if score x siscu.volatile matches 0 on passengers store result entity @s Rotation[0] float 1 run random value -180..180
 

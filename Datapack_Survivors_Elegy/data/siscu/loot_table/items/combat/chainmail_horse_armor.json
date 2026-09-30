@@ -16,8 +16,7 @@
                 "minecraft:item_model": "siscu_se:chainmail_horse_armor",
                 "minecraft:custom_data": {
                   "SE_data": {
-                    "id": "siscu:chainmail_horse_armor",
-                    "UpdateVersion": "v1.0.1"
+                    "id": "siscu:chainmail_horse_armor"
                   }
                 },
                 "equippable": {
@@ -37,7 +36,8 @@
                   }
                 ]
               }
-            }
+            },
+            "siscu:tooltip"
           ]
         }
       ]

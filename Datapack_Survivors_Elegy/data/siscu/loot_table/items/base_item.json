@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "rolls": 1,"bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "poisonous_potato",
+          "modifier": [
+            "siscu:base_item",
+            "siscu:tooltip"
+          ]
+        }
+      ]
+    }
+  ]
+}

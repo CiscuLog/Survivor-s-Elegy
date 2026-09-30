@@ -1,7 +1,6 @@
 
 scoreboard players operation timer.time_in_seconds siscu.volatile = @s siscu.zombifying
-scoreboard players operation timer.time_in_seconds siscu.volatile *= -1 siscu.integer
-scoreboard players operation timer.time_remainder siscu.volatile = timer.time_in_seconds siscu.volatile
+execute store result score timer.time_remainder siscu.volatile run scoreboard players operation timer.time_in_seconds siscu.volatile *= -1 siscu.integer
 
 scoreboard players operation timer.time_in_seconds siscu.volatile /= 60 siscu.integer
 scoreboard players operation timer.time_remainder siscu.volatile %= 30 siscu.integer

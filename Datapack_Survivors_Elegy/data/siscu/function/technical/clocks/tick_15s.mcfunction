@@ -18,8 +18,6 @@ schedule function siscu:entities/mirage_display/empty_effects 1t
 
 ## Healing iron golems
 execute as @e[type=iron_golem,tag=!smithed.entity] at @s run function siscu:entities/iron_golem/villager_repair/repair
-## Zombified players aggro nearby iron golems
-execute as @a[tag=siscu.zombie] at @s as @n[type=iron_golem,distance=..32] run function siscu:entities/iron_golem/angry_against_player
 
 execute if entity @e[type=interaction,tag=siscu.player_corpse] run schedule function siscu:entities/player_corpse/update/schedule 1t
 

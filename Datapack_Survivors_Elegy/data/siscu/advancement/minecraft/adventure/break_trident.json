@@ -1,0 +1,24 @@
+{
+	"parent": "minecraft:adventure/throw_trident",
+	"display":{
+			"icon": {
+					"id": "minecraft:lightning_rod",
+					"components": {"enchantments": {"loyalty": 1}}
+			},
+			"title": {"translate": "advancements.siscu.minecraft.break_trident.title"},
+			"description": [{
+				"translate": "advancements.siscu.minecraft.break_trident.description"
+				},
+				{"text":"\n"},{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
+		],
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false,
+		"frame": "task"
+	},
+    "criteria": {
+        "1":{
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

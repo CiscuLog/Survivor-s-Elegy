@@ -14,8 +14,7 @@
 								"item_model": "siscu_se:frog_leg",
 								"custom_data": {
 									"SE_data": {
-										"id": "siscu:frog_leg",
-										"UpdateVersion": "v1.0.1"
+										"id": "siscu:frog_leg"
 									}
 								},
 								"food": {
@@ -41,7 +40,8 @@
 									"seconds": 10
 								}
 							}
-						}
+						},
+						"siscu:tooltip"
 					]
 				}
 			]

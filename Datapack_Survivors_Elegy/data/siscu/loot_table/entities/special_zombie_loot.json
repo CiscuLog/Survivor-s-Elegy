@@ -2,8 +2,8 @@
   "type": "minecraft:entity",
   "pools": [
 	{
-		"rolls": 1.0,
-		"bonus_rolls": 0.0,
+		"rolls": 1,
+		"bonus_rolls": 0,
 		"entries": [
 		{
 			"type": "minecraft:loot_table",
@@ -71,8 +71,8 @@
 		]
 	},
 	{
-		"rolls": 1.0,
-		"bonus_rolls": 0.0,
+		"rolls": 1,
+		"bonus_rolls": 0,
 		"entries": [
 		{
 			"type": "minecraft:loot_table",
@@ -88,8 +88,8 @@
 		}
 	},
 	{
-		"rolls": 1.0,
-		"bonus_rolls": 0.0,
+		"rolls": 1,
+		"bonus_rolls": 0,
 		"entries": [
 		{
 			"type": "minecraft:item",
@@ -105,8 +105,8 @@
 		}
 	},
 	{
-		"rolls": 1.0,
-		"bonus_rolls": 0.0,
+		"rolls": 1,
+		"bonus_rolls": 0,
 		"entries": [
 		{
 			"type": "minecraft:item",
@@ -126,8 +126,8 @@
 		}
 	},
 	{
-		"rolls": 1.0,
-		"bonus_rolls": 0.0,
+		"rolls": 1,
+		"bonus_rolls": 0,
 		"entries": [
 			{
 				"type": "minecraft:item",
@@ -138,15 +138,15 @@
 					"add": false,
 					"count": {
 						"type": "minecraft:uniform",
-						"max": 1.0,
-						"min": 0.0
+						"max": 1,
+						"min": 0
 					}
 					},
 					{
 					"count": {
 						"type": "minecraft:uniform",
-						"max": 1.0,
-						"min": 0.0
+						"max": 1,
+						"min": 0
 					},
 					"type": "enchanted_count_increase",
               "enchantment": "minecraft:looting",
@@ -186,8 +186,8 @@
 		}
 	},
 	{
-		"rolls": 1.0,
-		"bonus_rolls": 0.0,
+		"rolls": 1,
+		"bonus_rolls": 0,
 		"entries": [
 			{
 				"type": "minecraft:loot_table",
@@ -223,8 +223,8 @@
 		}
 	},
 	{
-		"rolls": 1.0,
-		"bonus_rolls": 0.0,
+		"rolls": 1,
+		"bonus_rolls": 0,
 		"entries": [
 			{
 				"type": "minecraft:loot_table",
@@ -253,8 +253,8 @@
 		}
 	},
 	{
-		"rolls": 1.0,
-		"bonus_rolls": 0.0,
+		"rolls": 1,
+		"bonus_rolls": 0,
 		"entries": [
 			{
 				"type": "minecraft:loot_table",
@@ -283,8 +283,8 @@
 		}
 	},
 	{
-		"rolls": 1.0,
-		"bonus_rolls": 0.0,
+		"rolls": 1,
+		"bonus_rolls": 0,
 		"entries": [
 			{
 				"type": "minecraft:loot_table",
@@ -313,8 +313,8 @@
 		}
 	},
 	{
-		"rolls": 1.0,
-		"bonus_rolls": 0.0,
+		"rolls": 1,
+		"bonus_rolls": 0,
 		"entries": [
 			{
 				"type": "minecraft:loot_table",
@@ -343,8 +343,8 @@
 		}
 	},
 	{
-		"rolls": 1.0,
-		"bonus_rolls": 0.0,
+		"rolls": 1,
+		"bonus_rolls": 0,
 		"entries": [
 			{
 				"type": "minecraft:loot_table",
@@ -373,8 +373,8 @@
 		}
 	},
 	{
-		"rolls": 1.0,
-		"bonus_rolls": 0.0,
+		"rolls": 1,
+		"bonus_rolls": 0,
 		"entries": [
 			{
 				"type": "minecraft:loot_table",
@@ -403,8 +403,8 @@
 		}
 	},
 	{
-		"rolls": 1.0,
-		"bonus_rolls": 0.0,
+		"rolls": 1,
+		"bonus_rolls": 0,
 		"entries": [
 			{
 				"type": "loot_table",

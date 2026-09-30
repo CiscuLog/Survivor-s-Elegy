@@ -17,12 +17,12 @@
                             "SE_data": {
                                 "id": "siscu:bee_counter",
                                 "IsCopper": 1,
-                                "UpdateVersion": "v1.0.1",
                                 "Oxidation": 0
                             }
                         }
                     }
-                }
+                },
+    			"siscu:tooltip"
             ]
         }
         ]

@@ -14,12 +14,12 @@
 					"item_model": "siscu_se:bass",
 					"custom_data": {
 						"SE_data": {
-							"id": "siscu:bass",
-							"UpdateVersion": "v1.0.1"
+							"id": "siscu:bass"
 						}
 					}
 				}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

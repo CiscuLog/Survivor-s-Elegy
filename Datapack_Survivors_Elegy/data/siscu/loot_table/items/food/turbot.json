@@ -13,11 +13,11 @@
 				"item_model": "siscu_se:turbot",
 				"custom_data": {
 					"SE_data": {
-						"id": "siscu:turbot",
-						"UpdateVersion": "v1.0.1"
+						"id": "siscu:turbot"
 					}
 				}}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

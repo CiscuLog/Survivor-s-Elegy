@@ -2,8 +2,8 @@
     "type": "minecraft:archaeology",
     "pools": [
         {
-            "bonus_rolls": 0.0,
-            "rolls": 1.0,
+            "bonus_rolls": 0,
+            "rolls": 1,
             "entries": [
                 {
                 "type":"minecraft:loot_table",
@@ -51,5 +51,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "modifier": "siscu:entity/natural_enchantment_chance"
 }

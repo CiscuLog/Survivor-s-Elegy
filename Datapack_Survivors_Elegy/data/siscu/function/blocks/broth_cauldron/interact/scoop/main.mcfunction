@@ -50,7 +50,7 @@ execute if data storage siscu:volatile BrothServingData.effects[0] run scoreboar
 execute as @n[tag=siscu.broth_interacted] run function siscu:blocks/broth_cauldron/interact/scoop/flags
 
 # Textures
-function siscu:blocks/broth_cauldron/update/water_color
+function siscu:blocks/broth_cauldron/update/water_color/main
 
 # give player the item
 execute if items entity @s weapon.mainhand glass_bottle run data merge storage siscu:volatile {BrothServingData:{recipient:"glass_bottle",sound:"entity.generic.drink",model:"siscu_se:broth_bottle",name:"item.siscu.broth_bottle",has_consume_particles:false}}

@@ -13,11 +13,11 @@
 				"item_model": "siscu_se:koi",
 				"custom_data": {
 					"SE_data": {
-						"id": "siscu:koi",
-						"UpdateVersion": "v1.0.1"
+						"id": "siscu:koi"
 					}
 				}}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

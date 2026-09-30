@@ -14,8 +14,7 @@
 								"item_model": "siscu_se:warped_gall",
 								"custom_data": {
 									"SE_data": {
-										"id": "siscu:warped_gall",
-										"UpdateVersion": "v1.1.0"
+										"id": "siscu:warped_gall"
 									}
 								},
 								"food": {
@@ -31,7 +30,8 @@
 									{"translate": "text.siscu.warped_gall2","color": "red","italic": false}
 								]
 							}
-						}
+						},
+						"siscu:tooltip"
 					]
 				}
 			]

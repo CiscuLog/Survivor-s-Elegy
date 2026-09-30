@@ -14,7 +14,6 @@
 					"item_model": "siscu_se:witch_hat",
 					"custom_data":{
 						"SE_data":{
-							"UpdateVersion": "v1.0.1"
 						}
 					},
 					"equippable": {
@@ -22,7 +21,8 @@
 						"damage_on_hurt": false
 					}
 				}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

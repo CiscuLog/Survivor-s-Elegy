@@ -15,13 +15,13 @@
 					"item_model": "siscu_se:tablet_binding",
 					"custom_data": {
 						"SE_data": {
-							"id": "siscu:enchanted_tablet",
-							"UpdateVersion": "v1.0.1"
+							"id": "siscu:enchanted_tablet"
 						}
 					},
 					"stored_enchantments": {"minecraft:binding_curse":1}
 				}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

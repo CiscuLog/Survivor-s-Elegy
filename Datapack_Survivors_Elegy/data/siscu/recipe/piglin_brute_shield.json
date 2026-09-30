@@ -15,14 +15,13 @@
 		"components": {
 			"minecraft:item_name": {"translate":"item.siscu.piglin_shield","font":"siscu_se:piglinalt"},
 			"minecraft:lore": [
-				{"text":"Held by Piglins","color":"gray","italic":false}
+				{"text":"Held by Piglins","color":"gray","italic":false},
+				{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
 			],
 			"item_model": "siscu_se:brute_shield",
 			"custom_data": {
 				"SE_data": {
-					"id": "siscu:brute_shield",
-					"CustomShield": 1,
-					"UpdateVersion": "v1.0.1"
+					"id": "siscu:brute_shield"
 				}
 			},
 			"max_damage": 400

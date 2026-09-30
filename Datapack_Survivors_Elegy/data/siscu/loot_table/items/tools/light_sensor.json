@@ -20,12 +20,12 @@
                             "SE_data": {
                                 "id": "siscu:light_sensor",
                                 "IsCopper": 1,
-                                "UpdateVersion": "v1.0.1",
                                 "Oxidation": 0
                             }
                         }
                     }
-                }
+                },
+    			"siscu:tooltip"
             ]
         }
         ]

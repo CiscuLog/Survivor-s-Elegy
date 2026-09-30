@@ -5,21 +5,10 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_sword",
-		  "weight":1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_sword",
-		  "weight":1,
-		  "modifier": [
-		  {
-			  "type": "minecraft:enchant_randomly",
-        "options": "#minecraft:on_mob_spawn_equipment"
-		  }
-		  ]
+          "name": "minecraft:golden_sword"
         }
       ]
     }
-  ]
+  ],
+  "modifier": "siscu:entity/natural_enchantment_chance"
 }

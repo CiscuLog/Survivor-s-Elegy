@@ -30,11 +30,7 @@
 			"description": [{
 				"translate": "advancements.siscu.minecraft.deflect_projectile.description"
 				},
-				{
-					"text":"\nSurvivor's Elegy",
-					"color": "gold",
-					"italic": true
-				}
+        {"text":"\n"},{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
 		]
     },
     "rewards": {

@@ -2,15 +2,15 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 4.0,
-      "bonus_rolls": 0.0,
+      "rolls": 4,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:spruce_stairs",
 		  "modifier": [{
 			  "type": "minecraft:set_count",
-			  "count": {"type":"minecraft:uniform","min":1.0,"max":10.0}
+			  "count": {"type":"minecraft:uniform","min":1,"max":10}
 		  }]
         },
         {
@@ -18,7 +18,7 @@
           "name": "minecraft:spruce_slab",
 		  "modifier": [{
 			  "type": "minecraft:set_count",
-			  "count": {"type":"minecraft:uniform","min":1.0,"max":10.0}
+			  "count": {"type":"minecraft:uniform","min":1,"max":10}
 		  }]
         },
         {
@@ -26,7 +26,7 @@
           "name": "minecraft:spruce_fence",
 		  "modifier": [{
 			  "type": "minecraft:set_count",
-			  "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
+			  "count": {"type":"minecraft:uniform","min":1,"max":5}
 		  }]
         },
         {
@@ -34,14 +34,14 @@
           "name": "minecraft:spruce_door",
 		  "modifier": [{
 			  "type": "minecraft:set_count",
-			  "count": {"type":"minecraft:uniform","min":1.0,"max":2.0}
+			  "count": {"type":"minecraft:uniform","min":1,"max":2}
 		  }]
         }
       ]
     },
 	{
-		"rolls": 1.0,
-		"bonus_rolls": 1.0,
+		"rolls": 1,
+		"bonus_rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:spruce_boat"
@@ -52,15 +52,15 @@
 		}]
 	},
 	{
-		"rolls": 1.0,
-		"bonus_rolls": 0.0,
+		"rolls": 1,
+		"bonus_rolls": 0,
 		"entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:spruce_planks",
 		  "modifier": [{
 			  "type": "minecraft:set_count",
-			  "count": {"type":"minecraft:uniform","min":10.0,"max":64.0}
+			  "count": {"type":"minecraft:uniform","min":10,"max":64}
 		  }]
         }]
 	}

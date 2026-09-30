@@ -13,14 +13,9 @@
         "components": {"item_model": "siscu_se:ancient_shield/base"}
       },
 			"title": {"translate": "advancements.siscu.minecraft.clean_ancient_shield.title"},
-			"description": [{
-				"translate": "advancements.siscu.minecraft.clean_ancient_shield.description"
-				},
-				{
-					"text":"\nSurvivor's Elegy",
-					"color": "gold",
-					"italic": true
-				}
+			"description": [
+        {"translate": "advancements.siscu.minecraft.clean_ancient_shield.description"},
+        {"text":"\n"},{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
       ],
       "hidden": true
     },

@@ -1,0 +1,5 @@
+{
+  "type": "set_lore",
+  "mode": "append",
+  "lore": [{"translate": "text.siscu.tooltip","italic": false, "color": "white","font": "siscu_se:sprites"}]
+}

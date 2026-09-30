@@ -17,14 +17,13 @@
 					"item_model": "siscu_se:brute_shield",
 					"custom_data": {
 						"SE_data": {
-							"id": "siscu:brute_shield",
-							"CustomShield": 1,
-							"UpdateVersion": "v1.0.1"
+							"id": "siscu:brute_shield"
 						}
 					},
 					"max_damage": 400
 				}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

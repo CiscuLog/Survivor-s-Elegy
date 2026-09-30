@@ -7,9 +7,6 @@
 			"predicate": {
 				"slots": {
 					"contents": {
-						"items": [
-							"stick"
-						],
 						"components": {
 							"minecraft:item_model": "siscu_se:shutters"
 						}

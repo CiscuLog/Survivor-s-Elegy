@@ -18,8 +18,7 @@
                                 "minecraft:custom_data": {
                                     "SE_data": {
                                         "id": "siscu:battle_staff",
-                                        "CustomWeapon": 1,
-                                        "UpdateVersion": "v1.0.1"
+                                        "CustomWeapon": 1
                                     }
                                 },
                                 "max_damage": 100,
@@ -85,7 +84,8 @@
                                     "color": "blue"
                                 }
                             ]
-                        }
+                        },
+            			"siscu:tooltip"
                     ]
                 }
             ]

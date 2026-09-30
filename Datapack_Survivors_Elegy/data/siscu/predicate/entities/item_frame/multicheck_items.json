@@ -1,6 +1,7 @@
 {
 	"type": "minecraft:any_of",
 	"terms":[
+		"siscu:entities/item_frame/bee_counter",
 		{
 			"type": "minecraft:entity_properties",
 			"entity": "this",
@@ -8,24 +9,7 @@
 				"slots": {
 					"contents": {
 						"predicates": {
-							"custom_data": {
-								"SE_data": { "id": "siscu:bee_counter" }
-							}
-						}
-					}
-				}
-			}
-		},
-		{
-			"type": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"slots": {
-					"contents": {
-						"predicates": {
-							"custom_data": {
-								"SE_data": { "id": "siscu:light_sensor" }
-							}
+							"minecraft:custom_data": {"SE_data":{"id":"siscu:light_sensor"}}
 						}
 					}
 				}

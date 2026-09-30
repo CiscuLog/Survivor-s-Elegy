@@ -18,8 +18,7 @@
                                 "item_model": "siscu_se:elegant_hat",
                                 "minecraft:custom_data": {
                                     "SE_data": {
-                                        "id": "siscu:elegant_hat",
-                                        "UpdateVersion": "v1.0.1"
+                                        "id": "siscu:elegant_hat"
                                     }
                                 },
                                 "equippable": {
@@ -41,7 +40,8 @@
                                     "slot": "head"
                                 }
                             ]
-                        }
+                        },
+                        "siscu:tooltip"
                     ]
                 }
             ]

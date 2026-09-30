@@ -1,43 +1,44 @@
 {
   "type": "minecraft:multi_action",
   "external_title": [
-    {"translate": "pack.siscu.loaded","fallback": "","with": [{"translate": "\u1000","font": "siscu_se:icons"}]},
     {"text": " Survivor's Elegy"}
   ],
   "title": [
-    {"translate": "pack.siscu.loaded","fallback": "","with": [{"translate": "\u1000","font": "siscu_se:icons"}]},
-    {"translate": "pack.siscu","fallback":"Survivor's Elegy"},
-    {"translate": "pack.siscu.loaded","fallback": "","with": [{"translate": "\u1000","font": "siscu_se:icons"}]}
+    {"translate": "pack.siscu","fallback":"Survivor's Elegy"}
   ],
   "body": [
     {
-        "type": "plain_message",
-        "contents": [{"text":"Loaded Resourcepack Version: ","color":"gray"},
-        {"translate":"pack.siscu.version","bold":true,"color":"green","fallback": "%s","with": [{"text": "-no pack loaded-","color": "red"}]},
-        {"text":" (required: "},{"text":"11","bold":true,"color":"gold"},{"text":" )"}]
+      "type": "plain_message",
+      "contents": [
+        {"text": ""},
+        {"text": "\u0002","font": "siscu_se:sprites"},
+        {"text": "\n\n\n\n\n\n\nA datapack that weaves game mechanics together, both vanilla and new!"}
+      ],
+      "width": 300
     },
     {
-      "type": "plain_message",
-      "contents": {
-        "text": "v1.0.13\nBy Siscu",
-        "color": "gray"
-      },
+        "type": "plain_message",
+        "contents": [
+          {"text":"Loaded Resourcepack Version: ","color":"gray"},
+          {"translate":"pack.siscu.version","bold":true,"color":"green","fallback": "%s","with": [{"text": "-no pack loaded-","color": "red"}]},
+          {"text":" (required: "},{"text":"12","bold":true,"color":"gold"},{"text":" )"},
+          {"text": "\n\n"},
+          {"text": "v1.1.0\nBy Siscu","color": "gray"}
+        ],
       "width": 300
     }
   ],
   "actions": [
     {
+      "label": [{"translate": "pack.siscu.loaded","fallback": "","with": [{"translate": "\u1000","font": "siscu_se:icons"}]},{"text": " Config Menu "}],
+      "tooltip": {"text": "Admin access only"},
+      "action": {"type": "run_command","command": "/function siscu:config"}
+    },
+    {
       "label": [{"text":"Smithed"}],
       "action": {
         "type": "open_url",
         "url": "https://smithed.net/packs/survivor-s-elegy"
-      }
-    },
-    {
-      "label": [{"text":"Modrinth"}],
-      "action": {
-        "type": "open_url",
-        "url": "https://modrinth.com/datapack/survivors-elegy"
       }
     },
     {
@@ -72,5 +73,7 @@
   "exit_action": {
     "label": [{"text":"Return"}],
     "action": {"type": "show_dialog","dialog": "smithed:data_packs"}
-  }
+  },
+  "columns": 2,
+  "after_action": "close"
 }

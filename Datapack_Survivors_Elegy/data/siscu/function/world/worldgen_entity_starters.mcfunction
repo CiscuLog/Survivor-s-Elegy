@@ -8,7 +8,7 @@ execute at @s if entity @e[type=marker,tag=siscu.building_grounds,distance=..100
 ## identifiers
 execute if entity @s[tag=siscu.painting] run return run function siscu:world/paintings/summon
 execute if entity @s[tag=siscu.broth_cauldron] run return run function siscu:world/infected_city/broth_cauldron
-execute if entity @s[tag=siscu.mayor_lectern] at @s positioned ~ ~-1 ~ run return run function siscu:world/infected_city/mayor_lectern
+execute if entity @s[tag=siscu.mayor_lectern] at @s positioned ~ ~-1 ~ run return run function siscu:world/infected_city/mayor_lectern/main
 # museum
 execute if entity @s[tag=siscu.museum_shield] at @s positioned ^1 ^-1 ^ run return run function siscu:world/infected_city/museum_items/museum_shield
 execute if entity @s[tag=siscu.museum_tablet] at @s positioned ^1 ^-1 ^ run return run function siscu:world/infected_city/museum_items/museum_tablet

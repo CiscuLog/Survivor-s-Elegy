@@ -8,11 +8,7 @@
 			"description": [{
 				"translate": "advancements.siscu.minecraft.sneak_in_tall_grass.description"
 				},
-				{
-					"text":"\nSurvivor's Elegy",
-					"color": "gold",
-					"italic": true
-				}
+        {"text":"\n"},{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
 		],
 		"show_toast": true,
 		"announce_to_chat": false,
@@ -33,7 +29,10 @@
 						},
 						"entity": "this"
 					},
-					"siscu:entities/is_wearing_armor"
+					{
+						"type": "inverted",
+						"term": "siscu:entities/is_wearing_armor"
+					}
 				]
 			  }
 			}

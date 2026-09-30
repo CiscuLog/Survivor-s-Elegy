@@ -2,15 +2,15 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {"type":"minecraft:uniform","min":2.0,"max":4.0},
-      "bonus_rolls": 0.0,
+      "rolls": {"type":"minecraft:uniform","min":2,"max":4},
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:red_mushroom",
           "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
+            "count": {"type":"minecraft:uniform","min":1,"max":5}
           }]
         },
         {
@@ -18,7 +18,7 @@
           "name": "minecraft:redstone",
           "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
+            "count": {"type":"minecraft:uniform","min":1,"max":5}
           }]
         },
         {
@@ -26,7 +26,7 @@
           "name": "minecraft:glowstone_dust",
           "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
+            "count": {"type":"minecraft:uniform","min":1,"max":5}
           }]
         },
         {
@@ -34,7 +34,7 @@
           "name": "minecraft:gunpowder",
           "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
+            "count": {"type":"minecraft:uniform","min":1,"max":5}
           }]
         },
         {
@@ -42,7 +42,7 @@
           "name": "minecraft:magma_cream",
           "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":1.0,"max":5.0}
+            "count": {"type":"minecraft:uniform","min":1,"max":5}
           }]
         },
         {
@@ -50,7 +50,7 @@
           "name": "minecraft:ghast_tear",
           "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":1.0,"max":2.0}
+            "count": {"type":"minecraft:uniform","min":1,"max":2}
           }]
         }
       ]

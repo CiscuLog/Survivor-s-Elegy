@@ -2,15 +2,15 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {"type":"minecraft:uniform","min":2.0,"max":6.0},
-      "bonus_rolls": 0.0,
+      "rolls": {"type":"minecraft:uniform","min":2,"max":6},
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:crimson_fungus",
 		      "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
+            "count": {"type":"minecraft:uniform","min":2,"max":4}
           }],
 		      "weight": 4
         },
@@ -19,7 +19,7 @@
           "name": "minecraft:crimson_nylium",
 		      "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
+            "count": {"type":"minecraft:uniform","min":2,"max":4}
           }],
 		      "weight": 1
         },
@@ -28,7 +28,7 @@
           "name": "minecraft:crimson_roots",
 		      "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
+            "count": {"type":"minecraft:uniform","min":2,"max":4}
           }],
 		      "weight": 2
         },
@@ -37,7 +37,7 @@
           "name": "minecraft:weeping_vines",
 		      "modifier": [{
             "type": "minecraft:set_count",
-            "count": {"type":"minecraft:uniform","min":2.0,"max":4.0}
+            "count": {"type":"minecraft:uniform","min":2,"max":4}
           }],
 		      "weight": 2
         }

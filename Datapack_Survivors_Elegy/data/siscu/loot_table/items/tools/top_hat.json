@@ -17,8 +17,7 @@
                                 "item_model": "siscu_se:top_hat",
                                 "minecraft:custom_data": {
                                     "SE_data": {
-                                        "id": "siscu:top_hat",
-                                        "UpdateVersion": "v1.0.11"
+                                        "id": "siscu:top_hat"
                                     }
                                 },
                                 "equippable": {
@@ -41,7 +40,8 @@
                                     "slot": "head"
                                 }
                             ]
-                        }
+                        },
+            			"siscu:tooltip"
                     ]
                 }
             ]

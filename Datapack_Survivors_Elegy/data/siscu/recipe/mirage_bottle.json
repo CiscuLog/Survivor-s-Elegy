@@ -11,11 +11,11 @@
         "id": "minecraft:amethyst_shard",
         "components": {
             "item_name": {"italic":false,"translate":"item.siscu.mirage_bottle"},
+            "lore": [{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}],
             "item_model": "siscu_se:mirage_bottle",
             "custom_data": {
                 "SE_data": {
-                    "id": "siscu:mirage_bottle",
-                    "UpdateVersion": "v1.0.1"
+                    "id": "siscu:mirage_bottle"
                 }
             },
             "food": {

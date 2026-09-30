@@ -14,8 +14,7 @@
                                 "item_model": "siscu_se:mirage_bottle",
                                 "custom_data": {
                                     "SE_data": {
-                                        "id": "siscu:mirage_bottle",
-                                        "UpdateVersion": "v1.0.1"
+                                        "id": "siscu:mirage_bottle"
                                     }
                                 },
                                 "food": {
@@ -29,7 +28,8 @@
                                 "max_stack_size": 64,
                                 "rarity": "rare"
                             }
-                        }
+                        },
+            			"siscu:tooltip"
                     ]
                 }
             ]

@@ -1,0 +1,1 @@
+execute as @e[type=allay,tag=!smithed.entity] if predicate { "type": "minecraft:entity_properties", "entity":"this", "predicate": { "slots": { "weapon.mainhand": { "predicates": { "stored_enchantments": [{enchantments:"binding_curse"}] } } } } } at @s run function siscu:entities/allay/binding_book/main with entity @s equipment.mainhand

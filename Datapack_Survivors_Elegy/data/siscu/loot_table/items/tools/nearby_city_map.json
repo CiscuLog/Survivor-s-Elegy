@@ -31,7 +31,8 @@
                 "components": {
                   "item_name": {"italic":false,"translate":"item.siscu.pillager_outpost_map","font":"minecraft:illageralt"}
                 }
-              }
+              },
+        			"siscu:tooltip"
             ]
           }
         ]

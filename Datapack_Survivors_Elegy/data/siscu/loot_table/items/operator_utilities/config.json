@@ -15,8 +15,7 @@
 								"item_model": "siscu_se:config",
 								"minecraft:custom_data": {
 									"SE_data": {
-										"id": "siscu:config",
-										"UpdateVersion": "v1.0.1"
+										"id": "siscu:config"
 									}
 								},
 								"consumable": {
@@ -65,7 +64,8 @@
 							],
 							"entity": "this",
 							"mode": "replace_all"
-						}
+						},
+						"siscu:tooltip"
 					]
 				}
 			]

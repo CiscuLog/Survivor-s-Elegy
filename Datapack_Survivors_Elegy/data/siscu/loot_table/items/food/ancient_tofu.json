@@ -15,7 +15,6 @@
 								"custom_data": {
 									"SE_data": {
 										"id": "siscu:ancient_tofu",
-										"UpdateVersion": "v1.0.10",
 										"SnifferMeat": 1
 									}
 								},
@@ -27,7 +26,8 @@
 									{"translate":"text.siscu.tofu","color":"blue","italic":false}
 								]
 							}
-						}
+						},
+						"siscu:tooltip"
 					]
 				}
 			]

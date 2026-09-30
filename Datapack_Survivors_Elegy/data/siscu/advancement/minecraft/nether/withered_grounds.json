@@ -11,11 +11,7 @@
       {
         "translate": "advancements.siscu.minecraft.withered_grounds.description"
       },
-      {
-        "text": "\nSurvivor's Elegy",
-        "color": "gold",
-        "italic": true
-      }
+			{"text":"\n"},{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
     ],
     "frame": "task",
     "show_toast": true,

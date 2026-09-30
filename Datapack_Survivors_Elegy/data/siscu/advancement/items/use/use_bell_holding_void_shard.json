@@ -5,19 +5,15 @@
 		{
 			"trigger":"minecraft:any_block_use",
 			"conditions": {
+				"location": {
+					"type": "location_check",
+					"predicate": {"block": {"blocks": ["bell"]}}
+				},
 				"player": {
-					"type": "all_of",
+					"type": "any_of",
 					"terms": [
-						{
-							"type": "location_check",
-							"predicate": {"block": {"blocks": ["bell"]}}
-						},
-						{
-							"type": "match_tool",
-							"predicate": {
-								"items": "echo_shard"
-							}
-						}
+						{"type": "entity_properties","entity": "this","predicate": {"equipment": {"mainhand": {"items": "echo_shard"}}}},
+						{"type": "entity_properties","entity": "this","predicate": {"equipment": {"offhand": {"items": "echo_shard"}}}}
 					]
 				}
 			}

@@ -13,11 +13,11 @@
 					"item_model": "siscu_se:drowned_flesh",
 					"custom_data": {
 						"SE_data": {
-							"id": "siscu:drowned_flesh",
-							"UpdateVersion": "v1.0.1"
+							"id": "siscu:drowned_flesh"
 						}
 					}}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

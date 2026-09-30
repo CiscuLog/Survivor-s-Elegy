@@ -13,14 +13,15 @@
 					"item_name":{"translate":"item.siscu.hoglin_head"},
 					"rarity":"uncommon",
 					"item_model": "siscu_se:hoglin_head",
+					"equippable": {"slot": "head","damage_on_hurt": false},
 					"custom_data": {
 						"SE_data": {
-							"id": "siscu:hoglin_head",
-							"UpdateVersion": "v1.0.1"
+							"id": "siscu:hoglin_head"
 						}
 					}
 				}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

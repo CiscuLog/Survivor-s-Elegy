@@ -1,5 +1,50 @@
 
-Compatible Minecraft versions: 26.2
+Compatible Minecraft versions: 26.3
+
+Survivor's Elegy 1.1.0 (30/09/2026)
++ Changed resourcepack version to 12
++ Added "Spectre" mob category containing Allays, Vexes, Ghast, Phantoms and Happy Ghasts
++ Added Allays holding Enchanted Books with Curse of Binding will get absorbed into the book, turning into a Bound Allay. Only one Allay can be bound per book. Using the book will deploy the Allay and recover the original item
++ Added armor and weapons held by undead entities have a 20% chance of being enchanted
++ Added Banners on boats now periodically update to face the boat's rotation
++ Added Config menu can be accessed through the pause menu dialog window
++ Added Curse of Vanishing deals twice the amount of damage to "Spectre" type entities. It applies to enchanted books and enchanted items
++ Added custom fishing can be disabled through the config menu
++ Added Phage Buildup meter. It replaces the old text-based indicator
++ Added Piglins can hold Golden Spears
++ Added Shutters item model
++ Added tooltips on most custom items, signaling the item is from Survivor's Elegy
++ Added Tridents breaking into Lightning Rods back
++ Changed "Easy Transport" to "Fairy Carrier"
++ Changed base items for Sculk Plantoids and Blinds to poisonous potatoes
++ Changed Broth Cauldrons now update their temperature texture changes synchronously
++ Changed Chainmail Horse Armor is now bought from Journeyman Armorers
++ Changed Charges on copper gear only discharges if the player has been hurt by a living entity
++ Added "Chipped Rod" advancement for breaking a trident
++ Changed Sculk Plantoid textures. The texture will start changing from 1 xp point, and max capacity has now a final texture
++ Changed Crimson Paintings and Banners cannot be rotated when hung on a wall
++ Changed Hoglin and Zoglin Heads can now be equipped on the head slot
++ Changed Illager Skeletons and Piglin Skeletons now burn under sunlight
++ Changed Iron Golems get angry at zombified players more consistently
++ Changed max Phage Buildup meter from a default of 5 hits to 6 hits
++ Changed Pamphlet pictures
++ Changed Pig breeding will interrupt the multiple offspring spawning if there are 4 baby pigs or more in a 1-block radius
++ Changed pufferfish name "Porcupine Fish" to "Porcupinefish"
++ Changed Sculk Plantoids now drop xp orbs instead of granting the xp to the player data directly. This change allows the player's tools to get affected by mending when retrieving xp
++ Changed structures from Jungle Ruins blacksmith_1 and blacksmith_2 to better match their reference build
++ Disabled Clandestine Trading. Might be re-enabled in the future with a stronger concept
++ Fixed "Hidden in plain sight" only triggered when wearing armor
++ Fixed Light Sensors would read the light level of a grass path block instead of the block above
++ Fixed some Bastion Crevice chests weren't generating loot
++ Fixed Vex could drop their swords
++ Fixed zombified players were having their helmet durability decreased twice as fast when under the sun
++ Removed "Safe Mode" due to lack of usefulness
++ Removed allay note block signaling
++ Removed Cinder Lamps acquisition path. They can no longer can be bought from Wandering Traders and have essentially become legacy items, but existing items retain their functionality
++ Removed Fried Eggs
++ Removed players dropping their heads when killed by charged creepers
++ Removed toolbox functions from "survivors_elegy:". The only command left in the namespace is now "survivors_elegy:config"
++ Removed trigger update system for old items. Custom items no longer keep track of the last update that changed their data. As a side effect, old items and new items whose this change applies to will not stack together. Pre-1.21.4 datapack upgrade warning message has been updated accordingly
 
 Survivor's Elegy 1.0.13 (17/09/2026)
 + Updated to 26.3

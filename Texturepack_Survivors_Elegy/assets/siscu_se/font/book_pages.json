@@ -162,7 +162,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "siscu_se:font/witch/potion1.png",
+			"file": "siscu_se:gui/books/potion_book/potion1.png",
 			"ascent": 10,
 			"height": 130,
 			"chars": [
@@ -171,7 +171,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "siscu_se:font/witch/potion2.png",
+			"file": "siscu_se:gui/books/potion_book/potion2.png",
 			"ascent": 10,
 			"height": 130,
 			"chars": [
@@ -180,7 +180,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "siscu_se:font/witch/potion3.png",
+			"file": "siscu_se:gui/books/potion_book/potion3.png",
 			"ascent": 10,
 			"height": 130,
 			"chars": [
@@ -189,7 +189,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "siscu_se:font/witch/potion4.png",
+			"file": "siscu_se:gui/books/potion_book/potion4.png",
 			"ascent": 10,
 			"height": 130,
 			"chars": [
@@ -198,7 +198,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "siscu_se:font/witch/potion5.png",
+			"file": "siscu_se:gui/books/potion_book/potion5.png",
 			"ascent": 10,
 			"height": 130,
 			"chars": [
@@ -207,7 +207,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "siscu_se:font/witch/potion1.png",
+			"file": "siscu_se:gui/books/potion_book/potion1.png",
 			"ascent": -32768,
 			"height": -130,
 			"chars": [
@@ -216,7 +216,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "siscu_se:font/witch/stew1.png",
+			"file": "siscu_se:gui/books/suspicious_stew_book/stew1.png",
 			"ascent": 10,
 			"height": 130,
 			"chars": [
@@ -225,7 +225,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "siscu_se:font/witch/stew2.png",
+			"file": "siscu_se:gui/books/suspicious_stew_book/stew2.png",
 			"ascent": 10,
 			"height": 130,
 			"chars": [
@@ -234,7 +234,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "siscu_se:font/witch/stew3.png",
+			"file": "siscu_se:gui/books/suspicious_stew_book/stew3.png",
 			"ascent": 10,
 			"height": 130,
 			"chars": [

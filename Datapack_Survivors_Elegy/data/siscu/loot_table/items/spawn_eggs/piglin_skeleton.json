@@ -14,7 +14,8 @@
 					"item_name":{"translate":"item.siscu.spawn_egg_piglin_skeleton"},
 					"entity_data":{"id":"skeleton","Tags":["siscu.piglin"]}
 				}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

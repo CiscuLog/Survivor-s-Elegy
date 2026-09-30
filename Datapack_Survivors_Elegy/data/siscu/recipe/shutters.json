@@ -11,18 +11,18 @@
     "s": "minecraft:string"
   },
   "result": {
-    "id": "minecraft:stick",
+    "id": "minecraft:poisonous_potato",
     "components": {
       "item_name": {"translate":"item.siscu.shutters"},
       "lore": [
-        {"translate":"text.siscu.place_frame","italic":false,"color":"gray"}
+        {"translate":"text.siscu.place_frame","italic":false,"color":"gray"},
+        {"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
       ],
       "item_model": "siscu_se:shutters",
+      "!food": {},
+      "!consumable": {},
       "custom_data": {
-        "SE_data": {
-          "id": "siscu:shutters",
-          "UpdateVersion": "v1.0.1"
-        }
+        "SE_data": { "id": "siscu:shutters" }
       }
     }
   }

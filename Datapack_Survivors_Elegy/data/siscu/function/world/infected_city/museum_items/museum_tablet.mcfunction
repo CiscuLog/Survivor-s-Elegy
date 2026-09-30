@@ -4,7 +4,7 @@ tag @s remove siscu.museum_tablet
 
 # Shield (oxidised?)
 loot replace entity @s contents loot siscu:archaeology/jungle_ruins_tablets
-function siscu:entities/item_frame/item_frame_detection
+function siscu:entities/item_frame/main
 
 # Explanation book
 data merge block ~ ~ ~ {Book:{id:"written_book",count:1,components:{ "written_book_content": { "author": "Museum", "title": "Enchanted Tablets", "generation": 1, "pages": [\

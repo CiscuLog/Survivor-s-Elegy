@@ -15,7 +15,6 @@
 					"tooltip_display": {"hidden_components": []},
 					"custom_data":{
 						"SE_data":{
-							"UpdateVersion": "v1.0.1"
 						}
 					},
 					"equippable": {
@@ -24,7 +23,8 @@
 						"asset_id": "siscu_se:witch"
 					}
 				}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

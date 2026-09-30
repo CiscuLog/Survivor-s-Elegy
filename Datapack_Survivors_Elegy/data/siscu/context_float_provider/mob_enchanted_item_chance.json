@@ -1,0 +1,18 @@
+{
+  "type": "number_dispatcher",
+  "cases": [
+    {
+      "condition": {
+        "type": "int_value_check",
+        "test": {
+          "type": "storage",
+          "path": "config.difficulty",
+          "storage": "siscu:world",
+          "fallback": 1
+        },
+        "value": 1
+      },
+      "value": 1
+    }
+  ]
+}

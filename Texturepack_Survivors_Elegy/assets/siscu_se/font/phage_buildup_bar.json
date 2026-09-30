@@ -1,0 +1,33 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "siscu_se:gui/sprites/zombification/bar_base.png",
+            "ascent": 9,
+            "height": 16,
+            "chars": ["A"]
+        },
+        {
+            "type": "space",
+            "advances": {
+                "B": -172,
+                ".": -1,
+                "-": 13
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "siscu_se:gui/sprites/zombification/progress_bar.png",
+            "ascent": 4,
+            "height": 5,
+            "chars": ["abcdefghijkl"]
+        },
+        {
+            "type": "bitmap",
+            "file": "siscu_se:gui/sprites/zombification/icons.png",
+            "ascent": 5,
+            "height": 8,
+            "chars": ["1234"]
+        }
+    ]
+}

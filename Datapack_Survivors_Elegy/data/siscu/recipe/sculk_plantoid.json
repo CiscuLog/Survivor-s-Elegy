@@ -3,22 +3,20 @@
   "category": "equipment",
   "ingredients": ["echo_shard","pitcher_pod","echo_shard"],
   "result": {
-    "id": "minecraft:beetroot",
+    "id": "minecraft:poisonous_potato",
     "components": {
       "max_stack_size": 64,
       "item_name": {"translate":"item.siscu.sculk_plantoid"},
       "minecraft:lore": [
-        {"color":"gray","italic":false,"translate":"text.siscu.place_decorated_pot"}
+        {"color":"gray","italic":false,"translate":"text.siscu.place_decorated_pot"},{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
       ],
       "item_model": "siscu_se:sculk_plantoid",
       "rarity": "rare",
       "custom_data": {
-        "SE_data": {
-          "id": "siscu:sculk_plantoid",
-          "UpdateVersion": "v1.0.1",
-          "StoredXp": 0
-        }
+        "SE_data": { "id": "siscu:sculk_plantoid", "StoredXp": 0 },
+        "smithed":{"ignore":{"functionality":true,"crafting":true}}
       },
+      "!food": {},
       "consumable": {
         "consume_seconds": 1000000
       }

@@ -1,4 +1,5 @@
 
+execute store success score #cure_player siscu.volatile if entity @s[advancements={siscu:entities/cure_player=true}]
 advancement revoke @s only siscu:entities/cure_player
 
 # Only trigger if zombified
@@ -24,5 +25,6 @@ function siscu:technical/body_item/sunburn_remove
 
 scoreboard players reset @s siscu.zombifying
 
-execute if entity @s[advancements={siscu:entities/cure_player=true}] at @s run function siscu:entities/phage/cure/player_cure_effects
+execute if score #cure_player siscu.volatile matches 1.. at @s run function siscu:entities/phage/cure/player_cure_effects
+scoreboard players reset #cure_player siscu.volatile
 execute at @s anchored eyes positioned ^ ^ ^ run particle entity_effect{color:[0.752,0.643,0.302,1]} ~ ~-0.5 ~ 0 0.5 0 0.3 20 normal

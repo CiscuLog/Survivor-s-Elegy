@@ -3,4 +3,4 @@ advancement revoke @s only siscu:entities/hurt_vex
 # Check for Cinder Box
 execute unless predicate siscu:items/allay_container run return 0
 item modify entity @s[gamemode=!creative] weapon.mainhand siscu:decrease_1
-execute as @n[type=vex,nbt={HurtTime:10s}] at @s positioned ~ ~0.2 ~ run function siscu:entities/vex/contain_vex
+execute at @s as @n[type=vex,nbt={HurtTime:10s},tag=!smithed.entity] at @s positioned ~ ~0.2 ~ run function siscu:entities/vex/contain_vex

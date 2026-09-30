@@ -2,18 +2,14 @@
 	"parent": "siscu:minecraft/husbandry/plant_sculk_plantoid",
 	"display":{
 			"icon": {
-					"id": "minecraft:leather",
-					"components": {"item_model":"siscu_se:sculk_plantoid_4"}
+					"id": "minecraft:poisonous_potato",
+					"components": {"item_model":"siscu_se:sculk_plantoid_block","custom_model_data": {"floats": [5]}}
 			},
 			"title": {"translate": "advancements.siscu.minecraft.bloom_plantoid.title"},
 			"description": [{
 				"translate": "advancements.siscu.minecraft.bloom_plantoid.description"
 				},
-				{
-					"text":"\nSurvivor's Elegy",
-					"color": "gold",
-					"italic": true
-				}
+				{"text":"\n"},{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
 		],
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -13,11 +13,11 @@
 				"item_model": "siscu_se:pufferfish",
 				"custom_data": {
 					"SE_data": {
-						"id": "siscu:pufferfish",
-						"UpdateVersion": "v1.0.1"
+						"id": "siscu:pufferfish"
 					}
 				}}
-			}
+			},
+			"siscu:tooltip"
 			]
 		}
 		]

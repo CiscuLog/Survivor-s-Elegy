@@ -1,4 +1,5 @@
 tag @s add siscu.fisherman_lvl1
+execute unless score custom_fishing siscu.integer matches 1.. run return fail
 
 summon villager ~ ~ ~ {active_effects:[{id:"minecraft:invisibility",amplifier:0b,show_particles:0b,duration:10}],Tags:["siscu.new_trade"],Silent:true,Age:-100}
 execute as @n[tag=siscu.new_trade] at @s run loot replace entity @s armor.head loot siscu:groups/all_fish

@@ -1,0 +1,20 @@
+{
+  "parent": "siscu:items/root",
+  "criteria": {
+    "0": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "weapon.mainhand": {"items": "trident","predicates": {"damage": {"durability": {"max": 1}}}}
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {"function": "siscu:items/use/trident/break_to_rod/advancement"}
+}

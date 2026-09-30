@@ -175,7 +175,7 @@
                 "effect": {
                     "type": "minecraft:replace_disk",
                     "block_state": {
-                        "type": "simple",
+                        "type": "minecraft:simple",
                         "state": {
                             "id": "frosted_ice",
                             "properties": {"age": "0"}
@@ -215,7 +215,7 @@
                     "radius": {
                         "type": "minecraft:clamped",
                         "max": 16.0,
-                        "min": 0.0,
+                        "min": 0,
                         "value": {
                             "type": "minecraft:linear",
                             "base": 3.0,

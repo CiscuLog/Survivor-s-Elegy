@@ -31,8 +31,7 @@
                 "minecraft:custom_data": {
                   "SE_data": {
                     "id": "siscu:wax_horse_armor",
-                    "IsWax": 1,
-                    "UpdateVersion": "v1.0.1"
+                    "IsWax": 1
                   }
                 },
                 "equippable": {
@@ -50,7 +49,8 @@
                   }
                 ]
               }
-            }
+            },
+      			"siscu:tooltip"
           ]
         }
       ]

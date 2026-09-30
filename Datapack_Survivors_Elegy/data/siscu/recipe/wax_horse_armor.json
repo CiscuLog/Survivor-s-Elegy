@@ -21,14 +21,14 @@
 					"translate": "text.siscu.wax_horse_armor2",
 					"italic": false,
 					"color": "gray"
-				}
+				},
+				{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
 			],
 			"minecraft:item_model": "siscu_se:wax_horse_armor",
 			"minecraft:custom_data": {
 				"SE_data": {
 					"id": "siscu:wax_horse_armor",
-					"IsWax": 1,
-					"UpdateVersion": "v1.0.1"
+					"IsWax": 1
 				}
 			},
 			"equippable": {
