@@ -17,6 +17,6 @@
 		  }
 	},
 	"rewards": {
-		"function": "siscu:advancement/use_lectern"
+		"function": "siscu:blocks/use_lectern"
 	}
 }

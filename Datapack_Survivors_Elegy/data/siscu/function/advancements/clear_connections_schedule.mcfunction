@@ -1,0 +1,1 @@
+schedule function siscu:advancements/clear_connections 2t

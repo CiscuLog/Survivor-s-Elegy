@@ -22,7 +22,8 @@
 						],
 						"generation": 3, 
 						"author": "Calendula",
-						"title":{"raw":"Apothecary"}
+						"title":{"raw":"Apothecary"},
+						"resolved": true
 					},
 					"custom_data": {
 						"SE_data": {

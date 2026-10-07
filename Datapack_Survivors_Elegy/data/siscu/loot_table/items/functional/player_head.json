@@ -11,6 +11,12 @@
 		  {
 			  "type": "minecraft:fill_player_head",
 			  "entity": "this"
+		  },
+		  {
+			"type": "set_components",
+			"components": {
+				"equippable": {"slot": "saddle","equip_sound": "intentionally_empty"}
+			}
 		  }
 		  ]
 		}

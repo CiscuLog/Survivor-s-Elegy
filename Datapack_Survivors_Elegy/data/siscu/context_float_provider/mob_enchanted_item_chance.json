@@ -6,13 +6,27 @@
         "type": "int_value_check",
         "test": {
           "type": "storage",
-          "path": "config.difficulty",
+          "path": "difficulty",
           "storage": "siscu:world",
-          "fallback": 1
+          "fallback": 0
         },
-        "value": 1
+        "value": 3
       },
-      "value": 1
+      "value": 0.2
+    },
+    {
+      "condition": {
+        "type": "int_value_check",
+        "test": {
+          "type": "storage",
+          "path": "difficulty",
+          "storage": "siscu:world",
+          "fallback": 0
+        },
+        "value": 2
+      },
+      "value": 0.05
     }
-  ]
+  ],
+  "default": 0
 }

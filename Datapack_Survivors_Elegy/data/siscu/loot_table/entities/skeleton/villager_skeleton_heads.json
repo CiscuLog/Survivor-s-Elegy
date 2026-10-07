@@ -230,5 +230,6 @@
 		}
 		]
 	  }
-	]
+	],
+	"modifier": "siscu:entity/burns_under_sun"
 }

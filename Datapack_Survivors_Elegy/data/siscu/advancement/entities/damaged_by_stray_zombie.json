@@ -15,6 +15,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:advancement/damaged_by_stray_zombie"
+		"function": "siscu:entities/player/hurt/by_stray_zombie"
 	}
 }

@@ -9,7 +9,7 @@
     }
   },
   "rewards": {
-    "function": "siscu:advancement/grant_recipes",
+    "function": "siscu:advancements/grant_recipes",
     "recipes": [
       "bread",
       "chest_minecart_without_chest",

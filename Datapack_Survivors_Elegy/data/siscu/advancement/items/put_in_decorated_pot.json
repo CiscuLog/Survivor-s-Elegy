@@ -17,6 +17,6 @@
 		  }
 	},
 	"rewards": {
-		"function": "siscu:advancement/put_in_decorated_pot"
+		"function": "siscu:blocks/put_in_decorated_pot"
 	}
 }

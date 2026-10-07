@@ -17,6 +17,6 @@
         }
     },
     "rewards": {
-        "function": "siscu:advancement/feed/undead_baby"
+        "function": "siscu:entities/generic/feed_undead_baby"
     }
 }

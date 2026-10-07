@@ -15,6 +15,6 @@
         }
     },
     "rewards": {
-        "function": "siscu:advancement/hurt_while_wearing_copper_armor"
+        "function": "siscu:entities/player/hurt/hurt_while_wearing_copper_armor"
     }
 }

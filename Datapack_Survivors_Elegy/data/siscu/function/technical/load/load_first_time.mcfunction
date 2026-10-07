@@ -5,7 +5,7 @@
 execute if data storage siscu:world PackVersion unless data storage siscu:world MajorUpdate run schedule function siscu:technical/load/update_warning/1.21.4 5s
 
 # Update (siscu:world)
-data merge storage siscu:world {PackVersion:"v1.1.0",RPVersion:12,MajorUpdate:1,config:{}}
+data merge storage siscu:world {PackVersion:"v1.1.1",RPVersion:12,MajorUpdate:1,config:{},difficulty:2}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 execute unless data storage siscu:world day_length run data merge storage siscu:world {day_length:3}
 

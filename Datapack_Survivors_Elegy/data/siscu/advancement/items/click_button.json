@@ -17,6 +17,6 @@
 		  }
 	},
 	"rewards": {
-		"function": "siscu:advancement/click_button"
+		"function": "siscu:blocks/click_button"
 	}
 }

@@ -1,6 +1,26 @@
 
 Compatible Minecraft versions: 26.3
 
+Survivor's Elegy 1.1.1 (07/10/2026)
++ Changed resourcepack version numbers to match the datapack's version instead of being an independent number
++ Added amethyst zombies, bogged zombies, stray zombies, dripstone zombies, skeleton piglins and skeleton illagers now burn under sunlight
++ Added iron, copper and snow golems are now immune to phage
++ Added Lightning Rod item models for Exposed, Weathered and Oxidized variants
++ Added Mount Catalyst now reacts to Feather Falling. It acts as if the level was always 3
++ Added zombified players have a 1-second grace period when standing under direct sunlight
++ Changed Bound Allay books increase the repair cost of the item to the too expensive limit. It will revert after deploying the Allay
++ Changed enchanted mob gear depends on the game's difficulty. The chances of a piece being enchanted are 25% in hard, 5% in normal, 0% otherwise
++ Changed Phage Arrows no longer rely on the unluck effect to trigger zombification. All Phage Arrows from previous versions have become obsolete
++ Changed Trader Tent structure now uses wool stairs and slabs for the tent
++ Changed Unluck is no longer used to inflict Phage on entities
++ Fixed breaking Sculk Plantoids would display missing texture particles
++ Fixed Cows, Chickens, Pigs, Wolves and Frogs couldn't zombify
++ Fixed custom spawn eggs were being held like swords
++ Fixed Dragon Egg wasn't displaying the dragon slayer on its tooltip
++ Fixed new witch books weren't stackable with books that had been placed on lecterns
++ Fixed non-zombifiable entities who didn't die to phage damage would convert into zombies when the timer reached 0. They now get cleared of the infected status
++ Fixed Sculk Plantoids would have a missing model when planted
+
 Survivor's Elegy 1.1.0 (30/09/2026)
 + Changed resourcepack version to 12
 + Added "Spectre" mob category containing Allays, Vexes, Ghast, Phantoms and Happy Ghasts

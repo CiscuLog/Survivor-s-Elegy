@@ -15,6 +15,7 @@
 						"title": "Nose",
 						"author": "Siscu",
 						"generation": 0,
+						"resolved": true,
 					  	"pages": [
 							{"translate":"text.siscu.blank","fallback":"You seem to be missing Survivor's Elegy required resourcepack!\nDownload it from the datapack download page or ask the server owner for more details.","extra":[{"translate":"text.siscu.pamphlet1_1","font":"siscu_se:book_pages","color":"white","fallback":""},{"translate":"text.siscu.pamphlet1_2","color":"black","fallback":""}]},
 							{"translate":"text.siscu.blank","fallback":"You seem to be missing Survivor's Elegy required resourcepack!\nDownload it from the datapack download page or ask the server owner for more details.","extra":[{"translate":"text.siscu.pamphlet2_1","font":"siscu_se:book_pages","color":"white","fallback":""},{"translate":"text.siscu.pamphlet2_2","color":"black","fallback":""}]},

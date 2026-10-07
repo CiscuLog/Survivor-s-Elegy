@@ -13,6 +13,6 @@
     }
   },
   "rewards": {
-    "function": "siscu:advancement/rename_dragon_egg"
+    "function": "siscu:items/use/dragon_egg/rename"
   }
 }

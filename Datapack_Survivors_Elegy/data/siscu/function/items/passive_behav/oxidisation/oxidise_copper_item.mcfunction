@@ -17,7 +17,7 @@ $scoreboard players add $(score) siscu.volatile 1
 
 # Change CMD, Oxidation value
 item modify entity @s armor.* {"type":"set_custom_model_data",floats:{mode:"replace_all",values:[{type:"storage",storage:"siscu:volatile",path:"x",fallback:0}]}}
-$item modify entity @s $(Slot) 
+#$item modify entity @s $(Slot) 
 $execute store result storage siscu:volatile Oxidation int 1 run scoreboard players get $(score) siscu.volatile
 function siscu:items/item_modifier/oxidisation with storage siscu:volatile
 

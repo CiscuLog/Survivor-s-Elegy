@@ -3,6 +3,7 @@ $summon bogged ~ ~ ~ {Tags:["siscu.bogged_checked","siscu.converted","rotten"],R
 LeftHanded:$(LeftHanded),PersistenceRequired:$(PersistenceRequired),CanPickUpLoot:$(CanPickUpLoot)\
 \
 }
+item replace entity @s armor.head with air
 
 execute if entity @s[predicate=siscu:utils/is_baby,tag=!set_scale] run function siscu:entities/rotting_mobs/set_size
 

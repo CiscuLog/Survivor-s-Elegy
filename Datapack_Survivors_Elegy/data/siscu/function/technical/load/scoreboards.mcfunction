@@ -1,53 +1,56 @@
 
 # Technical
 # mutable and reusable scores
-scoreboard objectives add siscu.volatile dummy {"text":"Volatile Data","color":"light_purple"}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.volatile", type:"dummy", display: {"text":"Volatile Data","color":"light_purple"}}
 # fixed scores, read-only
-scoreboard objectives add siscu.integer dummy {"text":"Int","color":"gold"}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.integer", type:"dummy", display: {"text":"Int","color":"gold"}}
 # config data, writable via config menu
-scoreboard objectives add siscu.config dummy {"text":"Int","color":"gold"}
-scoreboard objectives add siscu.debug_panel dummy {"text":"Info","color":"gold"}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.config", type:"dummy", display: {"text":"Int","color":"gold"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.debug_panel", type:"dummy", display: {"text":"Info","color":"gold"}}
 
 # World
-scoreboard objectives add siscu.sleep_time dummy {"text":"Sleep Time","color":"red"}
-scoreboard objectives add siscu.day dummy {"text":"Day","color":"aqua"}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.sleep_time", type:"dummy", display: {"text":"Sleep Time","color":"red"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.day", type:"dummy", display: {"text":"Day","color":"aqua"}}
 
 # Players
-scoreboard objectives add siscu.death deathCount {"text":"Single_dead","color":"gold"}
-scoreboard objectives add siscu.dimension dummy {"text":"Dimension","color":"dark_green"}
-scoreboard objectives add siscu.entity_hit dummy {"text":"Hits on entity"}
-scoreboard objectives add siscu.grass_stealth dummy {"text":"Grass Stealth","color":"green"}
-scoreboard objectives add siscu.left_game minecraft.custom:minecraft.leave_game {"text":"Games Left","color":"white"}
-scoreboard objectives add siscu.spam_lectern dummy {"text":"Lectern Spamming"}
-scoreboard objectives add siscu.spam_lectern_dismiss trigger {"text":"Lectern Spam Message"}
-scoreboard objectives add siscu.phage_buildup dummy {text:"Phage buildup",color:"dark_green"}
-scoreboard objectives add siscu.use_fungus minecraft.used:minecraft.warped_fungus_on_a_stick {"text":"Use","color":"aqua"}
-scoreboard objectives add siscu.warped_food dummy {"text":"Warped Food","color":"aqua"}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.death", type:"deathCount", display: {"text":"Single_dead","color":"gold"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.dimension", type:"dummy", display: {"text":"Dimension","color":"dark_green"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.entity_hit", type:"dummy", display: {"text":"Hits on entity"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.grass_stealth", type:"dummy", display: {"text":"Grass Stealth","color":"green"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.left_game", type:"minecraft.custom:minecraft.leave_game", display: {"text":"Games Left","color":"white"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.spam_lectern", type:"dummy", display: {"text":"Lectern Spamming"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.spam_lectern_dismiss", type:"trigger", display: {"text":"Lectern Spam Message"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.phage_buildup", type:"dummy", display: {text:"Phage buildup",color:"dark_green"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.use_fungus", type:"minecraft.used:minecraft.warped_fungus_on_a_stick", display: {"text":"Use","color":"aqua"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.warped_food", type:"dummy", display: {"text":"Warped Food","color":"aqua"}}
 
 # Items
-scoreboard objectives add siscu.config_cooldown dummy {"text":"Config Cooldown","color":"gold"}
-scoreboard objectives add siscu.enchantment_reroll dummy {"text":"Enchantment Reroll Data","color":"dark_purple"}
-scoreboard objectives add siscu.light_sensor_cooldown dummy {"text":"Light Sensor Cooldown","color":"gold"}
-scoreboard objectives add siscu.stray_armor dummy {"text":"Stray Armor","color":"aqua"}
-scoreboard objectives add siscu.tofu_boost dummy {"text":"Boost Main","color": "red"}
-scoreboard objectives add siscu.tofu_boost_1 dummy {"text":"Boost 1","color": "red"}
-scoreboard objectives add siscu.tofu_boost_2 dummy {"text":"Boost 2","color": "red"}
-scoreboard objectives add siscu.tofu_boost_3 dummy {"text":"Boost 3","color": "red"}
-scoreboard objectives add siscu.tofu_boost_4 dummy {"text":"Boost 4","color": "red"}
-scoreboard objectives add siscu.tofu_boost_5 dummy {"text":"Boost 5","color": "red"}
-scoreboard objectives add siscu.use_goat_horn minecraft.used:minecraft.goat_horn {"text":"Horn"}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.config_cooldown", type:"dummy", display: {"text":"Config Cooldown","color":"gold"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.enchantment_reroll", type:"dummy", display: {"text":"Enchantment Reroll Data","color":"dark_purple"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.light_sensor_cooldown", type:"dummy", display: {"text":"Light Sensor Cooldown","color":"gold"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.stray_armor", type:"dummy", display: {"text":"Stray Armor","color":"aqua"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.tofu_boost", type:"dummy", display: {"text":"Boost Main","color": "red"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.tofu_boost_1", type:"dummy", display: {"text":"Boost 1","color": "red"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.tofu_boost_2", type:"dummy", display: {"text":"Boost 2","color": "red"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.tofu_boost_3", type:"dummy", display: {"text":"Boost 3","color": "red"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.tofu_boost_4", type:"dummy", display: {"text":"Boost 4","color": "red"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.tofu_boost_5", type:"dummy", display: {"text":"Boost 5","color": "red"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.use_goat_horn", type:"minecraft.used:minecraft.goat_horn", display: {"text":"Horn"}}
 
 # Blocks
-scoreboard objectives add siscu.balancer dummy {"text":"Tick Load Balancer"}
-scoreboard objectives add siscu.broth_data dummy {"text":"Broth Data","color":"gold"}
-scoreboard objectives add siscu.broth_ingredients dummy {"text":"Amount of Broth Ingredients","color":"gold"}
-scoreboard objectives add siscu.broth_temperature dummy {"text":"Broth Temperature","color":"red"}
-scoreboard objectives add siscu.fire_spring dummy {"text":"Fire Spring","color":"yellow"}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.balancer", type:"dummy", display: {"text":"Tick Load Balancer"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.broth_data", type:"dummy", display: {"text":"Broth Data","color":"gold"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.broth_ingredients", type:"dummy", display: {"text":"Amount of Broth Ingredients","color":"gold"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.broth_temperature", type:"dummy", display: {"text":"Broth Temperature","color":"red"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.fire_spring", type:"dummy", display: {"text":"Fire Spring","color":"yellow"}}
 
 # Entities
-scoreboard objectives add siscu.entity_health dummy {"text":"Health","color":"red"}
-scoreboard objectives add siscu.item_frame_inv dummy {"text":"Frame Invisibility","color":"aqua"}
-scoreboard objectives add siscu.rotting_mob dummy {"text":"Rotting Mobs","color":"dark_green"}
-scoreboard objectives add siscu.trader_timer dummy {"text":"Trader Pet Timer","color":"blue"}
-scoreboard objectives add siscu.withering dummy {"text":"Withering","color":"dark_gray","font":"siscu_se:piglinalt"}
-scoreboard objectives add siscu.zombifying dummy {"text":"Zombifying","color":"dark_green"}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.entity_health", type:"dummy", display: {"text":"Health","color":"red"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.item_frame_inv", type:"dummy", display: {"text":"Frame Invisibility","color":"aqua"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.rotting_mob", type:"dummy", display: {"text":"Rotting Mobs","color":"dark_green"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.trader_timer", type:"dummy", display: {"text":"Trader Pet Timer","color":"blue"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.withering", type:"dummy", display: {"text":"Withering","color":"dark_gray","font":"siscu_se:piglinalt"}}
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.zombifying", type:"dummy", display: {"text":"Zombifying","color":"dark_green"}}
+
+# Enchantments
+function siscu:technical/scoreboards/add_scoreboard {name:"siscu.sunburn", type:"dummy", display: {"text":"Sunburn","color":"gold"}}

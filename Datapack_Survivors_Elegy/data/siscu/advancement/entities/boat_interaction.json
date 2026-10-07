@@ -32,6 +32,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:advancement/boat_interaction"
+		"function": "siscu:entities/boat/interaction"
 	}
 }

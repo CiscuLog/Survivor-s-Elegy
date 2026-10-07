@@ -1,0 +1,46 @@
+{
+  "supported_items": [
+    "stone"
+  ],
+  "anvil_cost": 1,
+  "description": [
+        {"translate": "enchantment.siscu.mob_burn"},
+        {"translate": "enchantment.siscu.technical_enchantment","font": "siscu_se:superscript","fallback": ": ⚠ Unattainable in survival.\n Contact the dev if you see this ⚠"}
+    ],
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 11
+  },
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "max_level": 1,
+  "slots": [
+    "any"
+  ],
+  "weight": 1,
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:ignite",
+          "duration": 8
+        },
+        "requirements": {
+          "type": "all_of",
+          "terms": [
+          {
+            "type": "location_check",
+            "predicate": {
+              "can_see_sky": true,
+              "light": {"light": {"min": 15}}
+            }
+          },
+          {"type": "entity_properties","entity": "this","predicate": {"flags": {"is_on_fire": false}}}
+        ]
+        }
+      }
+    ]
+  }
+}

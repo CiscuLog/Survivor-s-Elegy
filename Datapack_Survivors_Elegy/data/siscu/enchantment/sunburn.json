@@ -3,9 +3,10 @@
     "stone"
   ],
   "anvil_cost": 1,
-  "description": {
-    "translate": "enchantment.siscu.sunburn"
-  },
+  "description": [
+        {"translate": "enchantment.siscu.sunburn"},
+        {"translate": "enchantment.siscu.technical_enchantment","font": "siscu_se:superscript","fallback": ": ⚠ Unattainable in survival.\n Contact the dev if you see this ⚠"}
+    ],
   "max_cost": {
     "base": 12,
     "per_level_above_first": 11
@@ -21,6 +22,7 @@
   "weight": 1,
   "effects": {
     "minecraft:tick": [
+      { "effect": { "type": "run_function", "function": "siscu:enchantment/sunburn/entity_clock" } },
       {
         "effect": {
           "type": "minecraft:ignite",
@@ -29,16 +31,9 @@
         "requirements": {
           "type": "all_of",
           "terms": [
-          {
-            "type": "location_check",
-            "predicate": {
-              "can_see_sky": true,
-              "light": {"light": {"min": 15}}
-            }
-          },
-          {"type": "entity_properties","entity": "this","predicate": {"equipment": {"head": {"items": "air"}}}},
-          {"type": "entity_properties","entity": "this","predicate": {"flags": {"is_on_fire": false}}}
-        ]
+            { "type": "entity_scores", "entity": "this", "scores": {"siscu.sunburn": {"min": 20}} },
+            {"type": "entity_properties","entity": "this","predicate": {"flags": {"is_on_fire": false}}}
+          ]
         }
       }
     ]

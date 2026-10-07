@@ -10,7 +10,8 @@
 			  {
 			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:piglin_skull"}
-			  }
+			  },
+			  "siscu:entity/burns_under_sun"
 			],
 		"weight":3,
 		"condition": {
@@ -31,7 +32,8 @@
 			  {
 			  "type": "minecraft:set_components",
 			  "components": {"item_model":"siscu_se:villager_skull"}
-			  }
+			  },
+			  "siscu:entity/burns_under_sun"
 			],
 		"weight":1,
 		"condition": {

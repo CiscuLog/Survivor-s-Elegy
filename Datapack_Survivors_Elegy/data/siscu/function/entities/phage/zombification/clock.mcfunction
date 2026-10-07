@@ -18,6 +18,9 @@ execute if score @s siscu.zombifying matches ..0 at @s anchored eyes positioned 
 execute unless score @s siscu.zombifying matches 0 run return 0
 # Else, Zombification
 
+# Non-zombifiable!!
+execute if entity @s[type=!#siscu:phage_zombifiable] run return run function siscu:entities/phage/cure/clear_zombifying
+
 # Player
 execute if score @s[type=player,tag=!siscu.zombie] siscu.zombifying matches 0.. run return run function siscu:entities/phage/zombification/zombify/player
 # Entities, remove zombifying status and then zombify

@@ -7,6 +7,3 @@ function siscu:entities/boat/rotation_macro with storage siscu:volatile data.cal
 data remove storage siscu:volatile data.calc
 
 return run data merge entity @s {interpolation_duration:10,start_interpolation:0}
-
-# old
-execute on vehicle rotated as @s on passengers run rotate @s[tag=siscu.boat_flag] ~ ~

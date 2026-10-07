@@ -2,6 +2,48 @@
 # tag deflected projectile
 execute at @s as @n[type=#siscu:deflectable_projectiles,nbt={inGround:0b},distance=..5] run tag @s add siscu.deflected_projectile
 
+# get rotation
+data modify storage siscu:volatile data.rotation set from entity @s Rotation
+data modify storage siscu:volatile data.rotation[0] set compute default float {type:"mul",inputs:[{type:"storage","storage":"siscu:volatile",path:"data.rotation[0]",fallback:0},-0.0174532]}
+data modify storage siscu:volatile data.rotation[1] set compute default float {type:"mul",inputs:[{type:"storage","storage":"siscu:volatile",path:"data.rotation[1]",fallback:0},-0.0174532]}
+data modify storage siscu:volatile data.motion set value [0f,0f,0f]
+data modify storage siscu:volatile data.speed set value 3
+
+# set motion facing direction
+# x = cos(x)cos(y)
+# y = sin(y)
+# z = sin(x)cos(y)
+data modify storage siscu:volatile data.motion[0] set compute entity @s float {type:"mul",inputs:[\
+  {type:"storage",storage:"siscu:volatile","path":"data.speed"},\
+  {type:"sin",input:{type:"storage",storage:"siscu:volatile","path":"data.rotation[0]"}},\
+  {type:"cos",input:{type:"storage",storage:"siscu:volatile",path:"data.rotation[1]"}}\
+]}
+data modify storage siscu:volatile data.motion[1] set compute entity @s float {type:"mul",inputs:[\
+  {type:"storage",storage:"siscu:volatile","path":"data.speed"},\
+  {type:"sin",input:{type:"storage",storage:"siscu:volatile","path":"data.rotation[1]"}}\
+]}
+data modify storage siscu:volatile data.motion[2] set compute entity @s float {type:"mul",inputs:[\
+  {type:"storage",storage:"siscu:volatile","path":"data.speed"},\
+  {type:"cos",input:{type:"storage",storage:"siscu:volatile","path":"data.rotation[0]"}},\
+  {type:"cos",input:{type:"storage",storage:"siscu:volatile",path:"data.rotation[1]"}}\
+]}
+
+# store data
+data modify entity @n[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] data.Motion set from storage siscu:volatile data.motion
+data modify entity @n[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] data.Owner set from entity @s UUID
+
+# end function
+schedule function siscu:items/use/ancient_shield/arrow_redirection/schedule 1t append
+
+return 1
+
+
+
+
+
+## Old implementation
+# motion in 1 axis = (x1-x2)/5
+
 execute as @n[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] store result score x siscu.volatile run data get entity @s Pos[0] 10
 execute as @n[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] store result score y siscu.volatile run data get entity @s Pos[1] 10
 execute as @n[type=#siscu:deflectable_projectiles,tag=siscu.deflected_projectile] store result score z siscu.volatile run data get entity @s Pos[2] 10

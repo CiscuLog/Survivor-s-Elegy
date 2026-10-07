@@ -13,6 +13,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:advancement/kill_dripstone_mob"
+		"function": "siscu:entities/player/kill_mob/kill_dripstone_mob"
 	}
 }

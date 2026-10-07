@@ -24,6 +24,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:advancement/hurt_mob_wearing_charged_copper_armor"
+		"function": "siscu:entities/player/hurt/mob_has_charged_copper_armor"
 	}
 }

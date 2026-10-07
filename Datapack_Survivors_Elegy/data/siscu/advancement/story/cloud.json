@@ -16,6 +16,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:advancement/clear_connections_schedule"
+		"function": "siscu:advancements/clear_connections_schedule"
 	}
 }

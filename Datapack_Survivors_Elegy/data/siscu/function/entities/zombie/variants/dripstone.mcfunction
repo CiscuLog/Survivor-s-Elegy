@@ -1,4 +1,4 @@
-item replace entity @s armor.head with minecraft:pointed_dripstone[item_model="siscu_se:dripstone_head"]
+item replace entity @s armor.head with minecraft:pointed_dripstone[item_model="siscu_se:dripstone_head",enchantments={"siscu:sunburn":1},enchantment_glint_override=false]
 loot replace entity @s weapon loot siscu:items/combat/dripstone_chunk
 execute if predicate siscu:utils/10_percent run loot replace entity @s weapon.offhand loot siscu:entities/zombie/zombie_shields
 

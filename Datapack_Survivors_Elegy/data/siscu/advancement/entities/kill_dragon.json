@@ -20,6 +20,6 @@
     ]
   ],
   "rewards": {
-    "function": "siscu:advancement/kill_dragon"
+    "function": "siscu:entities/player/kill_mob/kill_dragon"
   }
 }

@@ -26,6 +26,6 @@
 	},
 	"requirements": [["0","1"]],
 	"rewards": {
-		"function": "siscu:advancement/damaged_by_guardian"
+		"function": "siscu:entities/player/hurt/by_guardian"
 	}
 }

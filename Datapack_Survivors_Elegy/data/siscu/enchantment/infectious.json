@@ -23,6 +23,12 @@
         "minecraft:post_attack": [
             {
                 "affected": "victim",
+                "effect": {"type": "run_function","function": "siscu:enchantment/infectious/main_shot"},
+                "enchanted": "attacker",
+                "requirements": {"type": "damage_source_properties","predicate": {"tags": [{"id": "arrow","expected": true}]}}
+            },
+            {
+                "affected": "victim",
                 "effect": {
                     "type": "run_function",
                     "function": "siscu:enchantment/infectious/main"
@@ -36,20 +42,6 @@
                             "predicate": {
                                 "is_direct": true
                             }
-                        },
-                        {
-                            "type": "any_of",
-                            "terms": [
-                                {
-                                    "type": "random_chance",
-                                    "chance": 0.5
-                                },
-                                {
-                                    "type": "entity_properties",
-                                    "entity": "this",
-                                    "predicate": {"entity_type": "player" }
-                                }
-                            ]
                         },
                         {
                             "type": "entity_properties",

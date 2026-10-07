@@ -13,6 +13,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:advancement/electric_shock"
+		"function": "siscu:entities/player/hurt/electric_shock"
 	}
 }

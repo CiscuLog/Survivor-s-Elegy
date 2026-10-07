@@ -1,0 +1,17 @@
+{
+    "type": "all_of",
+    "terms": [
+        {
+        "type": "location_check",
+        "predicate": { "can_see_sky": true, "light": {"light": {"min": 15}} }
+        },
+        {"type": "inverted","term": "siscu:entities/is_on_fire"},
+        {
+        "type": "any_of",
+        "terms": [
+            {"type": "entity_properties","entity": "this","predicate": {"entity_type": "player","equipment": {"head": {"items": "air"}},"type_specific/player": {"gamemode": ["survival","adventure"]}}},
+            {"type": "inverted","term": {"type": "entity_properties","entity": "this","predicate": {"entity_type": "player"}}}
+        ]
+        }
+    ]
+}

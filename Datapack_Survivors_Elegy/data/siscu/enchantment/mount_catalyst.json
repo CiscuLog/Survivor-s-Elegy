@@ -46,13 +46,7 @@
                             "passenger": {
                                 "equipment": {
                                     "feet": {
-                                        "predicates": {
-                                            "enchantments": [
-                                                {
-                                                    "enchantments": "thorns"
-                                                }
-                                            ]
-                                        }
+                                        "predicates": { "enchantments": [ { "enchantments": "thorns" } ] }
                                     }
                                 }
                             }
@@ -82,13 +76,7 @@
                         "passenger": {
                             "equipment": {
                                 "feet": {
-                                    "predicates": {
-                                        "enchantments": [
-                                            {
-                                                "enchantments": "protection"
-                                            }
-                                        ]
-                                    }
+                                    "predicates": { "enchantments": [ { "enchantments": "protection" } ] }
                                 }
                             }
                         }
@@ -110,13 +98,7 @@
                                 "passenger": {
                                     "equipment": {
                                         "feet": {
-                                            "predicates": {
-                                                "enchantments": [
-                                                    {
-                                                        "enchantments": "fire_protection"
-                                                    }
-                                                ]
-                                            }
+                                            "predicates": { "enchantments": [ { "enchantments": "fire_protection" } ] }
                                         }
                                     }
                                 }
@@ -130,6 +112,39 @@
                                         "id": "#is_fire",
                                         "expected": true
                                     }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                "type": "minecraft:add",
+                "value": 12.0
+                },
+                "requirements": {
+                    "type": "all_of",
+                    "terms": [
+                        {
+                            "type": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "passenger": {
+                                    "equipment": {
+                                        "feet": {
+                                            "predicates": { "enchantments": [ { "enchantments": "feather_falling" } ] }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:damage_source_properties",
+                            "predicate": {
+                                "tags": [
+                                { "expected": true, "id": "#minecraft:is_fall" },
+                                { "expected": false, "id": "#minecraft:bypasses_invulnerability" }
                                 ]
                             }
                         }
@@ -149,13 +164,7 @@
                                 "passenger": {
                                     "equipment": {
                                         "feet": {
-                                            "predicates": {
-                                                "enchantments": [
-                                                    {
-                                                        "enchantments": "frost_walker"
-                                                    }
-                                                ]
-                                            }
+                                            "predicates": { "enchantments": [ { "enchantments": "frost_walker" } ] }
                                         }
                                     }
                                 }
@@ -259,13 +268,7 @@
                                 "passenger": {
                                     "equipment": {
                                         "feet": {
-                                            "predicates": {
-                                                "enchantments": [
-                                                    {
-                                                        "enchantments": "soul_speed"
-                                                    }
-                                                ]
-                                            }
+                                            "predicates": { "enchantments": [ { "enchantments": "soul_speed" } ] }
                                         }
                                     }
                                 }
@@ -409,13 +412,7 @@
                                 "passenger": {
                                     "equipment": {
                                         "feet": {
-                                            "predicates": {
-                                                "enchantments": [
-                                                    {
-                                                        "enchantments": "soul_speed"
-                                                    }
-                                                ]
-                                            }
+                                            "predicates": { "enchantments": [ { "enchantments": "soul_speed" } ] }
                                         }
                                     }
                                 }

@@ -1,6 +1,9 @@
 
 # replace item
-$function siscu:items/use/bound_allay/item_modifications {Slot:"$(Slot)"}
+$data merge storage siscu:volatile {data:{Slot:"$(Slot)"}}
+$execute store result score x siscu.volatile run data get entity @s $(Slot_raw).components."minecraft:repair_cost"
+execute store result storage siscu:volatile data.cost int 1 run scoreboard players remove x siscu.volatile 100
+function siscu:items/use/bound_allay/item_modifications with storage siscu:volatile data
 
 # summon and effects
 

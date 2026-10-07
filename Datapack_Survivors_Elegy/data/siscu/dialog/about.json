@@ -21,9 +21,8 @@
         "contents": [
           {"text":"Loaded Resourcepack Version: ","color":"gray"},
           {"translate":"pack.siscu.version","bold":true,"color":"green","fallback": "%s","with": [{"text": "-no pack loaded-","color": "red"}]},
-          {"text":" (required: "},{"text":"12","bold":true,"color":"gold"},{"text":" )"},
           {"text": "\n\n"},
-          {"text": "v1.1.0\nBy Siscu","color": "gray"}
+          {"text": "v1.1.1\nBy Siscu","color": "gray"}
         ],
       "width": 300
     }

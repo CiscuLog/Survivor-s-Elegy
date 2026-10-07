@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:zombie",
-    "minecraft:husk"
+    "minecraft:husk",
+    { "id": "frostbite", "required": false }
   ]
 }

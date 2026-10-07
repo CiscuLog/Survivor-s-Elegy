@@ -20,6 +20,6 @@
     ]
   ],
   "rewards": {
-    "function": "siscu:advancement/kill_wither_skeleton"
+    "function": "siscu:entities/player/kill_mob/kill_wither_skeleton"
   }
 }

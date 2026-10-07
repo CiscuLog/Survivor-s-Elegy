@@ -1,0 +1,154 @@
+{
+	"parent": "siscu:entities/root",
+	"criteria": {
+		"1..4": {
+			"trigger":"minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"dealt": {"min":1,"max":3.9},
+					"type": {
+						"tags": [{"id":"#is_explosion","expected":true}]
+					}
+				}
+			}
+		},
+		"4..5": {
+			"trigger":"minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"dealt": {"min":4,"max":4.9},
+					"type": {
+						"tags": [{"id":"#is_explosion","expected":true}]
+					}
+				}
+			}
+		},
+		"5..6": {
+			"trigger":"minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"dealt": {"min":5,"max":5.9},
+					"type": {
+						"tags": [{"id":"#is_explosion","expected":true}]
+					}
+				}
+			}
+		},
+		"6..7": {
+			"trigger":"minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"dealt": {"min":6,"max":6.9},
+					"type": {
+						"tags": [{"id":"#is_explosion","expected":true}]
+					}
+				}
+			}
+		},
+		"7..8": {
+			"trigger":"minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"dealt": {"min":7,"max":7.9},
+					"type": {
+						"tags": [{"id":"#is_explosion","expected":true}]
+					}
+				}
+			}
+		},
+		"8..9": {
+			"trigger":"minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"dealt": {"min":8,"max":8.9},
+					"type": {
+						"tags": [{"id":"#is_explosion","expected":true}]
+					}
+				}
+			}
+		},
+		"9..10": {
+			"trigger":"minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"dealt": {"min":9,"max":9.9},
+					"type": {
+						"tags": [{"id":"#is_explosion","expected":true}]
+					}
+				}
+			}
+		},
+		"10..15": {
+			"trigger":"minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"dealt": {"min":10,"max":14.9},
+					"type": {
+						"tags": [{"id":"#is_explosion","expected":true}]
+					}
+				}
+			}
+		},
+		"15..20": {
+			"trigger":"minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"dealt": {"min":15,"max":19.9},
+					"type": {
+						"tags": [{"id":"#is_explosion","expected":true}]
+					}
+				}
+			}
+		},
+		"20..30": {
+			"trigger":"minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"dealt": {"min":20,"max":29.9},
+					"type": {
+						"tags": [{"id":"#is_explosion","expected":true}]
+					}
+				}
+			}
+		},
+		"30..": {
+			"trigger":"minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"dealt": {"min":30},
+					"type": {
+						"tags": [{"id":"#is_explosion","expected":true}]
+					}
+				}
+			}
+		},
+		"any": {
+			"trigger":"minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"type": {
+						"tags": [{"id":"#is_explosion","expected":true}]
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[ "1..4", "4..5", "5..6", "6..7", "7..8", "8..9", "9..10", "10..15", "15..20", "20..30", "30..", "any" ]
+	],
+	"rewards": {
+		"function": "siscu:items/use/shield/blocked_explosion/dispatcher"
+	}
+}

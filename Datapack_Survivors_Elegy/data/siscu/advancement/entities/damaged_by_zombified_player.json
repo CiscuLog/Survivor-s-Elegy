@@ -16,6 +16,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:advancement/damaged_by_zombified_player"
+		"function": "siscu:entities/player/hurt/by_zombified_player"
 	}
 }

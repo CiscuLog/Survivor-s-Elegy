@@ -4,6 +4,9 @@
         "#siscu:undead",
         "minecraft:creaking",
         "minecraft:sulfur_cube",
+        "iron_golem",
+        "copper_golem",
+        "snow_golem",
 
         "minecraft:item",
         "minecraft:fishing_bobber",

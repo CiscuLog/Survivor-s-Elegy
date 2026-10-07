@@ -1,5 +1,7 @@
 
 loot replace entity @s armor.head loot siscu:items/combat/stray_helmet
+item modify entity @s armor.head {type:"set_enchantments",enchantments:{"siscu:sunburn":1}}
+item modify entity @s armor.head {type:"set_components",components:{enchantment_glint_override:false}}
 loot replace entity @s armor.chest loot siscu:items/combat/stray_chestplate
 loot replace entity @s armor.legs loot siscu:items/combat/stray_leggings
 
