@@ -1,6 +1,6 @@
 execute if biome ~ ~ ~ warped_forest run return 0
 
-execute if predicate siscu:entities/is_wearing_stray_armor run return run function siscu:systems/withering/stray_armor_effects
+execute if predicate siscu:entities/is_wearing_stray_armor run return run function siscu:systems/withering/stray_armor/effects
 
 # add-on tag for interrupting withering
 execute if function #siscu:world/withering_interrupt run return fail

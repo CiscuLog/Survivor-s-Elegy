@@ -2,5 +2,5 @@ execute store result storage siscu:world day_length int 1 run scoreboard players
 execute if score daytime_speed siscu.day matches 1 if score do_daylight_cycle siscu.day matches 1 run gamerule advance_time true
 execute unless score daytime_speed siscu.day matches 1 run gamerule advance_time false
 execute if score do_daylight_cycle siscu.day matches 0 run gamerule advance_time false
-execute if score daytime_speed siscu.day matches 2.. if score do_daylight_cycle siscu.day matches 1 run schedule function siscu:world/day_features/advance 1t
-execute if score daytime_speed siscu.day matches 1 run schedule clear siscu:world/day_features/advance
+execute if score daytime_speed siscu.day matches 2.. if score do_daylight_cycle siscu.day matches 1 run schedule function siscu:world/day_features/day_length/advance 1t
+execute if score daytime_speed siscu.day matches 1 run schedule clear siscu:world/day_features/day_length/advance
