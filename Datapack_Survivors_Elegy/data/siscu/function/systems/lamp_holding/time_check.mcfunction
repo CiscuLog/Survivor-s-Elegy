@@ -1,0 +1,2 @@
+execute at @s[tag=!siscu.holding_lamp] unless items entity @s weapon.offhand * if predicate siscu:utils/75_percent if predicate siscu:entities/take_lamp run return run function siscu:systems/lamp_holding/set_lamp
+execute at @s[tag=siscu.holding_lamp] if items entity @s weapon.offhand torch[!custom_data] if predicate siscu:utils/75_percent unless predicate siscu:entities/hide_lamp run function siscu:systems/lamp_holding/clear_lamp

@@ -1,7 +1,6 @@
 # This function is always called from the entity's location. Further execute at @s is not required
 
 tag @s add siscu.entity_checked
-execute if entity @s[tag=entity_checked] run return run tag @s remove entity_checked
 
 # Incredible smithed compatibility feature
 execute if entity @s[tag=smithed.entity] run return 0

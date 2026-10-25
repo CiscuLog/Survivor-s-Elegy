@@ -9,6 +9,6 @@ $data merge block ~ ~ ~ {Book:{id:"written_book",count:1,components:{ "item_name
 {"translate":"text.siscu.mayor_note.page4_2"},\
 {"type":"text","text": "$(City1)$(City2)"}\
 ]}]\
-}, "lore": [{"translate": "text.siscu.tooltip","italic": false, "color": "white","font": "siscu_se:sprites"}]}}}
+}, "lore": [{"text":""},{"translate": "text.siscu.tooltip","italic": false, "color": "white","font": "siscu_se:sprites"}]}}}
 
 $execute align xyz unless entity @e[type=marker,tag=siscu.city_name,distance=..2] run summon marker ~0.5 ~0.5 ~0.5 {data:{city_name:"$(City1)$(City2)",mayor_name:"$(Mayor1) $(Mayor2)"},Tags:["siscu.city_name"]}

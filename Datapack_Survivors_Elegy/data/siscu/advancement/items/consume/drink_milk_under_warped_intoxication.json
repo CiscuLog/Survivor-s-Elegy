@@ -11,6 +11,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:world/warped_food/drink_milk_under_warped_intoxication"
+		"function": "siscu:systems/warped_food/drink_milk_under_warped_intoxication"
 	}
 }

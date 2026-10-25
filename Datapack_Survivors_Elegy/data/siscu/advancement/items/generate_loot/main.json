@@ -1,0 +1,31 @@
+{
+    "parent": "siscu:items/root",
+    "criteria": {
+        "pillager_outpost": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_tables": "chests/pillager_outpost"
+            }
+        },
+        "stronghold_library": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_tables": "chests/stronghold_library"
+            }
+        },
+        "woodland_mansion": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_tables": "chests/woodland_mansion"
+            }
+        },
+        "nether_fortress_farm": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_tables": "siscu:chests/nether_fortress_farm"
+            }
+        }
+    },
+    "requirements": [["pillager_outpost","stronghold_library","woodland_mansion","nether_fortress_farm"]],
+    "rewards": {"function": "siscu:blocks/loot_blocks/main"}
+}

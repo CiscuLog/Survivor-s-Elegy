@@ -17,30 +17,12 @@
   },
   "max_level": 1,
   "slots": [
-    "any"
+    "head"
   ],
   "weight": 1,
   "effects": {
     "minecraft:tick": [
-      {
-        "effect": {
-          "type": "minecraft:ignite",
-          "duration": 8
-        },
-        "requirements": {
-          "type": "all_of",
-          "terms": [
-          {
-            "type": "location_check",
-            "predicate": {
-              "can_see_sky": true,
-              "light": {"light": {"min": 15}}
-            }
-          },
-          {"type": "entity_properties","entity": "this","predicate": {"flags": {"is_on_fire": false}}}
-        ]
-        }
-      }
+      {"effect": {"type": "run_function","function": "siscu:enchantment/sunburn/mob_burn_port"}}
     ]
   }
 }

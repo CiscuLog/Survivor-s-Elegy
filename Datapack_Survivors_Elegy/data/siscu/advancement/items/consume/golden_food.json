@@ -1,5 +1,5 @@
 {
-	"parent": "siscu:items/consume/golden_food",
+	"parent": "siscu:items/root",
 	"criteria": {
 		"gapple": {
 			"trigger":"minecraft:consume_item",

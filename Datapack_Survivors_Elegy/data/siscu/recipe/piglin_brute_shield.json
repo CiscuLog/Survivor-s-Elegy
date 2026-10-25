@@ -16,7 +16,7 @@
 			"minecraft:item_name": {"translate":"item.siscu.piglin_shield","font":"siscu_se:piglinalt"},
 			"minecraft:lore": [
 				{"text":"Held by Piglins","color":"gray","italic":false},
-				{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
+				{"text":""},{"translate": "text.siscu.tooltip","italic": false, "color": "white","font": "siscu_se:sprites"}
 			],
 			"item_model": "siscu_se:brute_shield",
 			"custom_data": {

@@ -129,10 +129,19 @@
 		{
 			"type": "bitmap",
 			"file": "siscu_se:item/config.png",
-			"ascent": 11,
+			"ascent": 12,
 			"height": 16,
 			"chars": [
 				"\u1000"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "siscu_se:item/pamphlet.png",
+			"ascent": 12,
+			"height": 16,
+			"chars": [
+				"\u1001"
 			]
 		},
 		{

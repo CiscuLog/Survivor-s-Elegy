@@ -21,7 +21,6 @@ function siscu:technical/scoreboards/add_scoreboard {name:"siscu.left_game", typ
 function siscu:technical/scoreboards/add_scoreboard {name:"siscu.spam_lectern", type:"dummy", display: {"text":"Lectern Spamming"}}
 function siscu:technical/scoreboards/add_scoreboard {name:"siscu.spam_lectern_dismiss", type:"trigger", display: {"text":"Lectern Spam Message"}}
 function siscu:technical/scoreboards/add_scoreboard {name:"siscu.phage_buildup", type:"dummy", display: {text:"Phage buildup",color:"dark_green"}}
-function siscu:technical/scoreboards/add_scoreboard {name:"siscu.use_fungus", type:"minecraft.used:minecraft.warped_fungus_on_a_stick", display: {"text":"Use","color":"aqua"}}
 function siscu:technical/scoreboards/add_scoreboard {name:"siscu.warped_food", type:"dummy", display: {"text":"Warped Food","color":"aqua"}}
 
 # Items

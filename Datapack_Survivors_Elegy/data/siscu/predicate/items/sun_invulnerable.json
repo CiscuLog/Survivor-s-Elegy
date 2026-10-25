@@ -26,6 +26,7 @@
 					}
 				}
 			}
-		}
+		},
+		{"type": "entity_properties","entity": "this","predicate": {"effects": {"fire_resistance": {}}}}
 	]
 }

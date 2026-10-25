@@ -6,6 +6,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:world/warped_food/eat_under_warped_intoxication"
+		"function": "siscu:systems/warped_food/eat_under_warped_intoxication"
 	}
 }

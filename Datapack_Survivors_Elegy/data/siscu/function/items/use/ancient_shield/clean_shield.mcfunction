@@ -1,9 +1,9 @@
 
 # this function removes 1 oxidation level!
-# a clensed shield will never oxidise, so this is a one-way process
+# a cleansed shield will never oxidise, so this is a one-way process
 
 # if it's not oxidised, return
-execute if score oxidisation siscu.volatile matches 0 run return 100
+execute if score oxidisation siscu.volatile matches 0 run return 1
 
 # Sound of shield cleansing
 ## CHANGE to item.axe.wax_off
@@ -17,4 +17,4 @@ execute if score oxidisation siscu.volatile matches 1 run data merge storage sis
 
 execute if score oxidisation siscu.volatile matches 1 run advancement grant @s only siscu:minecraft/adventure/clean_ancient_shield
 
-function siscu:items/item_modifier/ancient_shield_cleanse with storage siscu:volatile
+function siscu:items/use/ancient_shield/item_modifier/cleanse with storage siscu:volatile

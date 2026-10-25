@@ -6,6 +6,6 @@
         }
     },
     "rewards": {
-        "function": "siscu:entities/phage/cure/illager/trigger"
+        "function": "siscu:systems/phage/cure/illager/trigger"
     }
 }

@@ -1,11 +1,11 @@
 
 ## Entities ##
-execute as @e[type=#siscu:drownable,tag=!smithed.entity] unless predicate siscu:entities/check_drowning at @s run function siscu:entities/drownable/tick
+execute as @e[type=#siscu:drownable,tag=!smithed.entity] unless predicate siscu:entities/check_drowning at @s run function siscu:systems/drowning/tick
 execute as @e[type=zombie_villager,tag=!smithed.entity,nbt=!{ConversionTime:-1}] at @s run function siscu:entities/zombified_illager/cure/start_schedule
-execute if entity @e[type=warden] run function siscu:entities/warden/check_warden_1s_schedule
+execute if entity @e[type=warden,tag=!smithed.entity] run function siscu:entities/warden/check_warden_1s_schedule
 
 ## Entity Behav ##
-execute as @e[type=#siscu:lamp_holders,tag=!smithed.entity] run function siscu:entities/lamp_holders/time_check
+execute as @e[type=#siscu:lamp_holders,tag=!smithed.entity] run function siscu:systems/lamp_holding/time_check
 
 ## Desert Wells ##
 execute if entity @e[type=marker,tag=siscu.well_unused] run function siscu:world/desert_well/reward_schedule

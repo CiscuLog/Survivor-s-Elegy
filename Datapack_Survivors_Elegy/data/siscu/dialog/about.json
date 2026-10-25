@@ -22,7 +22,7 @@
           {"text":"Loaded Resourcepack Version: ","color":"gray"},
           {"translate":"pack.siscu.version","bold":true,"color":"green","fallback": "%s","with": [{"text": "-no pack loaded-","color": "red"}]},
           {"text": "\n\n"},
-          {"text": "v1.1.1\nBy Siscu","color": "gray"}
+          {"text": "v1.1.2\nBy Siscu","color": "gray"}
         ],
       "width": 300
     }

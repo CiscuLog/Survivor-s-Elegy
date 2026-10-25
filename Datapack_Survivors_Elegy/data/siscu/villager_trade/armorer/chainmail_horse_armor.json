@@ -33,7 +33,7 @@
           "slot": "body"
         }
       ],
-      "lore": [{"translate": "text.siscu.tooltip","italic": false, "color": "white","font": "siscu_se:sprites"}]
+      "lore": [{"text":""},{"translate": "text.siscu.tooltip","italic": false, "color": "white","font": "siscu_se:sprites"}]
     }
   },
   "max_uses": 3,

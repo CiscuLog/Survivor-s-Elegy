@@ -13,9 +13,19 @@
 		  }
 		  ],
 		  "condition": {
-			  "type": "minecraft:entity_properties",
-			  "entity": "this",
-			  "predicate": {"nbt":"{VillagerData: {profession: \"minecraft:none\"}}"}
+			"type": "any_of",
+			"terms": [
+				{
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {"nbt":"{VillagerData: {profession: \"minecraft:none\"}}"}
+				},
+				{
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {"entity_tags": {"any_of": ["siscu.zombified_evoker","siscu.zombified_illusioner","siscu.zombified_pillager","siscu.zombified_vindicator"]}}
+				}
+			]
 		  }
 		},
         {

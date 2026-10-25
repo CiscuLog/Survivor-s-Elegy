@@ -14,7 +14,7 @@
 			{
 				"translate": "advancements.siscu.minecraft.ride_mob_fancily.description"
 			},
-			{"text":"\n"},{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
+			{"text":"\n"},{"translate": "text.siscu.tooltip","italic": false, "color": "white","font": "siscu_se:sprites"}
 		],
 		"show_toast": true,
 		"announce_to_chat": false,

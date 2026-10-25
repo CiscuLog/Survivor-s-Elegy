@@ -1,6 +1,26 @@
 
 Compatible Minecraft versions: 26.3
 
+Survivor's Elegy 1.1.2 (25/10/2026)
++ Added Hungarian translations, courtesy of @legolocka31
++ Added all zombified players will leave behind a zombie when dying. This zombie can pick up items, won't despawn, and will display the player's name above it
++ Added CnK compatibility: Chili Seeds can be found in seed barrels on nether fortresses
++ Added eating Warped Galls displays some particle effects if it's decreasing a harmful withering score
++ Added fire resistance halts zombified player's helmet durability decrease
++ Added fire resistance protects custom entities from burning under sunlight
++ Added Illusioners and Witches pull out torches when in dark places, like illagers and villagers
++ Added players joining back to a world will play a teleporting sound and emit some particles
++ Added players will spawn with 10 minutes of extra withering protection on their first stay to the nether. Dying after entering the nether will remove this grace period, even if the time hasn't been spent
++ Added players will spawn with 19 minutes of warped food poisoning. Due to it being right under the warped food effects threshold and poisoning getting cured naturally, noone will notice this unless they eat warped poisoning inducing food in under approximately 10 minutes after spawning
++ Added skeleton piglins and illagers have a grace period of 1 second before burning under sunlight, following the same logic as SE's custom zombies and zombified players
++ Changed "Ancient Restoration" advancement frame from "challenge" to "goal"
++ Changed item tooltip is more spaced out from the rest of the item lore
++ Changed most mob conversion handlings to be more consistent and unified
++ Changed postgen entity starter checks are more frequent, from previously 30 seconds, to currently 2 seconds. Starters will not execute if the location they're in is not loaded
++ Changed warped food poisoning is now clamped between 0 and 50 minutes
++ Fixed Copper Gear oxidisation texture changes were not working correctly
++ Fixed players could accumulate virtually infinite times of withering protection by eating Warped Gall. It's now clamped at 40 minutes
+
 Survivor's Elegy 1.1.1 (07/10/2026)
 + Changed resourcepack version numbers to match the datapack's version instead of being an independent number
 + Added amethyst zombies, bogged zombies, stray zombies, dripstone zombies, skeleton piglins and skeleton illagers now burn under sunlight

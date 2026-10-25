@@ -10,7 +10,7 @@ execute unless predicate siscu:entities/is_sneaking at @s run return run functio
 
 # else
 # check for charge, if none: add charge and return
-function siscu:items/use/ancient_shield/get_data
+function siscu:items/use/ancient_shield/get_data with storage siscu:volatile
 execute unless score charges siscu.volatile matches 1.. at @s run return run function siscu:items/use/ancient_shield/add_charge
 #say charged!
 
@@ -24,7 +24,7 @@ execute store result storage siscu:volatile Charge byte 1 run scoreboard players
 execute store result storage siscu:volatile CMD int 1 run scoreboard players get CMD siscu.volatile
 #tellraw @s [{"text":"Vibrations / Charges: "},{"score":{"name": "vibrations","objective": "siscu.volatile"}},{"text":" / "},{"score": {"name": "charges","objective": "siscu.volatile"}}]
 
-function siscu:items/item_modifier/ancient_shield with storage siscu:volatile
+function siscu:items/use/ancient_shield/item_modifier/ancient_shield with storage siscu:volatile
 
 # shoot arrow back
 execute at @s run function siscu:items/use/ancient_shield/arrow_redirection/deflect

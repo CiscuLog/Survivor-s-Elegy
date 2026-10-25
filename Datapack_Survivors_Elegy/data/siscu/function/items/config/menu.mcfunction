@@ -7,7 +7,7 @@ tellraw @s [{"text":""},{"text":"- Get all recipes: ","color":"green","click_eve
 # wiki
 tellraw @s [{"text":""},{"text":"- Check items on Wiki: ","color":"green","click_event":{"action":"open_url","url":"https://github.com/CiscuLog/Survivor-s-Elegy/wiki/Items"},"hover_event":{"action":"show_text","value":{"text":"Click to open URL"}}},{"text":"Opens the datapack's wiki","color":"gray"}]
 # fishing items
-function siscu:world/fishing/config/main {menu: "siscu:items/config/menu"}
+function siscu:systems/fishing/config/main {menu: "siscu:items/config/menu"}
 # ancient shield
 tellraw @s [{"text":"\n  [ ","color":"gold","bold":true,"click_event":{"action":"run_command","command":"/function siscu:items/config/ancient_shield/menu"}},{"text":"Ancient Shield Config","color":"red"},{"text":" ]"}]
 tellraw @s [{"text":"\n  [ ","color":"gold","bold":true,"click_event":{"action":"run_command","command":"/function siscu:items/config/ancient_shield/nerf_menu"}},{"text":"Shield Nerf Config","color":"white"},{"text":" ]"}]

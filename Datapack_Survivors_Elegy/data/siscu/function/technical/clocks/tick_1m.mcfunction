@@ -1,9 +1,9 @@
 
 ## Withering ##
-execute if score withering siscu.integer matches 1 as @e[type=#siscu:withering_vulnerable,tag=!siscu.withering_invulnerable,tag=!smithed.entity] at @s run function siscu:world/withering/withering
+execute if score withering siscu.integer matches 1 as @e[type=#siscu:withering_vulnerable,tag=!siscu.withering_invulnerable,tag=!smithed.entity] at @s run function siscu:systems/withering/main
 
 ## Warped Poisoning ##
-execute as @a if score @s siscu.warped_food matches 1.. at @s run function siscu:world/warped_food/warped_food_recover
+execute as @a if score @s siscu.warped_food matches 1.. at @s run function siscu:systems/warped_food/warped_food_recover
 
 ## Daytime fix ##
 function siscu:world/day_features/adjust_day/main

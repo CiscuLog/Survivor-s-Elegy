@@ -3,6 +3,7 @@
   "values": [
     "zombie",
     "drowned",
-    "zombified_piglin"
+    "zombified_piglin",
+    {"id": "frostbite","required": false}
   ]
 }

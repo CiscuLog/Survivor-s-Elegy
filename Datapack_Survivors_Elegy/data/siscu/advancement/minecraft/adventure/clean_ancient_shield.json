@@ -6,7 +6,7 @@
       }
     },
     "display": {
-      "frame": "challenge",
+      "frame": "goal",
       "icon": {
         "count": 1,
         "id": "minecraft:shield",
@@ -15,7 +15,7 @@
 			"title": {"translate": "advancements.siscu.minecraft.clean_ancient_shield.title"},
 			"description": [
         {"translate": "advancements.siscu.minecraft.clean_ancient_shield.description"},
-        {"text":"\n"},{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
+        {"text":"\n"},{"translate": "text.siscu.tooltip","italic": false, "color": "white","font": "siscu_se:sprites"}
       ],
       "hidden": true
     },

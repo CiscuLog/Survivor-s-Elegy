@@ -14,7 +14,7 @@
       {
         "translate": "advancements.siscu.minecraft.fire_spring.description"
       },
-      {"text":"\n"},{"color": "white","italic": false,"translate": "text.siscu.tooltip","font": "siscu_se:sprites"}
+      {"text":"\n"},{"translate": "text.siscu.tooltip","italic": false, "color": "white","font": "siscu_se:sprites"}
     ],
     "frame": "goal",
     "show_toast": true,

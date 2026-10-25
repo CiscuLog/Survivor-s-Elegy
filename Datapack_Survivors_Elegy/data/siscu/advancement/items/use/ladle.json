@@ -5,15 +5,8 @@
 			"trigger": "minecraft:using_item",
 			"conditions": {
 				"item": {
-					"items": [
-						"minecraft:stick"
-					],
 					"predicates": {
-						"custom_data": {
-							"SE_data": {
-								"Ladle": 1
-							}
-						}
+						"custom_data": { "SE_data": { "id": "siscu:ladle" } }
 					}
 				}
 			}

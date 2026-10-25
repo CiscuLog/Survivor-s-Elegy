@@ -18,7 +18,6 @@ scoreboard objectives add siscu.left_game minecraft.custom:minecraft.leave_game 
 scoreboard objectives add siscu.spam_lectern dummy {"text":"Lectern Spamming"}
 scoreboard objectives add siscu.spam_lectern_dismiss trigger {"text":"Lectern Spam Message"}
 scoreboard objectives add siscu.phage_buildup dummy {text:"Phage buildup",color:"dark_green"}
-scoreboard objectives add siscu.use_fungus minecraft.used:minecraft.warped_fungus_on_a_stick {"text":"Use","color":"aqua"}
 scoreboard objectives add siscu.warped_food dummy {"text":"Warped Food","color":"aqua"}
 
 scoreboard objectives add siscu.config_cooldown dummy {"text":"Config Cooldown","color":"gold"}

@@ -1,10 +1,9 @@
 {
     "type": "all_of",
     "terms": [
-        {
-        "type": "location_check",
-        "predicate": { "can_see_sky": true, "light": {"light": {"min": 15}} }
-        },
+        "siscu:locations/check_open_sky",
+        "siscu:utils/light_level/lvl15",
+        {"type": "inverted","term": "siscu:world/check_nighttime"},
         {"type": "inverted","term": "siscu:entities/is_on_fire"},
         {
         "type": "any_of",
@@ -12,6 +11,7 @@
             {"type": "entity_properties","entity": "this","predicate": {"entity_type": "player","equipment": {"head": {"items": "air"}},"type_specific/player": {"gamemode": ["survival","adventure"]}}},
             {"type": "inverted","term": {"type": "entity_properties","entity": "this","predicate": {"entity_type": "player"}}}
         ]
-        }
+        },
+        {"type": "inverted","term": {"type": "entity_properties","entity": "this","predicate": {"effects": {"fire_resistance": {}}}}}
     ]
 }

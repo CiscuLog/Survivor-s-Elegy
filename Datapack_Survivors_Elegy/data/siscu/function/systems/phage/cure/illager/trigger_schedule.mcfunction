@@ -1,0 +1,1 @@
+execute as @e[type=villager,tag=siscu.zombie_checked] run function siscu:systems/phage/cure/illager/cure

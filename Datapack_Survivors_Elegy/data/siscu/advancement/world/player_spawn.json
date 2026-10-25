@@ -7,6 +7,6 @@
 		}
 	},
 	"rewards": {
-		"function": "siscu:entities/player/spawn"
+		"function": "siscu:entities/player/join_first_time"
 	}
 }

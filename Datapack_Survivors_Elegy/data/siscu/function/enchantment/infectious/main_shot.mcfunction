@@ -7,4 +7,4 @@ execute if entity @s[tag=smithed.entity] run return 0
 
 execute at @s anchored eyes positioned ^ ^-0.5 ^ run particle entity_effect{color:[0.752,0.643,0.302,1]} ~ ~ ~ 0 0.5 0 0.3 5 normal
 
-function siscu:entities/phage/buildup/start_zombification {value:60}
+function siscu:systems/phage/buildup/start_zombification {value:60}

@@ -374,7 +374,5 @@
 	"title.siscu.day": "Día ",
 	"title.siscu.new_day": "Amanecer del ",
 	"title.siscu.new_day2": " día",
-	"actionbar.siscu.enchantment_reroll": "Has conseguido: ",
-	"SE (MISSING RESOURCES)": "%s",
-	"The required Survivor's Elegy Resource Pack is not installed. Read INSTALL.txt for info on that matter": "%s"
+	"actionbar.siscu.enchantment_reroll": "Has conseguido: "
 }

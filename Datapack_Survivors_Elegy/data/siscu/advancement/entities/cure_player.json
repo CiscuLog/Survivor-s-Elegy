@@ -33,6 +33,6 @@
 	},
 	"requirements": [["1","2"]],
 	"rewards": {
-		"function": "siscu:entities/phage/cure/player"
+		"function": "siscu:systems/phage/cure/player"
 	}
 }

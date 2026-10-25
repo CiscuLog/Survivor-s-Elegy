@@ -16,10 +16,10 @@ $scoreboard players add $(score) siscu.volatile 1
 
 
 # Change CMD, Oxidation value
-item modify entity @s armor.* {"type":"set_custom_model_data",floats:{mode:"replace_all",values:[{type:"storage",storage:"siscu:volatile",path:"x",fallback:0}]}}
+$item modify entity @s $(Slot) {"type":"set_custom_model_data",floats:{mode:"replace_all",values:[{type:"storage",storage:"siscu:volatile",path:"x",fallback:0}]}}
 #$item modify entity @s $(Slot) 
 $execute store result storage siscu:volatile Oxidation int 1 run scoreboard players get $(score) siscu.volatile
-function siscu:items/item_modifier/oxidisation with storage siscu:volatile
+function siscu:items/passive_behav/oxidisation/item_modifier/oxidisation with storage siscu:volatile
 
 # New name (stores it in siscu:volatile.String and String2)
 $execute if score $(score) siscu.volatile matches 1 run data merge storage siscu:volatile {String:"exposed_"}

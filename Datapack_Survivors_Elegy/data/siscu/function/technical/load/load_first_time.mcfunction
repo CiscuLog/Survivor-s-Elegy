@@ -5,22 +5,22 @@
 execute if data storage siscu:world PackVersion unless data storage siscu:world MajorUpdate run schedule function siscu:technical/load/update_warning/1.21.4 5s
 
 # Update (siscu:world)
-data merge storage siscu:world {PackVersion:"v1.1.1",RPVersion:12,MajorUpdate:1,config:{},difficulty:2}
+data merge storage siscu:world {PackVersion:"v1.1.2",MajorUpdate:1,difficulty:2}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 execute unless data storage siscu:world day_length run data merge storage siscu:world {day_length:3}
 
 # Database (siscu:database)
 function siscu:entities/enderman/list
 
-#set gamerules
-gamerule advance_time false
-
 # create scoreboards
 function siscu:technical/load/scoreboards
 # set scores
 function siscu:technical/load/scoreboards_config
 
+# Setup daytime advance
+function siscu:world/day_features/config/normal_cycle
+
 # announce
 tellraw @a [{"text":"   Survivor's Elegy","color":"gold","bold":true}]
 tellraw @a [{"text":"Succesfully updated to version ","color":"yellow","bold":false},{"storage":"siscu:world","nbt":"PackVersion","bold":true}]
-tellraw @s [{"text":"Resourcepack: ",color:gray},{"translate":"pack.siscu.version",color:green,"fallback":"%s",with:[{text:"-missing-",color:"red"}]},{text:"/"},{nbt:"RPVersion",storage:"siscu:world",color:"gold"}]
+tellraw @s [{"text":"Resourcepack: ",color:gray},{"translate":"pack.siscu.version",color:green,"fallback":"%s",with:[{text:"-missing-",color:"red"}]}]

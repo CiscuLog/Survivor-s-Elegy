@@ -11,6 +11,6 @@
         }
     },
     "rewards": {
-        "function": "siscu:world/fishing/advancement"
+        "function": "siscu:systems/fishing/advancement"
     }
 }

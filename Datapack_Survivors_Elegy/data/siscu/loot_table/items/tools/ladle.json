@@ -5,8 +5,9 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stick",
+                    "name": "minecraft:poisonous_potato",
                     "modifier": [
+                        "siscu:base_item",
                         {
                             "type": "minecraft:set_components",
                             "components": {
@@ -26,10 +27,7 @@
                                 ],
                                 "item_model": "siscu_se:ladle",
                                 "custom_data": {
-                                    "SE_data": {
-                                        "id": "siscu:ladle",
-                                        "Ladle": 1
-                                    }
+                                    "SE_data": { "id": "siscu:ladle" }
                                 }
                             }
                         },

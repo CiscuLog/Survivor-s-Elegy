@@ -6,6 +6,6 @@ execute as @e[type=#siscu:item_frames,tag=!smithed.strict] at @s run function si
 execute if score damaged_entities siscu.volatile matches 1 run function siscu:entities/custom/damage/clock
 
 ## Zombifying ##
-execute if score phage_enabled siscu.integer matches 1 as @e[type=!#siscu:phage_immune,tag=siscu.zombifying,tag=!smithed.entity] at @s run function siscu:entities/phage/zombification/clock
+execute if score phage_enabled siscu.integer matches 1 as @e[type=!#siscu:phage_immune,tag=siscu.zombifying,tag=!smithed.entity] at @s run function siscu:systems/phage/zombification/clock
 
 schedule function siscu:technical/clocks/tick_1s 1s

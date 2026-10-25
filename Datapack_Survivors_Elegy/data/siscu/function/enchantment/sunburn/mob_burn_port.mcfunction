@@ -1,0 +1,1 @@
+item modify entity @s armor.head {type:"set_enchantments","enchantments":{"siscu:mob_burn":0,"siscu:sunburn":1}}

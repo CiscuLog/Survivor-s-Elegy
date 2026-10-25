@@ -18,6 +18,6 @@
     }
   },
   "rewards": {
-    "function": "siscu:entities/phage/zombified/player"
+    "function": "siscu:systems/phage/zombified/player"
   }
 }

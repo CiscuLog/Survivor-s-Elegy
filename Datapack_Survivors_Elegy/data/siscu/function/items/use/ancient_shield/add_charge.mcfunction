@@ -25,4 +25,4 @@ execute store result storage siscu:volatile Vibrations byte 1 run scoreboard pla
 execute store result storage siscu:volatile Charge byte 1 run scoreboard players get charges siscu.volatile
 execute store result storage siscu:volatile CMD int 1 run scoreboard players get CMD siscu.volatile
 
-function siscu:items/item_modifier/ancient_shield with storage siscu:volatile
+function siscu:items/use/ancient_shield/item_modifier/ancient_shield with storage siscu:volatile

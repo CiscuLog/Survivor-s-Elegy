@@ -20,7 +20,6 @@ execute unless score daytime_speed siscu.day matches 1.. run scoreboard players 
 execute unless score sleep_module_on siscu.day matches 0.. run scoreboard players set sleep_module_on siscu.day 1
 execute unless score do_daylight_cycle siscu.day matches 0.. run scoreboard players set do_daylight_cycle siscu.day 1
 execute unless score day_announcement siscu.day matches 0..1 run scoreboard players set day_announcement siscu.day 1
-function siscu:world/day_features/config/normal_cycle
 # Withering
 execute unless score withering siscu.integer matches 0.. run scoreboard players set withering siscu.integer 1
 execute unless score withering_timer siscu.integer matches 0.. run scoreboard players set withering_timer siscu.integer 20

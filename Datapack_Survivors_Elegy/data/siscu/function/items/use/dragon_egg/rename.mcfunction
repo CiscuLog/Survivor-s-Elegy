@@ -11,4 +11,4 @@ execute unless score x siscu.volatile matches ..8 run scoreboard players remove 
 execute store result storage siscu:volatile x int 1 run scoreboard players get x siscu.volatile
 data modify storage siscu:volatile Player set from storage siscu:world DragonSlayer
 
-function siscu:items/item_modifier/dragon_egg_lore with storage siscu:volatile
+function siscu:items/use/dragon_egg/lore_macro with storage siscu:volatile

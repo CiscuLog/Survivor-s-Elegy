@@ -3,7 +3,7 @@
   "functions": [
     {
       "type": "set_enchantments",
-      "enchantments": {"siscu:mob_burn": 1},
+      "enchantments": {"siscu:sunburn": 1},
       "add": true
     },
     {
