@@ -1,0 +1,3 @@
+
+$tellraw @s[gamemode=creative] [{text:"Last Death: ",color:"red",bold:true},[{text:"$(x)",color:"white",click_event:{action:"run_command",command:"/tp @s $(x) $(y) $(z)"},hover_event:{action:"show_text",value:{text:"Click to teleport"}}},{text:" "},{text:"$(y)"},{text:" "},{text:"$(z)"}],{text:" ",color:"green"},$(dimension)]
+$tellraw @s[gamemode=!creative] [{text:"Last Death: ",color:"red",bold:true},[{text:"$(x)",color:"white",click_event:{action:"run_command",command:"/tp @s $(x) $(y) $(z)"}},{text:" "},{text:"$(y)"},{text:" "},{text:"$(z)"}],{text:" ",color:"green"},$(dimension)]

@@ -1,6 +1,23 @@
 
 Compatible Minecraft versions: 26.3
 
+Survivor's Elegy v1.1.3 (01/11/2026)
++ Added CnK behaviour: Drinking Milk Bottles revoke 1 point of Warped Poisoning
++ Added function tags to add the possibility of command insertion using third-party datapacks. The added function tags are:
+  - `#siscu:items/protects_from_sun` Happens once per second on a non-burning zombified player. Returning "1" will protect zombified players from burning under the sun
+  - `#siscu:world/withering_interrupt` Executes before executing the withering increase. returning 1 will interrupt the withering progression
+  - `#siscu:world/withering_damage_protection` Executes before damaging the player. returning 1 will negate withering damage
++ Added more buildings generate on infected cities, on the opposite side of the road, facing the citadel
++ Added Myriad compatibility: Common mansion chests contain phage arrows
++ Added switching Light Sensor mode swings the arm
++ Changed Brute Shields had its item texture inside the 3D model
++ Changed datapack version no longer shows up in the root advancement "Survivor's Elegy"
++ Changed Warped Stew now reduces 4 points of withering and grants 6 of warped food poisoning. It cannot be used to bypass the withering protection and poisoning cap anymore
++ Fixed Cities were spawning infinite amounts of markers
++ Fixed dead zombified players could spawn their zombies in the wrong dimension from where they died
++ Fixed Swamp Hut Maps couldn't find Witch Huts
++ Fixed Warped Stew could be used to bypass the 40-minute withering protection limit
+
 Survivor's Elegy 1.1.2 (25/10/2026)
 + Added Hungarian translations, courtesy of @legolocka31
 + Added all zombified players will leave behind a zombie when dying. This zombie can pick up items, won't despawn, and will display the player's name above it

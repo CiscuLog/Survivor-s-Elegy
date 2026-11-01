@@ -1,5 +1,6 @@
 
-data merge storage siscu:volatile {data:{x:0,y:0,z:0,player:"steve"}}
+data merge storage siscu:volatile {data:{x:0,y:0,z:0,player:"steve",dimension:"overworld"}}
+data modify storage siscu:volatile data.dimension set from entity @s LastDeathLocation.dimension
 data modify storage siscu:volatile data.x set from entity @s LastDeathLocation.pos[0]
 data modify storage siscu:volatile data.y set from entity @s LastDeathLocation.pos[1]
 data modify storage siscu:volatile data.z set from entity @s LastDeathLocation.pos[2]

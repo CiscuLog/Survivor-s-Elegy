@@ -1,0 +1,9 @@
+{
+    "values": [
+        "chests/woodland_mansion",
+        {
+            "id": "myriad:chests/woodland_mansion/common",
+            "required": false
+        }
+    ]
+}

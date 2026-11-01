@@ -1,5 +1,5 @@
 
-# All scoreboards so VSCode stops telling me there's no such thing as that score
+# All scoreboards so VSCode stops telling me it doesn't exist
 
 scoreboard objectives add siscu.volatile dummy {"text":"Volatile Data","color":"light_purple"}
 scoreboard objectives add siscu.integer dummy {"text":"Int","color":"gold"}

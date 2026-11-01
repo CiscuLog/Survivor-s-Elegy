@@ -10,6 +10,6 @@ execute store result score d siscu.volatile run data modify storage siscu:volati
   ]\
 }
 
-tellraw @p [{text:"Distance calc from vector "},{storage:"siscu:volatile",nbt:"Vector"},{text:" -> "},{score:{name:"d",objective:"siscu.volatile"}},{text:"d, "},{storage:"siscu:volatile",nbt:"d"}]
+#tellraw @p [{text:"Distance calc from vector "},{storage:"siscu:volatile",nbt:"Vector"},{text:" -> "},{score:{name:"d",objective:"siscu.volatile"}},{text:"d, "},{storage:"siscu:volatile",nbt:"d"}]
 
 return run scoreboard players get d siscu.volatile

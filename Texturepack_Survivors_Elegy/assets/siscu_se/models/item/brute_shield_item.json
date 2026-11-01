@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "siscu_se:item/feeder_post"
+    "layer0": "siscu_se:item/piglin_shield_item"
   }
 }

@@ -146,6 +146,15 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "siscu_se:item/enchanter_book.png",
+			"ascent": 12,
+			"height": 16,
+			"chars": [
+				"\u1002"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "minecraft:mob_effect/phage.png",
 			"ascent": 11,
 			"height": 16,

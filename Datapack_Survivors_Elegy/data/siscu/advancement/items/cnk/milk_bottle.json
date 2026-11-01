@@ -5,12 +5,12 @@
 			"trigger":"minecraft:consume_item",
 			"conditions": {
 				"item": {
-					"items":["milk_bucket"]
+					"predicates": {"custom_data": {"cnk":{"ingredient":{"type":"milk_bottle"}}}}
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "siscu:systems/warped_food/drink_milk_under_warped_intoxication"
+		"function": "siscu:addons/cnk/items/consume/milk_bottle"
 	}
 }

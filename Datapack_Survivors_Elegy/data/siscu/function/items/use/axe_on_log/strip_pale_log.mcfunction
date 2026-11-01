@@ -1,7 +1,7 @@
 
 advancement revoke @s only siscu:items/use/axe_on_pale_log
 
-# 5% chance
+# 1% chance
 execute unless predicate siscu:utils/1_percent run return 0
 
 # give resin

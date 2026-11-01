@@ -1,6 +1,6 @@
 scoreboard players set x siscu.volatile -1
 # interaction
-execute align xyz run summon minecraft:interaction ~0.5 ~0.2 ~0.5 {width:0.8,height:0.8,response:true,Tags:["smithed.entity","smithed.strict","siscu.broth_cauldron"],data:{broth_level:3,broth_food:0,broth_saturation:0,effects:[],food_effects:[]}}
+execute align xyz run summon minecraft:interaction ~0.5 ~0.2 ~0.5 {width:0.8,height:0.8,response:true,Tags:["siscu.block","smithed.entity","smithed.strict","siscu.broth_cauldron"],data:{broth_level:3,broth_food:0,broth_saturation:0,effects:[],food_effects:[]}}
 # display (water)
 execute align xyz run summon minecraft:item_display ~0.5 ~0.2 ~0.5 {Tags:["smithed.entity","smithed.strict","siscu.broth_cauldron","siscu.broth_water","siscu.new_water"],item:{id:"minecraft:leather_horse_armor",count:1,components:{"item_model":"siscu_se:block/broth_water",custom_model_data:{floats:[0]}}}}
 # display (ladle)

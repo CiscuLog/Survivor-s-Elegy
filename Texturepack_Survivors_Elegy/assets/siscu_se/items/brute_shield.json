@@ -1,13 +1,33 @@
 {
 	"model": {
-		"type": "condition",
-		"property": "using_item",
-		"on_false": {
-			"type": "model","model": "siscu_se:item/brute_shield"
-		},
-		"on_true": {
-			"type": "model",
-			"model": "siscu_se:item/brute_shield_blocking"
+		"type": "select",
+		"property": "display_context",
+		"cases": [
+			{
+				"when": ["gui","ground","fixed","on_shelf","head"],
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_false": {
+						"type": "model","model": "siscu_se:item/brute_shield_item"
+					},
+					"on_true": {
+						"type": "model",
+						"model": "siscu_se:item/brute_shield_blocking_item"
+					}
+				}
+			}
+		],
+		"fallback": {
+			"type": "condition",
+			"property": "using_item",
+			"on_false": {
+				"type": "model","model": "siscu_se:item/brute_shield"
+			},
+			"on_true": {
+				"type": "model",
+				"model": "siscu_se:item/brute_shield_blocking"
+			}
 		}
 	}
 }

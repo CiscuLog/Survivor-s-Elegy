@@ -1,5 +1,5 @@
 #create scoreboards
-execute unless data storage siscu:world {PackVersion:"v1.1.2"} run function siscu:technical/load/load_first_time
+execute unless data storage siscu:world {PackVersion:"v1.1.3"} run function siscu:technical/load/load_first_time
 
 #delete schedules
 function siscu:technical/clear_schedules

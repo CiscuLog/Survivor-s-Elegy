@@ -1,7 +1,8 @@
 {
+	"format_version": "26.3",
+	"credit": "Made by CiscuLog with Blockbench",
 	"textures": {
 		"0": "siscu_se:item/piglin_shield",
-		"2": "siscu_se:item/piglin_shield_item",
 		"particle": "siscu_se:item/piglin_shield"
 	},
 	"elements": [
@@ -22,7 +23,7 @@
 			"rotation": {"angle": 0, "axis": "x", "origin": [8, 2.5, 8]},
 			"faces": {
 				"north": {"uv": [4, 4, 0, 11], "rotation": 270, "texture": "#0"},
-				"east": {"uv": [16, 16, 0, 0], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [12, 15, 8, 11], "rotation": 180, "texture": "#0"},
 				"south": {"uv": [12, 4, 8, 11], "rotation": 90, "texture": "#0"},
 				"west": {"uv": [12, 0, 8, 4], "texture": "#0"},
 				"up": {"uv": [16, 4, 12, 11], "rotation": 90, "texture": "#0"},

@@ -22,7 +22,7 @@ function siscu:systems/withering/stray_armor/advancement_reset
 attribute @s max_health base set 20
 
 # Death coordinates
-execute unless score death_message siscu.integer matches 0 run function siscu:entities/player/announce_death_coordinates with entity @s LastDeathLocation
+execute unless score death_message siscu.integer matches 0 run function siscu:entities/player/death_message/main with entity @s LastDeathLocation
 
 tag @s remove siscu.respawning
 

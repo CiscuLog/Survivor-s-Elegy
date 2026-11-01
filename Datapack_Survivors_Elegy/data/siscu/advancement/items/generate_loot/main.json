@@ -13,10 +13,10 @@
                 "loot_tables": "chests/stronghold_library"
             }
         },
-        "woodland_mansion": {
+        "phage_arrow": {
             "trigger": "player_generates_container_loot",
             "conditions": {
-                "loot_tables": "chests/woodland_mansion"
+                "loot_tables": "#siscu:chests/mansion"
             }
         },
         "nether_fortress_farm": {
@@ -26,6 +26,6 @@
             }
         }
     },
-    "requirements": [["pillager_outpost","stronghold_library","woodland_mansion","nether_fortress_farm"]],
+    "requirements": [["pillager_outpost","stronghold_library","phage_arrow","nether_fortress_farm"]],
     "rewards": {"function": "siscu:blocks/loot_blocks/main"}
 }

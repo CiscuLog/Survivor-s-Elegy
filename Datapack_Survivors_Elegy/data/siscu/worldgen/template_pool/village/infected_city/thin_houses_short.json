@@ -1,0 +1,42 @@
+{
+    "name": "siscu:village/infected_city/big_houses",
+    "elements": [
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_thin_bricks",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_thin_diorite",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_thin_mud",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "siscu:village/infected_city/inner_houses/main/cityhouse_thin_sandstone",
+                "projection": "rigid",
+                "processors": "siscu:infected_city_building"
+            },
+            "weight": 1
+        }
+    ],
+    "fallback": "minecraft:empty"
+}
